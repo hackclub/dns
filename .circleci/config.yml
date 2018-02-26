@@ -1,6 +1,6 @@
 version: 2
 jobs:
-  build:
+  dry-run:
     docker:
       - image: python:2.7
     steps:
@@ -25,12 +25,12 @@ jobs:
 
 workflows:
   version: 2
-  build-and-deploy:
+  dry-run-and-deploy:
     jobs:
-      - build
+      - dry-run
       - deploy:
           requires:
-            - build
+            - dry-run
           filters:
             branches:
               only: master
