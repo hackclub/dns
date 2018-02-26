@@ -12,11 +12,16 @@ jobs:
           name: Do a dry run
           command: ./bin/dry-run
   deploy:
+    docker:
+      - image: python:2.7
     steps:
+      - run:
+          name: Install OctoDNS
+          command: pip install octodns
       - checkout
       - run:
-        name: Sync w/ production DNS providers
-        command: ./bin/sync
+          name: Sync w/ production DNS providers
+          command: ./bin/sync
 
 workflows:
   version: 2
@@ -24,8 +29,8 @@ workflows:
     jobs:
       - build
       - deploy:
-        requires:
-          - build
-        filters:
-          branches:
-            only: master
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
