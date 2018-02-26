@@ -18,7 +18,6 @@ zones:
       - config
     targets:
       - cloudflare
-      - dnsimple
   hackclub.io.:
     sources:
       - config

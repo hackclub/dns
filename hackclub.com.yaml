@@ -24,7 +24,7 @@
     - google-site-verification=haP-NAN6fjhxiSxwB7HeLmeHnUI7MsXARShhPBKSn6A
     - google-site-verification=pheoxaglA5iew_VN0RUE-eWf6lL9FlqC0vROqUGlhiA
     - v=spf1 include:servers.mcsv.net ?all
-'*':
+'*': # catch-all
   ttl: 1
   type: CNAME
   value: proxy.servers.hackclub.com.
@@ -56,50 +56,10 @@ app:
   ttl: 1
   type: CNAME
   value: hackclub.netlify.com.
-blog:
-  ttl: 1
-  type: CNAME
-  value: proxy.servers.hackclub.com.
-board:
-  ttl: 1
-  type: CNAME
-  value: proxy.servers.hackclub.com.
 calendar:
   ttl: 1
   type: CNAME
   value: ghs.googlehosted.com.
-camp:
-  ttl: 1
-  type: CNAME
-  value: proxy.servers.hackclub.com.
-camp-sheet:
-  ttl: 1
-  type: CNAME
-  value: proxy.servers.hackclub.com.
-chicagohacks:
-  ttl: 1
-  type: CNAME
-  value: proxy.servers.hackclub.com.
-clubs:
-  ttl: 1
-  type: CNAME
-  value: proxy.servers.hackclub.com.
-conduct:
-  ttl: 1
-  type: CNAME
-  value: proxy.servers.hackclub.com.
-demo-night:
-  ttl: 1
-  type: CNAME
-  value: proxy.servers.hackclub.com.
-design:
-  ttl: 1
-  type: CNAME
-  value: proxy.servers.hackclub.com.
-donate:
-  ttl: 1
-  type: CNAME
-  value: proxy.servers.hackclub.com.
 drive:
   ttl: 1
   type: CNAME
@@ -116,22 +76,6 @@ eomail:
   ttl: 1
   type: CNAME
   value: custom.eomail2.com.
-feedback:
-  ttl: 1
-  type: CNAME
-  value: proxy.servers.hackclub.com.
-feedback-redir:
-  ttl: 1
-  type: CNAME
-  value: proxy.servers.hackclub.com.
-finder:
-  ttl: 1
-  type: CNAME
-  value: proxy.servers.hackclub.com.
-free-tech-domain:
-  ttl: 1
-  type: CNAME
-  value: proxy.servers.hackclub.com.
 geochat:
   ttl: 1
   type: CNAME
@@ -140,10 +84,6 @@ geochat-api:
   ttl: 1
   type: CNAME
   value: geochat-api.hackclub.com.herokudns.com.
-gh:
-  ttl: 1
-  type: CNAME
-  value: proxy.servers.hackclub.com.
 google._domainkey:
   ttl: 1
   type: TXT
@@ -154,26 +94,6 @@ groups:
   ttl: 1
   type: CNAME
   value: ghs.googlehosted.com.
-guide:
-  ttl: 1
-  type: CNAME
-  value: proxy.servers.hackclub.com.
-hack-camp-playbook:
-  ttl: 1
-  type: CNAME
-  value: proxy.servers.hackclub.com.
-idyllwild:
-  ttl: 1
-  type: CNAME
-  value: proxy.servers.hackclub.com.
-india:
-  ttl: 1
-  type: CNAME
-  value: proxy.servers.hackclub.com.
-irc:
-  ttl: 1
-  type: CNAME
-  value: proxy.servers.hackclub.com.
 k1._domainkey:
   ttl: 1
   type: CNAME
@@ -205,14 +125,6 @@ merivalja:
   ttl: 1
   type: CNAME
   value: merivalja.github.io.
-orbit:
-  ttl: 1
-  type: CNAME
-  value: proxy.servers.hackclub.com.
-partytime:
-  ttl: 1
-  type: CNAME
-  value: proxy.servers.hackclub.com.
 pic._domainkey.mail:
   ttl: 1
   type: TXT
@@ -221,34 +133,10 @@ proxy.servers:
   ttl: 1
   type: A
   value: 138.197.54.69
-proxyparty:
-  ttl: 1
-  type: CNAME
-  value: proxy.servers.hackclub.com.
 q6vh4lhupwotqenjf4s4ygzyhir3e5ii._domainkey:
   ttl: 1
   type: CNAME
   value: q6vh4lhupwotqenjf4s4ygzyhir3e5ii.dkim.amazonses.com.
-series:
-  ttl: 1
-  type: CNAME
-  value: proxy.servers.hackclub.com.
-shipit:
-  ttl: 1
-  type: CNAME
-  value: proxy.servers.hackclub.com.
-slack:
-  ttl: 1
-  type: CNAME
-  value: proxy.servers.hackclub.com.
-subscribe:
-  ttl: 1
-  type: CNAME
-  value: proxy.servers.hackclub.com.
-test:
-  ttl: 1
-  type: CNAME
-  value: proxy.servers.hackclub.com.
 testing.mail:
 - ttl: 1
   type: MX
@@ -260,11 +148,3 @@ testing.mail:
 - ttl: 1
   type: TXT
   value: v=spf1 include:mailgun.org ~all
-workshops:
-  ttl: 1
-  type: CNAME
-  value: proxy.servers.hackclub.com.
-www:
-  ttl: 1
-  type: CNAME
-  value: proxy.servers.hackclub.com.
