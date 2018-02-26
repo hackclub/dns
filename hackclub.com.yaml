@@ -1,8 +1,8 @@
 ---
 ? ''
 : - ttl: 1
-    type: ALIAS
-    value: hackclub.netlify.com.
+    type: A
+    value: 104.198.15.73
   - ttl: 1
     type: MX
     values:
