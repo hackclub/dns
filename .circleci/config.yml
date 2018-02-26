@@ -30,7 +30,7 @@ workflows:
       - dry-run
       - deploy:
           requires:
-            - build
+            - dry-run
           filters:
             branches:
               only: master
