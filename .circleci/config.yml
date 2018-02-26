@@ -11,3 +11,21 @@ jobs:
       - run:
           name: Do a dry run
           command: ./bin/dry-run
+  deploy:
+    steps:
+      - checkout
+      - run:
+        name: Sync w/ production DNS providers
+        command: ./bin/sync
+
+workflows:
+  version: 2
+  build-and-deploy:
+    jobs:
+      - build
+      - deploy:
+        requires:
+          - build
+        filters:
+          branches:
+            only: master
