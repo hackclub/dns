@@ -1,0 +1,270 @@
+---
+? ''
+: - ttl: 1
+    type: A
+    value: 104.198.15.73
+  - ttl: 1
+    type: MX
+    values:
+    - exchange: aspmx.l.google.com.
+      preference: 1
+    - exchange: alt1.aspmx.l.google.com.
+      preference: 5
+    - exchange: alt2.aspmx.l.google.com.
+      preference: 5
+    - exchange: aspmx2.googlemail.com.
+      preference: 10
+    - exchange: aspmx3.googlemail.com.
+      preference: 10
+  - ttl: 1
+    type: TXT
+    values:
+    - ALIAS for hackclub.com.herokudns.com
+    - google-site-verification=U8tZZVtnG2hU2CIde1FeMzGJM7d9yYUfuCKYwWVYeGo
+    - google-site-verification=haP-NAN6fjhxiSxwB7HeLmeHnUI7MsXARShhPBKSn6A
+    - google-site-verification=pheoxaglA5iew_VN0RUE-eWf6lL9FlqC0vROqUGlhiA
+    - v=spf1 include:servers.mcsv.net ?all
+'*':
+  ttl: 1
+  type: CNAME
+  value: proxy.servers.hackclub.com.
+_amazonses:
+  ttl: 1
+  type: TXT
+  value: uHICDD8seqgxLogZH5xjm7JIYkoBQEpxrmw2m2GEL4U=
+_amazonses.eolink:
+  ttl: 1
+  type: TXT
+  value: Qj803CVcEZ4b2gkiCMipcGEtiqoJaZ8SuRAjrVBSXGw=
+_amazonses.eomail:
+  ttl: 1
+  type: TXT
+  value: zvhU+nmwbPu8akoL5EfwI/w1nXiQLhs/3XiBG4HcCDc=
+_dmarc:
+  ttl: 1
+  type: TXT
+  value: v=DMARC1\; p=none
+a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
+  ttl: 1
+  type: CNAME
+  value: a5fj644skxexxgvvraqrag5ngcaovcny.dkim.amazonses.com.
+api:
+  ttl: 1
+  type: CNAME
+  value: api.hackclub.com.herokudns.com.
+app:
+  ttl: 1
+  type: CNAME
+  value: hackclub.netlify.com.
+blog:
+  ttl: 1
+  type: CNAME
+  value: proxy.servers.hackclub.com.
+board:
+  ttl: 1
+  type: CNAME
+  value: proxy.servers.hackclub.com.
+calendar:
+  ttl: 1
+  type: CNAME
+  value: ghs.googlehosted.com.
+camp:
+  ttl: 1
+  type: CNAME
+  value: proxy.servers.hackclub.com.
+camp-sheet:
+  ttl: 1
+  type: CNAME
+  value: proxy.servers.hackclub.com.
+chicagohacks:
+  ttl: 1
+  type: CNAME
+  value: proxy.servers.hackclub.com.
+clubs:
+  ttl: 1
+  type: CNAME
+  value: proxy.servers.hackclub.com.
+conduct:
+  ttl: 1
+  type: CNAME
+  value: proxy.servers.hackclub.com.
+demo-night:
+  ttl: 1
+  type: CNAME
+  value: proxy.servers.hackclub.com.
+design:
+  ttl: 1
+  type: CNAME
+  value: proxy.servers.hackclub.com.
+donate:
+  ttl: 1
+  type: CNAME
+  value: proxy.servers.hackclub.com.
+drive:
+  ttl: 1
+  type: CNAME
+  value: ghs.googlehosted.com.
+email.mail:
+  ttl: 1
+  type: CNAME
+  value: mailgun.org.
+eolink:
+  ttl: 1
+  type: CNAME
+  value: r.eu-west-1.awstrack.me.
+eomail:
+  ttl: 1
+  type: CNAME
+  value: custom.eomail2.com.
+feedback:
+  ttl: 1
+  type: CNAME
+  value: proxy.servers.hackclub.com.
+feedback-redir:
+  ttl: 1
+  type: CNAME
+  value: proxy.servers.hackclub.com.
+finder:
+  ttl: 1
+  type: CNAME
+  value: proxy.servers.hackclub.com.
+free-tech-domain:
+  ttl: 1
+  type: CNAME
+  value: proxy.servers.hackclub.com.
+geochat:
+  ttl: 1
+  type: CNAME
+  value: geochat.netlify.com.
+geochat-api:
+  ttl: 1
+  type: CNAME
+  value: geochat-api.hackclub.com.herokudns.com.
+gh:
+  ttl: 1
+  type: CNAME
+  value: proxy.servers.hackclub.com.
+google._domainkey:
+  ttl: 1
+  type: TXT
+  values:
+  - v=DKIM1
+  - v=DKIM1\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCs125Y3Ny0uCCMknvx9mix9FZqG0lw6HsguF3tPizAycHqo6QOFi8iQe6LKJc7MggYxi1O4s0juXrtzV7zF9iLEBwHvDLsxnviZU2U6RCwcVQDpryJy+j6VqmaHbbmd8w+73w0oq+JJwI1I9YL2NvK8nK35Z8/BRu8Qp2mtl+H0wIDAQAB
+groups:
+  ttl: 1
+  type: CNAME
+  value: ghs.googlehosted.com.
+guide:
+  ttl: 1
+  type: CNAME
+  value: proxy.servers.hackclub.com.
+hack-camp-playbook:
+  ttl: 1
+  type: CNAME
+  value: proxy.servers.hackclub.com.
+idyllwild:
+  ttl: 1
+  type: CNAME
+  value: proxy.servers.hackclub.com.
+india:
+  ttl: 1
+  type: CNAME
+  value: proxy.servers.hackclub.com.
+irc:
+  ttl: 1
+  type: CNAME
+  value: proxy.servers.hackclub.com.
+k1._domainkey:
+  ttl: 1
+  type: CNAME
+  value: dkim.mcsv.net.
+kf2tzvncx46ahlhuev6kusbvg5hmymau._domainkey:
+  ttl: 1
+  type: CNAME
+  value: kf2tzvncx46ahlhuev6kusbvg5hmymau.dkim.amazonses.com.
+legacy:
+  ttl: 1
+  type: CNAME
+  value: legacy.hackclub.com.herokudns.com.
+mail:
+- ttl: 1
+  type: MX
+  values:
+  - exchange: mxa.mailgun.org.
+    preference: 10
+  - exchange: mxb.mailgun.org.
+    preference: 10
+- ttl: 1
+  type: TXT
+  value: v=spf1 include:mailgun.org ~all
+mailo._domainkey.testing.mail:
+  ttl: 1
+  type: TXT
+  value: k=rsa
+merivalja:
+  ttl: 1
+  type: CNAME
+  value: merivalja.github.io.
+orbit:
+  ttl: 1
+  type: CNAME
+  value: proxy.servers.hackclub.com.
+partytime:
+  ttl: 1
+  type: CNAME
+  value: proxy.servers.hackclub.com.
+pic._domainkey.mail:
+  ttl: 1
+  type: TXT
+  value: k=rsa
+proxy.servers:
+  ttl: 1
+  type: A
+  value: 138.197.54.69
+proxyparty:
+  ttl: 1
+  type: CNAME
+  value: proxy.servers.hackclub.com.
+q6vh4lhupwotqenjf4s4ygzyhir3e5ii._domainkey:
+  ttl: 1
+  type: CNAME
+  value: q6vh4lhupwotqenjf4s4ygzyhir3e5ii.dkim.amazonses.com.
+series:
+  ttl: 1
+  type: CNAME
+  value: proxy.servers.hackclub.com.
+shipit:
+  ttl: 1
+  type: CNAME
+  value: proxy.servers.hackclub.com.
+slack:
+  ttl: 1
+  type: CNAME
+  value: proxy.servers.hackclub.com.
+subscribe:
+  ttl: 1
+  type: CNAME
+  value: proxy.servers.hackclub.com.
+test:
+  ttl: 1
+  type: CNAME
+  value: proxy.servers.hackclub.com.
+testing.mail:
+- ttl: 1
+  type: MX
+  values:
+  - exchange: mxa.mailgun.org.
+    preference: 10
+  - exchange: mxb.mailgun.org.
+    preference: 10
+- ttl: 1
+  type: TXT
+  value: v=spf1 include:mailgun.org ~all
+workshops:
+  ttl: 1
+  type: CNAME
+  value: proxy.servers.hackclub.com.
+www:
+  ttl: 1
+  type: CNAME
+  value: proxy.servers.hackclub.com.
