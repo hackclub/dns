@@ -1,0 +1,20 @@
+---
+? ''
+: - type: ALIAS
+    value: proxy.servers.hackclub.com.
+  - type: MX
+    values:
+    - exchange: mxa.mailgun.org.
+      preference: 10
+    - exchange: mxb.mailgun.org.
+      preference: 10
+  - type: SPF
+    value: v=spf1 include:mailgun.org ~all
+  - type: TXT
+    value: v=spf1 include:mailgun.org ~all
+email:
+  type: CNAME
+  value: mailgun.org.
+mx._domainkey:
+  type: TXT
+  value: k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCt5iLZbpUx3IH6BfiRZ5R0d0Yv8nyisVlD1dhK+eJKN2L6YR9ajr9OrGhLt+mmqJf+6yjShRp049kLMFp3J6UjixG+n7zXXWqk0idTsN9L/ZOEVyOxAGxN02aV4iJXPonfhFmaOgmJTF7+z0UPuYzKIDxHo91RxNJKm3ofRhy32QIDAQAB

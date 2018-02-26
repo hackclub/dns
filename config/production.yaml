@@ -19,3 +19,23 @@ zones:
     targets:
       - cloudflare
       - dnsimple
+  hackclub.io.:
+    sources:
+      - config
+    targets:
+      - dnsimple
+  hackedu.us.:
+    sources:
+      - config
+    targets:
+      - dnsimple
+  hack.af.:
+    sources:
+      - config
+    targets:
+      - dnsimple
+  bulckcah.com.:
+    sources:
+      - config
+    targets:
+      - dnsimple
