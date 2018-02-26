@@ -18,4 +18,3 @@ zones:
       - config
     targets:
       - cloudflare
-      - dnsimple
