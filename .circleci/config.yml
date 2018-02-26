@@ -1,0 +1,13 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: python:2.7
+    steps:
+      - run:
+          name: Install OctoDNS
+          command: pip install octodns
+      - checkout
+      - run:
+          name: Do a dry run
+          command: ./bin/dry-run
