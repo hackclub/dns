@@ -2,7 +2,7 @@
 providers:
   config:
     class: octodns.provider.yaml.YamlProvider
-    directory: ./config
+    directory: ./
   cloudflare:
     class: octodns.provider.cloudflare.CloudflareProvider
     email: zach@hackclub.com
