@@ -43,7 +43,9 @@ _amazonses.eomail:
 _dmarc:
   ttl: 1
   type: TXT
-  value: v=DMARC1\; p=none
+  values:
+  - v=DMARC1
+  - p=none
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
   type: CNAME
@@ -89,7 +91,8 @@ google._domainkey:
   type: TXT
   values:
   - v=DKIM1
-  - v=DKIM1\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCs125Y3Ny0uCCMknvx9mix9FZqG0lw6HsguF3tPizAycHqo6QOFi8iQe6LKJc7MggYxi1O4s0juXrtzV7zF9iLEBwHvDLsxnviZU2U6RCwcVQDpryJy+j6VqmaHbbmd8w+73w0oq+JJwI1I9YL2NvK8nK35Z8/BRu8Qp2mtl+H0wIDAQAB
+  - k=rsa
+  - p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCs125Y3Ny0uCCMknvx9mix9FZqG0lw6HsguF3tPizAycHqo6QOFi8iQe6LKJc7MggYxi1O4s0juXrtzV7zF9iLEBwHvDLsxnviZU2U6RCwcVQDpryJy+j6VqmaHbbmd8w+73w0oq+JJwI1I9YL2NvK8nK35Z8/BRu8Qp2mtl+H0wIDAQAB
 groups:
   ttl: 1
   type: CNAME
