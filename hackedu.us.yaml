@@ -1,7 +1,7 @@
 ---
 ? ''
-: - type: A
-    value: 138.197.54.69
+: - type: ALIAS
+    value: proxy.servers.hackclub.com.
   - type: MX
     values:
     - exchange: ASPMX.L.GOOGLE.COM.
