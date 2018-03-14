@@ -2,7 +2,7 @@
 ? ''
 : - ttl: 1
     type: A
-    value: 104.198.15.73
+    value: 35.199.180.1
   - ttl: 1
     type: MX
     values:
