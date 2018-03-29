@@ -38,3 +38,8 @@ zones:
       - config
     targets:
       - dnsimple
+  hackchicago.io.:
+    sources:
+      - config
+    targets:
+      - dnsimple
