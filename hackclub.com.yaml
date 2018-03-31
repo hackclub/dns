@@ -146,7 +146,7 @@ q6vh4lhupwotqenjf4s4ygzyhir3e5ii._domainkey:
   value: q6vh4lhupwotqenjf4s4ygzyhir3e5ii.dkim.amazonses.com.
 schacks:
 - type: CNAME
-  value: schacks.netlify.com
+  value: schacks.netlify.com.
 testing.mail:
 - ttl: 1
   type: MX
