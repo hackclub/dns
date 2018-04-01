@@ -89,6 +89,10 @@ geochat-api:
   ttl: 1
   type: CNAME
   value: geochat-api.hackclub.com.herokudns.com.
+anti:
+  ttl: 1
+  type: CNAME
+  value: anti-hack.netlify.com
 google._domainkey:
   ttl: 1
   type: TXT
