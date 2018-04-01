@@ -50,6 +50,9 @@ a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
   type: CNAME
   value: a5fj644skxexxgvvraqrag5ngcaovcny.dkim.amazonses.com.
+anti:
+  type: CNAME
+  value: anti-hack.netlify.com.
 api:
   ttl: 1
   type: CNAME
