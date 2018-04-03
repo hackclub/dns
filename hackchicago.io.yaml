@@ -1,6 +1,8 @@
 ---
 ? ''
-: - type: TXT
+: - type: ALIAS
+    value: hackchicago.netlify.com.
+  - type: TXT
     value: google-site-verification=l7zxZwx99jNSovrKZgaT2mI7z41nsa4-TKRdonvUEh8
   - type: MX
     values:
