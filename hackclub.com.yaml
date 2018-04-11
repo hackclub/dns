@@ -104,6 +104,10 @@ hackathons:
   ttl: 1
   type: CNAME
   value: hackathons.netlify.com.
+anti:
+  ttl: 1
+  type: CNAME
+  value: anti-hack.netlify.com.
 k1._domainkey:
   ttl: 1
   type: CNAME
