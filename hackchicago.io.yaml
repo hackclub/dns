@@ -5,7 +5,7 @@
   - type: TXT
     values:
     - google-site-verification=l7zxZwx99jNSovrKZgaT2mI7z41nsa4-TKRdonvUEh8
-    - value: v=spf1 include:servers.mcsv.net ?all
+    - v=spf1 include:servers.mcsv.net ?all
   - type: MX
     values:
     - exchange: aspmx.l.google.com.
