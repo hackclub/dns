@@ -3,7 +3,9 @@
 : - type: ALIAS
     value: hackchicago.netlify.com.
   - type: TXT
-    value: google-site-verification=l7zxZwx99jNSovrKZgaT2mI7z41nsa4-TKRdonvUEh8
+    values:
+    - google-site-verification=l7zxZwx99jNSovrKZgaT2mI7z41nsa4-TKRdonvUEh8
+    - v=spf1 include:servers.mcsv.net ?all
   - type: MX
     values:
     - exchange: aspmx.l.google.com.
@@ -16,6 +18,9 @@
       preference: 10
     - exchange: aspmx3.googlemail.com.
       preference: 10
+k1._domainkey:
+  type: CNAME
+  value: dkim.mcsv.net.
 www:
   type: CNAME
   value: hackchicago.netlify.com.
