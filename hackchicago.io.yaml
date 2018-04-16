@@ -4,6 +4,8 @@
     value: hackchicago.netlify.com.
   - type: TXT
     value: google-site-verification=l7zxZwx99jNSovrKZgaT2mI7z41nsa4-TKRdonvUEh8
+  - type: TXT
+    value: v=spf1 include:servers.mcsv.net ?all
   - type: MX
     values:
     - exchange: aspmx.l.google.com.
@@ -19,3 +21,6 @@
 www:
   type: CNAME
   value: hackchicago.netlify.com.
+k1._domainkey:
+  type: CNAME
+  value: dkim.mcsv.net.
