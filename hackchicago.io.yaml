@@ -18,9 +18,6 @@
       preference: 10
     - exchange: aspmx3.googlemail.com.
       preference: 10
-_dmarc:
-  type: TXT
-  value: v=DMARC1\; p=none
 k1._domainkey:
   type: CNAME
   value: dkim.mcsv.net.
