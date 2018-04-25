@@ -132,7 +132,7 @@ mailo._domainkey.testing.mail:
   value: k=rsa
 maxday:
   type: CNAME
-  value: maxday.netlify.com.
+  value: maxday-prod.netlify.com.
 merivalja:
   ttl: 1
   type: CNAME
