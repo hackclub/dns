@@ -60,10 +60,6 @@ app:
   ttl: 1
   type: CNAME
   value: hackclub.netlify.com.
-ascii:
-  ttl: 1
-  type: CNAME
-  value: hack-club.ghost.io.
 calendar:
   ttl: 1
   type: CNAME
