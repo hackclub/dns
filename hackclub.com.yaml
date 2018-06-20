@@ -60,6 +60,10 @@ app:
   ttl: 1
   type: CNAME
   value: hackclub.netlify.com.
+bank:
+  ttl: 1
+  type: CNAME
+  value: bank.hackclub.com.herokudns.com.
 calendar:
   ttl: 1
   type: CNAME
