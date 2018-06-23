@@ -141,6 +141,9 @@ merivalja:
   ttl: 1
   type: CNAME
   value: merivalja.github.io.
+michael:
+  type: CNAME
+  value: hulet.tech.
 pic._domainkey.mail:
   ttl: 1
   type: TXT
