@@ -21,9 +21,18 @@
 api:
   type: CNAME
   value: api.hackchicago.io.herokudns.com.
+em6774:
+  type: CNAME
+  value: u5636988.wl239.sendgrid.net.
 k1._domainkey:
   type: CNAME
   value: dkim.mcsv.net.
+s1._domainkey:
+  type: CNAME
+  value: s1.domainkey.u5636988.wl239.sendgrid.net.
+s2._domainkey:
+  type: CNAME
+  value: s2.domainkey.u5636988.wl239.sendgrid.net.
 www:
   type: CNAME
   value: hackchicago.netlify.com.
