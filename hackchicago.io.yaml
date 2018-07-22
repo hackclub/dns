@@ -23,6 +23,9 @@
 api:
   type: CNAME
   value: api.hackchicago.io.herokudns.com.
+app:
+  type: CNAME
+  value: hackchicago-dashboard.netlify.com.
 em6774:
   type: CNAME
   value: u5636988.wl239.sendgrid.net.
