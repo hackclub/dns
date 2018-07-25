@@ -84,6 +84,10 @@ eomail:
   ttl: 1
   type: CNAME
   value: custom.eomail2.com.
+finder:
+  ttl: 1
+  type: CNAME
+  value: finder.netlify.com.
 geochat:
   ttl: 1
   type: CNAME
