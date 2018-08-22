@@ -160,6 +160,10 @@ q6vh4lhupwotqenjf4s4ygzyhir3e5ii._domainkey:
 schacks:
 - type: CNAME
   value: schacks.netlify.com.
+scholarship:
+  ttl: 1
+  type: CNAME
+  value: scholarship-hackclub.netlify.com.
 testing.mail:
 - ttl: 1
   type: MX
