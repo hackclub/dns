@@ -152,7 +152,7 @@ pic._domainkey.mail:
 proxy.servers:
   ttl: 1
   type: A
-  value: 138.197.54.69
+  value: 165.227.242.76
 q6vh4lhupwotqenjf4s4ygzyhir3e5ii._domainkey:
   ttl: 1
   type: CNAME
