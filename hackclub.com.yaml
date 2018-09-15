@@ -119,6 +119,10 @@ kf2tzvncx46ahlhuev6kusbvg5hmymau._domainkey:
   ttl: 1
   type: CNAME
   value: kf2tzvncx46ahlhuev6kusbvg5hmymau.dkim.amazonses.com.
+leaders:
+  ttl: 1
+  type: CNAME
+  value: leaders.hackclub.com.herokudns.com.
 legacy:
   ttl: 1
   type: CNAME
