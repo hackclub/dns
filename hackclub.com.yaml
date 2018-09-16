@@ -68,6 +68,10 @@ calendar:
   ttl: 1
   type: CNAME
   value: ghs.googlehosted.com.
+dns:
+- ttl: 1
+  type: TXT
+  value: dns.hackclub.com.herokudns.com.
 drive:
   ttl: 1
   type: CNAME
@@ -183,7 +187,3 @@ testing.mail:
 - ttl: 1
   type: TXT
   value: v=spf1 include:mailgun.org ~all
-dns:
-- ttl: 1
-  type: CNAME
-  value: dns.hackclub.com.herokudns.com.
