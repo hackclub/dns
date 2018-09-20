@@ -165,6 +165,10 @@ q6vh4lhupwotqenjf4s4ygzyhir3e5ii._domainkey:
   ttl: 1
   type: CNAME
   value: q6vh4lhupwotqenjf4s4ygzyhir3e5ii.dkim.amazonses.com.
+riverbend:
+- ttl: 1
+  type: CNAME
+  value: yousefhaggy.github.io.
 schacks:
 - type: CNAME
   value: schacks.netlify.com.
