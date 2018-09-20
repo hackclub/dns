@@ -49,6 +49,10 @@ a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
   type: CNAME
   value: a5fj644skxexxgvvraqrag5ngcaovcny.dkim.amazonses.com.
+admin:
+- ttl: 1
+  type: CNAME
+  value: yousefhaggy.github.io.
 anti:
   type: CNAME
   value: anti-hack.netlify.com.
@@ -165,10 +169,6 @@ q6vh4lhupwotqenjf4s4ygzyhir3e5ii._domainkey:
   ttl: 1
   type: CNAME
   value: q6vh4lhupwotqenjf4s4ygzyhir3e5ii.dkim.amazonses.com.
-riverbend:
-- ttl: 1
-  type: CNAME
-  value: yousefhaggy.github.io.
 schacks:
 - type: CNAME
   value: schacks.netlify.com.
