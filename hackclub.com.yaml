@@ -180,7 +180,7 @@ shop:
   ttl: 1
   type: CNAME
   value: hackclub-shop.netlify.com.
-statecollege:
+statehigh:
 - ttl: 1
   type: CNAME
   value: schacks.netlify.com.
