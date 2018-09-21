@@ -191,3 +191,7 @@ testing.mail:
 - ttl: 1
   type: TXT
   value: v=spf1 include:mailgun.org ~all
+wootton:
+- ttl: 1
+  type: CNAME
+  value: woottonhack.github.io.
