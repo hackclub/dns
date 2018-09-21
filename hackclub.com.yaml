@@ -161,6 +161,10 @@ pic._domainkey.mail:
   ttl: 1
   type: TXT
   value: k=rsa
+proxy:
+- ttl: 1
+  type: CNAME
+  value: ifvictr.com.
 proxy.servers:
   ttl: 1
   type: A
