@@ -27,6 +27,10 @@
   ttl: 1
   type: CNAME
   value: proxy.servers.hackclub.com.
+Cabbache:
+- ttl: 1
+  type: A
+  value: 88.203.0.69
 MaggieWalker:
 - ttl: 1
   type: CNAME
