@@ -60,6 +60,10 @@ app:
   ttl: 1
   type: CNAME
   value: hackclub.netlify.com.
+av:
+- ttl: 1
+  type: A
+  value: 104.198.14.52.
 bank:
   ttl: 1
   type: CNAME
