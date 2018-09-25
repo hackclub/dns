@@ -211,6 +211,10 @@ testing.mail:
 - ttl: 1
   type: TXT
   value: v=spf1 include:mailgun.org ~all
+turner:
+- ttl: 1
+  type: CNAME
+  value: papercraftedadventures.net.
 wl:
 - ttl: 1
   type: CNAME
