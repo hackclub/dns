@@ -27,6 +27,10 @@
   ttl: 1
   type: CNAME
   value: proxy.servers.hackclub.com.
+MaggieWalker:
+- ttl: 1
+  type: CNAME
+  value: Home.
 _amazonses:
   ttl: 1
   type: TXT
