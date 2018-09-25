@@ -64,6 +64,9 @@ av:
 - ttl: 1
   type: A
   value: 104.198.14.52.
+- ttl: 1
+  type: CNAME
+  value: avhc.netlify.com.
 bank:
   ttl: 1
   type: CNAME
