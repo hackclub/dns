@@ -72,6 +72,10 @@ ctrl-alt-tec:
 - ttl: 1
   type: CNAME
   value: ctrl-alt-tec.github.io.
+cvhs:
+- ttl: 1
+  type: A
+  value: 192.168.1.1.
 drive:
   ttl: 1
   type: CNAME
