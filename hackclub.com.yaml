@@ -27,6 +27,10 @@
   ttl: 1
   type: CNAME
   value: proxy.servers.hackclub.com.
+MaggieWalker:
+- ttl: 1
+  type: CNAME
+  value: Home.
 _amazonses:
   ttl: 1
   type: TXT
@@ -188,10 +192,18 @@ shop:
   ttl: 1
   type: CNAME
   value: hackclub-shop.netlify.com.
+smus:
+- ttl: 1
+  type: CNAME
+  value: smushackclub.github.io.
 statehigh:
 - ttl: 1
   type: CNAME
   value: schacks.github.io.
+summitshasta:
+- ttl: 1
+  type: CNAME
+  value: summitshasta.github.io.
 testing.mail:
 - ttl: 1
   type: MX
@@ -203,6 +215,10 @@ testing.mail:
 - ttl: 1
   type: TXT
   value: v=spf1 include:mailgun.org ~all
+turner:
+- ttl: 1
+  type: A
+  value: 68.203.88.120
 wl:
 - ttl: 1
   type: CNAME
