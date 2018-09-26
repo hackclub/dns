@@ -75,7 +75,7 @@ ctrl-alt-tec:
 cvhs:
 - ttl: 1
   type: A
-  value: 192.168.1.1.
+  value: 192.168.1.1
 drive:
   ttl: 1
   type: CNAME
