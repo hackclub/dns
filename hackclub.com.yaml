@@ -30,7 +30,7 @@
 Cabbache:
 - ttl: 1
   type: A
-  value: 88.203.0.69
+  value: 213.217.229.234
 MaggieWalker:
 - ttl: 1
   type: CNAME
