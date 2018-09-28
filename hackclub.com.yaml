@@ -200,6 +200,10 @@ smus:
 - ttl: 1
   type: CNAME
   value: smushackclub.github.io.
+spp:
+- ttl: 1
+  type: CNAME
+  value: spphacks.netlify.com.
 statehigh:
 - ttl: 1
   type: CNAME
