@@ -29,8 +29,8 @@
   value: proxy.servers.hackclub.com.
 Cabbache:
 - ttl: 1
-  type: A
-  value: 213.217.229.234
+  type: CNAME
+  value: cabbache.ddnsking.com.
 MaggieWalker:
 - ttl: 1
   type: CNAME
