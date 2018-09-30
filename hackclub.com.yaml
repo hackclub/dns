@@ -70,8 +70,8 @@ bank:
   value: bank.hackclub.com.herokudns.com.
 berkeley:
 - ttl: 1
-  type: A
-  value: 24.130.250.3
+  type: CNAME
+  value: www184.wixdns.net.
 calendar:
   ttl: 1
   type: CNAME
