@@ -211,7 +211,7 @@ spp:
 statehigh:
 - ttl: 1
   type: CNAME
-  value: schacks.github.io.
+  value: schacks.netlify.com.
 summitshasta:
 - ttl: 1
   type: CNAME
