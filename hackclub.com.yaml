@@ -72,6 +72,10 @@ berkeley:
 - ttl: 1
   type: A
   value: 24.130.250.3
+bisv:
+- ttl: 1
+  type: TXT
+  value: google-site-verification=bvE2xw3MW6kkks6qNREhjQITNSLXzogQ5da720_lgJk
 calendar:
   ttl: 1
   type: CNAME
