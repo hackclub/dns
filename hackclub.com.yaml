@@ -75,7 +75,7 @@ berkeley:
 bisv:
 - ttl: 1
   type: TXT
-  value: google-site-verification=bvE2xw3MW6kkks6qNREhjQITNSLXzogQ5da720_lgJk
+  value: google-site-verification=qSJN1NONvN5HiYiREHypxTLS4PFnejyS7qVdnfSAxZs
 calendar:
   ttl: 1
   type: CNAME
