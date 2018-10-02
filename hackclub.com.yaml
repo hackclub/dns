@@ -162,6 +162,10 @@ mailo._domainkey.testing.mail:
   ttl: 1
   type: TXT
   value: k=rsa
+mason:
+- ttl: 1
+  type: CNAME
+  value: masonhackclub.com.
 max:
 - ttl: 1
   type: CNAME
