@@ -68,10 +68,22 @@ bank:
   ttl: 1
   type: CNAME
   value: bank.hackclub.com.herokudns.com.
+berkeley:
+- ttl: 1
+  type: CNAME
+  value: www184.wixdns.net.
+bisv:
+- ttl: 1
+  type: TXT
+  value: google-site-verification=qSJN1NONvN5HiYiREHypxTLS4PFnejyS7qVdnfSAxZs
 calendar:
   ttl: 1
   type: CNAME
   value: ghs.googlehosted.com.
+ciudalcampo:
+- ttl: 1
+  type: CNAME
+  value: code-sekcc.github.io.
 ctrl-alt-tec:
 - ttl: 1
   type: CNAME
@@ -154,6 +166,10 @@ mailo._domainkey.testing.mail:
   ttl: 1
   type: TXT
   value: k=rsa
+mason:
+- ttl: 1
+  type: CNAME
+  value: masonhackclub.com.
 max:
 - ttl: 1
   type: CNAME
@@ -196,10 +212,14 @@ smus:
 - ttl: 1
   type: CNAME
   value: smushackclub.github.io.
+spp:
+- ttl: 1
+  type: CNAME
+  value: spphacks.netlify.com.
 statehigh:
 - ttl: 1
   type: CNAME
-  value: schacks.github.io.
+  value: schacks.netlify.com.
 summitshasta:
 - ttl: 1
   type: CNAME
