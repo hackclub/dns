@@ -27,6 +27,14 @@
   ttl: 1
   type: CNAME
   value: proxy.servers.hackclub.com.
+Cabbache:
+- ttl: 1
+  type: CNAME
+  value: cabbache.ddnsking.com.
+MaggieWalker:
+- ttl: 1
+  type: CNAME
+  value: Home.
 _amazonses:
   ttl: 1
   type: TXT
@@ -71,14 +79,30 @@ bank:
   ttl: 1
   type: CNAME
   value: bank.hackclub.com.herokudns.com.
+berkeley:
+- ttl: 1
+  type: CNAME
+  value: www184.wixdns.net.
+bisv:
+- ttl: 1
+  type: A
+  value: 185.199.108.153
 calendar:
   ttl: 1
   type: CNAME
   value: ghs.googlehosted.com.
+ciudalcampo:
+- ttl: 1
+  type: CNAME
+  value: code-sekcc.github.io.
 ctrl-alt-tec:
 - ttl: 1
   type: CNAME
   value: ctrl-alt-tec.github.io.
+cvhs:
+- ttl: 1
+  type: A
+  value: 192.168.1.1
 drive:
   ttl: 1
   type: CNAME
@@ -153,6 +177,10 @@ mailo._domainkey.testing.mail:
   ttl: 1
   type: TXT
   value: k=rsa
+mason:
+- ttl: 1
+  type: CNAME
+  value: masonhackclub.com.
 max:
 - ttl: 1
   type: CNAME
@@ -191,10 +219,22 @@ shop:
   ttl: 1
   type: CNAME
   value: hackclub-shop.netlify.com.
+smus:
+- ttl: 1
+  type: CNAME
+  value: smushackclub.github.io.
+spp:
+- ttl: 1
+  type: CNAME
+  value: spphacks.netlify.com.
 statehigh:
 - ttl: 1
   type: CNAME
-  value: schacks.github.io.
+  value: schacks.netlify.com.
+summitshasta:
+- ttl: 1
+  type: CNAME
+  value: summitshasta.github.io.
 testing.mail:
 - ttl: 1
   type: MX
@@ -206,6 +246,10 @@ testing.mail:
 - ttl: 1
   type: TXT
   value: v=spf1 include:mailgun.org ~all
+turner:
+- ttl: 1
+  type: A
+  value: 68.203.88.120
 wl:
 - ttl: 1
   type: CNAME
