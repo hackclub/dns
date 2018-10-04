@@ -78,8 +78,8 @@ berkeley:
   value: www184.wixdns.net.
 bisv:
 - ttl: 1
-  type: TXT
-  value: google-site-verification=qSJN1NONvN5HiYiREHypxTLS4PFnejyS7qVdnfSAxZs
+  type: A
+  value: 185.199.108.153
 calendar:
   ttl: 1
   type: CNAME
