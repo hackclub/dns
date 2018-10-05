@@ -85,8 +85,8 @@ berkeley:
   value: www184.wixdns.net.
 bisv:
 - ttl: 1
-  type: A
-  value: 185.199.108.153
+  type: CNAME
+  value: pkalavath.github.io.
 calendar:
   ttl: 1
   type: CNAME
