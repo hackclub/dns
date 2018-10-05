@@ -188,7 +188,7 @@ merivalja:
 milpitas:
 - ttl: 1
   type: CNAME
-  value: MILPITAS.
+  value: Pleasedelete.
 pic._domainkey.mail:
   ttl: 1
   type: TXT
