@@ -185,6 +185,10 @@ merivalja:
   ttl: 1
   type: CNAME
   value: merivalja.github.io.
+milpitas:
+- ttl: 1
+  type: CNAME
+  value: MILPITAS.
 pic._domainkey.mail:
   ttl: 1
   type: TXT
