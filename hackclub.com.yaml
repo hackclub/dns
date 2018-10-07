@@ -177,10 +177,6 @@ riverbend:
 - ttl: 1
   type: CNAME
   value: yousefhaggy.github.io.
-rlturner:
-- ttl: 1
-  type: CNAME
-  value: 68.203.88.120.
 schacks:
 - type: CNAME
   value: schacks.netlify.com.
