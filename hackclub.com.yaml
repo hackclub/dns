@@ -57,10 +57,6 @@ a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
   type: CNAME
   value: a5fj644skxexxgvvraqrag5ngcaovcny.dkim.amazonses.com.
-adastra:
-- ttl: 1
-  type: TXT
-  value: clara32356.wixsite.com/mysite
 anti:
   type: CNAME
   value: anti-hack.netlify.com.
