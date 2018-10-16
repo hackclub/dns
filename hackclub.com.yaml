@@ -254,7 +254,7 @@ turner:
 wl:
 - ttl: 1
   type: CNAME
-  value: wl-hackclub.github.io.
+  value: eloquent-swartz-cadce0.netlify.com.
 wootton:
 - ttl: 1
   type: CNAME
