@@ -259,3 +259,7 @@ wootton:
 - ttl: 1
   type: CNAME
   value: woottonhack.github.io.
+zachday:
+- ttl: 1
+  type: CNAME
+  value: zachday.netlify.com.
