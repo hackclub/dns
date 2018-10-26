@@ -147,6 +147,10 @@ hackathons:
   ttl: 1
   type: CNAME
   value: hackathons.netlify.com.
+hillsdale:
+- ttl: 1
+  type: CNAME
+  value: hhshacks.github.io.
 k1._domainkey:
   ttl: 1
   type: CNAME
