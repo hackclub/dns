@@ -61,9 +61,6 @@ adastra:
 - ttl: 1
   type: TXT
   value: bit.ly/adastrahacks
-new:
-  type: CNAME
-  value: new.hackclub.netlify.com.
 anti:
   type: CNAME
   value: anti-hack.netlify.com.
@@ -278,3 +275,7 @@ zachday:
 - ttl: 1
   type: CNAME
   value: zachday.netlify.com.
+new:
+- ttl: 1
+  type: CNAME
+  value: new.hackclub.netlify.com.
