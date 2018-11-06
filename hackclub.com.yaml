@@ -27,6 +27,9 @@
   ttl: 1
   type: CNAME
   value: proxy.servers.hackclub.com.
+new:
+  type: ALIAS
+  value: new.hackclub.netlify.com.
 Cabbache:
 - ttl: 1
   type: CNAME
