@@ -202,7 +202,7 @@ mw:
 new:
   ttl: 1
   type: CNAME
-  value: new.hackclub.netlify.com.
+  value: new--hackclub.netlify.com.
 pic._domainkey.mail:
   ttl: 1
   type: TXT
