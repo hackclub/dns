@@ -192,6 +192,10 @@ max:
 maxday:
   type: CNAME
   value: maxday-prod.netlify.com.
+mc:
+- ttl: 1
+  type: A
+  value: 142.93.54.84
 merivalja:
   ttl: 1
   type: CNAME
