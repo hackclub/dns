@@ -157,7 +157,7 @@ hillsdale:
 jv:
 - ttl: 1
   type: CNAME
-  value: dinaelhanan.github.io.
+  value: epic-wright-814d1d.netlify.com.
 k1._domainkey:
   ttl: 1
   type: CNAME
