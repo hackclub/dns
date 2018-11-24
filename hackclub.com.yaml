@@ -154,6 +154,10 @@ hillsdale:
 - ttl: 1
   type: CNAME
   value: hhshacks.github.io.
+jv:
+- ttl: 1
+  type: CNAME
+  value: dinaelhanan.github.io.
 k1._domainkey:
   ttl: 1
   type: CNAME
