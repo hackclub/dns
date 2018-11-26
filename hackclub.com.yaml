@@ -154,10 +154,6 @@ hillsdale:
 - ttl: 1
   type: CNAME
   value: hhshacks.github.io.
-jv:
-- ttl: 1
-  type: CNAME
-  value: epic-wright-814d1d.netlify.com.
 k1._domainkey:
   ttl: 1
   type: CNAME
@@ -286,6 +282,10 @@ wootton:
 - ttl: 1
   type: CNAME
   value: woottonhack.github.io.
+www.jv:
+- ttl: 1
+  type: CNAME
+  value: epic-wright-814d1d.netlify.com.
 zachday:
 - ttl: 1
   type: CNAME
