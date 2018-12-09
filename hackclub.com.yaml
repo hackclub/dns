@@ -60,6 +60,10 @@ adastra:
 - ttl: 1
   type: TXT
   value: bit.ly/adastrahacks
+agoura:
+- ttl: 1
+  type: CNAME
+  value: AgouraCSHS.github.io.
 anti:
   type: CNAME
   value: anti-hack.netlify.com.
