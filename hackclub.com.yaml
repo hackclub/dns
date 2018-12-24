@@ -99,10 +99,6 @@ ciudalcampo:
 - ttl: 1
   type: CNAME
   value: code-sekcc.github.io.
-coetcodingclub:
-- ttl: 1
-  type: CNAME
-  value: '32130.'
 ctrl-alt-tec:
 - ttl: 1
   type: CNAME
