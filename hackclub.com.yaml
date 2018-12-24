@@ -102,7 +102,7 @@ ciudalcampo:
 coetcodingclub:
 - ttl: 1
   type: CNAME
-  value: '32130.'
+  value: tender-feynman-e869b9.netlify.com.
 ctrl-alt-tec:
 - ttl: 1
   type: CNAME
