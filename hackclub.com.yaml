@@ -35,6 +35,9 @@ MaggieWalker:
 - ttl: 1
   type: CNAME
   value: Home.
+_acme-challenge:
+  type: TXT
+  value: 6YrKPNzkrSk8A_AuvE9RgmmY5IDpGP1iN2zdOpukc4U
 _amazonses:
   ttl: 1
   type: TXT
