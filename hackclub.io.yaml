@@ -23,6 +23,9 @@
 '*':
   type: CNAME
   value: proxy.servers.hackclub.com.
+_acme-challenge:
+  type: TXT
+  value: F7sLVGq7I8tSRK10wx7O3oVyJAIu1y4PFgvSIEw02Tg
 google._domainkey:
   type: TXT
   values:
