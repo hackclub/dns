@@ -37,7 +37,9 @@ MaggieWalker:
   value: Home.
 _acme-challenge:
   type: TXT
-  value: 6YrKPNzkrSk8A_AuvE9RgmmY5IDpGP1iN2zdOpukc4U
+  values: 
+  - 6YrKPNzkrSk8A_AuvE9RgmmY5IDpGP1iN2zdOpukc4U
+  - -KZE5QB63MXUQJpbA2QXzC7x9J9iW05YPX1NS4U29N8
 _amazonses:
   ttl: 1
   type: TXT
