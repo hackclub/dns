@@ -25,7 +25,9 @@
   value: proxy.servers.hackclub.com.
 _acme-challenge:
   type: TXT
-  value: F7sLVGq7I8tSRK10wx7O3oVyJAIu1y4PFgvSIEw02Tg
+  values:
+  - F7sLVGq7I8tSRK10wx7O3oVyJAIu1y4PFgvSIEw02Tg
+  - ujJi9gGZ5mj0weLY9r51GM0qwPZarUlAiXNTaJh7HoA
 google._domainkey:
   type: TXT
   values:
