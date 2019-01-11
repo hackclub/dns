@@ -197,7 +197,7 @@ mailo._domainkey.testing.mail:
 mason:
 - ttl: 1
   type: CNAME
-  value: mason.
+  value: mason-hack-club.netlify.com.
 max:
 - ttl: 1
   type: CNAME
