@@ -37,9 +37,9 @@ MaggieWalker:
   value: Home.
 _acme-challenge:
   type: TXT
-  values: 
+  values:
   - 6YrKPNzkrSk8A_AuvE9RgmmY5IDpGP1iN2zdOpukc4U
-  - -KZE5QB63MXUQJpbA2QXzC7x9J9iW05YPX1NS4U29N8
+  - "-KZE5QB63MXUQJpbA2QXzC7x9J9iW05YPX1NS4U29N8"
 _amazonses:
   ttl: 1
   type: TXT
@@ -197,7 +197,7 @@ mailo._domainkey.testing.mail:
 mason:
 - ttl: 1
   type: CNAME
-  value: masonhackclub.com.
+  value: mason.
 max:
 - ttl: 1
   type: CNAME
