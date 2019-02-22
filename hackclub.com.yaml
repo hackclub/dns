@@ -91,7 +91,7 @@ bank:
 berkeley:
 - ttl: 1
   type: CNAME
-  value: www184.wixdns.net.
+  value: www.berkeleyhackclub.github.io.
 bisv:
 - ttl: 1
   type: CNAME
