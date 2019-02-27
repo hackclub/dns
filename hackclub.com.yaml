@@ -93,7 +93,7 @@ berkeley:
   type: CNAME
   value: www.berkeleyhackclub.github.io.
 - ttl: 1
-  type: A
+  type: TXT
   value: 192.30.252.153
 bisv:
 - ttl: 1
