@@ -88,6 +88,10 @@ bank:
   ttl: 1
   type: CNAME
   value: bank.hackclub.com.herokudns.com.
+berkeley:
+- ttl: 1
+  type: CNAME
+  value: berkeleyhackclub.github.io.
 bisv:
 - ttl: 1
   type: CNAME
