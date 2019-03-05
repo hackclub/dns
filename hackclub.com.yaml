@@ -58,9 +58,9 @@ _dmarc:
   value: v=DMARC1\; p=none\; rua=mailto:tbqldgpy@ag.dmarcian.com\; ruf=mailto:tbqldgpy@fr.dmarcian.com\;
     fo=1
 _github-challenge-hackclub:
-  - ttl: 1
-    type: TXT
-    value: 3bb54b8627
+- ttl: 1
+  type: TXT
+  value: 3bb54b8627
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
   type: CNAME
@@ -163,7 +163,7 @@ hillsdale:
 jv:
 - ttl: 1
   type: CNAME
-  value: epic-wright-814d1d.netlify.com.
+  value: awesome-carson-c7b5e3.netlify.com.
 k1._domainkey:
   ttl: 1
   type: CNAME
