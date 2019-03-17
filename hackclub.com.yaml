@@ -124,6 +124,10 @@ email.mail:
   ttl: 1
   type: CNAME
   value: mailgun.org.
+em6326:
+  ttl: 1
+  type: CNAME
+  value: u9906371.wl122.sendgrid.net.
 eolink:
   ttl: 1
   type: CNAME
@@ -246,6 +250,14 @@ riverbend:
 - ttl: 1
   type: CNAME
   value: yousefhaggy.github.io.
+s1._domainkey:
+  ttl: 1
+  type: CNAME
+  value: s1.domainkey.u9906371.wl122.sendgrid.net.
+s2._domainkey:
+  ttl: 1
+  type: CNAME
+  value: s2.domainkey.u9906371.wl122.sendgrid.net.
 schacks:
 - type: CNAME
   value: schacks.netlify.com.
