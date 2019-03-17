@@ -120,14 +120,14 @@ drive:
   ttl: 1
   type: CNAME
   value: ghs.googlehosted.com.
-email.mail:
-  ttl: 1
-  type: CNAME
-  value: mailgun.org.
 em6326:
   ttl: 1
   type: CNAME
   value: u9906371.wl122.sendgrid.net.
+email.mail:
+  ttl: 1
+  type: CNAME
+  value: mailgun.org.
 eolink:
   ttl: 1
   type: CNAME
