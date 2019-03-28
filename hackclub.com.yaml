@@ -86,6 +86,9 @@ app:
   ttl: 1
   type: CNAME
   value: hackclub.netlify.com.
+apply:
+  type: CNAME
+  value: apply-hackclub.netlify.com.
 av:
 - ttl: 1
   type: CNAME
