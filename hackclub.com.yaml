@@ -24,6 +24,7 @@
   - google-site-verification=pheoxaglA5iew_VN0RUE-eWf6lL9FlqC0vROqUGlhiA
   - v=spf1 include:servers.mcsv.net ?all
   - AA418B02F6
+  - segment-site-verification=ED0mCO5yaFBc40hEvipDG5OiON3Nemh2
 "*":
   ttl: 1
   type: CNAME
