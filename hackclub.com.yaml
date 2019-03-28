@@ -23,6 +23,7 @@
   - google-site-verification=haP-NAN6fjhxiSxwB7HeLmeHnUI7MsXARShhPBKSn6A
   - google-site-verification=pheoxaglA5iew_VN0RUE-eWf6lL9FlqC0vROqUGlhiA
   - v=spf1 include:servers.mcsv.net ?all
+  - AA418B02F6
 "*":
   ttl: 1
   type: CNAME
