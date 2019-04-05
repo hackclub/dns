@@ -169,6 +169,10 @@ hillsdale:
 - ttl: 1
   type: CNAME
   value: hhshacks.github.io.
+india:
+  ttl: 1
+  type: CNAME
+  value: optimistic-bohr-366ec2.netlify.com.
 jv:
 - ttl: 1
   type: CNAME
