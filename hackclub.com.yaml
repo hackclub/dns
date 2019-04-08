@@ -234,7 +234,7 @@ mw:
 new:
   ttl: 1
   type: CNAME
-  value: new--hackclub.netlify.com.
+  value: hackclub.netlify.com.
 nioflb:
 - ttl: 1
   type: A
