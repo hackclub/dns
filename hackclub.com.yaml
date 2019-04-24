@@ -109,6 +109,10 @@ calendar:
   ttl: 1
   type: CNAME
   value: ghs.googlehosted.com.
+changelog.bank:
+  ttl: 1
+  type: CNAME
+  value: headwayapp.co.
 ciudalcampo:
 - ttl: 1
   type: CNAME
