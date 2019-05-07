@@ -101,6 +101,10 @@ berkeley:
 - ttl: 1
   type: CNAME
   value: berkeleyhackclub.github.io.
+berkley:
+- ttl: 1
+  type: A
+  value: 35.201.120.147
 bisv:
 - ttl: 1
   type: CNAME
