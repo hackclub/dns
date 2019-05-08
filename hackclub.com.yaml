@@ -113,6 +113,9 @@ calendar:
   ttl: 1
   type: CNAME
   value: ghs.googlehosted.com.
+camp-apply:
+  type: CNAME
+  value: hackcamp-apply.netlify.com.
 changelog.bank:
   ttl: 1
   type: CNAME
