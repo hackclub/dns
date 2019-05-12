@@ -261,7 +261,7 @@ pic._domainkey.mail:
 postal:
   ttl: 1
   type: CNAME
-  value: graceful-bison-5t1xaz0egj8v6sy9yfx4p24z.herokudns.com.
+  value: postal.servers.hackclub.com.
 postal.servers:
   ttl: 1
   type: A
