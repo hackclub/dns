@@ -262,6 +262,10 @@ postal:
   ttl: 1
   type: CNAME
   value: graceful-bison-5t1xaz0egj8v6sy9yfx4p24z.herokudns.com.
+postal.servers:
+  ttl: 1
+  type: A
+  value: 23.92.24.6
 proxy.servers:
   ttl: 1
   type: A
