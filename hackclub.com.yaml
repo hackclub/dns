@@ -258,6 +258,10 @@ pic._domainkey.mail:
   ttl: 1
   type: TXT
   value: k=rsa
+postal:
+  ttl: 1
+  type: CNAME
+  value: graceful-bison-5t1xaz0egj8v6sy9yfx4p24z.herokudns.com.
 proxy.servers:
   ttl: 1
   type: A
