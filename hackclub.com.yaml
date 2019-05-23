@@ -136,6 +136,10 @@ drive:
   ttl: 1
   type: CNAME
   value: ghs.googlehosted.com.
+egypt:
+- ttl: 1
+  type: CNAME
+  value: '111.'
 em6326:
   ttl: 1
   type: CNAME
