@@ -152,6 +152,10 @@ eomail:
   ttl: 1
   type: CNAME
   value: custom.eomail2.com.
+fhs:
+- ttl: 1
+  type: CNAME
+  value: fhsprogramming.com.
 finder:
   ttl: 1
   type: CNAME
