@@ -160,6 +160,10 @@ finder:
   ttl: 1
   type: CNAME
   value: finder.netlify.com.
+fremont:
+- ttl: 1
+  type: CNAME
+  value: www.fhsprogramming.com.
 geochat:
   ttl: 1
   type: CNAME
