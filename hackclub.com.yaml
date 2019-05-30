@@ -156,10 +156,18 @@ fhs:
 - ttl: 1
   type: CNAME
   value: fhsprogramming.com.
+fhshackclub:
+- ttl: 1
+  type: CNAME
+  value: www.fhsprogramming.com.
 finder:
   ttl: 1
   type: CNAME
   value: finder.netlify.com.
+fremont:
+- ttl: 1
+  type: CNAME
+  value: www.fhsprogramming.com.
 geochat:
   ttl: 1
   type: CNAME
