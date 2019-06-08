@@ -245,7 +245,7 @@ maxday:
 mc:
 - ttl: 1
   type: A
-  value: 157.230.60.217
+  value: 35.236.50.95
 merivalja:
   ttl: 1
   type: CNAME
