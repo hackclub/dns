@@ -245,7 +245,7 @@ maxday:
 mc:
 - ttl: 1
   type: A
-  value: 35.236.50.95
+  value: 192.187.119.67
 merivalja:
   ttl: 1
   type: CNAME
@@ -278,6 +278,10 @@ proxy.servers:
   ttl: 1
   type: A
   value: 165.227.242.76
+dedicated.servers:
+  ttl: 1
+  type: A
+  value: 192.187.119.66
 pshs:
 - ttl: 1
   type: CNAME
