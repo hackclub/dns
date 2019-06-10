@@ -132,14 +132,14 @@ cvhs:
 - ttl: 1
   type: A
   value: 192.168.1.1
-drive:
-  ttl: 1
-  type: CNAME
-  value: ghs.googlehosted.com.
 dedicated.servers:
 - ttl: 1
   type: A
   value: 192.187.119.66
+drive:
+  ttl: 1
+  type: CNAME
+  value: ghs.googlehosted.com.
 em6326:
   ttl: 1
   type: CNAME
