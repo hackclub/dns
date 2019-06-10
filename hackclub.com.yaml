@@ -136,6 +136,10 @@ drive:
   ttl: 1
   type: CNAME
   value: ghs.googlehosted.com.
+dedicated.servers:
+- ttl: 1
+  type: A
+  value: 192.187.119.66
 em6326:
   ttl: 1
   type: CNAME
@@ -278,10 +282,6 @@ proxy.servers:
   ttl: 1
   type: A
   value: 165.227.242.76
-dedicated.servers:
-  ttl: 1
-  type: A
-  value: 192.187.119.66
 pshs:
 - ttl: 1
   type: CNAME
