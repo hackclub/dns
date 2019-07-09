@@ -123,7 +123,7 @@ changelog.bank:
 churchill:
 - ttl: 1
   type: A
-  value: 185.199.108.153
+  value: 185.199.111.153
 - ttl: 1
   type: CNAME
   value: tencups.github.io.
