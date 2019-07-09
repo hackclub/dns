@@ -122,8 +122,8 @@ changelog.bank:
   value: headwayapp.co.
 churchill:
 - ttl: 1
-  type: CNAME
-  value: tencups.github.io.
+  type: A
+  value: 185.199.108.153
 ciudalcampo:
 - ttl: 1
   type: CNAME
