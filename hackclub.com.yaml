@@ -1178,6 +1178,10 @@ uqq467l64nnf3dyo6omjcjmcc3dmdqlb._domainkey:
 - ttl: 1
   type: CNAME
   value: uqq467l64nnf3dyo6omjcjmcc3dmdqlb.dkim.custom-email-domain.stripe.com.
+vault:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 v2:
 - ttl: 1
   type: CNAME
