@@ -116,6 +116,10 @@ calendar:
 camp-apply:
   type: CNAME
   value: hackcamp-apply.netlify.com.
+cca:
+- ttl: 1
+  type: A
+  value: 138.68.62.57
 changelog.bank:
   ttl: 1
   type: CNAME
