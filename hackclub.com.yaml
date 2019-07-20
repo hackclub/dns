@@ -118,8 +118,8 @@ camp-apply:
   value: hackcamp-apply.netlify.com.
 cca:
 - ttl: 1
-  type: A
-  value: 138.68.62.57
+  type: CNAME
+  value: a983571c-b252-4417-80dc-bd9f3b3ffbf4.repl.co.
 changelog.bank:
   ttl: 1
   type: CNAME
