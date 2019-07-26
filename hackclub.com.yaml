@@ -89,7 +89,7 @@ app:
 apply:
   type: CNAME
   value: apply-hackclub.netlify.com.
-archived:
+archived.guide:
   ttl: 1
   type: CNAME
   value: hackclub-guide.netlify.com.
