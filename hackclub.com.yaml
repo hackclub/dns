@@ -298,6 +298,10 @@ ravenhack:
 - ttl: 1
   type: CNAME
   value: ravenhack.org.
+ref.guide:
+  ttl: 1
+  type: CNAME
+  value: symmetrical-potatoe-xe9q1l2s6ikk2wmjs2c7obnj.herokudns.com.
 riverbend:
 - ttl: 1
   type: CNAME
