@@ -188,10 +188,6 @@ groups:
   ttl: 1
   type: CNAME
   value: ghs.googlehosted.com.
-guide:
-  ttl: 1
-  type: CNAME
-  value: hackclub-guide.netlify.com.
 hackathons:
   ttl: 1
   type: CNAME
