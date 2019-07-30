@@ -148,6 +148,10 @@ drive:
   ttl: 1
   type: CNAME
   value: ghs.googlehosted.com.
+earlybird:
+  ttl: 1
+  type: CNAME
+  value: early-bird-hackclub.netlify.com.
 em6326:
   ttl: 1
   type: CNAME
