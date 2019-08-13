@@ -75,6 +75,10 @@ agoura:
 - ttl: 1
   type: CNAME
   value: AgouraCSHS.github.io.
+angelhacks:
+- ttl: 1
+  type: TXT
+  value: google-site-verification=jODBtWCefkuf-gCL8X4sbJB9bPb2Zo1T41LlxPyaxRk
 anti:
   type: CNAME
   value: anti-hack.netlify.com.
