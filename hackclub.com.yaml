@@ -371,7 +371,7 @@ vikingsdev:
 westborough:
 - ttl: 1
   type: CNAME
-  value: relaxed-shaw-a7c14f.netlify.com.
+  value: whs-hackclub.netlify.com.
 whs:
 - ttl: 1
   type: CNAME
