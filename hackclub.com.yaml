@@ -36,7 +36,7 @@ Cabbache:
 IAW:
 - ttl: 1
   type: CNAME
-  value: HackClub--ethandeguire.repl.co.
+  value: iawhackclub.netlify.com.
 MaggieWalker:
 - ttl: 1
   type: CNAME
