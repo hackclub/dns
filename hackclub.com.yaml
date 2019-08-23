@@ -120,13 +120,6 @@ changelog.bank:
   ttl: 1
   type: CNAME
   value: headwayapp.co.
-churchill:
-- ttl: 1
-  type: A
-  value: 185.199.111.153
-- ttl: 1
-  type: CNAME
-  value: tencups.github.io.
 ciudalcampo:
 - ttl: 1
   type: CNAME
