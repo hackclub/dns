@@ -33,6 +33,10 @@ Cabbache:
 - ttl: 1
   type: CNAME
   value: cabbache.ddnsking.com.
+IAW:
+- ttl: 1
+  type: CNAME
+  value: HackClub--ethandeguire.repl.co.
 MaggieWalker:
 - ttl: 1
   type: CNAME
