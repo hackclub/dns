@@ -136,6 +136,10 @@ changelog.bank:
   ttl: 1
   type: CNAME
   value: headwayapp.co.
+churchill:
+- ttl: 1
+  type: TXT
+  value: https://hackclub.churchill.now.sh/
 ciudalcampo:
 - ttl: 1
   type: CNAME
