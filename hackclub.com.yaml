@@ -330,6 +330,10 @@ s2._domainkey:
   ttl: 1
   type: CNAME
   value: s2.domainkey.u9906371.wl122.sendgrid.net.
+santaclara:
+- ttl: 1
+  type: CNAME
+  value: SCHS.
 schacks:
 - type: CNAME
   value: schacks.netlify.com.
