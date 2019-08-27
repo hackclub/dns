@@ -368,6 +368,10 @@ testing.mail:
 - ttl: 1
   type: TXT
   value: v=spf1 include:mailgun.org ~all
+titanhacks:
+- ttl: 1
+  type: CNAME
+  value: titanhacks.me.
 turner:
 - ttl: 1
   type: A
