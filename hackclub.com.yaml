@@ -140,9 +140,6 @@ churchill:
 - ttl: 1
   type: TXT
   value: https://hackclub.churchill.now.sh/
-- ttl: 1
-  type: CNAME
-  value: hackclub-mnwp4912r.now.sh.
 ciudalcampo:
 - ttl: 1
   type: CNAME
