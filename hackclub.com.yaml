@@ -232,6 +232,10 @@ kf2tzvncx46ahlhuev6kusbvg5hmymau._domainkey:
   ttl: 1
   type: CNAME
   value: kf2tzvncx46ahlhuev6kusbvg5hmymau.dkim.amazonses.com.
+laslomas:
+- ttl: 1
+  type: CNAME
+  value: mystifying-torvalds-f8e697.netlify.com.
 leaders:
   ttl: 1
   type: CNAME
@@ -368,6 +372,10 @@ testing.mail:
 - ttl: 1
   type: TXT
   value: v=spf1 include:mailgun.org ~all
+titanhacks:
+- ttl: 1
+  type: CNAME
+  value: titanhacks.me.
 turner:
 - ttl: 1
   type: A
@@ -391,7 +399,7 @@ wl:
 wootton:
 - ttl: 1
   type: CNAME
-  value: woottonhack.github.io.
+  value: woottonhack.netlify.com.
 zachday:
 - ttl: 1
   type: CNAME
