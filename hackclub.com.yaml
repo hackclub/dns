@@ -138,8 +138,8 @@ changelog.bank:
   value: headwayapp.co.
 churchill:
 - ttl: 1
-  type: TXT
-  value: https://hackclub.churchill.now.sh/
+  type: CNAME
+  value: hackclub-ej5rl3bqj.now.sh.
 ciudalcampo:
 - ttl: 1
   type: CNAME
