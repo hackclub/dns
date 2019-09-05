@@ -316,8 +316,8 @@ q6vh4lhupwotqenjf4s4ygzyhir3e5ii._domainkey:
   value: q6vh4lhupwotqenjf4s4ygzyhir3e5ii.dkim.amazonses.com.
 rahs:
 - ttl: 1
-	type: CNAME
-	value: rahs-hackclub.netlify.com.
+  type: CNAME
+  value: rahs-hackclub.netlify.com.
 ravenhack:
 - ttl: 1
   type: CNAME
