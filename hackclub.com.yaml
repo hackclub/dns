@@ -407,4 +407,4 @@ zachday:
 alpharetta:
 - ttl: 1
   type: CNAME
-  value: alpharetta.netlify.com
+  value: alpharetta.netlify.com.
