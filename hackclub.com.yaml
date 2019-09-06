@@ -79,6 +79,10 @@ agoura:
 - ttl: 1
   type: CNAME
   value: AgouraCSHS.github.io.
+alpharetta:
+- ttl: 1
+  type: CNAME
+  value: alpharetta.netlify.com.
 angelhacks:
 - ttl: 1
   type: TXT
