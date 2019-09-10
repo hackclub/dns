@@ -144,6 +144,9 @@ churchill:
 - ttl: 1
   type: CNAME
   value: hackclub-ej5rl3bqj.now.sh.
+- ttl: 1
+  type: TXT
+  value: " QmUBW1vF5wDLwEamDeWcCp6TVyf3VWyFvkm2RLfzviXxjW"
 ciudalcampo:
 - ttl: 1
   type: CNAME
