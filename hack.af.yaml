@@ -1,7 +1,7 @@
 ---
 ? ''
 : - type: ALIAS
-    value: proxy.servers.hackclub.com.
+    value: adjacent-crag-9vk67y6ktr6zzlqitcb2fxwn.herokudns.com.
   - type: MX
     values:
     - exchange: mxa.mailgun.org.
