@@ -135,7 +135,7 @@ camp-apply:
 cca:
 - ttl: 1
   type: CNAME
-  value: a983571c-b252-4417-80dc-bd9f3b3ffbf4.repl.co.
+  value: hclubcca.herokuapp.com.
 changelog.bank:
   ttl: 1
   type: CNAME
