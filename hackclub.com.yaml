@@ -282,6 +282,10 @@ merivalja:
   ttl: 1
   type: CNAME
   value: merivalja.github.io.
+milesmac:
+  ttl: 1
+  type: CNAME
+  value: 7b6d4e2f-ac5b-41f5-ab5e-d3c248bcda0c.repl.co.
 mw:
 - ttl: 1
   type: CNAME
