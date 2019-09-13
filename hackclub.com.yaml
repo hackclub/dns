@@ -278,6 +278,10 @@ mc:
 - ttl: 1
   type: A
   value: 192.187.119.67
+mcneil:
+- ttl: 1
+  type: A
+  value: 70.123.47.120
 merivalja:
   ttl: 1
   type: CNAME
