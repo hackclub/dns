@@ -81,8 +81,8 @@ agoura:
   value: AgouraCSHS.github.io.
 alpharetta:
 - ttl: 1
-  type: CNAME
-  value: alpharetta.netlify.com.
+  type: A
+  value: 104.248.78.24
 - ttl: 3600
   type: TXT
   value: v=spf1 include:_spf.google.com ~all
