@@ -298,6 +298,9 @@ mcneil:
 - ttl: 1
   type: A
   value: 70.123.47.120
+- ttl: 1
+  type: TXT
+  value: https://mcneilhackclub--nikhilmeka.repl.co
 merivalja:
   ttl: 1
   type: CNAME
