@@ -81,8 +81,24 @@ agoura:
   value: AgouraCSHS.github.io.
 alpharetta:
 - ttl: 1
-  type: CNAME
-  value: alpharetta.netlify.com.
+  type: A
+  value: 104.248.78.24
+- ttl: 3600
+  type: TXT
+  value: v=spf1 include:_spf.google.com ~all
+- ttl: 3600
+  type: MX
+  values:
+  - exchange: aspmx.l.google.com.
+    preference: 1
+  - exchange: alt1.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt2.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt3.aspmx.l.google.com.
+    preference: 10
+  - exchange: alt4.aspmx.l.google.com.
+    preference: 10
 angelhacks:
 - ttl: 1
   type: TXT
@@ -135,7 +151,7 @@ camp-apply:
 cca:
 - ttl: 1
   type: CNAME
-  value: a983571c-b252-4417-80dc-bd9f3b3ffbf4.repl.co.
+  value: hclubcca.herokuapp.com.
 changelog.bank:
   ttl: 1
   type: CNAME
@@ -281,10 +297,18 @@ mc:
 - ttl: 1
   type: A
   value: 192.187.119.67
+mcneil:
+- ttl: 1
+  type: A
+  value: 70.123.47.120
 merivalja:
   ttl: 1
   type: CNAME
   value: merivalja.github.io.
+milesmac:
+  ttl: 1
+  type: CNAME
+  value: 7b6d4e2f-ac5b-41f5-ab5e-d3c248bcda0c.repl.co.
 mw:
 - ttl: 1
   type: CNAME
