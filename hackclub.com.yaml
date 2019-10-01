@@ -151,7 +151,7 @@ camp-apply:
 cca:
 - ttl: 1
   type: CNAME
-  value: hclubcca.herokuapp.com.
+  value: reticulated-taiga-qmd1uv2l14p5opobi3fwksqv.herokudns.com.
 changelog.bank:
   ttl: 1
   type: CNAME
