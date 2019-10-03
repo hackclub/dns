@@ -212,6 +212,10 @@ fremont:
 - ttl: 1
   type: CNAME
   value: www.fhsprogramming.com.
+gdynia:
+- ttl: 1
+  type: CNAME
+  value: nervous-rosalind-a81ecb.netlify.com.
 geochat:
   ttl: 1
   type: CNAME
