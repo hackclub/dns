@@ -105,7 +105,7 @@ ctrlalttec:
   type: TXT
   value: v=spf1 include:_spf.google.com ~all
 - ttl: 3600
-    type: MX
+  type: MX
   values:
   - exchange: aspmx.l.google.com.
     preference: 1
