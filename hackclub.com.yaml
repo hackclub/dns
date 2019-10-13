@@ -22,6 +22,7 @@
   - google-site-verification=U8tZZVtnG2hU2CIde1FeMzGJM7d9yYUfuCKYwWVYeGo
   - google-site-verification=haP-NAN6fjhxiSxwB7HeLmeHnUI7MsXARShhPBKSn6A
   - google-site-verification=pheoxaglA5iew_VN0RUE-eWf6lL9FlqC0vROqUGlhiA
+  - google-site-verification=w6ZIJvwwXDKPKLvV_RZbxLF6vb0xfJoRidbw5LeiUcE
   - v=spf1 include:servers.mcsv.net ?all
   - AA418B02F6
   - segment-site-verification=ED0mCO5yaFBc40hEvipDG5OiON3Nemh2
@@ -168,6 +169,23 @@ ctrl-alt-tec:
 - ttl: 1
   type: CNAME
   value: ctrl-alt-tec.github.io.
+ctrlalttec:
+- ttl: 3600
+  type: TXT
+  value: v=spf1 include:_spf.google.com ~all
+- ttl: 3600
+  type: MX
+  values:
+  - exchange: aspmx.l.google.com.
+    preference: 1
+  - exchange: alt1.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt2.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt3.aspmx.l.google.com.
+    preference: 10
+  - exchange: alt4.aspmx.l.google.com.
+    preference: 10
 cvhs:
 - ttl: 1
   type: A
@@ -212,6 +230,10 @@ fremont:
 - ttl: 1
   type: CNAME
   value: www.fhsprogramming.com.
+gdynia:
+- ttl: 1
+  type: CNAME
+  value: nervous-rosalind-a81ecb.netlify.com.
 geochat:
   ttl: 1
   type: CNAME
