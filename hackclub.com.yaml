@@ -344,6 +344,10 @@ p2p:
   ttl: 1
   type: CNAME
   value: p2phackclub.thatrobot.dev.
+pack:
+  ttl: 1
+  type: CNAME
+  value: young-ostrich-yqbbkc3h15jy5pdsccpv278j.herokudns.com.
 pic._domainkey.mail:
   ttl: 1
   type: TXT
