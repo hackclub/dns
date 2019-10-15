@@ -340,6 +340,10 @@ nioflb:
 - ttl: 1
   type: A
   value: 190.106.131.222
+p2p:
+  ttl: 1
+  type: CNAME
+  value: p2phackclub.thatrobot.dev.
 pic._domainkey.mail:
   ttl: 1
   type: TXT
