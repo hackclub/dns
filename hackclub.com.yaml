@@ -343,7 +343,7 @@ nioflb:
 p2p:
   ttl: 1
   type: CNAME
-  value: p2phackclub.thatrobot.dev.
+  value: p2phackclub.netlify.com.
 pack:
   ttl: 1
   type: CNAME
