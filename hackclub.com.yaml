@@ -157,6 +157,10 @@ changelog.bank:
   ttl: 1
   type: CNAME
   value: headwayapp.co.
+chapters:
+  ttl: 1
+  type: CNAME
+  value: comparative-echidna-7grmrhvb3l980vdmg6f0vuu7.herokudns.com.
 churchill:
 - ttl: 1
   type: CNAME
