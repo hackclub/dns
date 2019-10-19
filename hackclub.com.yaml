@@ -42,6 +42,10 @@ MaggieWalker:
 - ttl: 1
   type: CNAME
   value: Home.
+Map:
+- ttl: 1
+  type: CNAME
+  value: hack-club-map.netlify.com.
 _acme-challenge:
   type: TXT
   values:
