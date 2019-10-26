@@ -201,7 +201,7 @@ cvhs:
 dedicated.servers:
 - ttl: 1
   type: A
-  value: 192.187.119.66
+  value: 173.208.140.122
 drive:
   ttl: 1
   type: CNAME
@@ -323,7 +323,7 @@ maxday:
 mc:
 - ttl: 1
   type: A
-  value: 192.187.119.67
+  value: 173.208.140.123
 mcneil:
 - ttl: 1
   type: A
