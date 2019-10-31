@@ -72,6 +72,10 @@ _github-challenge-hackclub:
 - ttl: 1
   type: TXT
   value: 3bb54b8627
+_github-challenge-rahs-hackclub.rahs:
+- ttl: 1
+  type: TXT
+  value: f43a54836a
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
   type: CNAME
