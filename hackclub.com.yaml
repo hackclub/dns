@@ -134,6 +134,10 @@ av:
 - ttl: 1
   type: CNAME
   value: avhc.netlify.com.
+b2b:
+- ttl: 1
+  type: CNAME
+  value: nitishsai9.github.io.
 bank:
   ttl: 1
   type: CNAME
