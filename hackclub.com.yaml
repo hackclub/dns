@@ -423,6 +423,10 @@ shop:
   ttl: 1
   type: CNAME
   value: hackclub-shop.netlify.com.
+smhs:
+- ttl: 1
+  type: CNAME
+  value: zephyril.github.io.
 smus:
 - ttl: 1
   type: CNAME
