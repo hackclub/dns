@@ -439,6 +439,10 @@ statehigh:
 - ttl: 1
   type: CNAME
   value: schacks.netlify.com.
+stories:
+- ttl: 1
+  type: A
+  value: 167.99.170.171
 summitshasta:
 - ttl: 1
   type: CNAME
