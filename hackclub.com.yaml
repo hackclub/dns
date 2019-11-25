@@ -415,7 +415,7 @@ s2._domainkey:
 santa:
   ttl: 1
   type: CNAME
-  value: santa.hackclub.com.herokudns.com.
+  value: ancient-pinchusion-nm14orueibm39fhm2ntl24qj.herokudns.com.
 schacks:
 - type: CNAME
   value: schacks.netlify.com.
