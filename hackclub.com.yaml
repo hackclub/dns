@@ -412,6 +412,10 @@ s2._domainkey:
   ttl: 1
   type: CNAME
   value: s2.domainkey.u9906371.wl122.sendgrid.net.
+santa:
+  ttl: 1
+  type: CNAME
+  value: santa.hackclub.com.herokudns.com.
 schacks:
 - type: CNAME
   value: schacks.netlify.com.
