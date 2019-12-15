@@ -159,6 +159,10 @@ bisv:
 - ttl: 1
   type: CNAME
   value: pkalavath.github.io.
+bounce:
+- ttl: 1
+  type: CNAME
+  value: custom-email-domain.stripe.com.
 bqogdt6xkltngfg62lq7jo5dk33zerss._domainkey:
 - ttl: 1
   type: CNAME
@@ -295,6 +299,10 @@ india:
   ttl: 1
   type: CNAME
   value: optimistic-bohr-366ec2.netlify.com.
+jg2ygmrfby4vhxve3cozh4yz3xc2ul5y._domainkey:
+- ttl: 1
+  type: CNAME
+  value: jg2ygmrfby4vhxve3cozh4yz3xc2ul5y.dkim.custom-email-domain.stripe.com.
 jv:
 - ttl: 1
   type: CNAME
@@ -487,6 +495,14 @@ turner:
 - ttl: 1
   type: A
   value: 68.203.88.120
+uqq467l64nnf3dyo6omjcjmcc3dmdqlb._domainkey:
+- ttl: 1
+  type: CNAME
+  value: uqq467l64nnf3dyo6omjcjmcc3dmdqlb.dkim.custom-email-domain.stripe.com.
+vh7v2gsayfsmxmllwaannilorrbs5jbp._domainkey:
+- ttl: 1
+  type: CNAME
+  value: vh7v2gsayfsmxmllwaannilorrbs5jbp.dkim.custom-email-domain.stripe.com.
 vikingsdev:
 - ttl: 1
   type: CNAME
