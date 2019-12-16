@@ -219,6 +219,10 @@ cvhs:
 - ttl: 1
   type: A
   value: 192.168.1.1
+debate:
+- ttl: 1
+  type: CNAME
+  value: alias.zeit.co.
 dedicated.servers:
 - ttl: 1
   type: A
