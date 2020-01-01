@@ -515,6 +515,10 @@ vikingsdev:
 - ttl: 1
   type: CNAME
   value: vikingsdev.github.io.
+vmc:
+- ttl: 1
+  type: A
+  value: 157.245.163.226
 westborough:
 - ttl: 1
   type: CNAME
