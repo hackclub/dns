@@ -400,7 +400,7 @@ pack:
 packages:
   ttl: 1
   type: CNAME
-  value: secret-zebra-lydr194iy8x0x4n4rmzcii3r.herokudns.com
+  value: secret-zebra-lydr194iy8x0x4n4rmzcii3r.herokudns.com.
 pic._domainkey.mail:
   ttl: 1
   type: TXT
