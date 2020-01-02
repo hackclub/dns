@@ -463,7 +463,7 @@ scholarship:
 shop:
   ttl: 1
   type: CNAME
-  value: 23.227.38.65
+  value: shops.myshopify.com
 smhs:
 - ttl: 1
   type: CNAME
