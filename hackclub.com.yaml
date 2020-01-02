@@ -462,7 +462,7 @@ scholarship:
   value: scholarship-hackclub.netlify.com.
 shop:
   ttl: 1
-  type: A
+  type: CNAME
   value: 23.227.38.65
 smhs:
 - ttl: 1
