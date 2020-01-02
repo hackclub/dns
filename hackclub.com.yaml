@@ -463,7 +463,10 @@ scholarship:
 shop:
   ttl: 1
   type: CNAME
-  value: hackclub-shop.netlify.com.
+  value: shops.myshopify.com.
+  ttl: 1
+  type: A
+  value: 23.227.38.65 
 smhs:
 - ttl: 1
   type: CNAME
