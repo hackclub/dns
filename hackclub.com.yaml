@@ -522,7 +522,7 @@ vikingsdev:
 vmc:
 - ttl: 1
   type: A
-  value: 157.245.163.226
+  value: 173.208.140.125
 westborough:
 - ttl: 1
   type: CNAME
