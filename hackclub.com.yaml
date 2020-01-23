@@ -77,6 +77,10 @@ _github-challenge-rahs-hackclub.rahs:
 - ttl: 1
   type: TXT
   value: f43a54836a
+_now:
+  ttl: 1
+  type: TXT
+  value: BsKpsJpMuE
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
   type: CNAME
@@ -298,7 +302,7 @@ groups:
 hackathons:
   ttl: 1
   type: CNAME
-  value: hackathons.netlify.com.
+  value: alias.zeit.co.
 hillsdale:
 - ttl: 1
   type: CNAME
