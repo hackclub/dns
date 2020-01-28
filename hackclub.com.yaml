@@ -362,6 +362,10 @@ max:
 - ttl: 1
   type: CNAME
   value: maxwofford.github.io.
+max2:
+- ttl: 1
+  type: CNAME
+  value: maxwofford.github.io.
 maxday:
   type: CNAME
   value: maxday-prod.netlify.com.
