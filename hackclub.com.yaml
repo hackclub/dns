@@ -227,10 +227,6 @@ cvhs:
 - ttl: 1
   type: A
   value: 192.168.1.1
-draw-dino:
-  - ttl: 1
-  type: CNAME
-  value: alias.zeit.co.
 debate:
 - ttl: 1
   type: CNAME
@@ -243,6 +239,10 @@ dfw4j5coownesaecgmwfxhszrauwxzlk._domainkey:
 - ttl: 1
   type: CNAME
   value: dfw4j5coownesaecgmwfxhszrauwxzlk.dkim.custom-email-domain.stripe.com.
+draw-dino:
+  ttl: 1
+  type: CNAME
+  value: alias.zeit.co.
 drive:
   ttl: 1
   type: CNAME
