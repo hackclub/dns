@@ -551,12 +551,12 @@ wootton:
 - ttl: 1
   type: CNAME
   value: woottonhack.netlify.com.
-workshops:
+workshop-cards:
 - ttl: 1
   type: CNAME
   value: alias.zeit.co.
-workshop-cards:
-  ttl: 1
+workshops:
+- ttl: 1
   type: CNAME
   value: alias.zeit.co.
 zachday:
