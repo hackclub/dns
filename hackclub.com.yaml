@@ -522,7 +522,7 @@ titanhacks:
 turner:
 - ttl: 1
   type: A
-  value: 68.203.88.120
+  value: 173.172.147.235
 uqq467l64nnf3dyo6omjcjmcc3dmdqlb._domainkey:
 - ttl: 1
   type: CNAME
