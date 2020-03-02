@@ -1,7 +1,7 @@
 ---
 '':
 - type: ALIAS
-  value: hackclub.netlify.com.
+  value: alias.zeit.co.
 - ttl: 1
   type: MX
   values:
