@@ -515,6 +515,10 @@ testing.mail:
 - ttl: 1
   type: TXT
   value: v=spf1 include:mailgun.org ~all
+theme:
+- ttl: 1
+  type: CNAME
+  value: alias.zeit.co.
 titanhacks:
 - ttl: 1
   type: CNAME
