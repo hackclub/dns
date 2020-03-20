@@ -400,6 +400,10 @@ milesmac:
   ttl: 1
   type: CNAME
   value: 7b6d4e2f-ac5b-41f5-ab5e-d3c248bcda0c.repl.co.
+mumble:
+- ttl: 1
+  type: A
+  value: 173.208.140.126
 mw:
 - ttl: 1
   type: CNAME
