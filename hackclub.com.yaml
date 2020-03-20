@@ -314,6 +314,10 @@ hillsdale:
 - ttl: 1
   type: CNAME
   value: hhshacks.github.io.
+icons:
+  ttl: 1
+  type: CNAME
+  value: alias.zeit.co.
 india:
   ttl: 1
   type: CNAME
