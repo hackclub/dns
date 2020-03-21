@@ -582,3 +582,6 @@ zachday:
 - ttl: 1
   type: CNAME
   value: zachday.netlify.com.
+codered:
+  type: CNAME
+  value: zoom.us/j/4117579156
