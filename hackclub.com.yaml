@@ -403,7 +403,7 @@ milesmac:
 mumble:
 - ttl: 1
   type: A
-  value: 173.208.140.126
+  value: 173.208.140.124
 mw:
 - ttl: 1
   type: CNAME
