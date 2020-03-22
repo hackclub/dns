@@ -310,6 +310,10 @@ hackathons:
   ttl: 1
   type: CNAME
   value: alias.zeit.co.
+hackcraft:
+  ttl: 1
+  type: A
+  value: 173.208.140.126
 hillsdale:
 - ttl: 1
   type: CNAME
