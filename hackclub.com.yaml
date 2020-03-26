@@ -523,6 +523,13 @@ summitshasta:
 - ttl: 1
   type: CNAME
   value: summitshasta.github.io.
+tbp:
+- ttl: 1
+  type: NS
+  values:
+  - ns1.digitalocean.com.
+  - ns2.digitalocean.com.
+  - ns3.digitalocean.com.
 testing.mail:
 - ttl: 1
   type: MX
