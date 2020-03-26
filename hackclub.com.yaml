@@ -515,6 +515,10 @@ stories:
 - ttl: 1
   type: A
   value: 167.99.170.171
+suitup:
+- ttl: 1
+  type: TXT
+  value: google-site-verification=RZKsbLbaA-N7EDaert9nYZrCaSrx3FG1jXZWZbqbvTQ
 summitshasta:
 - ttl: 1
   type: CNAME
