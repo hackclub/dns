@@ -298,6 +298,10 @@ github-oauth:
   ttl: 1
   type: CNAME
   value: synthetic-grape-ht3rdj3kqbc6fuyjcuc5f6ob.herokudns.com.
+globalcovid:
+  ttl: 1
+  type: CNAME
+  value: globalcovid.netlify.com.
 google._domainkey:
   ttl: 1
   type: TXT
