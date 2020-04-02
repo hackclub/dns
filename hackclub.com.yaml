@@ -358,6 +358,10 @@ legacy:
   ttl: 1
   type: CNAME
   value: legacy.hackclub.com.herokudns.com.
+linkman:
+  ttl: 1
+  type: CNAME
+  value: avian-artichoke-25xaf4zx7jtara5nytu1n5qx.herokudns.com.
 mail:
 - ttl: 1
   type: MX
