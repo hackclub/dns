@@ -561,6 +561,10 @@ turner:
 - ttl: 1
   type: A
   value: 173.172.147.235
+university:
+- ttl: 1
+  type: CNAME
+  value: rpgjw54wnr0xyd4q.preview.edgeapp.net.
 uqq467l64nnf3dyo6omjcjmcc3dmdqlb._domainkey:
 - ttl: 1
   type: CNAME
@@ -605,7 +609,3 @@ zachday:
 - ttl: 1
   type: CNAME
   value: zachday.netlify.com.
-university:
-- ttl: 1
-  type: CNAME
-  value: rpgjw54wnr0xyd4q.preview.edgeapp.net.
