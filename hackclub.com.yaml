@@ -608,5 +608,4 @@ zachday:
 university:
 - ttl: 1
   type: CNAME
-  value: rpgjw54wnr0xyd4q.preview.edgeapp.net
-  
+  value: rpgjw54wnr0xyd4q.preview.edgeapp.net.
