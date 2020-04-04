@@ -556,7 +556,7 @@ theme:
 titanhacks:
 - ttl: 1
   type: CNAME
-  value: titanhacks.me.
+  value: titanhacks.club.
 turner:
 - ttl: 1
   type: A
