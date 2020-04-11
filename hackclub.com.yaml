@@ -254,6 +254,10 @@ earlybird:
   ttl: 1
   type: CNAME
   value: early-bird-hackclub.netlify.com.
+editor:
+  ttl: 1
+  type: CNAME
+  value: alias.zeit.co.
 em6326:
   ttl: 1
   type: CNAME
