@@ -274,6 +274,10 @@ eomail:
   ttl: 1
   type: CNAME
   value: custom.eomail2.com.
+events:
+  ttl: 1
+  type: CNAME
+  value: alias.zeit.co.
 fhshackclub:
 - ttl: 1
   type: CNAME
