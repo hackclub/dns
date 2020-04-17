@@ -47,6 +47,10 @@ Map:
 - ttl: 1
   type: CNAME
   value: hack-club-map.netlify.com.
+_496c10c564509e5030203691afc939ff.assets:
+- ttl: 1
+  type: CNAME
+  value: _41e1bb1944485ecaba9d0990915cded3.nhqijqilxf.acm-validations.aws.
 _acme-challenge:
   type: TXT
   values:
