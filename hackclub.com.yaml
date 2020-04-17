@@ -143,6 +143,10 @@ archived.guide:
   ttl: 1
   type: CNAME
   value: hackclub-guide.netlify.com.
+assets:
+  ttl: 1
+  type: CNAME
+  value: d25gljbdtt9pni.cloudfront.net.
 av:
 - ttl: 1
   type: CNAME
