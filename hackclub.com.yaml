@@ -415,7 +415,7 @@ maxday:
 mc:
 - ttl: 1
   type: A
-  value: 173.208.140.123
+  value: 173.208.140.125
 mcneil:
 - ttl: 1
   type: A
