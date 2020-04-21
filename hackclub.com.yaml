@@ -420,6 +420,10 @@ mcneil:
 - ttl: 1
   type: A
   value: 70.123.47.120
+meet:
+- ttl: 1
+  type: A
+  value: 3.80.199.115
 merivalja:
   ttl: 1
   type: CNAME
