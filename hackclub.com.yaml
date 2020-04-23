@@ -589,6 +589,10 @@ uqq467l64nnf3dyo6omjcjmcc3dmdqlb._domainkey:
 - ttl: 1
   type: CNAME
   value: uqq467l64nnf3dyo6omjcjmcc3dmdqlb.dkim.custom-email-domain.stripe.com.
+v3:
+- ttl: 1
+  type: CNAME
+  value: alias.zeit.co.
 vh7v2gsayfsmxmllwaannilorrbs5jbp._domainkey:
 - ttl: 1
   type: CNAME
