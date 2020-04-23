@@ -543,6 +543,10 @@ suitup:
 - ttl: 1
   type: TXT
   value: google-site-verification=RZKsbLbaA-N7EDaert9nYZrCaSrx3FG1jXZWZbqbvTQ
+summer:
+- ttl: 1
+  type: CNAME
+  value: summer-hackclub.now.sh.
 summitshasta:
 - ttl: 1
   type: CNAME
