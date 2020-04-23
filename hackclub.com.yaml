@@ -625,3 +625,7 @@ zachday:
 - ttl: 1
   type: CNAME
   value: zachday.netlify.com.
+summer:
+- ttl: 1
+  type: CNAME
+  value: summer-hackclub.now.sh.
