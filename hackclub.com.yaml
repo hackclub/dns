@@ -588,7 +588,7 @@ turner:
 university:
 - ttl: 1
   type: CNAME
-  value: rpgjw54wnr0xyd4q.preview.edgeapp.net.
+  value: developmental-garbanzo-kw68e5tap3bg721c9c295nux.herokudns.com.
 uqq467l64nnf3dyo6omjcjmcc3dmdqlb._domainkey:
 - ttl: 1
   type: CNAME
