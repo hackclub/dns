@@ -266,6 +266,10 @@ editor:
   ttl: 1
   type: CNAME
   value: alias.zeit.co.
+elon:
+  ttl: 1
+  type: CNAME
+  value: proxy.servers.hackclub.com.
 em6326:
   ttl: 1
   type: CNAME
