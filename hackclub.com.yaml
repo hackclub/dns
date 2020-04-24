@@ -476,6 +476,10 @@ pexip-manager:
   ttl: 1
   type: A
   value: 35.209.100.178
+pexip-manager-hackclub:
+  ttl: 1
+  type: A
+  value: 35.209.100.178
 pic._domainkey.mail:
   ttl: 1
   type: TXT
