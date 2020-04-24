@@ -393,6 +393,10 @@ mailo._domainkey.testing.mail:
   ttl: 1
   type: TXT
   value: k=rsa
+manager.us-central1.pexip:
+  ttl: 1
+  type: A
+  value: 35.209.100.178
 markdown:
 - ttl: 1
   type: CNAME
@@ -448,6 +452,10 @@ nioflb:
 - ttl: 1
   type: A
   value: 190.106.131.222
+node1.us-central1.pexip:
+  ttl: 1
+  type: A
+  value: 35.208.181.69
 p2p:
   ttl: 1
   type: CNAME
@@ -461,6 +469,10 @@ packages:
   type: CNAME
   value: secret-zebra-lydr194iy8x0x4n4rmzcii3r.herokudns.com.
 pepix-manager:
+  ttl: 1
+  type: A
+  value: 35.209.100.178
+pexip-manager:
   ttl: 1
   type: A
   value: 35.209.100.178
