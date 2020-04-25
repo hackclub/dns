@@ -547,16 +547,6 @@ summer:
 - ttl: 1
   type: CNAME
   value: zealous-mclean-4117001.netlify.app.
-- ttl: 1
-  type: MX
-  values:
-  - exchange: mx1.improvmx.com.
-    preference: 10
-  - exchange: mx2.improvmx.com.
-    preference: 20
-- ttl: 1
-  type: TXT
-  value: v=spf1 include:spf.improvmx.com ~all
 summitshasta:
 - ttl: 1
   type: CNAME
