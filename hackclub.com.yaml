@@ -556,7 +556,7 @@ summer:
     preference: 20
 - ttl: 1
   type: TXT
-  value: 	v=spf1 include:spf.improvmx.com ~all
+  value: v=spf1 include:spf.improvmx.com ~all
 summitshasta:
 - ttl: 1
   type: CNAME
