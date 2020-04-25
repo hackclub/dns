@@ -546,7 +546,7 @@ suitup:
 summer:
 - ttl: 1
   type: CNAME
-  value: zealous-mclean-4117001.netlify.app.
+  value: summer-hackclub.netlify.app.
 summitshasta:
 - ttl: 1
   type: CNAME
