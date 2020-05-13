@@ -117,6 +117,10 @@ alpharetta:
     preference: 10
   - exchange: alt4.aspmx.l.google.com.
     preference: 10
+alumni:
+- ttl: 1
+  type: CNAME
+  value: fundamental-carnotaurus-kk57ymxq2b4c594aeycak3sn.herokudns.com.
 angelhacks:
 - ttl: 1
   type: TXT
