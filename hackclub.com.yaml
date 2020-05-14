@@ -354,6 +354,10 @@ india:
   ttl: 1
   type: CNAME
   value: optimistic-bohr-366ec2.netlify.com.
+isthevideodone:
+  ttl: 1
+  type: CNAME
+  value: hackclubdone.herokuapp.com.
 jg2ygmrfby4vhxve3cozh4yz3xc2ul5y._domainkey:
 - ttl: 1
   type: CNAME
