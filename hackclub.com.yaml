@@ -205,6 +205,10 @@ changelog.bank:
   ttl: 1
   type: CNAME
   value: headwayapp.co.
+ isthevideodone:
+  ttl: 1
+  type: CNAME
+  value: hackclubdone.herokuapp.com
 chapters:
   ttl: 1
   type: CNAME
