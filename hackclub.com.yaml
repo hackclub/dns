@@ -560,10 +560,9 @@ summer:
   value: summer-hackclub.netlify.app.
 - ttl: 1
   type: TXT
-  value: google-site-verification=zx9NMOA8WwJ7FlmnASICBEvNzpAMhWSgX2Api6ROjAk
-- ttl: 1
-  type: TXT
-  value: v=spf1 include:_spf.google.com ~all
+  values: 
+  - google-site-verification=zx9NMOA8WwJ7FlmnASICBEvNzpAMhWSgX2Api6ROjAk
+  - v=spf1 include:_spf.google.com ~all
 - ttl: 1
   type: MX
   values:
