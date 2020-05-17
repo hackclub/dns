@@ -556,7 +556,8 @@ suitup:
   type: TXT
   value: google-site-verification=RZKsbLbaA-N7EDaert9nYZrCaSrx3FG1jXZWZbqbvTQ
 summer:
-- type: ALIAS
+- ttl: 1
+  type: ALIAS
   value: summer-hackclub.netlify.app.
 - ttl: 1
   type: TXT
