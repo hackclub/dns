@@ -557,8 +557,8 @@ suitup:
   value: google-site-verification=RZKsbLbaA-N7EDaert9nYZrCaSrx3FG1jXZWZbqbvTQ
 summer:
 - ttl: 1
-  type: ALIAS
-  value: summer-hackclub.netlify.app.
+  type: A
+  value: 104.198.14.52
 - ttl: 1
   type: TXT
   values: 
