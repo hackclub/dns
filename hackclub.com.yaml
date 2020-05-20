@@ -557,8 +557,8 @@ suitup:
   value: google-site-verification=RZKsbLbaA-N7EDaert9nYZrCaSrx3FG1jXZWZbqbvTQ
 summer:
 - ttl: 1
-  type: A
-  value: 104.198.14.52
+  type: CNAME
+  value: summer-hackclub.netlify.app.
 summitshasta:
 - ttl: 1
   type: CNAME
