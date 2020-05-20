@@ -575,7 +575,6 @@ summer:
     preference: 10
   - exchange: alt4.aspmx.l.google.com.
     preference: 10
-
 summitshasta:
 - ttl: 1
   type: CNAME
