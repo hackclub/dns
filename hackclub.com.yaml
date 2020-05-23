@@ -346,6 +346,10 @@ hillsdale:
 - ttl: 1
   type: CNAME
   value: hhshacks.github.io.
+*.hosted:
+  ttl: 1
+  type: A
+  value: 173.208.140.124
 icons:
   ttl: 1
   type: CNAME
@@ -508,10 +512,6 @@ ref.guide:
   ttl: 1
   type: CNAME
   value: symmetrical-potatoe-xe9q1l2s6ikk2wmjs2c7obnj.herokudns.com.
-restricted-slack-api:
-  ttl: 1
-  type: CNAME
-  value: d428020d-0348-4077-ba0d-03f4404d158d.repl.co.
 riverbend:
 - ttl: 1
   type: CNAME
