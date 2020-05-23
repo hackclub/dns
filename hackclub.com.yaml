@@ -511,7 +511,7 @@ ref.guide:
 restricted-slack-api:
   ttl: 1
   type: CNAME
-  value: d428020d-0348-4077-ba0d-03f4404d158d.repl.co
+  value: d428020d-0348-4077-ba0d-03f4404d158d.repl.co.
 riverbend:
 - ttl: 1
   type: CNAME
