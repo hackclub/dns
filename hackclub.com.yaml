@@ -560,7 +560,7 @@ shop:
   preference: 5
 - ttl: 3600
   type: MX
-  value: LT3.ASPMX.L.GOOGLE.COM.
+  value: ALT3.ASPMX.L.GOOGLE.COM.
   preference: 10
 - ttl: 3600
   type: MX
