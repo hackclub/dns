@@ -544,7 +544,7 @@ shop:
   value: google-site-verification=l3Bbo36E5uS61KvlS_kvx-iqN_h1DN1LAks2DssJDwM
 - ttl: 3600
   type: TXT
-  value: 	v=spf1 include:_spf.google.com ~all
+  value: v=spf1 include:_spf.google.com ~all
   preference: 1
 - ttl: 3600
   type: MX
@@ -560,7 +560,7 @@ shop:
   preference: 5
 - ttl: 3600
   type: MX
-  value: 	ALT3.ASPMX.L.GOOGLE.COM.
+  value: LT3.ASPMX.L.GOOGLE.COM.
   preference: 10
 - ttl: 3600
   type: MX
