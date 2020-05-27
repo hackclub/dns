@@ -546,8 +546,7 @@ shop:
   ttl: 3600
   type: TXT
   value: 	v=spf1 include:_spf.google.com ~all
-- preference: 1
-  ttl: 3600
+- ttl: 3600
   type: MX
   value: ASPMX.L.GOOGLE.COM.
 - preference: 5
