@@ -562,7 +562,7 @@ suitup:
 summer:
 - ttl: 1
   type: CNAME
-  value: alias.zeit.co.
+  value: cname.vercel-dns.com.
 summitshasta:
 - ttl: 1
   type: CNAME
