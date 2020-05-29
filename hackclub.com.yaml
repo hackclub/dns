@@ -579,8 +579,25 @@ suitup:
   value: google-site-verification=RZKsbLbaA-N7EDaert9nYZrCaSrx3FG1jXZWZbqbvTQ
 summer:
 - ttl: 1
-  type: CNAME
+  type: ALIAS
   value: cname.vercel-dns.com.
+- ttl: 3600
+  type: TXT
+  values: 
+  - v=spf1 include:_spf.google.com ~all
+- ttl: 1
+  type: MX
+  values:
+  - exchange: aspmx.l.google.com.
+    preference: 1
+  - exchange: alt1.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt2.aspmx.l.google.com.
+    preference: 5
+  - exchange: aspmx2.googlemail.com.
+    preference: 10
+  - exchange: aspmx3.googlemail.com.
+    preference: 10
 summitshasta:
 - ttl: 1
   type: CNAME
