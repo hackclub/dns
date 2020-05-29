@@ -579,8 +579,8 @@ suitup:
   value: google-site-verification=RZKsbLbaA-N7EDaert9nYZrCaSrx3FG1jXZWZbqbvTQ
 summer:
 - ttl: 1
-  type: CNAME
-  value: cname.vercel-dns.com.
+  type: ALIAS
+  value: alias.vercel.com.
 - ttl: 3600
   type: TXT
   values: 
