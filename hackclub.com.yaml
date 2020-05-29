@@ -541,31 +541,22 @@ shop:
   value: 23.227.38.65
 - ttl: 1
   type: TXT
-  value: google-site-verification=l3Bbo36E5uS61KvlS_kvx-iqN_h1DN1LAks2DssJDwM
-- preference: 1
-  ttl: 3600
-  type: TXT
-  value: v=spf1 include:_spf.google.com ~all
-- preference: 1
-  ttl: 3600
+  values: 
+  - google-site-verification=l3Bbo36E5uS61KvlS_kvx-iqN_h1DN1LAks2DssJDwM
+  - v=spf1 include:_spf.google.com ~all
+- ttl: 1
   type: MX
-  value: ASPMX.L.GOOGLE.COM.
-- preference: 5
-  ttl: 3600
-  type: MX
-  value: ALT1.ASPMX.L.GOOGLE.COM.
-- preference: 5
-  ttl: 3600
-  type: MX
-  value: ALT2.ASPMX.L.GOOGLE.COM.
-- preference: 10
-  ttl: 3600
-  type: MX
-  value: ALT3.ASPMX.L.GOOGLE.COM.
-- preference: 10
-  ttl: 3600
-  type: MX
-  value: ALT4.ASPMX.L.GOOGLE.COM.
+  values:
+  - exchange: aspmx.l.google.com.
+    preference: 1
+  - exchange: alt1.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt2.aspmx.l.google.com.
+    preference: 5
+  - exchange: aspmx2.googlemail.com.
+    preference: 10
+  - exchange: aspmx3.googlemail.com.
+    preference: 10
 smhs:
 - ttl: 1
   type: CNAME
