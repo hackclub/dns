@@ -580,7 +580,7 @@ suitup:
 summer:
 - ttl: 1
   type: ALIAS
-  value: alias.vercel.com.
+  value: cname.vercel-dns.com.
 - ttl: 3600
   type: TXT
   values: 
