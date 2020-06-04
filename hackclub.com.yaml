@@ -90,53 +90,69 @@ _now:
   type: TXT
   value: BsKpsJpMuE
 _sip._udp.px:
-  port: 5060
-  priority: 10
-  weight: 100
+  ttl: 1
   type: SRV
-  target: ygg1.vp.vc
+  value:
+    port: 5060
+    priority: 10
+    target: ygg1.vp.vc.
+    weight: 100
 _sip._tcp.px:
-  port: 5060
-  priority: 10
-  weight: 100
+  ttl: 1
   type: SRV
-  target: ygg1.vp.vc
-_sips._tcp.px:
-  port: 5061
-  priority: 10
-  weight: 100
+  value:
+    port: 5060
+    priority: 10
+    target: ygg1.vp.vc.
+    weight: 100
+_sip._tcp.px:
+  ttl: 1
   type: SRV
-  target: ygg1.vp.vc
+  value:
+    port: 5061
+    priority: 10
+    target: ygg1.vp.vc.
+    weight: 100
 _sip._udp.px:
-  port: 5060
-  priority: 50
-  weight: 100
+  ttl: 1
   type: SRV
-  target: ygg2.vp.vc
+  value:
+    port: 5060
+    priority: 50
+    target: ygg2.vp.vc
+    weight: 100
 _sip._tcp.px:
-  port: 5060
-  priority: 50
-  weight: 100
+  ttl: 1
   type: SRV
-  target: ygg2.vp.vc
-_sips._tcp.px:
-  port: 5061
-  priority: 50
-  weight: 100
+  value:
+    port: 5060
+    priority: 50
+    target: ygg2.vp.vc
+    weight: 100
+_sip._tcp.px:
+  ttl: 1
   type: SRV
-  target: ygg2.vp.vc
+  value:
+    port: 5061
+    priority: 50
+    target: ygg2.vp.vc
+    weight: 100
 _h323cs._tcp.px:
-  port: 1720
-  priority: 10
-  weight: 100
+  ttl: 1
   type: SRV
-  target: loke1.vp.vc
+  value:
+    port: 1720
+    priority: 10
+    target: loke1.vp.vc
+    weight: 100
 _h323cs._tcp.px:
-  port: 1720
-  priority: 50
-  weight: 100
+  ttl: 1
   type: SRV
-  target: loke1.vp.vc
+  value:
+    port: 1720
+    priority: 50
+    target: loke2.vp.vc
+    weight: 100
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
   type: CNAME
