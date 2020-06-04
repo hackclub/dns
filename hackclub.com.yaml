@@ -89,6 +89,102 @@ _now:
   ttl: 1
   type: TXT
   value: BsKpsJpMuE
+_sip._udp.px-teams:
+  type: SRV
+  weight: 100
+  priority: 10
+  port: 5060
+  target: ygg1.vp.vc
+_sip._tcp.px-teams:
+  type: SRV
+  weight: 100
+  priority: 10
+  port: 5060
+  target: ygg1.vp.vc
+_sips._tcp.px-teams:
+  type: SRV
+  weight: 100
+  priority: 10
+  port: 5061
+  target: ygg1.vp.vc
+_sip._udp.px-teams:
+  type: SRV
+  weight: 100
+  priority: 50
+  port: 5060
+  target: ygg2.vp.vc
+_sip._tcp.px-teams:
+  type: SRV
+  weight: 100
+  priority: 50
+  port: 5060
+  target: ygg2.vp.vc
+_sips._tcp.px-teams:
+  type: SRV
+  weight: 100
+  priority: 50
+  port: 5061
+  target: ygg2.vp.vc
+_h323cs._tcp.px-teams:
+  type: SRV
+  weight: 100
+  priority: 10
+  port: 1720
+  target: loke1.vp.vc
+_h323cs._tcp.px-teams:
+  type: SRV
+  weight: 100
+  priority: 50
+  port: 1720
+  target: loke2.vp.vc
+_sip._udp.px-google:
+  type: SRV
+  weight: 100
+  priority: 10
+  port: 5060
+  target: ygg1.vp.vc
+_sip._tcp.px-google:
+  type: SRV
+  weight: 100
+  priority: 10
+  port: 5060
+  target: ygg1.vp.vc
+_sips._tcp.px-google:
+  type: SRV
+  weight: 100
+  priority: 10
+  port: 5061
+  target: ygg1.vp.vc
+_sip._udp.px-google:
+  type: SRV
+  weight: 100
+  priority: 50
+  port: 5060
+  target: ygg2.vp.vc
+_sip._tcp.px-google:
+  type: SRV
+  weight: 100
+  priority: 50
+  port: 5060
+  target: ygg2.vp.vc
+_sips._tcp.px-google:
+  type: SRV
+  weight: 100
+  priority: 50
+  port: 5061
+  target: ygg2.vp.vc
+_h323cs._tcp.px-google:
+  type: SRV
+  weight: 100
+  priority: 10
+  port: 1720
+  target: loke1.vp.vc
+_h323cs._tcp.px-google:
+  type: SRV
+  weight: 100
+  priority: 50
+  port: 1720
+  target: loke2.vp.vc
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
   type: CNAME
