@@ -113,18 +113,6 @@ _sip._tcp.px:
       priority: 50
       target: ygg2.vp.vc.
       weight: 100
-_sips._tcp.px:
-  ttl: 1
-  type: SRV
-  values:
-    - port: 5061
-      priority: 10
-      target: ygg1.vp.vc.
-      weight: 100
-    - port: 5061
-      priority: 50
-      target: ygg2.vp.vc.
-      weight: 100
 _sip._udp.px:
   ttl: 1
   type: SRV
@@ -134,6 +122,18 @@ _sip._udp.px:
       target: ygg1.vp.vc.
       weight: 100
     - port: 5060
+      priority: 50
+      target: ygg2.vp.vc.
+      weight: 100
+_sips._tcp.px:
+  ttl: 1
+  type: SRV
+  values:
+    - port: 5061
+      priority: 10
+      target: ygg1.vp.vc.
+      weight: 100
+    - port: 5061
       priority: 50
       target: ygg2.vp.vc.
       weight: 100
