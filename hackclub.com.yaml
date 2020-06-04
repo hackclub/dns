@@ -85,6 +85,22 @@ _github-challenge-rahs-hackclub.rahs:
 - ttl: 1
   type: TXT
   value: f43a54836a
+_h323cs._tcp.px:
+  ttl: 1
+  type: SRV
+  value:
+    port: 1720
+    priority: 10
+    target: loke1.vp.vc
+    weight: 100
+_h323cs._tcp.px:
+  ttl: 1
+  type: SRV
+  value:
+    port: 1720
+    priority: 50
+    target: loke2.vp.vc
+    weight: 100
 _now:
   ttl: 1
   type: TXT
@@ -136,22 +152,6 @@ _sip._tcp.px:
     port: 5061
     priority: 50
     target: ygg2.vp.vc
-    weight: 100
-_h323cs._tcp.px:
-  ttl: 1
-  type: SRV
-  value:
-    port: 1720
-    priority: 10
-    target: loke1.vp.vc
-    weight: 100
-_h323cs._tcp.px:
-  ttl: 1
-  type: SRV
-  value:
-    port: 1720
-    priority: 50
-    target: loke2.vp.vc
     weight: 100
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
