@@ -627,8 +627,8 @@ suitup:
   value: google-site-verification=RZKsbLbaA-N7EDaert9nYZrCaSrx3FG1jXZWZbqbvTQ
 summer:
 - ttl: 1
-  type: A
-  value: 104.198.14.52
+  type: ALIAS
+  value: alias.zeit.co.
 - ttl: 1
   type: TXT
   values:
