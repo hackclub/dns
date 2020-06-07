@@ -627,8 +627,13 @@ suitup:
   value: google-site-verification=RZKsbLbaA-N7EDaert9nYZrCaSrx3FG1jXZWZbqbvTQ
 summer:
 - ttl: 1
-  type: CNAME
-  value: cname.vercel-dns.com.
+  type: A
+  value: 104.198.14.52
+- ttl: 1
+  type: TXT
+  values:
+  - google-site-verification=zx9NMOA8WwJ7FlmnASICBEvNzpAMhWSgX2Api6ROjAk
+  - v=spf1 include:_spf.google.com ~all
 summitshasta:
 - ttl: 1
   type: CNAME
