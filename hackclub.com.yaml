@@ -621,6 +621,14 @@ statehigh:
 - ttl: 1
   type: CNAME
   value: schacks.netlify.com.
+streak:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
+streaks:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 suitup:
 - ttl: 1
   type: TXT
