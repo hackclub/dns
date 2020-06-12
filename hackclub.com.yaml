@@ -386,6 +386,10 @@ groups:
   ttl: 1
   type: CNAME
   value: ghs.googlehosted.com.
+gwas:
+  ttl: 1
+  type: CNAME
+  value: competent-yonath-7f9d16.netlify.app.
 hackathons:
   ttl: 1
   type: CNAME
