@@ -235,14 +235,14 @@ bounce:
 - ttl: 1
   type: CNAME
   value: custom-email-domain.stripe.com.
-bucky:
-- ttl: 1
-  type: CNAME
-  value: functional-jaguar-pc7g9tlhjhiea6ls74uge998.herokudns.com.
 bqogdt6xkltngfg62lq7jo5dk33zerss._domainkey:
 - ttl: 1
   type: CNAME
   value: bqogdt6xkltngfg62lq7jo5dk33zerss.dkim.custom-email-domain.stripe.com.
+bucky:
+- ttl: 1
+  type: CNAME
+  value: functional-jaguar-pc7g9tlhjhiea6ls74uge998.herokudns.com.
 calendar:
   ttl: 1
   type: CNAME
