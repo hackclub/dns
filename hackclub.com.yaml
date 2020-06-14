@@ -1,7 +1,7 @@
 ---
 '':
 - type: ALIAS
-  value: alias.zeit.co.
+  value: cname.vercel-dns.com.
 - ttl: 1
   type: MX
   values:
@@ -256,7 +256,7 @@ cca:
   value: reticulated-taiga-qmd1uv2l14p5opobi3fwksqv.herokudns.com.
 cccs:
   type: CNAME
-  value: alias.zeit.co.
+  value: cname.vercel-dns.com.
 changelog.bank:
   ttl: 1
   type: CNAME
@@ -298,10 +298,6 @@ cvhs:
 - ttl: 1
   type: A
   value: 192.168.1.1
-debate:
-- ttl: 1
-  type: CNAME
-  value: alias.zeit.co.
 dedicated.servers:
 - ttl: 1
   type: A
@@ -313,7 +309,7 @@ dfw4j5coownesaecgmwfxhszrauwxzlk._domainkey:
 draw-dino:
   ttl: 1
   type: CNAME
-  value: alias.zeit.co.
+  value: cname.vercel-dns.com.
 drive:
   ttl: 1
   type: CNAME
@@ -325,7 +321,7 @@ earlybird:
 editor:
   ttl: 1
   type: CNAME
-  value: alias.zeit.co.
+  value: cname.vercel-dns.com.
 elon:
   ttl: 1
   type: CNAME
@@ -349,7 +345,7 @@ eomail:
 events:
   ttl: 1
   type: CNAME
-  value: alias.zeit.co.
+  value: cname.vercel-dns.com.
 fhshackclub:
 - ttl: 1
   type: CNAME
@@ -397,7 +393,7 @@ gwas:
 hackathons:
   ttl: 1
   type: CNAME
-  value: alias.zeit.co.
+  value: cname.vercel-dns.com.
 hackcraft:
   ttl: 1
   type: A
@@ -409,7 +405,7 @@ hillsdale:
 icons:
   ttl: 1
   type: CNAME
-  value: alias.zeit.co.
+  value: cname.vercel-dns.com.
 india:
   ttl: 1
   type: CNAME
@@ -468,7 +464,7 @@ mailo._domainkey.testing.mail:
 markdown:
 - ttl: 1
   type: CNAME
-  value: alias.zeit.co.
+  value: cname.vercel-dns.com.
 mason:
 - ttl: 1
   type: CNAME
@@ -591,6 +587,10 @@ scholarship:
   ttl: 1
   type: CNAME
   value: scholarship-hackclub.netlify.com.
+scrapbook:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 shop:
 - ttl: 1
   type: A
@@ -629,22 +629,10 @@ statehigh:
 - ttl: 1
   type: CNAME
   value: schacks.netlify.com.
-streak:
-- ttl: 1
-  type: CNAME
-  value: cname.vercel-dns.com.
-streaks:
-- ttl: 1
-  type: CNAME
-  value: cname.vercel-dns.com.
-suitup:
-- ttl: 1
-  type: TXT
-  value: google-site-verification=RZKsbLbaA-N7EDaert9nYZrCaSrx3FG1jXZWZbqbvTQ
 summer:
 - ttl: 1
   type: ALIAS
-  value: alias.zeit.co.
+  value: cname.vercel-dns.com.
 - ttl: 1
   type: TXT
   values:
@@ -690,7 +678,7 @@ testing.mail:
 theme:
 - ttl: 1
   type: CNAME
-  value: alias.zeit.co.
+  value: cname.vercel-dns.com.
 titanhacks:
 - ttl: 1
   type: CNAME
@@ -710,7 +698,7 @@ uqq467l64nnf3dyo6omjcjmcc3dmdqlb._domainkey:
 v3:
 - ttl: 1
   type: CNAME
-  value: alias.zeit.co.
+  value: cname.vercel-dns.com.
 vh7v2gsayfsmxmllwaannilorrbs5jbp._domainkey:
 - ttl: 1
   type: CNAME
@@ -742,11 +730,11 @@ wootton:
 workshop-cards:
 - ttl: 1
   type: CNAME
-  value: alias.zeit.co.
+  value: cname.vercel-dns.com.
 workshops:
 - ttl: 1
   type: CNAME
-  value: alias.zeit.co.
+  value: cname.vercel-dns.com.
 zachday:
 - ttl: 1
   type: CNAME
