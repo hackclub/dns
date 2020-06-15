@@ -149,6 +149,10 @@ agoura:
 - ttl: 1
   type: CNAME
   value: AgouraCSHS.github.io.
+airbridge:
+  ttl: 1
+  type: CNAME
+  value: radiant-fox-c9gxih2agg56l8y9b5tefjm2.herokudns.com.
 alpharetta:
 - ttl: 1
   type: A
@@ -188,10 +192,6 @@ api2:
   ttl: 1
   type: CNAME
   value: tetrahedral-gooseberry-aady3np0p0xldlvl6d7ik0ld.herokudns.com.
-app:
-  ttl: 1
-  type: CNAME
-  value: hackclub.netlify.com.
 apply:
   type: CNAME
   value: apply-hackclub.netlify.com.
@@ -434,18 +434,6 @@ laslomas:
 - ttl: 1
   type: CNAME
   value: mystifying-torvalds-f8e697.netlify.com.
-leaders:
-  ttl: 1
-  type: CNAME
-  value: leaders.hackclub.com.herokudns.com.
-legacy:
-  ttl: 1
-  type: CNAME
-  value: legacy.hackclub.com.herokudns.com.
-linkman:
-  ttl: 1
-  type: CNAME
-  value: avian-artichoke-25xaf4zx7jtara5nytu1n5qx.herokudns.com.
 mail:
 - ttl: 1
   type: MX
