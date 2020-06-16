@@ -579,6 +579,10 @@ scrapbook:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+scrappy:
+  ttl: 1
+  type: CNAME
+  value: glacial-dusk-446cvr5bsl9xqyp8yoge5tt7.herokudns.com.
 shop:
 - ttl: 1
   type: A
