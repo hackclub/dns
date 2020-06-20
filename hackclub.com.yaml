@@ -621,6 +621,10 @@ statehigh:
 - ttl: 1
   type: CNAME
   value: schacks.netlify.com.
+streaks:
+- ttl: 1
+  type: CNAME
+  value: adoring-brown-d90455.netlify.app
 summer:
 - ttl: 1
   type: ALIAS
