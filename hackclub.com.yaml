@@ -1,7 +1,7 @@
 ---
 '':
 - type: ALIAS
-  value: alias.zeit.co.
+  value: cname.vercel-dns.com.
 - ttl: 1
   type: MX
   values:
@@ -31,6 +31,10 @@
   ttl: 1
   type: CNAME
   value: proxy.servers.hackclub.com.
+"*.hosted":
+  ttl: 1
+  type: A
+  value: 173.208.140.124
 Cabbache:
 - ttl: 1
   type: CNAME
@@ -47,6 +51,10 @@ Map:
 - ttl: 1
   type: CNAME
   value: hack-club-map.netlify.com.
+_496c10c564509e5030203691afc939ff.assets:
+- ttl: 1
+  type: CNAME
+  value: _41e1bb1944485ecaba9d0990915cded3.nhqijqilxf.acm-validations.aws.
 _acme-challenge:
   type: TXT
   values:
@@ -77,10 +85,58 @@ _github-challenge-rahs-hackclub.rahs:
 - ttl: 1
   type: TXT
   value: f43a54836a
+_h323cs._tcp.px:
+  ttl: 1
+  type: SRV
+  values:
+    - port: 1720
+      priority: 10
+      target: loke1.vp.vc.
+      weight: 100
+    - port: 1720
+      priority: 50
+      target: loke2.vp.vc.
+      weight: 100
 _now:
   ttl: 1
   type: TXT
   value: BsKpsJpMuE
+_sip._tcp.px:
+  ttl: 1
+  type: SRV
+  values:
+    - port: 5060
+      priority: 10
+      target: ygg1.vp.vc.
+      weight: 100
+    - port: 5060
+      priority: 50
+      target: ygg2.vp.vc.
+      weight: 100
+_sip._udp.px:
+  ttl: 1
+  type: SRV
+  values:
+    - port: 5060
+      priority: 10
+      target: ygg1.vp.vc.
+      weight: 100
+    - port: 5060
+      priority: 50
+      target: ygg2.vp.vc.
+      weight: 100
+_sips._tcp.px:
+  ttl: 1
+  type: SRV
+  values:
+    - port: 5061
+      priority: 10
+      target: ygg1.vp.vc.
+      weight: 100
+    - port: 5061
+      priority: 50
+      target: ygg2.vp.vc.
+      weight: 100
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
   type: CNAME
@@ -93,6 +149,10 @@ agoura:
 - ttl: 1
   type: CNAME
   value: AgouraCSHS.github.io.
+airbridge:
+  ttl: 1
+  type: CNAME
+  value: radiant-fox-c9gxih2agg56l8y9b5tefjm2.herokudns.com.
 alpharetta:
 - ttl: 1
   type: A
@@ -113,6 +173,10 @@ alpharetta:
     preference: 10
   - exchange: alt4.aspmx.l.google.com.
     preference: 10
+alumni:
+- ttl: 1
+  type: CNAME
+  value: fundamental-carnotaurus-kk57ymxq2b4c594aeycak3sn.herokudns.com.
 angelhacks:
 - ttl: 1
   type: TXT
@@ -128,10 +192,6 @@ api2:
   ttl: 1
   type: CNAME
   value: tetrahedral-gooseberry-aady3np0p0xldlvl6d7ik0ld.herokudns.com.
-app:
-  ttl: 1
-  type: CNAME
-  value: hackclub.netlify.com.
 apply:
   type: CNAME
   value: apply-hackclub.netlify.com.
@@ -139,6 +199,10 @@ archived.guide:
   ttl: 1
   type: CNAME
   value: hackclub-guide.netlify.com.
+assets:
+  ttl: 1
+  type: CNAME
+  value: d25gljbdtt9pni.cloudfront.net.
 av:
 - ttl: 1
   type: CNAME
@@ -175,6 +239,10 @@ bqogdt6xkltngfg62lq7jo5dk33zerss._domainkey:
 - ttl: 1
   type: CNAME
   value: bqogdt6xkltngfg62lq7jo5dk33zerss.dkim.custom-email-domain.stripe.com.
+bucky:
+- ttl: 1
+  type: CNAME
+  value: lit-anenome-0a8n6ev3vwpusdyktkunqnea.herokudns.com.
 calendar:
   ttl: 1
   type: CNAME
@@ -186,6 +254,9 @@ cca:
 - ttl: 1
   type: CNAME
   value: reticulated-taiga-qmd1uv2l14p5opobi3fwksqv.herokudns.com.
+cccs:
+  type: CNAME
+  value: cname.vercel-dns.com.
 changelog.bank:
   ttl: 1
   type: CNAME
@@ -227,10 +298,6 @@ cvhs:
 - ttl: 1
   type: A
   value: 192.168.1.1
-debate:
-- ttl: 1
-  type: CNAME
-  value: alias.zeit.co.
 dedicated.servers:
 - ttl: 1
   type: A
@@ -246,7 +313,7 @@ dinos:
 draw-dino:
   ttl: 1
   type: CNAME
-  value: alias.zeit.co.
+  value: cname.vercel-dns.com.
 drive:
   ttl: 1
   type: CNAME
@@ -255,6 +322,14 @@ earlybird:
   ttl: 1
   type: CNAME
   value: early-bird-hackclub.netlify.com.
+editor:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
+elon:
+  ttl: 1
+  type: CNAME
+  value: proxy.servers.hackclub.com.
 em6326:
   ttl: 1
   type: CNAME
@@ -271,6 +346,10 @@ eomail:
   ttl: 1
   type: CNAME
   value: custom.eomail2.com.
+events:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 fhshackclub:
 - ttl: 1
   type: CNAME
@@ -299,6 +378,10 @@ github-oauth:
   ttl: 1
   type: CNAME
   value: synthetic-grape-ht3rdj3kqbc6fuyjcuc5f6ob.herokudns.com.
+globalcovid:
+  ttl: 1
+  type: CNAME
+  value: globalcovid.netlify.com.
 google._domainkey:
   ttl: 1
   type: TXT
@@ -307,18 +390,34 @@ groups:
   ttl: 1
   type: CNAME
   value: ghs.googlehosted.com.
+gwas:
+   ttl: 1
+   type: CNAME
+   value: competent-yonath-7f9d16.netlify.app.
 hackathons:
   ttl: 1
   type: CNAME
-  value: alias.zeit.co.
+  value: cname.vercel-dns.com.
+hackcraft:
+  ttl: 1
+  type: A
+  value: 173.208.140.126
 hillsdale:
 - ttl: 1
   type: CNAME
   value: hhshacks.github.io.
+icons:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 india:
   ttl: 1
   type: CNAME
   value: optimistic-bohr-366ec2.netlify.com.
+isthevideodone:
+  ttl: 1
+  type: CNAME
+  value: hackclubdone.herokuapp.com.
 jg2ygmrfby4vhxve3cozh4yz3xc2ul5y._domainkey:
 - ttl: 1
   type: CNAME
@@ -339,14 +438,6 @@ laslomas:
 - ttl: 1
   type: CNAME
   value: mystifying-torvalds-f8e697.netlify.com.
-leaders:
-  ttl: 1
-  type: CNAME
-  value: leaders.hackclub.com.herokudns.com.
-legacy:
-  ttl: 1
-  type: CNAME
-  value: legacy.hackclub.com.herokudns.com.
 mail:
 - ttl: 1
   type: MX
@@ -365,7 +456,7 @@ mailo._domainkey.testing.mail:
 markdown:
 - ttl: 1
   type: CNAME
-  value: alias.zeit.co.
+  value: cname.vercel-dns.com.
 mason:
 - ttl: 1
   type: CNAME
@@ -384,11 +475,15 @@ maxday:
 mc:
 - ttl: 1
   type: A
-  value: 173.208.140.123
+  value: 173.208.140.125
 mcneil:
 - ttl: 1
   type: A
   value: 70.123.47.120
+meet:
+- ttl: 1
+  type: A
+  value: 3.80.199.115
 merivalja:
   ttl: 1
   type: CNAME
@@ -397,6 +492,10 @@ milesmac:
   ttl: 1
   type: CNAME
   value: 7b6d4e2f-ac5b-41f5-ab5e-d3c248bcda0c.repl.co.
+mumble:
+- ttl: 1
+  type: A
+  value: 173.208.140.124
 mw:
 - ttl: 1
   type: CNAME
@@ -480,10 +579,36 @@ scholarship:
   ttl: 1
   type: CNAME
   value: scholarship-hackclub.netlify.com.
-shop:
+scrapbook:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
+scrappy:
   ttl: 1
+  type: CNAME
+  value: glacial-dusk-446cvr5bsl9xqyp8yoge5tt7.herokudns.com.
+shop:
+- ttl: 1
   type: A
   value: 23.227.38.65
+- ttl: 1
+  type: TXT
+  values: 
+  - google-site-verification=l3Bbo36E5uS61KvlS_kvx-iqN_h1DN1LAks2DssJDwM
+  - v=spf1 include:_spf.google.com ~all
+- ttl: 1
+  type: MX
+  values:
+  - exchange: aspmx.l.google.com.
+    preference: 1
+  - exchange: alt1.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt2.aspmx.l.google.com.
+    preference: 5
+  - exchange: aspmx2.googlemail.com.
+    preference: 10
+  - exchange: aspmx3.googlemail.com.
+    preference: 10
 smhs:
 - ttl: 1
   type: CNAME
@@ -500,14 +625,45 @@ statehigh:
 - ttl: 1
   type: CNAME
   value: schacks.netlify.com.
-stories:
+streaks:
 - ttl: 1
-  type: A
-  value: 167.99.170.171
+  type: CNAME
+  value: adoring-brown-d90455.netlify.app.
+summer:
+- ttl: 1
+  type: ALIAS
+  value: cname.vercel-dns.com.
+- ttl: 1
+  type: TXT
+  values:
+  - google-site-verification=zx9NMOA8WwJ7FlmnASICBEvNzpAMhWSgX2Api6ROjAk
+  - v=spf1 include:_spf.google.com ~all
+- ttl: 1
+  type: MX
+  values:
+  - exchange: aspmx.l.google.com.
+    preference: 1
+  - exchange: alt1.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt2.aspmx.l.google.com.
+    preference: 5
+  - exchange: aspmx2.googlemail.com.
+    preference: 10
+  - exchange: aspmx3.googlemail.com.
+    preference: 10
+  - exchange: aspmx4.googlemail.com.
+    preference: 10
 summitshasta:
 - ttl: 1
   type: CNAME
   value: summitshasta.github.io.
+tbp:
+- ttl: 1
+  type: NS
+  values:
+  - ns1.digitalocean.com.
+  - ns2.digitalocean.com.
+  - ns3.digitalocean.com.
 testing.mail:
 - ttl: 1
   type: MX
@@ -522,19 +678,27 @@ testing.mail:
 theme:
 - ttl: 1
   type: CNAME
-  value: alias.zeit.co.
+  value: cname.vercel-dns.com.
 titanhacks:
 - ttl: 1
   type: CNAME
-  value: titanhacks.me.
+  value: titanhacks.club.
 turner:
 - ttl: 1
   type: A
   value: 173.172.147.235
+university:
+- ttl: 1
+  type: CNAME
+  value: developmental-garbanzo-kw68e5tap3bg721c9c295nux.herokudns.com.
 uqq467l64nnf3dyo6omjcjmcc3dmdqlb._domainkey:
 - ttl: 1
   type: CNAME
   value: uqq467l64nnf3dyo6omjcjmcc3dmdqlb.dkim.custom-email-domain.stripe.com.
+v3:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 vh7v2gsayfsmxmllwaannilorrbs5jbp._domainkey:
 - ttl: 1
   type: CNAME
@@ -566,12 +730,16 @@ wootton:
 workshop-cards:
 - ttl: 1
   type: CNAME
-  value: alias.zeit.co.
+  value: cname.vercel-dns.com.
 workshops:
 - ttl: 1
   type: CNAME
-  value: alias.zeit.co.
+  value: cname.vercel-dns.com.
 zachday:
 - ttl: 1
   type: CNAME
   value: zachday.netlify.com.
+zapdos.servers:
+- ttl: 1
+  type: A
+  value: 45.79.138.244
