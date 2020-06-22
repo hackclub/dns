@@ -297,7 +297,7 @@ ctrlalttec:
 customizer:
 - ttl: 1
   type: CNAME
-  value: jasonappah.github.io/scrapbook-customizer.
+  value: jasonappah.github.io.
 cvhs:
 - ttl: 1
   type: A
