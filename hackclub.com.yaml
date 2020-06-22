@@ -294,6 +294,10 @@ ctrlalttec:
     preference: 10
   - exchange: alt4.aspmx.l.google.com.
     preference: 10
+customizer:
+- ttl: 1
+  type: CNAME
+  value: jasonappah.github.io/scrapbook-customizer.
 cvhs:
 - ttl: 1
   type: A
