@@ -153,6 +153,10 @@ airbridge:
   ttl: 1
   type: CNAME
   value: radiant-fox-c9gxih2agg56l8y9b5tefjm2.herokudns.com.
+alexa:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 alpharetta:
 - ttl: 1
   type: A
