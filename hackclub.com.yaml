@@ -719,6 +719,10 @@ vmc:
 - ttl: 1
   type: A
   value: 173.208.140.125
+vulture:
+- ttl: 1
+  type: CNAME
+  value: starman.fathomdns.com.
 westborough:
 - ttl: 1
   type: CNAME
