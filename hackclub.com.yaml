@@ -141,6 +141,10 @@ a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
   type: CNAME
   value: a5fj644skxexxgvvraqrag5ngcaovcny.dkim.amazonses.com.
+aardvark:
+- ttl: 1
+  type: CNAME
+  value: starman.fathomdns.com.
 adastra:
 - ttl: 1
   type: TXT
@@ -723,10 +727,6 @@ vmc:
 - ttl: 1
   type: A
   value: 173.208.140.125
-vulture:
-- ttl: 1
-  type: CNAME
-  value: starman.fathomdns.com.
 westborough:
 - ttl: 1
   type: CNAME
