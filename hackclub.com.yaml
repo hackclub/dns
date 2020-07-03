@@ -410,7 +410,10 @@ hackcraft:
   ttl: 1
   type: A
   value: 173.208.140.126
-hillsdale:
+hackstore:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.hillsdale:
 - ttl: 1
   type: CNAME
   value: hhshacks.github.io.
