@@ -1,0 +1,19 @@
+name: deploy
+
+on:
+  - push:
+    branches:
+      - master
+
+jobs:
+  octodns:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v1
+        with:
+          python-version: '2.7'
+      - name: Install OctoDNS
+        run: pip install octodns
+      - name: Sync w/ production DNS providers
+        run: ./bin/sync
