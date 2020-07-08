@@ -12,7 +12,8 @@ jobs:
           python-version: '2.7'
       - name: Install OctoDNS
         run: pip install octodns
-        env:
-          DNSIMPLE_ACCOUNT_NUMBER: ${{ secrets.DNSIMPLE_ACCOUNT_NUMBER }}
       - name: Do a dry run
         run: ./bin/dry-run
+        env:
+          DNSIMPLE_ACCOUNT_NUMBER: ${{ secrets.DNSIMPLE_ACCOUNT_NUMBER }}
+          DNSIMPLE_API_KEY: ${{ secrets.DNSIMPLE_API_KEY }}

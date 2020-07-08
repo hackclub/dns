@@ -15,7 +15,8 @@ jobs:
           python-version: '2.7'
       - name: Install OctoDNS
         run: pip install octodns
-        env:
-          DNSIMPLE_ACCOUNT_NUMBER: ${{ secrets.DNSIMPLE_ACCOUNT_NUMBER }}
       - name: Sync w/ production DNS providers
         run: ./bin/sync
+        env:
+          DNSIMPLE_ACCOUNT_NUMBER: ${{ secrets.DNSIMPLE_ACCOUNT_NUMBER }}
+          DNSIMPLE_API_KEY: ${{ secrets.DNSIMPLE_API_KEY }}
