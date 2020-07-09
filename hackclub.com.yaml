@@ -543,7 +543,7 @@ pic._domainkey.mail:
   value: k=rsa
 podcast:
 - ttl: 1
-  type: A
+  type: CNAME
   value: anchor.fm/hack-club.
 - ttl: 1
   type: TXT
