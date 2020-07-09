@@ -541,6 +541,28 @@ pic._domainkey.mail:
   ttl: 1
   type: TXT
   value: k=rsa
+podcast:
+- ttl: 1
+  type: A
+  value: anchor.fm/hack-club.
+- ttl: 1
+  type: TXT
+  values: 
+  - google-site-verification=qA3aMUHA0TlUHLAITzYM7-qVal8iUnvramYq2msLc8U
+  - v=spf1 include:_spf.google.com ~all
+- ttl: 1
+  type: MX
+  values:
+  - exchange: aspmx.l.google.com.
+    preference: 1
+  - exchange: alt1.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt2.aspmx.l.google.com.
+    preference: 5
+  - exchange: aspmx2.googlemail.com.
+    preference: 10
+  - exchange: aspmx3.googlemail.com.
+    preference: 10
 postal:
   ttl: 1
   type: CNAME
