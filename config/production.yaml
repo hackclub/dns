@@ -7,6 +7,10 @@ providers:
     class: octodns.provider.dnsimple.DnsimpleProvider
     token: env/DNSIMPLE_API_KEY
     account: env/DNSIMPLE_ACCOUNT_NUMBER
+  cloudflare:
+    class: octodns.provider.cloudflare.CloudflareProvider
+    email: env/CLOUDFLARE_EMAIL
+    token: env/CLOUDFLARE_TOKEN
 
 zones:
   hackclub.com.:
@@ -33,7 +37,7 @@ zones:
     sources:
       - config
     targets:
-      - dnsimple
+      - cloudflare
   bulckcah.com.:
     sources:
       - config
