@@ -282,6 +282,10 @@ ciudalcampo:
 - ttl: 1
   type: CNAME
   value: code-sekcc.github.io.
+coins:
+- ttl: 1
+  type: A
+  value: 173.208.140.124
 ctrl-alt-tec:
 - ttl: 1
   type: CNAME
