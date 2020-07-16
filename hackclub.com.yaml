@@ -434,7 +434,7 @@ icons:
 india:
   ttl: 1
   type: CNAME
-  value: optimistic-bohr-366ec2.netlify.com.
+  value: cname.vercel-dns.com.
 isthevideodone:
   ttl: 1
   type: CNAME
