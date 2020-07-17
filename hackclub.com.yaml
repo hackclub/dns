@@ -211,7 +211,7 @@ archived.guide:
 assets:
   ttl: 1
   type: CNAME
-  value: d25gljbdtt9pni.cloudfront.net.
+  value: cname.vercel-dns.com.
 av:
 - ttl: 1
   type: CNAME
