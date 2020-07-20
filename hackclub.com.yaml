@@ -637,6 +637,10 @@ shop:
     preference: 10
   - exchange: aspmx3.googlemail.com.
     preference: 10
+skn:
+  ttl: 1
+  type: CNAME
+  value: solid-onion-63apxaanqedcag7x8576dhle.herokudns.com.      
 smhs:
 - ttl: 1
   type: CNAME
@@ -771,3 +775,5 @@ zapdos.servers:
 - ttl: 1
   type: A
   value: 45.79.138.244
+
+  
