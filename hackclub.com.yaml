@@ -186,6 +186,10 @@ alumni:
 - ttl: 1
   type: CNAME
   value: fundamental-carnotaurus-kk57ymxq2b4c594aeycak3sn.herokudns.com.
+ama-machine:
+- ttl: 1
+  type: CNAME
+  value: rugged-pheasant-1rx4ei5ejoumyp4fxpq3s8rs.herokudns.com.
 angelhacks:
 - ttl: 1
   type: TXT
