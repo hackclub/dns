@@ -211,7 +211,7 @@ archived.guide:
 assets:
   ttl: 1
   type: CNAME
-  value: d25gljbdtt9pni.cloudfront.net.
+  value: cname.vercel-dns.com.
 av:
 - ttl: 1
   type: CNAME
@@ -371,6 +371,13 @@ fhshackclub:
 - ttl: 1
   type: CNAME
   value: www.fhsprogramming.com.
+fiesta:
+- ttl: 1
+  type: A
+  value: 45.79.70.203
+- ttl: 1
+  type: AAAA
+  value: 2600:3c01::f03c:92ff:fe97:0f6a  
 finder:
   ttl: 1
   type: CNAME
@@ -434,7 +441,7 @@ icons:
 india:
   ttl: 1
   type: CNAME
-  value: optimistic-bohr-366ec2.netlify.com.
+  value: cname.vercel-dns.com.
 isthevideodone:
   ttl: 1
   type: CNAME
@@ -634,6 +641,10 @@ shop:
     preference: 10
   - exchange: aspmx3.googlemail.com.
     preference: 10
+skn:
+  ttl: 1
+  type: CNAME
+  value: solid-onion-63apxaanqedcag7x8576dhle.herokudns.com.      
 smhs:
 - ttl: 1
   type: CNAME
@@ -768,3 +779,5 @@ zapdos.servers:
 - ttl: 1
   type: A
   value: 45.79.138.244
+
+  
