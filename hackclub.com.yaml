@@ -755,6 +755,10 @@ vmc:
 - ttl: 1
   type: A
   value: 173.208.140.125
+webring:
+- ttl: 1
+  type: CNAME
+  value: hackclub-webring.netlify.app.
 westborough:
 - ttl: 1
   type: CNAME
