@@ -270,6 +270,9 @@ cca:
 cccs:
   type: CNAME
   value: cname.vercel-dns.com.
+cdn:
+  type: CNAME
+  value: cname.vercel-dns.com.
 changelog.bank:
   ttl: 1
   type: CNAME
