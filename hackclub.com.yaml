@@ -405,7 +405,10 @@ geochat-api:
   ttl: 1
   type: CNAME
   value: geochat-api.hackclub.com.herokudns.com.
-=
+github-oauth:
+   ttl: 1
+   type: CNAME
+   value: synthetic-grape-ht3rdj3kqbc6fuyjcuc5f6ob.herokudns.com.
 globalcovid:
   ttl: 1
   type: CNAME
