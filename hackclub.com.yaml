@@ -622,6 +622,10 @@ scrapbook:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+scrapbooks:
+- ttl: 1
+  type: CNAME
+  value: keen-brahmagupta-b1f934.netlify.app.
 scrappy:
   ttl: 1
   type: CNAME
