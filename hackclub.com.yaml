@@ -406,9 +406,9 @@ geochat-api:
   type: CNAME
   value: geochat-api.hackclub.com.herokudns.com.
 github-oauth:
-   ttl: 1
-   type: CNAME
-   value: synthetic-grape-ht3rdj3kqbc6fuyjcuc5f6ob.herokudns.com.
+  ttl: 1
+  type: CNAME
+  value: synthetic-grape-ht3rdj3kqbc6fuyjcuc5f6ob.herokudns.com.
 globalcovid:
   ttl: 1
   type: CNAME
@@ -625,7 +625,7 @@ scrapbook:
 scrapbooks:
 - ttl: 1
   type: CNAME
-  value: https://keen-brahmagupta-b1f934.netlify.app.
+  value: keen-brahmagupta-b1f934.netlify.app.
 scrappy:
   ttl: 1
   type: CNAME
