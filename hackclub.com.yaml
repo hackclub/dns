@@ -297,6 +297,10 @@ ctrl-alt-tec:
 - ttl: 1
   type: CNAME
   value: ctrl-alt-tec.github.io.
+blog.ctrl-alt-tec:
+- ttl: 1
+  type: CNAME
+  value: ctrl-alt-tec.github.io.
 ctrlalttec:
 - ttl: 3600
   type: TXT
