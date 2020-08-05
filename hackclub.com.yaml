@@ -575,6 +575,10 @@ postal.servers:
   ttl: 1
   type: A
   value: 23.92.24.6
+portal.ctf:
+  ttl: 1
+  type: A
+  value: 167.99.110.64
 prc:
   ttl: 1
   type: CNAME
