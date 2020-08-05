@@ -386,13 +386,6 @@ fhshackclub:
 - ttl: 1
   type: CNAME
   value: www.fhsprogramming.com.
-fiesta:
-- ttl: 1
-  type: A
-  value: 45.79.70.203
-- ttl: 1
-  type: AAAA
-  value: 2600:3c01::f03c:92ff:fe97:0f6a  
 finder:
   ttl: 1
   type: CNAME
