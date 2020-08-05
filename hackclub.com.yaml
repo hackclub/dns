@@ -571,6 +571,10 @@ pic._domainkey.mail:
   ttl: 1
   type: TXT
   value: k=rsa
+portal.ctf:
+  ttl: 1
+  type: A
+  value: 167.99.110.64
 postal:
   ttl: 1
   type: CNAME
@@ -579,6 +583,10 @@ postal.servers:
   ttl: 1
   type: A
   value: 23.92.24.6
+prc:
+  ttl: 1
+  type: CNAME
+  value: hackclub-prc.github.io.
 proxy.servers:
   ttl: 1
   type: A
@@ -660,6 +668,10 @@ shop:
     preference: 10
   - exchange: aspmx3.googlemail.com.
     preference: 10
+singgasana:
+  ttl: 1
+  type: CNAME
+  value: singgasana.netlify.app.
 skn:
   ttl: 1
   type: CNAME
