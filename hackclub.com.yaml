@@ -575,6 +575,10 @@ postal.servers:
   ttl: 1
   type: A
   value: 23.92.24.6
+prc:
+  ttl: 1
+  type: CNAME
+  value: hackclub-prc.github.io.
 proxy.servers:
   ttl: 1
   type: A
