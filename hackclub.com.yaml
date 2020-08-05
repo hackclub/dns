@@ -297,6 +297,10 @@ coins:
 - ttl: 1
   type: A
   value: 173.208.140.124
+ctf:
+- ttl: 1
+  type: CNAME
+  value: zealous-booth-dc1397.netlify.app.
 ctrl-alt-tec:
 - ttl: 1
   type: CNAME
