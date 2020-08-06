@@ -301,6 +301,10 @@ coins:
 - ttl: 1
   type: A
   value: 173.208.140.124
+ctf:
+- ttl: 1
+  type: CNAME
+  value: zealous-booth-dc1397.netlify.app.
 ctrl-alt-tec:
 - ttl: 1
   type: CNAME
@@ -386,13 +390,6 @@ fhshackclub:
 - ttl: 1
   type: CNAME
   value: www.fhsprogramming.com.
-fiesta:
-- ttl: 1
-  type: A
-  value: 45.79.70.203
-- ttl: 1
-  type: AAAA
-  value: 2600:3c01::f03c:92ff:fe97:0f6a  
 finder:
   ttl: 1
   type: CNAME
@@ -571,6 +568,10 @@ pic._domainkey.mail:
   ttl: 1
   type: TXT
   value: k=rsa
+portal.ctf:
+  ttl: 1
+  type: A
+  value: 167.99.110.64
 postal:
   ttl: 1
   type: CNAME
