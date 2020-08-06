@@ -528,6 +528,10 @@ milesmac:
   ttl: 1
   type: CNAME
   value: 7b6d4e2f-ac5b-41f5-ab5e-d3c248bcda0c.repl.co.
+mira:
+  ttl: 1
+  type: CNAME
+  value: miracosta.netlify.app.
 mumble:
 - ttl: 1
   type: A
