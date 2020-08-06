@@ -78,6 +78,10 @@ _dmarc:
   type: TXT
   value: v=DMARC1\; p=none\; rua=mailto:tbqldgpy@ag.dmarcian.com\; ruf=mailto:tbqldgpy@fr.dmarcian.com\;
     fo=1
+_github-challenge-Hackclub-PRC.prc:
+- ttl: 1
+  type: TXT
+  value: 26e02b51f5
 _github-challenge-hackclub:
 - ttl: 1
   type: TXT
