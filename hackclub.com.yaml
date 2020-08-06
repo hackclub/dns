@@ -457,7 +457,7 @@ india:
 isthevideodone:
   ttl: 1
   type: A
-  value: 138.68.231.200.
+  value: 138.68.231.200
 jg2ygmrfby4vhxve3cozh4yz3xc2ul5y._domainkey:
 - ttl: 1
   type: CNAME
