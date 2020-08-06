@@ -82,14 +82,14 @@ _github-challenge-hackclub:
 - ttl: 1
   type: TXT
   value: 3bb54b8627
-_github-challenge-rahs-hackclub.rahs:
-- ttl: 1
-  type: TXT
-  value: f43a54836a
 _github-challenge-Hackclub-PRC.prc:
 - ttl: 1
   type: TXT
   value: 26e02b51f5
+_github-challenge-rahs-hackclub.rahs:
+- ttl: 1
+  type: TXT
+  value: f43a54836a
 _h323cs._tcp.px:
   ttl: 1
   type: SRV
