@@ -90,6 +90,10 @@ _github-challenge-hackclub:
 - ttl: 1
   type: TXT
   value: 3bb54b8627
+_github-challenge-HackClubSKNCOE.skn:
+- ttl: 1
+  type: TXT
+  value: 3b8248b782
 _github-challenge-rahs-hackclub.rahs:
 - ttl: 1
   type: TXT
