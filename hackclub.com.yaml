@@ -211,7 +211,7 @@ api2:
   value: tetrahedral-gooseberry-aady3np0p0xldlvl6d7ik0ld.herokudns.com.
 apply:
   type: CNAME
-  value: apply-hackclub.netlify.com.
+  value: cname.vercel-dns.com.
 archived.guide:
   ttl: 1
   type: CNAME
