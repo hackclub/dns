@@ -1,7 +1,7 @@
 ---
 '':
 - type: A
-  value: 76.76.21.21.
+  value: 76.76.21.21
 '*':
   type: CNAME
   value: proxy.servers.hackclub.com.
