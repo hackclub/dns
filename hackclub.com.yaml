@@ -81,7 +81,7 @@ _dmarc:
 _github-challenge-HackClubSKNCOE.skn:
 - ttl: 1
   type: TXT
-  value: 3b8248b782
+  value: b50f4fc353
 _github-challenge-Hackclub-PRC.prc:
 - ttl: 1
   type: TXT
