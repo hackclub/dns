@@ -689,6 +689,10 @@ smus:
 - ttl: 1
   type: CNAME
   value: smushackclub.github.io.
+som-hardware-closed:
+- ttl: 1
+  type: CNAME
+  value: nifty-stonebraker-d6d007.netlify.app.
 spp:
 - ttl: 1
   type: CNAME
