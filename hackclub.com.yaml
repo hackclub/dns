@@ -491,6 +491,10 @@ laslomas:
 - ttl: 1
   type: CNAME
   value: mystifying-torvalds-f8e697.netlify.com.
+leap:
+- ttl: 1
+  type: CNAME
+  value: orpheus-leap.netlify.app.
 mail:
 - ttl: 1
   type: MX
