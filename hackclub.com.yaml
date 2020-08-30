@@ -398,23 +398,10 @@ finder:
   ttl: 1
   type: CNAME
   value: finder.netlify.com.
-fnt._domainkey:
-- ttl: 1
-  type: TXT
-  value: k=rsa\; t=s\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDAXHru7AQSRBIL6KnEIw/M+GsE8iXtCFOahhNng/5lxVq4rRY2mu/nFKmfGZHXxVXsCYNHwXAkLMcDWIwpaufeSY6tfp0YqGZaTaNT3yDvAU8Xf3f3SQF6Wtm5cM4RPVIOTBuIlU78tpacwGyTwLPDXJxBuTB9d8ee5yt8NLLOkwIDAQAB
 fremont:
 - ttl: 1
   type: CNAME
   value: www.fhsprogramming.com.
-front-mail:
-- ttl: 1
-  type: TXT
-  value: v=spf1 include:sendgrid.net ~all
-- ttl: 1
-  type: MX
-  values:
-  - exchange: 100 mx.sendgrid.net.
-    preference: 1
 gdynia:
 - ttl: 1
   type: CNAME
