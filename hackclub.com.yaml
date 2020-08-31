@@ -413,7 +413,7 @@ front-mail:
 - ttl: 1
   type: MX
   values:
-  - exchange: 100 mx.sendgrid.net.
+  - exchange: mx.sendgrid.net.
     preference: 1
 gdynia:
 - ttl: 1
