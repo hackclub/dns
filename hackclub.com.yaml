@@ -494,7 +494,7 @@ laslomas:
 leap:
 - ttl: 1
   type: CNAME
-  value: orpheus-leap.netlify.app.
+  value: cname.vercel-dns.com.
 mail:
 - ttl: 1
   type: MX
