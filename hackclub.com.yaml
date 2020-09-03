@@ -494,11 +494,11 @@ laslomas:
 leap:
 - ttl: 1
   type: CNAME
-  value: orpheus-leap.netlify.app.
+  value: cname.vercel-dns.com.
 list:
-  - ttl: 1
-    type: CNAME
-    value: HackClubSKNCOE.github.io.  
+- ttl: 1
+  type: CNAME
+  value: HackClubSKNCOE.github.io.
 mail:
 - ttl: 1
   type: MX
@@ -718,6 +718,10 @@ statehigh:
 - ttl: 1
   type: CNAME
   value: schacks.netlify.com.
+status:
+- ttl: 1
+  type: CNAME
+  value: dashboards.checklyhq.com.
 streaks:
 - ttl: 1
   type: CNAME
@@ -840,5 +844,3 @@ zapdos.servers:
 - ttl: 1
   type: A
   value: 45.79.138.244
-
-  
