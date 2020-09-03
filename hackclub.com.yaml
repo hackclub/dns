@@ -495,6 +495,10 @@ leap:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+list:
+- ttl: 1
+  type: CNAME
+  value: HackClubSKNCOE.github.io.
 mail:
 - ttl: 1
   type: MX
