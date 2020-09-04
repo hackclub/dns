@@ -293,6 +293,10 @@ chapters:
   ttl: 1
   type: CNAME
   value: comparative-echidna-7grmrhvb3l980vdmg6f0vuu7.herokudns.com.
+christinaday2020:
+- ttl: 3600
+  type: CNAME
+  value: hackclub.github.io.
 churchill:
 - ttl: 1
   type: CNAME
