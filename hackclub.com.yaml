@@ -297,6 +297,10 @@ churchill:
 - ttl: 1
   type: CNAME
   value: hackclub-ej5rl3bqj.now.sh.
+christinaday2020:
+- ttl: 3600
+  type: CNAME
+  value: hackclub.github.io.
 ciudalcampo:
 - ttl: 1
   type: CNAME
