@@ -518,6 +518,10 @@ mailo._domainkey.testing.mail:
   ttl: 1
   type: TXT
   value: k=rsa
+malagon:
+- ttl: 1
+  type: CNAME
+  value: hackclubmalagon.netlify.app.
 markdown:
 - ttl: 1
   type: CNAME
