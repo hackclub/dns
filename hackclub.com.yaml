@@ -455,14 +455,14 @@ hackathons:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
-hackcraft:
-  ttl: 1
-  type: A
-  value: 173.208.140.126
 hackbox:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+hackcraft:
+  ttl: 1
+  type: A
+  value: 173.208.140.126
 hackstore:
   ttl: 1
   type: CNAME
