@@ -78,6 +78,10 @@ _dmarc:
   type: TXT
   value: v=DMARC1\; p=none\; rua=mailto:tbqldgpy@ag.dmarcian.com\; ruf=mailto:tbqldgpy@fr.dmarcian.com\;
     fo=1
+_github-challenge-HackClub-TIST.tist:
+- ttl: 1
+  type: TXT
+  value: a642a04930
 _github-challenge-HackClubSKNCOE.skn:
 - ttl: 1
   type: TXT
@@ -792,6 +796,10 @@ theme:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+tist:
+  ttl: 1
+  type: CNAME
+  value: HackClub-TIST.github.io.
 titanhacks:
 - ttl: 1
   type: CNAME
