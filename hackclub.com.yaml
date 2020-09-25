@@ -86,6 +86,10 @@ _github-challenge-Hackclub-PRC.prc:
 - ttl: 1
   type: TXT
   value: 26e02b51f5
+_github-challenge-HackClub-TIST.tist:
+- ttl: 1
+  type: TXT
+  value: a642a04930
 _github-challenge-hackclub:
 - ttl: 1
   type: TXT
@@ -625,6 +629,10 @@ prc:
   ttl: 1
   type: CNAME
   value: hackclub-prc.github.io.
+tist:
+  ttl: 1
+  type: CNAME
+  value: HackClub-TIST.github.io.
 proxy.servers:
   ttl: 1
   type: A
