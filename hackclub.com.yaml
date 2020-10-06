@@ -801,9 +801,27 @@ theme:
   type: CNAME
   value: cname.vercel-dns.com.
 tist:
-  ttl: 1
-  type: CNAME
-  value: HackClub-TIST.github.io.
+- ttl: 1
+  type: A
+  value: 185.199.111.153
+- ttl: 3600
+  type: TXT
+  values: 
+  - google-site-verification=lwxLcm8yYFFYkHdZxXUoO00wJ48SCNPRn6ZdAhKoHjA
+  - v=spf1 include:_spf.google.com ~all
+- ttl: 3600
+  type: MX
+  values:
+  - exchange: aspmx.l.google.com.
+    preference: 1
+  - exchange: alt1.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt2.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt3.aspmx.l.google.com.
+    preference: 10
+  - exchange: alt4.aspmx.l.google.com.
+    preference: 10
 titanhacks:
 - ttl: 1
   type: CNAME
