@@ -804,12 +804,12 @@ tist:
   ttl: 1
   type: CNAME
   value: HackClub-TIST.github.io.
-- ttl: 3600
+- ttl: 1
   type: TXT
   values: 
   - google-site-verification=lwxLcm8yYFFYkHdZxXUoO00wJ48SCNPRn6ZdAhKoHjA
   - v=spf1 include:_spf.google.com ~all
-- ttl: 3600
+- ttl: 1
   type: MX
   values:
   - exchange: aspmx.l.google.com.
