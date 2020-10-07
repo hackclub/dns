@@ -28,6 +28,7 @@
   - segment-site-verification=ED0mCO5yaFBc40hEvipDG5OiON3Nemh2
   - stripe-verification=5bdd0e2475b12744bfe1f778ac419f917800d476fd498ae2682ecd161d162c64
   - 61220A24D7 # From Expensify
+  - 2610E0D36E # From Expensify
 "*":
   ttl: 1
   type: CNAME
