@@ -605,7 +605,7 @@ numberwang:
 p2p:
   ttl: 1
   type: CNAME
-  value: p2phackclub.netlify.com.
+  value: p2phack.club.
 pack:
   ttl: 1
   type: CNAME
