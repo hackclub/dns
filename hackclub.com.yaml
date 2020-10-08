@@ -508,6 +508,10 @@ leap:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+leap-manual:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 list:
 - ttl: 1
   type: TXT
