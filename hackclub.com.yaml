@@ -873,3 +873,7 @@ zapdos.servers:
 - ttl: 1
   type: A
   value: 45.79.138.244
+orpheushacks:
+- ttl: 1
+  type: CNAME
+  value: 46.101.185.129.
