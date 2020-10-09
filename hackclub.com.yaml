@@ -808,7 +808,7 @@ theme:
 tist:
 - ttl: 1
   type: A
-  value: 185.199.111.153
+  value: 104.198.14.52
 titanhacks:
 - ttl: 1
   type: CNAME
