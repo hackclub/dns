@@ -808,7 +808,25 @@ theme:
 tist:
 - ttl: 1
   type: A
-  value: 185.199.111.153
+  value: 104.198.14.52
+- ttl: 1
+  type: TXT
+  value: 
+  - v=spf1 include:_spf.google.com ~all
+  - google-site-verification=lwxLcm8yYFFYkHdZxXUoO00wJ48SCNPRn6ZdAhKoHjA
+- ttl: 1
+  type: MX
+  values:
+  - exchange: aspmx.l.google.com.
+    preference: 1
+  - exchange: alt1.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt2.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt3.aspmx.l.google.com.
+    preference: 10
+  - exchange: alt4.aspmx.l.google.com.
+    preference: 10
 titanhacks:
 - ttl: 1
   type: CNAME
