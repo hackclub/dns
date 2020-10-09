@@ -811,7 +811,7 @@ tist:
   value: 104.198.14.52
 - ttl: 3600
   type: TXT
-  value:
+  values:
   - v=spf1 include:_spf.google.com ~all
   - google-site-verification=lwxLcm8yYFFYkHdZxXUoO00wJ48SCNPRn6ZdAhKoHjA
 titanhacks:
