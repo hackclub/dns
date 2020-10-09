@@ -805,10 +805,6 @@ theme:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
-tist:
-- ttl: 1
-  type: CNAME
-  value: hackclub-tist.github.io.
 titanhacks:
 - ttl: 1
   type: CNAME
