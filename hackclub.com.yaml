@@ -809,6 +809,11 @@ tist:
 - ttl: 1
   type: A
   value: 104.198.14.52
+- ttl: 3600
+  type: TXT
+  value:
+  - v=spf1 include:_spf.google.com ~all
+  - google-site-verification=lwxLcm8yYFFYkHdZxXUoO00wJ48SCNPRn6ZdAhKoHjA
 titanhacks:
 - ttl: 1
   type: CNAME
