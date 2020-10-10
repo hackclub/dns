@@ -813,7 +813,7 @@ tist:
   type: TXT
   values:
   - v=spf1 include:_spf.google.com ~all
-  - google-site-verification=lwxLcm8yYFFYkHdZxXUoO00wJ48SCNPRn6ZdAhKoHjA
+  - google-site-verification=RXAYNylPkJjovWdmpddTpvXzCojzqI4C0JdEjlYtd9U
 - ttl: 3600
   type: MX
   values:
