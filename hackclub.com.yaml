@@ -890,7 +890,7 @@ workshops:
 www.tist:
 - ttl: 1
   type: CNAME
-  value: hackclubtist.netlify.app.
+  value: tist.hackclub.com.
 zachday:
 - ttl: 1
   type: CNAME
