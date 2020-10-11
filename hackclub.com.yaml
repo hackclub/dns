@@ -214,6 +214,10 @@ api:
   ttl: 1
   type: CNAME
   value: api.hackclub.com.herokudns.com.
+api.ctrl-alt-tec:
+- ttl: 1
+  type: CNAME
+  value: ctrl-alt-tec.herokuapp.com.
 api2:
   ttl: 1
   type: CNAME
