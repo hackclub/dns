@@ -634,6 +634,10 @@ postal.servers:
   ttl: 1
   type: A
   value: 23.92.24.6
+prc:
+ - ttl: 1
+   type: A
+   value: 104.198.14.52
 proxy.servers:
   ttl: 1
   type: A
