@@ -221,7 +221,7 @@ api2:
 api.ctrl-alt-tec:
 - ttl: 1
   type: CNAME
-  value: ctrl-alt-tec.herokuapp.com.
+  value: larval-kiwi-v6dahm6je7ohxt5mek02on49.herokudns.com.
 apply:
   type: CNAME
   value: cname.vercel-dns.com.
