@@ -643,6 +643,19 @@ prc:
    values:
    - v=spf1 include:_spf.google.com ~all
    - google-site-verification=ZGebQ9CxwNSuLb1foBdmD2DBlh8exTH9aVgSJDAAk4A
+ - ttl: 3600
+   type: MX
+   values:
+   - exchange: aspmx.l.google.com.
+     preference: 1
+   - exchange: alt1.aspmx.l.google.com.
+     preference: 5
+   - exchange: alt2.aspmx.l.google.com.
+     preference: 5
+   - exchange: alt3.aspmx.l.google.com.
+     preference: 10
+   - exchange: alt4.aspmx.l.google.com.
+     preference: 10
 proxy.servers:
   ttl: 1
   type: A
