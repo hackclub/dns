@@ -638,6 +638,11 @@ prc:
  - ttl: 1
    type: A
    value: 104.198.14.52
+ - ttl: 3600
+   type: TXT
+   values:
+   - v=spf1 include:_spf.google.com ~all
+   - google-site-verification=ZGebQ9CxwNSuLb1foBdmD2DBlh8exTH9aVgSJDAAk4A
 proxy.servers:
   ttl: 1
   type: A
