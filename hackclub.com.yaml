@@ -610,6 +610,10 @@ numberwang:
   ttl: 1
   type: CNAME
   value: impactdns.techby.org.
+orpheushacks: # Harrison Katz automatically wins for adding the DNS entry - thats how it works, right?
+- ttl: 1
+  type: A
+  value: 46.101.185.129
 p2p:
   ttl: 1
   type: CNAME
