@@ -921,3 +921,8 @@ zapdos.servers:
 - ttl: 1
   type: A
   value: 45.79.138.244
+cucek:
+- ttl: 1
+  type: CNAME
+  value: hccucek.netlify.app
+  
