@@ -343,6 +343,10 @@ ctrlalttec:
     preference: 10
   - exchange: alt4.aspmx.l.google.com.
     preference: 10
+cucek:
+- ttl: 1
+  type: A
+  value: 104.198.14.52
 customizer:
 - ttl: 1
   type: CNAME
@@ -920,9 +924,4 @@ zachday:
 zapdos.servers:
 - ttl: 1
   type: A
-  value: 45.79.138.244
-cucek:
-- ttl: 1
-  type: CNAME
-  value: hccucek.netlify.app
-  
+  value: 45.79.138.244  
