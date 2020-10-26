@@ -28,6 +28,7 @@
   - segment-site-verification=ED0mCO5yaFBc40hEvipDG5OiON3Nemh2
   - stripe-verification=5bdd0e2475b12744bfe1f778ac419f917800d476fd498ae2682ecd161d162c64
   - 61220A24D7 # From Expensify
+  - 2610E0D36E # From Expensify
 "*":
   ttl: 1
   type: CNAME
@@ -78,6 +79,10 @@ _dmarc:
   type: TXT
   value: v=DMARC1\; p=none\; rua=mailto:tbqldgpy@ag.dmarcian.com\; ruf=mailto:tbqldgpy@fr.dmarcian.com\;
     fo=1
+_github-challenge-HackClub-TIST.tist:
+- ttl: 1
+  type: TXT
+  value: a642a04930
 _github-challenge-HackClubSKNCOE.skn:
 - ttl: 1
   type: TXT
@@ -213,6 +218,10 @@ api2:
   ttl: 1
   type: CNAME
   value: tetrahedral-gooseberry-aady3np0p0xldlvl6d7ik0ld.herokudns.com.
+api.ctrl-alt-tec:
+- ttl: 1
+  type: CNAME
+  value: larval-kiwi-v6dahm6je7ohxt5mek02on49.herokudns.com.
 apply:
   type: CNAME
   value: cname.vercel-dns.com.
@@ -503,6 +512,10 @@ leap:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+leap-manual:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 list:
 - ttl: 1
   type: TXT
@@ -518,6 +531,10 @@ mail:
 - ttl: 1
   type: TXT
   value: v=spf1 include:mailgun.org ~all
+mail-services:
+  ttl: 1
+  type: CNAME
+  value: tapered-cliffs-y85zzxrnmb9w87456z5vvlpy.herokudns.com.
 mailo._domainkey.testing.mail:
   ttl: 1
   type: TXT
@@ -593,10 +610,14 @@ numberwang:
   ttl: 1
   type: CNAME
   value: impactdns.techby.org.
+orpheushacks: # Harrison Katz automatically wins for adding the DNS entry - thats how it works, right?
+- ttl: 1
+  type: A
+  value: 46.101.185.129
 p2p:
   ttl: 1
   type: CNAME
-  value: p2phackclub.netlify.com.
+  value: p2phack.club.
 pack:
   ttl: 1
   type: CNAME
@@ -622,9 +643,27 @@ postal.servers:
   type: A
   value: 23.92.24.6
 prc:
-  ttl: 1
-  type: CNAME
-  value: hackclub-prc.github.io.
+ - ttl: 1
+   type: A
+   value: 104.198.14.52
+ - ttl: 3600
+   type: TXT
+   values:
+   - v=spf1 include:_spf.google.com ~all
+   - google-site-verification=ZGebQ9CxwNSuLb1foBdmD2DBlh8exTH9aVgSJDAAk4A
+ - ttl: 3600
+   type: MX
+   values:
+   - exchange: aspmx.l.google.com.
+     preference: 1
+   - exchange: alt1.aspmx.l.google.com.
+     preference: 5
+   - exchange: alt2.aspmx.l.google.com.
+     preference: 5
+   - exchange: alt3.aspmx.l.google.com.
+     preference: 10
+   - exchange: alt4.aspmx.l.google.com.
+     preference: 10
 proxy.servers:
   ttl: 1
   type: A
@@ -792,6 +831,28 @@ theme:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+tist:
+- ttl: 1
+  type: A
+  value: 104.198.14.52
+- ttl: 3600
+  type: TXT
+  values:
+  - v=spf1 include:_spf.google.com ~all
+  - google-site-verification=RXAYNylPkJjovWdmpddTpvXzCojzqI4C0JdEjlYtd9U
+- ttl: 3600
+  type: MX
+  values:
+  - exchange: aspmx.l.google.com.
+    preference: 1
+  - exchange: alt1.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt2.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt3.aspmx.l.google.com.
+    preference: 10
+  - exchange: alt4.aspmx.l.google.com.
+    preference: 10
 titanhacks:
 - ttl: 1
   type: CNAME
@@ -852,6 +913,10 @@ workshops:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+www.tist:
+- ttl: 1
+  type: CNAME
+  value: tist.hackclub.com.
 zachday:
 - ttl: 1
   type: CNAME
