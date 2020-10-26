@@ -488,6 +488,10 @@ india:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+indiablog:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 jg2ygmrfby4vhxve3cozh4yz3xc2ul5y._domainkey:
 - ttl: 1
   type: CNAME
