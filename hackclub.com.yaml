@@ -765,6 +765,10 @@ smus:
 - ttl: 1
   type: CNAME
   value: smushackclub.github.io.
+som-mail-system:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 spp:
 - ttl: 1
   type: CNAME
