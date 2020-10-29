@@ -496,6 +496,10 @@ indiablog:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+issteggya:
+- ttl: 1
+  type: CNAME
+  value: issteggya.hkatzdev.repl.co..
 jg2ygmrfby4vhxve3cozh4yz3xc2ul5y._domainkey:
 - ttl: 1
   type: CNAME
