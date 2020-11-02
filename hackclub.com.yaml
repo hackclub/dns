@@ -617,7 +617,7 @@ numberwang:
 orpheushacks: # Harrison Katz automatically wins for adding the DNS entry - thats how it works, right?
 - ttl: 1
   type: CNAME
-  value: orpheushacks.vercel.app.
+  value: orpheushacks2.vercel.app.
 p2p:
   ttl: 1
   type: CNAME
