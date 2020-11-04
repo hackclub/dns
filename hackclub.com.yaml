@@ -934,7 +934,9 @@ zapdos.servers:
   type: A
   value: 45.79.138.244  
   
-  nigeria.hackclub.com:
+  nigeria:
   - ttl: 1
     type: CNAME
-    value: https://hack9ja.vercel.app.
+    value: https://hack9ja.vercel.app
+    
+    
