@@ -602,6 +602,10 @@ new:
   ttl: 1
   type: CNAME
   value: hackclub.netlify.com.
+nigeria:
+  ttl: 1
+  type: CNAME
+  value: nigerian-site.hackclub.dev
 nioflb:
 - ttl: 1
   type: A
