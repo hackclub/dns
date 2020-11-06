@@ -11,7 +11,7 @@ jobs:
         with:
           python-version: '2.7'
       - name: Install OctoDNS
-        run: pip install octodns
+        run: pip install 'octodns==0.9.10'
       - name: Do a dry run
         run: ./bin/dry-run
         env:
