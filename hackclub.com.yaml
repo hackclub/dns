@@ -605,7 +605,7 @@ new:
 nigeria:
   ttl: 1
   type: CNAME
-  value: nigerian-site.hackclub.dev
+  value: cname.vercel-dns.com
 nioflb:
 - ttl: 1
   type: A
