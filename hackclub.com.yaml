@@ -795,7 +795,7 @@ streaks:
   value: adoring-brown-d90455.netlify.app.
 summer:
 - ttl: 1
-  type: ALIAS
+  type: CNAME
   value: cname.vercel-dns.com.
 - ttl: 1
   type: TXT
