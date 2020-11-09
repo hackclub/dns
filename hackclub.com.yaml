@@ -614,14 +614,14 @@ nioflb:
 - ttl: 1
   type: A
   value: 190.106.131.222
-notebook:
-  ttl: 1
-  type: CNAME
-  value: angular-blueberry-blxz54b9xvb0lyzryhtwl8lg.herokudns.com.
 numberwang:
   ttl: 1
   type: CNAME
   value: impactdns.techby.org.
+notebook:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 orpheushacks: # Harrison Katz automatically wins for adding the DNS entry - thats how it works, right?
 - ttl: 1
   type: CNAME
@@ -873,6 +873,10 @@ titanhacks:
 - ttl: 1
   type: CNAME
   value: titanhacks.club.
+toolbox:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 turner:
 - ttl: 1
   type: A
