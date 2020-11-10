@@ -614,14 +614,14 @@ nioflb:
 - ttl: 1
   type: A
   value: 190.106.131.222
-numberwang:
-  ttl: 1
-  type: CNAME
-  value: impactdns.techby.org.
 notebook:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+numberwang:
+  ttl: 1
+  type: CNAME
+  value: impactdns.techby.org.
 orpheushacks: # Harrison Katz automatically wins for adding the DNS entry - thats how it works, right?
 - ttl: 1
   type: CNAME
