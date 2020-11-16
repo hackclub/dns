@@ -598,6 +598,10 @@ mw:
 - ttl: 1
   type: CNAME
   value: Home.
+nestm:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 network.scrapbook:
   ttl: 1
   type: CNAME
