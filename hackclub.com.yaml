@@ -438,7 +438,7 @@ gaynormccown:
 - type: ALIAS
   value: gaynormccown.netlify.app.
 - ttl: 1
- type: CNAME
+  type: CNAME
   value: gaynormccown.netlify.app.
 gdynia:
 - ttl: 1
