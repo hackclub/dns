@@ -1,6 +1,4 @@
 ---
-
-
 '':
 - type: ALIAS
   value: cname.vercel-dns.com.
