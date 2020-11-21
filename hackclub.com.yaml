@@ -957,7 +957,6 @@ zapdos.servers:
 - ttl: 1
   type: A
   value: 45.79.138.244  
-  
 catlin:
 - ttl: 1
   type: CNAME
