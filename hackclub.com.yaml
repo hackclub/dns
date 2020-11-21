@@ -959,6 +959,6 @@ zapdos.servers:
   value: 45.79.138.244  
   
 catlin:
-  - ttl: 1
-    type: CNAME
-    value: cgmsp.kazmal.tech.
+- ttl: 1
+  type: CNAME
+  value: cgmsp.kazmal.tech.
