@@ -435,11 +435,10 @@ front-mail:
   - exchange: mx.sendgrid.net.
     preference: 1
 gaynormccown:
-- ttl: 1
-  type: CNAME
+- type: ALIAS
   value: gaynormccown.netlify.app.
 - ttl: 1
-  type: ALIAS
+ type: CNAME
   value: gaynormccown.netlify.app.
 gdynia:
 - ttl: 1
