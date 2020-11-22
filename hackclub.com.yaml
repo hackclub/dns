@@ -79,6 +79,10 @@ _dmarc:
   type: TXT
   value: v=DMARC1\; p=none\; rua=mailto:tbqldgpy@ag.dmarcian.com\; ruf=mailto:tbqldgpy@fr.dmarcian.com\;
     fo=1
+_github-challenge-GaynorMcCown.gaynormccown.hackclub.com:
+- ttl: 1
+  type: TXT
+  value: 03c11eee8f
 _github-challenge-HackClub-TIST.tist:
 - ttl: 1
   type: TXT
@@ -440,9 +444,6 @@ gaynormccown:
 - ttl: 1
   type: CNAME
   value: gaynormccown.netlify.app.
-- ttl: 1
-  type: TXT
-  value: 03c11eee8f
 gdynia:
 - ttl: 1
   type: CNAME
