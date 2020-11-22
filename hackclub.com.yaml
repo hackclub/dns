@@ -727,7 +727,7 @@ s2._domainkey:
 saleh:
   ttl: 1
   type: CNAME
-  value: aliasaleh.netlify.app
+  value: aliasaleh.netlify.app.
 santa:
   ttl: 1
   type: CNAME
