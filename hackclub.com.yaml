@@ -284,6 +284,10 @@ calendar:
 camp-apply:
   type: CNAME
   value: hackcamp-apply.netlify.com.
+catlin:
+- ttl: 1
+  type: CNAME
+  value: cgmsp.kazmal.tech.
 cca:
 - ttl: 1
   type: CNAME
