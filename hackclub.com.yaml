@@ -291,7 +291,7 @@ camp-apply:
 catlin:
 - ttl: 1
   type: CNAME
-  value: cgmsp.kazmal.tech.
+  value: catlin.netlify.app.
 cca:
 - ttl: 1
   type: CNAME
