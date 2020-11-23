@@ -446,14 +446,10 @@ gaynormccown:
   value: gaynormccown.netlify.app.
 - ttl: 1
   type: TXT
-  value: v=spf1 include:spf.improvmx.com ~all
+  value: google-site-verification=TcGeIFRxxqhW-iuc52dgngRerfT_can9PuSbUN9zClw
 - ttl: 1
   type: MX
   values:
-  - exchange: mx1.improvmx.com.
-    preference: 10
-  - exchange: mx2.improvmx.com.
-    preference: 20
   - exchange: aspmx.l.google.com.
     preference: 1
   - exchange: alt1.aspmx.l.google.com.
