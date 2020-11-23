@@ -772,7 +772,7 @@ shop:
 shop.gaynormccown:
   ttl: 1
   type: CNAME
-  value: shopgaynormccown.netlify.app
+  value: shopgaynormccown.netlify.app.
 singgasana:
   ttl: 1
   type: CNAME
