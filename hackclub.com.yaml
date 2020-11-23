@@ -1,61 +1,61 @@
 ---
 '':
-- type: ALIAS
-  value: cname.vercel-dns.com.
-- ttl: 1
-  type: MX
-  values:
-  - exchange: aspmx.l.google.com.
-    preference: 1
-  - exchange: alt1.aspmx.l.google.com.
-    preference: 5
-  - exchange: alt2.aspmx.l.google.com.
-    preference: 5
-  - exchange: aspmx2.googlemail.com.
-    preference: 10
-  - exchange: aspmx3.googlemail.com.
-    preference: 10
-- ttl: 1
-  type: TXT
-  values:
-  - ALIAS for hackclub.com.herokudns.com
-  - google-site-verification=U8tZZVtnG2hU2CIde1FeMzGJM7d9yYUfuCKYwWVYeGo
-  - google-site-verification=haP-NAN6fjhxiSxwB7HeLmeHnUI7MsXARShhPBKSn6A
-  - google-site-verification=pheoxaglA5iew_VN0RUE-eWf6lL9FlqC0vROqUGlhiA
-  - google-site-verification=w6ZIJvwwXDKPKLvV_RZbxLF6vb0xfJoRidbw5LeiUcE
-  - v=spf1 include:_spf.google.com ~all
-  - AA418B02F6
-  - segment-site-verification=ED0mCO5yaFBc40hEvipDG5OiON3Nemh2
-  - stripe-verification=5bdd0e2475b12744bfe1f778ac419f917800d476fd498ae2682ecd161d162c64
-  - 61220A24D7 # From Expensify
-  - 2610E0D36E # From Expensify
+  - type: ALIAS
+    value: cname.vercel-dns.com.
+  - type: MX
+    ttl: 1
+    values:
+    - exchange: aspmx.l.google.com.
+      preference: 1
+    - exchange: alt1.aspmx.l.google.com.
+      preference: 5
+    - exchange: alt2.aspmx.l.google.com.
+      preference: 5
+    - exchange: aspmx2.googlemail.com.
+      preference: 10
+    - exchange: aspmx3.googlemail.com.
+      preference: 10
+  - type: TXT
+    ttl: 1
+    values:
+    - ALIAS for hackclub.com.herokudns.com
+    - google-site-verification=U8tZZVtnG2hU2CIde1FeMzGJM7d9yYUfuCKYwWVYeGo
+    - google-site-verification=haP-NAN6fjhxiSxwB7HeLmeHnUI7MsXARShhPBKSn6A
+    - google-site-verification=pheoxaglA5iew_VN0RUE-eWf6lL9FlqC0vROqUGlhiA
+    - google-site-verification=w6ZIJvwwXDKPKLvV_RZbxLF6vb0xfJoRidbw5LeiUcE
+    - v=spf1 include:_spf.google.com ~all
+    - AA418B02F6
+    - segment-site-verification=ED0mCO5yaFBc40hEvipDG5OiON3Nemh2
+    - stripe-verification=5bdd0e2475b12744bfe1f778ac419f917800d476fd498ae2682ecd161d162c64
+    - 61220A24D7 # From Expensify
+    - 2610E0D36E # From Expensify
 "*":
-  ttl: 1
   type: CNAME
+  ttl: 1
   value: proxy.servers.hackclub.com.
 "*.hosted":
-  ttl: 1
   type: A
+  ttl: 1
   value: 173.208.140.124
 Cabbache:
-- ttl: 1
   type: CNAME
+  ttl: 1
   value: cabbache.ddnsking.com.
 IAW:
-- ttl: 1
   type: CNAME
+  ttl: 1
   value: iawhackclub.netlify.com.
 MaggieWalker:
-- ttl: 1
   type: CNAME
+  ttl: 1
   value: Home.
 Map:
-- ttl: 1
   type: CNAME
+  ttl: 1
   value: hack-club-map.netlify.com.
 _496c10c564509e5030203691afc939ff.assets:
-- ttl: 1
   type: CNAME
+  ttl: 1
   value: _41e1bb1944485ecaba9d0990915cded3.nhqijqilxf.acm-validations.aws.
 _acme-challenge:
   type: TXT
