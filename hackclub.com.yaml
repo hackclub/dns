@@ -79,7 +79,7 @@ _dmarc:
   type: TXT
   value: v=DMARC1\; p=none\; rua=mailto:tbqldgpy@ag.dmarcian.com\; ruf=mailto:tbqldgpy@fr.dmarcian.com\;
     fo=1
-_github-challenge-GaynorMcCown.gaynormccown.hackclub.com.	:
+_github-challenge-GaynorMcCown.gaynormccown.hackclub.com:
 - ttl: 1
   type: TXT
   value: 03c11eee8f
@@ -447,6 +447,10 @@ gaynormccown:
 - ttl: 1
   type: MX
   values:
+  - exchange: mx1.improvmx.com.
+    preference: 10
+  - exchange: mx2.improvmx.com.
+    preference: 20
   - exchange: aspmx.l.google.com.
     preference: 1
   - exchange: alt1.aspmx.l.google.com.
