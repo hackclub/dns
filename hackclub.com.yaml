@@ -440,10 +440,6 @@ front-mail:
   values:
   - exchange: mx.sendgrid.net.
     preference: 1
-gaynormccown:
-- ttl: 1
-  type: CNAME
-  value: gaynormccown.netlify.app.
 gdynia:
 - ttl: 1
   type: CNAME
