@@ -442,7 +442,7 @@ front-mail:
     preference: 1
 gaynormccown:
 - ttl: 1
-  type: CNAME
+  type: ALIAS
   value: gaynormccown.netlify.app.
 - ttl: 1
   type: TXT
