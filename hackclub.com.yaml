@@ -777,6 +777,10 @@ shop:
     preference: 10
   - exchange: aspmx3.googlemail.com.
     preference: 10
+shop.gaynormccown:
+  ttl: 1
+  type: CNAME
+  value: shopgaynormccown.netlify.app.
 singgasana:
   ttl: 1
   type: CNAME
