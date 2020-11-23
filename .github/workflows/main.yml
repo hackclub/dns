@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: YAML Link
+name: YAML Lint
 
 # Controls when the action will run. 
 on: [push]
@@ -20,3 +20,8 @@ jobs:
       # Runs a single command using the runners shell
       - name: YAML Lint
         uses: ibiqlik/action-yamllint@v3.0.0
+        with:
+          config_data: |
+            rules:
+              document-start: disable
+              indentation: {spaces: consistent}
