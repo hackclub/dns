@@ -444,6 +444,26 @@ gaynormccown:
 - ttl: 1
   type: ALIAS
   value: gaynormccown.netlify.app.
+- ttl: 1
+ type: TXT
+ value: v=spf1 include:spf.improvmx.com ~all
+- ttl: 1
+ type: MX
+ values:
+ - exchange: mx1.improvmx.com.
+   preference: 10
+ - exchange: mx2.improvmx.com.
+   preference: 20
+ - exchange: aspmx.l.google.com.
+   preference: 1
+ - exchange: alt1.aspmx.l.google.com.
+   preference: 5
+ - exchange: alt2.aspmx.l.google.com.
+   preference: 5
+ - exchange: alt3.aspmx.l.google.com.
+   preference: 10
+ - exchange: alt4.aspmx.l.google.com.
+   preference: 10
 gdynia:
 - ttl: 1
   type: CNAME
