@@ -528,6 +528,10 @@ jg2ygmrfby4vhxve3cozh4yz3xc2ul5y._domainkey:
 - ttl: 1
   type: CNAME
   value: jg2ygmrfby4vhxve3cozh4yz3xc2ul5y.dkim.custom-email-domain.stripe.com.
+jobs:
+- ttl: 1
+  type: A
+  value: 96.126.108.99
 jv:
 - ttl: 1
   type: CNAME
