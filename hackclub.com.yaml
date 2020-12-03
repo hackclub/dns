@@ -265,6 +265,10 @@ bisv:
 - ttl: 1
   type: CNAME
   value: pkalavath.github.io.
+bkbiet:
+  ttl: 1
+  type: CNAME
+  value: bkbiethackclub.netlify.com.  
 blog.ctrl-alt-tec:
 - ttl: 1
   type: CNAME
@@ -387,10 +391,6 @@ earlybird:
   ttl: 1
   type: CNAME
   value: early-bird-hackclub.netlify.com.
-bkbiet:
-  ttl: 1
-  type: CNAME
-  value: bkbiethackclub.netlify.com.
 editor:
   ttl: 1
   type: CNAME
