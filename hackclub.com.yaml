@@ -387,6 +387,10 @@ earlybird:
   ttl: 1
   type: CNAME
   value: early-bird-hackclub.netlify.com.
+bkbiet:
+  ttl: 1
+  type: CNAME
+  value: bkbiethackclub.netlify.com.
 editor:
   ttl: 1
   type: CNAME
