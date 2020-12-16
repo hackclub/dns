@@ -957,6 +957,10 @@ vmc:
 - ttl: 1
   type: A
   value: 173.208.140.125
+warsaw:
+- ttl: 1
+  type: CNAME
+  value: warsaw.hackclub.pl.
 webring:
 - ttl: 1
   type: CNAME
