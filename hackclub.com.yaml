@@ -673,7 +673,7 @@ p2p:
 pack:
   ttl: 1
   type: CNAME
-  value: young-ostrich-yqbbkc3h15jy5pdsccpv278j.herokudns.com.
+  value: cname.vercel-dns.com.
 packages:
   ttl: 1
   type: CNAME
