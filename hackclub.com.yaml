@@ -635,9 +635,14 @@ mw:
   type: CNAME
   value: Home.
 nestm:
-  ttl: 1
-  type: CNAME
+- ttl: 1
+  type: ALIAS
   value: cname.vercel-dns.com.
+- ttl: 1
+  type: TXT
+  values:
+  - google-site-verification=zx9NMOA8WwJ7FlmnASICBEvNzpAMhWSgX2Api6ROjAk
+  - v=spf1 include:_spf.google.com ~all
 network.scrapbook:
   ttl: 1
   type: CNAME
