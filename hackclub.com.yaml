@@ -641,8 +641,8 @@ nestm:
 - ttl: 1
   type: TXT
   values:
-  - google-site-verification=zx9NMOA8WwJ7FlmnASICBEvNzpAMhWSgX2Api6ROjAk
   - v=spf1 include:_spf.google.com ~all
+  - google-site-verification=pCtvSGuNjNBeLVVuwl5Yu1fCllXmREaQubbnHj4oSq0
 network.scrapbook:
   ttl: 1
   type: CNAME
