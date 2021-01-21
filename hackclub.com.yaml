@@ -444,6 +444,10 @@ front-mail:
   values:
   - exchange: mx.sendgrid.net.
     preference: 1
+gary:
+- ttl: 1
+  type: CNAME
+  value: 814876b5-4238-43ea-a4cc-725e0be89e00.repl.co.
 gaynormccown:
 - ttl: 1
   type: ALIAS
