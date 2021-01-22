@@ -540,14 +540,14 @@ jv:
 - ttl: 1
   type: CNAME
   value: awesome-carson-c7b5e3.netlify.com.
-kiit:
-- ttl: 1
-  type: CNAME
-  value: kiithackclub.github.io.
 kf2tzvncx46ahlhuev6kusbvg5hmymau._domainkey:
   ttl: 1
   type: CNAME
   value: kf2tzvncx46ahlhuev6kusbvg5hmymau.dkim.amazonses.com.
+kiit:
+- ttl: 1
+  type: CNAME
+  value: kiithackclub.github.io.
 laslomas:
 - ttl: 1
   type: CNAME
