@@ -617,7 +617,7 @@ mcneil:
 mea:
 - ttl: 1
   type: CNAME
-  value: https://meahackclub.vercel.app.
+  value: https://meahackclub.netlify.app.
 meet:
 - ttl: 1
   type: A
