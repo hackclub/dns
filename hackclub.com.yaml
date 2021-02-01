@@ -614,6 +614,10 @@ mcneil:
 - ttl: 1
   type: A
   value: 70.123.47.120
+mea:
+- ttl: 1
+  type: CNAME
+  value: https://meahackclub.netlify.app.
 meet:
 - ttl: 1
   type: A
