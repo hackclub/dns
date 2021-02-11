@@ -306,6 +306,10 @@ cccs:
 cdn:
   type: CNAME
   value: cname.vercel-dns.com.
+cec:
+- ttl: 1
+  type: CNAME
+  value: clphscec.web.app.
 changelog.bank:
   ttl: 1
   type: CNAME
