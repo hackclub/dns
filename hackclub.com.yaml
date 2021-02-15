@@ -434,7 +434,7 @@ finder:
 flhs-hacks:
 - ttl: 3600
   type: TXT
-  vaue: 
+  values: 
   - google-site-verification=1wPdfUjls-ChtjmE_veo2XJfiKusegqlZLHfsDxWuoM
   - v=spf1 include:_spf.google.com ~all
 - ttl: 3600
