@@ -431,6 +431,25 @@ finder:
   ttl: 1
   type: CNAME
   value: finder.netlify.com.
+flhs-hacks:
+- ttl: 3600
+  type: TXT
+  vaue: 
+  - google-site-verification=1wPdfUjls-ChtjmE_veo2XJfiKusegqlZLHfsDxWuoM
+  - v=spf1 include:_spf.google.com ~all
+- ttl: 3600
+  type: MX
+  values:
+  - exchange: aspmx.l.google.com.
+    preference: 1
+  - exchange: alt1.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt2.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt3.aspmx.l.google.com.
+    preference: 10
+  - exchange: alt4.aspmx.l.google.com.
+    preference: 10
 fnt._domainkey:
 - ttl: 1
   type: TXT
