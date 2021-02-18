@@ -559,6 +559,10 @@ jobs:
 - ttl: 1
   type: A
   value: 96.126.108.99
+js-slash-z:
+- ttl: 1
+  value: enigmatic-fish-c39gdknhp34g7n56zhxrvpf6.herokudns.com.
+  type: CNAME
 jv:
 - ttl: 1
   type: CNAME
