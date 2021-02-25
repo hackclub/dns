@@ -12,6 +12,9 @@
     value: v=spf1 include:mailgun.org ~all
   - type: TXT
     value: v=spf1 include:mailgun.org ~all
+e:
+  type: CNAME
+  value: cname.vercel-dns.com.
 email:
   type: CNAME
   value: mailgun.org.
