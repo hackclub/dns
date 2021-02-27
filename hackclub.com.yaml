@@ -435,11 +435,11 @@ finder:
   ttl: 1
   type: CNAME
   value: finder.netlify.com.
-flhs-hacks:
+flhs:
 - ttl: 3600
   type: TXT
   values: 
-  - google-site-verification=1wPdfUjls-ChtjmE_veo2XJfiKusegqlZLHfsDxWuoM
+  - google-site-verification=A0xGWjiH86GFIwp3kKdwRVCrkc9pCL-su9GGrtYOuGw
   - v=spf1 include:_spf.google.com ~all
 - ttl: 3600
   type: MX
