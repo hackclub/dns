@@ -167,10 +167,6 @@ adastra:
 - ttl: 1
   type: TXT
   value: bit.ly/adastrahacks
-agoura:
-- ttl: 1
-  type: CNAME
-  value: AgouraCSHS.github.io.
 airbridge:
   ttl: 1
   type: CNAME
