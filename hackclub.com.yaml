@@ -1031,10 +1031,6 @@ workshops:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
-www.flhs:
-- ttl: 1
-  type: CNAME
-  value: 15a3885d-947d-470c-909d-3a2b358f9662.repl.co.
 www.tist:
 - ttl: 1
   type: CNAME
