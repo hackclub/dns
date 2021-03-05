@@ -433,7 +433,7 @@ finder:
   value: finder.netlify.com.
 flhs:
 - ttl: 1
-  type: URL
+  type: ALIAS
   value: www.flhs.hackclub.com.
 - ttl: 3600
   type: TXT
