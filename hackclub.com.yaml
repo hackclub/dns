@@ -432,6 +432,9 @@ finder:
   type: CNAME
   value: finder.netlify.com.
 flhs:
+- ttl: 1
+  type: ALIAS
+  value: FLHS-Hack-Club.hackclub2021.repl.co.
 - ttl: 3600
   type: TXT
   values: 
