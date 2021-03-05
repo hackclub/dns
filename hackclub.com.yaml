@@ -434,7 +434,7 @@ finder:
 flhs:
 - ttl: 1
   type: ALIAS
-  value: www.flhs.hackclub.com.
+  value: 15a3885d-947d-470c-909d-3a2b358f9662.repl.co.
 - ttl: 3600
   type: TXT
   values: 
