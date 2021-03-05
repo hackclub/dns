@@ -1031,6 +1031,10 @@ workshops:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+www.flhs:
+- ttl: 1
+  type: CNAME
+  value: FLHS-Hack-Club.hackclub2021.repl.co.
 www.tist:
 - ttl: 1
   type: CNAME
