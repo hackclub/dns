@@ -1011,6 +1011,10 @@ westborough:
 - ttl: 1
   type: CNAME
   value: whs-hackclub.netlify.com.
+wg:
+- ttl: 1
+  type: CNAME
+  value: https://www.notion.so/wghackclub/Walnut-Grove-Hack-Club-09a3cd261245451392b47f383410379d
 whs:
 - ttl: 1
   type: CNAME
