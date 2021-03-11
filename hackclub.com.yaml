@@ -1035,6 +1035,10 @@ www.tist:
 - ttl: 1
   type: CNAME
   value: tist.hackclub.com.
+upa:
+  - ttl: 1
+    type: CNAME
+    value: upahackclub.github.io.
 zachday:
 - ttl: 1
   type: CNAME
@@ -1043,7 +1047,4 @@ zapdos.servers:
 - ttl: 1
   type: A
   value: 45.79.138.244  
-upa:
-  - ttl: 1
-    type: CNAME
-    value: upahackclub.github.io.
+
