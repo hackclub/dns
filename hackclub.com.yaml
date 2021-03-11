@@ -975,6 +975,10 @@ university:
 - ttl: 1
   type: CNAME
   value: developmental-garbanzo-kw68e5tap3bg721c9c295nux.herokudns.com.
+upa:
+  - ttl: 1
+    type: CNAME
+    value: upahackclub.github.io.
 uqq467l64nnf3dyo6omjcjmcc3dmdqlb._domainkey:
 - ttl: 1
   type: CNAME
@@ -1035,10 +1039,6 @@ www.tist:
 - ttl: 1
   type: CNAME
   value: tist.hackclub.com.
-upa:
-  - ttl: 1
-    type: CNAME
-    value: upahackclub.github.io.
 zachday:
 - ttl: 1
   type: CNAME
