@@ -711,7 +711,7 @@ orpheushacks: # Harrison Katz automatically wins for adding the DNS entry - that
 p2p:
   ttl: 1
   type: CNAME
-  value: p2phack.club.
+  value: p2phackclub.github.io.
 pack:
   ttl: 1
   type: CNAME
