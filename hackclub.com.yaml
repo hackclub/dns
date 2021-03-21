@@ -582,6 +582,10 @@ kiit:
 - ttl: 1
   type: CNAME
   value: kiithackclub.github.io.
+lasa:
+  - ttl: 1
+    type: CNAME
+    value: hackclublasa.github.io.
 laslomas:
 - ttl: 1
   type: CNAME
