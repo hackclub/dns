@@ -794,6 +794,10 @@ s2._domainkey:
   ttl: 1
   type: CNAME
   value: s2.domainkey.u9906371.wl122.sendgrid.net.
+SA:
+  - ttl: 1
+    type: CNAME
+    value: hc-sa.netlify.app.  
 saleh:
   ttl: 1
   type: CNAME
@@ -1047,7 +1051,4 @@ zapdos.servers:
 - ttl: 1
   type: A
   value: 45.79.138.244  
-SA:
-  - ttl: 1
-    type: CNAME
-    value: hc-sa.netlify.app.
+
