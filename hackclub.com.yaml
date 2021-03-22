@@ -159,10 +159,6 @@ a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
   type: CNAME
   value: a5fj644skxexxgvvraqrag5ngcaovcny.dkim.amazonses.com.
-aardvark:
-- ttl: 1
-  type: CNAME
-  value: starman.fathomdns.com.
 adastra:
 - ttl: 1
   type: TXT
