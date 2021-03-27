@@ -273,6 +273,10 @@ bkbiet:
   ttl: 1
   type: CNAME
   value: bkbiethackclub.netlify.com.  
+blair:
+  ttl: 1
+  type: CNAME
+  value: blairhc.netlify.app.
 blog.ctrl-alt-tec:
 - ttl: 1
   type: CNAME
