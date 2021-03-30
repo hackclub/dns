@@ -672,6 +672,10 @@ meet:
 - ttl: 1
   type: A
   value: 3.80.199.115
+meetings:
+- ttl: 1
+  type: CNAME
+  value: meetings.hackclub.dev.
 merivalja:
   ttl: 1
   type: CNAME
