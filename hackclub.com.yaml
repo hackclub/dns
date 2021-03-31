@@ -387,6 +387,23 @@ dedicated.servers:
 - ttl: 1
   type: A
   value: 173.208.140.122
+devhacks:
+- ttl: 1
+  type: TXT
+  value: v=spf1 include:_spf.google.com ~all
+- ttl: 1
+  type: MX
+  values:
+  - exchange: aspmx.l.google.com.
+    preference: 1
+  - exchange: alt1.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt2.aspmx.l.google.com.
+    preference: 5
+  - exchange: aspmx2.googlemail.com.
+    preference: 10
+  - exchange: aspmx3.googlemail.com.
+    preference: 10
 dfw4j5coownesaecgmwfxhszrauwxzlk._domainkey:
 - ttl: 1
   type: CNAME
