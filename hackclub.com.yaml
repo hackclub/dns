@@ -243,8 +243,8 @@ assets:
   value: cname.vercel-dns.com.
 australia:
   ttl: 1
-  type: CNAME
-  value: cname.vercel-dns.com.
+  type: A
+  value: 76.76.21.21
 av:
 - ttl: 1
   type: CNAME
