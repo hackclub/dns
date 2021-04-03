@@ -33,10 +33,6 @@
   ttl: 1
   type: CNAME
   value: proxy.servers.hackclub.com.
-"*.australia":
-  ttl: 1
-  type: A
-  value: 76.76.21.21
 "*.hosted":
   ttl: 1
   type: A
