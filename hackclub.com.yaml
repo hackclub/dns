@@ -34,9 +34,12 @@
   type: CNAME
   value: proxy.servers.hackclub.com.
 "*.australia":
-  ttl: 1
+- ttl: 1
   type: A
   value: 76.76.21.21
+- ttl: 1
+  type: CAA
+  value: "0 issue letsencrypt.org"
 "*.hosted":
   ttl: 1
   type: A
@@ -244,11 +247,6 @@ asiasummit:
 assets:
   ttl: 1
   type: CNAME
-  value: cname.vercel-dns.com.
-australia:
-  ttl: 1
-  type: A
-  value: 76.76.21.21
 av:
 - ttl: 1
   type: CNAME
