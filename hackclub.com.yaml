@@ -242,9 +242,12 @@ assets:
   type: CNAME
   value: cname.vercel-dns.com.
 australia:
-  ttl: 1
+- ttl: 1
   type: A
   value: 76.76.21.21
+- ttl: 1
+  type: CAA
+  value: 0 issue letsencrypt.org
 av:
 - ttl: 1
   type: CNAME
