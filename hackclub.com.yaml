@@ -241,6 +241,10 @@ assets:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+australia:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 av:
 - ttl: 1
   type: CNAME
@@ -387,6 +391,25 @@ dedicated.servers:
 - ttl: 1
   type: A
   value: 173.208.140.122
+devhacks:
+- ttl: 1
+  type: TXT
+  values:
+  - v=spf1 include:_spf.google.com ~all
+  - google-site-verification=6kNb9Tf56I4fGzIVUN9lFs_yg7HtJ-qMCd5lZeLrJvI
+- ttl: 1
+  type: MX
+  values:
+  - exchange: aspmx.l.google.com.
+    preference: 1
+  - exchange: alt1.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt2.aspmx.l.google.com.
+    preference: 5
+  - exchange: aspmx2.googlemail.com.
+    preference: 10
+  - exchange: aspmx3.googlemail.com.
+    preference: 10
 dfw4j5coownesaecgmwfxhszrauwxzlk._domainkey:
 - ttl: 1
   type: CNAME
@@ -672,6 +695,10 @@ meet:
 - ttl: 1
   type: A
   value: 3.80.199.115
+meetings:
+- ttl: 1
+  type: CNAME
+  value: meetings.hackclub.dev.
 merivalja:
   ttl: 1
   type: CNAME
@@ -848,7 +875,7 @@ scrappy:
 shop:
 - ttl: 1
   type: A
-  value: 23.227.38.65
+  value: 76.76.21.21
 - ttl: 1
   type: TXT
   values: 
