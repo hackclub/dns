@@ -926,6 +926,10 @@ spp:
 - ttl: 1
   type: CNAME
   value: spphacks.netlify.com.
+statehigh:
+- ttl: 1
+  type: CNAME
+  value: schacks.netlify.com.
 status:
 - ttl: 1
   type: CNAME
