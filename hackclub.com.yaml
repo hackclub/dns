@@ -334,10 +334,6 @@ chapters:
   ttl: 1
   type: CNAME
   value: comparative-echidna-7grmrhvb3l980vdmg6f0vuu7.herokudns.com.
-chat:
-- ttl: 1
-  type: CNAME
-  value: 34.75.6.116.
 christinaday2020:
 - ttl: 3600
   type: CNAME
@@ -926,6 +922,10 @@ spp:
 - ttl: 1
   type: CNAME
   value: spphacks.netlify.com.
+sshchat:
+- ttl: 1
+  type: CNAME
+  value: 34.75.6.116.
 statehigh:
 - ttl: 1
   type: CNAME
