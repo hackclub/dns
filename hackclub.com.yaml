@@ -249,6 +249,10 @@ av:
 - ttl: 1
   type: CNAME
   value: avhc.netlify.com.
+awards:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 b2b:
 - ttl: 1
   type: CNAME
