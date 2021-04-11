@@ -930,6 +930,10 @@ spp:
 - ttl: 1
   type: CNAME
   value: spphacks.netlify.com.
+sshchat:
+- ttl: 1
+  type: A
+  value: 34.75.6.116
 statehigh:
 - ttl: 1
   type: CNAME
