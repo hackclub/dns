@@ -414,6 +414,10 @@ devhacks:
     preference: 10
   - exchange: aspmx3.googlemail.com.
     preference: 10
+devzat:
+- ttl: 1
+  type: A
+  value: 34.75.6.116
 dfw4j5coownesaecgmwfxhszrauwxzlk._domainkey:
 - ttl: 1
   type: CNAME
