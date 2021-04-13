@@ -1106,4 +1106,20 @@ zapdos.servers:
 - ttl: 1
   type: A
   value: 45.79.138.244  
+modded-mc:
+- ttl: 1
+  type: CNAME
+  value: 173.208.140.125
+beta-mc:
+- ttl: 1
+  type: CNAME
+  value: 173.208.140.125
+- type: SRV
+  values:
+  - beta-mc
+  - 173.208.140.125:25567
+ - type: SRV
+   values:
+   - modded-mc
+   - 173.208.140.125:25566
 
