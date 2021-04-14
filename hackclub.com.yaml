@@ -281,6 +281,10 @@ berkley:
 - ttl: 1
   type: CNAME
   value: ce68625a-92ad-439c-823d-7dc4bab9c62f.repl.co.
+beta-mc:
+- ttl: 1
+  type: CNAME
+  value: 173.208.140.125
 bisv:
 - ttl: 1
   type: CNAME
@@ -727,6 +731,10 @@ miracosta:
   ttl: 1
   type: CNAME
   value: miracosta.netlify.app.
+modded-mc:
+- ttl: 1
+  type: CNAME
+  value: 173.208.140.125
 mumble:
 - ttl: 1
   type: A
@@ -1113,14 +1121,4 @@ zachday:
 zapdos.servers:
 - ttl: 1
   type: A
-  value: 45.79.138.244  
-modded-mc:
-- ttl: 1
-  type: CNAME
-  value: 173.208.140.125
-beta-mc:
-- ttl: 1
-  type: CNAME
-  value: 173.208.140.125
-
-
+  value: 45.79.138.244
