@@ -287,7 +287,7 @@ berkley:
   value: ce68625a-92ad-439c-823d-7dc4bab9c62f.repl.co.
 beta-mc:
 - ttl: 1
-  type: CNAME
+  type: A
   value: 173.208.140.125
 bisv:
 - ttl: 1
@@ -737,7 +737,7 @@ miracosta:
   value: miracosta.netlify.app.
 modded-mc:
 - ttl: 1
-  type: CNAME
+  type: A
   value: 173.208.140.125
 mumble:
 - ttl: 1
