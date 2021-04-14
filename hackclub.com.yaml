@@ -29,15 +29,19 @@
   - stripe-verification=5bdd0e2475b12744bfe1f778ac419f917800d476fd498ae2682ecd161d162c64
   - 61220A24D7 # From Expensify
   - 2610E0D36E # From Expensify
-- type: SRV
-  values:
-    - beta-mc
-    - 173.208.140.125:25567
-- type: SRV
-  values:
-    - modded-mc
-    - 173.208.140.125:25566
 "*":
+_srv._tcp:
+  ttl: 600
+  type: SRV
+  values:
+  - port: 25566
+    priority: 10
+    target: modded-mc.hackclub.com.
+    weight: 20
+  - port: 25567
+    priority: 12
+    target: beta-mc.hackclub.com.
+    weight: 20
   ttl: 1
   type: CNAME
   value: proxy.servers.hackclub.com.
