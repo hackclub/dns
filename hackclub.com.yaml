@@ -37,18 +37,6 @@
   ttl: 1
   type: A
   value: 173.208.140.124
-_srv._tcp:
-- ttl: 600
-  type: SRV
-  values:
-  - port: 25566
-    priority: 10
-    target: modded-mc.hackclub.com.
-    weight: 20
-  - port: 25567
-    priority: 12
-    target: beta-mc.hackclub.com.
-    weight: 20
 Cabbache:
 - ttl: 1
   type: CNAME
@@ -167,6 +155,18 @@ _sips._tcp.px:
       priority: 50
       target: ygg2.vp.vc.
       weight: 100
+_srv._tcp:
+- ttl: 600
+  type: SRV
+  values:
+  - port: 25566
+    priority: 10
+    target: modded-mc.hackclub.com.
+    weight: 20
+  - port: 25567
+    priority: 12
+    target: beta-mc.hackclub.com.
+    weight: 20
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
   type: CNAME
