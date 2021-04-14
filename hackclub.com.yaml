@@ -30,6 +30,13 @@
   - 61220A24D7 # From Expensify
   - 2610E0D36E # From Expensify
 "*":
+  ttl: 1
+  type: CNAME
+  value: proxy.servers.hackclub.com.
+"*.hosted":
+  ttl: 1
+  type: A
+  value: 173.208.140.124
 _srv._tcp:
 - ttl: 600
   type: SRV
@@ -42,13 +49,6 @@ _srv._tcp:
     priority: 12
     target: beta-mc.hackclub.com.
     weight: 20
-  ttl: 1
-  type: CNAME
-  value: proxy.servers.hackclub.com.
-"*.hosted":
-  ttl: 1
-  type: A
-  value: 173.208.140.124
 Cabbache:
 - ttl: 1
   type: CNAME
