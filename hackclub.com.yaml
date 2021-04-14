@@ -32,6 +32,7 @@
 "*":
 _srv._tcp:
   type: SRV
+  ttl: 600
   values:
   - port: 25566
     priority: 10
