@@ -31,7 +31,6 @@
   - 2610E0D36E # From Expensify
 "*":
 _srv._tcp:
-  ttl: 600
   type: SRV
   values:
   - port: 25566
