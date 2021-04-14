@@ -31,8 +31,8 @@
   - 2610E0D36E # From Expensify
 "*":
 _srv._tcp:
+- ttl: 600
   type: SRV
-  ttl: 600
   values:
   - port: 25566
     priority: 10
