@@ -155,21 +155,21 @@ _sips._tcp.px:
       priority: 50
       target: ygg2.vp.vc.
       weight: 100
-_srv._tcp.modded-mc.hackclub.com:
-  ttl: 600
-  type: SRV
-  value:
-    port: 25566
-    priority: 12
-    target: modded-mc.hackclub.com.
-    weight: 20
-_srv._tcp.beta-mc.hackclub.com:
+_minecraft._tcp.beta-mc:
   ttl: 600
   type: SRV
   value:
     port: 25567
     priority: 12
     target: beta-mc.hackclub.com.
+    weight: 20
+_minecraft._tcp.modded-mc:
+  ttl: 600
+  type: SRV
+  value:
+    port: 25566
+    priority: 12
+    target: modded-mc.hackclub.com.
     weight: 20
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
