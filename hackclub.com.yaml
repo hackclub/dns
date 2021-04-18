@@ -33,18 +33,14 @@
   ttl: 1
   type: CNAME
   value: proxy.servers.hackclub.com.
-"*.hosted":
-  ttl: 1
-  type: A
-  value: 173.208.140.124
 "*.haas":
   ttl: 1
   type: A
   value: 45.55.45.5
-haas:
+"*.hosted":
   ttl: 1
   type: A
-  value: 45.55.45.5
+  value: 173.208.140.124
 Cabbache:
 - ttl: 1
   type: CNAME
@@ -597,6 +593,10 @@ gwas:
    ttl: 1
    type: CNAME
    value: competent-yonath-7f9d16.netlify.app.
+haas:
+  ttl: 1
+  type: A
+  value: 45.55.45.5
 hackathons:
   ttl: 1
   type: CNAME
