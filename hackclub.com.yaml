@@ -665,6 +665,10 @@ list:
 - ttl: 1
   type: TXT
   value: google-site-verification=dy5FQ7euw6ZutiApm5ZdCTUgWn9CL3uhfJWHfD3TxLk
+maam:
+- ttl: 1
+  type: CNAME
+  value: forum.qlbv.vn.
 mail:
 - ttl: 1
   type: MX
