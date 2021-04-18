@@ -37,6 +37,14 @@
   ttl: 1
   type: A
   value: 173.208.140.124
+"*.haas":
+  ttl: 1
+  type: A
+  value: 45.55.45.5
+haas:
+  ttl: 1
+  type: A
+  value: 45.55.45.5
 Cabbache:
 - ttl: 1
   type: CNAME
