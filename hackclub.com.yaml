@@ -478,6 +478,10 @@ email.mail:
   ttl: 1
   type: CNAME
   value: mailgun.org.
+embed.scrapbook:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 eolink:
   ttl: 1
   type: CNAME
