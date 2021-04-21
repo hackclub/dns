@@ -66,6 +66,10 @@ _acme-challenge:
   values:
   - 6YrKPNzkrSk8A_AuvE9RgmmY5IDpGP1iN2zdOpukc4U
   - "-KZE5QB63MXUQJpbA2QXzC7x9J9iW05YPX1NS4U29N8"
+_acme-challenge.haas:
+  type: TXT
+  values:
+    - WeFHw1rO8PfGWEGAEh9CnfvOhokXXYgK-PD0kbI6RS0
 _amazonses:
   ttl: 1
   type: TXT
