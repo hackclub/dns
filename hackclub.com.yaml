@@ -312,7 +312,7 @@ bkbiet:
 blair:
   ttl: 1
   type: CNAME
-  value: blairhc.netlify.app.
+  value: blairhc.pages.dev.
 blog.ctrl-alt-tec:
 - ttl: 1
   type: CNAME
