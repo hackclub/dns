@@ -410,7 +410,7 @@ ctrlalttec:
 cucek:
 - ttl: 1
   type: CNAME
-  value: hackclub-cucek.github.io
+  value: hackclub-cucek.github.io.
 customizer:
 - ttl: 1
   type: CNAME
