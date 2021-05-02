@@ -409,8 +409,8 @@ ctrlalttec:
     preference: 10
 cucek:
 - ttl: 1
-  type: A
-  value: 104.198.14.52
+  type: CNAME
+  value: hackclub-cucek.github.io
 customizer:
 - ttl: 1
   type: CNAME
