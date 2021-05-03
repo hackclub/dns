@@ -1,7 +1,11 @@
 ---
 "":
-  type: A
-  value: 45.55.45.5
+  - type: A
+    value: 45.55.45.5
+  - type: AAAA
+    value: 2604:a880:800:10::636:5001
 "*":
-  type: A
-  value: 45.55.45.5
+  - type: A
+    value: 45.55.45.5
+  - type: AAAA
+    value: 2604:a880:800:10::636:5001
