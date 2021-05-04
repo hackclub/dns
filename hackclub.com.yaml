@@ -976,7 +976,7 @@ spp:
 sshchat:
 - ttl: 1
   type: A
-  value: 34.75.6.116
+  value: 150.136.142.44
 statehigh:
 - ttl: 1
   type: CNAME
