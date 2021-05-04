@@ -34,9 +34,12 @@
   type: CNAME
   value: proxy.servers.hackclub.com.
 "*.haas":
-  ttl: 1
-  type: A
-  value: 45.55.45.5
+  - ttl: 1
+    type: A
+    value: 45.55.45.5
+  - ttl: 1
+    type: AAAA
+    value: 2604:a880:800:10::636:5001
 "*.hosted":
   ttl: 1
   type: A
