@@ -11,6 +11,6 @@
     value: 2604:a880:800:10::636:5001
 _acme-challenge:
   type: TXT
-  value:
+  values:
     - 1WRtbKTIMA-51_TT9DjNJOMl-6TpsiOXxsy1-liokWk
     - eJFDhQIy0KKeGZyvrpasO35lChwtEI4xkobd6_7D_-Y
