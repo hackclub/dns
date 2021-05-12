@@ -40,9 +40,6 @@
   - ttl: 1
     type: AAAA
     value: 2604:a880:800:10::636:5001
-_github-challenge-hack-as-a-service.haas:
-  type: TXT
-  value: dc63dbf87b
 "*.hosted":
   ttl: 1
   type: A
@@ -97,6 +94,9 @@ _github-challenge-GaynorMcCown.gaynormccown:
 - ttl: 1
   type: TXT
   value: 03c11eee8f
+_github-challenge-hack-as-a-service.haas:
+  type: TXT
+  value: dc63dbf87b
 _github-challenge-HackClub-TIST.tist:
 - ttl: 1
   type: TXT
