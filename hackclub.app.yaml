@@ -10,6 +10,7 @@ _acme-challenge:
   values:
     - 1WRtbKTIMA-51_TT9DjNJOMl-6TpsiOXxsy1-liokWk
     - eJFDhQIy0KKeGZyvrpasO35lChwtEI4xkobd6_7D_-Y
+    - ryJrwSWFEtlJqk08XFcrfj6xxL_LaPn25q7dwChExmk
 _github-challenge-hack-as-a-service:
   type: TXT
   value: 4b821e52c1
