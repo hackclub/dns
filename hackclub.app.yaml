@@ -1,16 +1,15 @@
 ---
 "":
   - type: A
-    value: 45.55.45.5
-  - type: AAAA
-    value: 2604:a880:800:10::636:5001
+    value: 167.99.113.134
 "*":
   - type: A
-    value: 45.55.45.5
-  - type: AAAA
-    value: 2604:a880:800:10::636:5001
+    value: 167.99.113.134
 _acme-challenge:
   type: TXT
   values:
     - 1WRtbKTIMA-51_TT9DjNJOMl-6TpsiOXxsy1-liokWk
     - eJFDhQIy0KKeGZyvrpasO35lChwtEI4xkobd6_7D_-Y
+_github-challenge-hack-as-a-service:
+  type: TXT
+  value: 4b821e52c1
