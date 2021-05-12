@@ -385,6 +385,10 @@ coins:
 - ttl: 1
   type: A
   value: 173.208.140.124
+conant:
+- ttl: 1
+  type: CNAME
+  value: ashayp22.github.io.
 ctf:
 - ttl: 1
   type: CNAME
