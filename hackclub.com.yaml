@@ -306,7 +306,7 @@ berkley:
 beta-mc:
 - ttl: 1
   type: A
-  value: 173.208.140.125
+  value: 3.142.74.175
 bisv:
 - ttl: 1
   type: CNAME
@@ -736,7 +736,7 @@ maxday:
 mc:
 - ttl: 1
   type: A
-  value: 173.208.140.125
+  value: 3.142.74.175
 mcneil:
 - ttl: 1
   type: A
@@ -768,7 +768,7 @@ miracosta:
 modded-mc:
 - ttl: 1
   type: A
-  value: 173.208.140.125
+  value: 3.142.74.175
 mumble:
 - ttl: 1
   type: A
