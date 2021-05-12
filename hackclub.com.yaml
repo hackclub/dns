@@ -40,6 +40,9 @@
   - ttl: 1
     type: AAAA
     value: 2604:a880:800:10::636:5001
+_github-challenge-hack-as-a-service.haas:
+  type: TXT
+  value: dc63dbf87b
 "*.hosted":
   ttl: 1
   type: A
