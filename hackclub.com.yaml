@@ -1156,3 +1156,7 @@ zapdos.servers:
 - ttl: 1
   type: A
   value: 45.79.138.244
+jain:
+- ttl: 1
+  type: A
+  value: 185.199.108.153
