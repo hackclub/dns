@@ -671,6 +671,10 @@ kiit:
 - ttl: 1
   type: CNAME
   value: kiithackclub.github.io.
+kmea:
+- ttl: 1
+  type: A
+  value: 76.76.21.21
 lasa:
   - ttl: 1
     type: CNAME
