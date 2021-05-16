@@ -666,7 +666,7 @@ jv:
 kerala:
 - ttl: 1
   type: A
-  value:  76.76.21.21
+  value: 76.76.21.21
   
 kf2tzvncx46ahlhuev6kusbvg5hmymau._domainkey:
   ttl: 1
