@@ -651,6 +651,10 @@ jg2ygmrfby4vhxve3cozh4yz3xc2ul5y._domainkey:
 - ttl: 1
   type: CNAME
   value: jg2ygmrfby4vhxve3cozh4yz3xc2ul5y.dkim.custom-email-domain.stripe.com.
+jain:
+- ttl: 1
+  type: A
+  value: 185.199.108.153  
 jobs:
 - ttl: 1
   type: A
@@ -1156,7 +1160,3 @@ zapdos.servers:
 - ttl: 1
   type: A
   value: 45.79.138.244
-jain:
-- ttl: 1
-  type: A
-  value: 185.199.108.153
