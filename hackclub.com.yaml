@@ -306,7 +306,7 @@ berkley:
 beta-mc:
 - ttl: 1
   type: A
-  value: 3.142.74.175
+  value: 18.219.123.37
 bisv:
 - ttl: 1
   type: CNAME
@@ -770,7 +770,7 @@ maxday:
 mc:
 - ttl: 1
   type: A
-  value: 3.142.74.175
+  value: 18.219.123.37
 mcneil:
 - ttl: 1
   type: A
