@@ -649,8 +649,8 @@ indiablog:
   value: cname.vercel-dns.com.
 iter:
   ttl: 1
-  type: CNAME
-  value: hackclub-iter.web.app.
+  type: TXT
+  value: google-site-verification=O1BiNuBd_UvpaBNSCXI30Q7csW-HBQRexpWbWpgLZAA
 jain:
   ttl: 1
   type: A
