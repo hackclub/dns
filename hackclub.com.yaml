@@ -295,6 +295,10 @@ bank:
   ttl: 1
   type: CNAME
   value: bank.hackclub.com.herokudns.com.
+bank-bloggers:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 berkeley:
 - ttl: 1
   type: CNAME
