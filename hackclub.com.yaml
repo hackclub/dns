@@ -1084,6 +1084,10 @@ theme:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+tickets:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 tist:
 - ttl: 1
   type: A
@@ -1106,10 +1110,6 @@ tist:
     preference: 10
   - exchange: alt4.aspmx.l.google.com.
     preference: 10
-tickets:
-- ttl: 1
-  type: CNAME
-  value: cname.vercel-dns.com.
 titanhacks:
 - ttl: 1
   type: CNAME
