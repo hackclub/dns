@@ -94,6 +94,10 @@ _github-challenge-GaynorMcCown.gaynormccown:
 - ttl: 1
   type: TXT
   value: 03c11eee8f
+_github-challenge-hackclubiter.iter:
+- ttl: 1
+  type: TXT
+  value: 0a7476d07f
 _github-challenge-HackClub-TIST.tist:
 - ttl: 1
   type: TXT
