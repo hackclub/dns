@@ -395,7 +395,7 @@ coins:
 conant:
 - ttl: 1
   type: CNAME
-  value: ashayp22.github.io.
+  value: anandani4136.github.io.
 ctf:
 - ttl: 1
   type: CNAME
