@@ -1202,3 +1202,7 @@ zapdos.servers:
 - ttl: 1
   type: A
   value: 45.79.138.244
+zephyr:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
