@@ -1157,7 +1157,7 @@ vikingsdev:
 vmc:
 - ttl: 1
   type: A
-  value: 173.208.140.125
+  value: 18.219.123.37
 warsaw:
 - ttl: 1
   type: CNAME
