@@ -335,6 +335,10 @@ bqogdt6xkltngfg62lq7jo5dk33zerss._domainkey:
 - ttl: 1
   type: CNAME
   value: bqogdt6xkltngfg62lq7jo5dk33zerss.dkim.custom-email-domain.stripe.com.
+brasil:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 bucky:
 - ttl: 1
   type: CNAME
