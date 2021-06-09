@@ -299,6 +299,10 @@ bank-bloggers:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+bank-docs:
+  ttl: 1
+  type: CNAME
+  value: evolutionary-heron-qlwebnpw35gb7ovyf9z3xqwy.herokudns.com
 berkeley:
 - ttl: 1
   type: CNAME
