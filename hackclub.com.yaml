@@ -338,7 +338,7 @@ bqogdt6xkltngfg62lq7jo5dk33zerss._domainkey:
 brasil:
   ttl: 1
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: hackclub-brasil.netlify.app.
 bucky:
 - ttl: 1
   type: CNAME
