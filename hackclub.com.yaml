@@ -259,6 +259,11 @@ asia-summit:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+asiablog:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
+asiasummit:
 asiaconf:
 - ttl: 1
   type: CNAME
