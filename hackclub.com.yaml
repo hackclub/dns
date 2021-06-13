@@ -15,7 +15,7 @@
     preference: 10
   - exchange: aspmx3.googlemail.com.
     preference: 10
-- ttl: 1
+- ttl: 5
   type: TXT
   values:
   - ALIAS for hackclub.com.herokudns.com
