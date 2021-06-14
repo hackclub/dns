@@ -1042,6 +1042,10 @@ status:
 - ttl: 1
   type: CNAME
   value: dashboards.checklyhq.com.
+stickerman:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 streaks:
 - ttl: 1
   type: CNAME
