@@ -15,7 +15,7 @@
     preference: 10
   - exchange: aspmx3.googlemail.com.
     preference: 10
-- ttl: 1
+- ttl: 5
   type: TXT
   values:
   - ALIAS for hackclub.com.herokudns.com
@@ -259,6 +259,10 @@ asia-summit:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+asiablog:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 asiaconf:
 - ttl: 1
   type: CNAME
@@ -299,6 +303,10 @@ bank-bloggers:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+bank-docs:
+  ttl: 1
+  type: CNAME
+  value: evolutionary-heron-qlwebnpw35gb7ovyf9z3xqwy.herokudns.com.
 berkeley:
 - ttl: 1
   type: CNAME
@@ -1038,6 +1046,10 @@ status:
 - ttl: 1
   type: CNAME
   value: dashboards.checklyhq.com.
+stickerhuman:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 streaks:
 - ttl: 1
   type: CNAME
