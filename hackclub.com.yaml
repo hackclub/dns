@@ -403,7 +403,7 @@ ciudalcampo:
 coet:
 - ttl: 1
   type: CNAME
-  value: hackclubcoet.github.io/HackClubCOET-Website
+  value: hackclubcoet.github.io.
 coins:
 - ttl: 1
   type: A
