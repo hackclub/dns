@@ -400,6 +400,10 @@ ciudalcampo:
 - ttl: 1
   type: CNAME
   value: code-sekcc.github.io.
+coet:
+- ttl: 1
+  type: CNAME
+  value: hackclubcoet.github.io.
 coins:
 - ttl: 1
   type: A
