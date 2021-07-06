@@ -1226,3 +1226,11 @@ zephyr:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+zephyrnet:
+- ttl: 1
+  type: A
+  value: 73.149.89.109
+"*.zephyrnet":
+- ttl: 1
+  type: A
+  value: 73.149.89.109
