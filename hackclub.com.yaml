@@ -44,6 +44,10 @@
   ttl: 1
   type: A
   value: 173.208.140.124
+"*.zephyrnet":
+- ttl: 1
+  type: A
+  value: 73.149.89.109
 Cabbache:
 - ttl: 1
   type: CNAME
@@ -1227,10 +1231,6 @@ zephyr:
   type: CNAME
   value: cname.vercel-dns.com.
 zephyrnet:
-- ttl: 1
-  type: A
-  value: 73.149.89.109
-"*.zephyrnet":
 - ttl: 1
   type: A
   value: 73.149.89.109
