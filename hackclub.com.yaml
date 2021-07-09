@@ -651,11 +651,11 @@ hackcraft:
   ttl: 1
   type: A
   value: 173.208.140.126
-hackstore:
+hackinux:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
-hackinux:
+hackstore:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
