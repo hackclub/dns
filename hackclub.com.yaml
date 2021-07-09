@@ -655,6 +655,10 @@ hackstore:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+hackinux:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 hillsdale:
 - ttl: 1
   type: CNAME
