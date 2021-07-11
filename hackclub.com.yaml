@@ -733,6 +733,10 @@ kmea:
 - ttl: 1
   type: A
   value: 76.76.21.21
+knit:
+  - ttl: 1
+    type: CNAME
+    value: hackclubknit.netlify.app.
 lasa:
   - ttl: 1
     type: CNAME
