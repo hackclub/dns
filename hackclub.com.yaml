@@ -599,6 +599,10 @@ gaynormccown:
     preference: 10
   - exchange: alt4.aspmx.l.google.com.
     preference: 10
+games:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 gdynia:
 - ttl: 1
   type: CNAME
