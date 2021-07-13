@@ -961,6 +961,10 @@ riverbend:
 - ttl: 1
   type: CNAME
   value: yousefhaggy.github.io.
+rr:
+- ttl: 1
+  type: CNAME
+  value: rrcsclub.vercel.app.
 s1._domainkey:
   ttl: 1
   type: CNAME
