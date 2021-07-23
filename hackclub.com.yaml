@@ -965,6 +965,10 @@ riverbend:
 - ttl: 1
   type: CNAME
   value: yousefhaggy.github.io.
+rr:
+- ttl: 1
+  type: CNAME
+  value: sarthak-dayal.github.io.
 s1._domainkey:
   ttl: 1
   type: CNAME
