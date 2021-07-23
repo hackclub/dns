@@ -968,7 +968,7 @@ riverbend:
 rr:
 - ttl: 1
   type: CNAME
-  value: rrcsclub.vercel.app.
+  value: sarthak-dayal.github.io.
 s1._domainkey:
   ttl: 1
   type: CNAME
