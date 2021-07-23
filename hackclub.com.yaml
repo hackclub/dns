@@ -667,6 +667,10 @@ hillsdale:
 - ttl: 1
   type: CNAME
   value: hhshacks.github.io.
+hub.zephyr:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 icons:
   ttl: 1
   type: CNAME
@@ -1183,6 +1187,10 @@ v2:
   type: CNAME
   value: cname.vercel-dns.com.
 v3:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
+vault:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
