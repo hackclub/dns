@@ -895,10 +895,6 @@ pack:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
- podcast:
-- ttl: 1
-  type: CNAME
-  value: dreamy-saha-4690aa.netlify.app.
 packages:
   ttl: 1
   type: CNAME
@@ -907,6 +903,10 @@ pic._domainkey.mail:
   ttl: 1
   type: TXT
   value: k=rsa
+  podcast:
+- ttl: 1
+  type: CNAME
+  value: dreamy-saha-4690aa.netlify.app.
 portal.ctf:
   ttl: 1
   type: A
