@@ -1258,3 +1258,7 @@ zephyrnet:
 - ttl: 1
   type: A
   value: 73.149.89.109
+  podcast:
+- ttl: 1
+  type: CNAME
+  value: dreamy-saha-4690aa.netlify.app.
