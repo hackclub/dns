@@ -903,7 +903,7 @@ pic._domainkey.mail:
   ttl: 1
   type: TXT
   value: k=rsa
-  podcast:
+ podcast:
   ttl: 1
   type: CNAME
   value: dreamy-saha-4690aa.netlify.app.
