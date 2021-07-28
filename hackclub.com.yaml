@@ -903,6 +903,10 @@ pic._domainkey.mail:
   ttl: 1
   type: TXT
   value: k=rsa
+podcast:
+  ttl: 1
+  type: CNAME
+  value: dreamy-saha-4690aa.netlify.app.
 portal.ctf:
   ttl: 1
   type: A
@@ -1258,3 +1262,4 @@ zephyrnet:
 - ttl: 1
   type: A
   value: 73.149.89.109
+ 
