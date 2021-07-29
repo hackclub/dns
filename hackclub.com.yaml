@@ -540,6 +540,10 @@ finder:
   ttl: 1
   type: CNAME
   value: finder.netlify.com.
+flagship:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 flhs:
 - ttl: 1
   type: ALIAS
