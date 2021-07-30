@@ -907,14 +907,14 @@ pic._domainkey.mail:
   ttl: 1
   type: TXT
   value: k=rsa
+  podcast:
+  ttl: 1
+  type: TXT
+  value: google-site-verification=2hYyjQkkoeIU8H7e4yrJMEnj31iaL8n5PGbv98FTcs4
 podcast:
   ttl: 1
   type: CNAME
   value: dreamy-saha-4690aa.netlify.app.
- podcast:
-  ttl: 1
-  type: TXT
-  value: google-site-verification=2hYyjQkkoeIU8H7e4yrJMEnj31iaL8n5PGbv98FTcs4
 portal.ctf:
   ttl: 1
   type: A
