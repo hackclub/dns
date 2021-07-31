@@ -675,6 +675,9 @@ hub.zephyr:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+ia:
+  type: CNAME
+  value: cname.vercel-dns.com.
 icons:
   ttl: 1
   type: CNAME
