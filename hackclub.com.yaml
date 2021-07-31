@@ -1046,6 +1046,10 @@ singgasana:
   ttl: 1
   type: CNAME
   value: singgasana.netlify.app.
+skcet:
+  ttl: 1
+  type: CNAME
+  value: wonderful-goldwasser-b6b01d.netlify.app.
 skn:
   ttl: 1
   type: CNAME
@@ -1266,8 +1270,4 @@ zephyrnet:
 - ttl: 1
   type: A
   value: 73.149.89.109
-skcet:
-- ttl: 1
-  type: CNAME
-  value: wonderful-goldwasser-b6b01d.netlify.app.
  
