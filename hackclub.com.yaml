@@ -359,6 +359,10 @@ calendar:
   ttl: 1
   type: CNAME
   value: ghs.googlehosted.com.
+camp:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 camp-apply:
   type: CNAME
   value: hackcamp-apply.netlify.com.
