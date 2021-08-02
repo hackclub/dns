@@ -694,10 +694,6 @@ indiablog:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
-iter:
-- ttl: 1
-  type: CNAME
-  value: hackclubiter.github.io.
 jain:
   ttl: 1
   type: A
