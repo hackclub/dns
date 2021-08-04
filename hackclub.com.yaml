@@ -899,7 +899,7 @@ pic._domainkey.mail:
 podcast:
   ttl: 1
   type: CNAME
-  value: dreamy-saha-4690aa.netlify.app.
+  value: cname.vercel-dns.com.
 portal.ctf:
   ttl: 1
   type: A
