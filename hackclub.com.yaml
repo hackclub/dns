@@ -46,8 +46,8 @@
   value: 173.208.140.124
 "*.zephyrnet":
 - ttl: 1
-  type: A
-  value: 71.235.174.134
+  type: CNAME
+  value: hackclub.myftp.biz.
 Cabbache:
 - ttl: 1
   type: CNAME
@@ -1261,6 +1261,5 @@ zephyr:
   value: cname.vercel-dns.com.
 zephyrnet:
 - ttl: 1
-  type: A
-  value: 71.235.174.134
- 
+  type: CNAME
+  value: hackclub.myftp.biz.
