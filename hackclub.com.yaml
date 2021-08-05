@@ -47,7 +47,7 @@
 "*.zephyrnet":
 - ttl: 1
   type: A
-  value: 73.149.89.109
+  value: 71.235.174.134
 Cabbache:
 - ttl: 1
   type: CNAME
@@ -1262,5 +1262,5 @@ zephyr:
 zephyrnet:
 - ttl: 1
   type: A
-  value: 73.149.89.109
+  value: 71.235.174.134
  
