@@ -1243,6 +1243,10 @@ www.tist:
 - ttl: 1
   type: CNAME
   value: tist.hackclub.com.
+your-first-ship:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 zachday:
 - ttl: 1
   type: CNAME
