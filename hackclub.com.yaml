@@ -77,6 +77,10 @@ _acme-challenge.haas:
   type: TXT
   values:
     - WeFHw1rO8PfGWEGAEh9CnfvOhokXXYgK-PD0kbI6RS0
+_acme-challenge.zephyrnet:
+  type: TXT
+  values:
+    - NTJiS1i4Lfb9upeJ4-R0OuF4dvyXamSQ_DZJuhMRqf4
 _amazonses:
   ttl: 1
   type: TXT
