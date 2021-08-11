@@ -970,7 +970,7 @@ riverbend:
 rr:
 - ttl: 1
   type: CNAME
-  value: sarthak-dayal.github.io.
+  value: rr-cs-club.github.io.
 s1._domainkey:
   ttl: 1
   type: CNAME
