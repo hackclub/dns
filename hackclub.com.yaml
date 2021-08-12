@@ -1048,6 +1048,10 @@ skn:
   ttl: 1
   type: CNAME
   value: solid-onion-63apxaanqedcag7x8576dhle.herokudns.com.
+skyrim:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 slash-z:
   ttl: 1
   type: CNAME
