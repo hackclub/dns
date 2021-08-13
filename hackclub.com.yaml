@@ -1013,7 +1013,7 @@ scrappy:
 shop:
 - ttl: 1
   type: A
-  value: 76.76.21.21
+  value: 23.227.38.65
 - ttl: 1
   type: TXT
   values: 
