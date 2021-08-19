@@ -1235,7 +1235,7 @@ whs:
 wl:
 - ttl: 1
   type: CNAME
-  value: eloquent-swartz-cadce0.netlify.com.
+  value: wl-hackclub.netlify.com.
 wootton:
 - ttl: 1
   type: CNAME
