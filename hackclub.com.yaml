@@ -652,6 +652,10 @@ gwas:
    ttl: 1
    type: CNAME
    value: competent-yonath-7f9d16.netlify.app.
+leaderboard:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 haas:
   ttl: 1
   type: A
