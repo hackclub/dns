@@ -751,6 +751,10 @@ laslomas:
 - ttl: 1
   type: CNAME
   value: mystifying-torvalds-f8e697.netlify.com.
+leaderboard:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 leap:
 - ttl: 1
   type: CNAME
