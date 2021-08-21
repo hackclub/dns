@@ -17,3 +17,6 @@ _acme-challenge:
 _github-challenge-hack-as-a-service:
   type: TXT
   value: 4b821e52c1
+status:
+  type: A
+  value: 34.138.52.92
