@@ -17,10 +17,6 @@ _acme-challenge:
 _github-challenge-hack-as-a-service:
   type: TXT
   value: 4b821e52c1
-status:
-  type: A
-  value: 34.138.52.92
-
 em2060.hackclub.app:
   type: CNAME
   value: u17325777.wl028.sendgrid.net.
@@ -30,3 +26,7 @@ s1._domainkey.hackclub.app:
 s2._domainkey.hackclub.app:
   type: CNAME
   value: s2.domainkey.u17325777.wl028.sendgrid.net.
+
+status:
+  type: A
+  value: 34.138.52.92
