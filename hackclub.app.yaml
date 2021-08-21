@@ -20,3 +20,13 @@ _github-challenge-hack-as-a-service:
 status:
   type: A
   value: 34.138.52.92
+
+em2060.hackclub.app:
+  type: CNAME
+  value: u17325777.wl028.sendgrid.net.
+s1._domainkey.hackclub.app:
+  type: CNAME
+  value: s1.domainkey.u17325777.wl028.sendgrid.net.
+s2._domainkey.hackclub.app:
+  type: CNAME
+  value: s2.domainkey.u17325777.wl028.sendgrid.net.
