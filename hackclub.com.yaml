@@ -885,6 +885,17 @@ numberwang:
   ttl: 1
   type: CNAME
   value: impactdns.techby.org.
+oly: # Hack Club Olympia
+- ttl: 1
+  type: CNAME
+  value: c7e2f53e-5371-4c34-a27f-6b190f406d95.repl.co.
+- ttl: 3600
+  type: MX
+  values:
+  - exchange: mx1.improvmx.com.
+    preference: 10
+  - exchange: mx2.improvmx.com.
+    preference: 20
 orpheushacks: # Harrison Katz automatically wins for adding the DNS entry - thats how it works, right?
 - ttl: 1
   type: CNAME
