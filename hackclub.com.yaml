@@ -202,6 +202,10 @@ adastra:
 - ttl: 1
   type: TXT
   value: bit.ly/adastrahacks
+adrian:
+- ttl: 1
+  type: CNAME
+  value: adrianlobo.me.
 airbridge:
   ttl: 1
   type: CNAME
