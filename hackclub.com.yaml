@@ -885,6 +885,10 @@ numberwang:
   ttl: 1
   type: CNAME
   value: impactdns.techby.org.
+oneditor:
+- ttl: 1
+  type: CNAME
+  value: oneditor.netlify.app.
 oly: # Hack Club Olympia
 - ttl: 1
   type: CNAME
