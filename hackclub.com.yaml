@@ -991,6 +991,10 @@ sa:
   ttl: 1
   type: CNAME
   value: hc-sa.netlify.app.  
+saimaa:
+  ttl: 1
+  type: CNAME
+  value: hacksaimaa.github.io.
 saleh:
   ttl: 1
   type: CNAME
