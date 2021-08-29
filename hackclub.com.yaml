@@ -505,6 +505,10 @@ drive:
   ttl: 1
   type: CNAME
   value: ghs.googlehosted.com.
+dv:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 earlybird:
   ttl: 1
   type: CNAME
