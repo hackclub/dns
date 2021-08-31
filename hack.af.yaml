@@ -11,7 +11,12 @@
   - type: SPF
     value: v=spf1 include:mailgun.org ~all
   - type: TXT
-    value: v=spf1 include:mailgun.org ~all
+    values:
+    - v=spf1 include:mailgun.org ~all
+    - google-site-verification=ntu4oLX1DPYni0Ti5N_gsW0jgkl7TY1pViqw7Kfcqn8
+e:
+  type: CNAME
+  value: cname.vercel-dns.com.
 email:
   type: CNAME
   value: mailgun.org.
