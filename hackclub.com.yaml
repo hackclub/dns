@@ -488,6 +488,10 @@ india:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+indiablog:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 jg2ygmrfby4vhxve3cozh4yz3xc2ul5y._domainkey:
 - ttl: 1
   type: CNAME
@@ -610,6 +614,10 @@ numberwang:
   ttl: 1
   type: CNAME
   value: impactdns.techby.org.
+orpheushacks: # Harrison Katz automatically wins for adding the DNS entry - thats how it works, right?
+- ttl: 1
+  type: A
+  value: 46.101.185.129
 p2p:
   ttl: 1
   type: CNAME
@@ -639,9 +647,27 @@ postal.servers:
   type: A
   value: 23.92.24.6
 prc:
-  ttl: 1
-  type: CNAME
-  value: hackclub-prc.github.io.
+ - ttl: 1
+   type: A
+   value: 104.198.14.52
+ - ttl: 3600
+   type: TXT
+   values:
+   - v=spf1 include:_spf.google.com ~all
+   - google-site-verification=ZGebQ9CxwNSuLb1foBdmD2DBlh8exTH9aVgSJDAAk4A
+ - ttl: 3600
+   type: MX
+   values:
+   - exchange: aspmx.l.google.com.
+     preference: 1
+   - exchange: alt1.aspmx.l.google.com.
+     preference: 5
+   - exchange: alt2.aspmx.l.google.com.
+     preference: 5
+   - exchange: alt3.aspmx.l.google.com.
+     preference: 10
+   - exchange: alt4.aspmx.l.google.com.
+     preference: 10
 proxy.servers:
   ttl: 1
   type: A
@@ -891,6 +917,10 @@ workshops:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+www.tist:
+- ttl: 1
+  type: CNAME
+  value: tist.hackclub.com.
 zachday:
 - ttl: 1
   type: CNAME
