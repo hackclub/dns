@@ -39,3 +39,8 @@ zones:
       - config
     targets:
       - dnsimple
+  hackclub.app.:
+    sources:
+      - config
+    targets:
+      - dnsimple
