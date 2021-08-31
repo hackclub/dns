@@ -714,7 +714,7 @@ iter:
 jain:
   ttl: 1
   type: A
-  value: 185.199.108.15
+  value: 185.199.108.153
 jg2ygmrfby4vhxve3cozh4yz3xc2ul5y._domainkey:
 - ttl: 1
   type: CNAME
