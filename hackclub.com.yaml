@@ -433,6 +433,10 @@ ctrl-alt-tec:
 - ttl: 1
   type: CNAME
   value: ctrl-alt-tec.github.io.
+ctrl-api:
+- ttl: 1
+  type: CNAME
+  value: closed-puma-neh5ig3j9cyt871mvx2rewaw.herokudns.com.
 ctrlalttec:
 - ttl: 3600
   type: TXT
