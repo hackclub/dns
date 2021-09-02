@@ -885,6 +885,10 @@ nioflb:
 - ttl: 1
   type: A
   value: 190.106.131.222
+nlcs:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 notebook:
 - ttl: 1
   type: CNAME
