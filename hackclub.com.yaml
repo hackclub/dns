@@ -393,6 +393,10 @@ cecclphs:
 - ttl: 3600
   type: TXT
   value: google-site-verification=_c3oOWsKBUxlmaanXeqC1tBTLNZGflwsEMQQiuP-EUM
+cgc:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 changelog.bank:
   ttl: 1
   type: CNAME
