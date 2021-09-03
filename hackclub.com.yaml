@@ -360,6 +360,10 @@ bucky:
 - ttl: 1
   type: CNAME
   value: lit-anenome-0a8n6ev3vwpusdyktkunqnea.herokudns.com.
+bulc:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 byteclub:
 - ttl: 1
   type: CNAME
