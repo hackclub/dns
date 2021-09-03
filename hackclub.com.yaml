@@ -747,6 +747,10 @@ kiit:
 - ttl: 1
   type: CNAME
   value: kiithackclub.github.io.
+kjcmt:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 kmea:
 - ttl: 1
   type: A
