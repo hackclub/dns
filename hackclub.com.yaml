@@ -360,6 +360,10 @@ bucky:
 - ttl: 1
   type: CNAME
   value: lit-anenome-0a8n6ev3vwpusdyktkunqnea.herokudns.com.
+byteclub:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 calendar:
   ttl: 1
   type: CNAME
@@ -1212,6 +1216,10 @@ turner:
 - ttl: 1
   type: A
   value: 173.172.147.235
+uet:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 university:
 - ttl: 1
   type: CNAME
