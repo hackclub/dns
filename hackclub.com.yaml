@@ -364,6 +364,10 @@ bulc:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+byte:
+  - ttl: 1
+    type: CNAME
+    value: unsolicitedsite.co.in/byteclub/.
 byteclub:
 - ttl: 1
   type: CNAME
