@@ -368,6 +368,10 @@ byteclub:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+byte:
+- ttl: 1
+  type: CNAME
+  value: https://unsolicitedsite.co.in/byteclub/.
 calendar:
   ttl: 1
   type: CNAME
