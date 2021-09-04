@@ -367,7 +367,7 @@ bulc:
 byte:
   - ttl: 1
     type: CNAME
-    value: unsolicitedsite.co.in/byteclub/.
+    value: byteclub.netlify.app.
 byteclub:
 - ttl: 1
   type: CNAME
