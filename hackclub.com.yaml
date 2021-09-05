@@ -1034,7 +1034,7 @@ sa:
 saimaa:
   ttl: 1
   type: CNAME
-  value: hacksaimaa.github.io.
+  value: hcksm.github.io.
 saleh:
   ttl: 1
   type: CNAME
