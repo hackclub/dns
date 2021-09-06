@@ -708,6 +708,10 @@ hillsdale:
 - ttl: 1
   type: CNAME
   value: hhshacks.github.io.
+hn:
+- ttl: 1
+  type: A
+  value: 161.35.187.233
 hub.zephyr:
   ttl: 1
   type: CNAME
