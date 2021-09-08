@@ -525,6 +525,10 @@ drive:
   ttl: 1
   type: CNAME
   value: ghs.googlehosted.com.
+dseu:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 duk:
   ttl: 1
   type: CNAME
