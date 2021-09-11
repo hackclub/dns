@@ -877,6 +877,10 @@ merivalja:
   ttl: 1
   type: CNAME
   value: merivalja.github.io.
+mfa:
+  ttl: 1
+  type: CNAME
+  value: genetic-junglefowl-3j5z21xloagt92vzeb752t9s.herokudns.com.
 milesmac:
   ttl: 1
   type: CNAME
