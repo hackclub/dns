@@ -965,6 +965,10 @@ pic._domainkey.mail:
   ttl: 1
   type: TXT
   value: k=rsa
+plis:
+  ttl: 1
+  type: CNAME
+  value: competent-mirzakhani-0ff34a.netlify.app
 podcast:
   ttl: 1
   type: CNAME
