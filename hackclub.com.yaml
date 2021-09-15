@@ -245,6 +245,10 @@ angelhacks:
 anti:
   type: CNAME
   value: anti-hack.netlify.com.
+apacdirectory:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 api:
   ttl: 1
   type: CNAME
@@ -327,7 +331,7 @@ berkley:
 beta-mc:
 - ttl: 1
   type: A
-  value: 18.219.123.37
+  value: 52.15.65.99
 bisv:
 - ttl: 1
   type: CNAME
@@ -360,6 +364,18 @@ bucky:
 - ttl: 1
   type: CNAME
   value: lit-anenome-0a8n6ev3vwpusdyktkunqnea.herokudns.com.
+bulc:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
+byte:
+  - ttl: 1
+    type: CNAME
+    value: byteclub.netlify.app.
+byteclub:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 calendar:
   ttl: 1
   type: CNAME
@@ -393,6 +409,10 @@ cecclphs:
 - ttl: 3600
   type: TXT
   value: google-site-verification=_c3oOWsKBUxlmaanXeqC1tBTLNZGflwsEMQQiuP-EUM
+cgc:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 changelog.bank:
   ttl: 1
   type: CNAME
@@ -433,6 +453,10 @@ ctrl-alt-tec:
 - ttl: 1
   type: CNAME
   value: ctrl-alt-tec.github.io.
+ctrl-api:
+- ttl: 1
+  type: CNAME
+  value: closed-puma-neh5ig3j9cyt871mvx2rewaw.herokudns.com.
 ctrlalttec:
 - ttl: 3600
   type: TXT
@@ -505,6 +529,18 @@ drive:
   ttl: 1
   type: CNAME
   value: ghs.googlehosted.com.
+dseu:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
+duk:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
+dv:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 earlybird:
   ttl: 1
   type: CNAME
@@ -680,6 +716,10 @@ hillsdale:
 - ttl: 1
   type: CNAME
   value: hhshacks.github.io.
+hn:
+- ttl: 1
+  type: A
+  value: 161.35.187.233
 hub.zephyr:
   ttl: 1
   type: CNAME
@@ -735,6 +775,10 @@ kiit:
 - ttl: 1
   type: CNAME
   value: kiithackclub.github.io.
+kjcmt:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 kmea:
 - ttl: 1
   type: A
@@ -816,7 +860,7 @@ maxday:
 mc:
 - ttl: 1
   type: A
-  value: 18.219.123.37
+  value: 52.15.65.99
 mcneil:
 - ttl: 1
   type: A
@@ -837,6 +881,10 @@ merivalja:
   ttl: 1
   type: CNAME
   value: merivalja.github.io.
+mfa:
+  ttl: 1
+  type: CNAME
+  value: genetic-junglefowl-3j5z21xloagt92vzeb752t9s.herokudns.com.
 milesmac:
   ttl: 1
   type: CNAME
@@ -848,7 +896,7 @@ miracosta:
 modded-mc:
 - ttl: 1
   type: A
-  value: 18.219.123.37
+  value: 52.15.65.99
 mumble:
 - ttl: 1
   type: A
@@ -877,6 +925,14 @@ nioflb:
 - ttl: 1
   type: A
   value: 190.106.131.222
+nlcs:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
+nmit:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 notebook:
 - ttl: 1
   type: CNAME
@@ -991,6 +1047,10 @@ sa:
   ttl: 1
   type: CNAME
   value: hc-sa.netlify.app.  
+saimaa:
+  ttl: 1
+  type: CNAME
+  value: hcksm.github.io.
 saleh:
   ttl: 1
   type: CNAME
@@ -1188,6 +1248,10 @@ turner:
 - ttl: 1
   type: A
   value: 173.172.147.235
+uet:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 university:
 - ttl: 1
   type: CNAME
@@ -1223,7 +1287,7 @@ vikingsdev:
 vmc:
 - ttl: 1
   type: A
-  value: 18.219.123.37
+  value: 52.15.65.99
 warsaw:
 - ttl: 1
   type: CNAME
