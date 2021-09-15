@@ -716,6 +716,10 @@ hillsdale:
 - ttl: 1
   type: CNAME
   value: hhshacks.github.io.
+hacktheoctober:
+- ttl: 1
+  type: CNAME
+  value: hacktheoctober.netlify.app.
 hn:
 - ttl: 1
   type: A
