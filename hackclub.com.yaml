@@ -712,14 +712,14 @@ hackstore:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
-hillsdale:
-- ttl: 1
-  type: CNAME
-  value: hhshacks.github.io.
 hacktheoctober:
 - ttl: 1
   type: CNAME
   value: hacktheoctober.netlify.app.
+hillsdale:
+- ttl: 1
+  type: CNAME
+  value: hhshacks.github.io.
 hn:
 - ttl: 1
   type: A
