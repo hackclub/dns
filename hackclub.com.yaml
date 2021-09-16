@@ -245,6 +245,10 @@ angelhacks:
 anti:
   type: CNAME
   value: anti-hack.netlify.com.
+apacdirectory:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 api:
   ttl: 1
   type: CNAME
@@ -965,6 +969,10 @@ pic._domainkey.mail:
   ttl: 1
   type: TXT
   value: k=rsa
+plis:
+  ttl: 1
+  type: CNAME
+  value: plis-hackclub.netlify.app.
 podcast:
   ttl: 1
   type: CNAME
