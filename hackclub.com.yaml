@@ -968,7 +968,7 @@ pic._domainkey.mail:
 plis:
   ttl: 1
   type: CNAME
-  value: plis-hackclub.netlify.app
+  value: plis-hackclub.netlify.app.
 podcast:
   ttl: 1
   type: CNAME
