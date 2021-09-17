@@ -1039,6 +1039,10 @@ riverbend:
 - ttl: 1
   type: CNAME
   value: yousefhaggy.github.io.
+rhs:
+- ttl: 1
+  type: A
+  value: 52.191.165.18.
 rr:
 - ttl: 1
   type: CNAME
