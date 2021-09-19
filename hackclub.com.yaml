@@ -1038,7 +1038,7 @@ ref.guide:
 rhs:
 - ttl: 1
   type: A
-  value: 52.191.165.18.
+  value: 52.191.165.18
 riverbend:
 - ttl: 1
   type: CNAME
