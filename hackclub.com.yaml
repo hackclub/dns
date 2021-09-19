@@ -1314,7 +1314,7 @@ webring:
   value: hackclub-webring.netlify.app.
 webstergroves:
   - ttl: 1
-    type: CNAME
+    type: A
     value: 204.184.92.1.
 westborough:
 - ttl: 1
