@@ -1315,7 +1315,7 @@ webring:
 webstergroves:
   - ttl: 1
     type: A
-    value: 204.184.92.1.
+    value: 204.184.92.1
 westborough:
 - ttl: 1
   type: CNAME
