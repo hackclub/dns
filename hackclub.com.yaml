@@ -751,6 +751,10 @@ jain:
   ttl: 1
   type: A
   value: 185.199.108.153
+jchs:
+  ttl: 1
+  type: CNAME
+  value: jsongga.github.io/jchshack.
 jg2ygmrfby4vhxve3cozh4yz3xc2ul5y._domainkey:
 - ttl: 1
   type: CNAME
