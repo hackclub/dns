@@ -1039,6 +1039,10 @@ ref.guide:
   ttl: 1
   type: CNAME
   value: symmetrical-potatoe-xe9q1l2s6ikk2wmjs2c7obnj.herokudns.com.
+rhs:
+- ttl: 1
+  type: A
+  value: 52.191.165.18
 riverbend:
 - ttl: 1
   type: CNAME
