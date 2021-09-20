@@ -1234,6 +1234,11 @@ tilde:
 - ttl: 1
   type: CNAME
   value: hackclub.myftp.biz.
+- ttl: 3600
+  type: MX
+  value:
+    - exchange: tilde.hackclub.com.
+    - preference: 10
 tist:
 - ttl: 1
   type: A
