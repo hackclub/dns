@@ -194,6 +194,10 @@ _sips._tcp.px:
       priority: 50
       target: ygg2.vp.vc.
       weight: 100
+3blue1brown:
+  ttl: 1
+  type: CNAME
+  value: 97be9df7-6155-40f3-8f4b-ee2b9dcb811e.repl.co.
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
   type: CNAME
