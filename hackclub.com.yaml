@@ -754,7 +754,8 @@ jain:
 jchs:
   ttl: 1
   type: CNAME
-  value: jsongga.github.io.
+  value: zealous-perlman-e5eef6.netlify.app.
+  
 jg2ygmrfby4vhxve3cozh4yz3xc2ul5y._domainkey:
 - ttl: 1
   type: CNAME
