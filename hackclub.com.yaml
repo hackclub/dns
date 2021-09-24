@@ -347,7 +347,7 @@ bkbiet:
 toronto:
   ttl:1 
   type: CNAME
-  value: torontohacks.github.io
+  value: torontohacks.github.io.
 blair:
   ttl: 1
   type: CNAME
