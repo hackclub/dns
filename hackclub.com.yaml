@@ -343,7 +343,7 @@ bisv:
 bkbiet:
   ttl: 1
   type: CNAME
-  value: bkbiethackclub.netlify.com
+  value: bkbiethackclub.netlify.com.
 toronto:
   ttl:1 
   type: CNAME
