@@ -795,7 +795,7 @@ kjcmt:
 kmea:
 - ttl: 1
   type: A
-  value: 76.76.21.21
+  value: 185.199.111.153
 knit:
   - ttl: 1
     type: CNAME
