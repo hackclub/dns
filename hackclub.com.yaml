@@ -580,7 +580,7 @@ eomail:
 eps:
   ttl: 1
   type: CNAME
-  value: hceps.noallus.nl
+  value: hceps.noallus.nl.
 events:
   ttl: 1
   type: CNAME
