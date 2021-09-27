@@ -577,6 +577,10 @@ eomail:
   ttl: 1
   type: CNAME
   value: custom.eomail2.com.
+eps:
+  ttl: 1
+  type: CNAME
+  value: hceps.noallus.nl.
 events:
   ttl: 1
   type: CNAME
