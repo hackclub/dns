@@ -242,6 +242,10 @@ ama-machine:
 - ttl: 1
   type: CNAME
   value: rugged-pheasant-1rx4ei5ejoumyp4fxpq3s8rs.herokudns.com.
+amity:
+- ttl: 1
+  type: CNAME
+  value: cfd6e167.hackclub.pages.dev
 angelhacks:
 - ttl: 1
   type: TXT
