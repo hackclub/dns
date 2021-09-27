@@ -245,7 +245,7 @@ ama-machine:
 amity:
 - ttl: 1
   type: CNAME
-  value: cfd6e167.hackclub.pages.dev
+  value: cfd6e167.hackclub.pages.dev.
 angelhacks:
 - ttl: 1
   type: TXT
