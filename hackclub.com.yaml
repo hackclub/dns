@@ -1293,6 +1293,10 @@ upa:
   - ttl: 1
     type: CNAME
     value: upahackclub.github.io.
+upademo:
+  - ttl: 1
+    type: CNAME
+    value: club-fair-attention-monopoly.sohamb117.repl.co.
 uqq467l64nnf3dyo6omjcjmcc3dmdqlb._domainkey:
 - ttl: 1
   type: CNAME
