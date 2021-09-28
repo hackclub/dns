@@ -344,10 +344,6 @@ bkbiet:
   ttl: 1
   type: CNAME
   value: bkbiethackclub.netlify.com.
-toronto:
-  ttl: 1 
-  type: CNAME
-  value: torontohacks.github.io.
 blair:
   ttl: 1
   type: CNAME
@@ -1269,6 +1265,10 @@ titanhacks:
 - ttl: 1
   type: CNAME
   value: titanhacks.club.
+toronto:
+  ttl: 1 
+  type: CNAME
+  value: torontohacks.github.io.
 toolbox:
   ttl: 1
   type: CNAME
