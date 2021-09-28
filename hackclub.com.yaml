@@ -851,6 +851,12 @@ mail-services:
   ttl: 1
   type: CNAME
   value: tapered-cliffs-y85zzxrnmb9w87456z5vvlpy.herokudns.com.
+mail.tilde:
+- ttl: 3600
+  type: MX
+  values:
+    - exchange: tilde.hackclub.com.
+      preference: 10
 mailo._domainkey.testing.mail:
   ttl: 1
   type: TXT
