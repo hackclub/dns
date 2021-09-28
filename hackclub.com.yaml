@@ -1266,7 +1266,7 @@ titanhacks:
   type: CNAME
   value: titanhacks.club.
 toronto:
-  ttl: 1 
+-  ttl: 1 
   type: CNAME
   value: torontohacks.github.io.
 toolbox:
