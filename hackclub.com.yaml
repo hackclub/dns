@@ -962,6 +962,21 @@ numberwang:
   ttl: 1
   type: CNAME
   value: impactdns.techby.org.
+oly:
+- ttl: 1
+  type: A
+  value: 75.2.60.5
+- ttl: 1
+  type: TXT
+  values: 
+  - v=spf1 include:spf.improvmx.com ~all
+- ttl: 1
+  type: MX
+  values:
+  - exchange: mx1.improvmx.com.
+    preference: 10
+  - exchange: mx2.improvmx.com.
+    preference: 20
 oneditor:
 - ttl: 1
   type: CNAME
