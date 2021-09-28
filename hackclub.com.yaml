@@ -841,9 +841,9 @@ mail-services:
 mail.tilde:
 - ttl: 3600
   type: MX
-  value:
+  values:
     - exchange: tilde.hackclub.com.
-    - preference: 10
+      preference: 10
 mailo._domainkey.testing.mail:
   ttl: 1
   type: TXT
