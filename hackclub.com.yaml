@@ -29,6 +29,10 @@
   - stripe-verification=5bdd0e2475b12744bfe1f778ac419f917800d476fd498ae2682ecd161d162c64
   - 61220A24D7 # From Expensify
   - 2610E0D36E # From Expensify
+3blue1brown:
+  ttl: 1
+  type: CNAME
+  value: 97be9df7-6155-40f3-8f4b-ee2b9dcb811e.repl.co.
 "*":
   ttl: 1
   type: CNAME
@@ -238,6 +242,10 @@ ama-machine:
 - ttl: 1
   type: CNAME
   value: rugged-pheasant-1rx4ei5ejoumyp4fxpq3s8rs.herokudns.com.
+amity:
+- ttl: 1
+  type: CNAME
+  value: b7b5adc9.hackclub.pages.dev.
 angelhacks:
 - ttl: 1
   type: TXT
@@ -573,6 +581,10 @@ eomail:
   ttl: 1
   type: CNAME
   value: custom.eomail2.com.
+eps:
+  ttl: 1
+  type: CNAME
+  value: hceps.noallus.nl.
 events:
   ttl: 1
   type: CNAME
@@ -754,7 +766,8 @@ jain:
 jchs:
   ttl: 1
   type: CNAME
-  value: jsongga.github.io.
+  value: zealous-perlman-e5eef6.netlify.app.
+  
 jg2ygmrfby4vhxve3cozh4yz3xc2ul5y._domainkey:
 - ttl: 1
   type: CNAME
@@ -790,7 +803,7 @@ kjcmt:
 kmea:
 - ttl: 1
   type: A
-  value: 76.76.21.21
+  value: 185.199.111.153
 knit:
   - ttl: 1
     type: CNAME
@@ -955,6 +968,21 @@ numberwang:
   ttl: 1
   type: CNAME
   value: impactdns.techby.org.
+oly:
+- ttl: 1
+  type: A
+  value: 75.2.60.5
+- ttl: 1
+  type: TXT
+  values: 
+  - v=spf1 include:spf.improvmx.com ~all
+- ttl: 1
+  type: MX
+  values:
+  - exchange: mx1.improvmx.com.
+    preference: 10
+  - exchange: mx2.improvmx.com.
+    preference: 20
 oneditor:
 - ttl: 1
   type: CNAME
@@ -1286,6 +1314,10 @@ upa:
   - ttl: 1
     type: CNAME
     value: upahackclub.github.io.
+upademo:
+  - ttl: 1
+    type: CNAME
+    value: 2695607c-ab46-45ec-a854-984b419c11df.id.repl.co.
 uqq467l64nnf3dyo6omjcjmcc3dmdqlb._domainkey:
 - ttl: 1
   type: CNAME
