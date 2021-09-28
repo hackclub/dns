@@ -1311,7 +1311,7 @@ upa:
 upademo:
   - ttl: 1
     type: CNAME
-    value: club-fair-attention-monopoly.sohamb117.repl.co.
+    value: 2695607c-ab46-45ec-a854-984b419c11df.id.repl.co.
 uqq467l64nnf3dyo6omjcjmcc3dmdqlb._domainkey:
 - ttl: 1
   type: CNAME
