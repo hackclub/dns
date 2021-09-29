@@ -81,6 +81,10 @@ _acme-challenge.haas:
   type: TXT
   values:
     - WeFHw1rO8PfGWEGAEh9CnfvOhokXXYgK-PD0kbI6RS0
+_acme-challenge.tilde:
+  type: TXT
+  values:
+    - QkrfKYOg3tcUAlf_AcfqOzqfuma4Bl-k4VZQ_BXW5Cw
 _acme-challenge.zephyrnet:
   type: TXT
   values:
