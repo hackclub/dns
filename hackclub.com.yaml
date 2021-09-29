@@ -85,6 +85,7 @@ _acme-challenge.tilde:
   type: TXT
   values:
     - QkrfKYOg3tcUAlf_AcfqOzqfuma4Bl-k4VZQ_BXW5Cw
+    - 2gYHVJZ9l_QlTRz6CuB-wRV_NRXjR-SoQJ4SWOOqVWM
 _acme-challenge.zephyrnet:
   type: TXT
   values:
