@@ -44,3 +44,8 @@ zones:
       - config
     targets:
       - dnsimple
+  hackfoundation.org.:
+    sources:
+      - config
+    targets:
+      - dnsimple
