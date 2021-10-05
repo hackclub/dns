@@ -4,7 +4,7 @@
     value: adjacent-crag-9vk67y6ktr6zzlqitcb2fxwn.herokudns.com.
   - type: MX
     value:
-      exchange: 165.227.96.87
+      exchange: mail.hack.af.
       preference: 10
   - type: SPF
     value: v=spf1 include:mailgun.org ~all
@@ -18,6 +18,9 @@ e:
 email:
   type: CNAME
   value: mailgun.org.
+mail:
+  type: A
+  value: 165.227.96.87
 mx._domainkey:
   type: TXT
   values:
