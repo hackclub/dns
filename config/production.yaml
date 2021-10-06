@@ -39,6 +39,11 @@ zones:
       - config
     targets:
       - dnsimple
+  dinosaurbbq.org.:
+    sources:
+      - config
+    targets:
+      - dnsimple
   hackclub.app.:
     sources:
       - config
