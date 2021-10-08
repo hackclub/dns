@@ -131,6 +131,10 @@ _github-challenge-hackclub:
 - ttl: 1
   type: TXT
   value: 3bb54b8627
+_github-challenge-Orpheuspod.podcast:
+- ttl: 1
+  type: TXT
+  value: b2e369c8f1
 _github-challenge-rahs-hackclub.rahs:
 - ttl: 1
   type: TXT
