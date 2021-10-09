@@ -462,6 +462,10 @@ conant:
 - ttl: 1
   type: CNAME
   value: Conant-Hack-Club.github.io.
+coxmill:
+- ttl: 1
+  type: CNAME
+  value: modest-swanson-0a9aa6.netlify.app.
 ctf:
 - ttl: 1
   type: CNAME
