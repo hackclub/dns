@@ -124,6 +124,10 @@ _github-challenge-Hackclub-PRC.prc:
 - ttl: 1
   type: TXT
   value: 26e02b51f5
+_github-challenge-Orpheuspod.podcast:
+- ttl: 1
+  type: TXT
+  value: b2e369c8f1
 _github-challenge-hack-as-a-service.haas:
   type: TXT
   value: dc63dbf87b
