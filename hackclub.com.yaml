@@ -1375,6 +1375,12 @@ westborough:
 - ttl: 1
   type: CNAME
   value: whs-hackclub.netlify.com.
+  
+whis:
+- ttl: 1
+  type: CNAME
+  value: 10e7a551-01d9-4a6f-916a-c095ba0fe225.id.repl.co.
+
 whs:
 - ttl: 1
   type: CNAME
