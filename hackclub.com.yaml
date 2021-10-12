@@ -1254,7 +1254,7 @@ summitshasta:
 tanishq:
 - ttl: 1
   type: CNAME
-  value: tanishq.me
+  value: tanishq.me.
 tbp:
 - ttl: 1
   type: NS
