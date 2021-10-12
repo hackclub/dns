@@ -1251,6 +1251,10 @@ summitshasta:
 - ttl: 1
   type: CNAME
   value: summitshasta.github.io.
+tanishq:
+- ttl: 1
+  type: CNAME
+  value: tanishq.me
 tbp:
 - ttl: 1
   type: NS
