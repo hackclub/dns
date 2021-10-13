@@ -67,7 +67,7 @@ MaggieWalker:
 Map:
 - ttl: 1
   type: CNAME
-  value: hack-club-map.netlify.com.
+  value: hackclub.github.io.
 _496c10c564509e5030203691afc939ff.assets:
 - ttl: 1
   type: CNAME
