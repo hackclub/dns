@@ -1063,9 +1063,8 @@ prc:
    - exchange: alt4.aspmx.l.google.com.
      preference: 10
 proxy.servers:
-  ttl: 1
   type: A
-  value: 165.227.242.76
+  value: 45.79.164.46
 pshs:
 - ttl: 1
   type: CNAME
