@@ -12,6 +12,9 @@
     values:
       - v=spf1 include:mailgun.org ~all
       - google-site-verification=ntu4oLX1DPYni0Ti5N_gsW0jgkl7TY1pViqw7Kfcqn8
+"*":
+  type: CNAME
+  value: proxy.servers.hackclub.com.
 e:
   type: CNAME
   value: cname.vercel-dns.com.
