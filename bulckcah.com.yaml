@@ -2,6 +2,8 @@
 ? ''
 : type: ALIAS
   value: proxy.servers.hackclub.com.
+"*":
+  value: proxy.servers.hackclub.com.
 _acme-challenge:
   ttl: 60
   type: TXT
@@ -10,6 +12,3 @@ _acme-challenge.www:
   ttl: 60
   type: TXT
   value: uJuXS2_A0WTG9Pnb2jdW-NYM8VfwttORa-MSjY7s0UU
-api:
-  type: CNAME
-  value: bulckcah.com.
