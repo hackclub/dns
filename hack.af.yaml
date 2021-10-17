@@ -1,27 +1,31 @@
 ---
-? ''
-: - type: ALIAS
+"":
+  - type: ALIAS
     value: adjacent-crag-9vk67y6ktr6zzlqitcb2fxwn.herokudns.com.
   - type: MX
-    values:
-    - exchange: mxa.mailgun.org.
-      preference: 10
-    - exchange: mxb.mailgun.org.
+    value:
+      exchange: mail.hack.af.
       preference: 10
   - type: SPF
     value: v=spf1 include:mailgun.org ~all
   - type: TXT
     values:
-    - v=spf1 include:mailgun.org ~all
-    - google-site-verification=ntu4oLX1DPYni0Ti5N_gsW0jgkl7TY1pViqw7Kfcqn8
+      - v=spf1 include:mailgun.org ~all
+      - google-site-verification=ntu4oLX1DPYni0Ti5N_gsW0jgkl7TY1pViqw7Kfcqn8
+"*":
+  type: CNAME
+  value: proxy.servers.hackclub.com.
 e:
   type: CNAME
   value: cname.vercel-dns.com.
 email:
   type: CNAME
   value: mailgun.org.
+mail:
+  type: A
+  value: 165.227.96.87
 mx._domainkey:
   type: TXT
   values:
-  - k=rsa
-  - p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCt5iLZbpUx3IH6BfiRZ5R0d0Yv8nyisVlD1dhK+eJKN2L6YR9ajr9OrGhLt+mmqJf+6yjShRp049kLMFp3J6UjixG+n7zXXWqk0idTsN9L/ZOEVyOxAGxN02aV4iJXPonfhFmaOgmJTF7+z0UPuYzKIDxHo91RxNJKm3ofRhy32QIDAQAB
+    - k=rsa
+    - p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCt5iLZbpUx3IH6BfiRZ5R0d0Yv8nyisVlD1dhK+eJKN2L6YR9ajr9OrGhLt+mmqJf+6yjShRp049kLMFp3J6UjixG+n7zXXWqk0idTsN9L/ZOEVyOxAGxN02aV4iJXPonfhFmaOgmJTF7+z0UPuYzKIDxHo91RxNJKm3ofRhy32QIDAQAB
