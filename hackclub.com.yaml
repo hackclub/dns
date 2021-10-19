@@ -1330,6 +1330,10 @@ upademo:
   - ttl: 1
     type: CNAME
     value: 2695607c-ab46-45ec-a854-984b419c11df.id.repl.co.
+upalinks:
+  - ttl: 1
+    type: CNAME
+    value: f428cbe5-cbe3-4152-8852-bb944bbb4fc0.id.repl.co.
 uqq467l64nnf3dyo6omjcjmcc3dmdqlb._domainkey:
 - ttl: 1
   type: CNAME
