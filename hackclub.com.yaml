@@ -98,6 +98,11 @@ _amazonses:
     - uHICDD8seqgxLogZH5xjm7JIYkoBQEpxrmw2m2GEL4U=
     - bFbUGS4kBPpGcOFE9EjoMKUC2NX80TkfI6r7zv65CWk=
     - JXvGphwpFIMhw/sZUreoxanihgG6+WWPjAKsFw+695s=
+_amazonses.conduct-test:
+  ttl: 1
+  type: TXT
+  values:
+    - HksJ0gd1gWz4VAeLw/ZnKRgJKR1ndUIlF8E7BMXioI8=
 _amazonses.eolink:
   ttl: 1
   type: TXT
@@ -469,6 +474,12 @@ conant:
 - ttl: 1
   type: CNAME
   value: Conant-Hack-Club.github.io.
+conduct-test:
+- ttl: 1
+  type: MX
+  values:
+    - exchange: inbound-smtp.us-east-1.amazonaws.com.
+      preference: 10
 coxmill:
 - ttl: 1
   type: CNAME
