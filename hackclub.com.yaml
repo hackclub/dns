@@ -94,7 +94,9 @@ _acme-challenge.zephyrnet:
 _amazonses:
   ttl: 1
   type: TXT
-  value: uHICDD8seqgxLogZH5xjm7JIYkoBQEpxrmw2m2GEL4U=
+  values:
+    - uHICDD8seqgxLogZH5xjm7JIYkoBQEpxrmw2m2GEL4U=
+    - bFbUGS4kBPpGcOFE9EjoMKUC2NX80TkfI6r7zv65CWk=
 _amazonses.eolink:
   ttl: 1
   type: TXT
