@@ -458,6 +458,10 @@ ciudalcampo:
 - ttl: 1
   type: CNAME
   value: code-sekcc.github.io.
+ckag6kd47cfmvkhvvyy4licplz3nlev2._domainkey.conduct-test:
+  ttl: 1
+  type: CNAME
+  value: ckag6kd47cfmvkhvvyy4licplz3nlev2.dkim.amazonses.com.
 cken:
 - ttl: 1
   type: A
@@ -731,6 +735,10 @@ gwas:
    ttl: 1
    type: CNAME
    value: competent-yonath-7f9d16.netlify.app.
+gyfaieadefoity2i3m2aif6evdmlll2j._domainkey.conduct-test:
+  ttl: 1
+  type: CNAME
+  value: gyfaieadefoity2i3m2aif6evdmlll2j.dkim.amazonses.com.
 haas:
   ttl: 1
   type: A
@@ -1360,6 +1368,10 @@ v3:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+v47vtmhk3bv6ue4o2tspk6lfbbqs374u._domainkey.conduct-test:
+  ttl: 1
+  type: CNAME
+  value: v47vtmhk3bv6ue4o2tspk6lfbbqs374u.dkim.amazonses.com.
 vault:
 - ttl: 1
   type: CNAME
