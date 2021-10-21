@@ -1265,14 +1265,14 @@ titanhacks:
 - ttl: 1
   type: CNAME
   value: titanhacks.club.
-toronto:
-- ttl: 1 
-  type: CNAME
-  value: torontohacks.github.io.
 toolbox:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+toronto:
+- ttl: 1 
+  type: CNAME
+  value: torontohacks.github.io.
 turner:
 - ttl: 1
   type: A
