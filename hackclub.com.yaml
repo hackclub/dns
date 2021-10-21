@@ -1102,6 +1102,10 @@ ravenhack:
 - ttl: 1
   type: CNAME
   value: ravenhack.org.
+rawr:
+- ttl: 1
+  type: CNAME
+  value: hackclub.github.io.
 ref.guide:
   ttl: 1
   type: CNAME
