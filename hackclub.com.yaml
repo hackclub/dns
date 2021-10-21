@@ -23,7 +23,7 @@
   - google-site-verification=haP-NAN6fjhxiSxwB7HeLmeHnUI7MsXARShhPBKSn6A
   - google-site-verification=pheoxaglA5iew_VN0RUE-eWf6lL9FlqC0vROqUGlhiA
   - google-site-verification=w6ZIJvwwXDKPKLvV_RZbxLF6vb0xfJoRidbw5LeiUcE
-  - v=spf1 include:_spf.google.com ~all
+  - v=spf1 include:_spf.google.com include:amazonses.com ~all
   - AA418B02F6
   - segment-site-verification=ED0mCO5yaFBc40hEvipDG5OiON3Nemh2
   - stripe-verification=5bdd0e2475b12744bfe1f778ac419f917800d476fd498ae2682ecd161d162c64
@@ -484,6 +484,9 @@ conduct-test:
   values:
     - exchange: inbound-smtp.us-east-1.amazonaws.com.
       preference: 10
+- ttl: 1
+  type: TXT
+  value: v=spf1 include:amazonses.com ~all
 coxmill:
 - ttl: 1
   type: CNAME
