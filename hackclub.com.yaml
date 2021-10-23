@@ -1441,6 +1441,10 @@ zachday:
 - ttl: 1
   type: CNAME
   value: zachday.netlify.com.
+zachday23:
+- ttl: 1
+  type: A
+  value: 150.136.142.44
 zapdos.servers:
 - ttl: 1
   type: A
