@@ -364,7 +364,7 @@ bisv:
 bkbiet:
   ttl: 1
   type: CNAME
-  value: bkbiethackclub.netlify.com.  
+  value: bkbiethackclub.netlify.com.
 blair:
   ttl: 1
   type: CNAME
@@ -1331,6 +1331,10 @@ toolbox:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+toronto:
+- ttl: 1 
+  type: CNAME
+  value: torontohacks.github.io.
 turner:
 - ttl: 1
   type: A
