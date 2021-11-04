@@ -532,6 +532,10 @@ cvhs:
 - ttl: 1
   type: A
   value: 192.168.1.1
+ddze3tkuawtlnbviwym44yhrjczhqzxw._domainkey:
+  ttl: 1
+  type: CNAME
+  value: ddze3tkuawtlnbviwym44yhrjczhqzxw.dkim.amazonses.com.
 dedicated.servers:
 - ttl: 1
   type: A
@@ -627,6 +631,10 @@ events:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+f5qsmeu4qwef4yvo2p6e4a4vrspzdqdc._domainkey:
+  ttl: 1
+  type: CNAME
+  value: f5qsmeu4qwef4yvo2p6e4a4vrspzdqdc.dkim.amazonses.com.
 fhshackclub:
 - ttl: 1
   type: CNAME
@@ -1041,6 +1049,10 @@ pic._domainkey.mail:
   ttl: 1
   type: TXT
   value: k=rsa
+piobfpwf42smbkxcysnrx7qe5es6f5tp._domainkey:
+  ttl: 1
+  type: CNAME
+  value: piobfpwf42smbkxcysnrx7qe5es6f5tp.dkim.amazonses.com.
 plis:
   ttl: 1
   type: CNAME
