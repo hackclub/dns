@@ -536,6 +536,10 @@ ddze3tkuawtlnbviwym44yhrjczhqzxw._domainkey:
   ttl: 1
   type: CNAME
   value: ddze3tkuawtlnbviwym44yhrjczhqzxw.dkim.amazonses.com.
+dear-joe:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 dedicated.servers:
 - ttl: 1
   type: A
