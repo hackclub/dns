@@ -5,6 +5,8 @@
 
 This repository is used for managing Hack Club's DNS configuration through [OctoDNS](https://github.com/github/octodns). Please see its documentation for more information.
 
+Domains are available for all clubs and projects related to Hack Club.
+
 ## Adding a subdomain
 
 1. [Create a fork](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo) of this repository.
