@@ -523,7 +523,7 @@ ctrlalttec:
 cucek:
 - ttl: 1
   type: CNAME
-  value: hackclub-cucek.github.io.
+  value: hackclubcucekv4.netlify.app.
 customizer:
 - ttl: 1
   type: CNAME
