@@ -1309,6 +1309,10 @@ testing.mail:
 - ttl: 1
   type: TXT
   value: v=spf1 include:mailgun.org ~all
+tfss:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 theme:
 - ttl: 1
   type: CNAME
@@ -1357,8 +1361,8 @@ toronto:
   value: torontohacks.github.io.
 turner:
 - ttl: 1
-  type: A
-  value: 173.172.147.235
+  type: CNAME
+  value: cname.vercel-dns.com.
 uet:
 - ttl: 1
   type: CNAME
