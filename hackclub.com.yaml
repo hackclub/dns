@@ -1014,6 +1014,10 @@ numberwang:
   ttl: 1
   type: CNAME
   value: impactdns.techby.org.
+nust:
+- ttl: 1
+  type: CNAME
+  value: club-website-demo2.vercel.app.
 oly:
 - ttl: 1
   type: A
