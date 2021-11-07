@@ -1304,16 +1304,20 @@ tbp:
       - ns2.digitalocean.com.
       - ns3.digitalocean.com.
 testing.mail:
-  - ttl: 1
-    type: MX
-    values:
-      - exchange: mxa.mailgun.org.
-        preference: 10
-      - exchange: mxb.mailgun.org.
-        preference: 10
-  - ttl: 1
-    type: TXT
-    value: v=spf1 include:mailgun.org ~all
+- ttl: 1
+  type: MX
+  values:
+  - exchange: mxa.mailgun.org.
+    preference: 10
+  - exchange: mxb.mailgun.org.
+    preference: 10
+- ttl: 1
+  type: TXT
+  value: v=spf1 include:mailgun.org ~all
+tfss:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 theme:
   - ttl: 1
     type: CNAME
@@ -1361,9 +1365,9 @@ toronto:
     type: CNAME
     value: torontohacks.github.io.
 turner:
-  - ttl: 1
-    type: A
-    value: 173.172.147.235
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 uet:
   - ttl: 1
     type: CNAME
