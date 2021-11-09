@@ -1489,3 +1489,7 @@ zephyrnet:
 - ttl: 1
   type: CNAME
   value: hackclub.myftp.biz.
+zwp:
+- ttl: 1
+  type: A
+  value: 172.99.233.117
