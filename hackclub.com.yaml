@@ -114,7 +114,7 @@ _amazonses.eomail:
 _dmarc:
   ttl: 1
   type: TXT
-  value: v=DMARC1\; p=none\; rua=mailto:tbqldgpy@ag.dmarcian.com\; ruf=mailto:tbqldgpy@fr.dmarcian.com\;
+  value: v=DMARC1\; p=quarantine\; rua=mailto:tbqldgpy@ag.dmarcian.com\; ruf=mailto:tbqldgpy@fr.dmarcian.com\;
     fo=1
 _github-challenge-GaynorMcCown.gaynormccown:
 - ttl: 1
