@@ -44,6 +44,11 @@ zones:
       - config
     targets:
       - dnsimple
+  dino.icu.:
+    sources:
+      - config
+    targets:
+      - dnsimple
   hackclub.app.:
     sources:
       - config
