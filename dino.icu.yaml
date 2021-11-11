@@ -53,6 +53,16 @@ meta: # meta page
   type: CNAME
   value: cname.vercel-dns.com.
 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# use this as an example for your own domain!
+
+orpheus: # prophet orpheus's page (when making your page enter your github username or slack id here)
+  ttl: 1 # the time to live of your domain; you don't need to change this
+  type: CNAME # the type of record you're creating; you don't need to change this unless your hosting provider requires it
+  value: cname.vercel-dns.com. # the value of the record; set this to what your hosting provider requires
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 parker: # parker.dino.icu; reserved by hack club bank
 - type: ALIAS
   value: cname.vercel-dns.com.
@@ -74,16 +84,6 @@ parker: # parker.dino.icu; reserved by hack club bank
   values:
   - google-site-verification=XqT81Vm5K6PUs4sy90BWKQMEVPaIDAXxBPI_n773h-A
   - v=spf1 include:_spf.google.com ~all
-
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# use this as an example for your own domain!
-
-orpheus: # prophet orpheus's page (when making your page enter your github username or slack id here)
-  ttl: 1 # the time to live of your domain; you don't need to change this
-  type: CNAME # the type of record you're creating; you don't need to change this unless your hosting provider requires it
-  value: cname.vercel-dns.com. # the value of the record; set this to what your hosting provider requires
-
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 spider: # spider.dino.icu; reserved by hack club bank
 - type: ALIAS
