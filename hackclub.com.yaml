@@ -23,7 +23,7 @@
   - google-site-verification=haP-NAN6fjhxiSxwB7HeLmeHnUI7MsXARShhPBKSn6A
   - google-site-verification=pheoxaglA5iew_VN0RUE-eWf6lL9FlqC0vROqUGlhiA
   - google-site-verification=w6ZIJvwwXDKPKLvV_RZbxLF6vb0xfJoRidbw5LeiUcE
-  - v=spf1 include:_spf.google.com ~all
+  - v=spf1 include:_spf.google.com include:amazonses.com ~all
   - AA418B02F6
   - segment-site-verification=ED0mCO5yaFBc40hEvipDG5OiON3Nemh2
   - stripe-verification=5bdd0e2475b12744bfe1f778ac419f917800d476fd498ae2682ecd161d162c64
@@ -67,7 +67,7 @@ MaggieWalker:
 Map:
 - ttl: 1
   type: CNAME
-  value: hack-club-map.netlify.com.
+  value: hackclub.github.io.
 _496c10c564509e5030203691afc939ff.assets:
 - ttl: 1
   type: CNAME
@@ -94,7 +94,15 @@ _acme-challenge.zephyrnet:
 _amazonses:
   ttl: 1
   type: TXT
-  value: uHICDD8seqgxLogZH5xjm7JIYkoBQEpxrmw2m2GEL4U=
+  values:
+    - uHICDD8seqgxLogZH5xjm7JIYkoBQEpxrmw2m2GEL4U=
+    - bFbUGS4kBPpGcOFE9EjoMKUC2NX80TkfI6r7zv65CWk=
+    - JXvGphwpFIMhw/sZUreoxanihgG6+WWPjAKsFw+695s=
+_amazonses.conduct-test:
+  ttl: 1
+  type: TXT
+  values:
+    - HksJ0gd1gWz4VAeLw/ZnKRgJKR1ndUIlF8E7BMXioI8=
 _amazonses.eolink:
   ttl: 1
   type: TXT
@@ -106,7 +114,7 @@ _amazonses.eomail:
 _dmarc:
   ttl: 1
   type: TXT
-  value: v=DMARC1\; p=none\; rua=mailto:tbqldgpy@ag.dmarcian.com\; ruf=mailto:tbqldgpy@fr.dmarcian.com\;
+  value: v=DMARC1\; p=quarantine\; rua=mailto:tbqldgpy@ag.dmarcian.com\; ruf=mailto:tbqldgpy@fr.dmarcian.com\;
     fo=1
 _github-challenge-GaynorMcCown.gaynormccown:
 - ttl: 1
@@ -356,7 +364,7 @@ bisv:
 bkbiet:
   ttl: 1
   type: CNAME
-  value: bkbiethackclub.netlify.com.  
+  value: bkbiethackclub.netlify.com.
 blair:
   ttl: 1
   type: CNAME
@@ -450,6 +458,14 @@ ciudalcampo:
 - ttl: 1
   type: CNAME
   value: code-sekcc.github.io.
+ckag6kd47cfmvkhvvyy4licplz3nlev2._domainkey.conduct-test:
+  ttl: 1
+  type: CNAME
+  value: ckag6kd47cfmvkhvvyy4licplz3nlev2.dkim.amazonses.com.
+cken:
+- ttl: 1
+  type: A
+  value: 52.191.165.18
 coet:
 - ttl: 1
   type: CNAME
@@ -462,6 +478,15 @@ conant:
 - ttl: 1
   type: CNAME
   value: Conant-Hack-Club.github.io.
+conduct-test:
+- ttl: 1
+  type: MX
+  values:
+    - exchange: inbound-smtp.us-east-1.amazonaws.com.
+      preference: 10
+- ttl: 1
+  type: TXT
+  value: v=spf1 include:amazonses.com ~all
 coxmill:
 - ttl: 1
   type: CNAME
@@ -498,7 +523,7 @@ ctrlalttec:
 cucek:
 - ttl: 1
   type: CNAME
-  value: hackclub-cucek.github.io.
+  value: hackclubcucekv4.netlify.app.
 customizer:
 - ttl: 1
   type: CNAME
@@ -507,6 +532,14 @@ cvhs:
 - ttl: 1
   type: A
   value: 192.168.1.1
+ddze3tkuawtlnbviwym44yhrjczhqzxw._domainkey:
+  ttl: 1
+  type: CNAME
+  value: ddze3tkuawtlnbviwym44yhrjczhqzxw.dkim.amazonses.com.
+dear-joe:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 dedicated.servers:
 - ttl: 1
   type: A
@@ -602,6 +635,10 @@ events:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+f5qsmeu4qwef4yvo2p6e4a4vrspzdqdc._domainkey:
+  ttl: 1
+  type: CNAME
+  value: f5qsmeu4qwef4yvo2p6e4a4vrspzdqdc.dkim.amazonses.com.
 fhshackclub:
 - ttl: 1
   type: CNAME
@@ -713,6 +750,10 @@ gwas:
    ttl: 1
    type: CNAME
    value: competent-yonath-7f9d16.netlify.app.
+gyfaieadefoity2i3m2aif6evdmlll2j._domainkey.conduct-test:
+  ttl: 1
+  type: CNAME
+  value: gyfaieadefoity2i3m2aif6evdmlll2j.dkim.amazonses.com.
 haas:
   ttl: 1
   type: A
@@ -808,7 +849,7 @@ kf2tzvncx46ahlhuev6kusbvg5hmymau._domainkey:
 kiit:
 - ttl: 1
   type: CNAME
-  value: kiithackclub.github.io.
+  value: alpha-9h3.pages.dev.
 kjcmt:
   ttl: 1
   type: CNAME
@@ -886,14 +927,6 @@ mason:
 - ttl: 1
   type: CNAME
   value: mason-hack-club.netlify.com.
-max:
-- ttl: 1
-  type: CNAME
-  value: maxwofford.github.io.
-max2:
-- ttl: 1
-  type: CNAME
-  value: maxwofford.github.io.
 maxday:
   type: CNAME
   value: maxday-prod.netlify.com.
@@ -981,6 +1014,10 @@ numberwang:
   ttl: 1
   type: CNAME
   value: impactdns.techby.org.
+nust:
+- ttl: 1
+  type: CNAME
+  value: club-website-demo2.vercel.app.
 oly:
 - ttl: 1
   type: A
@@ -1016,10 +1053,18 @@ packages:
   ttl: 1
   type: CNAME
   value: secret-zebra-lydr194iy8x0x4n4rmzcii3r.herokudns.com.
+philanthropy:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 pic._domainkey.mail:
   ttl: 1
   type: TXT
   value: k=rsa
+piobfpwf42smbkxcysnrx7qe5es6f5tp._domainkey:
+  ttl: 1
+  type: CNAME
+  value: piobfpwf42smbkxcysnrx7qe5es6f5tp.dkim.amazonses.com.
 plis:
   ttl: 1
   type: CNAME
@@ -1063,9 +1108,8 @@ prc:
    - exchange: alt4.aspmx.l.google.com.
      preference: 10
 proxy.servers:
-  ttl: 1
   type: A
-  value: 165.227.242.76
+  value: 45.79.164.46
 pshs:
 - ttl: 1
   type: CNAME
@@ -1082,14 +1126,14 @@ ravenhack:
 - ttl: 1
   type: CNAME
   value: ravenhack.org.
+rawr:
+- ttl: 1
+  type: CNAME
+  value: hackclub.github.io.
 ref.guide:
   ttl: 1
   type: CNAME
   value: symmetrical-potatoe-xe9q1l2s6ikk2wmjs2c7obnj.herokudns.com.
-rhs:
-- ttl: 1
-  type: A
-  value: 52.191.165.18
 riverbend:
 - ttl: 1
   type: CNAME
@@ -1269,6 +1313,10 @@ testing.mail:
 - ttl: 1
   type: TXT
   value: v=spf1 include:mailgun.org ~all
+tfss:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 theme:
 - ttl: 1
   type: CNAME
@@ -1311,10 +1359,14 @@ toolbox:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+toronto:
+- ttl: 1 
+  type: CNAME
+  value: torontohacks.github.io.
 turner:
 - ttl: 1
-  type: A
-  value: 173.172.147.235
+  type: CNAME
+  value: cname.vercel-dns.com.
 uet:
 - ttl: 1
   type: CNAME
@@ -1331,6 +1383,10 @@ upademo:
   - ttl: 1
     type: CNAME
     value: 2695607c-ab46-45ec-a854-984b419c11df.id.repl.co.
+upalinks:
+  - ttl: 1
+    type: CNAME
+    value: f428cbe5-cbe3-4152-8852-bb944bbb4fc0.id.repl.co.
 uqq467l64nnf3dyo6omjcjmcc3dmdqlb._domainkey:
 - ttl: 1
   type: CNAME
@@ -1343,6 +1399,10 @@ v3:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+v47vtmhk3bv6ue4o2tspk6lfbbqs374u._domainkey.conduct-test:
+  ttl: 1
+  type: CNAME
+  value: v47vtmhk3bv6ue4o2tspk6lfbbqs374u.dkim.amazonses.com.
 vault:
 - ttl: 1
   type: CNAME
@@ -1413,6 +1473,10 @@ zachday:
 - ttl: 1
   type: CNAME
   value: zachday.netlify.com.
+zachday23:
+- ttl: 1
+  type: A
+  value: 150.136.142.44
 zapdos.servers:
 - ttl: 1
   type: A
@@ -1425,3 +1489,7 @@ zephyrnet:
 - ttl: 1
   type: CNAME
   value: hackclub.myftp.biz.
+zwp:
+- ttl: 1
+  type: A
+  value: 172.99.233.117
