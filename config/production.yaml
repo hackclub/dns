@@ -39,12 +39,12 @@ zones:
       - config
     targets:
       - dnsimple
-  dinosaurbbq.org.:
+  dino.icu.:
     sources:
       - config
     targets:
       - dnsimple
-  dino.icu.:
+  dinosaurbbq.org.:
     sources:
       - config
     targets:
