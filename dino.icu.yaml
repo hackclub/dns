@@ -63,6 +63,11 @@ orpheus: # prophet orpheus's page (when making your page enter your github usern
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+andrew:
+  ttl: 1
+  type: CNAME
+  value: nijmeh.xyz
+  
 parker: # parker.dino.icu; reserved by hack club bank
 - type: ALIAS
   value: cname.vercel-dns.com.
