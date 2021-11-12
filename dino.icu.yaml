@@ -48,6 +48,11 @@
   type: CNAME
   value: cname.vercel-dns.com.
 
+kunal: # kunal
+  ttl: 1
+  type: CNAME
+  value: kunal-dino-icu.netlify.app.
+
 meta: # meta page
   ttl: 1
   type: CNAME
