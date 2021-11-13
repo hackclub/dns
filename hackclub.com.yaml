@@ -841,6 +841,10 @@ kerala:
 - ttl: 1
   type: A
   value: 185.199.111.153
+kevin.dino.icu:
+- ttl: 1
+  type: CNAME
+  value: bykevinyang.netlify.app.
 kf2tzvncx46ahlhuev6kusbvg5hmymau._domainkey:
   ttl: 1
   type: CNAME
