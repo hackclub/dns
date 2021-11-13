@@ -58,6 +58,11 @@ kunal: # kunal
   type: CNAME
   value: kunal-dino-icu.netlify.app.
 
+kevin: # Kevin Yang
+  ttl: 1
+  type: CNAME
+  value: bykevinyang.netlify.app.
+  
 meta: # meta page
   ttl: 1
   type: CNAME
