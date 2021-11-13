@@ -48,6 +48,11 @@
   type: CNAME
   value: cname.vercel-dns.com.
 
+andrew:
+  ttl: 1
+  type: CNAME
+  value: nijmeh.xyz.
+  
 kunal: # kunal
   ttl: 1
   type: CNAME
@@ -67,7 +72,7 @@ orpheus: # prophet orpheus's page (when making your page enter your github usern
   value: cname.vercel-dns.com. # the value of the record; set this to what your hosting provider requires
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
+  
 parker: # parker.dino.icu; reserved by hack club bank
 - type: ALIAS
   value: cname.vercel-dns.com.
