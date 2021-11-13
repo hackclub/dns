@@ -51,7 +51,7 @@
 andrew:
   ttl: 1
   type: CNAME
-  value: nijmeh.xyz
+  value: nijmeh.xyz.
   
 kunal: # kunal
   ttl: 1
