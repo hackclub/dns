@@ -117,6 +117,11 @@ spider: # spider.dino.icu; reserved by hack club bank
   - google-site-verification=i1xM1TEj6jJSVo8p9s8oGmSZW2Wo2MIyxhyb007OAuA
   - v=spf1 include:_spf.google.com ~all
 
+stickers:
+  ttl: 1
+  type: CNAME
+  value: discord-stickers.netlify.app.
+
 www: # redirect to bare domain
   ttl: 1
   type: CNAME
