@@ -63,6 +63,11 @@ kunal: # kunal
   type: CNAME
   value: kunal-dino-icu.netlify.app.
 
+low-ping: # roblox low ping finder site thingy
+  ttl: 1
+  type: CNAME
+  value: lem6ns.github.io
+
 meta: # meta page
   ttl: 1
   type: CNAME
