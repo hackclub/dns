@@ -53,6 +53,11 @@ andrew:
   type: CNAME
   value: nijmeh.xyz.
   
+kevin: # Kevin Yang
+  ttl: 1
+  type: CNAME
+  value: bykevinyang.netlify.app.
+
 kunal: # kunal
   ttl: 1
   type: CNAME
