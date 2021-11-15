@@ -1311,7 +1311,7 @@ webring:
 webstergroves.hackclub.com:
   - ttl: 1
     type: CNAME
-    value: 204.184.92.1.
+    value: https://shoot.vercel.app/
 
 westborough:
 - ttl: 1
