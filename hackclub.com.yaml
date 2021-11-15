@@ -1430,7 +1430,7 @@ webring:
 webstergroves.hackclub.com:
   - ttl: 1
     type: CNAME
-    value: https://shoot.vercel.app/
+    value: shootmessaging.netlify.app
 
 westborough:
 - ttl: 1
