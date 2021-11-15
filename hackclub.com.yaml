@@ -1427,10 +1427,10 @@ webring:
   type: CNAME
   value: hackclub-webring.netlify.app.
 
-webstergroves.hackclub.com:
+webstergroves:
   - ttl: 1
     type: CNAME
-    value: shootmessaging.netlify.app
+    value: shootmessaging.netlify.app.
 
 westborough:
 - ttl: 1
