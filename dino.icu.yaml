@@ -53,6 +53,11 @@ andrew:
   type: CNAME
   value: nijmeh.xyz.
   
+scales: # (yet another?) currency slack bot (with some web UI) :D
+  ttl: 1
+  type: A
+  value: 150.136.254.91 # Oracle Always Free:tm: server lol
+  
 kevin: # Kevin Yang
   ttl: 1
   type: CNAME
