@@ -91,6 +91,7 @@ _acme-challenge.zephyrnet:
   type: TXT
   values:
     - st-WYAC0K3bUwACYgiFUi2VXrLNconcTYdsjm0zgNY0
+    - uCXR3qZDn3R4vtVmzGgW1fZuiIEO7dbiAPAAyOx8K5M
 _amazonses:
   ttl: 1
   type: TXT
