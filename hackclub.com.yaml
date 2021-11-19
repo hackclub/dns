@@ -1017,7 +1017,7 @@ numberwang:
 nust:
 - ttl: 1
   type: CNAME
-  value: club-website-demo2.vercel.app.
+  value: nusthackclub.netlify.app.
 oly:
 - ttl: 1
   type: A
