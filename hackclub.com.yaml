@@ -677,6 +677,10 @@ fnt._domainkey:
 - ttl: 1
   type: TXT
   value: k=rsa\; t=s\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDAXHru7AQSRBIL6KnEIw/M+GsE8iXtCFOahhNng/5lxVq4rRY2mu/nFKmfGZHXxVXsCYNHwXAkLMcDWIwpaufeSY6tfp0YqGZaTaNT3yDvAU8Xf3f3SQF6Wtm5cM4RPVIOTBuIlU78tpacwGyTwLPDXJxBuTB9d8ee5yt8NLLOkwIDAQAB
+fr:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 fremont:
 - ttl: 1
   type: CNAME
