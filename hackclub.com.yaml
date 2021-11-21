@@ -1495,6 +1495,10 @@ zephyrnet:
 - ttl: 1
   type: CNAME
   value: hackclub.myftp.biz.
+zh:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 zwp:
 - ttl: 1
   type: A
