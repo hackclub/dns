@@ -36,7 +36,7 @@
 "*":
   ttl: 1
   type: CNAME
-  value: proxy.servers.hackclub.com.
+  value: proxyparty.hackclub.com.
 "*.haas":
   - ttl: 1
     type: A
@@ -606,7 +606,7 @@ editor:
 elon:
   ttl: 1
   type: CNAME
-  value: proxy.servers.hackclub.com.
+  value: proxyparty.hackclub.com.
 em6326:
   ttl: 1
   type: CNAME
