@@ -866,6 +866,10 @@ knit:
   - ttl: 1
     type: CNAME
     value: hackclubknit.netlify.app.
+kr:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 lasa:
   - ttl: 1
     type: CNAME
