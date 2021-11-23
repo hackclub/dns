@@ -72,6 +72,11 @@ meta: # meta page
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+  
+niilas: # Niilas - repo: https://github.com/niilasoika/niilas.dino.icu
+  ttl: 1
+  type: CNAME
+  value: niilasoika.github.io.
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # use this as an example for your own domain!
