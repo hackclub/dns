@@ -1115,7 +1115,7 @@ prc:
      preference: 10
    - exchange: alt4.aspmx.l.google.com.
      preference: 10
-proxy.servers:
+proxyparty:
   type: A
   value: 45.79.164.46
 pshs:
