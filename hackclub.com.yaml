@@ -1323,9 +1323,6 @@ testing.mail:
   value: v=spf1 include:mailgun.org ~all
 tfss:
 - ttl: 1
-  type: CNAME
-  value: cname.vercel-dns.com.
-- ttl: 1
   type: TXT
   values: 
   - v=spf1 include:spf.improvmx.com ~all
