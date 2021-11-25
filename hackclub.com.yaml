@@ -1325,6 +1325,17 @@ tfss:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+- ttl: 1
+  type: TXT
+  values: 
+  - v=spf1 include:spf.improvmx.com ~all
+- ttl: 1
+  type: MX
+  values:
+  - exchange: mx1.improvmx.com.
+    preference: 10
+  - exchange: mx2.improvmx.com.
+    preference: 20
 theme:
 - ttl: 1
   type: CNAME
