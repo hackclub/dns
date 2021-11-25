@@ -1371,6 +1371,10 @@ toronto:
 - ttl: 1 
   type: CNAME
   value: torontohacks.github.io.
+tr:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 turner:
 - ttl: 1
   type: CNAME
