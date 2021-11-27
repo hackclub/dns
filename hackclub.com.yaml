@@ -313,6 +313,10 @@ assets:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+austin:
+  ttl: 1
+  type: CNAME
+  value: ayushi-k8.github.io.
 australia:
   ttl: 1
   type: CNAME
