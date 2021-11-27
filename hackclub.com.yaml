@@ -316,7 +316,7 @@ assets:
 austin:
   ttl: 1
   type: CNAME
-  value: ayushi-k8.github.io.
+  value: ayushi-k8.github.io/hcaustin/.
 australia:
   ttl: 1
   type: CNAME
