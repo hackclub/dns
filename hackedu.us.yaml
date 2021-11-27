@@ -1,7 +1,7 @@
 ---
 ? ''
 : - type: ALIAS
-    value: proxy.servers.hackclub.com.
+    value: proxyparty.hackclub.com.
   - type: MX
     values:
     - exchange: ASPMX.L.GOOGLE.COM.
@@ -16,7 +16,7 @@
       preference: 10
 '*':
   type: CNAME
-  value: proxy.servers.hackclub.com.
+  value: proxyparty.hackclub.com.
 google._domainkey:
   type: TXT
   values:

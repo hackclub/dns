@@ -48,10 +48,35 @@
   type: CNAME
   value: cname.vercel-dns.com.
 
+andrew:
+  ttl: 1
+  type: CNAME
+  value: nijmeh.xyz.
+  
+kevin: # Kevin Yang
+  ttl: 1
+  type: CNAME
+  value: bykevinyang.netlify.app.
+
+kunal: # kunal
+  ttl: 1
+  type: CNAME
+  value: kunal-dino-icu.netlify.app.
+
+low-ping: # roblox low ping finder site thingy
+  ttl: 1
+  type: CNAME
+  value: lem6ns.github.io.
+
 meta: # meta page
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+  
+niilas: # Niilas - repo: https://github.com/niilasoika/niilas.dino.icu
+  ttl: 1
+  type: CNAME
+  value: niilasoika.github.io.
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # use this as an example for your own domain!
@@ -62,7 +87,7 @@ orpheus: # prophet orpheus's page (when making your page enter your github usern
   value: cname.vercel-dns.com. # the value of the record; set this to what your hosting provider requires
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
+  
 parker: # parker.dino.icu; reserved by hack club bank
 - type: ALIAS
   value: cname.vercel-dns.com.
@@ -84,6 +109,16 @@ parker: # parker.dino.icu; reserved by hack club bank
   values:
   - google-site-verification=XqT81Vm5K6PUs4sy90BWKQMEVPaIDAXxBPI_n773h-A
   - v=spf1 include:_spf.google.com ~all
+  
+pay:
+  ttl: 1
+  type: CNAME
+  value: 72ce41e0-b635-4025-a3ab-519ba661d5b7.id.repl.co.
+  
+scales: # (yet another?) currency slack bot (with some web UI) :D
+  ttl: 1
+  type: A
+  value: 150.136.254.91 # Oracle Always Free:tm: server lol
 
 spider: # spider.dino.icu; reserved by hack club bank
 - type: ALIAS
@@ -106,6 +141,11 @@ spider: # spider.dino.icu; reserved by hack club bank
   values:
   - google-site-verification=i1xM1TEj6jJSVo8p9s8oGmSZW2Wo2MIyxhyb007OAuA
   - v=spf1 include:_spf.google.com ~all
+
+stickers:
+  ttl: 1
+  type: CNAME
+  value: discord-stickers.netlify.app.
 
 www: # redirect to bare domain
   ttl: 1

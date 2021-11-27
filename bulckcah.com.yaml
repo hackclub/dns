@@ -1,7 +1,7 @@
 ---
 ? ''
 : type: ALIAS
-  value: proxy.servers.hackclub.com.
+  value: proxyparty.hackclub.com.
 "*":
   type: CNAME
-  value: proxy.servers.hackclub.com.
+  value: proxyparty.hackclub.com.

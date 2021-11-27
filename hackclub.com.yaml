@@ -23,7 +23,7 @@
   - google-site-verification=haP-NAN6fjhxiSxwB7HeLmeHnUI7MsXARShhPBKSn6A
   - google-site-verification=pheoxaglA5iew_VN0RUE-eWf6lL9FlqC0vROqUGlhiA
   - google-site-verification=w6ZIJvwwXDKPKLvV_RZbxLF6vb0xfJoRidbw5LeiUcE
-  - v=spf1 include:_spf.google.com include:amazonses.com ~all
+  - v=spf1 include:_spf.google.com include:amazonses.com include:sendgrid.net ~all
   - AA418B02F6
   - segment-site-verification=ED0mCO5yaFBc40hEvipDG5OiON3Nemh2
   - stripe-verification=5bdd0e2475b12744bfe1f778ac419f917800d476fd498ae2682ecd161d162c64
@@ -36,7 +36,7 @@
 "*":
   ttl: 1
   type: CNAME
-  value: proxy.servers.hackclub.com.
+  value: proxyparty.hackclub.com.
 "*.haas":
   - ttl: 1
     type: A
@@ -87,10 +87,11 @@ _acme-challenge.tilde:
     - QkrfKYOg3tcUAlf_AcfqOzqfuma4Bl-k4VZQ_BXW5Cw
     - 2gYHVJZ9l_QlTRz6CuB-wRV_NRXjR-SoQJ4SWOOqVWM
 _acme-challenge.zephyrnet:
+  ttl: 1
   type: TXT
   values:
-    - NTJiS1i4Lfb9upeJ4-R0OuF4dvyXamSQ_DZJuhMRqf4
-    - 0OBY587iqxrKRJPUJxO4X0dHlWKKGcgOyqT8Qke4tnw
+    - st-WYAC0K3bUwACYgiFUi2VXrLNconcTYdsjm0zgNY0
+    - uCXR3qZDn3R4vtVmzGgW1fZuiIEO7dbiAPAAyOx8K5M
 _amazonses:
   ttl: 1
   type: TXT
@@ -114,8 +115,7 @@ _amazonses.eomail:
 _dmarc:
   ttl: 1
   type: TXT
-  value: v=DMARC1\; p=quarantine\; rua=mailto:tbqldgpy@ag.dmarcian.com\; ruf=mailto:tbqldgpy@fr.dmarcian.com\;
-    fo=1
+  value: v=DMARC1\; p=quarantine\; rua=mailto:6192c543e0e61@ag.dmarcly.com\; ruf=mailto:6192c543e0e61@fo.dmarcly.com\; fo=1\;
 _github-challenge-GaynorMcCown.gaynormccown:
 - ttl: 1
   type: TXT
@@ -356,7 +356,7 @@ berkley:
 beta-mc:
 - ttl: 1
   type: A
-  value: 52.15.65.99
+  value: 172.99.233.117
 bisv:
 - ttl: 1
   type: CNAME
@@ -606,7 +606,7 @@ editor:
 elon:
   ttl: 1
   type: CNAME
-  value: proxy.servers.hackclub.com.
+  value: proxyparty.hackclub.com.
 em6326:
   ttl: 1
   type: CNAME
@@ -677,6 +677,10 @@ fnt._domainkey:
 - ttl: 1
   type: TXT
   value: k=rsa\; t=s\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDAXHru7AQSRBIL6KnEIw/M+GsE8iXtCFOahhNng/5lxVq4rRY2mu/nFKmfGZHXxVXsCYNHwXAkLMcDWIwpaufeSY6tfp0YqGZaTaNT3yDvAU8Xf3f3SQF6Wtm5cM4RPVIOTBuIlU78tpacwGyTwLPDXJxBuTB9d8ee5yt8NLLOkwIDAQAB
+fr:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 fremont:
 - ttl: 1
   type: CNAME
@@ -862,6 +866,10 @@ knit:
   - ttl: 1
     type: CNAME
     value: hackclubknit.netlify.app.
+kr:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 lasa:
   - ttl: 1
     type: CNAME
@@ -933,7 +941,7 @@ maxday:
 mc:
 - ttl: 1
   type: A
-  value: 52.15.65.99
+  value: 172.99.233.117
 mcneil:
 - ttl: 1
   type: A
@@ -969,7 +977,7 @@ miracosta:
 modded-mc:
 - ttl: 1
   type: A
-  value: 52.15.65.99
+  value: 172.99.233.117
 mumble:
 - ttl: 1
   type: A
@@ -1017,7 +1025,7 @@ numberwang:
 nust:
 - ttl: 1
   type: CNAME
-  value: club-website-demo2.vercel.app.
+  value: nusthackclub.netlify.app.
 oly:
 - ttl: 1
   type: A
@@ -1107,7 +1115,7 @@ prc:
      preference: 10
    - exchange: alt4.aspmx.l.google.com.
      preference: 10
-proxy.servers:
+proxyparty:
   type: A
   value: 45.79.164.46
 pshs:
@@ -1315,8 +1323,19 @@ testing.mail:
   value: v=spf1 include:mailgun.org ~all
 tfss:
 - ttl: 1
-  type: CNAME
+  type: ALIAS
   value: cname.vercel-dns.com.
+- ttl: 1
+  type: TXT
+  values: 
+  - v=spf1 include:spf.improvmx.com ~all
+- ttl: 1
+  type: MX
+  values:
+  - exchange: mx1.improvmx.com.
+    preference: 10
+  - exchange: mx2.improvmx.com.
+    preference: 20
 theme:
 - ttl: 1
   type: CNAME
@@ -1363,6 +1382,10 @@ toronto:
 - ttl: 1 
   type: CNAME
   value: torontohacks.github.io.
+tr:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 turner:
 - ttl: 1
   type: CNAME
@@ -1418,7 +1441,7 @@ vikingsdev:
 vmc:
 - ttl: 1
   type: A
-  value: 52.15.65.99
+  value: 172.99.233.117
 warsaw:
 - ttl: 1
   type: CNAME
@@ -1427,10 +1450,12 @@ webring:
 - ttl: 1
   type: CNAME
   value: hackclub-webring.netlify.app.
+
 webstergroves:
   - ttl: 1
-    type: A
-    value: 204.184.92.1
+    type: CNAME
+    value: shootmessaging.netlify.app.
+
 westborough:
 - ttl: 1
   type: CNAME
@@ -1489,6 +1514,10 @@ zephyrnet:
 - ttl: 1
   type: CNAME
   value: hackclub.myftp.biz.
+zh:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 zwp:
 - ttl: 1
   type: A
