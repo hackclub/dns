@@ -1,7 +1,7 @@
 ---
 ? ''
-: - type: A
-    value: 76.76.21.21
+: - type: ALIAS
+    value: proxyparty.hackclub.com.
   - type: MX
     values:
     - exchange: ASPMX.L.GOOGLE.COM.
@@ -22,7 +22,7 @@
     - v=spf1 include:_spf.google.com ~all
 '*':
   type: CNAME
-  value: proxy.servers.hackclub.com.
+  value: proxyparty.hackclub.com.
 _acme-challenge:
   type: TXT
   values:
