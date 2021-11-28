@@ -897,7 +897,7 @@ leap-manual:
 lhscc:
 - ttl: 1
   type: A
-  value: 174.86.1.223.
+  value: 174.86.1.223
 liftoff:
 - ttl: 1
   type: CNAME
