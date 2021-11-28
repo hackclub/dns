@@ -894,6 +894,10 @@ leap-manual:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+lhscc:
+- ttl: 1
+  type: A
+  value: 174.86.1.223
 liftoff:
 - ttl: 1
   type: CNAME
