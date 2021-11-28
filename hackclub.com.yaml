@@ -893,7 +893,7 @@ leap:
 leap-manual:
 - ttl: 1
   type: CNAME
-value: cname.vercel-dns.com.
+  value: cname.vercel-dns.com.
 lhscc:
 - ttl: 1
   type: A
