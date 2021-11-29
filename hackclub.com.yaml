@@ -29,6 +29,10 @@
   - stripe-verification=5bdd0e2475b12744bfe1f778ac419f917800d476fd498ae2682ecd161d162c64
   - 61220A24D7 # From Expensify
   - 2610E0D36E # From Expensify
+14148987:
+  ttl: 1
+  type: CNAME
+  value: sendgrid.net
 3blue1brown:
   ttl: 1
   type: CNAME
@@ -611,6 +615,10 @@ elon:
   ttl: 1
   type: CNAME
   value: proxyparty.hackclub.com.
+em4440:
+  ttl: 1
+  type: CNAME
+  value: u14148987.wl238.sendgrid.net
 em6326:
   ttl: 1
   type: CNAME
@@ -1201,6 +1209,14 @@ scrappy:
   ttl: 1
   type: CNAME
   value: glacial-dusk-446cvr5bsl9xqyp8yoge5tt7.herokudns.com.
+sgd._domainkey:
+  ttl: 1
+  type: CNAME
+  value: sgd.domainkey.u14148987.wl238.sendgrid.net
+sgd2._domainkey:
+  ttl: 1
+  type: CNAME
+  value: sgd2.domainkey.u14148987.wl238.sendgrid.net
 shop:
 - ttl: 1
   type: A
@@ -1426,6 +1442,10 @@ uqq467l64nnf3dyo6omjcjmcc3dmdqlb._domainkey:
 - ttl: 1
   type: CNAME
   value: uqq467l64nnf3dyo6omjcjmcc3dmdqlb.dkim.custom-email-domain.stripe.com.
+url75:
+  ttl: 1
+  type: CNAME
+  value: sendgrid.net
 v2:
 - ttl: 1
   type: CNAME
