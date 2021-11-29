@@ -29,14 +29,14 @@
   - stripe-verification=5bdd0e2475b12744bfe1f778ac419f917800d476fd498ae2682ecd161d162c64
   - 61220A24D7 # From Expensify
   - 2610E0D36E # From Expensify
-"14148987":
-  ttl: 1
-  type: CNAME
-  value: sendgrid.net
 3blue1brown:
   ttl: 1
   type: CNAME
   value: 97be9df7-6155-40f3-8f4b-ee2b9dcb811e.repl.co.
+"14148987":
+  ttl: 1
+  type: CNAME
+  value: sendgrid.net
 "*":
   ttl: 1
   type: CNAME
