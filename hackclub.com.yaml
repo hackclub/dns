@@ -36,7 +36,7 @@
 "14148987":
   ttl: 1
   type: CNAME
-  value: sendgrid.net
+  value: sendgrid.net.
 "*":
   ttl: 1
   type: CNAME
@@ -618,7 +618,7 @@ elon:
 em4440:
   ttl: 1
   type: CNAME
-  value: u14148987.wl238.sendgrid.net
+  value: u14148987.wl238.sendgrid.net.
 em6326:
   ttl: 1
   type: CNAME
@@ -1209,14 +1209,14 @@ scrappy:
   ttl: 1
   type: CNAME
   value: glacial-dusk-446cvr5bsl9xqyp8yoge5tt7.herokudns.com.
-sgd._domainkey:
-  ttl: 1
-  type: CNAME
-  value: sgd.domainkey.u14148987.wl238.sendgrid.net
 sgd2._domainkey:
   ttl: 1
   type: CNAME
-  value: sgd2.domainkey.u14148987.wl238.sendgrid.net
+  value: sgd2.domainkey.u14148987.wl238.sendgrid.net.
+sgd._domainkey:
+  ttl: 1
+  type: CNAME
+  value: sgd.domainkey.u14148987.wl238.sendgrid.net.
 shop:
 - ttl: 1
   type: A
@@ -1445,7 +1445,7 @@ uqq467l64nnf3dyo6omjcjmcc3dmdqlb._domainkey:
 url75:
   ttl: 1
   type: CNAME
-  value: sendgrid.net
+  value: sendgrid.net.
 v2:
 - ttl: 1
   type: CNAME
