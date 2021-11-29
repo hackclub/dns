@@ -33,7 +33,7 @@
   ttl: 1
   type: CNAME
   value: 97be9df7-6155-40f3-8f4b-ee2b9dcb811e.repl.co.
-"14148987": # Send Grid Sender Authentication (bank@hackclub.com)
+"14148987": # SendGrid Sender Authentication (bank@hackclub.com)
   ttl: 1
   type: CNAME
   value: sendgrid.net.
@@ -615,7 +615,7 @@ elon:
   ttl: 1
   type: CNAME
   value: proxyparty.hackclub.com.
-em4440: # Send Grid Sender Authentication (bank@hackclub.com)
+em4440: # SendGrid Sender Authentication (bank@hackclub.com)
   ttl: 1
   type: CNAME
   value: u14148987.wl238.sendgrid.net.
@@ -1209,11 +1209,11 @@ scrappy:
   ttl: 1
   type: CNAME
   value: glacial-dusk-446cvr5bsl9xqyp8yoge5tt7.herokudns.com.
-sgd2._domainkey: # Send Grid Sender Authentication (bank@hackclub.com)
+sgd2._domainkey: # SendGrid Sender Authentication (bank@hackclub.com)
   ttl: 1
   type: CNAME
   value: sgd2.domainkey.u14148987.wl238.sendgrid.net.
-sgd._domainkey: # Send Grid Sender Authentication (bank@hackclub.com)
+sgd._domainkey: # SendGrid Sender Authentication (bank@hackclub.com)
   ttl: 1
   type: CNAME
   value: sgd.domainkey.u14148987.wl238.sendgrid.net.
@@ -1442,7 +1442,7 @@ uqq467l64nnf3dyo6omjcjmcc3dmdqlb._domainkey:
 - ttl: 1
   type: CNAME
   value: uqq467l64nnf3dyo6omjcjmcc3dmdqlb.dkim.custom-email-domain.stripe.com.
-url75: # Send Grid Sender Authentication (bank@hackclub.com)
+url75: # SendGrid Sender Authentication (bank@hackclub.com)
   ttl: 1
   type: CNAME
   value: sendgrid.net.
