@@ -1177,11 +1177,7 @@ s2._domainkey:
 sa:
   ttl: 1
   type: CNAME
-  value: hc-sa.netlify.app.  
-saimaa:
-  ttl: 1
-  type: CNAME
-  value: hcksm.github.io.
+  value: hc-sa.netlify.app.
 saleh:
   ttl: 1
   type: CNAME
