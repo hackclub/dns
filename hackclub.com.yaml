@@ -1349,6 +1349,10 @@ tickets:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+tilde:
+- ttl: 1
+  type: CNAME
+  value: hackclub.myftp.biz.
 tist:
 - ttl: 1
   type: A
@@ -1518,6 +1522,10 @@ zephyr:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+zephyrnet:
+- ttl: 1
+  type: CNAME
+  value: hackclub.myftp.biz.
 zh:
 - ttl: 1
   type: CNAME
