@@ -52,10 +52,6 @@
   ttl: 1
   type: A
   value: 173.208.140.124
-"*.zephyrnet":
-- ttl: 1
-  type: CNAME
-  value: hackclub.myftp.biz.
 Cabbache:
 - ttl: 1
   type: CNAME
@@ -85,17 +81,6 @@ _acme-challenge.haas:
   type: TXT
   values:
     - WeFHw1rO8PfGWEGAEh9CnfvOhokXXYgK-PD0kbI6RS0
-_acme-challenge.tilde:
-  type: TXT
-  values:
-    - QkrfKYOg3tcUAlf_AcfqOzqfuma4Bl-k4VZQ_BXW5Cw
-    - 2gYHVJZ9l_QlTRz6CuB-wRV_NRXjR-SoQJ4SWOOqVWM
-_acme-challenge.zephyrnet:
-  ttl: 1
-  type: TXT
-  values:
-    - st-WYAC0K3bUwACYgiFUi2VXrLNconcTYdsjm0zgNY0
-    - uCXR3qZDn3R4vtVmzGgW1fZuiIEO7dbiAPAAyOx8K5M
 _amazonses:
   ttl: 1
   type: TXT
@@ -1364,10 +1349,6 @@ tickets:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
-tilde:
-- ttl: 1
-  type: CNAME
-  value: hackclub.myftp.biz.
 tist:
 - ttl: 1
   type: A
@@ -1478,7 +1459,6 @@ webring:
 - ttl: 1
   type: CNAME
   value: hackclub-webring.netlify.app.
-
 webstergroves:
   - ttl: 1
     type: CNAME
@@ -1538,10 +1518,6 @@ zephyr:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
-zephyrnet:
-- ttl: 1
-  type: CNAME
-  value: hackclub.myftp.biz.
 zh:
 - ttl: 1
   type: CNAME
