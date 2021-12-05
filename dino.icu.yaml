@@ -78,7 +78,7 @@ meta: # meta page
 mindson: # mindson
   ttl: 1
   type: CNAME
-  value: mindson.vercel.app.
+  value: mindson.netlify.app.
   
 niilas: # Niilas - repo: https://github.com/niilasoika/niilas.dino.icu
   ttl: 1
