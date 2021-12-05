@@ -74,6 +74,11 @@ meta: # meta page
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+
+mindson: # mindson
+  ttl: 1
+  type: CNAME
+  value: mindson.vercel.app.
   
 niilas: # Niilas - repo: https://github.com/niilasoika/niilas.dino.icu
   ttl: 1
