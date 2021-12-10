@@ -790,7 +790,7 @@ hillsdale:
 hn:
 - ttl: 1
   type: A
-  value: 161.35.187.233
+  value: 143.244.171.58
 hub.zephyr:
   ttl: 1
   type: CNAME
