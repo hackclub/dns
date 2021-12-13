@@ -983,6 +983,10 @@ modded-mc:
 - ttl: 1
   type: A
   value: 172.99.233.117
+moonbeam:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 mumble:
 - ttl: 1
   type: A
