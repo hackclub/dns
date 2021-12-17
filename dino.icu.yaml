@@ -153,6 +153,11 @@ stickers: # by https://github.com/lem6ns
   ttl: 1
   type: CNAME
   value: discord-stickers.netlify.app.
+  
+story:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 
 www: # redirect to bare domain
   ttl: 1
