@@ -1023,6 +1023,10 @@ nmit:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+normie:
+- ttl: 1
+  type: CNAME
+  value: normie.cc.
 notebook:
 - ttl: 1
   type: CNAME
