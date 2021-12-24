@@ -33,6 +33,10 @@
   ttl: 1
   type: CNAME
   value: 97be9df7-6155-40f3-8f4b-ee2b9dcb811e.repl.co.
+"14148987": # SendGrid Sender Authentication (bank@hackclub.com)
+  ttl: 1
+  type: CNAME
+  value: sendgrid.net.
 "*":
   ttl: 1
   type: CNAME
@@ -48,10 +52,6 @@
   ttl: 1
   type: A
   value: 173.208.140.124
-"*.zephyrnet":
-- ttl: 1
-  type: CNAME
-  value: hackclub.myftp.biz.
 Cabbache:
 - ttl: 1
   type: CNAME
@@ -81,17 +81,6 @@ _acme-challenge.haas:
   type: TXT
   values:
     - WeFHw1rO8PfGWEGAEh9CnfvOhokXXYgK-PD0kbI6RS0
-_acme-challenge.tilde:
-  type: TXT
-  values:
-    - QkrfKYOg3tcUAlf_AcfqOzqfuma4Bl-k4VZQ_BXW5Cw
-    - 2gYHVJZ9l_QlTRz6CuB-wRV_NRXjR-SoQJ4SWOOqVWM
-_acme-challenge.zephyrnet:
-  ttl: 1
-  type: TXT
-  values:
-    - st-WYAC0K3bUwACYgiFUi2VXrLNconcTYdsjm0zgNY0
-    - uCXR3qZDn3R4vtVmzGgW1fZuiIEO7dbiAPAAyOx8K5M
 _amazonses:
   ttl: 1
   type: TXT
@@ -611,6 +600,10 @@ elon:
   ttl: 1
   type: CNAME
   value: proxyparty.hackclub.com.
+em4440: # SendGrid Sender Authentication (bank@hackclub.com)
+  ttl: 1
+  type: CNAME
+  value: u14148987.wl238.sendgrid.net.
 em6326:
   ttl: 1
   type: CNAME
@@ -765,7 +758,7 @@ gyfaieadefoity2i3m2aif6evdmlll2j._domainkey.conduct-test:
 haas:
   ttl: 1
   type: A
-  value: 45.55.45.5
+  value: 167.99.113.134
 hackathons:
   ttl: 1
   type: CNAME
@@ -797,7 +790,7 @@ hillsdale:
 hn:
 - ttl: 1
   type: A
-  value: 161.35.187.233
+  value: 143.244.171.58
 hub.zephyr:
   ttl: 1
   type: CNAME
@@ -815,6 +808,10 @@ india:
   value: cname.vercel-dns.com.
 indiablog:
   ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
+intro.moonbeam:
+- ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
 iter:
@@ -894,6 +891,10 @@ leap-manual:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+lhscc:
+- ttl: 1
+  type: A
+  value: 174.86.1.223
 liftoff:
 - ttl: 1
   type: CNAME
@@ -982,6 +983,10 @@ modded-mc:
 - ttl: 1
   type: A
   value: 172.99.233.117
+moonbeam:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 mumble:
 - ttl: 1
   type: A
@@ -1165,11 +1170,7 @@ s2._domainkey:
 sa:
   ttl: 1
   type: CNAME
-  value: hc-sa.netlify.app.  
-saimaa:
-  ttl: 1
-  type: CNAME
-  value: hcksm.github.io.
+  value: hc-sa.netlify.app.
 saleh:
   ttl: 1
   type: CNAME
@@ -1197,6 +1198,14 @@ scrappy:
   ttl: 1
   type: CNAME
   value: glacial-dusk-446cvr5bsl9xqyp8yoge5tt7.herokudns.com.
+sgd2._domainkey: # SendGrid Sender Authentication (bank@hackclub.com)
+  ttl: 1
+  type: CNAME
+  value: sgd2.domainkey.u14148987.wl238.sendgrid.net.
+sgd._domainkey: # SendGrid Sender Authentication (bank@hackclub.com)
+  ttl: 1
+  type: CNAME
+  value: sgd.domainkey.u14148987.wl238.sendgrid.net.
 shop:
 - ttl: 1
   type: A
@@ -1422,6 +1431,10 @@ uqq467l64nnf3dyo6omjcjmcc3dmdqlb._domainkey:
 - ttl: 1
   type: CNAME
   value: uqq467l64nnf3dyo6omjcjmcc3dmdqlb.dkim.custom-email-domain.stripe.com.
+url75: # SendGrid Sender Authentication (bank@hackclub.com)
+  ttl: 1
+  type: CNAME
+  value: sendgrid.net.
 v2:
 - ttl: 1
   type: CNAME
@@ -1458,7 +1471,6 @@ webring:
 - ttl: 1
   type: CNAME
   value: hackclub-webring.netlify.app.
-
 webstergroves:
   - ttl: 1
     type: CNAME
@@ -1520,7 +1532,7 @@ zephyr:
   value: cname.vercel-dns.com.
 zephyrnet:
 - ttl: 1
-  type: CNAME
+  type: NS
   value: hackclub.myftp.biz.
 zh:
 - ttl: 1

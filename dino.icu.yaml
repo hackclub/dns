@@ -20,6 +20,8 @@
 # - don't use a domain to pretend to be someone else
 # - keep it civil, don't be mean and change someone else's domain
 
+# make sure you're adding your subdomain in alphabetical order, so that it passes the DNS check!
+
 ---
 '': # the bare domain
 - type: ALIAS
@@ -48,7 +50,7 @@
   type: CNAME
   value: cname.vercel-dns.com.
 
-andrew:
+andrew: # by https://github.com/anddddrew
   ttl: 1
   type: CNAME
   value: nijmeh.xyz.
@@ -63,7 +65,7 @@ kunal: # kunal
   type: CNAME
   value: kunal-dino-icu.netlify.app.
 
-low-ping: # roblox low ping finder site thingy
+low-ping: # roblox low ping finder site thingy; by https://github.com/lem6ns
   ttl: 1
   type: CNAME
   value: lem6ns.github.io.
@@ -72,11 +74,21 @@ meta: # meta page
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+
+mindson: # mindson
+  ttl: 1
+  type: CNAME
+  value: mindson.netlify.app.
   
 niilas: # Niilas - repo: https://github.com/niilasoika/niilas.dino.icu
   ttl: 1
   type: CNAME
   value: niilasoika.github.io.
+  
+normie: # normie
+  ttl: 1
+  type: CNAME
+  value: normie.cc.
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # use this as an example for your own domain!
@@ -110,7 +122,7 @@ parker: # parker.dino.icu; reserved by hack club bank
   - google-site-verification=XqT81Vm5K6PUs4sy90BWKQMEVPaIDAXxBPI_n773h-A
   - v=spf1 include:_spf.google.com ~all
   
-pay:
+pay: # by Ella
   ttl: 1
   type: CNAME
   value: 72ce41e0-b635-4025-a3ab-519ba661d5b7.id.repl.co.
@@ -142,10 +154,15 @@ spider: # spider.dino.icu; reserved by hack club bank
   - google-site-verification=i1xM1TEj6jJSVo8p9s8oGmSZW2Wo2MIyxhyb007OAuA
   - v=spf1 include:_spf.google.com ~all
 
-stickers:
+stickers: # by https://github.com/lem6ns
   ttl: 1
   type: CNAME
   value: discord-stickers.netlify.app.
+  
+story:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 
 www: # redirect to bare domain
   ttl: 1
