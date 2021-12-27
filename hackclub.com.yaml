@@ -902,7 +902,11 @@ liftoff:
 list:
 - ttl: 1
   type: TXT
-  value: google-site-verification=dy5FQ7euw6ZutiApm5ZdCTUgWn9CL3uhfJWHfD3TxLk
+  value: google-site-verification=dy5FQ7euw6ZutiApm5ZdCTUgWn9CL3uhfJWHfD3TxLk 
+ lx:
+- ttl: 1
+  type: CNAME
+  value: laker.omg.lol.
 mail:
 - ttl: 1
   type: MX
@@ -1403,7 +1407,7 @@ tracking:
   ttl: 1
   type: CNAME
   value: shiprocket.co.
-turner:
+Turner:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
