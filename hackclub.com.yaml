@@ -1280,6 +1280,9 @@ status:
 - ttl: 1
   type: CNAME
   value: dashboards.checklyhq.com.
+status.haas:
+  type: A
+  value: 34.138.52.92
 stickerhuman:
 - ttl: 1
   type: CNAME
