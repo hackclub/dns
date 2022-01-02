@@ -568,6 +568,9 @@ dinos:
 - ttl: 1
   type: CNAME
   value: orpheus-dinos.netlify.com.
+docs.haas:
+  type: A
+  value: 167.99.113.134
 draw-dino:
   ttl: 1
   type: CNAME
