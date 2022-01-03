@@ -1322,6 +1322,10 @@ summitshasta:
 - ttl: 1
   type: CNAME
   value: summitshasta.github.io.
+r1ke:
+  - ttl: 1
+    type: CNAME
+    value: https://notr1ke.github.io/.
 tbp:
 - ttl: 1
   type: NS
