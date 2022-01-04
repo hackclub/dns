@@ -1141,7 +1141,7 @@ q6vh4lhupwotqenjf4s4ygzyhir3e5ii._domainkey:
 r1ke:
   - ttl: 1
     type: CNAME
-    value: https://notr1ke.github.io
+    value: http://notr1ke.github.io
 rahs:
 - ttl: 1
   type: CNAME
