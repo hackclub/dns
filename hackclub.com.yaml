@@ -256,6 +256,12 @@ angelhacks:
 - ttl: 1
   type: TXT
   value: google-site-verification=jODBtWCefkuf-gCL8X4sbJB9bPb2Zo1T41LlxPyaxRk
+anisko:
+- ttl: 1
+  type: NS
+  values: 
+  -ns1.epizy.com.
+  -ns2.epizy.com.
 anti:
   type: CNAME
   value: anti-hack.netlify.com.
