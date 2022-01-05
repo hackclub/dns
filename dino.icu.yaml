@@ -89,6 +89,11 @@ normie: # normie
   ttl: 1
   type: CNAME
   value: normie.cc.
+  
+ongzz: # ongzz
+  ttl: 1
+  type: CNAME
+  value: ongzz.vercel.app.
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # use this as an example for your own domain!
