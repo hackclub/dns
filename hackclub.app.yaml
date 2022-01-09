@@ -5,15 +5,6 @@
 "*":
   - type: A
     value: 167.99.113.134
-_acme-challenge:
-  type: TXT
-  values:
-    - 1WRtbKTIMA-51_TT9DjNJOMl-6TpsiOXxsy1-liokWk
-    - eJFDhQIy0KKeGZyvrpasO35lChwtEI4xkobd6_7D_-Y
-    - ryJrwSWFEtlJqk08XFcrfj6xxL_LaPn25q7dwChExmk
-    - fbTs7NajunqahDVerPjbuDgrM4jtr0uEb2D7D9KSJtg
-    - brpjWH8W0szNw0HerkM2wPRwrkTaHlGkanP3H_gqUQU
-    - GDuzp9nIkScl392oxdytvMe-rpWvwJP0gFi_iol4cKA
 _github-challenge-hack-as-a-service:
   type: TXT
   value: 4b821e52c1
