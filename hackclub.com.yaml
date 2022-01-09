@@ -786,6 +786,9 @@ hacktheoctober:
 - ttl: 1
   type: CNAME
   value: hacktheoctober.netlify.app.
+hear:
+  type: CNAME
+  value: cname.vercel-dns.com.
 hillsdale:
 - ttl: 1
   type: CNAME
