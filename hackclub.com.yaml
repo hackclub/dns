@@ -1140,7 +1140,7 @@ pshs:
 psn:
 - ttl: 1
   type: CNAME
-  value: psnhackclub.vercel.app.
+  value: psnhackclub.netlify.app.
 q6vh4lhupwotqenjf4s4ygzyhir3e5ii._domainkey:
   ttl: 1
   type: CNAME
