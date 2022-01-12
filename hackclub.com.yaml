@@ -828,6 +828,10 @@ jain:
   ttl: 1
   type: A
   value: 185.199.108.153
+jank:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 jchs:
   ttl: 1
   type: CNAME
