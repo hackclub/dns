@@ -168,3 +168,7 @@ www: # redirect to bare domain
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+
+xn--ct9h:
+  type: CNAME
+  value: b616c4f2-bfad-4b67-9c6d-ee6afc35cc0b.id.repl.co.
