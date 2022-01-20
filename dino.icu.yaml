@@ -23,27 +23,27 @@
 # make sure you're adding your subdomain in alphabetical order, so that it passes the DNS check!
 
 ---
-'': # the bare domain
-- type: ALIAS
-  value: cname.vercel-dns.com.
-- ttl: 1
-  type: MX
-  values:
-  - exchange: aspmx.l.google.com.
-    preference: 1
-  - exchange: alt1.aspmx.l.google.com.
-    preference: 5
-  - exchange: alt2.aspmx.l.google.com.
-    preference: 5
-  - exchange: alt3.aspmx.l.google.com.
-    preference: 10
-  - exchange: alt4.aspmx.l.google.com.
-    preference: 10
-- ttl: 5
-  type: TXT
-  values:
-  - google-site-verification=LPx57IBOflR6ko3yB9xUp4MokUh_jXXNO8mVd0Tzh6k
-  - v=spf1 include:_spf.google.com ~all
+"": # the bare domain
+  - type: ALIAS
+    value: cname.vercel-dns.com.
+  - ttl: 1
+    type: MX
+    values:
+      - exchange: aspmx.l.google.com.
+        preference: 1
+      - exchange: alt1.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt2.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt3.aspmx.l.google.com.
+        preference: 10
+      - exchange: alt4.aspmx.l.google.com.
+        preference: 10
+  - ttl: 5
+    type: TXT
+    values:
+      - google-site-verification=LPx57IBOflR6ko3yB9xUp4MokUh_jXXNO8mVd0Tzh6k
+      - v=spf1 include:_spf.google.com ~all
 
 "*": # wildcard redirect
   ttl: 1
@@ -54,7 +54,7 @@ andrew: # by https://github.com/anddddrew
   ttl: 1
   type: CNAME
   value: nijmeh.xyz.
-  
+
 kevin: # Kevin Yang
   ttl: 1
   type: CNAME
@@ -79,12 +79,12 @@ mindson: # mindson
   ttl: 1
   type: CNAME
   value: mindson.netlify.app.
-  
+
 niilas: # Niilas - repo: https://github.com/niilasoika/niilas.dino.icu
   ttl: 1
   type: CNAME
   value: niilasoika.github.io.
-  
+
 normie: # normie
   ttl: 1
   type: CNAME
@@ -99,66 +99,66 @@ orpheus: # prophet orpheus's page (when making your page enter your github usern
   value: cname.vercel-dns.com. # the value of the record; set this to what your hosting provider requires
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-  
+
 parker: # parker.dino.icu; reserved by hack club bank
-- type: ALIAS
-  value: cname.vercel-dns.com.
-- ttl: 1
-  type: MX
-  values:
-  - exchange: aspmx.l.google.com.
-    preference: 1
-  - exchange: alt1.aspmx.l.google.com.
-    preference: 5
-  - exchange: alt2.aspmx.l.google.com.
-    preference: 5
-  - exchange: alt3.aspmx.l.google.com.
-    preference: 10
-  - exchange: alt4.aspmx.l.google.com.
-    preference: 10
-- ttl: 5
-  type: TXT
-  values:
-  - google-site-verification=XqT81Vm5K6PUs4sy90BWKQMEVPaIDAXxBPI_n773h-A
-  - v=spf1 include:_spf.google.com ~all
-  
+  - type: ALIAS
+    value: cname.vercel-dns.com.
+  - ttl: 1
+    type: MX
+    values:
+      - exchange: aspmx.l.google.com.
+        preference: 1
+      - exchange: alt1.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt2.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt3.aspmx.l.google.com.
+        preference: 10
+      - exchange: alt4.aspmx.l.google.com.
+        preference: 10
+  - ttl: 5
+    type: TXT
+    values:
+      - google-site-verification=XqT81Vm5K6PUs4sy90BWKQMEVPaIDAXxBPI_n773h-A
+      - v=spf1 include:_spf.google.com ~all
+
 pay: # by Ella
   ttl: 1
   type: CNAME
   value: 72ce41e0-b635-4025-a3ab-519ba661d5b7.id.repl.co.
-  
+
 scales: # (yet another?) currency slack bot (with some web UI) :D
   ttl: 1
   type: A
   value: 150.136.254.91 # Oracle Always Free:tm: server lol
 
 spider: # spider.dino.icu; reserved by hack club bank
-- type: ALIAS
-  value: cname.vercel-dns.com.
-- ttl: 1
-  type: MX
-  values:
-  - exchange: aspmx.l.google.com.
-    preference: 1
-  - exchange: alt1.aspmx.l.google.com.
-    preference: 5
-  - exchange: alt2.aspmx.l.google.com.
-    preference: 5
-  - exchange: alt3.aspmx.l.google.com.
-    preference: 10
-  - exchange: alt4.aspmx.l.google.com.
-    preference: 10
-- ttl: 5
-  type: TXT
-  values:
-  - google-site-verification=i1xM1TEj6jJSVo8p9s8oGmSZW2Wo2MIyxhyb007OAuA
-  - v=spf1 include:_spf.google.com ~all
+  - type: ALIAS
+    value: cname.vercel-dns.com.
+  - ttl: 1
+    type: MX
+    values:
+      - exchange: aspmx.l.google.com.
+        preference: 1
+      - exchange: alt1.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt2.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt3.aspmx.l.google.com.
+        preference: 10
+      - exchange: alt4.aspmx.l.google.com.
+        preference: 10
+  - ttl: 5
+    type: TXT
+    values:
+      - google-site-verification=i1xM1TEj6jJSVo8p9s8oGmSZW2Wo2MIyxhyb007OAuA
+      - v=spf1 include:_spf.google.com ~all
 
 stickers: # by https://github.com/lem6ns
   ttl: 1
   type: CNAME
   value: discord-stickers.netlify.app.
-  
+
 story:
   ttl: 1
   type: CNAME
@@ -168,3 +168,7 @@ www: # redirect to bare domain
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+
+🦌:
+  type: CNAME
+  value: b616c4f2-bfad-4b67-9c6d-ee6afc35cc0b.id.repl.co.
