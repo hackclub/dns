@@ -1002,7 +1002,7 @@ mumble:
   type: A
   value: 173.208.140.124
 muse:
-- type CNAME
+- type:  CNAME
   value: hackclub.github.io.
 mw:
 - ttl: 1
