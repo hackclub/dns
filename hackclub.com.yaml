@@ -1003,7 +1003,7 @@ mumble:
   value: 173.208.140.124
 muse:
 - type:  CNAME
-  value: hackclub.github.io.
+  value: cname.vercel-dns.com.
 mw:
 - ttl: 1
   type: CNAME
