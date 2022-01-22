@@ -58,7 +58,7 @@ andrew: # by https://github.com/anddddrew
 geta: # yoda - https://getadinoicu.yodacode.repl.co/dino.png - get a dino from hackclub/dinosaurs api
   ttl: 1
   type: CNAME
-  value: ef35bb48-f121-4f7f-91f6-93f601559c24.id.repl.co
+  value: ef35bb48-f121-4f7f-91f6-93f601559c24.id.repl.co.
   
 kevin: # Kevin Yang
   ttl: 1
