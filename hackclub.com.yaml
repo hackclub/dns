@@ -885,6 +885,10 @@ kr:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+keys:
+- ttl: 1
+  type: CNAME
+  value: hackclub.myftp.biz.
 lasa:
   - ttl: 1
     type: CNAME
