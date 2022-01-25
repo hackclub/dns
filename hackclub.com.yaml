@@ -220,6 +220,10 @@ alexa:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+aloha:
+- ttl: 1
+  type: CNAME
+  value: aloha-college.com.
 alpharetta:
 - ttl: 1
   type: A
