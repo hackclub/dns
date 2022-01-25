@@ -223,7 +223,7 @@ alexa:
 aloha:
 - ttl: 1
   type: CNAME
-  value: https://aloha-college.com/en/aloha-college/.
+  value: aloha-college.com.
 alpharetta:
 - ttl: 1
   type: A
