@@ -223,7 +223,7 @@ alexa:
 aloha:
 - ttl: 1
   type: CNAME
-  value: aloha-college.com.
+  value: epic-mcnulty-0ed53c.netlify.app.
 alpharetta:
 - ttl: 1
   type: A
