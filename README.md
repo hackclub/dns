@@ -7,6 +7,8 @@ This repository is used for managing Hack Club's DNS configuration through [Octo
 
 Domains are available for all clubs and projects related to Hack Club.
 
+Non-HQ sites using Vercel can not use Hack Club's DNS due to Vercel limitations. Please consider alternatives such as Netlify or GitHub Pages.
+
 ## Adding a subdomain
 
 1. [Create a fork](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo) of this repository.
