@@ -434,7 +434,7 @@ cecclphs:
 cgc:
 - ttl: 1
   type: CNAME
-  value: zealous-meitner-24130b.netlify.app.
+  value: hackclubcgc.netlify.app.
 changelog.bank:
   ttl: 1
   type: CNAME
