@@ -5,9 +5,11 @@
 
 This repository is used for managing Hack Club's DNS configuration through [OctoDNS](https://github.com/github/octodns). Please see its documentation for more information.
 
-Domains are available for all clubs and projects related to Hack Club.
+## Limitations
 
-Non-HQ sites using Vercel can not use Hack Club's DNS due to Vercel limitations. Please consider alternatives such as Netlify or GitHub Pages.
+`hackclub.xxx` subdomains are only available for all clubs and projects related to Hack Club.
+
+Non-HQ sites using ▲ Vercel can not use Hack Club's DNS due to [Vercel's platform limitations](https://github.com/vercel/community/discussions/89). Please consider alternatives such as [Netlify](https://www.netlify.com) or [GitHub Pages](https://pages.github.com).
 
 ## Adding a subdomain
 
