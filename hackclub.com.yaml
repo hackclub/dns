@@ -734,6 +734,10 @@ geochat-api:
   ttl: 1
   type: CNAME
   value: geochat-api.hackclub.com.herokudns.com.
+gita:
+- ttl: 1
+  type: A
+  value: 165.232.189.107
 github-oauth:
   ttl: 1
   type: CNAME
@@ -1538,6 +1542,10 @@ workshops:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+www.gita:
+- ttl: 1
+  type: A
+  value: 165.232.189.107
 www.tist:
 - ttl: 1
   type: CNAME
@@ -1574,3 +1582,4 @@ zwp:
 - ttl: 1
   type: A
   value: 172.99.233.117
+ 
