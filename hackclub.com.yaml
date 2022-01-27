@@ -434,7 +434,7 @@ cecclphs:
 cgc:
 - ttl: 1
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: zealous-meitner-24130b.netlify.app.
 changelog.bank:
   ttl: 1
   type: CNAME
