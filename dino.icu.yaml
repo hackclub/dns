@@ -54,6 +54,11 @@ andrew: # by https://github.com/anddddrew
   ttl: 1
   type: CNAME
   value: nijmeh.xyz.
+
+art: # by https://github.com/rajanwastaken
+  ttl: 1
+  type: CNAME
+  value: particle-generativeart.netlify.app.
   
 geta: # yoda - https://getadinoicu.yodacode.repl.co/dino.png - get a dino from hackclub/dinosaurs api
   ttl: 1
@@ -80,7 +85,7 @@ meta: # meta page
   type: CNAME
   value: cname.vercel-dns.com.
 
-mindson: # mindson
+mindson: # by rajan
   ttl: 1
   type: CNAME
   value: mindson.netlify.app.
