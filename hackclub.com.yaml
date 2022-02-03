@@ -698,6 +698,9 @@ front-mail:
   values:
   - exchange: mx.sendgrid.net.
     preference: 1
+gamelab:
+- type:  CNAME
+  value: cname.vercel-dns.com.
 games:
   ttl: 1
   type: CNAME
