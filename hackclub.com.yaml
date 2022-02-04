@@ -1237,7 +1237,7 @@ scrappy:
 server.psn:
   ttl: 1
   type: A
-  value: 194.195.112.132
+  value: 20.207.195.6
 sgd2._domainkey: # SendGrid Sender Authentication (bank@hackclub.com)
   ttl: 1
   type: CNAME
