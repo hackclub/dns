@@ -220,6 +220,10 @@ alexa:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+aloha:
+- ttl: 1
+  type: CNAME
+  value: epic-mcnulty-0ed53c.netlify.app.
 alpharetta:
 - ttl: 1
   type: A
@@ -430,7 +434,7 @@ cecclphs:
 cgc:
 - ttl: 1
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: hackclubcgc.netlify.app.
 changelog.bank:
   ttl: 1
   type: CNAME
@@ -694,6 +698,9 @@ front-mail:
   values:
   - exchange: mx.sendgrid.net.
     preference: 1
+gamelab:
+- type:  CNAME
+  value: cname.vercel-dns.com.
 games:
   ttl: 1
   type: CNAME
@@ -730,6 +737,10 @@ geochat-api:
   ttl: 1
   type: CNAME
   value: geochat-api.hackclub.com.herokudns.com.
+gita:
+- ttl: 1
+  type: A
+  value: 165.232.189.107
 github-oauth:
   ttl: 1
   type: CNAME
@@ -828,6 +839,10 @@ jain:
   ttl: 1
   type: A
   value: 185.199.108.153
+jank:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 jchs:
   ttl: 1
   type: CNAME
@@ -853,6 +868,10 @@ kerala:
 - ttl: 1
   type: A
   value: 185.199.111.153
+keys:
+- ttl: 1
+  type: CNAME
+  value: hackclub.myftp.biz.
 kf2tzvncx46ahlhuev6kusbvg5hmymau._domainkey:
   ttl: 1
   type: CNAME
@@ -997,6 +1016,9 @@ mumble:
 - ttl: 1
   type: A
   value: 173.208.140.124
+muse:
+- type:  CNAME
+  value: cname.vercel-dns.com.
 mw:
 - ttl: 1
   type: CNAME
@@ -1344,6 +1366,10 @@ tbp:
   - ns1.digitalocean.com.
   - ns2.digitalocean.com.
   - ns3.digitalocean.com.
+techbrewers:
+- ttl: 1
+  type: CNAME
+  value: hack-club-techbrewers.github.io.
 testing.mail:
 - ttl: 1
   type: MX
@@ -1527,6 +1553,10 @@ workshops:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+www.gita:
+- ttl: 1
+  type: A
+  value: 165.232.189.107
 www.tist:
 - ttl: 1
   type: CNAME
