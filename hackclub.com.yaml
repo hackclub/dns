@@ -1212,6 +1212,10 @@ scrappy:
   ttl: 1
   type: CNAME
   value: glacial-dusk-446cvr5bsl9xqyp8yoge5tt7.herokudns.com.
+server.psn:
+  ttl: 1
+  type: A
+  value: 194.195.112.132
 sgd2._domainkey: # SendGrid Sender Authentication (bank@hackclub.com)
   ttl: 1
   type: CNAME
