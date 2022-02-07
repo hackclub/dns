@@ -390,6 +390,10 @@ bulc:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+bunyan.tilde:
+- ttl: 1
+  type: CNAME
+  value: hackclub.myftp.biz.
 byte:
   - ttl: 1
     type: CNAME
