@@ -1561,6 +1561,10 @@ workshops:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+www.gamelab:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 www.gita:
 - ttl: 1
   type: A
