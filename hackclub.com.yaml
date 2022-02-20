@@ -1335,6 +1335,10 @@ stickerhuman:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+straya:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 streaks:
 - ttl: 1
   type: CNAME
