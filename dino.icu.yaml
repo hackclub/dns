@@ -64,12 +64,17 @@ channle: # by https://github.com/cjdenio
   ttl: 1
   type: CNAME
   value: channle.netlify.app.
-  
+
+e: # drawing app - by https://github.com/sporeball
+  ttl: 1
+  type: CNAME
+  value: sporeball.github.io.
+
 geta: # yoda - https://getadinoicu.yodacode.repl.co/dino.png - get a dino from hackclub/dinosaurs api
   ttl: 1
   type: CNAME
   value: ef35bb48-f121-4f7f-91f6-93f601559c24.id.repl.co.
-  
+
 kevin: # Kevin Yang
   ttl: 1
   type: CNAME
@@ -94,12 +99,12 @@ mindson: # by rajan
   ttl: 1
   type: CNAME
   value: mindson.netlify.app.
-  
+
 niilas: # Niilas - repo: https://github.com/niilasoika/niilas.dino.icu
   ttl: 1
   type: CNAME
   value: niilasoika.github.io.
-  
+
 normie: # normie
   ttl: 1
   type: CNAME
@@ -114,7 +119,7 @@ orpheus: # prophet orpheus's page (when making your page enter your github usern
   value: cname.vercel-dns.com. # the value of the record; set this to what your hosting provider requires
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-  
+
 parker: # parker.dino.icu; reserved by hack club bank
 - type: ALIAS
   value: cname.vercel-dns.com.
@@ -136,12 +141,12 @@ parker: # parker.dino.icu; reserved by hack club bank
   values:
   - google-site-verification=XqT81Vm5K6PUs4sy90BWKQMEVPaIDAXxBPI_n773h-A
   - v=spf1 include:_spf.google.com ~all
-  
+
 pay: # by Ella
   ttl: 1
   type: CNAME
   value: 72ce41e0-b635-4025-a3ab-519ba661d5b7.id.repl.co.
-  
+
 scales: # (yet another?) currency slack bot (with some web UI) :D
   ttl: 1
   type: A
@@ -173,7 +178,7 @@ stickers: # by https://github.com/lem6ns
   ttl: 1
   type: CNAME
   value: discord-stickers.netlify.app.
-  
+
 story:
   ttl: 1
   type: CNAME
