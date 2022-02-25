@@ -152,6 +152,11 @@ scales: # (yet another?) currency slack bot (with some web UI) :D
   type: A
   value: 150.136.254.91 # Oracle Always Free:tm: server lol
 
+short: # short.dino.icu; by kunal botla (.com)
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
+
 spider: # spider.dino.icu; reserved by hack club bank
 - type: ALIAS
   value: cname.vercel-dns.com.
