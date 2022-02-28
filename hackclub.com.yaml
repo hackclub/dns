@@ -353,7 +353,7 @@ berkley:
 beta-mc:
 - ttl: 1
   type: A
-  value: 172.99.233.117
+  value: 45.61.162.143
 bisv:
 - ttl: 1
   type: CNAME
@@ -979,7 +979,7 @@ maxday:
 mc:
 - ttl: 1
   type: A
-  value: 172.99.233.117
+  value: 45.61.162.143
 mcneil:
 - ttl: 1
   type: A
@@ -1015,7 +1015,7 @@ miracosta:
 modded-mc:
 - ttl: 1
   type: A
-  value: 172.99.233.117
+  value: 45.61.162.143
 moonbeam:
 - ttl: 1
   type: CNAME
@@ -1521,7 +1521,7 @@ vikingsdev:
 vmc:
 - ttl: 1
   type: A
-  value: 172.99.233.117
+  value: 45.61.162.143
 warsaw:
 - ttl: 1
   type: CNAME
