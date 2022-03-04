@@ -1415,7 +1415,7 @@ theme:
 thorn:
 - ttl: 1
   type: CNAME
-  value: thornhill.neocities.org
+  value: thornhill.neocities.org.
 tickets:
 - ttl: 1
   type: CNAME
