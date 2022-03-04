@@ -1412,6 +1412,10 @@ theme:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+thorn:
+- ttl: 1
+  type: CNAME
+  value: thornhill.neocities.org.
 tickets:
 - ttl: 1
   type: CNAME
