@@ -796,7 +796,7 @@ hackcraft:
 hackerabad:
 - ttl: 1
   type: CNAME
-  value: hackerabad.netlify.app
+  value: hackerabad.netlify.app.
 hackinux:
   ttl: 1
   type: CNAME
