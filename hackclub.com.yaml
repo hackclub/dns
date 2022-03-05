@@ -793,7 +793,7 @@ hackcraft:
   ttl: 1
   type: A
   value: 173.208.140.126
-  hackerabad:
+hackerabad:
 - ttl: 1
   type: CNAME
   value: hackerabad.netlify.app
