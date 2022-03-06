@@ -189,6 +189,11 @@ story:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+ 
+tejas: # by tej
+  ttl: 1
+  type: CNAME
+  value: tejasag.netlify.app.
 
 www: # redirect to bare domain
   ttl: 1
@@ -198,9 +203,3 @@ www: # redirect to bare domain
 xn--ct9h:
   type: CNAME
   value: b616c4f2-bfad-4b67-9c6d-ee6afc35cc0b.id.repl.co.
-  
-tejas: # by tej
-  ttl: 1
-  type: CNAME
-  value: cname.vercel-dns.com.
-  
