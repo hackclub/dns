@@ -495,7 +495,7 @@ coxmill:
 css:
 - ttl: 1
   type: CNAME
-  value: cname.vercel-dns.com
+  value: cname.vercel-dns.com.
 ctf:
 - ttl: 1
   type: CNAME
