@@ -496,6 +496,10 @@ ctf:
 - ttl: 1
   type: CNAME
   value: zealous-booth-dc1397.netlify.app.
+css:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com
 ctrl-alt-tec:
 - ttl: 1
   type: CNAME
