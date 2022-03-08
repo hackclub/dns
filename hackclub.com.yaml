@@ -263,7 +263,8 @@ angelhacks:
 anti:
   type: CNAME
   value: anti-hack.netlify.com.
-apacdirectory:
+
+rectory:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
@@ -1621,3 +1622,8 @@ zwp:
 - ttl: 1
   type: A
   value: 172.99.233.117
+  
+  evoking:
+  - ttl: 1
+    type: CNAME
+    value: apacdirectory.hackclub.com/club/evokinghackclub.
