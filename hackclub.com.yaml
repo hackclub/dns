@@ -263,7 +263,6 @@ angelhacks:
 anti:
   type: CNAME
   value: anti-hack.netlify.com.
-
 rectory:
 - ttl: 1
   type: CNAME
