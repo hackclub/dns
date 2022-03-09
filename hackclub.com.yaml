@@ -1625,5 +1625,5 @@ zwp:
   
   evoking:
   - ttl: 1
-    type: CNAME
-    value: apacdirectory.hackclub.com/club/evokinghackclub.
+    type: A
+    value: 76.76.21.164
