@@ -195,9 +195,19 @@ tejas: # by tej
   type: CNAME
   value: tejasag.netlify.app.
 
+vercel:
+- ttl: 1
+  type: ALIAS
+  value: cname.vercel-dns.com.
+
 www: # redirect to bare domain
   ttl: 1
   type: CNAME
+  value: cname.vercel-dns.com.
+
+xn--c1h:
+- ttl: 1
+  type: ALIAS
   value: cname.vercel-dns.com.
 
 xn--ct9h:
