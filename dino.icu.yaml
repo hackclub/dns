@@ -83,8 +83,8 @@ kevin: # Kevin Yang
 
 kunal: # kunal
   ttl: 1
-  type: CNAME
-  value: kunal-dino-icu.netlify.app.
+  type: ALIAS
+  value: cname.vercel-dns.com.
 
 low-ping: # roblox low ping finder site thingy; by https://github.com/lem6ns
   ttl: 1
