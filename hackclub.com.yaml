@@ -488,6 +488,10 @@ conduct-test:
 - ttl: 1
   type: TXT
   value: v=spf1 include:amazonses.com ~all
+contribute:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 coxmill:
 - ttl: 1
   type: CNAME
