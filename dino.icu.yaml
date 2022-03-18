@@ -81,10 +81,10 @@ kevin: # Kevin Yang
   type: CNAME
   value: bykevinyang.netlify.app.
 
-kunal: # kunal
-  ttl: 1
-  type: ALIAS
-  value: 76.76.21.21.
+# kunal: # kunal
+#   ttl: 1
+#   type: ALIAS
+#   value: 76.76.21.21.
 
 low-ping: # roblox low ping finder site thingy; by https://github.com/lem6ns
   ttl: 1
