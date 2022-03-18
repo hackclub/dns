@@ -201,6 +201,28 @@ vercel:
 - ttl: 1
   type: ALIAS
   value: cname.vercel-dns.com.
+  
+vercel-a:
+  ttl: 1
+  type: A
+  value: 76.76.21.21
+
+vercel-alias:
+  ttl: 1
+  type: ALIAS
+  value: cname.vercel-dns.com.
+  
+vercel-cname:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
+
+vercel-ns:
+  ttl: 1
+  type: NS
+  values: 
+  - ns1.vercel-dns.com.
+  - ns2.vercel-dns.com.
 
 www: # redirect to bare domain
   ttl: 1
