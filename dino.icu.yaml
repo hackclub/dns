@@ -83,7 +83,7 @@ kevin: # Kevin Yang
 
 kunal: # kunal
   ttl: 1
-  type: ALIAS
+  type: A
   value: 76.76.21.21
 
 low-ping: # roblox low ping finder site thingy; by https://github.com/lem6ns
