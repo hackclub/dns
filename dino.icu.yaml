@@ -46,10 +46,10 @@
   - v=spf1 include:_spf.google.com ~all
   - "00071672" # vercel verification code
 
-"*": # wildcard redirect
-  ttl: 1
-  type: CNAME
-  value: cname.vercel-dns.com.
+# "*": # wildcard redirect
+#   ttl: 1
+#   type: CNAME
+#   value: cname.vercel-dns.com.
 
 andrew: # by https://github.com/anddddrew
   ttl: 1
