@@ -500,6 +500,10 @@ css:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+css-starter:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 ctf:
 - ttl: 1
   type: CNAME
@@ -673,7 +677,7 @@ flhs:
   value: 15a3885d-947d-470c-909d-3a2b358f9662.repl.co.
 - ttl: 3600
   type: TXT
-  values: 
+  values:
   - google-site-verification=A0xGWjiH86GFIwp3kKdwRVCrkc9pCL-su9GGrtYOuGw
   - v=spf1 include:_spf.google.com ~all
 - ttl: 3600
@@ -867,7 +871,7 @@ jchs:
   ttl: 1
   type: CNAME
   value: zealous-perlman-e5eef6.netlify.app.
-  
+
 jg2ygmrfby4vhxve3cozh4yz3xc2ul5y._domainkey:
 - ttl: 1
   type: CNAME
@@ -1089,7 +1093,7 @@ oly:
   value: 75.2.60.5
 - ttl: 1
   type: TXT
-  values: 
+  values:
   - v=spf1 include:spf.improvmx.com ~all
 - ttl: 1
   type: MX
@@ -1272,7 +1276,7 @@ shop:
   value: 23.227.38.65
 - ttl: 1
   type: TXT
-  values: 
+  values:
   - google-site-verification=l3Bbo36E5uS61KvlS_kvx-iqN_h1DN1LAks2DssJDwM
   - v=spf1 include:_spf.google.com ~all
 - ttl: 1
@@ -1411,7 +1415,7 @@ tfss:
   value: cname.vercel-dns.com.
 - ttl: 1
   type: TXT
-  values: 
+  values:
   - v=spf1 include:spf.improvmx.com ~all
 - ttl: 1
   type: MX
@@ -1467,7 +1471,7 @@ toolbox:
   type: CNAME
   value: cname.vercel-dns.com.
 toronto:
-- ttl: 1 
+- ttl: 1
   type: CNAME
   value: torontohacks.github.io.
 tr:
@@ -1555,7 +1559,7 @@ westborough:
 - ttl: 1
   type: CNAME
   value: whs-hackclub.netlify.com.
-  
+
 whis:
 - ttl: 1
   type: CNAME
