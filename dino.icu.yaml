@@ -191,6 +191,11 @@ story:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+  
+suryaansh:
+- ttl: 1
+  type: CNAME
+  value: suryaanshah.github.io.
  
 tejas: # by tej
   ttl: 1
