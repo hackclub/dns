@@ -79,7 +79,7 @@ geta: # yoda - https://getadinoicu.yodacode.repl.co/dino.png - get a dino from h
 icons: # yoda - https://github.com/yodalightsabr/icons-dino-icu - get a dino from hackclub/dinosaurs api
   ttl: 1
   type: A
-  value: 76.76.21.21.
+  value: 76.76.21.21
 
 kevin: # Kevin Yang
   ttl: 1
