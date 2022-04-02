@@ -76,6 +76,11 @@ geta: # yoda - https://getadinoicu.yodacode.repl.co/dino.png - get a dino from h
   type: CNAME
   value: ef35bb48-f121-4f7f-91f6-93f601559c24.id.repl.co.
 
+icons: # yoda - https://github.com/yodalightsabr/icons-dino-icu - a CDN for @hackclub/icons
+  ttl: 1
+  type: A
+  value: 76.76.21.21
+
 kevin: # Kevin Yang
   ttl: 1
   type: CNAME
