@@ -1470,6 +1470,10 @@ toolbox:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+toriel:
+- ttl: 1
+  type: CNAME
+  value: enigmatic-celmentine-ut0w3vatz8vihtqllhcsl1o2.herokudns.com.
 toronto:
 - ttl: 1
   type: CNAME
