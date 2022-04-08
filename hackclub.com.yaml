@@ -1625,6 +1625,10 @@ zephyrnet:
 - ttl: 1
   type: NS
   value: hackclub.myftp.biz.
+zguide:
+- ttl: 1
+  type: CNAME
+  value: yodalightsabr.github.io.
 zh:
 - ttl: 1
   type: CNAME
