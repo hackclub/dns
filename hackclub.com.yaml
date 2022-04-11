@@ -1628,7 +1628,7 @@ zephyrnet:
 zguide:
 - ttl: 1
   type: CNAME
-  value: yodalightsabr.github.io.
+  value: hackclub.github.io.
 zh:
 - ttl: 1
   type: CNAME
