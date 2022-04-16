@@ -70,6 +70,11 @@ e: # drawing app - by https://github.com/sporeball
   ttl: 1
   type: CNAME
   value: sporeball.github.io.
+  
+emojile: # wordle with slack emojis - https://github.com/yodalightsabr/emojile
+  ttl: 1
+  type: CNAME
+  value: yodalightsabr.github.io.
 
 geta: # yoda - https://getadinoicu.yodacode.repl.co/dino.png - get a dino from hackclub/dinosaurs api
   ttl: 1
