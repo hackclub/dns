@@ -89,7 +89,7 @@ icons: # yoda - https://github.com/yodalightsabr/icons-dino-icu - a CDN for @hac
 javier: # by https://github.com/J-cordz - my personal hack club scrapbook
    ttl: 1
    type: CNAME
-   value: https://scrapbook.hackclub.com/J_cordz
+   value: https://scrapbook.hackclub.com/J_cordz.
 
 kevin: # Kevin Yang
   ttl: 1
