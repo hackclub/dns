@@ -1614,10 +1614,6 @@ zachday23:
 - ttl: 1
   type: A
   value: 150.136.142.44
-zapdos.servers:
-- ttl: 1
-  type: A
-  value: 45.79.138.244
 zephyr:
 - ttl: 1
   type: CNAME
