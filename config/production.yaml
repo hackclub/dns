@@ -59,3 +59,8 @@ zones:
       - config
     targets:
       - dnsimple
+  wackclub.com.:
+    sources:
+      - config
+    targets:
+      - dnsimple
