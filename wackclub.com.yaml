@@ -1,6 +1,6 @@
 "":
-  type: ALIAS
-  value: proxyparty.hackclub.com.
+  type: A
+  value: 76.76.21.21
 "*":
   ttl: 1
   type: CNAME
