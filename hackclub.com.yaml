@@ -338,14 +338,14 @@ bank:
   - type: MX # Used by Sendgrid's ActionMailbox integration
     ttl: 10
     value: mx.sendgrid.net.
-bank-dev:
-  - ttl: 10 # Used by Sendgrid's ActionMailbox integration
-    type: MX
-    value: mx.sendgrid.net.
 bank-bloggers:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+bank-dev:
+  ttl: 10 # Used by Sendgrid's ActionMailbox integration
+  type: MX
+  value: mx.sendgrid.net.
 bank-docs:
   ttl: 1
   type: CNAME
