@@ -332,12 +332,12 @@ b7zvtelc2k757b2pyx7bfr5gigqwni64._domainkey:
   type: CNAME
   value: b7zvtelc2k757b2pyx7bfr5gigqwni64.dkim.custom-email-domain.stripe.com.
 bank:
-- ttl: 1
-  type: CNAME
-  value: bank.hackclub.com.herokudns.com.
-- ttl: 10 # Used by Sendgrid's ActionMailbox integration
-  type: MX
-  value: mx.sendgrid.net.
+  - ttl: 1
+    type: CNAME
+    value: bank.hackclub.com.herokudns.com.
+  - ttl: 10 # Used by Sendgrid's ActionMailbox integration
+    type: MX
+    value: mx.sendgrid.net.
 bank-bloggers:
   ttl: 1
   type: CNAME
