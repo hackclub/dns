@@ -346,11 +346,15 @@ bank-docs:
 bank-parse:
   ttl: 10 # Used by Sendgrid's ActionMailbox integration
   type: MX
-  value: mx.sendgrid.net.
+  value:
+    exchange: mx.sendgrid.net.
+    preference: 10
 bank-parse-dev:
   ttl: 10 # Used by Sendgrid's ActionMailbox integration
   type: MX
-  value: mx.sendgrid.net.
+  value:
+    exchange: mx.sendgrid.net.
+    preference: 10
 berkeley:
 - ttl: 1
   type: CNAME
