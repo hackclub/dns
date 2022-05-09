@@ -337,7 +337,9 @@ bank:
     value: bank.hackclub.com.herokudns.com.
   - ttl: 10 # Used by Sendgrid's ActionMailbox integration
     type: MX
-    value: mx.sendgrid.net.
+    value:
+      exchange: mx.sendgrid.net.
+      preference: 10
 bank-bloggers:
   ttl: 1
   type: CNAME
