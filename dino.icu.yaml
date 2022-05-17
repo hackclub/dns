@@ -46,10 +46,10 @@
   - v=spf1 include:_spf.google.com ~all
   - "00071672" # vercel verification code
 
-"*": # wildcard redirect
-  ttl: 1
-  type: CNAME
-  value: cname.vercel-dns.com.
+# "*": # wildcard redirect
+#   ttl: 1
+#   type: CNAME
+#   value: cname.vercel-dns.com.
 
 andrew: # by https://github.com/anddddrew
   ttl: 1
@@ -70,11 +70,26 @@ e: # drawing app - by https://github.com/sporeball
   ttl: 1
   type: CNAME
   value: sporeball.github.io.
+  
+emojile: # wordle with slack emojis - https://github.com/yodalightsabr/emojile
+  ttl: 1
+  type: CNAME
+  value: yodalightsabr.github.io.
 
 geta: # yoda - https://getadinoicu.yodacode.repl.co/dino.png - get a dino from hackclub/dinosaurs api
   ttl: 1
   type: CNAME
   value: ef35bb48-f121-4f7f-91f6-93f601559c24.id.repl.co.
+
+icons: # yoda - https://github.com/yodalightsabr/icons-dino-icu - a CDN for @hackclub/icons
+  ttl: 1
+  type: A
+  value: 76.76.21.21
+
+javier: # by https://github.com/J-cordz - my personal hack club scrapbook
+   ttl: 1
+   type: CNAME
+   value: cname.vercel-dns.com.
 
 kevin: # Kevin Yang
   ttl: 1
@@ -83,8 +98,10 @@ kevin: # Kevin Yang
 
 kunal: # kunal
   ttl: 1
-  type: CNAME
-  value: kunal-dino-icu.netlify.app.
+  type: NS
+  values: 
+  - ns1.vercel-dns.com.
+  - ns2.vercel-dns.com.
 
 low-ping: # roblox low ping finder site thingy; by https://github.com/lem6ns
   ttl: 1
@@ -189,15 +206,52 @@ story:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+  
+suryaansh:
+- ttl: 1
+  type: CNAME
+  value: suryaanshah.github.io.
  
 tejas: # by tej
   ttl: 1
   type: CNAME
   value: tejasag.netlify.app.
 
+vercel:
+- ttl: 1
+  type: ALIAS
+  value: cname.vercel-dns.com.
+  
+vercel-a:
+  ttl: 1
+  type: A
+  value: 76.76.21.21
+
+vercel-alias:
+  ttl: 1
+  type: ALIAS
+  value: cname.vercel-dns.com.
+  
+vercel-cname:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
+
+vercel-ns:
+  ttl: 1
+  type: NS
+  values: 
+  - ns1.vercel-dns.com.
+  - ns2.vercel-dns.com.
+
 www: # redirect to bare domain
   ttl: 1
   type: CNAME
+  value: cname.vercel-dns.com.
+
+xn--c1h:
+- ttl: 1
+  type: ALIAS
   value: cname.vercel-dns.com.
 
 xn--ct9h:

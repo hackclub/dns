@@ -29,6 +29,7 @@
   - stripe-verification=5bdd0e2475b12744bfe1f778ac419f917800d476fd498ae2682ecd161d162c64
   - 61220A24D7 # From Expensify
   - 2610E0D36E # From Expensify
+  - TAILSCALE=xJzhP4gW3Mb3W6fpcMh7 # From Tailscale
 3blue1brown:
   ttl: 1
   type: CNAME
@@ -342,6 +343,18 @@ bank-docs:
   ttl: 1
   type: CNAME
   value: evolutionary-heron-qlwebnpw35gb7ovyf9z3xqwy.herokudns.com.
+bank-parse:
+  ttl: 10 # Used by Sendgrid's ActionMailbox integration
+  type: MX
+  value:
+    exchange: mx.sendgrid.net.
+    preference: 10
+bank-parse-dev:
+  ttl: 10 # Used by Sendgrid's ActionMailbox integration
+  type: MX
+  value:
+    exchange: mx.sendgrid.net.
+    preference: 10
 berkeley:
 - ttl: 1
   type: CNAME
@@ -488,11 +501,19 @@ conduct-test:
 - ttl: 1
   type: TXT
   value: v=spf1 include:amazonses.com ~all
+contribute:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 coxmill:
 - ttl: 1
   type: CNAME
   value: modest-swanson-0a9aa6.netlify.app.
 css:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
+css-starter:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
@@ -669,7 +690,7 @@ flhs:
   value: 15a3885d-947d-470c-909d-3a2b358f9662.repl.co.
 - ttl: 3600
   type: TXT
-  values: 
+  values:
   - google-site-verification=A0xGWjiH86GFIwp3kKdwRVCrkc9pCL-su9GGrtYOuGw
   - v=spf1 include:_spf.google.com ~all
 - ttl: 3600
@@ -863,7 +884,7 @@ jchs:
   ttl: 1
   type: CNAME
   value: zealous-perlman-e5eef6.netlify.app.
-  
+
 jg2ygmrfby4vhxve3cozh4yz3xc2ul5y._domainkey:
 - ttl: 1
   type: CNAME
@@ -1085,7 +1106,7 @@ oly:
   value: 75.2.60.5
 - ttl: 1
   type: TXT
-  values: 
+  values:
   - v=spf1 include:spf.improvmx.com ~all
 - ttl: 1
   type: MX
@@ -1268,7 +1289,7 @@ shop:
   value: 23.227.38.65
 - ttl: 1
   type: TXT
-  values: 
+  values:
   - google-site-verification=l3Bbo36E5uS61KvlS_kvx-iqN_h1DN1LAks2DssJDwM
   - v=spf1 include:_spf.google.com ~all
 - ttl: 1
@@ -1407,7 +1428,7 @@ tfss:
   value: cname.vercel-dns.com.
 - ttl: 1
   type: TXT
-  values: 
+  values:
   - v=spf1 include:spf.improvmx.com ~all
 - ttl: 1
   type: MX
@@ -1462,8 +1483,12 @@ toolbox:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+toriel:
+- ttl: 1
+  type: CNAME
+  value: enigmatic-celmentine-ut0w3vatz8vihtqllhcsl1o2.herokudns.com.
 toronto:
-- ttl: 1 
+- ttl: 1
   type: CNAME
   value: torontohacks.github.io.
 tr:
@@ -1551,7 +1576,7 @@ westborough:
 - ttl: 1
   type: CNAME
   value: whs-hackclub.netlify.com.
-  
+
 whis:
 - ttl: 1
   type: CNAME
@@ -1601,10 +1626,6 @@ zachday23:
 - ttl: 1
   type: A
   value: 150.136.142.44
-zapdos.servers:
-- ttl: 1
-  type: A
-  value: 45.79.138.244
 zephyr:
 - ttl: 1
   type: CNAME
@@ -1613,6 +1634,10 @@ zephyrnet:
 - ttl: 1
   type: NS
   value: hackclub.myftp.biz.
+zguide:
+- ttl: 1
+  type: CNAME
+  value: hackclub.github.io.
 zh:
 - ttl: 1
   type: CNAME
