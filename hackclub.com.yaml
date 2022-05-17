@@ -668,6 +668,10 @@ events:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+evoking:
+  ttl: 1
+  type: CNAME
+  value: evokinghc.netlify.app.
 f5qsmeu4qwef4yvo2p6e4a4vrspzdqdc._domainkey:
   ttl: 1
   type: CNAME
