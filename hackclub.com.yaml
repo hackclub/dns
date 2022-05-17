@@ -1647,7 +1647,7 @@ zwp:
   type: A
   value: 172.99.233.117
   
-  evoking:
-  - ttl: 1
-    type: A
-    value: 76.76.21.164
+evoking:
+- ttl: 1
+  type: CNAME
+  value: evokinghc.netlify.app.
