@@ -9,7 +9,19 @@ This repository is used for managing Hack Club's DNS configuration through [Octo
 
 `hackclub.xxx` subdomains are only available for all clubs and projects related to Hack Club.
 
-Non-HQ sites using ▲ Vercel can not use Hack Club's DNS due to [Vercel's platform limitations](https://github.com/vercel/community/discussions/89). Please consider alternatives such as [Netlify](https://www.netlify.com) or [GitHub Pages](https://pages.github.com).
+When adding a site hosted on ▲ Vercel, you will need to verifiy the domain by adding a TXT record.
+
+<img width="787" alt="image" src="https://user-images.githubusercontent.com/63619830/171483050-68d3123b-3b16-4293-b7f1-f5259f6d039b.png">
+
+Add the value to the [hackclub.com.yaml](./hackclub.com.yaml) file as shown below:
+
+```yaml
+_vercel:
+  ttl: 1
+  type: TXT
+  values:
+    - vc-domain-verify=wackclub.hackclub.com,423c28e0fbdd51449cf1
+ ```
 
 ## Adding a subdomain
 
