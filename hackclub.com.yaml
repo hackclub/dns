@@ -1658,4 +1658,4 @@ zwp:
 hackbeats:
   - ttl: 1
     type: CNAME
-    value: https://csb-yzetpt.vercel.app.
+    value: cname.vercel-dns.com.
