@@ -209,8 +209,7 @@ _sips._tcp.px:
 _vercel:
   ttl: 1
   type: TXT
-  values: 
-    - vc-domain-verify=hackerabad.hackclub.com,6c3d5d32a250935189d8
+  values: vc-domain-verify=hackerabad.hackclub.com,6c3d5d32a250935189d8
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
   type: CNAME
