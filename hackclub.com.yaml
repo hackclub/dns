@@ -1657,11 +1657,10 @@ zwp:
   type: A
   value: 172.99.233.117
 hackbeats:
-- ttl: 1  
+  ttl: 1  
   type: CNAME
   value: csb-yzetpt.vercel.app.
 _vercel:
   ttl: 1
   type: TXT
-  values:
-    - vc-domain-verify=hackbeats.hackclub.com,5f61f2ff84f3521a0a57  
+  values: vc-domain-verify=hackbeats.hackclub.com,5f61f2ff84f3521a0a57  
