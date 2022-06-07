@@ -1655,7 +1655,7 @@ zwp:
   - ttl: 1
     type: A
     value: 172.99.233.117
-hchackbeats:
+hackbeats:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
