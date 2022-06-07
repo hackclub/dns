@@ -206,6 +206,10 @@ _sips._tcp.px:
       priority: 50
       target: ygg2.vp.vc.
       weight: 100
+_vercel:
+  ttl: 1
+  type: TXT
+  value: hello_world
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
   type: CNAME
