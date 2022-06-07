@@ -819,7 +819,11 @@ hackathons:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
-hackbox:
+hackbeats:
+  ttl: 1
+  type: CNAME
+  value: csb-yzetpt.vercel.app.
+hackbox: 
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
