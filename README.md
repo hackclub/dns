@@ -20,6 +20,7 @@ _vercel:
   ttl: 1
   type: TXT
   values:
+    # add your verification record here
     - vc-domain-verify=wackclub.hackclub.com,423c28e0fbdd51449cf1
  ```
 
