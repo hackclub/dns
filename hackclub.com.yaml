@@ -209,7 +209,9 @@ _sips._tcp.px:
 _vercel:
   ttl: 1
   type: TXT
-  value: vc-domain-verify=hackerabad.hackclub.com,6c3d5d32a250935189d8
+  values:
+    - vc-domain-verify=hackerabad.hackclub.com,6c3d5d32a250935189d8
+    - vc-domain-verify=leland.hackclub.com,0439fc37dcd610701216
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
   type: CNAME
@@ -963,6 +965,10 @@ leap:
   type: CNAME
   value: cname.vercel-dns.com.
 leap-manual:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
+leland:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
