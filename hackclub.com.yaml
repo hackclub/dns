@@ -211,7 +211,6 @@ _vercel:
   type: TXT
   value: 
     - vc-domain-verify=hackerabad.hackclub.com,6c3d5d32a250935189d8
-    - vc-domain-verify=hackbeats.hackclub.com,5f61f2ff84f3521a0a57
 a5fjgto644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
   type: CNAME
@@ -824,7 +823,7 @@ hackathons:
 hackbeats:
   ttl: 1
   type: CNAME
-  value: csb-yzetpt.vercel.app.
+  value: csb-9fgkbz.netlify.app.
 hackbox: 
   ttl: 1
   type: CNAME
