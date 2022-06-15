@@ -222,6 +222,11 @@ vercel:
   type: ALIAS
   value: cname.vercel-dns.com.
   
+cslide: 
+  ttl: 1
+  type: ALIAS
+  value: leecheeyong.github.io.
+
 vercel-a:
   ttl: 1
   type: A
