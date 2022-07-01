@@ -364,6 +364,10 @@ bank-parse-dev:
   value:
     exchange: mx.sendgrid.net.
     preference: 10
+bank-shields:
+  ttl: 1
+  type: CNAME
+  value: young-mastodon-ly8r821ksr8ksbrdwd8tvoi6.herokudns.com.
 berkeley:
 - ttl: 1
   type: CNAME
