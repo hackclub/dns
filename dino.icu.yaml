@@ -92,7 +92,7 @@ javier: # by https://github.com/J-cordz - my personal hack club scrapbook
    value: cname.vercel-dns.com.
 
 japroz: # Japroz Saini
-- ttl: 1
+  ttl: 1
   type: CNAME
   value: japrozsaini.vercel.app.
 
