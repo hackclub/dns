@@ -901,6 +901,10 @@ jank:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+japroz:
+- ttl: 1
+  type: CNAME
+  value: japrozsaini.vercel.app.
 jchs:
   ttl: 1
   type: CNAME
