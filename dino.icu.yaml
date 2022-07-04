@@ -65,6 +65,11 @@ channle: # by https://github.com/cjdenio
   ttl: 1
   type: CNAME
   value: channle.netlify.app.
+  
+cslide: 
+  ttl: 1
+  type: ALIAS
+  value: leecheeyong.github.io.
 
 e: # drawing app - by https://github.com/sporeball
   ttl: 1
@@ -221,11 +226,6 @@ vercel:
 - ttl: 1
   type: ALIAS
   value: cname.vercel-dns.com.
-  
-cslide: 
-  ttl: 1
-  type: ALIAS
-  value: leecheeyong.github.io.
 
 vercel-a:
   ttl: 1
