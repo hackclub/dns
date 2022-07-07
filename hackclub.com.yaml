@@ -287,8 +287,8 @@ api.ctrl-alt-tec:
   value: larval-kiwi-v6dahm6je7ohxt5mek02on49.herokudns.com.
 apl: 
   ttl: 1
-  type: CNAME
-  value: edge.redirect.pizza.
+  type: URL
+  value: https://matrix.to/#/#aplcs:matrix.org
 apply:
   type: CNAME
   value: cname.vercel-dns.com.
