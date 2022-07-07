@@ -1280,6 +1280,9 @@ santa:
 schacks:
 - type: CNAME
   value: schacks.netlify.com.
+schedule:
+- type: CNAME
+  value: calendso-production-f2a4.up.railway.app
 scholarship:
   ttl: 1
   type: CNAME
