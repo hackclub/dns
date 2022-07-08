@@ -91,6 +91,11 @@ icons: # yoda - https://github.com/yodalightsabr/icons-dino-icu - a CDN for @hac
   type: A
   value: 76.76.21.21
 
+japroz: # Japroz Saini
+  ttl: 1
+  type: CNAME
+  value: japrozsaini.vercel.app.
+
 javier: # by https://github.com/J-cordz - my personal hack club scrapbook
    ttl: 1
    type: CNAME

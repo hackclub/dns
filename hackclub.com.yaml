@@ -308,6 +308,10 @@ asiasummit:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+assemble:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 assets:
   ttl: 1
   type: CNAME
@@ -360,6 +364,10 @@ bank-parse-dev:
   value:
     exchange: mx.sendgrid.net.
     preference: 10
+bank-shields:
+  ttl: 1
+  type: CNAME
+  value: young-mastodon-ly8r821ksr8ksbrdwd8tvoi6.herokudns.com.
 berkeley:
 - ttl: 1
   type: CNAME
@@ -1237,6 +1245,10 @@ ref.guide:
   ttl: 1
   type: CNAME
   value: symmetrical-potatoe-xe9q1l2s6ikk2wmjs2c7obnj.herokudns.com.
+register.assemble:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 riverbend:
 - ttl: 1
   type: CNAME
@@ -1268,6 +1280,9 @@ santa:
 schacks:
 - type: CNAME
   value: schacks.netlify.com.
+schedule:
+- type: CNAME
+  value: calendso-production-f2a4.up.railway.app.
 scholarship:
   ttl: 1
   type: CNAME
