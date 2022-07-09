@@ -285,10 +285,6 @@ api.ctrl-alt-tec:
 - ttl: 1
   type: CNAME
   value: larval-kiwi-v6dahm6je7ohxt5mek02on49.herokudns.com.
-apl: 
-  ttl: 1
-  type: URL
-  value: https://matrix.to/#/#aplcs:matrix.org
 apply:
   type: CNAME
   value: cname.vercel-dns.com.
@@ -320,6 +316,10 @@ assets:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+atx: 
+  ttl: 1
+  type: URL
+  value: https://matrix.to/#/#aplcs:matrix.org
 austin:
   ttl: 1
   type: CNAME
