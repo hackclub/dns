@@ -68,7 +68,7 @@ channle: # by https://github.com/cjdenio
   
 cslide: 
   ttl: 1
-  type: ALIAS
+  type: CNAME
   value: leecheeyong.github.io.
 
 e: # drawing app - by https://github.com/sporeball
