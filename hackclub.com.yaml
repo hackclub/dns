@@ -611,6 +611,10 @@ dfw4j5coownesaecgmwfxhszrauwxzlk._domainkey:
 - ttl: 1
   type: CNAME
   value: dfw4j5coownesaecgmwfxhszrauwxzlk.dkim.custom-email-domain.stripe.com.
+dinoexplorer:
+- ttl: 1
+  type: CNAME
+  value: internetramen.github.io.
 dinos:
 - ttl: 1
   type: CNAME
