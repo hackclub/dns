@@ -615,6 +615,10 @@ dinos:
 - ttl: 1
   type: CNAME
   value: orpheus-dinos.netlify.com.
+dinoexplorer:
+- ttl: 1
+  type: CNAME
+  value: internetramen.github.io.
 docs.haas:
   type: A
   value: 167.99.113.134
