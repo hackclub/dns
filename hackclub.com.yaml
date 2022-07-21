@@ -882,6 +882,10 @@ icons:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+id.assemble:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 india:
   ttl: 1
   type: CNAME
