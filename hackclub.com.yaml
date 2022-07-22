@@ -1223,6 +1223,10 @@ prc:
      preference: 10
    - exchange: alt4.aspmx.l.google.com.
      preference: 10
+preflight.assemble:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 proxyparty:
   type: A
   value: 45.79.164.46
