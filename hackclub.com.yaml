@@ -290,6 +290,10 @@ api.id.assemble:
   ttl: 1
   type: A
   value: 173.255.212.205
+api.ticketing.assemble:
+  ttl: 1
+  type: A
+  value: 23.92.24.156
 apply:
   type: CNAME
   value: cname.vercel-dns.com.
