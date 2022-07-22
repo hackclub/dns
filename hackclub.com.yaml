@@ -282,6 +282,10 @@ api2:
   ttl: 1
   type: CNAME
   value: tetrahedral-gooseberry-aady3np0p0xldlvl6d7ik0ld.herokudns.com.
+api.ticketing.assemble:
+  ttl: 1
+  type: A
+  value: 23.92.24.156
 api.ctrl-alt-tec:
 - ttl: 1
   type: CNAME
