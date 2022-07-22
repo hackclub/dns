@@ -1490,6 +1490,10 @@ thorn:
 - ttl: 1
   type: CNAME
   value: thornhill.neocities.org.
+ticketing.assemble:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 tickets:
 - ttl: 1
   type: CNAME
