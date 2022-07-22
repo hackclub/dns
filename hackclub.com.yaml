@@ -286,6 +286,10 @@ api.ctrl-alt-tec:
 - ttl: 1
   type: CNAME
   value: larval-kiwi-v6dahm6je7ohxt5mek02on49.herokudns.com.
+api.id.assemble:
+  ttl: 1
+  type: A
+  value: 173.255.212.205
 apply:
   type: CNAME
   value: cname.vercel-dns.com.
