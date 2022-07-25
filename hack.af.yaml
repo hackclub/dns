@@ -21,6 +21,9 @@ draw:
 e:
   type: CNAME
   value: cname.vercel-dns.com.
+as:
+  type: CNAME
+  value: cname.vercel-dns.com.
 email:
   type: CNAME
   value: mailgun.org.
