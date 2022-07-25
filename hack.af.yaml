@@ -15,13 +15,13 @@
 "*":
   type: CNAME
   value: proxyparty.hackclub.com.
+as:
+  type: CNAME
+  value: cname.vercel-dns.com.
 draw:
   type: A
   value: 165.227.96.87
 e:
-  type: CNAME
-  value: cname.vercel-dns.com.
-as:
   type: CNAME
   value: cname.vercel-dns.com.
 email:
