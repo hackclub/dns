@@ -1316,6 +1316,10 @@ scrapbook:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+scrapbook.assemble.hackclub.com:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 scrapbooks:
 - ttl: 1
   type: CNAME
