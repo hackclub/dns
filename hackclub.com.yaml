@@ -1432,7 +1432,7 @@ streaks:
   stemegypt:
   - ttl: 1
     type: CNAME
-    value: stemegypt.hackclub.com.
+    value: mohanad-elagan.github.io/STEM-Egypt-Hack-Club-Website.
 summer:
 - ttl: 1
   type: ALIAS
