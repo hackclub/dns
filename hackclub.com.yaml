@@ -1417,6 +1417,10 @@ status:
 status.haas:
   type: A
   value: 34.138.52.92
+stemegypt:
+  - ttl: 1
+    type: CNAME
+    value: mohanad-elagan.github.io.
 stickerhuman:
 - ttl: 1
   type: CNAME
@@ -1429,10 +1433,6 @@ streaks:
 - ttl: 1
   type: CNAME
   value: adoring-brown-d90455.netlify.app.
-stemegypt:
-  - ttl: 1
-    type: CNAME
-    value: mohanad-elagan.github.io/STEM-Egypt-Hack-Club-Website.
 summer:
 - ttl: 1
   type: ALIAS
