@@ -1429,6 +1429,10 @@ streaks:
 - ttl: 1
   type: CNAME
   value: adoring-brown-d90455.netlify.app.
+  STEMEgypt:
+  - ttl: 1
+    type: CNAME
+    value: stemegypt.hackclub.com.
 summer:
 - ttl: 1
   type: ALIAS
