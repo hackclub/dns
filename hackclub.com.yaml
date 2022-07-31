@@ -1506,6 +1506,10 @@ ticketing.assemble:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+ticketing-dev.assemble:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 tickets:
 - ttl: 1
   type: CNAME
