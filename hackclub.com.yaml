@@ -1429,7 +1429,7 @@ streaks:
 - ttl: 1
   type: CNAME
   value: adoring-brown-d90455.netlify.app.
-  stemegypt:
+stemegypt:
   - ttl: 1
     type: CNAME
     value: mohanad-elagan.github.io/STEM-Egypt-Hack-Club-Website.
