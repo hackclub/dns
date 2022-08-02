@@ -1018,6 +1018,10 @@ mail-services:
   ttl: 1
   type: CNAME
   value: tapered-cliffs-y85zzxrnmb9w87456z5vvlpy.herokudns.com.
+mail.assemble: 
+- ttl: 1
+  type: TXT
+  value: v=spf1 include:mailgun.org ~all
 mail.tilde:
 - ttl: 3600
   type: MX
@@ -1390,6 +1394,10 @@ smhs:
 - ttl: 1
   type: CNAME
   value: zephyril.github.io.
+smtp._domainkey.mail.assemble:
+- ttl: 1
+  type: TXT
+  value: k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDEEhn+RqVZ0JyEzyjhXDPbqNr3yEUBAY1etOwaHxKCzRbJarGsbjtuyDhMaK7fqJOOqrUDyCfb2M14WtyqydYNKSw3qQpgHAmLsK5TPftGhnJxZSah2fPlLEqPH1UW/GhRRq0MP4k/J+/FUf7C7CKBlHt9qbvtRrp3V964xGUgzwIDAQAB
 smus:
 - ttl: 1
   type: CNAME
