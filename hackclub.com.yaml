@@ -321,6 +321,9 @@ assemble:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+- ttl: 1
+  type: TXT
+  value: v=spf1 include:mailgun.org ~all
 assets:
   ttl: 1
   type: CNAME
@@ -1024,6 +1027,10 @@ mail.tilde:
   values:
     - exchange: tilde.hackclub.com.
       preference: 10
+mailo._domainkey.assemble: 
+  ttl: 1
+  type: TXT
+  value: k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC3aI1/ITfUnWPDbY3UlkGFeS/dylJMH/vfYcqdqehSJmJnmC0BVUgvo/JTp1Lmg0Ajjn0sCEprSbNwH4+QepJYNFtjJK0O9xgQV5BM9vMLzjzIBkvlI+MTGFlY3ct2id/IHsZ+Nml+HJkjJhqh/H8qhhOov+iMyI1nzYd6r33G8QIDAQAB
 mailo._domainkey.testing.mail:
   ttl: 1
   type: TXT
