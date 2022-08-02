@@ -1397,7 +1397,7 @@ smhs:
 smtp._domainkey.mail.assemble:
 - ttl: 1
   type: TXT
-  value: k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDEEhn+RqVZ0JyEzyjhXDPbqNr3yEUBAY1etOwaHxKCzRbJarGsbjtuyDhMaK7fqJOOqrUDyCfb2M14WtyqydYNKSw3qQpgHAmLsK5TPftGhnJxZSah2fPlLEqPH1UW/GhRRq0MP4k/J+/FUf7C7CKBlHt9qbvtRrp3V964xGUgzwIDAQAB
+  value: k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDEEhn+RqVZ0JyEzyjhXDPbqNr3yEUBAY1etOwaHxKCzRbJarGsbjtuyDhMaK7fqJOOqrUDyCfb2M14WtyqydYNKSw3qQpgHAmLsK5TPftGhnJxZSah2fPlLEqPH1UW/GhRRq0MP4k/J+/FUf7C7CKBlHt9qbvtRrp3V964xGUgzwIDAQAB
 smus:
 - ttl: 1
   type: CNAME
