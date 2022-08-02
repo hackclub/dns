@@ -1014,14 +1014,14 @@ mail:
 - ttl: 1
   type: TXT
   value: v=spf1 include:mailgun.org ~all
-mail.assemble: 
-- ttl: 1
-  type: TXT
-  value: v=spf1 include:mailgun.org ~all
 mail-services:
   ttl: 1
   type: CNAME
   value: tapered-cliffs-y85zzxrnmb9w87456z5vvlpy.herokudns.com.
+mail.assemble: 
+- ttl: 1
+  type: TXT
+  value: v=spf1 include:mailgun.org ~all
 mail.tilde:
 - ttl: 3600
   type: MX
