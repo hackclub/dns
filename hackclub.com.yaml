@@ -321,9 +321,6 @@ assemble:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
-- ttl: 1
-  type: TXT
-  value: v=spf1 include:mailgun.org ~all
 assets:
   ttl: 1
   type: CNAME
@@ -1017,6 +1014,10 @@ mail:
 - ttl: 1
   type: TXT
   value: v=spf1 include:mailgun.org ~all
+mail.assemble: 
+- ttl: 1
+  type: TXT
+  value: v=spf1 include:mailgun.org ~all
 mail-services:
   ttl: 1
   type: CNAME
@@ -1027,10 +1028,6 @@ mail.tilde:
   values:
     - exchange: tilde.hackclub.com.
       preference: 10
-mailo._domainkey.assemble: 
-  ttl: 1
-  type: TXT
-  value: k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC3aI1/ITfUnWPDbY3UlkGFeS/dylJMH/vfYcqdqehSJmJnmC0BVUgvo/JTp1Lmg0Ajjn0sCEprSbNwH4+QepJYNFtjJK0O9xgQV5BM9vMLzjzIBkvlI+MTGFlY3ct2id/IHsZ+Nml+HJkjJhqh/H8qhhOov+iMyI1nzYd6r33G8QIDAQAB
 mailo._domainkey.testing.mail:
   ttl: 1
   type: TXT
@@ -1397,6 +1394,10 @@ smhs:
 - ttl: 1
   type: CNAME
   value: zephyril.github.io.
+smtp._domainkey.mail.assemble:
+- ttl: 1
+  type: TXT
+  value: k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDEEhn+RqVZ0JyEzyjhXDPbqNr3yEUBAY1etOwaHxKCzRbJarGsbjtuyDhMaK7fqJOOqrUDyCfb2M14WtyqydYNKSw3qQpgHAmLsK5TPftGhnJxZSah2fPlLEqPH1UW/GhRRq0MP4k/J+/FUf7C7CKBlHt9qbvtRrp3V964xGUgzwIDAQAB
 smus:
 - ttl: 1
   type: CNAME
