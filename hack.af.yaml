@@ -18,6 +18,9 @@
 as:
   type: CNAME
   value: cname.vercel-dns.com.
+assemble:
+  type: A
+  value: 165.227.96.87
 draw:
   type: A
   value: 165.227.96.87
