@@ -1101,7 +1101,7 @@ muse:
 music.assemble:
   - ttl: 1
     type: A
-    value: 192.9.235.142.
+    value: 192.9.235.142
 mw:
 - ttl: 1
   type: CNAME
