@@ -325,6 +325,10 @@ assemble:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+assemble-images:
+- ttl: 1
+  type: CNAME
+  value: d2s86edbprw1zc.cloudfront.net.
 assets:
   ttl: 1
   type: CNAME
