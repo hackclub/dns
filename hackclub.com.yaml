@@ -328,7 +328,7 @@ assets:
 austin:
   ttl: 1
   type: CNAME
-  value: ayushi-k8.github.io.
+  value: edge.redirect.pizza.
 australia:
   ttl: 1
   type: CNAME
