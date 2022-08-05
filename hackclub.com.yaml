@@ -1091,6 +1091,10 @@ moonbeam:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+music.assemble:
+  - ttl: 1
+    type: A
+    value: 192.9.235.142
 mumble:
 - ttl: 1
   type: A
