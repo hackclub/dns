@@ -255,8 +255,8 @@ vercel-ns:
   - ns2.vercel-dns.com.
   
 wordcalc:
-  type: CNAME
   ttl: 1
+  type: CNAME
   value: cname.vercel-dns.com.
 
 www: # redirect to bare domain
