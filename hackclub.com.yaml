@@ -115,9 +115,6 @@ _dmarc:
   ttl: 1
   type: TXT
   value: v=DMARC1\; p=quarantine\; rua=mailto:6192c543e0e61@ag.dmarcly.com\; ruf=mailto:6192c543e0e61@fo.dmarcly.com\; fo=1\;
-_f1b649dc79b6106cf52360822ee2b8de.db:
-  type: CNAME
-  value: _c18ac3b67b0bc45caa6d7f70ea4e49cd.zxwlrjxpwn.acm-validations.aws.
 _github-challenge-GaynorMcCown.gaynormccown:
 - ttl: 1
   type: TXT
@@ -594,9 +591,6 @@ cvhs:
 - ttl: 1
   type: A
   value: 192.168.1.1
-db:
-- type: CNAME
-  value: d1jvv0giksa6az.cloudfront.net.
 ddze3tkuawtlnbviwym44yhrjczhqzxw._domainkey:
   ttl: 1
   type: CNAME
