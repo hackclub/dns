@@ -71,10 +71,17 @@ Map:
 - ttl: 1
   type: CNAME
   value: hackclub.github.io.
+_29e17c4b43790049c5294e777a7ec927.forms:
+  type: CNAME
+  value: _0190b0595199b369cf2c444b9491f572.zxwlrjxpwn.acm-validations.aws.
 _496c10c564509e5030203691afc939ff.assets:
 - ttl: 1
   type: CNAME
   value: _41e1bb1944485ecaba9d0990915cded3.nhqijqilxf.acm-validations.aws.
+_65244219885cf4f9a5b8765b58e0807a.assemble-images:
+- ttl: 1
+  type: CNAME
+  value: _062a94fad0c28f72c88b05c7724484ce.wsqgzrdths.acm-validations.aws.
 _acme-challenge:
   type: TXT
   values:
@@ -321,6 +328,10 @@ assemble:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+assemble-images:
+- ttl: 1
+  type: CNAME
+  value: d2s86edbprw1zc.cloudfront.net.
 assets:
   ttl: 1
   type: CNAME
@@ -328,7 +339,7 @@ assets:
 austin:
   ttl: 1
   type: CNAME
-  value: ayushi-k8.github.io.
+  value: edge.redirect.pizza.
 australia:
   ttl: 1
   type: CNAME
@@ -702,6 +713,10 @@ f5qsmeu4qwef4yvo2p6e4a4vrspzdqdc._domainkey:
   ttl: 1
   type: CNAME
   value: f5qsmeu4qwef4yvo2p6e4a4vrspzdqdc.dkim.amazonses.com.
+feed.assemble:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 fhshackclub:
 - ttl: 1
   type: CNAME
@@ -740,6 +755,9 @@ fnt._domainkey:
 - ttl: 1
   type: TXT
   value: k=rsa\; t=s\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDAXHru7AQSRBIL6KnEIw/M+GsE8iXtCFOahhNng/5lxVq4rRY2mu/nFKmfGZHXxVXsCYNHwXAkLMcDWIwpaufeSY6tfp0YqGZaTaNT3yDvAU8Xf3f3SQF6Wtm5cM4RPVIOTBuIlU78tpacwGyTwLPDXJxBuTB9d8ee5yt8NLLOkwIDAQAB
+forms:
+  type: CNAME
+  value: d2er61zy6dnpr0.cloudfront.net.
 fr:
 - ttl: 1
   type: CNAME
@@ -1018,6 +1036,10 @@ mail-services:
   ttl: 1
   type: CNAME
   value: tapered-cliffs-y85zzxrnmb9w87456z5vvlpy.herokudns.com.
+mail.assemble: 
+- ttl: 1
+  type: TXT
+  value: v=spf1 include:mailgun.org ~all
 mail.tilde:
 - ttl: 3600
   type: MX
@@ -1094,6 +1116,10 @@ mumble:
 muse:
 - type:  CNAME
   value: cname.vercel-dns.com.
+music.assemble:
+  - ttl: 1
+    type: A
+    value: 192.9.235.142
 mw:
 - ttl: 1
   type: CNAME
@@ -1316,6 +1342,10 @@ scrapbook:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+scrapbook.assemble:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 scrapbooks:
 - ttl: 1
   type: CNAME
@@ -1386,6 +1416,10 @@ smhs:
 - ttl: 1
   type: CNAME
   value: zephyril.github.io.
+smtp._domainkey.mail.assemble:
+- ttl: 1
+  type: TXT
+  value: k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDEEhn+RqVZ0JyEzyjhXDPbqNr3yEUBAY1etOwaHxKCzRbJarGsbjtuyDhMaK7fqJOOqrUDyCfb2M14WtyqydYNKSw3qQpgHAmLsK5TPftGhnJxZSah2fPlLEqPH1UW/GhRRq0MP4k/J+/FUf7C7CKBlHt9qbvtRrp3V964xGUgzwIDAQAB
 smus:
 - ttl: 1
   type: CNAME
@@ -1413,6 +1447,10 @@ status:
 status.haas:
   type: A
   value: 34.138.52.92
+stemegypt:
+  - ttl: 1
+    type: CNAME
+    value: mohanad-elagan.github.io.
 stickerhuman:
 - ttl: 1
   type: CNAME
@@ -1498,6 +1536,10 @@ thorn:
 - ttl: 1
   type: CNAME
   value: thornhill.neocities.org.
+ticketing-dev.assemble:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 ticketing.assemble:
   ttl: 1
   type: CNAME
