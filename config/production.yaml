@@ -64,3 +64,8 @@ zones:
       - config
     targets:
       - dnsimple
+  bank.engineering.:
+    sources:
+      - config
+    targets:
+      - dnsimple
