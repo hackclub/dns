@@ -1392,6 +1392,10 @@ shop.gaynormccown:
   ttl: 1
   type: CNAME
   value: shopgaynormccown.netlify.app.
+sign:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 singgasana:
   ttl: 1
   type: CNAME
