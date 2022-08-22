@@ -217,7 +217,7 @@ _sips._tcp.px:
 _vercel:
   ttl: 1
   type: TXT
-  value: vc-domain-verify=hackerabad.hackclub.com,6c3d5d32a250935189d8
+  value: vc-domain-verify=blair.hackclub.com,7de7c7631e837097d2a2
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
   type: CNAME
@@ -411,7 +411,7 @@ bkbiet:
 blair:
   ttl: 1
   type: CNAME
-  value: blairhc.pages.dev.
+  value: cname.vercel-dns.com.
 blog.ctrl-alt-tec:
 - ttl: 1
   type: CNAME
