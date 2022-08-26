@@ -1438,6 +1438,10 @@ spp:
 - ttl: 1
   type: CNAME
   value: spphacks.netlify.com.
+sprig:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 sprig-order:
 - ttl: 1
   type: CNAME
