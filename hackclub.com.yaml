@@ -671,6 +671,10 @@ editor:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+editor.sprig:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 elon:
   ttl: 1
   type: CNAME
