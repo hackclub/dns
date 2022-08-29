@@ -899,6 +899,10 @@ hillsdale:
 - ttl: 1
   type: CNAME
   value: hhshacks.github.io.
+hin:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 hn:
 - ttl: 1
   type: A
