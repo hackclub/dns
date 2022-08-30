@@ -1225,6 +1225,10 @@ piobfpwf42smbkxcysnrx7qe5es6f5tp._domainkey:
   ttl: 1
   type: CNAME
   value: piobfpwf42smbkxcysnrx7qe5es6f5tp.dkim.amazonses.com.
+pl:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 plis:
   ttl: 1
   type: CNAME
