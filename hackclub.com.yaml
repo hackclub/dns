@@ -972,9 +972,6 @@ jvv:
 - ttl: 1
   type: CNAME
   value: hackjvv.github.io.
-- ttl: 1
-  type: TXT
-  value: zoho-verification=zb28018839.zmverify.zoho.eu
 kerala:
 - ttl: 1
   type: A
