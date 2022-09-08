@@ -175,6 +175,11 @@ pay: # by Ella
   type: CNAME
   value: 72ce41e0-b635-4025-a3ab-519ba661d5b7.id.repl.co.
 
+periodic:
+   ttl: 1
+   type: CNAME
+   value: leecheeyong.github.io. 
+
 scales: # (yet another?) currency slack bot (with some web UI) :D
   ttl: 1
   type: A
@@ -253,6 +258,11 @@ vercel-ns:
   values: 
   - ns1.vercel-dns.com.
   - ns2.vercel-dns.com.
+  
+wordcalc:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 
 www: # redirect to bare domain
   ttl: 1
