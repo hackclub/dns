@@ -1196,7 +1196,7 @@ oly:
 omay:
 - ttl: 1
   type: CNAME
-  value: leonardmac.repl.co
+  value: leonardmac.repl.co.
 oneditor:
 - ttl: 1
   type: CNAME
