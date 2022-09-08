@@ -1194,6 +1194,10 @@ oly:
     preference: 10
   - exchange: mx2.improvmx.com.
     preference: 20
+omay:
+- ttl: 1
+  type: CNAME
+  value: leonardmac.repl.co.
 oneditor:
 - ttl: 1
   type: CNAME
