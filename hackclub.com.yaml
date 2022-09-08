@@ -968,6 +968,13 @@ jv:
 - ttl: 1
   type: CNAME
   value: awesome-carson-c7b5e3.netlify.com.
+jvv:
+- ttl: 1
+  type: CNAME
+  value: awesome-carson-c7b5e3.netlify.com.
+- ttl: 1
+  type: TXT
+  value: zoho-verification=zb28018839.zmverify.zoho.eu
 kerala:
 - ttl: 1
   type: A
