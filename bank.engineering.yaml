@@ -1,5 +1,18 @@
 ---
+_acme-challenge.curl:
+  ttl: 1
+  type: CNAME
+  value: c82b414cd89d32fd90685ead._acme.deno.dev.
 changelog:
   ttl: 1
   type: CNAME
   value: headwayapp.co.
+curl:
+  ttl: 1
+  type: A
+  value: 34.120.54.55
+curl:
+  ttl: 1
+  type: AAAA
+  value: "2600:1901:0:6d85::"
+
