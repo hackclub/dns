@@ -1,12 +1,12 @@
 ---
-changelog:
-  ttl: 1
-  type: CNAME
-  value: headwayapp.co.
 _acme-challenge.curl:
   ttl: 1
   type: CNAME
   value: c82b414cd89d32fd90685ead._acme.deno.dev.
+changelog:
+  ttl: 1
+  type: CNAME
+  value: headwayapp.co.
 curl:
   ttl: 1
   type: A
