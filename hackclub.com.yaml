@@ -229,6 +229,10 @@ adastra:
 - ttl: 1
   type: TXT
   value: bit.ly/adastrahacks
+agoura:
+- ttl: 1
+  type: CNAME
+  value: https://ahshc-website.herokuapp.com/
 airbridge:
   ttl: 1
   type: CNAME
