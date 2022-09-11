@@ -845,6 +845,10 @@ gotchi:
   ttl: 1
   type: A
   value: 140.82.60.70
+gr:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 groups:
   ttl: 1
   type: CNAME
