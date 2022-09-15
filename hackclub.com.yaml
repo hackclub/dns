@@ -403,6 +403,10 @@ beta-mc:
 - ttl: 1
   type: A
   value: 45.61.162.143
+bio:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 bisv:
 - ttl: 1
   type: CNAME
