@@ -1481,7 +1481,7 @@ status.haas:
 stemegypt:
   - ttl: 1
     type: CNAME
-    value: stemegypthc.netlify.app.
+    value: mohanad-elagan.github.io.
 stickerhuman:
 - ttl: 1
   type: CNAME
