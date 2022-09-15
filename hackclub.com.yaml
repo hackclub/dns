@@ -407,6 +407,10 @@ bisv:
 - ttl: 1
   type: CNAME
   value: pkalavath.github.io.
+bio:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 bkbiet:
   ttl: 1
   type: CNAME
