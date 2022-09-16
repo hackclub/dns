@@ -480,7 +480,7 @@ cccs:
 cchshackclub:
 - ttl: 1
   type: CNAME
-  value: cchshackclub.github.io
+  value: cchshackclub.github.io.
 cdn:
   type: CNAME
   value: cname.vercel-dns.com.
