@@ -1245,7 +1245,7 @@ philanthropy:
   type: CNAME
   value: cname.vercel-dns.com.
 phs:
-  - ttl: 1
+- ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
   - ttl: 1
@@ -1332,7 +1332,7 @@ psn:
   type: CNAME
   value: psnhackclub.netlify.app.
 puyallup:
-  - ttl: 1
+- ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
   - ttl: 1
