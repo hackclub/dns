@@ -1333,7 +1333,7 @@ psn:
   value: psnhackclub.netlify.app.
 puyallup:
   - ttl: 1
-    type: CNAME
+    type: ALIAS
     value: cname.vercel-dns.com.
   - ttl: 1
     type: MX
