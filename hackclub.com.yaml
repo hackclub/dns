@@ -221,6 +221,8 @@ _vercel:
     - vc-domain-verify=hackerabad.hackclub.com,6c3d5d32a250935189d8
     - vc-domain-verify=blair.hackclub.com,7de7c7631e837097d2a2
     - vc-domain-verify=pomperaug.hackclub.com,115cd4582efb1a6a1d63
+    - vc-domain-verify=phs.hackclub.com,ad31bc1412884df7c8d4
+    - vc-domain-verify=puyallup.hackclub.com,ee486cad685cefa12fa6
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
   type: CNAME
