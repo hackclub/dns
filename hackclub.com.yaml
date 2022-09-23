@@ -1248,16 +1248,16 @@ phs:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
-  - ttl: 1
-    type: MX
-    values:
-      - exchange: mx1.improvmx.com.
-        preference: 1
-      - exchange: mx2.improvmx.com.
-        preference: 5
-  - ttl: 1
-    type: TXT
-    value: v=spf1 include:spf.improvmx.com ~all
+- ttl: 1
+  type: MX
+  values:
+  - exchange: mx1.improvmx.com.
+    preference: 1
+  - exchange: mx2.improvmx.com.
+    preference: 5
+- ttl: 1
+  type: TXT
+  value: v=spf1 include:spf.improvmx.com ~all
 pic._domainkey.mail:
   ttl: 1
   type: TXT
@@ -1335,16 +1335,16 @@ puyallup:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
-  - ttl: 1
-    type: MX
-    values:
-      - exchange: mx1.improvmx.com.
-        preference: 1
-      - exchange: mx2.improvmx.com.
-        preference: 5
-  - ttl: 1
-    type: TXT
-    value: v=spf1 include:spf.improvmx.com ~all
+- ttl: 1
+  type: MX
+  values:
+  - exchange: mx1.improvmx.com.
+    preference: 1
+  - exchange: mx2.improvmx.com.
+    preference: 5
+- ttl: 1
+  type: TXT
+  value: v=spf1 include:spf.improvmx.com ~all
 q6vh4lhupwotqenjf4s4ygzyhir3e5ii._domainkey:
   ttl: 1
   type: CNAME
