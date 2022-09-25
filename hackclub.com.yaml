@@ -881,7 +881,7 @@ hackaruto:
   value: hackaruto.netlify.app.
 hackathons:
 - ttl: 1
-  type: CNAME
+  type: ALIAS
   value: cname.vercel-dns.com.
 - ttl: 1
   type: TXT
