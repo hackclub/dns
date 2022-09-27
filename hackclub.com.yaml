@@ -880,7 +880,7 @@ hackaruto:
   type: CNAME
   value: hackaruto.netlify.app.
 hackathons:
-  ttl: 1
+- ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
 hackbeats:
