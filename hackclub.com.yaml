@@ -223,6 +223,7 @@ _vercel:
     - vc-domain-verify=pomperaug.hackclub.com,115cd4582efb1a6a1d63
     - vc-domain-verify=phs.hackclub.com,ad31bc1412884df7c8d4
     - vc-domain-verify=puyallup.hackclub.com,ee486cad685cefa12fa6
+    - vc-domain-verify=forms.phs.hackclub.com,25e08effb0de721c762e
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
   type: CNAME
@@ -779,6 +780,10 @@ fnt._domainkey:
 forms:
   type: CNAME
   value: d2er61zy6dnpr0.cloudfront.net.
+forms.phs:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 fr:
 - ttl: 1
   type: CNAME
