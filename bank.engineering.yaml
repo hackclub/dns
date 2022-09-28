@@ -1,4 +1,8 @@
 ---
+"":
+  ttl: 1
+  type: CNAME
+  value: postal.servers.hackclub.com.
 _acme-challenge.curl:
   ttl: 1
   type: CNAME
@@ -14,4 +18,3 @@ curl:
   - ttl: 1
     type: AAAA
     value: "2600:1901:0:6d85::"
-
