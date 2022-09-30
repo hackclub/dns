@@ -913,6 +913,10 @@ hackstore:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+hacktheoctober:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 hear:
   type: CNAME
   value: cname.vercel-dns.com.
