@@ -1167,6 +1167,12 @@ mx._domainkey:
   ttl: 1
   type: TXT
   value: k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC2ne6b1zFQ+JeHfdYOZmfXdPh9oxE8jJ4VYhHKelLyefiYMPC8TUqL/iYy4meTTUcVskryzK6pMB6tIh3+JhgyxacK+dapNcTTd8LOkI0G3d5JX4+5aq99YHi71KGpVREedJeFjnPeNMEBtrRc5Jsb6HFHFxNtH270fchVO+hgRwIDAQAB
+
+ncssm:
+- ttl: 1
+  type: TXT
+  value: vc-domain-verify=ncssm.hackclub.com,ad11133371193e2e6538
+    
 nestm:
   ttl: 1
   type: CNAME
