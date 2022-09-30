@@ -225,6 +225,8 @@ _vercel:
     - vc-domain-verify=puyallup.hackclub.com,ee486cad685cefa12fa6
     - vc-domain-verify=forms.phs.hackclub.com,25e08effb0de721c762e
     - vc-domain-verify=hacktheoctober.hackclub.com,398820f3528f76722590
+    - vc-domain-verify=ncssm.hackclub.com,ad11133371193e2e6538
+    
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
   type: CNAME
@@ -1170,8 +1172,8 @@ mx._domainkey:
 
 ncssm:
 - ttl: 1
-  type: TXT
-  value: vc-domain-verify=ncssm.hackclub.com,ad11133371193e2e6538
+  type: CNAME
+  value: cname.vercel-dns.com.
     
 nestm:
   ttl: 1
