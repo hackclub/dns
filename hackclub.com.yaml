@@ -1734,7 +1734,7 @@ university:
 upa:
   - ttl: 1
     type: CNAME
-    value: upahackclub.github.io.
+    value: 6f5d91a6-7aa7-49a6-b4ab-2b0111bb11a7.id.repl.co.
 upademo:
   - ttl: 1
     type: CNAME
@@ -1742,7 +1742,7 @@ upademo:
 upalinks:
   - ttl: 1
     type: CNAME
-    value: f428cbe5-cbe3-4152-8852-bb944bbb4fc0.id.repl.co.
+    value: 6f5d91a6-7aa7-49a6-b4ab-2b0111bb11a7.id.repl.co.
 uqq467l64nnf3dyo6omjcjmcc3dmdqlb._domainkey:
 - ttl: 1
   type: CNAME
