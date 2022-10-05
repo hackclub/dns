@@ -727,6 +727,27 @@ eomail:
   ttl: 1
   type: CNAME
   value: custom.eomail2.com.
+epoch:
+- ttl: 3600
+  type: TXT
+  values:
+  - google-site-verification=MKJ2KL_Yttoy9RS2qJoHmthoiPULC5ZqSJ6YMVr4ZlE
+  - v=spf1 include:_spf.google.com ~all
+- ttl: 1
+  type: MX
+  values:
+  - exchange: aspmx.l.google.com.
+    preference: 1
+  - exchange: alt1.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt2.aspmx.l.google.com.
+    preference: 5
+  - exchange: aspmx2.googlemail.com.
+    preference: 10
+  - exchange: aspmx3.googlemail.com.
+    preference: 10
+  - exchange: aspmx4.googlemail.com.
+    preference: 10
 eps:
   ttl: 1
   type: CNAME
@@ -935,6 +956,9 @@ hin:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+hiring:
+- type: CNAME
+  value: animate-pheasant-b68leqv9y7xrz13060wscb8c.herokudns.com.
 hn:
 - ttl: 1
   type: A
@@ -1717,7 +1741,7 @@ university:
 upa:
   - ttl: 1
     type: CNAME
-    value: upahackclub.github.io.
+    value: 6f5d91a6-7aa7-49a6-b4ab-2b0111bb11a7.id.repl.co.
 upademo:
   - ttl: 1
     type: CNAME
@@ -1725,7 +1749,7 @@ upademo:
 upalinks:
   - ttl: 1
     type: CNAME
-    value: f428cbe5-cbe3-4152-8852-bb944bbb4fc0.id.repl.co.
+    value: 6f5d91a6-7aa7-49a6-b4ab-2b0111bb11a7.id.repl.co.
 uqq467l64nnf3dyo6omjcjmcc3dmdqlb._domainkey:
 - ttl: 1
   type: CNAME
