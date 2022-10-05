@@ -952,6 +952,9 @@ hin:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+hiring:
+- type: CNAME
+  value: animate-pheasant-b68leqv9y7xrz13060wscb8c.herokudns.com.
 hn:
 - ttl: 1
   type: A
