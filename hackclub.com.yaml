@@ -662,7 +662,7 @@ docs.haas:
 dorman:
  - ttl : 1
   type: ALIAS
-  value: cname.vercel-dns.com
+  value: cname.vercel-dns.com.
 draw-dino:
   ttl: 1
   type: CNAME
