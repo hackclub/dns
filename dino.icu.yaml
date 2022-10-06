@@ -112,7 +112,12 @@ kunal: # kunal
   values: 
   - ns1.vercel-dns.com.
   - ns2.vercel-dns.com.
-
+  
+la: # Laker Turner's links page - @lxjv or @la / @laker in the slack
+  ttl: 1 
+  type: CNAME 
+  value: laker.omg.lol.
+  
 low-ping: # roblox low ping finder site thingy; by https://github.com/lem6ns
   ttl: 1
   type: CNAME
