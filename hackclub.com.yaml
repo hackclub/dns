@@ -463,12 +463,12 @@ byteclub:
   type: CNAME
   value: cname.vercel-dns.com.
   
-   birthdays.hackclub.com:
+birthdays.hackclub.com:
   - ttl: 1
     type: TXT
     value: vc-domain-verify=birthdays.hackclub.com,7ca55aea82d546d470e1.
     
-     birthday.hackclub.com:
+birthday.hackclub.com:
   - ttl: 1
     type: TXT
     value: vc-domain-verify=birthday.hackclub.com,b54f1e09bf276faffd29.
