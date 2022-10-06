@@ -1682,7 +1682,7 @@ theme:
 thorn:
 - ttl: 1
   type: CNAME
-  value: thornhill.neocities.org.
+  value: thornhack.root.omg.lol.
 ticketing-dev.assemble:
   ttl: 1
   type: CNAME
