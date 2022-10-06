@@ -227,6 +227,8 @@ _vercel:
     - vc-domain-verify=hacktheoctober.hackclub.com,398820f3528f76722590
     - vc-domain-verify=ncssm.hackclub.com,ad11133371193e2e6538
     - vc-domain-verify=dorman.hackclub.com,f3eed241f1f80b308a69
+    - vc-domain-verify=birthdays.hackclub.com,7ca55aea82d546d470e1.
+    - vc-domain-verify=birthday.hackclub.com,b54f1e09bf276faffd29.
     
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
@@ -463,12 +465,18 @@ byteclub:
   type: CNAME
   value: cname.vercel-dns.com.
   
-birthdays.hackclub.com:
+birthdays:
+  - ttl: 1
+    type: ALIAS
+    value: cname.vercel-dns.com.
   - ttl: 1
     type: TXT
     value: vc-domain-verify=birthdays.hackclub.com,7ca55aea82d546d470e1.
     
-birthday.hackclub.com:
+birthday:
+  - ttl: 1
+    type: ALIAS
+    value: cname.vercel-dns.com.
   - ttl: 1
     type: TXT
     value: vc-domain-verify=birthday.hackclub.com,b54f1e09bf276faffd29.
