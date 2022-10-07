@@ -1558,7 +1558,7 @@ smhs:
 smchs:
 - ttl: 1
   type: CNAME
-  value: SMCHS-Hack-Club.github.io.
+  value: smchs-hack-club.github.io.
 smtp._domainkey.mail.assemble:
 - ttl: 1
   type: TXT
