@@ -1555,6 +1555,10 @@ smhs:
 - ttl: 1
   type: CNAME
   value: zephyril.github.io.
+smchs:
+- ttl: 1
+  type: CNAME
+  value: smchs-hack-club.github.io.
 smtp._domainkey.mail.assemble:
 - ttl: 1
   type: TXT
