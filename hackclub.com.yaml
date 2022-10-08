@@ -1896,5 +1896,8 @@ zwp:
 - ttl: 1
   type: A
   value: 172.99.233.117
-  
+ hack club poornima:
+- ttl: 1
+    type: CNAME
+    value: hackclubpoornima.hackclub.com
 
