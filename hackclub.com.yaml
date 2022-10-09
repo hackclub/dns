@@ -1209,6 +1209,10 @@ music.assemble:
   - ttl: 1
     type: A
     value: 192.9.235.142
+ms:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 mw:
 - ttl: 1
   type: CNAME
@@ -1217,12 +1221,10 @@ mx._domainkey:
   ttl: 1
   type: TXT
   value: k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC2ne6b1zFQ+JeHfdYOZmfXdPh9oxE8jJ4VYhHKelLyefiYMPC8TUqL/iYy4meTTUcVskryzK6pMB6tIh3+JhgyxacK+dapNcTTd8LOkI0G3d5JX4+5aq99YHi71KGpVREedJeFjnPeNMEBtrRc5Jsb6HFHFxNtH270fchVO+hgRwIDAQAB
-
 ncssm:
 - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
-    
 nestm:
   ttl: 1
   type: CNAME
