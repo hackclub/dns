@@ -1429,6 +1429,10 @@ rawr:
 - ttl: 1
   type: CNAME
   value: hackclub.github.io.
+redwood.scrapbook:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 ref.guide:
   ttl: 1
   type: CNAME
@@ -1785,6 +1789,10 @@ url75: # SendGrid Sender Authentication (bank@hackclub.com)
   value: sendgrid.net.
 v2:
 - ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
+v2.scrapbook:
+  ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
 v3:
