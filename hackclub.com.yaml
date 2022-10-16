@@ -1904,4 +1904,10 @@ zwp:
   type: A
   value: 172.99.233.117
   
+hack-a-way.hackclub.dom:
+-ttl: 1
+ type:A
+ value:127.0.0.1:5500/index.html.
+  
+   
 
