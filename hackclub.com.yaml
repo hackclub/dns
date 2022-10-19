@@ -71,9 +71,6 @@ Map:
 - ttl: 1
   type: CNAME
   value: hackclub.github.io.
-_29e17c4b43790049c5294e777a7ec927.forms:
-  type: CNAME
-  value: _0190b0595199b369cf2c444b9491f572.zxwlrjxpwn.acm-validations.aws.
 _496c10c564509e5030203691afc939ff.assets:
 - ttl: 1
   type: CNAME
@@ -827,7 +824,7 @@ fnt._domainkey:
   value: k=rsa\; t=s\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDAXHru7AQSRBIL6KnEIw/M+GsE8iXtCFOahhNng/5lxVq4rRY2mu/nFKmfGZHXxVXsCYNHwXAkLMcDWIwpaufeSY6tfp0YqGZaTaNT3yDvAU8Xf3f3SQF6Wtm5cM4RPVIOTBuIlU78tpacwGyTwLPDXJxBuTB9d8ee5yt8NLLOkwIDAQAB
 forms:
   type: CNAME
-  value: d2er61zy6dnpr0.cloudfront.net.
+  value: domains.fillout.com.
 forms.phs:
 - ttl: 1
   type: CNAME
