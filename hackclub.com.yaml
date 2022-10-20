@@ -1907,11 +1907,6 @@ zwp:
 - ttl: 1
   type: A
   value: 172.99.233.117
-  
 
-hackaway:
- -ttl : 1
- Type : CNAME
- Value : hack-club-kmea.github.io/Hack-a-way-/.
     
     
