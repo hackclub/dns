@@ -936,7 +936,7 @@ hackathons:
 hackaway:
  -ttl : 1
  type : CNAME
- value : hack-club-kmea.github.io/Hack-a-way-/. 
+ value : hack-club-kmea.github.io/Hack-a-way-/.
 hackbeats:
   ttl: 1
   type: CNAME
