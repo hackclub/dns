@@ -116,6 +116,10 @@ _github-challenge-GaynorMcCown.gaynormccown:
 - ttl: 1
   type: TXT
   value: 03c11eee8f
+  _github-pages-challenge-Hack-Club-Kmea.kmea
+  -ttl: 1
+  type :TXT
+  value: 0dac7921fd3b0847204be4c14ee375
 _github-challenge-HackClub-TIST.tist:
 - ttl: 1
   type: TXT
