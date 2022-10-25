@@ -935,8 +935,8 @@ hackathons:
   value: cname.vercel-dns.com.
 hackaway:
 - ttl: 1
-  type: CNAME
-  value: starlit-cascaron-ab17de.netlify.app.
+  type: A
+  value: 185.199.110.153
 hackbeats:
   ttl: 1
   type: CNAME
