@@ -935,8 +935,8 @@ hackathons:
   value: cname.vercel-dns.com.
 hackaway:
 - ttl: 1
-  type: A
-  value: 185.199.110.153
+  type: CNAME
+  value: hack-club-kmea.github.io
 hackbeats:
   ttl: 1
   type: CNAME
