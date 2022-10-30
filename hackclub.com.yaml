@@ -1453,6 +1453,10 @@ rr:
   - ttl: 1
     type: CNAME
     value: rr-cs-club.github.io.
+rrhs:
+  - ttl: 1
+    type: CNAME
+    value:rrhshacweb.vercel.app.
 s1._domainkey:
   ttl: 1
   type: CNAME
