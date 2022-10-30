@@ -1453,6 +1453,10 @@ rr:
   - ttl: 1
     type: CNAME
     value: rr-cs-club.github.io.
+rrhshack:
+  - ttl: 1
+    type: CNAME
+    value: rrhshack.github.io.
 s1._domainkey:
   ttl: 1
   type: CNAME
