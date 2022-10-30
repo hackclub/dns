@@ -229,6 +229,7 @@ _vercel:
     - vc-domain-verify=dorman.hackclub.com,f3eed241f1f80b308a69
     - vc-domain-verify=birthdays.hackclub.com,7ca55aea82d546d470e1
     - vc-domain-verify=birthday.hackclub.com,b54f1e09bf276faffd29
+    - vc-domain-verify=rrhs.hackclub.com,790318909110bbe8c20a
 
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
