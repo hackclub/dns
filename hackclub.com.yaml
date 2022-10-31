@@ -747,6 +747,9 @@ eomail:
   type: CNAME
   value: custom.eomail2.com.
 epoch:
+  - ttl: 1
+    type: ALIAS
+    value: cname.vercel-dns.com.
   - ttl: 3600
     type: TXT
     values:
