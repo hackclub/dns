@@ -1117,6 +1117,10 @@ list:
   - ttl: 1
     type: TXT
     value: google-site-verification=dy5FQ7euw6ZutiApm5ZdCTUgWn9CL3uhfJWHfD3TxLk
+lucas:
+  - ttl: 1
+    type: CNAME
+    value: page.devlucas.page
 mail:
   - ttl: 1
     type: MX
