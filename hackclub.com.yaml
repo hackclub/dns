@@ -218,6 +218,7 @@ _vercel:
   ttl: 1
   type: TXT
   values:
+    - vc-domain-verify=gaynormccown.hackclub.com,32e375ae13476a9653b9
     - vc-domain-verify=hackerabad.hackclub.com,6c3d5d32a250935189d8
     - vc-domain-verify=blair.hackclub.com,7de7c7631e837097d2a2
     - vc-domain-verify=pomperaug.hackclub.com,115cd4582efb1a6a1d63
@@ -861,8 +862,8 @@ games:
   value: cname.vercel-dns.com.
 gaynormccown:
   - ttl: 1
-    type: ALIAS
-    value: gaynormccown.netlify.app.
+    type: CNAME
+    value: cname.vercel-dns.com.
   - ttl: 1
     type: TXT
     value: google-site-verification=TcGeIFRxxqhW-iuc52dgngRerfT_can9PuSbUN9zClw
