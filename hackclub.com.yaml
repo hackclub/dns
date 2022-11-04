@@ -1448,6 +1448,10 @@ register.assemble:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+register.epoch:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 riverbend:
   - ttl: 1
     type: CNAME
