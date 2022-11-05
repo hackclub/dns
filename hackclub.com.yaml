@@ -861,8 +861,10 @@ games:
   value: cname.vercel-dns.com.
 gaynormccown:
   - ttl: 1
-    type: ALIAS
-    value: gaynormccown.netlify.app.
+    type: NS
+    values:
+      - dana.ns.cloudflare.com.
+      - walt.ns.cloudflare.com.
   - ttl: 1
     type: TXT
     value: google-site-verification=TcGeIFRxxqhW-iuc52dgngRerfT_can9PuSbUN9zClw
