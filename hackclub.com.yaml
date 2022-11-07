@@ -1778,6 +1778,10 @@ turner:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
+teenhack:
+  - ttl: 1
+    type: CNAME
+    value: teenhackse.org.
 uet:
   - ttl: 1
     type: CNAME
