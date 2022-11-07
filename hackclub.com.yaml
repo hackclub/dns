@@ -861,8 +861,10 @@ games:
   value: cname.vercel-dns.com.
 gaynormccown:
   - ttl: 1
-    type: ALIAS
-    value: gaynormccown.netlify.app.
+    type: NS
+    values:
+      - dana.ns.cloudflare.com.
+      - walt.ns.cloudflare.com.
   - ttl: 1
     type: TXT
     value: google-site-verification=TcGeIFRxxqhW-iuc52dgngRerfT_can9PuSbUN9zClw
@@ -1481,9 +1483,11 @@ sa:
   type: CNAME
   value: hc-sa.netlify.app.
 saleh:
-  ttl: 1
-  type: CNAME
-  value: aliasaleh.netlify.app.
+  - ttl: 1
+    type: NS
+    values:
+      - dana.ns.cloudflare.com.
+      - walt.ns.cloudflare.com.
 santa:
   ttl: 1
   type: CNAME
@@ -1548,10 +1552,6 @@ shop:
         preference: 10
       - exchange: aspmx3.googlemail.com.
         preference: 10
-shop.gaynormccown:
-  ttl: 1
-  type: CNAME
-  value: shopgaynormccown.netlify.app.
 sign:
   ttl: 1
   type: CNAME
