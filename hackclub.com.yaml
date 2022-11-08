@@ -863,11 +863,9 @@ gaynormccown:
   - ttl: 1
     type: NS
     values:
-      - ns1.he.net.
-      - ns2.he.net.
-      - ns3.he.net.
-      - ns4.he.net.
-      - ns5.he.net.
+      - ns1.digitalocean.com.
+      - ns2.digitalocean.com.
+      - ns3.digitalocean.com.
   - ttl: 1
     type: TXT
     value: google-site-verification=TcGeIFRxxqhW-iuc52dgngRerfT_can9PuSbUN9zClw
@@ -1489,11 +1487,9 @@ saleh:
   - ttl: 1
     type: NS
     values:
-      - ns1.he.net.
-      - ns2.he.net.
-      - ns3.he.net.
-      - ns4.he.net.
-      - ns5.he.net.
+      - ns1.digitalocean.com.
+      - ns2.digitalocean.com.
+      - ns3.digitalocean.com.
 santa:
   ttl: 1
   type: CNAME
