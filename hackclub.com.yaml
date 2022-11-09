@@ -1787,7 +1787,7 @@ turner:
 teenhack:
   - ttl: 1
     type: CNAME
-    value: timely-dusk-55efb5.netlify.app.
+    value: cname.vercel-dns.com.
 uet:
   - ttl: 1
     type: CNAME
