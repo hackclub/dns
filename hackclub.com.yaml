@@ -943,6 +943,15 @@ hackaruto:
   - ttl: 1
     type: CNAME
     value: hackaruto.netlify.app.
+hackathon:
+  - ttl: 1
+    type: NS
+    values:
+      - ns1.he.net.
+      - ns2.he.net.
+      - ns3.he.net.
+      - ns4.he.net.
+      - ns5.he.net.
 hackathons:
   - ttl: 1
     type: CNAME
