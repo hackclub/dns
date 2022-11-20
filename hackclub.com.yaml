@@ -1172,7 +1172,16 @@ maxday:
 mc:
   - ttl: 1
     type: A
-    value: 45.61.162.143
+    value: 45.61.162.143    
+mccownhacks:
+  - ttl: 1
+    type: NS
+    values:
+      - ns1.he.net.
+      - ns2.he.net.
+      - ns3.he.net.
+      - ns4.he.net.
+      - ns5.he.net.
 mcneil:
   - ttl: 1
     type: A
