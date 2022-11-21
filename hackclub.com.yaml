@@ -446,7 +446,7 @@ bqogdt6xkltngfg62lq7jo5dk33zerss._domainkey:
 brasil:
   ttl: 1
   type: CNAME
-  value: hackclub-brasil.netlify.app.
+  value: hack-club-brasil.netlify.app.
 bucky:
   - ttl: 1
     type: CNAME
