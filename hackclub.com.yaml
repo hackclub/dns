@@ -769,8 +769,8 @@ epoch:
         preference: 10
 epochvt:
   - ttl: 1
-  type: ALIAS
-  value: cname.vercel-dns.com.
+    type: ALIAS
+    value: cname.vercel-dns.com.
 eps:
   ttl: 1
   type: CNAME
