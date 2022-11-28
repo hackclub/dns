@@ -232,6 +232,8 @@ _vercel:
     - vc-domain-verify=birthdays.hackclub.com,7ca55aea82d546d470e1
     - vc-domain-verify=birthday.hackclub.com,b54f1e09bf276faffd29
     - vc-domain-verify=teenhack.hackclub.com,83b35a519bc92ba8b94d
+    - vc-domain-verify=register.epochvt.hackclub.com,8e89fd1c0e1dd7045bd5
+    - vc-domain-verify=epochvt.hackclub.com,089353b4de0bf145067d
 
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
@@ -765,6 +767,10 @@ epoch:
         preference: 10
       - exchange: aspmx4.googlemail.com.
         preference: 10
+epochvt:
+  - ttl: 1
+  type: ALIAS
+  value: cname.vercel-dns.com.
 eps:
   ttl: 1
   type: CNAME
@@ -1450,6 +1456,10 @@ register.assemble:
   type: CNAME
   value: cname.vercel-dns.com.
 register.epoch:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
+register.epochvt:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
