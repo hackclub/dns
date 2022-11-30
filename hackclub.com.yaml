@@ -1372,6 +1372,9 @@ postal.servers:
   ttl: 1
   type: A
   value: 23.92.24.6
+posthog:
+  type: A
+  value: 45.79.174.48
 prc:
   - ttl: 1
     type: A
