@@ -1145,6 +1145,10 @@ mail.tilde:
     values:
       - exchange: tilde.hackclub.com.
         preference: 10
+mailchannels._domainkey.epochba:
+  ttl: 1800
+  type: TXT
+  value: v=DKIM1;p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1TbZQHVO955sdVfRbgBgo4BWVmc5D/X8o2h4l7RvcRrcrp9c0YfFc+mstp3dW0bWg0ufnRUfmq0kYpx4mG0+RvSv0/we18WqLhQAaTNmA3joa+0HV9dpFKhKJk+jbU4kGcynJ9mKR/fAwYODZSTmE4lBbGZkB7EC/eaHjBxiGUCsCy2PV/sc1DkxvglnBqNcys3orZ9JmeCKuDNvwnIql9cc89zlZksDZjrsh47zbm+gBlySMhuoD9oo/kebGPJzDohnXSHUKFAEJQUFJ6Gt65Fzv+QRrdm2vvxqOscLxO6dlk/FNl4JuY9DRlr4McmyTZUDzKaMNhKwmBPySyBYkQIDAQAB
 mailo._domainkey.testing.mail:
   ttl: 1
   type: TXT
