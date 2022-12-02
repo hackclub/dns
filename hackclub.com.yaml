@@ -1522,6 +1522,10 @@ scholarship:
   ttl: 1
   type: CNAME
   value: scholarship-hackclub.netlify.com.
+school-toolkit:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 scrapbook:
   - ttl: 1
     type: CNAME
