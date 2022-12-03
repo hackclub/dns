@@ -1564,9 +1564,6 @@ sgd._domainkey: # SendGrid Sender Authentication (bank@hackclub.com)
   value: sgd.domainkey.u14148987.wl238.sendgrid.net.
 shop:
   - ttl: 1
-    type: A
-    value: 23.227.38.65
-  - ttl: 1
     type: TXT
     values:
       - google-site-verification=l3Bbo36E5uS61KvlS_kvx-iqN_h1DN1LAks2DssJDwM
