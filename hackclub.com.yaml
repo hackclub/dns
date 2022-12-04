@@ -771,9 +771,29 @@ epoch:
       - exchange: aspmx4.googlemail.com.
         preference: 10
 epochba:
-  ttl: 1
-  type: CNAME
-  value: cname.vercel-dns.com.
+  - ttl: 1
+    type: ALIAS
+    value: cname.vercel-dns.com.
+  - ttl: 3600
+    type: TXT
+    values:
+      - google-site-verification=2979FUSGCz-WxnW6EukLx_N_Ay31YOyGBnvUSbwHcXc
+      - v=spf1 include:_spf.google.com ~all
+  - ttl: 1
+    type: MX
+    values:
+      - exchange: aspmx.l.google.com.
+        preference: 1
+      - exchange: alt1.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt2.aspmx.l.google.com.
+        preference: 5
+      - exchange: aspmx2.googlemail.com.
+        preference: 10
+      - exchange: aspmx3.googlemail.com.
+        preference: 10
+      - exchange: aspmx4.googlemail.com.
+        preference: 10
 epochvt:
   - ttl: 1
     type: ALIAS
