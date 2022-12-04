@@ -32,6 +32,7 @@
       - 61220A24D7 # From Expensify
       - 2610E0D36E # From Expensify
       - TAILSCALE=xJzhP4gW3Mb3W6fpcMh7 # From Tailscale
+      - v=spf1 include:_spf.google.com ~all # From Google Workspace on Bank
       - v=spf1 include:mailgun.org ~all #from MailGun
 3blue1brown:
   ttl: 1
