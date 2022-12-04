@@ -772,7 +772,7 @@ epoch:
         preference: 10
 epochba:
   - ttl: 1
-    type: CNAME
+    type: ALIAS
     value: cname.vercel-dns.com.
   - ttl: 3600
     type: TXT
