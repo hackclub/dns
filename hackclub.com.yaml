@@ -237,6 +237,7 @@ _vercel:
     - vc-domain-verify=register.epochvt.hackclub.com,8e89fd1c0e1dd7045bd5
     - vc-domain-verify=epochvt.hackclub.com,089353b4de0bf145067d
     - vc-domain-verify=epochba.hackclub.com,705735e32a03c39fdd26
+    - vc-domain-verify=lghs.hackclub.com,f33560bd22273ee8df77
 
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
@@ -1127,6 +1128,10 @@ leap:
     type: CNAME
     value: cname.vercel-dns.com.
 leap-manual:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
+lghs:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
