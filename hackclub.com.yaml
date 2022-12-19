@@ -238,6 +238,8 @@ _vercel:
     - vc-domain-verify=epochvt.hackclub.com,089353b4de0bf145067d
     - vc-domain-verify=epochba.hackclub.com,705735e32a03c39fdd26
     - vc-domain-verify=lghs.hackclub.com,f33560bd22273ee8df77
+    - vc-domain-verify=cchs.hackclub.com,7f5caa162108e7253705
+    - vc-domain-verify=more.cchs.hackclub.com,c48f5d96baaeed884bbd
 
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
@@ -504,10 +506,9 @@ cca:
 cccs:
   type: CNAME
   value: cname.vercel-dns.com.
-cchshackclub:
-  - ttl: 1
+cchs:
     type: CNAME
-    value: cchshackclub.github.io.
+    value: cname.vercel-dns.com.
 cdn:
   type: CNAME
   value: cname.vercel-dns.com.
