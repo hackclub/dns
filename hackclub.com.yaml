@@ -960,6 +960,10 @@ google._domainkey:
   ttl: 1
   type: TXT
   value: v=DKIM1\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAm24gOXYmuCx1b3faIwxeRtzaloKPCKVMHmTGIXeQWRlUpvAWfjhdPGQIclYHcJV6eO85eXiKTzpxiyKKbbMk/5gaZCt7RLLes0y7rscX13jNB8uVQcUJsf99Ve5CPCWueNhK2ZXp9C74dkX5dNqeoO1iUnoFgfI4ioKKGn0Vk6GZxHrFjSSycQCYSuf6+azYUksnR+lNsfiJH6fnnLzcDXiur/26l0VB9p3/8KctPsZYty0BgW+c9FntD3TkbEdH3vlDPSRLwZ9wVGs+M2mpmPOM0eEfWqjW4wOZNc7hjmZlhImVR+7A3UytWvdlbRDcSmW5pWw4Tp1/1KmBbXtteQIDAQAB
+google._domainkey.epochvt:
+  ttl: 1
+  type: TXT
+  value: v=DKIM1\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAm24gOXYmuCx1b3faIwxeRtzaloKPCKVMHmTGIXeQWRlUpvAWfjhdPGQIclYHcJV6eO85eXiKTzpxiyKKbbMk/5gaZCt7RLLes0y7rscX13jNB8uVQcUJsf99Ve5CPCWueNhK2ZXp9C74dkX5dNqeoO1iUnoFgfI4ioKKGn0Vk6GZxHrFjSSycQCYSuf6+azYUksnR+lNsfiJH6fnnLzcDXiur/26l0VB9p3/8KctPsZYty0BgW+c9FntD3TkbEdH3vlDPSRLwZ9wVGs+M2mpmPOM0eEfWqjW4wOZNc7hjmZlhImVR+7A3UytWvdlbRDcSmW5pWw4Tp1/1KmBbXtteQIDAQAB
 gotchi:
   ttl: 1
   type: A
