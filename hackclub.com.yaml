@@ -243,6 +243,10 @@ a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
   type: CNAME
   value: a5fj644skxexxgvvraqrag5ngcaovcny.dkim.amazonses.com.
+a5fj644skxexxgvvraqrag5ngcaovcny._domainkey.epochvt:
+  ttl: 1
+  type: CNAME
+  value: a5fj644skxexxgvvraqrag5ngcaovcny.dkim.amazonses.com.
 adastra:
   - ttl: 1
     type: TXT
@@ -632,6 +636,10 @@ ddze3tkuawtlnbviwym44yhrjczhqzxw._domainkey:
   ttl: 1
   type: CNAME
   value: ddze3tkuawtlnbviwym44yhrjczhqzxw.dkim.amazonses.com.
+ddze3tkuawtlnbviwym44yhrjczhqzxw._domainkey.epochvt:
+  ttl: 1
+  type: CNAME
+  value: ddze3tkuawtlnbviwym44yhrjczhqzxw.dkim.amazonses.com.
 dear-joe:
   - ttl: 1
     type: CNAME
@@ -831,6 +839,10 @@ evoking:
   type: CNAME
   value: evokinghc.netlify.app.
 f5qsmeu4qwef4yvo2p6e4a4vrspzdqdc._domainkey:
+  ttl: 1
+  type: CNAME
+  value: f5qsmeu4qwef4yvo2p6e4a4vrspzdqdc.dkim.amazonses.com.
+f5qsmeu4qwef4yvo2p6e4a4vrspzdqdc._domainkey.epochvt:
   ttl: 1
   type: CNAME
   value: f5qsmeu4qwef4yvo2p6e4a4vrspzdqdc.dkim.amazonses.com.
@@ -1115,6 +1127,10 @@ keys:
     type: CNAME
     value: hackclub.myftp.biz.
 kf2tzvncx46ahlhuev6kusbvg5hmymau._domainkey:
+  ttl: 1
+  type: CNAME
+  value: kf2tzvncx46ahlhuev6kusbvg5hmymau.dkim.amazonses.com.
+kf2tzvncx46ahlhuev6kusbvg5hmymau._domainkey.epochvt:
   ttl: 1
   type: CNAME
   value: kf2tzvncx46ahlhuev6kusbvg5hmymau.dkim.amazonses.com.
@@ -1411,6 +1427,10 @@ piobfpwf42smbkxcysnrx7qe5es6f5tp._domainkey:
   ttl: 1
   type: CNAME
   value: piobfpwf42smbkxcysnrx7qe5es6f5tp.dkim.amazonses.com.
+piobfpwf42smbkxcysnrx7qe5es6f5tp._domainkey.epochvt:
+  ttl: 1
+  type: CNAME
+  value: piobfpwf42smbkxcysnrx7qe5es6f5tp.dkim.amazonses.com.
 pl:
   ttl: 1
   type: CNAME
@@ -1494,6 +1514,10 @@ puyallup:
     type: TXT
     value: v=spf1 include:spf.improvmx.com ~all
 q6vh4lhupwotqenjf4s4ygzyhir3e5ii._domainkey:
+  ttl: 1
+  type: CNAME
+  value: q6vh4lhupwotqenjf4s4ygzyhir3e5ii.dkim.amazonses.com.
+q6vh4lhupwotqenjf4s4ygzyhir3e5ii._domainkey.epochvt:
   ttl: 1
   type: CNAME
   value: q6vh4lhupwotqenjf4s4ygzyhir3e5ii.dkim.amazonses.com.
