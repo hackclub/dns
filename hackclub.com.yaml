@@ -798,6 +798,26 @@ epochvt:
   - ttl: 1
     type: ALIAS
     value: cname.vercel-dns.com.
+  - ttl: 3600
+    type: TXT
+    values:
+      - google-site-verification=HWyFXVqbWiBhhXmtelBsNqKWG7NpamSuE1Pm5xJ79U4
+      - v=spf1 include:_spf.google.com ~all
+  - ttl: 1
+    type: MX
+    values:
+      - exchange: aspmx.l.google.com.
+        preference: 1
+      - exchange: alt1.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt2.aspmx.l.google.com.
+        preference: 5
+      - exchange: aspmx2.googlemail.com.
+        preference: 10
+      - exchange: aspmx3.googlemail.com.
+        preference: 10
+      - exchange: aspmx4.googlemail.com.
+        preference: 10
 eps:
   ttl: 1
   type: CNAME
