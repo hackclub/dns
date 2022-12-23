@@ -51,6 +51,11 @@
 #   type: CNAME
 #   value: cname.vercel-dns.com.
 
+aiden: # by https://github.com/roizor
+  ttl: 1
+  type: CNAME
+  value: sitesite.crazyhorseradish.repl.co.
+
 andrew: # by https://github.com/anddddrew
   ttl: 1
   type: CNAME
