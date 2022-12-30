@@ -32,7 +32,7 @@ email:
   value: mailgun.org.
 epoch:
   type: CNAME
-  value: floating-thicket-nco6m0ko94oi6hg7e2mf3akg.herokudns.com
+  value: floating-thicket-nco6m0ko94oi6hg7e2mf3akg.herokudns.com.
 grant:
   type: CNAME
   value: boiling-honeydew-mht7oh0h9dhkm6w06xuitk1w.herokudns.com.
