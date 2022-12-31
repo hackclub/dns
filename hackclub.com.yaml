@@ -2055,5 +2055,4 @@ stemsharkya:
 bewacky:
   - ttl: 1
     type: TXT
-    values:
-    google-site-verification=_AfYSUQq4dxxSKw--f3ebARfekOtG3w3jIRdky4ry_g
+    values: google-site-verification=_AfYSUQq4dxxSKw--f3ebARfekOtG3w3jIRdky4ry_g
