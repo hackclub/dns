@@ -2052,3 +2052,8 @@ stemsharkya:
   - ttl: 1
     type: CNAME
     value: stemsharkya.netlify.app.
+bewacky:
+  - ttl: 1
+    type: TXT
+    values:
+    google-site-verification=_AfYSUQq4dxxSKw--f3ebARfekOtG3w3jIRdky4ry_g
