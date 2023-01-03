@@ -75,6 +75,11 @@ cslide:
   ttl: 1
   type: CNAME
   value: leecheeyong.github.io.
+  
+diafano: # cfanoulis/diafano-hackclub
+  ttl: 1
+  type: A
+  value: 76.76.21.21
 
 e: # drawing app - by https://github.com/sporeball
   ttl: 1
