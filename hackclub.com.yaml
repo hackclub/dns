@@ -1195,6 +1195,10 @@ liftoff:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
+linkscape:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 list:
   - ttl: 1
     type: TXT
