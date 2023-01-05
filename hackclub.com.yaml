@@ -238,6 +238,7 @@ _vercel:
     - vc-domain-verify=epochvt.hackclub.com,089353b4de0bf145067d
     - vc-domain-verify=epochba.hackclub.com,705735e32a03c39fdd26
     - vc-domain-verify=lghs.hackclub.com,f33560bd22273ee8df77
+    - vc-domain-verify=linkscape.hackclub.com,c31824abf58faa7a0160
 
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
