@@ -446,6 +446,10 @@ blog.ctrl-alt-tec:
   - ttl: 1
     type: CNAME
     value: ctrl-alt-tec.github.io.
+bn:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 bounce:
   - ttl: 1
     type: CNAME
