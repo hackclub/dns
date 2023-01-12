@@ -1755,6 +1755,10 @@ stemegypt:
   - ttl: 1
     type: CNAME
     value: stemegypthc.netlify.app.
+stemsharkya:
+  - ttl: 1
+    type: CNAME
+    value: stemsharkya.netlify.app.
 stickerhuman:
   - ttl: 1
     type: CNAME
@@ -1934,6 +1938,10 @@ uqq467l64nnf3dyo6omjcjmcc3dmdqlb._domainkey:
   - ttl: 1
     type: CNAME
     value: uqq467l64nnf3dyo6omjcjmcc3dmdqlb.dkim.custom-email-domain.stripe.com.
+ur:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 url75: # SendGrid Sender Authentication (bank@hackclub.com)
   ttl: 1
   type: CNAME
@@ -2061,7 +2069,3 @@ zwp:
   - ttl: 1
     type: A
     value: 172.99.233.117
-stemsharkya:
-  - ttl: 1
-    type: CNAME
-    value: stemsharkya.netlify.app.
