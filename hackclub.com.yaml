@@ -2069,3 +2069,12 @@ zwp:
   - ttl: 1
     type: A
     value: 172.99.233.117
+ morncast:
+  - ttl: 1
+    type: CNAME
+    value: hackathon-coral.vercel.app.
+  _vercel:
+  ttl: 1
+  type: TXT
+  values:
+    - vc-domain-verify=morncast.hackclub.com,4f7115ab5b61c8c1ecd3
