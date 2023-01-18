@@ -1700,6 +1700,10 @@ skyrim:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+skyscrapper:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 slash-z:
   ttl: 1
   type: CNAME
