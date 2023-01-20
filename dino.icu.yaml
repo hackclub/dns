@@ -91,6 +91,11 @@ emojile: # wordle with slack emojis - https://github.com/yodalightsabr/emojile
   type: CNAME
   value: yodalightsabr.github.io.
 
+gaming: # sprig gaming controller (aka Sprig+) - https://github.com/cytronicoder/sprig-gaming-controller
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
+
 geta: # yoda - https://getadinoicu.yodacode.repl.co/dino.png - get a dino from hackclub/dinosaurs api
   ttl: 1
   type: CNAME
