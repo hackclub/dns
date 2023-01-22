@@ -292,7 +292,7 @@ winterlings: # a site to view winter wonderland projects (contact @ZeroQL on sla
 wordcalc: 
   ttl: 1
   type: CNAME
-  value: cname.vercel-dns.com
+  value: cname.vercel-dns.com.
 
 www: # redirect to bare domain
   ttl: 1
