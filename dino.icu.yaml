@@ -284,10 +284,15 @@ vercel-ns:
   - ns1.vercel-dns.com.
   - ns2.vercel-dns.com.
   
-wordcalc:
+winterlings: # a site to view winter wonderland projects (contact @ZeroQL on slack for thingies)
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+  
+wordcalc: 
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com
 
 www: # redirect to bare domain
   ttl: 1
