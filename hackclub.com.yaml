@@ -446,6 +446,10 @@ blog.ctrl-alt-tec:
   - ttl: 1
     type: CNAME
     value: ctrl-alt-tec.github.io.
+bn:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 bounce:
   - ttl: 1
     type: CNAME
@@ -1071,6 +1075,10 @@ holiday2022.cchs:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
+horizon:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 hub.zephyr:
   ttl: 1
   type: CNAME
@@ -1705,6 +1713,10 @@ skyrim:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+skyscrapper:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 slash-z:
   ttl: 1
   type: CNAME
@@ -1760,6 +1772,10 @@ stemegypt:
   - ttl: 1
     type: CNAME
     value: stemegypthc.netlify.app.
+stemsharkya:
+  - ttl: 1
+    type: CNAME
+    value: stemsharkya.netlify.app.
 stickerhuman:
   - ttl: 1
     type: CNAME
@@ -1939,6 +1955,10 @@ uqq467l64nnf3dyo6omjcjmcc3dmdqlb._domainkey:
   - ttl: 1
     type: CNAME
     value: uqq467l64nnf3dyo6omjcjmcc3dmdqlb.dkim.custom-email-domain.stripe.com.
+ur:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 url75: # SendGrid Sender Authentication (bank@hackclub.com)
   ttl: 1
   type: CNAME
@@ -2066,7 +2086,3 @@ zwp:
   - ttl: 1
     type: A
     value: 172.99.233.117
-stemsharkya:
-  - ttl: 1
-    type: CNAME
-    value: stemsharkya.netlify.app.

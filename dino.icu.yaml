@@ -91,6 +91,11 @@ emojile: # wordle with slack emojis - https://github.com/yodalightsabr/emojile
   type: CNAME
   value: yodalightsabr.github.io.
 
+gaming: # sprig gaming controller (aka Sprig+) - https://github.com/cytronicoder/sprig-gaming-controller
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
+
 geta: # yoda - https://getadinoicu.yodacode.repl.co/dino.png - get a dino from hackclub/dinosaurs api
   ttl: 1
   type: CNAME
@@ -279,7 +284,12 @@ vercel-ns:
   - ns1.vercel-dns.com.
   - ns2.vercel-dns.com.
   
-wordcalc:
+winterlings: # a site to view winter wonderland projects (contact @ZeroQL on slack for thingies)
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
+  
+wordcalc: 
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
