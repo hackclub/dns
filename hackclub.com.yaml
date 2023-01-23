@@ -1075,6 +1075,10 @@ holiday2022.cchs:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
+horizon:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 hub.zephyr:
   ttl: 1
   type: CNAME
