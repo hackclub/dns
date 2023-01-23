@@ -1199,6 +1199,15 @@ lhscc:
   - ttl: 1
     type: A
     value: 174.86.1.223
+libre:
+  - ttl: 1
+    type: NS
+    values:
+      - ns1.he.net.
+      - ns2.he.net.
+      - ns3.he.net.
+      - ns4.he.net.
+      - ns5.he.net.
 liftoff:
   - ttl: 1
     type: CNAME
