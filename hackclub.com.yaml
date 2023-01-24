@@ -1075,6 +1075,10 @@ holiday2022.cchs:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
+horizon:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 hub.zephyr:
   ttl: 1
   type: CNAME
@@ -1195,6 +1199,15 @@ lhscc:
   - ttl: 1
     type: A
     value: 174.86.1.223
+libre:
+  - ttl: 1
+    type: NS
+    values:
+      - ns1.he.net.
+      - ns2.he.net.
+      - ns3.he.net.
+      - ns4.he.net.
+      - ns5.he.net.
 liftoff:
   - ttl: 1
     type: CNAME
@@ -1697,6 +1710,10 @@ skn:
   type: CNAME
   value: solid-onion-63apxaanqedcag7x8576dhle.herokudns.com.
 skyrim:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
+skyscrapper:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
