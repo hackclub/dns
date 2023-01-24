@@ -239,7 +239,7 @@ _vercel:
     - vc-domain-verify=epochba.hackclub.com,705735e32a03c39fdd26
     - vc-domain-verify=lghs.hackclub.com,f33560bd22273ee8df77
     - vc-domain-verify=linkscape.hackclub.com,c31824abf58faa7a0160
-
+    - vc-domain-verify=morncast.hackclub.com,4f7115ab5b61c8c1ecd3
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
   type: CNAME
@@ -2073,8 +2073,3 @@ zwp:
   - ttl: 1
     type: CNAME
     value: hackathon-coral.vercel.app.
-  _vercel:
-  ttl: 1
-  type: TXT
-  values:
-    - vc-domain-verify=morncast.hackclub.com,4f7115ab5b61c8c1ecd3
