@@ -2002,7 +2002,7 @@ warsaw:
 webring:
   - ttl: 1
     type: CNAME
-    value: hackclub-webring.netlify.app.
+    value: cname.vercel-dns.com.
 webstergroves:
   - ttl: 1
     type: CNAME
