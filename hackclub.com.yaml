@@ -2065,3 +2065,7 @@ stemsharkya:
   - ttl: 1
     type: CNAME
     value: stemsharkya.netlify.app.
+upperegypt:
+  - ttl: 1
+    type: CNAME
+    value: upperegypt.hackclub.com.
