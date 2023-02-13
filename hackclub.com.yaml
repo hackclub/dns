@@ -1777,10 +1777,6 @@ streaks:
   - ttl: 1
     type: CNAME
     value: adoring-brown-d90455.netlify.app.
-SUBDOMAIN_NAME:
-  - ttl: 1
-    type: CNAME
-    value: dino.icu
 summer:
   - ttl: 1
     type: ALIAS
