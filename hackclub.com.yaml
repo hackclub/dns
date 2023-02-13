@@ -27,13 +27,9 @@
       - google-site-verification=2979FUSGCz-WxnW6EukLx_N_Ay31YOyGBnvUSbwHcXc
       - v=spf1 include:_spf.google.com include:mailgun.org include:amazonses.com include:sendgrid.net ~all
       - AA418B02F6
-      - segment-site-verification=ED0mCO5yaFBc40hEvipDG5OiON3Nemh2
       - stripe-verification=5bdd0e2475b12744bfe1f778ac419f917800d476fd498ae2682ecd161d162c64
       - 61220A24D7 # From Expensify
       - 2610E0D36E # From Expensify
-      - TAILSCALE=xJzhP4gW3Mb3W6fpcMh7 # From Tailscale
-      - v=spf1 include:_spf.google.com ~all # From Google Workspace on Bank
-      - v=spf1 include:mailgun.org ~all #from MailGun
 3blue1brown:
   ttl: 1
   type: CNAME
@@ -696,9 +692,6 @@ dinos:
   - ttl: 1
     type: CNAME
     value: orpheus-dinos.netlify.com.
-docs.haas:
-  type: A
-  value: 167.99.113.134
 dorman:
   ttl: 1
   type: ALIAS
@@ -1009,10 +1002,6 @@ gyfaieadefoity2i3m2aif6evdmlll2j._domainkey.conduct-test:
   ttl: 1
   type: CNAME
   value: gyfaieadefoity2i3m2aif6evdmlll2j.dkim.amazonses.com.
-haas:
-  ttl: 1
-  type: A
-  value: 167.99.113.134
 hackaruto:
   - ttl: 1
     type: CNAME
@@ -1075,6 +1064,10 @@ holiday2022.cchs:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
+horizon:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 hub.zephyr:
   ttl: 1
   type: CNAME
@@ -1195,6 +1188,15 @@ lhscc:
   - ttl: 1
     type: A
     value: 174.86.1.223
+libre:
+  - ttl: 1
+    type: NS
+    values:
+      - ns1.he.net.
+      - ns2.he.net.
+      - ns3.he.net.
+      - ns4.he.net.
+      - ns5.he.net.
 liftoff:
   - ttl: 1
     type: CNAME
@@ -1700,6 +1702,10 @@ skyrim:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+skyscrapper:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 slash-z:
   ttl: 1
   type: CNAME
@@ -1755,6 +1761,10 @@ stemegypt:
   - ttl: 1
     type: CNAME
     value: stemegypthc.netlify.app.
+stemsharkya:
+  - ttl: 1
+    type: CNAME
+    value: stemsharkya.netlify.app.
 stickerhuman:
   - ttl: 1
     type: CNAME
@@ -1934,6 +1944,10 @@ uqq467l64nnf3dyo6omjcjmcc3dmdqlb._domainkey:
   - ttl: 1
     type: CNAME
     value: uqq467l64nnf3dyo6omjcjmcc3dmdqlb.dkim.custom-email-domain.stripe.com.
+ur:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 url75: # SendGrid Sender Authentication (bank@hackclub.com)
   ttl: 1
   type: CNAME
@@ -1977,7 +1991,7 @@ warsaw:
 webring:
   - ttl: 1
     type: CNAME
-    value: hackclub-webring.netlify.app.
+    value: cname.vercel-dns.com.
 webstergroves:
   - ttl: 1
     type: CNAME
@@ -2061,10 +2075,10 @@ zwp:
   - ttl: 1
     type: A
     value: 172.99.233.117
-stemsharkya:
+epanomi:
   - ttl: 1
     type: CNAME
-    value: stemsharkya.netlify.app.
+    value: epanomi-hack-club.github.io.
 upperegypt:
   - ttl: 1
     type: CNAME

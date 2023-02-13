@@ -66,6 +66,11 @@ art: # by https://github.com/rajanwastaken
   type: CNAME
   value: particle-generativeart.netlify.app.
 
+channels: # an API for getting slack channels and their IDs
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
+
 channle: # by https://github.com/cjdenio
   ttl: 1
   type: CNAME
@@ -90,6 +95,11 @@ emojile: # wordle with slack emojis - https://github.com/yodalightsabr/emojile
   ttl: 1
   type: CNAME
   value: yodalightsabr.github.io.
+
+gaming: # sprig gaming controller (aka Sprig+) - https://github.com/cytronicoder/sprig-gaming-controller
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 
 geta: # yoda - https://getadinoicu.yodacode.repl.co/dino.png - get a dino from hackclub/dinosaurs api
   ttl: 1
@@ -279,7 +289,12 @@ vercel-ns:
   - ns1.vercel-dns.com.
   - ns2.vercel-dns.com.
   
-wordcalc:
+winterlings: # a site to view winter wonderland projects (contact @ZeroQL on slack for thingies)
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
+  
+wordcalc: 
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
