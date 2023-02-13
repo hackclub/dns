@@ -85,7 +85,12 @@ diafano: # cfanoulis/diafano-hackclub
   ttl: 1
   type: A
   value: 76.76.21.21
-
+  
+doruk: 
+  ttl: 1 
+  type: CNAME 
+  value: itsimpeccable.github.io. 
+  
 e: # drawing app - by https://github.com/sporeball
   ttl: 1
   type: CNAME
