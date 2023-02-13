@@ -66,6 +66,11 @@ art: # by https://github.com/rajanwastaken
   type: CNAME
   value: particle-generativeart.netlify.app.
 
+channels: # an API for getting slack channels and their IDs
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
+
 channle: # by https://github.com/cjdenio
   ttl: 1
   type: CNAME
