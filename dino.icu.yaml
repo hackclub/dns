@@ -209,6 +209,7 @@ periodic:
    ttl: 1
    type: CNAME
    value: leecheeyong.github.io. 
+
 scales: # (yet another?) currency slack bot (with some web UI) :D
   ttl: 1
   type: A
