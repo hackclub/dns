@@ -1053,10 +1053,6 @@ hin:
 hiring:
   - type: CNAME
     value: animate-pheasant-b68leqv9y7xrz13060wscb8c.herokudns.com.
-hn:
-  - ttl: 1
-    type: A
-    value: 143.244.171.58
 holiday2022.cchs:
   - ttl: 1
     type: CNAME
