@@ -153,6 +153,14 @@ _h323cs._tcp.px:
       priority: 50
       target: loke2.vp.vc.
       weight: 100
+_minecraft._tcp.mc:
+  ttl: 600
+  type: SRV
+  value:
+    port: 3722
+    priority: 12
+    target: mc.hackclub.com.
+    weight: 20
 _minecraft._tcp.beta-mc:
   ttl: 600
   type: SRV
@@ -515,8 +523,8 @@ cccs:
   type: CNAME
   value: cname.vercel-dns.com.
 cchs:
-    type: CNAME
-    value: cname.vercel-dns.com.
+  type: CNAME
+  value: cname.vercel-dns.com.
 cdn:
   type: CNAME
   value: cname.vercel-dns.com.
@@ -1008,9 +1016,9 @@ hackathons:
     type: CNAME
     value: cname.vercel-dns.com.
 hackaway:
-- ttl: 1
-  type: CNAME
-  value: starlit-cascaron-ab17de.netlify.app.
+  - ttl: 1
+    type: CNAME
+    value: starlit-cascaron-ab17de.netlify.app.
 hackbeats:
   ttl: 1
   type: CNAME
@@ -1253,7 +1261,7 @@ maxday:
 mc:
   - ttl: 1
     type: A
-    value: 45.61.162.143    
+    value: 67.219.137.202
 mccownhacks:
   - ttl: 1
     type: NS
