@@ -153,6 +153,14 @@ _h323cs._tcp.px:
       priority: 50
       target: loke2.vp.vc.
       weight: 100
+_minecraft._tcp.mc:
+  ttl: 600
+  type: SRV
+  value:
+    port: 3722
+    priority: 12
+    target: mc.hackclub.com.
+    weight: 20
 _minecraft._tcp.beta-mc:
   ttl: 600
   type: SRV
@@ -1253,7 +1261,7 @@ maxday:
 mc:
   - ttl: 1
     type: A
-    value: 45.61.162.143    
+    value: hebra.365hosts.network   
 mccownhacks:
   - ttl: 1
     type: NS
