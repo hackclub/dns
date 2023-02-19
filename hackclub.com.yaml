@@ -523,8 +523,8 @@ cccs:
   type: CNAME
   value: cname.vercel-dns.com.
 cchs:
-    type: CNAME
-    value: cname.vercel-dns.com.
+  type: CNAME
+  value: cname.vercel-dns.com.
 cdn:
   type: CNAME
   value: cname.vercel-dns.com.
@@ -1016,9 +1016,9 @@ hackathons:
     type: CNAME
     value: cname.vercel-dns.com.
 hackaway:
-- ttl: 1
-  type: CNAME
-  value: starlit-cascaron-ab17de.netlify.app.
+  - ttl: 1
+    type: CNAME
+    value: starlit-cascaron-ab17de.netlify.app.
 hackbeats:
   ttl: 1
   type: CNAME
@@ -1261,7 +1261,7 @@ maxday:
 mc:
   - ttl: 1
     type: A
-    value: hebra.365hosts.network   
+    value: 67.219.137.202
 mccownhacks:
   - ttl: 1
     type: NS
