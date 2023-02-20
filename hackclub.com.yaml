@@ -1913,6 +1913,10 @@ tracking:
   ttl: 1
   type: CNAME
   value: shiprocket.co.
+transcript-docs:
+  - ttl: 1
+    type: CNAME
+    value: hackclub.github.io
 turner:
   - ttl: 1
     type: CNAME
