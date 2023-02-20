@@ -1916,7 +1916,7 @@ tracking:
 transcript-docs:
   - ttl: 1
     type: CNAME
-    value: hackclub.github.io
+    value: hackclub.github.io.
 turner:
   - ttl: 1
     type: CNAME
