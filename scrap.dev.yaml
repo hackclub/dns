@@ -1,5 +1,5 @@
 "":
-  type: CNAME
+  type: ALIAS
   value: proxyparty.hackclub.com.
 "*":
   type: CNAME
