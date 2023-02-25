@@ -25,7 +25,7 @@
 ---
 '': # the bare domain
 - type: ALIAS
-  value: cname.vercel-dns.com.
+  value: proxyparty.hackclub.com.
 - ttl: 1
   type: MX
   values:
