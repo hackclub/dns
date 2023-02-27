@@ -161,21 +161,13 @@ _minecraft._tcp.mc:
     priority: 12
     target: mc.hackclub.com.
     weight: 20
-_minecraft._tcp.beta-mc:
+_minecraft._tcp:
   ttl: 600
   type: SRV
   value:
-    port: 25567
+    port: 3722
     priority: 12
-    target: beta-mc.hackclub.com.
-    weight: 20
-_minecraft._tcp.modded-mc:
-  ttl: 600
-  type: SRV
-  value:
-    port: 25566
-    priority: 12
-    target: modded-mc.hackclub.com.
+    target: mc.hackclub.com.
     weight: 20
 _now:
   ttl: 1
@@ -419,10 +411,6 @@ berkley:
   - ttl: 1
     type: CNAME
     value: ce68625a-92ad-439c-823d-7dc4bab9c62f.repl.co.
-beta-mc:
-  - ttl: 1
-    type: A
-    value: 45.61.162.143
 bewacky:
   - ttl: 1
     type: TXT
@@ -1303,10 +1291,6 @@ miracosta:
   ttl: 1
   type: CNAME
   value: miracosta.netlify.app.
-modded-mc:
-  - ttl: 1
-    type: A
-    value: 45.61.162.143
 moonbeam:
   - ttl: 1
     type: CNAME
