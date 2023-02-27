@@ -4155,4 +4155,4 @@ epanomi:
 CodetheTech:
   - ttl: 1
     type: CNAME
-    value: CodetheTech.vercel.app
+    value: CodetheTech.hackclub.com
