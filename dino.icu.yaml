@@ -100,6 +100,11 @@ emojile: # wordle with slack emojis - https://github.com/yodalightsabr/emojile
   ttl: 1
   type: CNAME
   value: yodalightsabr.github.io.
+  
+gaurav: # gaurav website
+  ttl: 1
+  type: CNAME
+  value: yednapg.vercel.app.
 
 gaming: # sprig gaming controller (aka Sprig+) - https://github.com/cytronicoder/sprig-gaming-controller
   ttl: 1
