@@ -697,6 +697,13 @@ drive:
   ttl: 1
   type: CNAME
   value: ghs.googlehosted.com.
+  dsc:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
+- ttl: 1
+  type: TXT
+  value: vc-domain-verify=dsc.hackclub.com,151b54b3f4af4d093d8d.   
 dseu:
   - ttl: 1
     type: CNAME
@@ -2063,11 +2070,4 @@ zwp:
 epanomi:
   - ttl: 1
     type: CNAME
-    value: epanomi-hack-club.github.io.
-dsc:
-  - ttl: 1
-    type: CNAME
-    value: cname.vercel-dns.com.
-  - ttl: 1
-    type: TXT
-    value: vc-domain-verify=dsc.hackclub.com,151b54b3f4af4d093d8d.    
+    value: epanomi-hack-club.github.io. 
