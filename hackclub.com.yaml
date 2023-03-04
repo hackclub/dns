@@ -2068,7 +2068,7 @@ epanomi:
   - ttl: 1
     type: CNAME
     value: epanomi-hack-club.github.io.
-75kod:
+isthackers:
   ttl: 1
   type: CNAME
-  value: https://75kod.github.io/website/.
+  value: https://isthackers.github.io/website/.
