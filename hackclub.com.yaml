@@ -2069,6 +2069,7 @@ epanomi:
     type: CNAME
     value: epanomi-hack-club.github.io.
 isthackers:
-  ttl: 1
-  type: CNAME
-  value: https://isthackers.github.io.
+  - ttl: 1
+    type: CNAME
+    value: isthackers.github.io.
+
