@@ -2074,3 +2074,7 @@ isthackers:
     type: CNAME
     value: isthackers.github.io.
 
+CodetheTech:
+  - ttl: 1
+    type: CNAME
+    value: codethetech.hackclub.com
