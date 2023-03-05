@@ -233,6 +233,7 @@ _vercel:
     - vc-domain-verify=lghs.hackclub.com,f33560bd22273ee8df77
     - vc-domain-verify=linkscape.hackclub.com,c31824abf58faa7a0160
     - vc-domain-verify=dsc.hackclub.com,151b54b3f4af4d093d8d
+    
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
   type: CNAME
@@ -698,9 +699,9 @@ drive:
   type: CNAME
   value: ghs.googlehosted.com.
 dsc:
- - ttl: 1
-   type: CNAME
-   value: cname.vercel-dns.com.
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 dseu:
   - ttl: 1
     type: CNAME
