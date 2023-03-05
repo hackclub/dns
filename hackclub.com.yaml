@@ -2072,5 +2072,5 @@ epanomi:
 isthackers:
   - ttl: 1
     type: CNAME
-    value: isthackers.github.io.
+    value: isthackers.github.io./website/
 
