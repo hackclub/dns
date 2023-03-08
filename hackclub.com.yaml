@@ -339,7 +339,7 @@ asiasummit:
 asiet:
   - ttl: 1
     type: CNAME
-    value: https://kkharidev.github.io/hc_ASIET
+    value: https://kkharidev.github.io/hc_ASIET.
 assemble:
   - ttl: 1
     type: CNAME
