@@ -2074,8 +2074,8 @@ isthackers:
     type: CNAME
     value: isthackers.github.io.
 
-_vercel:
+CodetheTech:
   ttl: 1
-  type: TXT
-  values:
-    - vc-domain-verify=codethetech.hackclub.com,64d83fc53a66660ef961
+  type: CNAME
+  values: CodetheTech.github.io
+    
