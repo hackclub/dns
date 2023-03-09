@@ -2075,7 +2075,7 @@ isthackers:
     type: CNAME
     value: isthackers.github.io.
     
-HackTKS:
+hacktks:
   - ttl : 1
     type: CNAME 
     value: cname.vercel-dns.com.
