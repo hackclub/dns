@@ -337,6 +337,10 @@ asiasummit:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
+asiet:
+  - ttl: 1
+    type: CNAME
+    value: kkharidev.github.io.
 assemble:
   - ttl: 1
     type: CNAME
