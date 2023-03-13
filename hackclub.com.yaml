@@ -2087,5 +2087,5 @@ hacktks:
 codethetech:
   ttl: 1
   type: CNAME
-  values: CodetheTech.github.io
+  values: codethetech.github.io
     
