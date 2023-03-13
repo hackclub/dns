@@ -2080,7 +2080,7 @@ hacktks:
     type: CNAME 
     value: cname.vercel-dns.com.
 
-CodetheTech:
+codethetech:
   ttl: 1
   type: CNAME
   values: CodetheTech.github.io
