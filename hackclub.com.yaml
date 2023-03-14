@@ -1807,10 +1807,6 @@ tbp:
       - ns1.digitalocean.com.
       - ns2.digitalocean.com.
       - ns3.digitalocean.com.
-techbrewers:
-  - ttl: 1
-    type: CNAME
-    value: hack-club-techbrewers.github.io.
 testing.mail:
   - ttl: 1
     type: MX
