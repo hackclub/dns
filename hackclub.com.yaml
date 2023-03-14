@@ -643,7 +643,7 @@ cvhs:
 codethetech:
   - ttl: 1
     type: CNAME
-    value: codethetech.github.io
+    value: codethetech.github.io.
 ddze3tkuawtlnbviwym44yhrjczhqzxw._domainkey:
   ttl: 1
   type: CNAME
