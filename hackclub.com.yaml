@@ -1248,6 +1248,10 @@ mc:
   - ttl: 1
     type: A
     value: 194.140.199.132
+map.mc:
+  - ttl: 1
+    type: A
+    value: 194.140.199.132
 mc-admin:
   - ttl: 1
     type: A
