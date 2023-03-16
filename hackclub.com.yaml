@@ -153,22 +153,6 @@ _h323cs._tcp.px:
       priority: 50
       target: loke2.vp.vc.
       weight: 100
-_minecraft._tcp.mc:
-  ttl: 600
-  type: SRV
-  value:
-    port: 3722
-    priority: 12
-    target: mc.hackclub.com.
-    weight: 20
-_minecraft._tcp:
-  ttl: 600
-  type: SRV
-  value:
-    port: 3722
-    priority: 12
-    target: mc.hackclub.com.
-    weight: 20
 _now:
   ttl: 1
   type: TXT
@@ -1263,7 +1247,7 @@ maxday:
 mc:
   - ttl: 1
     type: A
-    value: 67.219.137.202
+    value: 194.140.199.132
 mc-admin:
   - ttl: 1
     type: A
