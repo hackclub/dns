@@ -169,21 +169,21 @@ _minecraft._tcp.modded.mc:
     priority: 10
     target: mc-vps.hackclub.com.
     weight: 10
-_minecraft._tcp.mc: # TO MIGRATE, default to vanilla
+_minecraft._tcp.mc:
   ttl: 1
   type: SRV
   value:
-    port: 3722
+    port: 25566
     priority: 10
-    target: hebra.365hosts.network.
+    target: mc-vps.hackclub.com.
     weight: 10
-_minecraft._tcp: # TO MIGRATE, default to vanilla
+_minecraft._tcp:
   ttl: 1
   type: SRV
   value:
-    port: 3722
+    port: 25566
     priority: 10
-    target: hebra.365hosts.network.
+    target: mc-vps.hackclub.com.
     weight: 10
 _now:
   ttl: 1
@@ -1276,10 +1276,10 @@ mason:
 maxday:
   type: CNAME
   value: maxday-prod.netlify.com.
-mc: # TO MIGRATE
+mc:
   - ttl: 1
     type: CNAME
-    value: hebra.365hosts.network.
+    value: mc-vps.hackclub.com.
 mc-admin:
   - ttl: 1
     type: CNAME
