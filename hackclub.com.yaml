@@ -1264,6 +1264,10 @@ mc:
   - ttl: 1
     type: A
     value: 67.219.137.202
+mc-admin:
+  - ttl: 1
+    type: A
+    value: 194.140.199.132
 mccownhacks:
   - ttl: 1
     type: NS
