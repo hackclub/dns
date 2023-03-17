@@ -1294,11 +1294,11 @@ mc-admin:
     value: mc-vps.hackclub.com.
 mc-vps:
   - ttl: 1
-    type: CNAME
-    value: ipv6.mc-vps.hackclub.com.
+    type: A
+    value: 194.140.199.132
   - ttl: 1
-    type: CNAME
-    value: ipv4.mc-vps.hackclub.com.
+    type: AAAA
+    value: 2605:a143:2124:1775::1
 
 mccownhacks:
   - ttl: 1
