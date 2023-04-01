@@ -1392,6 +1392,10 @@ new:
   ttl: 1
   type: CNAME
   value: hackclub.netlify.com.
+newcanaan:
+  ttl: 1
+  type: CNAME
+  value: gleaming-kangaroo-130259.netlify.app.
 nigeria:
   ttl: 1
   type: CNAME
