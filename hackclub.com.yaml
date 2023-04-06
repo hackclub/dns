@@ -1729,6 +1729,10 @@ sign:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+sinerider-scoring:
+  ttl: 1
+  type: A
+  value: 159.89.212.59
 singgasana:
   ttl: 1
   type: CNAME
