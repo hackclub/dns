@@ -1497,6 +1497,10 @@ pl:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+place:
+  ttl: 1
+  type: CNAME
+  value: systematic-garbanzo-7l3zegq9l365xl9w038589cv.herokudns.com
 plis:
   ttl: 1
   type: CNAME
