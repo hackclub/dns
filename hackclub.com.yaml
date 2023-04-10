@@ -1506,9 +1506,27 @@ plis:
   type: CNAME
   value: plis-hackclub.netlify.app.
 podcast:
-  ttl: 1
+  - ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+- ttl: 3600
+  type: TXT
+  values: 
+  - google-site-verification=qA3aMUHA0TlUHLAITzYM7-qVal8iUnvramYq2msLc8U
+- ttl: 3600
+type: MX
+   values:
+      - exchange: aspmx.l.google.com.
+        preference: 1
+      - exchange: alt1.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt2.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt3.aspmx.l.google.com.
+        preference: 10
+      - exchange: alt4.aspmx.l.google.com.
+        preference: 10
+
 pomperaug:
   ttl: 1
   type: CNAME
