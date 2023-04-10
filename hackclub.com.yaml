@@ -1,4 +1,8 @@
 ---
+SUBDOMAIN_NAME: bhs.hackclub.com
+  - ttl: 1
+    type: CNAME
+    value: SOURCE_DOMAIN_OR_IP.
 "":
   - type: ALIAS
     value: cname.vercel-dns.com.
