@@ -1805,7 +1805,7 @@ statehigh:
 status:
   - ttl: 1
     type: CNAME
-    value: checkly-dashboards.com.
+    value: dashboards.checklyhq.com.
 status.haas:
   type: A
   value: 34.138.52.92
