@@ -133,7 +133,7 @@ kevin: # Kevin Yang
   
  doruk:
  - type: TXT
-   value: apple-domain=rkbobCmChEtkhbTS
+   value: apple-domain=rkbobCmChEtkhbTS.
    
 kunal: # kunal
   ttl: 1
