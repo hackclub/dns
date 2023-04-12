@@ -89,7 +89,7 @@ diafano: # cfanoulis/diafano-hackclub
 doruk: 
   ttl: 1 
   type: CNAME 
-  value: itsimpeccable.github.io. 
+  value: itsimpeccable.github.io.
   
 e: # drawing app - by https://github.com/sporeball
   ttl: 1
@@ -130,7 +130,11 @@ kevin: # Kevin Yang
   ttl: 1
   type: CNAME
   value: bykevinyang.netlify.app.
-
+  
+ doruk:
+ - type: TXT
+   value: apple-domain=rkbobCmChEtkhbTS
+   
 kunal: # kunal
   ttl: 1
   type: NS
