@@ -1514,7 +1514,7 @@ podcast:
   values: 
   - google-site-verification=qA3aMUHA0TlUHLAITzYM7-qVal8iUnvramYq2msLc8U
 - ttl: 3600
-type: MX
+  type: MX
    values:
       - exchange: aspmx.l.google.com.
         preference: 1
