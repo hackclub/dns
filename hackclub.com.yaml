@@ -1500,8 +1500,8 @@ pl:
   value: cname.vercel-dns.com.
 place:
   ttl: 1
-  type: CNAME
-  value: corrugated-deer-fmxgx30isrkokqzbshccyp78.herokudns.com.
+  type: A
+  value: "96.126.108.99"
 plis:
   ttl: 1
   type: CNAME
