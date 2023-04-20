@@ -306,8 +306,8 @@ amity:
     value: b7b5adc9.hackclub.pages.dev.
 angelhacks:
   - ttl: 1
-    type: TXT
-    value: google-site-verification=jODBtWCefkuf-gCL8X4sbJB9bPb2Zo1T41LlxPyaxRk
+    type: CNAME
+    value: cname.vercel-dns.com.
 anti:
   type: CNAME
   value: anti-hack.netlify.com.
