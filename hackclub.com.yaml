@@ -308,6 +308,9 @@ angelhacks:
   - ttl: 1
     type: TXT
     value: google-site-verification=jODBtWCefkuf-gCL8X4sbJB9bPb2Zo1T41LlxPyaxRk
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 anti:
   type: CNAME
   value: anti-hack.netlify.com.
