@@ -69,6 +69,10 @@ Map:
   - ttl: 1
     type: CNAME
     value: hackclub.github.io.
+44.74:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 _496c10c564509e5030203691afc939ff.assets:
   - ttl: 1
     type: CNAME
