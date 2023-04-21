@@ -69,6 +69,10 @@ Map:
   - ttl: 1
     type: CNAME
     value: hackclub.github.io.
+44.74:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 _496c10c564509e5030203691afc939ff.assets:
   - ttl: 1
     type: CNAME
@@ -296,6 +300,10 @@ alumni:
   - ttl: 1
     type: CNAME
     value: fundamental-carnotaurus-kk57ymxq2b4c594aeycak3sn.herokudns.com.
+angelhacks:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 ama-machine:
   - ttl: 1
     type: CNAME
@@ -304,10 +312,6 @@ amity:
   - ttl: 1
     type: CNAME
     value: b7b5adc9.hackclub.pages.dev.
-angelhacks:
-  - ttl: 1
-    type: TXT
-    value: google-site-verification=jODBtWCefkuf-gCL8X4sbJB9bPb2Zo1T41LlxPyaxRk
 anti:
   type: CNAME
   value: anti-hack.netlify.com.
@@ -2127,6 +2131,10 @@ zwp:
   - ttl: 1
     type: A
     value: 172.99.233.117
+angelhacks-toronto: 
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 epanomi:
   - ttl: 1
     type: CNAME
@@ -2140,6 +2148,7 @@ hacktks:
   - ttl : 1
     type: CNAME 
     value: cname.vercel-dns.com.
+    
 epanomi:
   - type: TXT
     value: protonmail-verification=8ab28e976e0144dcaf43da3668d00393017dc702.
