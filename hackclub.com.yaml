@@ -250,6 +250,7 @@ _vercel:
     - vc-domain-verify=linkscape.hackclub.com,c31824abf58faa7a0160
     - vc-domain-verify=dsc.hackclub.com,151b54b3f4af4d093d8d
     - vc-domain-verify=hacktks.hackclub.com,2b83e058127863ee2d1d
+    - vc-domain-verify=status.hackclub.com,40b1b3248e4b63e61f56
     
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
@@ -295,6 +296,10 @@ alumni:
   - ttl: 1
     type: CNAME
     value: fundamental-carnotaurus-kk57ymxq2b4c594aeycak3sn.herokudns.com.
+angelhacks:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 ama-machine:
   - ttl: 1
     type: CNAME
@@ -303,10 +308,6 @@ amity:
   - ttl: 1
     type: CNAME
     value: b7b5adc9.hackclub.pages.dev.
-angelhacks:
-  - ttl: 1
-    type: TXT
-    value: google-site-verification=jODBtWCefkuf-gCL8X4sbJB9bPb2Zo1T41LlxPyaxRk
 anti:
   type: CNAME
   value: anti-hack.netlify.com.
@@ -1499,8 +1500,8 @@ pl:
   value: cname.vercel-dns.com.
 place:
   ttl: 1
-  type: CNAME
-  value: corrugated-deer-fmxgx30isrkokqzbshccyp78.herokudns.com.
+  type: A
+  value: "96.126.108.99"
 plis:
   ttl: 1
   type: CNAME
