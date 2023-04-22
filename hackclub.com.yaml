@@ -1894,6 +1894,10 @@ tfss:
         preference: 10
       - exchange: mx2.improvmx.com.
         preference: 20
+thai:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 theme:
   - ttl: 1
     type: CNAME
