@@ -312,6 +312,10 @@ angelhacks-yyz:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
+www.angelhacksto:
+    ttl: 2
+    type: CNAME
+    value: cname.vercel-dns.com.
 ama-machine:
   - ttl: 1
     type: CNAME
