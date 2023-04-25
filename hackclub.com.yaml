@@ -309,7 +309,7 @@ angelhacksto:
     type: CNAME
     value: cname.vercel-dns.com
 www.angelhacksto:
-  - ttl: 2
+    ttl: 2
     type: CNAME
     value: cname.vercel-dns.com.
 angelhacks-yyz:
