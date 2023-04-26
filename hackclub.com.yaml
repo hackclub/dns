@@ -1530,6 +1530,10 @@ pomperaug:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+poolesville:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 portal.ctf:
   ttl: 1
   type: A
