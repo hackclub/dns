@@ -1604,10 +1604,6 @@ q6vh4lhupwotqenjf4s4ygzyhir3e5ii._domainkey.epochvt:
   ttl: 1
   type: CNAME
   value: q6vh4lhupwotqenjf4s4ygzyhir3e5ii.dkim.amazonses.com.
-r1ke:
-  - ttl: 1
-    type: CNAME
-    value: notr1ke.github.io.
 rahs:
   - ttl: 1
     type: CNAME
