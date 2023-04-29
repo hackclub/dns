@@ -304,6 +304,18 @@ angelhacks:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
+angelhacksto:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
+angelhacks-yyz:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
+angelhacksba:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 ama-machine:
   - ttl: 1
     type: CNAME
@@ -1592,10 +1604,6 @@ q6vh4lhupwotqenjf4s4ygzyhir3e5ii._domainkey.epochvt:
   ttl: 1
   type: CNAME
   value: q6vh4lhupwotqenjf4s4ygzyhir3e5ii.dkim.amazonses.com.
-r1ke:
-  - ttl: 1
-    type: CNAME
-    value: notr1ke.github.io.
 rahs:
   - ttl: 1
     type: CNAME
@@ -1894,6 +1902,10 @@ tfss:
         preference: 10
       - exchange: mx2.improvmx.com.
         preference: 20
+thai:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 theme:
   - ttl: 1
     type: CNAME
