@@ -1980,6 +1980,10 @@ turner:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
+turnover:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com. 
 teenhack:
   - ttl: 1
     type: CNAME
