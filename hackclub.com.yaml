@@ -255,6 +255,7 @@ _vercel:
     - vc-domain-verify=dsc.hackclub.com,151b54b3f4af4d093d8d
     - vc-domain-verify=hacktks.hackclub.com,2b83e058127863ee2d1d
     - vc-domain-verify=status.hackclub.com,40b1b3248e4b63e61f56
+    - vc-domain-verify=codecafe.hackclub.com,7626bb39bfb56e9ea791
     
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
