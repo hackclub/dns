@@ -36,6 +36,9 @@ epoch:
 grant:
   type: CNAME
   value: boiling-honeydew-mht7oh0h9dhkm6w06xuitk1w.herokudns.com.
+horizon:
+  type: A
+  value: 34.138.52.92
 mail:
   type: A
   value: 165.227.96.87

@@ -70,3 +70,13 @@ zones:
       - config
     targets:
       - dnsimple
+  scrap.dev.:
+    sources:
+      - config
+    targets:
+      - dnsimple
+  scrapbook.dev.:
+    sources:
+      - config
+    targets:
+      - dnsimple
