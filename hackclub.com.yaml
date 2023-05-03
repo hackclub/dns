@@ -2174,3 +2174,8 @@ codecafe:
 - ttl: 1
   type: CNAME 
   value: cname.vercel-dns.com.
+  
+ cttevents:
+  - ttl: 1
+    type: CNAME
+    value: cttevents.github.io.
