@@ -2170,6 +2170,10 @@ hacktks:
     type: CNAME 
     value: cname.vercel-dns.com.
 
+epanomi:
+  - type: TXT
+    value: protonmail-verification=8ab28e976e0144dcaf43da3668d00393017dc702.\
+
 codecafe:
 - ttl: 1
   type: CNAME 
