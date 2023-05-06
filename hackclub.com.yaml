@@ -1087,6 +1087,9 @@ hacktheoctober:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+haxidraw:
+  type: CNAME
+  value: hackclub.github.io.
 hear:
   type: CNAME
   value: cname.vercel-dns.com.
