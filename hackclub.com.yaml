@@ -1754,6 +1754,10 @@ sign:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+sinerider-api:
+  ttl: 1
+  type: CNAME
+  value: cryptic-tomato-5n1dz55o84lxbrq373a976bu.herokudns.com.
 sinerider-scoring:
   ttl: 1
   type: A
