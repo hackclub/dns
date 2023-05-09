@@ -61,6 +61,11 @@ IAW:
   - ttl: 1
     type: CNAME
     value: iawhackclub.netlify.com.
+Directory:
+  - ttl: 1
+  type: TXT
+  values:
+    - vc-domain-verify=directory.hackclub.com,0a9f7c5764c6f89d642b
 MaggieWalker:
   - ttl: 1
     type: CNAME
