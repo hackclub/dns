@@ -736,8 +736,8 @@ dinos:
     value: orpheus-dinos.netlify.com.
 directory:
   - ttl: 1
-  type: CNAME
-  value: cname.vercel-dns.com.
+    type: CNAME
+    value: cname.vercel-dns.com.
 dorman:
   ttl: 1
   type: ALIAS
