@@ -110,7 +110,7 @@ _amazonses.eomail:
   ttl: 1
   type: TXT
   value: zvhU+nmwbPu8akoL5EfwI/w1nXiQLhs/3XiBG4HcCDc=
-_atproto.hackclub.com:
+_atproto:
   ttl: 1
   type: TXT
   value: did=did:plc:5rvcaxx64aqyguao6dbuscbz
