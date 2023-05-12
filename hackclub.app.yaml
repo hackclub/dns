@@ -1,10 +1,14 @@
 ---
 "":
   - type: A
-    value: 167.99.113.134
+    value: 188.40.159.192
+  - type: AAAA
+    value: 2a01:4f8:120:144a::192
 "*":
   - type: A
-    value: 167.99.113.134
+    value: 188.40.159.192
+ - type: AAAA
+    value: 2a01:4f8:120:144a::192
 _github-challenge-hack-as-a-service:
   type: TXT
   value: 4b821e52c1
@@ -17,6 +21,11 @@ s1._domainkey:
 s2._domainkey:
   type: CNAME
   value: s2.domainkey.u17325777.wl028.sendgrid.net.
+proxmox:
+  - type: A
+    value: 78.46.86.74
+  - type: AAAA
+    value: 2a01:4f8:120:144a::2
 
 status:
   type: A
