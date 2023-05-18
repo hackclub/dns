@@ -518,20 +518,14 @@ byteclub:
     value: cname.vercel-dns.com.
 
 birthdays:
-  - ttl: 1
-    type: CNAME
-    value: cname.vercel-dns.com.
-  - ttl: 1
-    type: TXT
-    value: vc-domain-verify=birthdays.hackclub.com,7ca55aea82d546d470e1.
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 
 birthday:
-  - ttl: 1
-    type: CNAME
-    value: cname.vercel-dns.com.
-  - ttl: 1
-    type: TXT
-    value: vc-domain-verify=birthday.hackclub.com,b54f1e09bf276faffd29.
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 
 calendar:
   ttl: 1
