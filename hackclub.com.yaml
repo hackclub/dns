@@ -806,8 +806,8 @@ eomail:
   value: custom.eomail2.com.
 epoch:
   - ttl: 1
-    type: CNAME
-    value: cname.vercel-dns.com.
+    type: A
+    value: 76.76.21.21
   - ttl: 3600
     type: TXT
     values:
@@ -830,8 +830,8 @@ epoch:
         preference: 10
 epochba:
   - ttl: 1
-    type: CNAME
-    value: cname.vercel-dns.com.
+    type: A
+    value: 76.76.21.21
   - ttl: 3600
     type: TXT
     values:
@@ -854,8 +854,8 @@ epochba:
         preference: 10
 epochvt:
   - ttl: 1
-    type: CNAME
-    value: cname.vercel-dns.com.
+    type: A
+    value: 76.76.21.21
   - ttl: 3600
     type: TXT
     values:
@@ -914,8 +914,8 @@ flagship:
   value: cname.vercel-dns.com.
 flhs:
   - ttl: 1
-    type: CNAME
-    value: 15a3885d-947d-470c-909d-3a2b358f9662.repl.co.
+    type: A
+    value: "34.149.204.188"
   - ttl: 3600
     type: TXT
     values:
@@ -1489,8 +1489,8 @@ philanthropy:
   value: cname.vercel-dns.com.
 phs:
   - ttl: 1
-    type: CNAME
-    value: cname.vercel-dns.com.
+    type: A
+    value: 76.76.21.21
   - ttl: 1
     type: MX
     values:
@@ -1587,8 +1587,8 @@ psn:
     value: psnhackclub.netlify.app.
 puyallup:
   - ttl: 1
-    type: CNAME
-    value: cname.vercel-dns.com.
+    type: A
+    value: 76.76.21.21
   - ttl: 1
     type: MX
     values:
@@ -1854,8 +1854,8 @@ streaks:
     value: adoring-brown-d90455.netlify.app.
 summer:
   - ttl: 1
-    type: CNAME
-    value: cname.vercel-dns.com.
+    type: A
+    value: 76.76.21.21
   - ttl: 1
     type: TXT
     values:
@@ -1900,8 +1900,8 @@ testing.mail:
     value: v=spf1 include:mailgun.org ~all
 tfss:
   - ttl: 1
-    type: CNAME
-    value: cname.vercel-dns.com.
+    type: A
+    value: 76.76.21.21
   - ttl: 1
     type: TXT
     values:
@@ -2164,8 +2164,12 @@ angelhacks-toronto:
   value: cname.vercel-dns.com.
 epanomi:
   - ttl: 1
-    type: CNAME
-    value: epanomi-hack-club.github.io.
+    type: A
+    values:
+      - "185.199.108.153"
+      - "185.199.109.153"
+      - "185.199.110.153"
+      - "185.199.111.153"
   - type: TXT
     value: protonmail-verification=8ab28e976e0144dcaf43da3668d00393017dc702.\
     
