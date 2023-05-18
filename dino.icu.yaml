@@ -184,8 +184,8 @@ orpheus: # prophet orpheus's page (when making your page enter your github usern
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 parker: # parker.dino.icu; reserved by hack club bank
-- type: A
-  value: 76.76.21.21
+- type: ALIAS
+  value: cname.vercel-dns.com.
 - ttl: 1
   type: MX
   values:
@@ -226,8 +226,8 @@ short: # short.dino.icu; by kunal botla (.com)
   value: cname.vercel-dns.com.
 
 spider: # spider.dino.icu; reserved by hack club bank
-- type: A
-  value: 76.76.21.21
+- type: ALIAS
+  value: cname.vercel-dns.com.
 - ttl: 1
   type: MX
   values:
@@ -249,7 +249,7 @@ spider: # spider.dino.icu; reserved by hack club bank
 
 social:
   ttl: 1
-  type: CNAME
+  type: ALIAS
   value: lithium.devcara.com.
   
 stickers: # by https://github.com/lem6ns
@@ -274,7 +274,7 @@ tejas: # by tej
 
 vercel:
 - ttl: 1
-  type: CNAME
+  type: ALIAS
   value: cname.vercel-dns.com.
 
 vercel-a:
@@ -284,7 +284,7 @@ vercel-a:
 
 vercel-alias:
   ttl: 1
-  type: CNAME
+  type: ALIAS
   value: cname.vercel-dns.com.
   
 vercel-cname:
@@ -316,7 +316,7 @@ www: # redirect to bare domain
 
 xn--c1h:
 - ttl: 1
-  type: CNAME
+  type: ALIAS
   value: cname.vercel-dns.com.
 
 xn--ct9h:

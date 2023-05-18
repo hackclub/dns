@@ -27,7 +27,7 @@ That's it! Someone with contributor access to the repo will then review your PR.
 
 `hackclub.xxx` subdomains are only available for all clubs and projects related to Hack Club.
 
-When adding a site hosted on Vercel, you will need to verifiy the domain by adding a TXT record.
+When adding a site hosted on ▲ Vercel, you will need to verifiy the domain by adding a TXT record.
 
 <img width="787" alt="image" src="https://user-images.githubusercontent.com/63619830/171483050-68d3123b-3b16-4293-b7f1-f5259f6d039b.png">
 

@@ -5,12 +5,9 @@ providers:
     directory: ./
     enforce_order: False
   dnsimple:
-    class: octodns_dnsimple.DnsimpleProvider
+    class: octodns.provider.dnsimple.DnsimpleProvider
     token: env/DNSIMPLE_API_KEY
     account: env/DNSIMPLE_ACCOUNT_NUMBER
-  cloudflare:
-    class: octodns_cloudflare.CloudflareProvider
-    token: env/CLOUDFLARE_TOKEN
 
 zones:
   hackclub.com.:
@@ -83,8 +80,3 @@ zones:
       - config
     targets:
       - dnsimple
-  hcb.gg.:
-    sources:
-      - config
-    targets:
-      - cloudflare

@@ -1,3 +1,0 @@
-octodns==0.9.21
-octodns-cloudflare==0.0.2
-octodns-dnsimple==0.0.1

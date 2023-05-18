@@ -61,6 +61,10 @@ IAW:
   - ttl: 1
     type: CNAME
     value: iawhackclub.netlify.com.
+MaggieWalker:
+  - ttl: 1
+    type: CNAME
+    value: Home.
 Map:
   - ttl: 1
     type: CNAME
@@ -518,14 +522,20 @@ byteclub:
     value: cname.vercel-dns.com.
 
 birthdays:
-  ttl: 1
-  type: CNAME
-  value: cname.vercel-dns.com.
+  - ttl: 1
+    type: ALIAS
+    value: cname.vercel-dns.com.
+  - ttl: 1
+    type: TXT
+    value: vc-domain-verify=birthdays.hackclub.com,7ca55aea82d546d470e1.
 
 birthday:
-  ttl: 1
-  type: CNAME
-  value: cname.vercel-dns.com.
+  - ttl: 1
+    type: ALIAS
+    value: cname.vercel-dns.com.
+  - ttl: 1
+    type: TXT
+    value: vc-domain-verify=birthday.hackclub.com,b54f1e09bf276faffd29.
 
 calendar:
   ttl: 1
@@ -734,7 +744,7 @@ directory:
     value: cname.vercel-dns.com.
 dorman:
   ttl: 1
-  type: CNAME
+  type: ALIAS
   value: cname.vercel-dns.com.
 draw-dino:
   ttl: 1
@@ -806,8 +816,8 @@ eomail:
   value: custom.eomail2.com.
 epoch:
   - ttl: 1
-    type: A
-    value: 76.76.21.21
+    type: ALIAS
+    value: cname.vercel-dns.com.
   - ttl: 3600
     type: TXT
     values:
@@ -830,8 +840,8 @@ epoch:
         preference: 10
 epochba:
   - ttl: 1
-    type: A
-    value: 76.76.21.21
+    type: ALIAS
+    value: cname.vercel-dns.com.
   - ttl: 3600
     type: TXT
     values:
@@ -854,8 +864,8 @@ epochba:
         preference: 10
 epochvt:
   - ttl: 1
-    type: A
-    value: 76.76.21.21
+    type: ALIAS
+    value: cname.vercel-dns.com.
   - ttl: 3600
     type: TXT
     values:
@@ -914,8 +924,8 @@ flagship:
   value: cname.vercel-dns.com.
 flhs:
   - ttl: 1
-    type: A
-    value: "34.149.204.188"
+    type: ALIAS
+    value: 15a3885d-947d-470c-909d-3a2b358f9662.repl.co.
   - ttl: 3600
     type: TXT
     values:
@@ -1392,6 +1402,10 @@ ms:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
+mw:
+  - ttl: 1
+    type: CNAME
+    value: Home.
 mx._domainkey:
   ttl: 1
   type: TXT
@@ -1489,8 +1503,8 @@ philanthropy:
   value: cname.vercel-dns.com.
 phs:
   - ttl: 1
-    type: A
-    value: 76.76.21.21
+    type: ALIAS
+    value: cname.vercel-dns.com.
   - ttl: 1
     type: MX
     values:
@@ -1587,8 +1601,8 @@ psn:
     value: psnhackclub.netlify.app.
 puyallup:
   - ttl: 1
-    type: A
-    value: 76.76.21.21
+    type: ALIAS
+    value: cname.vercel-dns.com.
   - ttl: 1
     type: MX
     values:
@@ -1854,8 +1868,8 @@ streaks:
     value: adoring-brown-d90455.netlify.app.
 summer:
   - ttl: 1
-    type: A
-    value: 76.76.21.21
+    type: ALIAS
+    value: cname.vercel-dns.com.
   - ttl: 1
     type: TXT
     values:
@@ -1900,8 +1914,8 @@ testing.mail:
     value: v=spf1 include:mailgun.org ~all
 tfss:
   - ttl: 1
-    type: A
-    value: 76.76.21.21
+    type: ALIAS
+    value: cname.vercel-dns.com.
   - ttl: 1
     type: TXT
     values:
@@ -2164,12 +2178,8 @@ angelhacks-toronto:
   value: cname.vercel-dns.com.
 epanomi:
   - ttl: 1
-    type: A
-    values:
-      - "185.199.108.153"
-      - "185.199.109.153"
-      - "185.199.110.153"
-      - "185.199.111.153"
+    type: ALIAS
+    value: epanomi-hack-club.github.io.
   - type: TXT
     value: protonmail-verification=8ab28e976e0144dcaf43da3668d00393017dc702.\
     
