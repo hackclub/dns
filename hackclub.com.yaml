@@ -61,10 +61,6 @@ IAW:
   - ttl: 1
     type: CNAME
     value: iawhackclub.netlify.com.
-MaggieWalker:
-  - ttl: 1
-    type: CNAME
-    value: Home.
 Map:
   - ttl: 1
     type: CNAME
@@ -1402,10 +1398,6 @@ ms:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
-mw:
-  - ttl: 1
-    type: CNAME
-    value: Home.
 mx._domainkey:
   ttl: 1
   type: TXT
