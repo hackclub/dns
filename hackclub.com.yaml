@@ -519,7 +519,7 @@ byteclub:
 
 birthdays:
   - ttl: 1
-    type: ALIAS
+    type: CNAME
     value: cname.vercel-dns.com.
   - ttl: 1
     type: TXT
@@ -527,7 +527,7 @@ birthdays:
 
 birthday:
   - ttl: 1
-    type: ALIAS
+    type: CNAME
     value: cname.vercel-dns.com.
   - ttl: 1
     type: TXT
@@ -740,7 +740,7 @@ directory:
     value: cname.vercel-dns.com.
 dorman:
   ttl: 1
-  type: ALIAS
+  type: CNAME
   value: cname.vercel-dns.com.
 draw-dino:
   ttl: 1
@@ -812,7 +812,7 @@ eomail:
   value: custom.eomail2.com.
 epoch:
   - ttl: 1
-    type: ALIAS
+    type: CNAME
     value: cname.vercel-dns.com.
   - ttl: 3600
     type: TXT
@@ -836,7 +836,7 @@ epoch:
         preference: 10
 epochba:
   - ttl: 1
-    type: ALIAS
+    type: CNAME
     value: cname.vercel-dns.com.
   - ttl: 3600
     type: TXT
@@ -860,7 +860,7 @@ epochba:
         preference: 10
 epochvt:
   - ttl: 1
-    type: ALIAS
+    type: CNAME
     value: cname.vercel-dns.com.
   - ttl: 3600
     type: TXT
@@ -920,7 +920,7 @@ flagship:
   value: cname.vercel-dns.com.
 flhs:
   - ttl: 1
-    type: ALIAS
+    type: CNAME
     value: 15a3885d-947d-470c-909d-3a2b358f9662.repl.co.
   - ttl: 3600
     type: TXT
@@ -1495,7 +1495,7 @@ philanthropy:
   value: cname.vercel-dns.com.
 phs:
   - ttl: 1
-    type: ALIAS
+    type: CNAME
     value: cname.vercel-dns.com.
   - ttl: 1
     type: MX
@@ -1593,7 +1593,7 @@ psn:
     value: psnhackclub.netlify.app.
 puyallup:
   - ttl: 1
-    type: ALIAS
+    type: CNAME
     value: cname.vercel-dns.com.
   - ttl: 1
     type: MX
@@ -1860,7 +1860,7 @@ streaks:
     value: adoring-brown-d90455.netlify.app.
 summer:
   - ttl: 1
-    type: ALIAS
+    type: CNAME
     value: cname.vercel-dns.com.
   - ttl: 1
     type: TXT
@@ -1906,7 +1906,7 @@ testing.mail:
     value: v=spf1 include:mailgun.org ~all
 tfss:
   - ttl: 1
-    type: ALIAS
+    type: CNAME
     value: cname.vercel-dns.com.
   - ttl: 1
     type: TXT
@@ -2170,7 +2170,7 @@ angelhacks-toronto:
   value: cname.vercel-dns.com.
 epanomi:
   - ttl: 1
-    type: ALIAS
+    type: CNAME
     value: epanomi-hack-club.github.io.
   - type: TXT
     value: protonmail-verification=8ab28e976e0144dcaf43da3668d00393017dc702.\
