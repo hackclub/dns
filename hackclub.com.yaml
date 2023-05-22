@@ -444,6 +444,12 @@ bank-parse-dev:
   value:
     exchange: mx.sendgrid.net.
     preference: 10
+bank-receipts:
+  ttl: 10 # Used by Sendgrid's ActionMailbox integration
+  type: MX
+  value:
+    exchange: mx.sendgrid.net.
+    preference: 10
 bank-shields:
   ttl: 1
   type: CNAME
@@ -496,6 +502,12 @@ bqogdt6xkltngfg62lq7jo5dk33zerss._domainkey:
   - ttl: 1
     type: CNAME
     value: bqogdt6xkltngfg62lq7jo5dk33zerss.dkim.custom-email-domain.stripe.com.
+br:
+  ttl: 10 # Used by Sendgrid's ActionMailbox integration
+  type: MX
+  value:
+    exchange: mx.sendgrid.net.
+    preference: 10
 brasil:
   ttl: 1
   type: CNAME
