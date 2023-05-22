@@ -1413,7 +1413,7 @@ mx._domainkey:
 naal:
   - ttl: 1
     type: CNAME
-    value: t.naaltech.com.tr.
+    value: f188f909-4cbb-48f7-8391-1f4096ded524.id.repl.co.
   - ttl: 1
     type: TXT
     value: replit-verify=f188f909-4cbb-48f7-8391-1f4096ded524
