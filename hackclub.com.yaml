@@ -1661,6 +1661,10 @@ register.epochvt:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+register.outernet:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 riverbend:
   - ttl: 1
     type: CNAME
