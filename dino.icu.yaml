@@ -151,6 +151,11 @@ low-ping: # roblox low ping finder site thingy; by https://github.com/lem6ns
   ttl: 1
   type: CNAME
   value: lem6ns.github.io.
+  
+mail: # a page to share your email with orpheus
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 
 meta: # meta page
   ttl: 1

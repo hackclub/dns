@@ -69,6 +69,10 @@ Map:
   - ttl: 1
     type: CNAME
     value: hackclub.github.io.
+44.74:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 _496c10c564509e5030203691afc939ff.assets:
   - ttl: 1
     type: CNAME
@@ -106,6 +110,10 @@ _amazonses.eomail:
   ttl: 1
   type: TXT
   value: zvhU+nmwbPu8akoL5EfwI/w1nXiQLhs/3XiBG4HcCDc=
+_atproto:
+  ttl: 1
+  type: TXT
+  value: did=did:plc:5rvcaxx64aqyguao6dbuscbz
 _dmarc:
   ttl: 1
   type: TXT
@@ -251,6 +259,8 @@ _vercel:
     - vc-domain-verify=dsc.hackclub.com,151b54b3f4af4d093d8d
     - vc-domain-verify=hacktks.hackclub.com,2b83e058127863ee2d1d
     - vc-domain-verify=status.hackclub.com,40b1b3248e4b63e61f56
+    - vc-domain-verify=codecafe.hackclub.com,7626bb39bfb56e9ea791
+    - vc-domain-verify=directory.hackclub.com,0a9f7c5764c6f89d642b
     
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
@@ -296,6 +306,26 @@ alumni:
   - ttl: 1
     type: CNAME
     value: fundamental-carnotaurus-kk57ymxq2b4c594aeycak3sn.herokudns.com.
+angelhacks:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
+angelhacksto:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
+angelhacks-yyz:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
+angelhacksba:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
+angelhacksla:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 ama-machine:
   - ttl: 1
     type: CNAME
@@ -304,10 +334,6 @@ amity:
   - ttl: 1
     type: CNAME
     value: b7b5adc9.hackclub.pages.dev.
-angelhacks:
-  - ttl: 1
-    type: TXT
-    value: google-site-verification=jODBtWCefkuf-gCL8X4sbJB9bPb2Zo1T41LlxPyaxRk
 anti:
   type: CNAME
   value: anti-hack.netlify.com.
@@ -712,6 +738,10 @@ dinos:
   - ttl: 1
     type: CNAME
     value: orpheus-dinos.netlify.com.
+directory:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 dorman:
   ttl: 1
   type: ALIAS
@@ -1066,6 +1096,9 @@ hacktheoctober:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+haxidraw:
+  type: CNAME
+  value: hackclub.github.io.
 hear:
   type: CNAME
   value: cname.vercel-dns.com.
@@ -1444,11 +1477,19 @@ omay:
   - ttl: 1
     type: CNAME
     value: 84a1498a-3af2-40c5-9383-9ea7dd66e5cb.id.repl.co.
+onboard:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 oneditor:
   - ttl: 1
     type: CNAME
     value: oneditor.netlify.app.
 orpheushacks: # Harrison Katz automatically wins for adding the DNS entry - thats how it works, right?
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
+outernet:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
@@ -1500,8 +1541,8 @@ pl:
   value: cname.vercel-dns.com.
 place:
   ttl: 1
-  type: CNAME
-  value: corrugated-deer-fmxgx30isrkokqzbshccyp78.herokudns.com.
+  type: A
+  value: "96.126.108.99"
 plis:
   ttl: 1
   type: CNAME
@@ -1511,6 +1552,10 @@ podcast:
   type: CNAME
   value: cname.vercel-dns.com.
 pomperaug:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
+poolesville:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
@@ -1588,10 +1633,6 @@ q6vh4lhupwotqenjf4s4ygzyhir3e5ii._domainkey.epochvt:
   ttl: 1
   type: CNAME
   value: q6vh4lhupwotqenjf4s4ygzyhir3e5ii.dkim.amazonses.com.
-r1ke:
-  - ttl: 1
-    type: CNAME
-    value: notr1ke.github.io.
 rahs:
   - ttl: 1
     type: CNAME
@@ -1621,6 +1662,10 @@ register.epoch:
   type: CNAME
   value: cname.vercel-dns.com.
 register.epochvt:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
+register.outernet:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
@@ -1731,6 +1776,14 @@ shop:
       - exchange: aspmx3.googlemail.com.
         preference: 10
 sign:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
+sinerider-api:
+  ttl: 1
+  type: CNAME
+  value: cryptic-tomato-5n1dz55o84lxbrq373a976bu.herokudns.com.
+sinerider-leaderboard:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
@@ -1890,6 +1943,10 @@ tfss:
         preference: 10
       - exchange: mx2.improvmx.com.
         preference: 20
+thai:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 theme:
   - ttl: 1
     type: CNAME
@@ -1964,6 +2021,10 @@ turner:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
+turnover:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com. 
 teenhack:
   - ttl: 1
     type: CNAME
@@ -2127,10 +2188,17 @@ zwp:
   - ttl: 1
     type: A
     value: 172.99.233.117
+angelhacks-toronto: 
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 epanomi:
   - ttl: 1
-    type: CNAME
+    type: ALIAS
     value: epanomi-hack-club.github.io.
+  - type: TXT
+    value: protonmail-verification=8ab28e976e0144dcaf43da3668d00393017dc702.\
+    
 isthackers:
   - ttl: 1
     type: CNAME
@@ -2141,3 +2209,11 @@ hacktks:
     type: CNAME 
     value: cname.vercel-dns.com.
 
+
+
+
+
+codecafe:
+- ttl: 1
+  type: CNAME 
+  value: cname.vercel-dns.com.

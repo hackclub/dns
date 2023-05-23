@@ -25,7 +25,7 @@ That's it! Someone with contributor access to the repo will then review your PR.
 
 ## Limitations
 
-`hackclub.xxx` subdomains are only available for all clubs and projects related to Hack Club.
+Subdomains, under domains following the format `hackclub.xxx`(or other domains reffering to hackclub), are only available for clubs and projects related to Hack Club, this does not include members of Hack Club Bank. Everyone is welcome to use `dino.icu`!
 
 When adding a site hosted on ▲ Vercel, you will need to verifiy the domain by adding a TXT record.
 
