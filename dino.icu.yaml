@@ -89,7 +89,7 @@ diafano: # cfanoulis/diafano-hackclub
 doruk: 
   ttl: 1 
   type: CNAME 
-  value: itsimpeccable.github.io. 
+  value: itsimpeccable.github.io.
   
 e: # drawing app - by https://github.com/sporeball
   ttl: 1
@@ -111,6 +111,10 @@ geta: # yoda - https://getadinoicu.yodacode.repl.co/dino.png - get a dino from h
   type: CNAME
   value: ef35bb48-f121-4f7f-91f6-93f601559c24.id.repl.co.
 
+hi: # doruk.dino.icu email address
+ - type: TXT
+   value: apple-domain=rkbobCmChEtkhbTS.
+   
 icons: # yoda - https://github.com/yodalightsabr/icons-dino-icu - a CDN for @hackclub/icons
   ttl: 1
   type: A
@@ -130,7 +134,7 @@ kevin: # Kevin Yang
   ttl: 1
   type: CNAME
   value: bykevinyang.netlify.app.
-
+  
 kunal: # kunal
   ttl: 1
   type: NS
