@@ -421,9 +421,28 @@ b7zvtelc2k757b2pyx7bfr5gigqwni64._domainkey:
     type: CNAME
     value: b7zvtelc2k757b2pyx7bfr5gigqwni64.dkim.custom-email-domain.stripe.com.
 bank:
-  ttl: 1
-  type: CNAME
-  value: bank.hackclub.com.herokudns.com.
+  - ttl: 1
+    type: CNAME
+    value: bank.hackclub.com.herokudns.com.
+  - ttl: 1
+    type: TXT
+    value: google-site-verification=DPtSBhRDxoSHq6unLsHJf9mP8jKX-Vzxwn-rE9uFDn8
+  - ttl: 1
+    type: TXT
+    value: v=spf1 include:_spf.google.com ~all
+  - ttl: 1
+    type: MX
+    values:
+      - exchange: aspmx.l.google.com.
+        preference: 1
+      - exchange: alt1.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt2.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt3.aspmx.l.google.com.
+        preference: 10
+      - exchange: alt4.aspmx.l.google.com.
+        preference: 10
 bank-bloggers:
   ttl: 1
   type: CNAME
