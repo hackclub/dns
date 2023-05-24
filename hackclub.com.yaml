@@ -1422,6 +1422,10 @@ mx._domainkey:
   ttl: 1
   type: TXT
   value: k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC2ne6b1zFQ+JeHfdYOZmfXdPh9oxE8jJ4VYhHKelLyefiYMPC8TUqL/iYy4meTTUcVskryzK6pMB6tIh3+JhgyxacK+dapNcTTd8LOkI0G3d5JX4+5aq99YHi71KGpVREedJeFjnPeNMEBtrRc5Jsb6HFHFxNtH270fchVO+hgRwIDAQAB
+naal:
+  - ttl: 1
+    type: CNAME
+    value: f188f909-4cbb-48f7-8391-1f4096ded524.id.repl.co.
 ncssm:
   - ttl: 1
     type: CNAME
@@ -1489,11 +1493,19 @@ omay:
   - ttl: 1
     type: CNAME
     value: 84a1498a-3af2-40c5-9383-9ea7dd66e5cb.id.repl.co.
+onboard:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 oneditor:
   - ttl: 1
     type: CNAME
     value: oneditor.netlify.app.
 orpheushacks: # Harrison Katz automatically wins for adding the DNS entry - thats how it works, right?
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
+outernet:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
@@ -1556,6 +1568,10 @@ podcast:
   type: CNAME
   value: cname.vercel-dns.com.
 pomperaug:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
+poolesville:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
@@ -1662,6 +1678,10 @@ register.epoch:
   type: CNAME
   value: cname.vercel-dns.com.
 register.epochvt:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
+register.outernet:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
