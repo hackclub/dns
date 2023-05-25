@@ -427,7 +427,7 @@ bank:
 bankalias:
   ttl: 1
   type: CNAME
-  value: murmuring-elder-5g88luw02jjyxn9vfm4kgqgj.herokudns.com
+  value: murmuring-elder-5g88luw02jjyxn9vfm4kgqgj.herokudns.com.
 bank-bloggers:
   ttl: 1
   type: CNAME
