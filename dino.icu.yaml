@@ -130,6 +130,20 @@ javier: # by https://github.com/J-cordz - my personal hack club scrapbook
    type: CNAME
    value: cname.vercel-dns.com.
 
+krish: # @krishstwt
+   ttl: 1
+   type: NS
+   values:
+   - ns1.vercel-dns.com.
+   - ns2.vercel-dns.com.
+
+krishstwt: # @krishstwt
+   ttl: 1
+   type: NS
+   values:
+   - ns1.vercel-dns.com.
+   - ns2.vercel-dns.com.
+
 kevin: # Kevin Yang
   ttl: 1
   type: CNAME
