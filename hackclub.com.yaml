@@ -1650,6 +1650,10 @@ preflight.assemble:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+proton:
+  ttl: 1
+  type: CNAME
+  value: techpro709.github.io
 proxyparty:
   type: A
   value: 45.79.164.46
