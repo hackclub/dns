@@ -2163,6 +2163,11 @@ webstergroves:
   - ttl: 1
     type: CNAME
     value: shootmessaging.netlify.app.
+    
+webventure:
+  - ttl: 1
+    type: CNAME
+    value: webventure.hackclub.com
 
 westborough:
   - ttl: 1
