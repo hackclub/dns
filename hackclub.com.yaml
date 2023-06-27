@@ -2167,7 +2167,7 @@ webstergroves:
 webventure:
   - ttl: 1
     type: CNAME
-    value: webventure.hackclub.com
+    value: dns-phi.vercel.app
 
 westborough:
   - ttl: 1
