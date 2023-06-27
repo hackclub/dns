@@ -123,7 +123,7 @@ icons: # yoda - https://github.com/yodalightsabr/icons-dino-icu - a CDN for @hac
 innohacks: #efe
   ttl: 1
   type: CNAME
-  value: https://innohacks-gold.vercel.app/
+  value: cname.vercel-dns.com.
 
 japroz: # Japroz Saini
   ttl: 1
