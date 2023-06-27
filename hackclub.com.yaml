@@ -2167,7 +2167,7 @@ webstergroves:
 webventure:
   - ttl: 1
     type: CNAME
-    value: dns-phi.vercel.app
+    value: ansh3108.github.io/webventure
 
 westborough:
   - ttl: 1
