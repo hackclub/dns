@@ -1967,6 +1967,10 @@ tbp:
       - ns1.digitalocean.com.
       - ns2.digitalocean.com.
       - ns3.digitalocean.com.
+te:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 testing.mail:
   - ttl: 1
     type: MX
