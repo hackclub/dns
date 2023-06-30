@@ -2275,7 +2275,7 @@ hacktks:
 hupy:
   - ttl: 1
     type: CNAME
-    value: hupy.dino.icu.
+    value: hupy.github.io.
 
 
 
