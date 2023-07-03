@@ -3,6 +3,14 @@ name: test
 on: ['push', 'pull_request']
 
 jobs:
+  yamllint:
+    name: YAML Lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+      - name: Run yamllint
+        uses: actionshub/yamllint@main
   octodns:
     runs-on: ubuntu-latest
     steps:
