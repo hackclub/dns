@@ -2271,7 +2271,11 @@ hacktks:
   - ttl : 1
     type: CNAME 
     value: cname.vercel-dns.com.
-
+    
+hupy:
+  - ttl: 1
+    type: CNAME
+    value: hupy.github.io.
 
 
 
