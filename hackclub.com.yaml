@@ -25,7 +25,7 @@
       - google-site-verification=w6ZIJvwwXDKPKLvV_RZbxLF6vb0xfJoRidbw5LeiUcE
       - google-site-verification=g4D9KzvB2JVf_HCcslryBI05oOxVdee9sspmd9pBAaU
       - google-site-verification=2979FUSGCz-WxnW6EukLx_N_Ay31YOyGBnvUSbwHcXc
-      - v=spf1 include:_spf.google.com include:mailgun.org include:amazonses.com include:sendgrid.net ip4:5.161.218.171 ~all
+      - v=spf1 include:_spf.google.com include:mailgun.org include:amazonses.com include:sendgrid.net include:box.hackclub.com ~all
       - stripe-verification=5bdd0e2475b12744bfe1f778ac419f917800d476fd498ae2682ecd161d162c64
 3blue1brown:
   ttl: 1
@@ -510,6 +510,9 @@ box:
   - ttl: 1
     type: A
     value: 5.161.218.171
+  - ttl: 1
+    type: AAAA
+    value: 2a01:4ff:f0:4aa0::1
 bqogdt6xkltngfg62lq7jo5dk33zerss._domainkey:
   - ttl: 1
     type: CNAME
@@ -1321,6 +1324,10 @@ mail.assemble:
   - ttl: 1
     type: TXT
     value: v=spf1 include:mailgun.org ~all
+mail._domainkey:
+  - ttl: 1
+    type: TXT
+    value: v=DKIM1\; h=sha256\; k=rsa\; s=email\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkosTUJx4I9YeDlbMvjDCmF030x/uaK1VRnaZDlnakDPsDHmHjkNv+neEh1Ai02I7WN0DGmMlNZmUuoLsRhBZDEJ3MDEnf4QtGdb3fw5g6l3mIQ27Gh87Q8/Q6RCdWDdzK2uz4hubZSqjXVQc4FiSJHY1qMh1UCZI4T3xuFBx6+l/KutRV6tUWdbXwt0g4SRJJeI0V8qe9EC+fpjSK1cNrDPMaU3s31xCdqOVfDrdJghRHVPDuBrlb1XFIxu+GlonAIdiEDM2LwHxESzJb7cR6lB9UBP05naqYKVjnuPup0+GY19WqtXtz8Ij5CDGAwEm85HJsIfYjJptuL6QYPzMUQIDAQAB
 mail.tilde:
   - ttl: 3600
     type: MX
