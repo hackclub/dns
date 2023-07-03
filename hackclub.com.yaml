@@ -506,6 +506,10 @@ bounce:
   - ttl: 1
     type: CNAME
     value: custom-email-domain.stripe.com.
+box:
+  - ttl: 1
+    type: A
+    value: 5.161.218.171
 bqogdt6xkltngfg62lq7jo5dk33zerss._domainkey:
   - ttl: 1
     type: CNAME
