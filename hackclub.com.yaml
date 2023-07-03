@@ -510,6 +510,9 @@ box:
   - ttl: 1
     type: A
     value: 5.161.218.171
+  - ttl: 1
+    type: AAAA
+    value: 2a01:4ff:f0:4aa0::1
 bqogdt6xkltngfg62lq7jo5dk33zerss._domainkey:
   - ttl: 1
     type: CNAME
