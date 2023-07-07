@@ -303,6 +303,10 @@ alpharetta:
         preference: 10
       - exchange: alt4.aspmx.l.google.com.
         preference: 10
+alpine:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 alumni:
   - ttl: 1
     type: CNAME
