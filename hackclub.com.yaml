@@ -445,6 +445,10 @@ bank-docs:
   ttl: 1
   type: CNAME
   value: evolutionary-heron-qlwebnpw35gb7ovyf9z3xqwy.herokudns.com.
+bank-og: # Bank opengraph images
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 bank-parse:
   ttl: 10 # Used by Sendgrid's ActionMailbox integration
   type: MX
