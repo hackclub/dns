@@ -28,6 +28,7 @@
       - google-site-verification=2979FUSGCz-WxnW6EukLx_N_Ay31YOyGBnvUSbwHcXc
       - v=spf1 include:_spf.google.com include:mailgun.org include:amazonses.com include:sendgrid.net ~all
       - stripe-verification=5bdd0e2475b12744bfe1f778ac419f917800d476fd498ae2682ecd161d162c64
+      - 1password-site-verification=Q4UYPWIJSBDT5KWEECIQPRAZJ4 # For 1password's breach notification feature
 3blue1brown:
   ttl: 1
   type: CNAME
