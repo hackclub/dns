@@ -45,6 +45,7 @@
   - google-site-verification=LPx57IBOflR6ko3yB9xUp4MokUh_jXXNO8mVd0Tzh6k
   - v=spf1 include:_spf.google.com ~all
   - "00071672" # vercel verification code
+  - 1password-site-verification=USIDTEC4TVE67CUT3E7HYFVHGY # 1pass domain breach report feature
 
 # "*": # wildcard redirect
 #   ttl: 1
