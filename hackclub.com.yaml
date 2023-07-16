@@ -1341,6 +1341,10 @@ mailchannels._domainkey.epochba:
   ttl: 1800
   type: TXT
   value: v=DKIM1\;p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1TbZQHVO955sdVfRbgBgo4BWVmc5D/X8o2h4l7RvcRrcrp9c0YfFc+mstp3dW0bWg0ufnRUfmq0kYpx4mG0+RvSv0/we18WqLhQAaTNmA3joa+0HV9dpFKhKJk+jbU4kGcynJ9mKR/fAwYODZSTmE4lBbGZkB7EC/eaHjBxiGUCsCy2PV/sc1DkxvglnBqNcys3orZ9JmeCKuDNvwnIql9cc89zlZksDZjrsh47zbm+gBlySMhuoD9oo/kebGPJzDohnXSHUKFAEJQUFJ6Gt65Fzv+QRrdm2vvxqOscLxO6dlk/FNl4JuY9DRlr4McmyTZUDzKaMNhKwmBPySyBYkQIDAQAB
+mailchannels._domainkey.spark:
+  ttl: 1800
+  type: TXT
+  value: v=DKIM1\;p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5jcI9ttx1aRdbhJF0ROKEIXHQoEQihY3XvdTo0ZOCO7a0/2yNHEjjneq6LozMni5ZcoyOQYP7i1CsGZ89pRn00Fhne0obQMC7wv6oth06wSTbZxv6F2N2eoEIQbxsu3BIRdxX2CzGjgU/8AtzjkRV7alibmDIC1EFRb63TvjRevUEDlkgwTmFlIYRZtLmTBwLhgN2Q32ecXYsC3ciPKLZM7eGKfe+G67hUZmFdKJbqy5sy0URp0Y60z+gIvcasRewC4X3Zw87dbOLyOWqB3PpYM23avXFhPbbMrKZi5X2i6X+AO4/ItVFf9kL2vrmoBsuCWdW/yJ1lZ8RcbEMgwW7wIDAQAB
 mailo._domainkey.testing.mail:
   ttl: 1
   type: TXT
