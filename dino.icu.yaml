@@ -187,6 +187,11 @@ mindson: # by rajan
   type: CNAME
   value: mindson.netlify.app.
 
+motivation: 
+  ttl: 1
+  type: CNAME
+  value: maxwofford.github.io.
+
 niilas: # Niilas - repo: https://github.com/niilasoika/niilas.dino.icu
   ttl: 1
   type: CNAME
