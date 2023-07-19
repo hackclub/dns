@@ -1911,12 +1911,12 @@ spark:
   - ttl: 1
     type: ALIAS
     value: cname.vercel-dns.com.
-  - ttl: 3600
+  - ttl: 1
     type: TXT
     values:
-      - google-site-verification=tfR_HodAOAG-fVR_kaKvsE2gEz8MIqidrd-NMM2XxmQ
+      - google-site-verification=zx9NMOA8WwJ7FlmnASICBEvNzpAMhWSgX2Api6ROjAk
       - v=spf1 include:_spf.google.com ~all
-  - ttl: 3600
+  - ttl: 1
     type: MX
     values:
       - exchange: aspmx.l.google.com.
@@ -1925,9 +1925,11 @@ spark:
         preference: 5
       - exchange: alt2.aspmx.l.google.com.
         preference: 5
-      - exchange: alt3.aspmx.l.google.com.
+      - exchange: aspmx2.googlemail.com.
         preference: 10
-      - exchange: alt4.aspmx.l.google.com.
+      - exchange: aspmx3.googlemail.com.
+        preference: 10
+      - exchange: aspmx4.googlemail.com.
         preference: 10
 spp:
   - ttl: 1
