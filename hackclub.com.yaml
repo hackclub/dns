@@ -1926,6 +1926,9 @@ spark:
         preference: 10
       - exchange: alt4.aspmx.l.google.com.
         preference: 10
+  - ttl: 1
+    type: ALIAS
+    value: cname.vercel-dns.com.
 spp:
   - ttl: 1
     type: CNAME
