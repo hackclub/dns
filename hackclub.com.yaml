@@ -1909,28 +1909,8 @@ som-mail-system:
     value: cname.vercel-dns.com.
 spark:
   - ttl: 1
-    type: ALIAS
+    type: CNAME
     value: cname.vercel-dns.com.
-  - ttl: 1
-    type: TXT
-    values:
-      - google-site-verification=tfR_HodAOAG-fVR_kaKvsE2gEz8MIqidrd-NMM2XxmQ
-      - v=spf1 include:_spf.google.com ~all
-  - ttl: 1
-    type: MX
-    values:
-      - exchange: aspmx.l.google.com.
-        preference: 1
-      - exchange: alt1.aspmx.l.google.com.
-        preference: 5
-      - exchange: alt2.aspmx.l.google.com.
-        preference: 5
-      - exchange: aspmx2.googlemail.com.
-        preference: 10
-      - exchange: aspmx3.googlemail.com.
-        preference: 10
-      - exchange: aspmx4.googlemail.com.
-        preference: 10
 spp:
   - ttl: 1
     type: CNAME
