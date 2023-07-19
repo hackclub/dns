@@ -1911,6 +1911,11 @@ spark:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
+  - ttl: 1
+    type: TXT
+    values:
+      - google-site-verification=tfR_HodAOAG-fVR_kaKvsE2gEz8MIqidrd-NMM2XxmQ
+      - v=spf1 include:_spf.google.com ~all
 spp:
   - ttl: 1
     type: CNAME
