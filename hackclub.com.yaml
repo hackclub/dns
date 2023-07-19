@@ -1908,8 +1908,7 @@ som-mail-system:
     type: CNAME
     value: cname.vercel-dns.com.
 spark:
-  - ttl: 1
-    type: CNAME
+  - type: ALIAS
     value: cname.vercel-dns.com.
 spp:
   - ttl: 1
