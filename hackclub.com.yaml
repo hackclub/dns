@@ -717,6 +717,10 @@ codethetech:
   - ttl: 1
     type: CNAME
     value: codethetech.github.io.
+daysofservice:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 ddze3tkuawtlnbviwym44yhrjczhqzxw._domainkey:
   ttl: 1
   type: CNAME
