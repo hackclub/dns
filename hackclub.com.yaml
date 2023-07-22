@@ -1484,6 +1484,10 @@ newcanaan:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+newcanaanlib:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 nigeria:
   ttl: 1
   type: CNAME
