@@ -242,7 +242,12 @@ pay: # by Ella
 periodic:
    ttl: 1
    type: CNAME
-   value: leecheeyong.github.io. 
+   value: leecheeyong.github.io.
+   
+rr: # Rickroll with a single line of bash
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 
 scales: # (yet another?) currency slack bot (with some web UI) :D
   ttl: 1
