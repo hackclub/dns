@@ -1,4 +1,8 @@
 ---
+doughnatable.hackclub.com:
+  - ttl: 1
+    type: CNAME
+    value: https://chris981lee.wixsite.com/mysite.
 "":
   - type: ALIAS
     value: cname.vercel-dns.com.
