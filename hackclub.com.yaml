@@ -2023,6 +2023,10 @@ te:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
+telemetry:
+  - ttl: 1
+    type: A
+    value: 159.89.254.91
 testing.mail:
   - ttl: 1
     type: MX
