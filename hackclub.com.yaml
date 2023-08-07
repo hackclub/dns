@@ -1014,6 +1014,10 @@ front-mail:
     values:
       - exchange: mx.sendgrid.net.
         preference: 1
+gas:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 gamelab:
   - type: CNAME
     value: cname.vercel-dns.com.
