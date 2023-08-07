@@ -163,6 +163,10 @@ _h323cs._tcp.px:
       priority: 50
       target: loke2.vp.vc.
       weight: 100
+mhs: 
+- ttl: 1
+  type: CNAME
+  value: mhs-hack-club.vercel.app.
 _minecraft._tcp.vanilla.mc:
   ttl: 1
   type: SRV
