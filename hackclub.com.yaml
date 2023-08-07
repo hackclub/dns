@@ -167,6 +167,10 @@ mhs:
 - ttl: 1
   type: CNAME
   value: mhs-hack-club.vercel.app.
+_vercel: 
+- ttl: 1
+  type: TXT
+  values: vc-domain-verify=mhs.hackclub.com,5ef9386e721cc5cd58cb 
 _minecraft._tcp.vanilla.mc:
   ttl: 1
   type: SRV
