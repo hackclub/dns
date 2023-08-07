@@ -1413,6 +1413,10 @@ merivalja:
   ttl: 1
   type: CNAME
   value: merivalja.github.io.
+metrics:
+  ttl: 1
+  type: A
+  value: 138.197.106.80
 mfa:
   ttl: 1
   type: CNAME
