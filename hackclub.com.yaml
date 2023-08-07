@@ -1413,10 +1413,6 @@ merivalja:
   ttl: 1
   type: CNAME
   value: merivalja.github.io.
-metrics:
-  ttl: 1
-  type: A
-  value: 138.197.106.80
 mfa:
   ttl: 1
   type: CNAME
@@ -2027,6 +2023,10 @@ te:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
+telemetry:
+  - ttl: 1
+    type: A
+    value: 159.89.254.91
 testing.mail:
   - ttl: 1
     type: MX
