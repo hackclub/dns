@@ -2211,6 +2211,10 @@ vh7v2gsayfsmxmllwaannilorrbs5jbp._domainkey:
   - ttl: 1
     type: CNAME
     value: vh7v2gsayfsmxmllwaannilorrbs5jbp.dkim.custom-email-domain.stripe.com.
+vi:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 vikingsdev:
   - ttl: 1
     type: CNAME
