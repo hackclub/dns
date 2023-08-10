@@ -163,11 +163,6 @@ _h323cs._tcp.px:
       priority: 50
       target: loke2.vp.vc.
       weight: 100
-mhs: 
-- ttl: 1
-  type: CNAME
-  value: mhs-hack-club.vercel.app.
-
 _minecraft._tcp.vanilla.mc:
   ttl: 1
   type: SRV
@@ -1016,6 +1011,10 @@ front-mail:
     values:
       - exchange: mx.sendgrid.net.
         preference: 1
+gas:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 gamelab:
   - type: CNAME
     value: cname.vercel-dns.com.
@@ -1200,6 +1199,10 @@ jain:
   ttl: 1
   type: A
   value: 185.199.108.153
+jams:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 jank:
   - ttl: 1
     type: CNAME
@@ -1423,6 +1426,10 @@ mfa:
   ttl: 1
   type: CNAME
   value: genetic-junglefowl-3j5z21xloagt92vzeb752t9s.herokudns.com.
+mhs: 
+  ttl: 1
+  type: CNAME
+  value: mhs-hack-club.vercel.app.
 milesmac:
   ttl: 1
   type: CNAME
@@ -2029,6 +2036,10 @@ te:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
+telemetry:
+  - ttl: 1
+    type: A
+    value: 159.89.254.91
 testing.mail:
   - ttl: 1
     type: MX
@@ -2201,6 +2212,10 @@ vh7v2gsayfsmxmllwaannilorrbs5jbp._domainkey:
   - ttl: 1
     type: CNAME
     value: vh7v2gsayfsmxmllwaannilorrbs5jbp.dkim.custom-email-domain.stripe.com.
+vi:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 vikingsdev:
   - ttl: 1
     type: CNAME
