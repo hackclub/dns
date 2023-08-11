@@ -163,6 +163,10 @@ _h323cs._tcp.px:
       priority: 50
       target: loke2.vp.vc.
       weight: 100
+_mailchannels.spark:
+  ttl: 1
+  type: TXT
+  value: v=mc1 cfid=mliu.workers.dev
 _minecraft._tcp.vanilla.mc:
   ttl: 1
   type: SRV
