@@ -722,6 +722,10 @@ codethetech:
   - ttl: 1
     type: CNAME
     value: codethetech.github.io.
+dash.hackathons:
+  ttl: 1
+  type: A
+  value: 5.161.229.50
 daysofservice:
   ttl: 1
   type: CNAME
