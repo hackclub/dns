@@ -166,7 +166,7 @@ _h323cs._tcp.px:
 _mailchannels.spark:
   ttl: 1
   type: TXT
-  value: v=mc1 cfid=mliu.workers.dev
+  value: v=mc1 cfid=mliu.workers.dev cfid=maggiel.workers.dev
 _minecraft._tcp.vanilla.mc:
   ttl: 1
   type: SRV
