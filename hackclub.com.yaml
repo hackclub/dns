@@ -725,6 +725,10 @@ codethetech:
 dash.hackathons:
   ttl: 1
   type: A
+  value: 5.161.160.54
+app-1.hackathons:
+  ttl: 1
+  type: A
   value: 5.161.229.50
 daysofservice:
   ttl: 1
