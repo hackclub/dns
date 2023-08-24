@@ -1,0 +1,10 @@
+---
+'':
+- type: A
+  ttl: 21600
+  value: 76.76.21.21
+
+'www':
+- type: CNAME
+  ttl: 21600
+  value: cname.vercel-dns.com.

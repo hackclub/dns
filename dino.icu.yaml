@@ -52,11 +52,6 @@
 #   type: CNAME
 #   value: cname.vercel-dns.com.
 
-aiden: # by https://github.com/roizor
-  ttl: 1
-  type: CNAME
-  value: 5d0f7255-8f57-4f8a-a123-a3ba0d973358.id.repl.co.
-
 andrew: # by https://github.com/anddddrew
   ttl: 1
   type: CNAME
@@ -187,6 +182,11 @@ mindson: # by rajan
   type: CNAME
   value: mindson.netlify.app.
 
+motivation: 
+  ttl: 1
+  type: CNAME
+  value: maxwofford.github.io.
+
 niilas: # Niilas - repo: https://github.com/niilasoika/niilas.dino.icu
   ttl: 1
   type: CNAME
@@ -237,7 +237,12 @@ pay: # by Ella
 periodic:
    ttl: 1
    type: CNAME
-   value: leecheeyong.github.io. 
+   value: leecheeyong.github.io.
+   
+rr: # Rickroll with a single line of bash
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 
 scales: # (yet another?) currency slack bot (with some web UI) :D
   ttl: 1

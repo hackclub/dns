@@ -80,3 +80,13 @@ zones:
       - config
     targets:
       - dnsimple
+  cpu.land.:
+    sources:
+      - config
+    targets:
+      - dnsimple
+  aisafety.dance.:
+    sources:
+      - config
+    targets:
+      - dnsimple
