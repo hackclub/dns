@@ -624,6 +624,10 @@ christinaday2020:
   - ttl: 3600
     type: CNAME
     value: hackclub.github.io.
+chronicle:
+  - ttl: 1
+    type: A
+    value: 157.230.66.75
 churchill:
   - ttl: 1
     type: CNAME
