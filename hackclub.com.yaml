@@ -616,6 +616,10 @@ changelog.bank:
   ttl: 1
   type: CNAME
   value: headwayapp.co.
+changelog.hcb:
+  ttl: 1
+  type: CNAME
+  value: headwayapp.co.
 chapters:
   ttl: 1
   type: CNAME
