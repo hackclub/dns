@@ -1158,6 +1158,9 @@ hacktheoctober:
 haxidraw:
   type: CNAME
   value: cname.vercel-dns.com.
+hcb:
+  type: CNAME
+  value: rocky-jackfruit-11wv1arsenhczo2z58bae8lt.herokudns.com.
 hear:
   type: CNAME
   value: cname.vercel-dns.com.
