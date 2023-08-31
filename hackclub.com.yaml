@@ -1163,7 +1163,7 @@ haxidraw:
   type: CNAME
   value: cname.vercel-dns.com.
 hcb:
-  - type: CNAME
+  - type: ALIAS
     value: rocky-jackfruit-11wv1arsenhczo2z58bae8lt.herokudns.com.
   - type: MX
     ttl: 10
