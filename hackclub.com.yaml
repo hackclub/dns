@@ -437,8 +437,8 @@ b7zvtelc2k757b2pyx7bfr5gigqwni64._domainkey:
     value: b7zvtelc2k757b2pyx7bfr5gigqwni64.dkim.custom-email-domain.stripe.com.
 bank:
   ttl: 1
-  type: CNAME
-  value: bank.hackclub.com.herokudns.com.
+  type: A
+  value: 45.79.179.212
 bankalias:
   ttl: 1
   type: CNAME
