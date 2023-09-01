@@ -1626,6 +1626,10 @@ packages:
   ttl: 1
   type: CNAME
   value: secret-zebra-lydr194iy8x0x4n4rmzcii3r.herokudns.com.
+petcs:
+  ttl: 1
+  type: CNAME
+  value: exquisite-stroopwafel-98a808.netlify.app.
 philanthropy:
   ttl: 1
   type: CNAME
