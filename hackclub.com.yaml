@@ -35,13 +35,7 @@ ihs:
   - ttl: 1
     type: CNAME
     value: https://ihshack.vercel.app/.
-
-
-_vercel:
-  ttl: 1
-  type: TXT
-  values:
-    - vc-domain-verify=ihs.hackclub.com,21e13c0c6af87766f6f5
+    
     
 3blue1brown:
   ttl: 1
@@ -282,6 +276,7 @@ _vercel:
     - vc-domain-verify=status.hackclub.com,40b1b3248e4b63e61f56
     - vc-domain-verify=codecafe.hackclub.com,7626bb39bfb56e9ea791
     - vc-domain-verify=directory.hackclub.com,0a9f7c5764c6f89d642b
+    - vc-domain-verify=ihs.hackclub.com,21e13c0c6af87766f6f5
     
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
