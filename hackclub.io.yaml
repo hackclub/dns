@@ -23,6 +23,9 @@
 '*':
   type: CNAME
   value: proxyparty.hackclub.com.
+proxytest:
+  type: A
+  value: 45.79.179.212
 _acme-challenge:
   type: TXT
   values:

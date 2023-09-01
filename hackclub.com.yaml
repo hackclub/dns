@@ -26,7 +26,7 @@
       - google-site-verification=w6ZIJvwwXDKPKLvV_RZbxLF6vb0xfJoRidbw5LeiUcE
       - google-site-verification=g4D9KzvB2JVf_HCcslryBI05oOxVdee9sspmd9pBAaU
       - google-site-verification=2979FUSGCz-WxnW6EukLx_N_Ay31YOyGBnvUSbwHcXc
-      - v=spf1 include:_spf.google.com include:mailgun.org include:amazonses.com include:sendgrid.net ~all
+      - v=spf1 include:_spf.google.com include:mailgun.org include:amazonses.com include:sendgrid.net include:helpscoutemail.com ~all
       - stripe-verification=5bdd0e2475b12744bfe1f778ac419f917800d476fd498ae2682ecd161d162c64
       - 1password-site-verification=Q4UYPWIJSBDT5KWEECIQPRAZJ4 # For 1password's breach notification feature
 
@@ -446,8 +446,8 @@ b7zvtelc2k757b2pyx7bfr5gigqwni64._domainkey:
     value: b7zvtelc2k757b2pyx7bfr5gigqwni64.dkim.custom-email-domain.stripe.com.
 bank:
   ttl: 1
-  type: CNAME
-  value: bank.hackclub.com.herokudns.com.
+  type: A
+  value: 45.79.179.212
 bankalias:
   ttl: 1
   type: CNAME
@@ -625,6 +625,10 @@ changelog.bank:
   ttl: 1
   type: CNAME
   value: headwayapp.co.
+changelog.hcb:
+  ttl: 1
+  type: CNAME
+  value: headwayapp.co.
 chapters:
   ttl: 1
   type: CNAME
@@ -633,6 +637,10 @@ christinaday2020:
   - ttl: 3600
     type: CNAME
     value: hackclub.github.io.
+chronicle:
+  - ttl: 1
+    type: A
+    value: 157.230.66.75
 churchill:
   - ttl: 1
     type: CNAME
@@ -1163,6 +1171,14 @@ hacktheoctober:
 haxidraw:
   type: CNAME
   value: cname.vercel-dns.com.
+hcb:
+  - type: ALIAS
+    value: rocky-jackfruit-11wv1arsenhczo2z58bae8lt.herokudns.com.
+  - type: MX
+    ttl: 10
+    value:
+      exchange: mx.sendgrid.net.
+      preference: 10
 hear:
   type: CNAME
   value: cname.vercel-dns.com.
@@ -1619,6 +1635,10 @@ packages:
   ttl: 1
   type: CNAME
   value: secret-zebra-lydr194iy8x0x4n4rmzcii3r.herokudns.com.
+petcs:
+  ttl: 1
+  type: CNAME
+  value: exquisite-stroopwafel-98a808.netlify.app.
 philanthropy:
   ttl: 1
   type: CNAME
@@ -2022,6 +2042,12 @@ streaks:
   - ttl: 1
     type: CNAME
     value: adoring-brown-d90455.netlify.app.
+strong1._domainkey:
+  type: CNAME
+  value: strong1._domainkey.helpscout.net.
+strong2._domainkey:
+  type: CNAME
+  value: strong2._domainkey.helpscout.net.
 summer:
   - ttl: 1
     type: ALIAS
