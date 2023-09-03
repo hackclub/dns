@@ -34,7 +34,7 @@
 ihs:
   - ttl: 1
     type: CNAME
-    value: https://ihshack.vercel.app/.
+    value: ihshack.vercel.app.
     
     
 3blue1brown:
