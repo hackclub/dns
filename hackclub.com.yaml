@@ -1177,6 +1177,9 @@ hcb:
     value:
       exchange: mx.sendgrid.net.
       preference: 10
+hcb-og:
+  type: CNAME
+  value: cname.vercel-dns.com.
 hear:
   type: CNAME
   value: cname.vercel-dns.com.
