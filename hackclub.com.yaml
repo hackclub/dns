@@ -34,13 +34,11 @@ doughnatable:
       - stripe-verification=5bdd0e2475b12744bfe1f778ac419f917800d476fd498ae2682ecd161d162c64
       - 1password-site-verification=Q4UYPWIJSBDT5KWEECIQPRAZJ4 # For 1password's breach notification feature
 
-
 ihs:
   - ttl: 1
     type: CNAME
-    value: https://ihshack.vercel.app/.
-    
-    
+    value: cname.vercel-dns.com.
+        
 3blue1brown:
   ttl: 1
   type: CNAME
@@ -1183,6 +1181,9 @@ hcb:
     value:
       exchange: mx.sendgrid.net.
       preference: 10
+hcb-og:
+  type: CNAME
+  value: cname.vercel-dns.com.
 hear:
   type: CNAME
   value: cname.vercel-dns.com.
@@ -1232,6 +1233,10 @@ ipv6.mc-vps:
   - ttl: 1
     type: AAAA
     value: 2605:a143:2124:1775::1
+irvine:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 iter:
   ttl: 1
   type: CNAME
