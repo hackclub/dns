@@ -1183,6 +1183,9 @@ hcb-og:
 hear:
   type: CNAME
   value: cname.vercel-dns.com.
+help.hcb:
+  type: CNAME
+  value: hcb.helpscoutdocs.com.
 hillsdale:
   - ttl: 1
     type: CNAME
