@@ -622,7 +622,7 @@ cgc:
 changelog.bank:
   ttl: 1
   type: CNAME
-  value: headwayapp.co.
+  value: hcb-proxy.servers.hackclub.com.
 changelog.hcb:
   ttl: 1
   type: CNAME
@@ -1180,6 +1180,9 @@ hcb:
 hcb-og:
   type: CNAME
   value: cname.vercel-dns.com.
+hcb-proxy.servers:
+  type: A
+  value: 45.79.179.212
 hear:
   type: CNAME
   value: cname.vercel-dns.com.
