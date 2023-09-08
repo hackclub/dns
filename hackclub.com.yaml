@@ -1236,28 +1236,6 @@ ipv6.mc-vps:
   - ttl: 1
     type: AAAA
     value: 2605:a143:2124:1775::1
-irvine:
-  - ttl: 1
-    type: CNAME
-    value: cname.vercel-dns.com.
-  - ttl: 3600
-    type: TXT
-    values:
-      - v=spf1 include:_spf.google.com ~all
-      - google-site-verification=n9knjT30SgPd80zLKBD6M8fPFGIQUAO5OgfjDsPSrRM
-  - ttl: 3600
-    type: MX
-    values:
-      - exchange: aspmx.l.google.com.
-        preference: 1
-      - exchange: alt1.aspmx.l.google.com.
-        preference: 5
-      - exchange: alt2.aspmx.l.google.com.
-        preference: 5
-      - exchange: alt3.aspmx.l.google.com.
-        preference: 10
-      - exchange: alt4.aspmx.l.google.com.
-        preference: 10
 iter:
   ttl: 1
   type: CNAME
