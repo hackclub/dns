@@ -1255,6 +1255,9 @@ irvine:
         preference: 10
       - exchange: alt4.aspmx.l.google.com.
         preference: 10
+  - ttl: 1
+    type: ALIAS
+    value: cname.vercel-dns.com.
 iter:
   ttl: 1
   type: CNAME
