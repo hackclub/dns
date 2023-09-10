@@ -26,6 +26,14 @@ proxmox:
     value: 78.46.86.74
   - type: AAAA
     value: 2a01:4f8:120:144a::2
+ts:
+  type: CNAME
+  value: secure.vm.hackclub.app.
+secure.vm:
+  - type: A
+    value: 188.40.159.193
+  - type: AAAA
+    value: 2a01:4f8:120:144a::5
 status:
   type: A
   value: 34.138.52.92
