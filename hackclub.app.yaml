@@ -1,14 +1,14 @@
 ---
 "":
   - type: A
-    value: 188.40.159.192
+    value: 188.40.159.194
   - type: AAAA
-    value: 2a01:4f8:120:144a::192
+    value: 2a01:4f8:120:144a::194
 "*":
   - type: A
-    value: 188.40.159.192
+    value: 188.40.159.194
   - type: AAAA
-    value: 2a01:4f8:120:144a::192
+    value: 2a01:4f8:120:144a::194
 _github-challenge-hack-as-a-service:
   type: TXT
   value: 4b821e52c1
