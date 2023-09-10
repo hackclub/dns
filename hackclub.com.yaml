@@ -418,7 +418,7 @@ assets:
 astrohacks:
   - ttl: 1
     type: CNAME
-    value: www.mmgraphix.net
+    value: www.mmgraphix.net.
 austin:
   ttl: 1
   type: CNAME
