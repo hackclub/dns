@@ -28,7 +28,7 @@ proxmox:
     value: 2a01:4f8:120:144a::2
 ts:
   type: CNAME
-  value: secure.vm.hackclub.app
+  value: secure.vm.hackclub.app.
 secure.vm:
   - type: A
     value: 188.40.159.193
