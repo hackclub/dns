@@ -415,6 +415,10 @@ assets:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+astrohacks:
+  - ttl: 1
+    type: CNAME
+    value: www.mmgraphix.net.
 austin:
   ttl: 1
   type: CNAME
