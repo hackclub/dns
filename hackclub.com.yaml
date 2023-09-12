@@ -1171,6 +1171,10 @@ hacktheoctober:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+harvest:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 haxidraw:
   type: CNAME
   value: cname.vercel-dns.com.
