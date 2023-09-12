@@ -993,6 +993,10 @@ flagship:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+flagvote:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 flhs:
   - ttl: 1
     type: ALIAS
