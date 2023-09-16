@@ -15,17 +15,17 @@ _github-challenge-hack-as-a-service:
 em2060:
   type: CNAME
   value: u17325777.wl028.sendgrid.net.
+identity:
+  - type: A
+    value: 188.40.159.193
+  - type: AAAA
+    value: 2a01:4f8:120:144a::5
 s1._domainkey:
   type: CNAME
   value: s1.domainkey.u17325777.wl028.sendgrid.net.
 s2._domainkey:
   type: CNAME
   value: s2.domainkey.u17325777.wl028.sendgrid.net.
-proxmox:
-  - type: A
-    value: 78.46.86.74
-  - type: AAAA
-    value: 2a01:4f8:120:144a::2
 ts:
   type: CNAME
   value: secure.vm.hackclub.app.
