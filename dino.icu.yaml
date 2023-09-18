@@ -112,7 +112,7 @@ hi: # doruk.dino.icu email address
    value: apple-domain=rkbobCmChEtkhbTS.
 hkgi:
 - type: CNAME
-  value: garden.devcara.com
+  value: garden.devcara.com.
    
 icons: # yoda - https://github.com/yodalightsabr/icons-dino-icu - a CDN for @hackclub/icons
   ttl: 1
