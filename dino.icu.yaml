@@ -71,6 +71,11 @@ channle: # by https://github.com/cjdenio
   ttl: 1
   type: CNAME
   value: channle.netlify.app.
+
+click: # a URL shortener
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
   
 cslide: 
   ttl: 1
