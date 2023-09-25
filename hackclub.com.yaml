@@ -415,6 +415,10 @@ assets:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+astrohacks:
+  - ttl: 1
+    type: CNAME
+    value: www.mmgraphix.net.
 austin:
   ttl: 1
   type: CNAME
@@ -993,6 +997,10 @@ flagship:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+flagvote:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 flhs:
   - ttl: 1
     type: ALIAS
@@ -1168,6 +1176,10 @@ hackstore:
   type: CNAME
   value: cname.vercel-dns.com.
 hacktheoctober:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
+harvest:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
@@ -1720,10 +1732,6 @@ podcast:
   type: CNAME
   value: cname.vercel-dns.com.
 pomperaug:
-  ttl: 1
-  type: CNAME
-  value: cname.vercel-dns.com.
-poolesville:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
