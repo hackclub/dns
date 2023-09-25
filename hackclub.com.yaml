@@ -35,7 +35,7 @@ ihs:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
-
+        
 3blue1brown:
   ttl: 1
   type: CNAME
@@ -276,7 +276,7 @@ _vercel:
     - vc-domain-verify=codecafe.hackclub.com,7626bb39bfb56e9ea791
     - vc-domain-verify=directory.hackclub.com,0a9f7c5764c6f89d642b
     - vc-domain-verify=ihs.hackclub.com,21e13c0c6af87766f6f5
-
+    
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
   type: CNAME
@@ -1359,6 +1359,10 @@ kr:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+lasa:
+  - ttl: 1
+    type: A
+    value: 136.62.158.195
 laslomas:
   - ttl: 1
     type: CNAME
@@ -1513,7 +1517,7 @@ mfa:
   ttl: 1
   type: CNAME
   value: genetic-junglefowl-3j5z21xloagt92vzeb752t9s.herokudns.com.
-mhs:
+mhs: 
   ttl: 1
   type: CNAME
   value: mhs-hack-club.vercel.app.
@@ -2240,7 +2244,7 @@ turner:
 turnover:
   - ttl: 1
     type: CNAME
-    value: cname.vercel-dns.com.
+    value: cname.vercel-dns.com. 
 teenhack:
   - ttl: 1
     type: CNAME
@@ -2329,7 +2333,7 @@ webstergroves:
   - ttl: 1
     type: CNAME
     value: shootmessaging.netlify.app.
-
+    
 webventure:
   - ttl: 1
     type: CNAME
@@ -2413,7 +2417,7 @@ zwp:
   - ttl: 1
     type: A
     value: 172.99.233.117
-angelhacks-toronto:
+angelhacks-toronto: 
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
@@ -2423,17 +2427,17 @@ epanomi:
     value: epanomi-hack-club.github.io.
   - type: TXT
     value: protonmail-verification=8ab28e976e0144dcaf43da3668d00393017dc702.\
-
+    
 isthackers:
   - ttl: 1
     type: CNAME
     value: isthackers.github.io.
-
+    
 hacktks:
   - ttl : 1
-    type: CNAME
+    type: CNAME 
     value: cname.vercel-dns.com.
-
+    
 hupy:
   - ttl: 1
     type: CNAME
@@ -2444,5 +2448,5 @@ hupy:
 
 codecafe:
 - ttl: 1
-  type: CNAME
+  type: CNAME 
   value: cname.vercel-dns.com.
