@@ -762,6 +762,10 @@ ddze3tkuawtlnbviwym44yhrjczhqzxw._domainkey.epochvt:
   ttl: 1
   type: CNAME
   value: ddze3tkuawtlnbviwym44yhrjczhqzxw.dkim.amazonses.com.
+de:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 dear-joe:
   - ttl: 1
     type: CNAME
@@ -1728,10 +1732,6 @@ podcast:
   type: CNAME
   value: cname.vercel-dns.com.
 pomperaug:
-  ttl: 1
-  type: CNAME
-  value: cname.vercel-dns.com.
-poolesville:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
