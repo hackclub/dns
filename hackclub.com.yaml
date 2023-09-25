@@ -1357,8 +1357,8 @@ kr:
   value: cname.vercel-dns.com.
 lasa:
   - ttl: 1
-    type: CNAME
-    value: hackclublasa.github.io.
+    type: A
+    value: 136.62.158.195
 laslomas:
   - ttl: 1
     type: CNAME
