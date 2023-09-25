@@ -1359,6 +1359,10 @@ kr:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+lasa:
+  - ttl: 1
+    type: A
+    value: 136.62.158.195
 laslomas:
   - ttl: 1
     type: CNAME
