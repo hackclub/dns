@@ -47,6 +47,10 @@ ihs:
 72f724f0383247cd44371eb3cf8102a1:
   type: CNAME
   value: verify.bing.com.
+SUBDOMAIN_NAME:
+  - ttl: 1
+    type: CNAME
+    value: bhscode.hackclub.com.
 "*":
   ttl: 1
   type: CNAME
