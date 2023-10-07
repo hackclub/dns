@@ -1229,7 +1229,7 @@ horizon:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
-  haunted:
+haunted:
   type: CNAME
   value: cname.vercel-dns.com.
 hub.zephyr:
