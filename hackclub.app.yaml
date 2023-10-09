@@ -6,7 +6,7 @@ ns:
     value: 2a01:4f8:120:144a::5
 "":
   - type: NS
-    value: ns.hackclub.app
+    value: ns.hackclub.app.
 "*":
   - type: NS
-    value: ns.hackclub.app
+    value: ns.hackclub.app.
