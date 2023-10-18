@@ -275,7 +275,7 @@ _vercel:
     - vc-domain-verify=codecafe.hackclub.com,7626bb39bfb56e9ea791
     - vc-domain-verify=directory.hackclub.com,0a9f7c5764c6f89d642b
     - vc-domain-verify=ihs.hackclub.com,21e13c0c6af87766f6f5
-    
+    - vc-domain-verify=poolesville.hackclub.com,d8099895eaea670eec60
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
   type: CNAME
