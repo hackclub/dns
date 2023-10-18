@@ -1182,6 +1182,10 @@ hacktheoctober:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+halo:
+    ttl: 1
+    type: CNAME
+    value: https://halo-kappa.vercel.app.
 harvest:
   ttl: 1
   type: CNAME
