@@ -27,9 +27,8 @@
       - google-site-verification=g4D9KzvB2JVf_HCcslryBI05oOxVdee9sspmd9pBAaU
       - google-site-verification=2979FUSGCz-WxnW6EukLx_N_Ay31YOyGBnvUSbwHcXc
       - google-site-verification=n9knjT30SgPd80zLKBD6M8fPFGIQUAO5OgfjDsPSrRM
-      - v=spf1 include:_spf.google.com include:mailgun.org include:amazonses.com include:sendgrid.net include:helpscoutemail.com ~all
+      - v=spf1 include:_spf.google.com include:mailgun.org include:amazonses.com include:sendgrid.net ~all
       - stripe-verification=5bdd0e2475b12744bfe1f778ac419f917800d476fd498ae2682ecd161d162c64
-      - 1password-site-verification=Q4UYPWIJSBDT5KWEECIQPRAZJ4 # For 1password's breach notification feature
 
 ihs:
   - ttl: 1
@@ -276,7 +275,7 @@ _vercel:
     - vc-domain-verify=codecafe.hackclub.com,7626bb39bfb56e9ea791
     - vc-domain-verify=directory.hackclub.com,0a9f7c5764c6f89d642b
     - vc-domain-verify=ihs.hackclub.com,21e13c0c6af87766f6f5
-    
+    - vc-domain-verify=poolesville.hackclub.com,d8099895eaea670eec60
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
   type: CNAME
@@ -1183,6 +1182,10 @@ hacktheoctober:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+halo:
+    ttl: 1
+    type: CNAME
+    value: https://halo-kappa.vercel.app.
 harvest:
   ttl: 1
   type: CNAME
@@ -1227,6 +1230,12 @@ holiday2022.cchs:
     value: cname.vercel-dns.com.
 horizon:
   ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
+haunted:
+  type: CNAME
+  value: cname.vercel-dns.com.
+hauntedhouse:
   type: CNAME
   value: cname.vercel-dns.com.
 hub.zephyr:
