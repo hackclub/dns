@@ -1055,6 +1055,10 @@ front-mail:
     values:
       - exchange: mx.sendgrid.net.
         preference: 1
+gaither:
+  ttl: 1
+  type: CNAME
+  value: gaither-hack-club.github.io
 gas:
   ttl: 1
   type: CNAME
