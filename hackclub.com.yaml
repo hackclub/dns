@@ -1058,7 +1058,7 @@ front-mail:
 gaither:
   ttl: 1
   type: CNAME
-  value: gaither-hack-club.github.io
+  value: gaither-hack-club.github.io.
 gas:
   ttl: 1
   type: CNAME
