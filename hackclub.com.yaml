@@ -2128,6 +2128,11 @@ summer:
         preference: 10
       - exchange: aspmx4.googlemail.com.
         preference: 10
+stem-kfs:
+  - ttl: 1
+    type: CNAME
+    value: https://stem-kfs-website.vercel.app.
+    
 summitshasta:
   - ttl: 1
     type: CNAME
