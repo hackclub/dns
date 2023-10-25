@@ -391,6 +391,10 @@ archived.guide:
   ttl: 1
   type: CNAME
   value: hackclub-guide.netlify.com.
+aryan:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 asia-summit:
   - ttl: 1
     type: CNAME
