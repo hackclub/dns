@@ -22,3 +22,8 @@ gverify:
   ttl: 1
   type: CNAME
   value: frozen-orange-67zbfnflol9wncm7vfgzr3bb.herokudns.com.
+internal:
+  - ttl: 1
+    type: A
+    value: 138.197.18.43
+    

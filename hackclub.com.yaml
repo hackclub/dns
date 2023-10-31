@@ -1190,7 +1190,7 @@ hacktheoctober:
 halo:
     ttl: 1
     type: CNAME
-    value: https://halo-kappa.vercel.app.
+    value: cname.vercel-dns.com.
 harvest:
   ttl: 1
   type: CNAME
@@ -1241,6 +1241,9 @@ haunted:
   type: CNAME
   value: cname.vercel-dns.com.
 hauntedhouse:
+  type: CNAME
+  value: cname.vercel-dns.com.
+hauntedto:
   type: CNAME
   value: cname.vercel-dns.com.
 hub.zephyr:
