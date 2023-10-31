@@ -497,7 +497,7 @@ bank-wrapped:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
-bhs:
+bhscode:
   - ttl: 1
     type: CNAME
     value: https://thecodingclub.my.canva.site.
