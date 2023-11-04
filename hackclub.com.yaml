@@ -1651,7 +1651,7 @@ oly:
 omay:
   - ttl: 1
     type: CNAME
-    value: 84a1498a-3af2-40c5-9383-9ea7dd66e5cb.id.repl.co.
+    value: omay.dev.
 onboard:
   - ttl: 1
     type: CNAME
