@@ -942,9 +942,6 @@ epochba:
       - exchange: aspmx4.googlemail.com.
         preference: 10
 epochvt:
-  - ttl: 1
-    type: ALIAS
-    value: cname.vercel-dns.com.
   - ttl: 3600
     type: TXT
     values:
