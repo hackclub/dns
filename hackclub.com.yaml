@@ -1052,10 +1052,18 @@ front-mail:
     values:
       - exchange: mx.sendgrid.net.
         preference: 1
+gaither:
+  ttl: 1
+  type: CNAME
+  value: gaither-hack-club.github.io.
 gas:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+gas.gas.gas:
+  ttl: 1
+  type: A
+  value: 45.79.179.212
 gamelab:
   - type: CNAME
     value: cname.vercel-dns.com.
