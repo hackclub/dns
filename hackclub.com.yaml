@@ -1060,6 +1060,10 @@ gas:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+gas.gas.gas:
+  ttl: 1
+  type: A
+  value: 45.79.179.212
 gamelab:
   - type: CNAME
     value: cname.vercel-dns.com.
