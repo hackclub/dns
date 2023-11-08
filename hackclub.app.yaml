@@ -29,6 +29,9 @@ s2._domainkey:
 ts:
   type: CNAME
   value: secure.vm.hackclub.app.
+guides:
+  type: CNAME
+  value: secure.vm.hackclub.app.
 secure.vm:
   - type: A
     value: 188.40.159.193
