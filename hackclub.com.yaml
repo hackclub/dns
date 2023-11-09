@@ -391,6 +391,10 @@ archived.guide:
   ttl: 1
   type: CNAME
   value: hackclub-guide.netlify.com.
+aryan:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 asia-summit:
   - ttl: 1
     type: CNAME
@@ -529,6 +533,10 @@ blog.ctrl-alt-tec:
   - ttl: 1
     type: CNAME
     value: ctrl-alt-tec.github.io.
+bls:
+  - ttl: 1
+    type: CNAME
+    value: v-iinh.github.io/hackclub-site.
 bn:
   - ttl: 1
     type: CNAME
@@ -942,9 +950,6 @@ epochba:
       - exchange: aspmx4.googlemail.com.
         preference: 10
 epochvt:
-  - ttl: 1
-    type: ALIAS
-    value: cname.vercel-dns.com.
   - ttl: 3600
     type: TXT
     values:
@@ -1055,10 +1060,18 @@ front-mail:
     values:
       - exchange: mx.sendgrid.net.
         preference: 1
+gaither:
+  ttl: 1
+  type: CNAME
+  value: gaither-hack-club.github.io.
 gas:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+gas.gas.gas:
+  ttl: 1
+  type: A
+  value: 45.79.179.212
 gamelab:
   - type: CNAME
     value: cname.vercel-dns.com.
@@ -1651,7 +1664,7 @@ oly:
 omay:
   - ttl: 1
     type: CNAME
-    value: 84a1498a-3af2-40c5-9383-9ea7dd66e5cb.id.repl.co.
+    value: omay.dev.
 onboard:
   - ttl: 1
     type: CNAME
