@@ -326,6 +326,10 @@ angelhacksla:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
+ansh:
+- ttl: 1
+    type: CNAME
+    value: https://ansh3108.github.io/website/.
 ama-machine:
   - ttl: 1
     type: CNAME
