@@ -20,13 +20,21 @@
     values:
       - ALIAS for hackclub.com.herokudns.com
       - google-site-verification=U8tZZVtnG2hU2CIde1FeMzGJM7d9yYUfuCKYwWVYeGo
+      - google-site-verification=TeokboHEWLDXXpRCIoubXYbpcGFfmOLhj9FuexruDKc
       - google-site-verification=haP-NAN6fjhxiSxwB7HeLmeHnUI7MsXARShhPBKSn6A
       - google-site-verification=pheoxaglA5iew_VN0RUE-eWf6lL9FlqC0vROqUGlhiA
       - google-site-verification=w6ZIJvwwXDKPKLvV_RZbxLF6vb0xfJoRidbw5LeiUcE
       - google-site-verification=g4D9KzvB2JVf_HCcslryBI05oOxVdee9sspmd9pBAaU
       - google-site-verification=2979FUSGCz-WxnW6EukLx_N_Ay31YOyGBnvUSbwHcXc
+      - google-site-verification=n9knjT30SgPd80zLKBD6M8fPFGIQUAO5OgfjDsPSrRM
       - v=spf1 include:_spf.google.com include:mailgun.org include:amazonses.com include:sendgrid.net ~all
       - stripe-verification=5bdd0e2475b12744bfe1f778ac419f917800d476fd498ae2682ecd161d162c64
+
+ihs:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
+        
 3blue1brown:
   ttl: 1
   type: CNAME
@@ -38,6 +46,7 @@
 72f724f0383247cd44371eb3cf8102a1:
   type: CNAME
   value: verify.bing.com.
+
 "*":
   ttl: 1
   type: CNAME
@@ -161,6 +170,10 @@ _h323cs._tcp.px:
       priority: 50
       target: loke2.vp.vc.
       weight: 100
+_mailchannels.spark:
+  ttl: 1
+  type: TXT
+  value: v=mc1 cfid=mliu.workers.dev cfid=maggiel.workers.dev
 _minecraft._tcp.vanilla.mc:
   ttl: 1
   type: SRV
@@ -256,12 +269,14 @@ _vercel:
     - vc-domain-verify=epochba.hackclub.com,705735e32a03c39fdd26
     - vc-domain-verify=lghs.hackclub.com,f33560bd22273ee8df77
     - vc-domain-verify=linkscape.hackclub.com,c31824abf58faa7a0160
+    - vc-domain-verify=mhs.hackclub.com,5ef9386e721cc5cd58cb
     - vc-domain-verify=dsc.hackclub.com,151b54b3f4af4d093d8d
     - vc-domain-verify=hacktks.hackclub.com,2b83e058127863ee2d1d
     - vc-domain-verify=status.hackclub.com,40b1b3248e4b63e61f56
     - vc-domain-verify=codecafe.hackclub.com,7626bb39bfb56e9ea791
     - vc-domain-verify=directory.hackclub.com,0a9f7c5764c6f89d642b
-    
+    - vc-domain-verify=ihs.hackclub.com,21e13c0c6af87766f6f5
+    - vc-domain-verify=poolesville.hackclub.com,d8099895eaea670eec60
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
   type: CNAME
@@ -282,6 +297,10 @@ aloha:
   - ttl: 1
     type: CNAME
     value: epic-mcnulty-0ed53c.netlify.app.
+alopb:
+  - ttl: 1
+    type: CNAME
+    value: alopb.netlify.app.
 alpharetta:
   - ttl: 1
     type: A
@@ -302,6 +321,10 @@ alpharetta:
         preference: 10
       - exchange: alt4.aspmx.l.google.com.
         preference: 10
+alpine:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 alumni:
   - ttl: 1
     type: CNAME
@@ -368,6 +391,10 @@ archived.guide:
   ttl: 1
   type: CNAME
   value: hackclub-guide.netlify.com.
+aryan:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 asia-summit:
   - ttl: 1
     type: CNAME
@@ -396,6 +423,10 @@ assets:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+astrohacks:
+  - ttl: 1
+    type: CNAME
+    value: www.mmgraphix.net.
 austin:
   ttl: 1
   type: CNAME
@@ -426,8 +457,8 @@ b7zvtelc2k757b2pyx7bfr5gigqwni64._domainkey:
     value: b7zvtelc2k757b2pyx7bfr5gigqwni64.dkim.custom-email-domain.stripe.com.
 bank:
   ttl: 1
-  type: CNAME
-  value: bank.hackclub.com.herokudns.com.
+  type: A
+  value: 45.79.179.212
 bankalias:
   ttl: 1
   type: CNAME
@@ -440,6 +471,10 @@ bank-docs:
   ttl: 1
   type: CNAME
   value: evolutionary-heron-qlwebnpw35gb7ovyf9z3xqwy.herokudns.com.
+bank-og: # Bank opengraph images
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 bank-parse:
   ttl: 10 # Used by Sendgrid's ActionMailbox integration
   type: MX
@@ -498,6 +533,10 @@ blog.ctrl-alt-tec:
   - ttl: 1
     type: CNAME
     value: ctrl-alt-tec.github.io.
+bls:
+  - ttl: 1
+    type: CNAME
+    value: v-iinh.github.io/hackclub-site.
 bn:
   - ttl: 1
     type: CNAME
@@ -600,6 +639,10 @@ cgc:
 changelog.bank:
   ttl: 1
   type: CNAME
+  value: hcb-proxy.servers.hackclub.com.
+changelog.hcb:
+  ttl: 1
+  type: CNAME
   value: headwayapp.co.
 chapters:
   ttl: 1
@@ -609,6 +652,10 @@ christinaday2020:
   - ttl: 3600
     type: CNAME
     value: hackclub.github.io.
+chronicle:
+  - ttl: 1
+    type: A
+    value: 157.230.66.75
 churchill:
   - ttl: 1
     type: CNAME
@@ -707,6 +754,18 @@ codethetech:
   - ttl: 1
     type: CNAME
     value: codethetech.github.io.
+dash.hackathons:
+  ttl: 1
+  type: A
+  value: 5.161.160.54
+app-1.hackathons:
+  ttl: 1
+  type: A
+  value: 5.161.229.50
+daysofservice:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 ddze3tkuawtlnbviwym44yhrjczhqzxw._domainkey:
   ttl: 1
   type: CNAME
@@ -715,6 +774,10 @@ ddze3tkuawtlnbviwym44yhrjczhqzxw._domainkey.epochvt:
   ttl: 1
   type: CNAME
   value: ddze3tkuawtlnbviwym44yhrjczhqzxw.dkim.amazonses.com.
+de:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 dear-joe:
   - ttl: 1
     type: CNAME
@@ -887,9 +950,6 @@ epochba:
       - exchange: aspmx4.googlemail.com.
         preference: 10
 epochvt:
-  - ttl: 1
-    type: ALIAS
-    value: cname.vercel-dns.com.
   - ttl: 3600
     type: TXT
     values:
@@ -946,6 +1006,10 @@ flagship:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+flagvote:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 flhs:
   - ttl: 1
     type: ALIAS
@@ -996,6 +1060,18 @@ front-mail:
     values:
       - exchange: mx.sendgrid.net.
         preference: 1
+gaither:
+  ttl: 1
+  type: CNAME
+  value: gaither-hack-club.github.io.
+gas:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
+gas.gas.gas:
+  ttl: 1
+  type: A
+  value: 45.79.179.212
 gamelab:
   - type: CNAME
     value: cname.vercel-dns.com.
@@ -1120,12 +1196,37 @@ hacktheoctober:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+halo:
+    ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
+harvest:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 haxidraw:
   type: CNAME
   value: cname.vercel-dns.com.
+hcb:
+  - type: ALIAS
+    value: rocky-jackfruit-11wv1arsenhczo2z58bae8lt.herokudns.com.
+  - type: MX
+    ttl: 10
+    value:
+      exchange: mx.sendgrid.net.
+      preference: 10
+hcb-og:
+  type: CNAME
+  value: cname.vercel-dns.com.
+hcb-proxy.servers:
+  type: A
+  value: 45.79.179.212
 hear:
   type: CNAME
   value: cname.vercel-dns.com.
+help.hcb:
+  type: CNAME
+  value: hcb.helpscoutdocs.com.
 hillsdale:
   - ttl: 1
     type: CNAME
@@ -1143,6 +1244,15 @@ holiday2022.cchs:
     value: cname.vercel-dns.com.
 horizon:
   ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
+haunted:
+  type: CNAME
+  value: cname.vercel-dns.com.
+hauntedhouse:
+  type: CNAME
+  value: cname.vercel-dns.com.
+hauntedto:
   type: CNAME
   value: cname.vercel-dns.com.
 hub.zephyr:
@@ -1172,6 +1282,28 @@ ipv6.mc-vps:
   - ttl: 1
     type: AAAA
     value: 2605:a143:2124:1775::1
+irvine:
+  - ttl: 3600
+    type: TXT
+    values:
+      - v=spf1 include:_spf.google.com ~all
+      - google-site-verification=n9knjT30SgPd80zLKBD6M8fPFGIQUAO5OgfjDsPSrRM
+  - ttl: 3600
+    type: MX
+    values:
+      - exchange: aspmx.l.google.com.
+        preference: 1
+      - exchange: alt1.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt2.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt3.aspmx.l.google.com.
+        preference: 10
+      - exchange: alt4.aspmx.l.google.com.
+        preference: 10
+  - ttl: 1
+    type: ALIAS
+    value: cname.vercel-dns.com.
 iter:
   ttl: 1
   type: CNAME
@@ -1180,6 +1312,10 @@ jain:
   ttl: 1
   type: A
   value: 185.199.108.153
+jams:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 jank:
   - ttl: 1
     type: CNAME
@@ -1251,8 +1387,8 @@ kr:
   value: cname.vercel-dns.com.
 lasa:
   - ttl: 1
-    type: CNAME
-    value: hackclublasa.github.io.
+    type: A
+    value: 136.62.158.195
 laslomas:
   - ttl: 1
     type: CNAME
@@ -1298,6 +1434,10 @@ list:
   - ttl: 1
     type: TXT
     value: google-site-verification=dy5FQ7euw6ZutiApm5ZdCTUgWn9CL3uhfJWHfD3TxLk
+lonestar:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 mail:
   - ttl: 1
     type: MX
@@ -1317,6 +1457,10 @@ mail.assemble:
   - ttl: 1
     type: TXT
     value: v=spf1 include:mailgun.org ~all
+mail._domainkey:
+  - ttl: 1
+    type: TXT
+    value: v=DKIM1\; h=sha256\; k=rsa\; s=email\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkosTUJx4I9YeDlbMvjDCmF030x/uaK1VRnaZDlnakDPsDHmHjkNv+neEh1Ai02I7WN0DGmMlNZmUuoLsRhBZDEJ3MDEnf4QtGdb3fw5g6l3mIQ27Gh87Q8/Q6RCdWDdzK2uz4hubZSqjXVQc4FiSJHY1qMh1UCZI4T3xuFBx6+l/KutRV6tUWdbXwt0g4SRJJeI0V8qe9EC+fpjSK1cNrDPMaU3s31xCdqOVfDrdJghRHVPDuBrlb1XFIxu+GlonAIdiEDM2LwHxESzJb7cR6lB9UBP05naqYKVjnuPup0+GY19WqtXtz8Ij5CDGAwEm85HJsIfYjJptuL6QYPzMUQIDAQAB
 mail.tilde:
   - ttl: 3600
     type: MX
@@ -1327,6 +1471,10 @@ mailchannels._domainkey.epochba:
   ttl: 1800
   type: TXT
   value: v=DKIM1\;p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1TbZQHVO955sdVfRbgBgo4BWVmc5D/X8o2h4l7RvcRrcrp9c0YfFc+mstp3dW0bWg0ufnRUfmq0kYpx4mG0+RvSv0/we18WqLhQAaTNmA3joa+0HV9dpFKhKJk+jbU4kGcynJ9mKR/fAwYODZSTmE4lBbGZkB7EC/eaHjBxiGUCsCy2PV/sc1DkxvglnBqNcys3orZ9JmeCKuDNvwnIql9cc89zlZksDZjrsh47zbm+gBlySMhuoD9oo/kebGPJzDohnXSHUKFAEJQUFJ6Gt65Fzv+QRrdm2vvxqOscLxO6dlk/FNl4JuY9DRlr4McmyTZUDzKaMNhKwmBPySyBYkQIDAQAB
+mailchannels._domainkey.spark:
+  ttl: 1800
+  type: TXT
+  value: v=DKIM1\;p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5jcI9ttx1aRdbhJF0ROKEIXHQoEQihY3XvdTo0ZOCO7a0/2yNHEjjneq6LozMni5ZcoyOQYP7i1CsGZ89pRn00Fhne0obQMC7wv6oth06wSTbZxv6F2N2eoEIQbxsu3BIRdxX2CzGjgU/8AtzjkRV7alibmDIC1EFRb63TvjRevUEDlkgwTmFlIYRZtLmTBwLhgN2Q32ecXYsC3ciPKLZM7eGKfe+G67hUZmFdKJbqy5sy0URp0Y60z+gIvcasRewC4X3Zw87dbOLyOWqB3PpYM23avXFhPbbMrKZi5X2i6X+AO4/ItVFf9kL2vrmoBsuCWdW/yJ1lZ8RcbEMgwW7wIDAQAB
 mailo._domainkey.testing.mail:
   ttl: 1
   type: TXT
@@ -1395,6 +1543,10 @@ mfa:
   ttl: 1
   type: CNAME
   value: genetic-junglefowl-3j5z21xloagt92vzeb752t9s.herokudns.com.
+mhs: 
+  ttl: 1
+  type: CNAME
+  value: mhs-hack-club.vercel.app.
 milesmac:
   ttl: 1
   type: CNAME
@@ -1462,6 +1614,10 @@ newcanaan:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+newcanaanlib:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 nigeria:
   ttl: 1
   type: CNAME
@@ -1508,7 +1664,7 @@ oly:
 omay:
   - ttl: 1
     type: CNAME
-    value: 84a1498a-3af2-40c5-9383-9ea7dd66e5cb.id.repl.co.
+    value: omay.dev.
 onboard:
   - ttl: 1
     type: CNAME
@@ -1555,6 +1711,10 @@ packages:
   ttl: 1
   type: CNAME
   value: secret-zebra-lydr194iy8x0x4n4rmzcii3r.herokudns.com.
+petcs:
+  ttl: 1
+  type: CNAME
+  value: exquisite-stroopwafel-98a808.netlify.app.
 philanthropy:
   ttl: 1
   type: CNAME
@@ -1605,10 +1765,6 @@ pomperaug:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
-poolesville:
-  ttl: 1
-  type: CNAME
-  value: cname.vercel-dns.com.
 portal.ctf:
   ttl: 1
   type: A
@@ -1650,6 +1806,10 @@ preflight.assemble:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+proton:
+  ttl: 1
+  type: CNAME
+  value: techpro709.github.io.
 proxyparty:
   type: A
   value: 45.79.164.46
@@ -1885,6 +2045,28 @@ som-mail-system:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
+spark:
+  - ttl: 3600
+    type: TXT
+    values:
+      - google-site-verification=tfR_HodAOAG-fVR_kaKvsE2gEz8MIqidrd-NMM2XxmQ
+      - v=spf1 include:_spf.google.com ~all
+  - ttl: 3600
+    type: MX
+    values:
+      - exchange: aspmx.l.google.com.
+        preference: 1
+      - exchange: alt1.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt2.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt3.aspmx.l.google.com.
+        preference: 10
+      - exchange: alt4.aspmx.l.google.com.
+        preference: 10
+  - ttl: 1
+    type: ALIAS
+    value: cname.vercel-dns.com.
 spp:
   - ttl: 1
     type: CNAME
@@ -1908,7 +2090,7 @@ statehigh:
 status:
   - ttl: 1
     type: CNAME
-    value: dashboards.checklyhq.com.
+    value: checkly-dashboards.com.
 status.haas:
   type: A
   value: 34.138.52.92
@@ -1932,6 +2114,12 @@ streaks:
   - ttl: 1
     type: CNAME
     value: adoring-brown-d90455.netlify.app.
+strong1._domainkey:
+  type: CNAME
+  value: strong1._domainkey.helpscout.net.
+strong2._domainkey:
+  type: CNAME
+  value: strong2._domainkey.helpscout.net.
 summer:
   - ttl: 1
     type: ALIAS
@@ -1971,6 +2159,10 @@ te:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
+telemetry:
+  - ttl: 1
+    type: A
+    value: 159.89.254.91
 testing.mail:
   - ttl: 1
     type: MX
@@ -2143,6 +2335,10 @@ vh7v2gsayfsmxmllwaannilorrbs5jbp._domainkey:
   - ttl: 1
     type: CNAME
     value: vh7v2gsayfsmxmllwaannilorrbs5jbp.dkim.custom-email-domain.stripe.com.
+vi:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 vikingsdev:
   - ttl: 1
     type: CNAME
@@ -2267,7 +2463,11 @@ hacktks:
   - ttl : 1
     type: CNAME 
     value: cname.vercel-dns.com.
-
+    
+hupy:
+  - ttl: 1
+    type: CNAME
+    value: hupy.github.io.
 
 
 

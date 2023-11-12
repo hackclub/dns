@@ -45,16 +45,12 @@
   - google-site-verification=LPx57IBOflR6ko3yB9xUp4MokUh_jXXNO8mVd0Tzh6k
   - v=spf1 include:_spf.google.com ~all
   - "00071672" # vercel verification code
+  - 1password-site-verification=USIDTEC4TVE67CUT3E7HYFVHGY # 1pass domain breach report feature
 
 # "*": # wildcard redirect
 #   ttl: 1
 #   type: CNAME
 #   value: cname.vercel-dns.com.
-
-aiden: # by https://github.com/roizor
-  ttl: 1
-  type: CNAME
-  value: 5d0f7255-8f57-4f8a-a123-a3ba0d973358.id.repl.co.
 
 andrew: # by https://github.com/anddddrew
   ttl: 1
@@ -75,6 +71,11 @@ channle: # by https://github.com/cjdenio
   ttl: 1
   type: CNAME
   value: channle.netlify.app.
+
+click: # a URL shortener
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
   
 cslide: 
   ttl: 1
@@ -114,11 +115,19 @@ geta: # yoda - https://getadinoicu.yodacode.repl.co/dino.png - get a dino from h
 hi: # doruk.dino.icu email address
  - type: TXT
    value: apple-domain=rkbobCmChEtkhbTS.
+hkgi:
+- type: CNAME
+  value: garden.devcara.com.
    
 icons: # yoda - https://github.com/yodalightsabr/icons-dino-icu - a CDN for @hackclub/icons
   ttl: 1
   type: A
   value: 76.76.21.21
+  
+innohacks: #efe
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 
 japroz: # Japroz Saini
   ttl: 1
@@ -181,6 +190,11 @@ mindson: # by rajan
   type: CNAME
   value: mindson.netlify.app.
 
+motivation: 
+  ttl: 1
+  type: CNAME
+  value: maxwofford.github.io.
+
 niilas: # Niilas - repo: https://github.com/niilasoika/niilas.dino.icu
   ttl: 1
   type: CNAME
@@ -231,7 +245,12 @@ pay: # by Ella
 periodic:
    ttl: 1
    type: CNAME
-   value: leecheeyong.github.io. 
+   value: leecheeyong.github.io.
+   
+rr: # Rickroll with a single line of bash
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 
 scales: # (yet another?) currency slack bot (with some web UI) :D
   ttl: 1
