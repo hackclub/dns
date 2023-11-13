@@ -10,9 +10,6 @@ ns:
     value: 188.40.159.194
   - type: AAAA
     value: 2a01:4f8:120:144a::194
-em2060:
-  type: CNAME
-  value: u17325777.wl028.sendgrid.net.
 identity:
   - type: A
     value: 188.40.159.193
