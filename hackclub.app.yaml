@@ -1,9 +1,7 @@
 ---
 "":
-  - type: A
-    value: 188.40.159.194
-  - type: AAAA
-    value: 2a01:4f8:120:144a::194
+  - type: NS
+    value: ns.hackclub.app.
 "*":
   - type: A
     value: 188.40.159.194
