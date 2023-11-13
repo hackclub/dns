@@ -55,6 +55,7 @@ zones:
       - config
     targets:
       - dnsimple
+    lenient: true
   hackfoundation.org.:
     sources:
       - config
