@@ -9,12 +9,6 @@ ns:
   - type: A
     value: 188.40.159.194
   - type: AAAA
-ts:
-  type: CNAME
-  value: secure.vm.hackclub.app.
-guides:
-  type: CNAME
-  value: secure.vm.hackclub.app.
 secure.vm:
   - type: A
     value: 188.40.159.193
