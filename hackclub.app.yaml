@@ -10,11 +10,3 @@ ns:
     value: 188.40.159.194
   - type: AAAA
     value: 2a01:4f8:120:144a::194
-secure.vm:
-  - type: A
-    value: 188.40.159.193
-  - type: AAAA
-    value: 2a01:4f8:120:144a::5
-status:
-  type: A
-  value: 34.138.52.92
