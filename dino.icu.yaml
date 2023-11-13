@@ -58,7 +58,7 @@ andrew: # by https://github.com/anddddrew
   value: nijmeh.xyz.
   
 ansh:
-  - ttl: 1
+   ttl: 1
     type: CNAME
     value: ansh3108.github.io/website/.
 
