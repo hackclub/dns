@@ -9,12 +9,6 @@ ns:
   - type: A
     value: 188.40.159.194
   - type: AAAA
-s1._domainkey:
-  type: CNAME
-  value: s1.domainkey.u17325777.wl028.sendgrid.net.
-s2._domainkey:
-  type: CNAME
-  value: s2.domainkey.u17325777.wl028.sendgrid.net.
 ts:
   type: CNAME
   value: secure.vm.hackclub.app.
