@@ -1,6 +1,6 @@
 ---
 "":
-  type: CNAME
+  type: ALIAS
   value: maxwofford.github.io.
 www:
   type: CNAME
