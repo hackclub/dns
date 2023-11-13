@@ -8,6 +8,7 @@ providers:
     class: octodns.provider.dnsimple.DnsimpleProvider
     token: env/DNSIMPLE_API_KEY
     account: env/DNSIMPLE_ACCOUNT_NUMBER
+    delete_pcent_threshold: 1.0
 
 zones:
   hackclub.com.:
