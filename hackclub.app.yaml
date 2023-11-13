@@ -3,6 +3,9 @@
   - type: NS
     value: ns.hackclub.app.
 "*":
+  - type: NS
+    value: ns.hackclub.app.
+ns:
   - type: A
     value: 188.40.159.194
   - type: AAAA
