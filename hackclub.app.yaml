@@ -10,11 +10,6 @@ ns:
     value: 188.40.159.194
   - type: AAAA
     value: 2a01:4f8:120:144a::194
-identity:
-  - type: A
-    value: 188.40.159.193
-  - type: AAAA
-    value: 2a01:4f8:120:144a::5
 s1._domainkey:
   type: CNAME
   value: s1.domainkey.u17325777.wl028.sendgrid.net.
