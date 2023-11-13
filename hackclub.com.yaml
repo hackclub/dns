@@ -536,7 +536,7 @@ blog.ctrl-alt-tec:
 bls:
   - ttl: 1
     type: CNAME
-    value: v-iinh.github.io/hackclub-site.
+    value: v-iinh.github.io.
 bn:
   - ttl: 1
     type: CNAME
