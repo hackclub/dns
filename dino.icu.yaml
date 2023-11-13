@@ -56,6 +56,11 @@ andrew: # by https://github.com/anddddrew
   ttl: 1
   type: CNAME
   value: nijmeh.xyz.
+  
+  ansh:
+  - ttl: 1
+    type: CNAME
+    value: ansh3108.github.io/website/.
 
 art: # by https://github.com/rajanwastaken
   ttl: 1
