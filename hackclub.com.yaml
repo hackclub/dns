@@ -332,7 +332,7 @@ alumni:
 angelhacks:
   - ttl: 1
     type: CNAME
-    value: cname.vercel-dns.com.
+    value: cname.vercel-dns.com.  
 angelhacksto:
   - ttl: 1
     type: CNAME
