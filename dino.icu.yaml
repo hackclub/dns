@@ -59,8 +59,8 @@ andrew: # by https://github.com/anddddrew
   
 ansh:
    ttl: 1
-    type: CNAME
-    value: ansh3108.github.io/website/.
+   type: CNAME
+   value: ansh3108.github.io/website/.
 
 art: # by https://github.com/rajanwastaken
   ttl: 1
