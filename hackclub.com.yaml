@@ -74,10 +74,6 @@ MaggieWalker:
   - ttl: 1
     type: CNAME
     value: Home.
-Map:
-  - ttl: 1
-    type: CNAME
-    value: hackclub.github.io.
 44.74:
   - ttl: 1
     type: CNAME
@@ -332,7 +328,7 @@ alumni:
 angelhacks:
   - ttl: 1
     type: CNAME
-    value: cname.vercel-dns.com.
+    value: cname.vercel-dns.com.  
 angelhacksto:
   - ttl: 1
     type: CNAME
@@ -536,7 +532,7 @@ blog.ctrl-alt-tec:
 bls:
   - ttl: 1
     type: CNAME
-    value: v-iinh.github.io/hackclub-site.
+    value: v-iinh.github.io.
 bn:
   - ttl: 1
     type: CNAME

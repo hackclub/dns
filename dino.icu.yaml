@@ -56,6 +56,11 @@ andrew: # by https://github.com/anddddrew
   ttl: 1
   type: CNAME
   value: nijmeh.xyz.
+  
+ansh:
+   ttl: 1
+   type: CNAME
+   value: ansh3108.github.io.
 
 art: # by https://github.com/rajanwastaken
   ttl: 1
@@ -258,6 +263,11 @@ scales: # (yet another?) currency slack bot (with some web UI) :D
   value: 150.136.254.91 # Oracle Always Free:tm: server lol
 
 short: # short.dino.icu; by kunal botla (.com)
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
+
+skyfall: # Skyfall's website (gh: SkyfallWasTaken, email: hackclubdns@skyfall.33mail.com)
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
