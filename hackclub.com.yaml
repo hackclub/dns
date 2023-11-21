@@ -2465,13 +2465,11 @@ hupy:
     type: CNAME
     value: hupy.github.io.
 
-
-
 codethetech:
   ttl: 1
   type: CNAME
   values: codethetech.github.io
-  domain: www.codethetech.hackclub.com
+  domain: codethetech.hackclub.com
     
 
 
