@@ -23,6 +23,9 @@
 '*':
   type: CNAME
   value: proxyparty.hackclub.com.
+proxytest:
+  type: A
+  value: 45.79.179.212
 _acme-challenge:
   type: TXT
   values:
@@ -31,3 +34,6 @@ _acme-challenge:
 google._domainkey:
   type: TXT
   value: v=DKIM1\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCs125Y3Ny0uCCMknvx9mix9FZqG0lw6HsguF3tPizAycHqo6QOFi8iQe6LKJc7MggYxi1O4s0juXrtzV7zF9iLEBwHvDLsxnviZU2U6RCwcVQDpryJy+j6VqmaHbbmd8w+73w0oq+JJwI1I9YL2NvK8nK35Z8/BRu8Qp2mtl+H0wIDAQAB
+place:
+  type: A
+  value: "96.126.108.99"

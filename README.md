@@ -23,9 +23,17 @@ SUBDOMAIN_NAME:
 
 That's it! Someone with contributor access to the repo will then review your PR.
 
+### Google Workspace / Vercel Combination
+
+If you're looking to use both Google Workspace and Vercel, deploying your changes may break. To fix this, follow these steps (each in a seperate step, `irvine.hackclub.com` is an example of this process):
+
+1. Delete all records associated to your subdomain.
+2. Add the records needed for Google Workspace to your subdomain.
+3. Add the remaining records you'd like for your subdomain. Instead of a `CNAME`, use `ALIAS`.
+
 ## Limitations
 
-`hackclub.xxx` subdomains are only available for all clubs and projects related to Hack Club.
+Subdomains, under domains following the format `hackclub.xxx`(or other domains reffering to hackclub), are only available for clubs and projects related to Hack Club, this does not include HCB projects. Everyone is welcome to use `dino.icu`!
 
 When adding a site hosted on ▲ Vercel, you will need to verifiy the domain by adding a TXT record.
 

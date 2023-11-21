@@ -45,21 +45,22 @@
   - google-site-verification=LPx57IBOflR6ko3yB9xUp4MokUh_jXXNO8mVd0Tzh6k
   - v=spf1 include:_spf.google.com ~all
   - "00071672" # vercel verification code
+  - 1password-site-verification=USIDTEC4TVE67CUT3E7HYFVHGY # 1pass domain breach report feature
 
 # "*": # wildcard redirect
 #   ttl: 1
 #   type: CNAME
 #   value: cname.vercel-dns.com.
 
-aiden: # by https://github.com/roizor
-  ttl: 1
-  type: CNAME
-  value: 5d0f7255-8f57-4f8a-a123-a3ba0d973358.id.repl.co.
-
 andrew: # by https://github.com/anddddrew
   ttl: 1
   type: CNAME
   value: nijmeh.xyz.
+  
+ansh:
+   ttl: 1
+   type: CNAME
+   value: ansh3108.github.io.
 
 art: # by https://github.com/rajanwastaken
   ttl: 1
@@ -75,6 +76,11 @@ channle: # by https://github.com/cjdenio
   ttl: 1
   type: CNAME
   value: channle.netlify.app.
+
+click: # a URL shortener
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
   
 cslide: 
   ttl: 1
@@ -89,7 +95,7 @@ diafano: # cfanoulis/diafano-hackclub
 doruk: 
   ttl: 1 
   type: CNAME 
-  value: itsimpeccable.github.io. 
+  value: itsimpeccable.github.io.
   
 e: # drawing app - by https://github.com/sporeball
   ttl: 1
@@ -111,10 +117,22 @@ geta: # yoda - https://getadinoicu.yodacode.repl.co/dino.png - get a dino from h
   type: CNAME
   value: ef35bb48-f121-4f7f-91f6-93f601559c24.id.repl.co.
 
+hi: # doruk.dino.icu email address
+ - type: TXT
+   value: apple-domain=rkbobCmChEtkhbTS.
+hkgi:
+- type: CNAME
+  value: garden.devcara.com.
+   
 icons: # yoda - https://github.com/yodalightsabr/icons-dino-icu - a CDN for @hackclub/icons
   ttl: 1
   type: A
   value: 76.76.21.21
+  
+innohacks: #efe
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 
 japroz: # Japroz Saini
   ttl: 1
@@ -126,11 +144,25 @@ javier: # by https://github.com/J-cordz - my personal hack club scrapbook
    type: CNAME
    value: cname.vercel-dns.com.
 
+krish: # @krishstwt
+   ttl: 1
+   type: NS
+   values:
+   - ns1.vercel-dns.com.
+   - ns2.vercel-dns.com.
+
+krishstwt: # @krishstwt
+   ttl: 1
+   type: NS
+   values:
+   - ns1.vercel-dns.com.
+   - ns2.vercel-dns.com.
+
 kevin: # Kevin Yang
   ttl: 1
   type: CNAME
   value: bykevinyang.netlify.app.
-
+  
 kunal: # kunal
   ttl: 1
   type: NS
@@ -147,6 +179,11 @@ low-ping: # roblox low ping finder site thingy; by https://github.com/lem6ns
   ttl: 1
   type: CNAME
   value: lem6ns.github.io.
+  
+mail: # a page to share your email with orpheus
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 
 meta: # meta page
   ttl: 1
@@ -157,6 +194,11 @@ mindson: # by rajan
   ttl: 1
   type: CNAME
   value: mindson.netlify.app.
+
+motivation: 
+  ttl: 1
+  type: CNAME
+  value: maxwofford.github.io.
 
 niilas: # Niilas - repo: https://github.com/niilasoika/niilas.dino.icu
   ttl: 1
@@ -208,7 +250,12 @@ pay: # by Ella
 periodic:
    ttl: 1
    type: CNAME
-   value: leecheeyong.github.io. 
+   value: leecheeyong.github.io.
+   
+rr: # Rickroll with a single line of bash
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 
 scales: # (yet another?) currency slack bot (with some web UI) :D
   ttl: 1

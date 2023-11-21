@@ -1,23 +1,12 @@
 ---
 "":
-  - type: A
-    value: 167.99.113.134
+  - type: NS
+    value: ns.hackclub.app.
 "*":
+  - type: NS
+    value: ns.hackclub.app.
+ns:
   - type: A
-    value: 167.99.113.134
-_github-challenge-hack-as-a-service:
-  type: TXT
-  value: 4b821e52c1
-em2060:
-  type: CNAME
-  value: u17325777.wl028.sendgrid.net.
-s1._domainkey:
-  type: CNAME
-  value: s1.domainkey.u17325777.wl028.sendgrid.net.
-s2._domainkey:
-  type: CNAME
-  value: s2.domainkey.u17325777.wl028.sendgrid.net.
-
-status:
-  type: A
-  value: 34.138.52.92
+    value: 188.40.159.194
+  - type: AAAA
+    value: 2a01:4f8:120:144a::194
