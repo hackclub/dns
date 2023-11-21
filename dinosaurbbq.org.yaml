@@ -1,10 +1,10 @@
 ---
 "":
   type: ALIAS
-  value: f26d5a89-7b4d-4650-b10a-f350a4801568.id.repl.co.
+  value: maxwofford.github.io.
 www:
   type: CNAME
-  value: f26d5a89-7b4d-4650-b10a-f350a4801568.id.repl.co.
+  value: maxwofford.github.io.
 wwww:
   type: CNAME
   value: exu3.github.io.
