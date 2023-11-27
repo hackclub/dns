@@ -1,4 +1,8 @@
 ---
+slss.hackclub.com:
+  - ttl: 1
+    type: CNAME
+    value: slss.hackclub.com
 "":
   - type: ALIAS
     value: cname.vercel-dns.com.
