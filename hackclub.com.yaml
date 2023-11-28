@@ -1647,7 +1647,10 @@ ocsa:
     type: TXT
     values:
       - google-site-verification=O2LlohyBOM3x0c_m9P7sn14o12H802WsaNle7XIY3QE
-    
+  - ttl: 300
+    type: CNAME
+    values:
+      - ghs.googlehosted.com.
 oly:
   - ttl: 1
     type: A
