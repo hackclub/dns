@@ -370,7 +370,7 @@ xn--ct9h:
   type: CNAME
   value: b616c4f2-bfad-4b67-9c6d-ee6afc35cc0b.id.repl.co.
 
-  shrey:
-- ttl: 1
+shrey:
+  ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
