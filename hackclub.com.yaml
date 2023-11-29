@@ -2466,7 +2466,7 @@ hupy:
     value: hupy.github.io.
 
 codethetech:
-  ttl: 1
+- ttl: 1
   type: CNAME
   value: codethetech.github.io
     
