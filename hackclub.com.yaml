@@ -885,6 +885,10 @@ eomail:
   ttl: 1
   type: CNAME
   value: custom.eomail2.com.
+es:
+  - ttl: 1
+    type: A
+    value: 76.76.21.21
 epoch:
   - ttl: 1
     type: ALIAS
