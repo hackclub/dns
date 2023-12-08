@@ -1313,7 +1313,7 @@ jp:
     type: CNAME
     value: cname.vercel-dns.com.
 japan: 
-  - ttl: 1,
+  - ttl: 1
     type: CNAME
     value: cname.vercel.dns.com.
 jchs:
