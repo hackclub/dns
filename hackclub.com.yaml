@@ -2063,6 +2063,10 @@ sprig:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
+sprig-drop:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 sprig-order:
   - ttl: 1
     type: CNAME
