@@ -11,3 +11,6 @@ ts:
 guides:
   - type: CNAME
     value: secure.hackclub.app.
+identity:
+  - type: CNAME
+    value: secure.hackclub.app.
