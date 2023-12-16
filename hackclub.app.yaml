@@ -8,3 +8,6 @@ secure:
 ts:
   - type: CNAME
     value: secure.hackclub.app.
+guides:
+  - type: CNAME
+    value: secure.hackclub.app.
