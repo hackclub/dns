@@ -1,0 +1,12 @@
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+# This file assigns people/teams that are required to review every PR touching specific paths.
+# The lowest matching rule takes precedence, so adding the infra team to every rule
+# ensures they will still be able to modify everything if need be.
+
+* @hackclub/infra
+
+# Nest
+hackclub.app.yaml @hackclub/nest @hackclub/infra
+
+# HCB
+bank.engineering.yaml @hackclub/hcb @hackclub/infra 
