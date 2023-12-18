@@ -1,12 +1,16 @@
 ---
 "":
-  - type: NS
-    value: ns.hackclub.app.
-"*":
-  - type: NS
-    value: ns.hackclub.app.
-ns:
   - type: A
-    value: 188.40.159.194
-  - type: AAAA
-    value: 2a01:4f8:120:144a::194
+    value: 37.27.51.34
+secure:
+  - type: A
+    value: 37.27.51.33
+ts:
+  - type: CNAME
+    value: secure.hackclub.app.
+guides:
+  - type: CNAME
+    value: secure.hackclub.app.
+identity:
+  - type: CNAME
+    value: secure.hackclub.app.
