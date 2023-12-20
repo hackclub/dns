@@ -9,4 +9,4 @@
 hackclub.app.yaml @hackclub/nest @hackclub/infra
 
 # HCB
-bank.engineering.yaml @hackclub/hcb @hackclub/infra 
+bank.engineering.yaml @hackclub/hcb-engineers @hackclub/infra 
