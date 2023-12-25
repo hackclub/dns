@@ -129,11 +129,16 @@ icons: # yoda - https://github.com/yodalightsabr/icons-dino-icu - a CDN for @hac
   type: A
   value: 76.76.21.21
   
+imcuteproxy: #efe
+  ttl: 1
+  type: CNAME
+  value: proxyforlaggers.imcute-aaaa.workers.dev.
+  
 innohacks: #efe
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
-
+  
 japroz: # Japroz Saini
   ttl: 1
   type: CNAME
