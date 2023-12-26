@@ -2380,6 +2380,10 @@ wl:
   - ttl: 1
     type: CNAME
     value: wl-hackclub.netlify.com.
+wonderland:
+  - ttl: 1
+    type: CNAME
+    value: wonderland-hackclub.netlify.app.
 wootton:
   - ttl: 1
     type: CNAME
