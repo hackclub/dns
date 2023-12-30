@@ -2470,10 +2470,12 @@ hupy:
     type: CNAME
     value: hupy.github.io.
 
-
-
-
 codecafe:
 - ttl: 1
   type: CNAME 
   value: cname.vercel-dns.com.
+
+northpark:
+  - ttl: 1
+    type: CNAME
+    value: nphack.club.
