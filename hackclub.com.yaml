@@ -2471,10 +2471,12 @@ hupy:
     type: CNAME
     value: hupy.github.io.
 
-
-
-
 codecafe:
 - ttl: 1
   type: CNAME 
   value: cname.vercel-dns.com.
+
+deploy:
+- ttl: 1
+  type: A
+  value: 178.62.4.201
