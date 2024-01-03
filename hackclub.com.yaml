@@ -1036,6 +1036,10 @@ fr:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
+rw:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 fremont:
   - ttl: 1
     type: CNAME
