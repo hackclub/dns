@@ -273,6 +273,7 @@ _vercel:
     - vc-domain-verify=directory.hackclub.com,0a9f7c5764c6f89d642b
     - vc-domain-verify=ihs.hackclub.com,21e13c0c6af87766f6f5
     - vc-domain-verify=poolesville.hackclub.com,d8099895eaea670eec60
+    - vc-domain-verify=wonderland.hackclub.com,0c2e35e271cd0c23752d
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
   type: CNAME
@@ -1622,10 +1623,18 @@ nmit:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
+northpark:
+  - ttl: 1
+    type: CNAME
+    value: nphack.club.
 notebook:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
+ntp:
+  - ttl: 1
+    type: CNAME
+    value: ntp-hackclub.github.io.
 numberwang:
   ttl: 1
   type: CNAME
@@ -2383,7 +2392,7 @@ wl:
 wonderland:
   - ttl: 1
     type: CNAME
-    value: wonderland-hackclub.netlify.app.
+    value: cname.vercel-dns.com.
 wootton:
   - ttl: 1
     type: CNAME
@@ -2475,7 +2484,7 @@ codecafe:
   type: CNAME 
   value: cname.vercel-dns.com.
 
-northpark:
-  - ttl: 1
-    type: CNAME
-    value: nphack.club.
+deploy:
+- ttl: 1
+  type: A
+  value: 178.62.4.201
