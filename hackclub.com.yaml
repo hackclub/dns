@@ -2393,6 +2393,10 @@ wl:
   - ttl: 1
     type: CNAME
     value: wl-hackclub.netlify.com.
+summit:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 wonderland:
   - ttl: 1
     type: CNAME
