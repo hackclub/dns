@@ -2352,7 +2352,7 @@ vault:
 vcejoqk3ugmcla3kub7bfcyn2ktbimhv._domainkey.staging.hcb: # HCB Staging SES DKIM
   - ttl: 1
     type: CNAME
-    value: vcejoqk3ugmcla3kub7bfcyn2ktbimhv.dkim.amazonses.com
+    value: vcejoqk3ugmcla3kub7bfcyn2ktbimhv.dkim.amazonses.com.
 vh7v2gsayfsmxmllwaannilorrbs5jbp._domainkey:
   - ttl: 1
     type: CNAME
