@@ -353,7 +353,7 @@ ama-machine:
 amdozjy23iquzlcpjvctd3usceggvkih._domainkey.staging.hcb: # HCB Staging SES DKIM
   - ttl: 1
     type: CNAME
-    value: amdozjy23iquzlcpjvctd3usceggvkih.dkim.amazonses.com
+    value: amdozjy23iquzlcpjvctd3usceggvkih.dkim.amazonses.com.
 amity:
   - ttl: 1
     type: CNAME
