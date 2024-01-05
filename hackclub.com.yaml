@@ -350,6 +350,10 @@ ama-machine:
   - ttl: 1
     type: CNAME
     value: rugged-pheasant-1rx4ei5ejoumyp4fxpq3s8rs.herokudns.com.
+amdozjy23iquzlcpjvctd3usceggvkih._domainkey.staging.hcb: # HCB Staging SES DKIM
+  - ttl: 1
+    type: CNAME
+    value: amdozjy23iquzlcpjvctd3usceggvkih.dkim.amazonses.com
 amity:
   - ttl: 1
     type: CNAME
@@ -1849,6 +1853,10 @@ q6vh4lhupwotqenjf4s4ygzyhir3e5ii._domainkey.epochvt:
   ttl: 1
   type: CNAME
   value: q6vh4lhupwotqenjf4s4ygzyhir3e5ii.dkim.amazonses.com.
+qxzidlw3degr5ejxptxl5755zlix7hwc._domainkey.staging.hcb: # HCB Staging SES DKIM
+  - ttl: 1
+    type: CNAME
+    value: qxzidlw3degr5ejxptxl5755zlix7hwc.dkim.amazonses.com
 rahs:
   - ttl: 1
     type: CNAME
@@ -2341,6 +2349,10 @@ vault:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
+vcejoqk3ugmcla3kub7bfcyn2ktbimhv._domainkey.staging.hcb: # HCB Staging SES DKIM
+  - ttl: 1
+    type: CNAME
+    value: vcejoqk3ugmcla3kub7bfcyn2ktbimhv.dkim.amazonses.com
 vh7v2gsayfsmxmllwaannilorrbs5jbp._domainkey:
   - ttl: 1
     type: CNAME
