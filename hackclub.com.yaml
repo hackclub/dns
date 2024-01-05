@@ -1856,7 +1856,7 @@ q6vh4lhupwotqenjf4s4ygzyhir3e5ii._domainkey.epochvt:
 qxzidlw3degr5ejxptxl5755zlix7hwc._domainkey.staging.hcb: # HCB Staging SES DKIM
   - ttl: 1
     type: CNAME
-    value: qxzidlw3degr5ejxptxl5755zlix7hwc.dkim.amazonses.com
+    value: qxzidlw3degr5ejxptxl5755zlix7hwc.dkim.amazonses.com.
 rahs:
   - ttl: 1
     type: CNAME
