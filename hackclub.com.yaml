@@ -1687,6 +1687,21 @@ orpheushacks: # Harrison Katz automatically wins for adding the DNS entry - that
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
+outerlan:
+  - ttl: 1
+    type: A
+    values:
+      - 185.199.108.153
+      - 185.199.109.153
+      - 185.199.110.153
+      - 185.199.111.153
+  - ttl: 1
+    type: AAAA
+    values:
+      - 2606:50c0:8000::153
+      - 2606:50c0:8001::153
+      - 2606:50c0:8002::153
+      - 2606:50c0:8003::153
 outernet:
   - ttl: 1
     type: CNAME
