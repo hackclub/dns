@@ -1690,7 +1690,7 @@ orpheushacks: # Harrison Katz automatically wins for adding the DNS entry - that
 outerlan:
   - ttl: 1
     type: CNAME
-    value: hackclub.github.io
+    value: hackclub.github.io.
 outernet:
   - ttl: 1
     type: CNAME
