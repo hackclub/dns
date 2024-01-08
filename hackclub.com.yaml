@@ -585,6 +585,11 @@ birthday:
     type: TXT
     value: vc-domain-verify=birthday.hackclub.com,b54f1e09bf276faffd29.
 
+bloomington:
+  - ttl: 1
+    type: CNAME
+    value: averseabfun.github.io/bloomington-hackclub.
+
 calendar:
   ttl: 1
   type: CNAME
