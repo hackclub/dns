@@ -1635,7 +1635,7 @@ nmit:
 northpark:
   - ttl: 1
     type: CNAME
-    value: nphack.club.
+    value: cname.vercel-dns.com.
 notebook:
   - ttl: 1
     type: CNAME
