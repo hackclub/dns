@@ -1,8 +1,8 @@
 ---
 "":
   ttl: 1
-  type: A
-  value: 23.92.24.6
+  type: ALIAS
+  value: cname.vercel-dns.com.
 _acme-challenge.curl:
   ttl: 1
   type: CNAME
@@ -26,4 +26,7 @@ internal:
   - ttl: 1
     type: A
     value: 138.197.18.43
-    
+www:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
