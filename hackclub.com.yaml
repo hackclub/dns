@@ -273,6 +273,7 @@ _vercel:
     - vc-domain-verify=directory.hackclub.com,0a9f7c5764c6f89d642b
     - vc-domain-verify=ihs.hackclub.com,21e13c0c6af87766f6f5
     - vc-domain-verify=poolesville.hackclub.com,d8099895eaea670eec60
+    - vc-domain-verify=wonderland.hackclub.com,0c2e35e271cd0c23752d
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
   type: CNAME
@@ -349,6 +350,10 @@ ama-machine:
   - ttl: 1
     type: CNAME
     value: rugged-pheasant-1rx4ei5ejoumyp4fxpq3s8rs.herokudns.com.
+amdozjy23iquzlcpjvctd3usceggvkih._domainkey.staging.hcb: # HCB Staging SES DKIM
+  - ttl: 1
+    type: CNAME
+    value: amdozjy23iquzlcpjvctd3usceggvkih.dkim.amazonses.com.
 amity:
   - ttl: 1
     type: CNAME
@@ -451,6 +456,10 @@ b7zvtelc2k757b2pyx7bfr5gigqwni64._domainkey:
   - ttl: 1
     type: CNAME
     value: b7zvtelc2k757b2pyx7bfr5gigqwni64.dkim.custom-email-domain.stripe.com.
+bag:
+  ttl: 1
+  type: CNAME
+  value: cubed-brushlands-4n4uary8mwor0m2v6x38x6ek.herokudns.com.
 bank:
   ttl: 1
   type: A
@@ -1032,6 +1041,10 @@ forms.phs:
     type: CNAME
     value: cname.vercel-dns.com.
 fr:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
+rw:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
@@ -1622,10 +1635,18 @@ nmit:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
+northpark:
+  - ttl: 1
+    type: CNAME
+    value: nphack.club.
 notebook:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
+ntp:
+  - ttl: 1
+    type: CNAME
+    value: ntp-hackclub.github.io.
 numberwang:
   ttl: 1
   type: CNAME
@@ -1670,6 +1691,10 @@ orpheushacks: # Harrison Katz automatically wins for adding the DNS entry - that
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
+outerlan:
+  - ttl: 1
+    type: CNAME
+    value: hackclub.github.io.
 outernet:
   - ttl: 1
     type: CNAME
@@ -1836,6 +1861,10 @@ q6vh4lhupwotqenjf4s4ygzyhir3e5ii._domainkey.epochvt:
   ttl: 1
   type: CNAME
   value: q6vh4lhupwotqenjf4s4ygzyhir3e5ii.dkim.amazonses.com.
+qxzidlw3degr5ejxptxl5755zlix7hwc._domainkey.staging.hcb: # HCB Staging SES DKIM
+  - ttl: 1
+    type: CNAME
+    value: qxzidlw3degr5ejxptxl5755zlix7hwc.dkim.amazonses.com.
 rahs:
   - ttl: 1
     type: CNAME
@@ -2328,6 +2357,10 @@ vault:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
+vcejoqk3ugmcla3kub7bfcyn2ktbimhv._domainkey.staging.hcb: # HCB Staging SES DKIM
+  - ttl: 1
+    type: CNAME
+    value: vcejoqk3ugmcla3kub7bfcyn2ktbimhv.dkim.amazonses.com.
 vh7v2gsayfsmxmllwaannilorrbs5jbp._domainkey:
   - ttl: 1
     type: CNAME
@@ -2380,6 +2413,14 @@ wl:
   - ttl: 1
     type: CNAME
     value: wl-hackclub.netlify.com.
+summit:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
+wonderland:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 wootton:
   - ttl: 1
     type: CNAME
@@ -2466,10 +2507,12 @@ hupy:
     type: CNAME
     value: hupy.github.io.
 
-
-
-
 codecafe:
 - ttl: 1
   type: CNAME 
   value: cname.vercel-dns.com.
+
+deploy:
+- ttl: 1
+  type: A
+  value: 178.62.4.201
