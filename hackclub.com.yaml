@@ -295,6 +295,10 @@ aloha:
   - ttl: 1
     type: CNAME
     value: epic-mcnulty-0ed53c.netlify.app.
+alopb:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 alpharetta:
   - ttl: 1
     type: A
