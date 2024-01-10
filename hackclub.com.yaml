@@ -1659,8 +1659,8 @@ ocsa:
   - ttl: 3600
     type: TXT
     values: 
-    -google-site-verification=tk_snQuv19iUwoOlsbKZv2Wwg5stfcusEm1Q8NxDiVA
-    -v=spf1 include:_spf.google.com ~all
+    - google-site-verification=tk_snQuv19iUwoOlsbKZv2Wwg5stfcusEm1Q8NxDiVA
+    - v=spf1 include:_spf.google.com ~all
  
   - ttl: 3600
     type: MX
