@@ -1676,7 +1676,7 @@ ocsa:
       - exchange: alt4.aspmx.l.google.com.
         preference: 10
   - ttl: 1
-    type: CNAME
+    type: ALIAS
     value: uhegg.github.io.
   
 
