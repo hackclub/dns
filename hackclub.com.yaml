@@ -1677,7 +1677,7 @@ ocsa:
         preference: 10
   - ttl: 1
     type: CNAME
-    value: uhegg.github.io
+    value: uhegg.github.io.
   
 
 
