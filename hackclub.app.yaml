@@ -11,6 +11,9 @@ secure:
 ts:
   - type: CNAME
     value: secure.hackclub.app.
+pve.ts:
+  - type: A
+    value: 100.64.0.10
 guides:
   - type: CNAME
     value: secure.hackclub.app.
