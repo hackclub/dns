@@ -2543,7 +2543,7 @@ codecafe:
   type: CNAME 
   value: cname.vercel-dns.com.
 
-deploy:
+internal:
 - ttl: 1
   type: A
-  value: 178.62.4.201
+  value: 134.209.190.125
