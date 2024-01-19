@@ -3,7 +3,7 @@
 # The lowest matching rule takes precedence, so adding the infra team to every rule
 # ensures they will still be able to modify everything if need be.
 
-* @hackclub/infra
+* @hackclub/infra @hackclub/dns-friends
 
 # Nest
 hackclub.app.yaml @hackclub/nest @hackclub/infra
