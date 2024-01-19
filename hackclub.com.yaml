@@ -461,10 +461,10 @@ b7zvtelc2k757b2pyx7bfr5gigqwni64._domainkey:
   - ttl: 1
     type: CNAME
     value: b7zvtelc2k757b2pyx7bfr5gigqwni64.dkim.custom-email-domain.stripe.com.
-bag:
+bag-client:
   ttl: 1
   type: CNAME
-  value: cubed-brushlands-4n4uary8mwor0m2v6x38x6ek.herokudns.com.
+  value: clean-newt-pvkclyvh5jba28mi1hxaltg5.herokudns.com.
 bank:
   ttl: 1
   type: A
