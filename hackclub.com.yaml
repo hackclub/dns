@@ -27,7 +27,7 @@
       - google-site-verification=g4D9KzvB2JVf_HCcslryBI05oOxVdee9sspmd9pBAaU
       - google-site-verification=2979FUSGCz-WxnW6EukLx_N_Ay31YOyGBnvUSbwHcXc
       - google-site-verification=n9knjT30SgPd80zLKBD6M8fPFGIQUAO5OgfjDsPSrRM
-      - v=spf1 include:_spf.google.com include:mailgun.org include:amazonses.com include:sendgrid.net ~all
+      - v=spf1 include:_spf.google.com include:mailgun.org include:amazonses.com include:sendgrid.net include:spf.mtasv.net ~all
       - stripe-verification=5bdd0e2475b12744bfe1f778ac419f917800d476fd498ae2682ecd161d162c64
 
 ihs:
@@ -123,6 +123,10 @@ _dmarc:
   ttl: 1
   type: TXT
   value: v=DMARC1\; p=quarantine\; rua=mailto:6192c543e0e61@ag.dmarcly.com\; ruf=mailto:6192c543e0e61@fo.dmarcly.com\; fo=1\;
+_github-challenge-ALOPB-Hack-Club-org.alopb:
+  - ttl: 1
+    type: TXT
+    value: 8c323c2c39
 _github-challenge-GaynorMcCown.gaynormccown:
   - ttl: 1
     type: TXT
@@ -275,6 +279,7 @@ _vercel:
     - vc-domain-verify=poolesville.hackclub.com,d8099895eaea670eec60
     - vc-domain-verify=wonderland.hackclub.com,0c2e35e271cd0c23752d
     - vc-domain-verify=northpark.hackclub.com,366fafcc48a7709aeea8
+    - vc-domain-verify=alopb.hackclub.com,4e5088446aea4b3d4559
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
   type: CNAME
@@ -298,7 +303,7 @@ aloha:
 alopb:
   - ttl: 1
     type: CNAME
-    value: alopb.netlify.app.
+    value: cname.vercel-dns.com.
 alpharetta:
   - ttl: 1
     type: A
@@ -457,6 +462,10 @@ b7zvtelc2k757b2pyx7bfr5gigqwni64._domainkey:
   - ttl: 1
     type: CNAME
     value: b7zvtelc2k757b2pyx7bfr5gigqwni64.dkim.custom-email-domain.stripe.com.
+bag-client:
+  ttl: 1
+  type: CNAME
+  value: clean-newt-pvkclyvh5jba28mi1hxaltg5.herokudns.com.
 bank:
   ttl: 1
   type: A
@@ -585,6 +594,11 @@ birthday:
   - ttl: 1
     type: TXT
     value: vc-domain-verify=birthday.hackclub.com,b54f1e09bf276faffd29.
+
+#bloomington:
+#  - ttl: 1
+#    type: CNAME
+#    value: averseabfun.github.io/bloomington-hackclub.
 
 calendar:
   ttl: 1
@@ -1653,9 +1667,30 @@ nust:
     type: CNAME
     value: nusthackclub.netlify.app.
 ocsa:
-  - ttl: 1
+  - ttl: 3600
     type: TXT
-    value: google-site-verification=O2LlohyBOM3x0c_m9P7sn14o12H802WsaNle7XIY3QE
+    values: 
+    - google-site-verification=tk_snQuv19iUwoOlsbKZv2Wwg5stfcusEm1Q8NxDiVA
+    - v=spf1 include:_spf.google.com ~all
+ 
+  - ttl: 3600
+    type: MX
+    values:
+      - exchange: aspmx.l.google.com.
+        preference: 1
+      - exchange: alt1.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt2.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt3.aspmx.l.google.com.
+        preference: 10
+      - exchange: alt4.aspmx.l.google.com.
+        preference: 10
+  - ttl: 1
+    type: ALIAS
+    value: uhegg.github.io.
+  
+
 
 oly:
   - ttl: 1
@@ -2509,7 +2544,7 @@ codecafe:
   type: CNAME 
   value: cname.vercel-dns.com.
 
-deploy:
+internal:
 - ttl: 1
   type: A
-  value: 178.62.4.201
+  value: 134.209.190.125

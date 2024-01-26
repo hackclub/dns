@@ -92,3 +92,8 @@ zones:
       - config
     targets:
       - dnsimple
+  nonprofit.new.:
+    sources:
+      - config
+    targets:
+      - dnsimple
