@@ -123,6 +123,10 @@ _dmarc:
   ttl: 1
   type: TXT
   value: v=DMARC1\; p=quarantine\; rua=mailto:6192c543e0e61@ag.dmarcly.com\; ruf=mailto:6192c543e0e61@fo.dmarcly.com\; fo=1\;
+_github-challenge-ALOPB-Hack-Club-org.alopb:
+  - ttl: 1
+    type: TXT
+    value: 8c323c2c39
 _github-challenge-GaynorMcCown.gaynormccown:
   - ttl: 1
     type: TXT
@@ -457,10 +461,10 @@ b7zvtelc2k757b2pyx7bfr5gigqwni64._domainkey:
   - ttl: 1
     type: CNAME
     value: b7zvtelc2k757b2pyx7bfr5gigqwni64.dkim.custom-email-domain.stripe.com.
-bag:
+bag-client:
   ttl: 1
   type: CNAME
-  value: cubed-brushlands-4n4uary8mwor0m2v6x38x6ek.herokudns.com.
+  value: clean-newt-pvkclyvh5jba28mi1hxaltg5.herokudns.com.
 bank:
   ttl: 1
   type: A
@@ -2539,7 +2543,7 @@ codecafe:
   type: CNAME 
   value: cname.vercel-dns.com.
 
-deploy:
+internal:
 - ttl: 1
   type: A
-  value: 178.62.4.201
+  value: 134.209.190.125
