@@ -1323,6 +1323,10 @@ jain:
   ttl: 1
   type: A
   value: 185.199.108.153
+jam:
+ - ttl: 1
+   type: CNAME
+   value: jams.hackclub.com.
 jams:
   - ttl: 1
     type: CNAME
