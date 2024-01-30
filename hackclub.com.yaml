@@ -278,6 +278,7 @@ _vercel:
     - vc-domain-verify=ihs.hackclub.com,21e13c0c6af87766f6f5
     - vc-domain-verify=poolesville.hackclub.com,d8099895eaea670eec60
     - vc-domain-verify=wonderland.hackclub.com,0c2e35e271cd0c23752d
+    - vc-domain-verify=northpark.hackclub.com,366fafcc48a7709aeea8
     - vc-domain-verify=alopb.hackclub.com,4e5088446aea4b3d4559
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
@@ -1652,7 +1653,7 @@ nmit:
 northpark:
   - ttl: 1
     type: CNAME
-    value: nphack.club.
+    value: cname.vercel-dns.com.
 notebook:
   - ttl: 1
     type: CNAME
