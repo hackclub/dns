@@ -88,7 +88,7 @@ cslide:
   value: leecheeyong.github.io.
 
 dev-email:
-  type: MX
+- type: MX
   values:
   - exchange: mx1.improvmx.com.
     preference: 10
