@@ -35,6 +35,9 @@ ihs:
     type: CNAME
     value: cname.vercel-dns.com.
         
+20230913174421pm._domainkey:
+  type: TXT
+  value: k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCbYfun+ZMwXJGRqp41sG/OXWPgbQd6Ewf/ccOBCvigm9LSarnT1QCUizzc+ZqBfSc4UTlJJx2hyhWYN6zFHibSndOBmY3y09uKuv7S4v3usfhpVVJZw9BOQLL4N9uIysrzLhVOfCpXiIIQQHn/a277SA8klIDfVcZkxdkyBRQDlQIDAQAB
 3blue1brown:
   ttl: 1
   type: CNAME
