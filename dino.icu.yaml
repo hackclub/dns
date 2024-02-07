@@ -86,6 +86,18 @@ cslide:
   ttl: 1
   type: CNAME
   value: leecheeyong.github.io.
+
+dev-email:
+- type: MX
+  values:
+  - exchange: mx1.improvmx.com.
+    preference: 10
+  - exchange: mx2.improvmx.com.
+    preference: 20
+- ttl: 5
+  type: TXT
+  values:
+  - v=spf1 include:spf.improvmx.com ~all
   
 diafano: # cfanoulis/diafano-hackclub
   ttl: 1
@@ -369,3 +381,7 @@ xn--c1h:
 xn--ct9h:
   type: CNAME
   value: b616c4f2-bfad-4b67-9c6d-ee6afc35cc0b.id.repl.co.
+
+xn--rl8h:
+  type: CNAME
+  value: maxwofford.github.io.
