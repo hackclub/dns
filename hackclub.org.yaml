@@ -17,6 +17,9 @@
 '*':
   type: CNAME
   value: proxyparty.hackclub.com.
+'i':
+  type: CNAME
+  value: prox.itrackly.com.
 't':
   type: CNAME
   value: custom.lemlist.com.
