@@ -2,6 +2,24 @@
 '':
 - type: ALIAS
   value: proxyparty.hackclub.com.
+- type: MX
+  values:
+    - exchange: aspmx.l.google.com.
+      preference: 1
+    - exchange: alt1.aspmx.l.google.com.
+      preference: 5
+    - exchange: alt2.aspmx.l.google.com.
+      preference: 5
+    - exchange: aspmx2.googlemail.com.
+      preference: 10
+    - exchange: aspmx3.googlemail.com.
+      preference: 10
 '*':
   type: CNAME
   value: proxyparty.hackclub.com.
+'i':
+  type: CNAME
+  value: prox.itrackly.com.
+'t':
+  type: CNAME
+  value: custom.lemlist.com.

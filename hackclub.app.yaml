@@ -8,6 +8,9 @@
 secure:
   - type: A
     value: 37.27.51.33
+summit:
+  - type: CNAME
+    value: cname.vercel-dns.com.
 ts:
   - type: CNAME
     value: secure.hackclub.app.
