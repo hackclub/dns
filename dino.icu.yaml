@@ -334,7 +334,7 @@ tejas: # by tej
 vansh:
  - ttl: 1
    type: CNAME
-   value: lowkeyvansh.github.io/web.
+   value: lowkeyvansh.github.io.
 
 
 vercel:
