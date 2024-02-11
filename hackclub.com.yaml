@@ -1735,6 +1735,10 @@ orpheushacks: # Harrison Katz automatically wins for adding the DNS entry - that
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
+orpheusodyssey:
+  - ttl: 1
+    type: CNAME
+    value: 1b3djzn4.up.railway.app.
 outerlan:
   - ttl: 1
     type: CNAME
