@@ -30,6 +30,11 @@
       - v=spf1 include:_spf.google.com include:mailgun.org include:amazonses.com include:sendgrid.net include:spf.mtasv.net ~all
       - stripe-verification=5bdd0e2475b12744bfe1f778ac419f917800d476fd498ae2682ecd161d162c64
 
+slashz:
+  - ttl: 1
+    type: A
+    value: 209.97.144.104
+    
 ihs:
   - ttl: 1
     type: CNAME
@@ -282,6 +287,7 @@ _vercel:
     - vc-domain-verify=poolesville.hackclub.com,d8099895eaea670eec60
     - vc-domain-verify=wonderland.hackclub.com,0c2e35e271cd0c23752d
     - vc-domain-verify=alopb.hackclub.com,4e5088446aea4b3d4559
+    - vc-domain-verify=tlap.hackclub.com,fab392891c03fb490ae4
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
   type: CNAME
@@ -1729,6 +1735,10 @@ orpheushacks: # Harrison Katz automatically wins for adding the DNS entry - that
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
+orpheusodyssey:
+  - ttl: 1
+    type: CNAME
+    value: 1b3djzn4.up.railway.app.
 outerlan:
   - ttl: 1
     type: CNAME
@@ -2084,7 +2094,7 @@ skyscrapper:
 slash-z:
   ttl: 1
   type: CNAME
-  value: floral-date-yhzcyfgel7h2kjlz83pc7s1b.herokudns.com.
+  value: sheltered-macaw-2pwfsepypwy3e60hw28b57a5.herokudns.com.
 smhs:
   - ttl: 1
     type: CNAME
@@ -2307,6 +2317,10 @@ titanhacks:
   - ttl: 1
     type: CNAME
     value: titanhacks.club.
+tlap:
+    ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 toolbox:
   ttl: 1
   type: CNAME
