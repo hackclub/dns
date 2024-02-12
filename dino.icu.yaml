@@ -331,6 +331,12 @@ tejas: # by tej
   type: CNAME
   value: tejasag.netlify.app.
 
+vansh:
+ - ttl: 1
+   type: CNAME
+   value: lowkeyvansh.github.io.
+
+
 vercel:
 - ttl: 1
   type: ALIAS
