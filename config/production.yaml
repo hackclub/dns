@@ -51,6 +51,11 @@ zones:
       - config
     targets:
       - dnsimple
+  hack.club.:
+    sources:
+      - config
+    targets:
+      - dnsimple
   hackclub.app.:
     lenient: true
     sources:
