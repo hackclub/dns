@@ -1827,6 +1827,10 @@ podcast:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+polaroid:
+  ttl: 1
+  type: CNAME
+  value: polaroid.iunstable0.com.
 pomperaug:
   ttl: 1
   type: CNAME
