@@ -1,8 +1,8 @@
 ---
 "":
-  ttl: 1
-  type: ALIAS
-  value: cname.vercel-dns.com.
+  - ttl: 1
+    type: ALIAS
+    value: cname.vercel-dns.com.
   - ttl: 1
     type: MX
     values:
