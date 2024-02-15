@@ -1235,6 +1235,9 @@ hcb:
     value:
       exchange: mx.sendgrid.net.
       preference: 10
+  - ttl: 3600
+    type: TXT
+    value: google-gws-recovery-domain-verification=49632973
 hcb-og:
   type: CNAME
   value: cname.vercel-dns.com.
@@ -2345,6 +2348,10 @@ tracking:
   ttl: 1
   type: CNAME
   value: shiprocket.co.
+transfers.hcb:
+  ttl: 1
+  type: TXT
+  value: google-site-verification=ozdU6t74W_kUOxJEc1QOQxvU-GkWq7XimWhOmuUW2ic
 turner:
   - ttl: 1
     type: CNAME
