@@ -2344,6 +2344,10 @@ tracking:
   ttl: 1
   type: CNAME
   value: shiprocket.co.
+transfers.hcb:
+  ttl: 1
+  type: TXT
+  value: google-site-verification=ozdU6t74W_kUOxJEc1QOQxvU-GkWq7XimWhOmuUW2ic
 turner:
   - ttl: 1
     type: CNAME
