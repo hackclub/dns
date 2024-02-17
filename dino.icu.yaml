@@ -265,7 +265,7 @@ periodic:
    value: leecheeyong.github.io.
    
 piyush:
-   ttl: 1
+   ttl: 600
    type: CNAME
    value: dino.piyush.ovh.
    
