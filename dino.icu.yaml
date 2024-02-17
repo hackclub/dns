@@ -264,6 +264,11 @@ periodic:
    type: CNAME
    value: leecheeyong.github.io.
    
+piyush:
+   ttl: 600
+   type: CNAME
+   value: dino.piyush.ovh.
+   
 rr: # Rickroll with a single line of bash
   ttl: 1
   type: CNAME
