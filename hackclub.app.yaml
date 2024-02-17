@@ -23,3 +23,6 @@ guides:
 identity:
   - type: CNAME
     value: secure.hackclub.app.
+sheetparty:
+  - type: A
+    value: 37.27.51.34
