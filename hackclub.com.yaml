@@ -127,6 +127,10 @@ _atproto:
   ttl: 1
   type: TXT
   value: did=did:plc:5rvcaxx64aqyguao6dbuscbz
+blossom:
+  - ttl: 1
+    type: TXT
+    value: SOURCE_DOMAIN_OR_IP.
 _dmarc:
   ttl: 1
   type: TXT
