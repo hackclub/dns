@@ -546,6 +546,10 @@ blog.ctrl-alt-tec:
   - ttl: 1
     type: CNAME
     value: ctrl-alt-tec.github.io.
+blossom:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 bls:
   - ttl: 1
     type: CNAME
@@ -2580,7 +2584,3 @@ internal:
   type: A
   value: 134.209.190.125
   
-blossom:
-  - ttl: 1
-    type: CNAME
-    value: cname.vercel-dns.com.
