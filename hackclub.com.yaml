@@ -1412,7 +1412,7 @@ knit:
   - ttl: 1
     type: CNAME
     value: hackclubknit.netlify.app.
-kr:
+ko:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
