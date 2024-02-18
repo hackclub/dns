@@ -127,10 +127,6 @@ _atproto:
   ttl: 1
   type: TXT
   value: did=did:plc:5rvcaxx64aqyguao6dbuscbz
-blossom:
-  - ttl: 1
-    type: TXT
-    value: SOURCE_DOMAIN_OR_IP.
 _dmarc:
   ttl: 1
   type: TXT
@@ -2583,3 +2579,8 @@ internal:
 - ttl: 1
   type: A
   value: 134.209.190.125
+  
+blossom:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
