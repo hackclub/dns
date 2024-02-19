@@ -68,9 +68,9 @@ art: # by https://github.com/rajanwastaken
   value: particle-generativeart.netlify.app.
   
 canteen:
-  ttl: 1
-  type: A
-  value: 76.76.21.21 # vercel
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com. # vercel
   
 channels: # an API for getting slack channels and their IDs
   ttl: 1
