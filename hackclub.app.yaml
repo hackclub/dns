@@ -32,8 +32,8 @@ mail:
   - type: A
     value: 37.27.51.34
   - type: MX
-    value: mail.hackclub.app
-    priority: 10
+    value: mail.hackclub.app.
+    preference: 10
   - type: TXT
     value: "v=spf1 a ~all"
 _dmarc:
