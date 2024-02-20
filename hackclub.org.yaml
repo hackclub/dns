@@ -14,6 +14,9 @@
       preference: 10
     - exchange: aspmx3.googlemail.com.
       preference: 10
+- type: TXT
+  values:
+    - v=spf1 include:_spf.google.com ~all
 '*':
   type: CNAME
   value: proxyparty.hackclub.com.
