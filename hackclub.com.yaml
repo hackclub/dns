@@ -631,6 +631,20 @@ cca:
   - ttl: 1
     type: CNAME
     value: reticulated-taiga-qmd1uv2l14p5opobi3fwksqv.herokudns.com.
+ccn:
+  - ttl: 3600
+    type: MX
+    values:
+      - exchange: aspmx.l.google.com.
+        preference: 1
+      - exchange: alt1.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt2.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt3.aspmx.l.google.com.
+        preference: 10
+      - exchange: alt4.aspmx.l.google.com.
+        preference: 10
 cccs:
   type: CNAME
   value: cname.vercel-dns.com.
