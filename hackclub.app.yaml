@@ -2,6 +2,11 @@
 "":
   - type: A
     value: 37.27.51.34
+  - type: MX
+    value: mail.hackclub.app
+    priority: 10
+  - type: TXT
+    value: "v=spf1 mx ~all" 
 "*":
   - type: CNAME
     value: hackclub.app.
@@ -23,3 +28,23 @@ guides:
 identity:
   - type: CNAME
     value: secure.hackclub.app.
+mail:
+  - type: A
+    value: 37.27.51.34
+  - type: MX
+    value: mail.hackclub.app
+    priority: 10
+  - type: TXT
+    value: "v=spf1 a ~all"
+_dmarc:
+  - type: TXT
+    value: "v=DMARC1; p=quarantine; pct=100; rua=mailto:re+th21p3veobw@dmarc.postmarkapp.com; sp=none; aspf=r;"
+_dmarc.mail:
+  - type: TXT
+    value: "v=DMARC1; p=quarantine; pct=100; rua=mailto:re+th21p3veobw@dmarc.postmarkapp.com; sp=none; aspf=r;"
+default._domainkey:
+  - type: TXT
+    value: "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA17VSzPTBHOoJZakJwP61rT45jUBXrwUOxyZ1cAJdcHTNZDqxAxK6BzGM0TlpUW2eY8mMSXqiqS6fGSOkJOVnJT4TR4lXP+bK9rQW758q2nbArbGVEO8R8vsaeaGUBPHxwlNdtnvmtBqgTjNLl4KZ5hmyHjtAbFovb8QlgEHOW8/itt9ayHOocD6fZwb0fqZUCCVjQsrJ3TLa5CcTiQVuzV25ZoUOY64M95ZpUiT2lkQBqIcdsNl9FSZ4Cn1u88MHR/sgC/VX9JcWMeviIfNmlSDkFEH6ciht65iMWLoS6jqEQEg0v8G/5tdc3kAYFQoeOOACqCdk7qpRwmgNrB7A5QIDAQAB"
+default.mail._domainkey:
+  - type: TXT
+    value: "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA11HBitey/bjnJF+WJJnHYikgNTtDyLTDykdZWjopb9yWNSrTkgnH7DXk/fTnHDZBJOgeDnQFIHS3j4k3Ctk6oE5DntUoTkalc93u02tu4HW9Ufp5uIw/Bzocn3pBM5QNv6tro3XRgJry1yvv9srd7GHBM3xtVm37X8kW1NQEaitYeLwX3UX+o4iPWNvJP251V/Zu00Zk+3xCr5x955IxlydTt0rH6G8zMHlIqmtdta6vzqTd9xLhykxao7LGKRKr2Y2Z44w3YHXSvpsiIfdHMg8RKXlczTO4b7SQM2soTEITTAImW7xGcIKktZoiNkGxUj274YDQIitPMcylKh6JQQIDAQAB"
