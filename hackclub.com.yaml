@@ -473,7 +473,7 @@ b7zvtelc2k757b2pyx7bfr5gigqwni64._domainkey:
 bag-client:
   ttl: 1
   type: CNAME
-  value: x4wqrkhw.up.railway.app
+  value: maquuthk.up.railway.app.
 bank:
   ttl: 1
   type: A
