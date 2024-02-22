@@ -14,9 +14,17 @@
       preference: 10
     - exchange: aspmx3.googlemail.com.
       preference: 10
+- type: TXT
+  values:
+    - v=spf1 include:_spf.google.com ~all
 '*':
   type: CNAME
   value: proxyparty.hackclub.com.
+'google._domainkey':
+  type: TXT
+  values:
+    - v=DKIM1\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyyALAbWSwpJeE1eS9mLXoYt1GqNf/AA9UyZpn8Nx8h84SKYEByj7sm/fj2HXOZnVxYZmGlXIuPzVnMH10LW9WUWuOpen8Vu8/8620BEcjLV3JxLQNuLLOjZ8sTQGDx72vEHDy7kdLyH+qTtgWNHGcR9htiNY547aQhdjBl2AqNc+/aTybdmW1q7VRk7vFVKzRN5m5KKaOb8jmKmoGzBgjvhKLM3DzByTdkB9YBn7WfltZDcuH7jdTNpjpe6gliwOKoyOyIRyt8bmkM0WnQp4Wiu28b0vIW4lDG1pKve8Ry4N9bXq8ENnvkShBrhrD+3z3grABOK7V9gCA5/g422cDwIDAQAB
+
 'i':
   type: CNAME
   value: prox.itrackly.com.

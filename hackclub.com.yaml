@@ -473,7 +473,7 @@ b7zvtelc2k757b2pyx7bfr5gigqwni64._domainkey:
 bag-client:
   ttl: 1
   type: CNAME
-  value: clean-newt-pvkclyvh5jba28mi1hxaltg5.herokudns.com.
+  value: maquuthk.up.railway.app.
 bank:
   ttl: 1
   type: A
@@ -631,6 +631,20 @@ cca:
   - ttl: 1
     type: CNAME
     value: reticulated-taiga-qmd1uv2l14p5opobi3fwksqv.herokudns.com.
+ccn:
+  - ttl: 3600
+    type: MX
+    values:
+      - exchange: aspmx.l.google.com.
+        preference: 1
+      - exchange: alt1.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt2.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt3.aspmx.l.google.com.
+        preference: 10
+      - exchange: alt4.aspmx.l.google.com.
+        preference: 10
 cccs:
   type: CNAME
   value: cname.vercel-dns.com.
@@ -1514,6 +1528,10 @@ malagon:
   - ttl: 1
     type: CNAME
     value: hackclubmalagon.netlify.app.
+maps:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 markdown:
   - ttl: 1
     type: CNAME
