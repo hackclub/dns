@@ -37,9 +37,6 @@ mail:
 _dmarc:
   - type: TXT
     value: v=DMARC1\; p=quarantine\; pct=100\; rua=mailto:re+go6t7fdzddc@dmarc.postmarkapp.com\; sp=none\; aspf=r\;
-_acme-challenge:
-  - type: TXT
-    value: 8Zp13bskh8FkmFCte3Hqi5n1VMa5Ah8k7Bq81vyKAIg
 default._domainkey:
   - type: TXT
     value: v=DKIM1\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA17VSzPTBHOoJZakJwP61rT45jUBXrwUOxyZ1cAJdcHTNZDqxAxK6BzGM0TlpUW2eY8mMSXqiqS6fGSOkJOVnJT4TR4lXP+bK9rQW758q2nbArbGVEO8R8vsaeaGUBPHxwlNdtnvmtBqgTjNLl4KZ5hmyHjtAbFovb8QlgEHOW8/itt9ayHOocD6fZwb0fqZUCCVjQsrJ3TLa5CcTiQVuzV25ZoUOY64M95ZpUiT2lkQBqIcdsNl9FSZ4Cn1u88MHR/sgC/VX9JcWMeviIfNmlSDkFEH6ciht65iMWLoS6jqEQEg0v8G/5tdc3kAYFQoeOOACqCdk7qpRwmgNrB7A5QIDAQAB
