@@ -2198,9 +2198,9 @@ status.haas:
   type: A
   value: 34.138.52.92
 stemegypt:
-  - ttl: 1
+  - ttl: 900
     type: CNAME
-    value: stemegypthc.netlify.app.
+    value: hack-club-stem-egypt-website.pages.dev.
 stemsharkya:
   - ttl: 1
     type: CNAME
