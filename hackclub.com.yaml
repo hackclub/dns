@@ -2600,7 +2600,7 @@ codecafe:
 pizza:
 - ttl: 1
   type: CNAME
-  value: pizza.hackclub.com.
+  value: hackclub.com/pizza.
 
 internal:
 - ttl: 1
