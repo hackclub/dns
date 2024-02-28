@@ -2504,11 +2504,11 @@ summit:
     type: CNAME
     value: cname.vercel-dns.com.
 wonderland:
-  - ttl: 1
+  - ttl: 3600
     type: CNAME
     value: cname.vercel-dns.com.
 wonderland-launch:
-  - ttl: 1
+  - ttl: 3600
     type: CNAME
     value: cname.vercel-dns.com.
 wootton:
