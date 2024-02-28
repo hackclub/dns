@@ -286,6 +286,7 @@ _vercel:
     - vc-domain-verify=ihs.hackclub.com,21e13c0c6af87766f6f5
     - vc-domain-verify=poolesville.hackclub.com,d8099895eaea670eec60
     - vc-domain-verify=wonderland.hackclub.com,0c2e35e271cd0c23752d
+    - vc-domain-verify=wonderland-launch.hackclub.com,2a724b908654f2912e48
     - vc-domain-verify=alopb.hackclub.com,4e5088446aea4b3d4559
     - vc-domain-verify=tlap.hackclub.com,fab392891c03fb490ae4
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
@@ -2503,6 +2504,10 @@ summit:
     type: CNAME
     value: cname.vercel-dns.com.
 wonderland:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
+wonderland-launch:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
