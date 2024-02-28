@@ -2601,11 +2601,6 @@ codecafe:
 - ttl: 1
   type: CNAME 
   value: cname.vercel-dns.com.
-  
-pizza:
-- ttl: 1
-  type: CNAME
-  value: hackclub.com/pizza.
 
 internal:
 - ttl: 1
