@@ -12,7 +12,7 @@ This repository is used for managing Hack Club's DNS configuration through [Octo
 
 ```yaml
 SUBDOMAIN_NAME:
-  - ttl: 1
+  - ttl: 600
     type: CNAME
     value: SOURCE_DOMAIN_OR_IP.
 ```
@@ -43,7 +43,7 @@ Add the value to the [hackclub.com.yaml](./hackclub.com.yaml) file as shown belo
 
 ```yaml
 _vercel:
-  ttl: 1
+  ttl: 600
   type: TXT
   values:
     - vc-domain-verify=wackclub.hackclub.com,423c28e0fbdd51449cf1
