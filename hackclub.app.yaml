@@ -2,6 +2,8 @@
 "":
   - type: A
     value: 37.27.51.34
+  - type: AAAA
+    value: 2a01:4f9:3081:399c::4
   - type: MX
     values: 
       - exchange: mail.hackclub.app.
@@ -14,6 +16,8 @@
 secure:
   - type: A
     value: 37.27.51.33
+  - type: AAAA
+    value: 2a01:4f9:3081:399c::3
 summit:
   - type: CNAME
     value: cname.vercel-dns.com.
@@ -23,6 +27,8 @@ ts:
 pve.ts:
   - type: A
     value: 100.64.0.10
+  - type: AAAA
+    value: 2a01:4f9:3081:399c::2
 guides:
   - type: CNAME
     value: secure.hackclub.app.
@@ -32,6 +38,8 @@ identity:
 mail:
   - type: A
     value: 37.27.51.34
+  - type: AAAA
+    value: 2a01:4f9:3081:399c::4
   - type: TXT
     value: "v=spf1 a ~all"
 _dmarc:
