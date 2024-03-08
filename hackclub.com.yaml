@@ -920,6 +920,11 @@ embed.scrapbook:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+envelope: # for loops.so spf & dmarc
+  - type: MX
+    value: feedback-smtp.us-east-1.amazonses.com.
+  - type: TXT
+    value: v=spf1 include:amazonses.com ~all
 eolink:
   ttl: 1
   type: CNAME
@@ -1480,6 +1485,12 @@ lonestar:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
+lxqekzzkeh32evz7auo5klcbsas5ccbs._domainkey: # for loops.so dkim
+  - type: CNAME
+    value: lxqekzzkeh32evz7auo5klcbsas5ccbs.dkim.amazonses.com.
+m73ztewzt6jv32f4lj6wk3vlkceswf3f._domainkey: # for loops.so dkim
+  - type: CNAME
+    value: m73ztewzt6jv32f4lj6wk3vlkceswf3f.dkim.amazonses.com.
 mail:
   - ttl: 1
     type: MX
@@ -2455,6 +2466,9 @@ vmc:
   - ttl: 1
     type: A
     value: 45.61.162.143
+vn6m35np2nwaqdbm4l2potsno5qfnfz3._domainkey: # for loops.so dkim
+  - type: CNAME
+    value: vn6m35np2nwaqdbm4l2potsno5qfnfz3.dkim.amazonses.com.
 warsaw:
   - ttl: 1
     type: CNAME
