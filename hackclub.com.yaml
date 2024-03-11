@@ -426,7 +426,7 @@ asiet:
 asmgame:
   - ttl: 1
     type: ALIAS
-    value: hackclub.github.io/asmgame.
+    value: hackclub.github.io.
   - ttl: 1
     type: A
     values:
