@@ -423,6 +423,10 @@ asiet:
   - ttl: 1
     type: CNAME
     value: kkharidev.github.io.
+asmgame:
+  - ttl: 1
+    type: CNAME
+    value: hackclub.github.io/asmgame.
 assemble:
   - ttl: 1
     type: CNAME
