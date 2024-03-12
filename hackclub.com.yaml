@@ -423,6 +423,17 @@ asiet:
   - ttl: 1
     type: CNAME
     value: kkharidev.github.io.
+asmgame:
+  - ttl: 3600
+    type: ALIAS
+    value: hackclub.github.io.
+  - ttl: 3600
+    type: A
+    values:
+      - 185.199.108.153
+      - 185.199.109.153
+      - 185.199.110.153
+      - 185.199.111.153
 assemble:
   - ttl: 1
     type: CNAME
