@@ -425,9 +425,6 @@ asiet:
     value: kkharidev.github.io.
 asmgame:
   - ttl: 3600
-    type: ALIAS
-    value: hackclub.github.io.
-  - ttl: 3600
     type: A
     values:
       - 185.199.108.153
