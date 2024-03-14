@@ -103,6 +103,11 @@ dev-email:
   type: TXT
   values:
   - v=spf1 include:spf.improvmx.com ~all
+
+dev.hkgi: # HKGI test instance
+  ttl: 3600
+  type: CNAME
+  value: garden.devcara.com.
   
 diafano: # cfanoulis/diafano-hackclub
   ttl: 1
