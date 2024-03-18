@@ -656,6 +656,10 @@ cccs:
 cchs:
   type: CNAME
   value: cname.vercel-dns.com.
+ccshc:
+  - ttl: 180
+    type: CNAME
+    value: cmshc.github.io.
 cdn:
   type: CNAME
   value: cname.vercel-dns.com.
@@ -707,10 +711,6 @@ cken:
   - ttl: 1
     type: A
     value: 52.191.165.18
-ccshc:
-  - ttl: 180
-    type: CNAME
-    value: cmshc.github.io.
 coet:
   - ttl: 1
     type: CNAME
