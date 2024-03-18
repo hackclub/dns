@@ -708,7 +708,7 @@ cken:
     type: A
     value: 52.191.165.18
 ccshc:
-  - ttl: 120
+  - ttl: 180
     type: CNAME
     value: cmshc.github.io.
 coet:
