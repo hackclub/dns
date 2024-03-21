@@ -2219,7 +2219,7 @@ status.haas:
 status.hcb:
   - ttl: 1
     type: CNAME
-    value: cname.appsignal-status.com
+    value: cname.appsignal-status.com.
 stemegypt:
   - ttl: 900
     type: CNAME
