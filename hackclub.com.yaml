@@ -476,7 +476,7 @@ b7zvtelc2k757b2pyx7bfr5gigqwni64._domainkey:
     type: CNAME
     value: b7zvtelc2k757b2pyx7bfr5gigqwni64.dkim.custom-email-domain.stripe.com.
 bag-client:
-  ttl: 1
+  ttl: 3600
   type: A
   value: 34.107.172.209
 bank:
