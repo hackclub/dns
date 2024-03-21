@@ -2216,6 +2216,10 @@ status:
 status.haas:
   type: A
   value: 34.138.52.92
+status.hcb:
+  - ttl: 1
+    type: CNAME
+    value: cname.appsignal-status.com
 stemegypt:
   - ttl: 900
     type: CNAME
