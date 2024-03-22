@@ -558,7 +558,7 @@ blossom:
 blot:
   - ttl: 1
     type: CNAME
-    value: blot-db3b252330ac.herokuapp.com.
+    value: symmetrical-octopus-lt8g3wd4mao62e2j6tq7eoah.herokudns.com.
 bls:
   - ttl: 1
     type: CNAME
