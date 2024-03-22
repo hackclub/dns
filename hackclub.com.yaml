@@ -475,6 +475,10 @@ b7zvtelc2k757b2pyx7bfr5gigqwni64._domainkey:
   - ttl: 1
     type: CNAME
     value: b7zvtelc2k757b2pyx7bfr5gigqwni64.dkim.custom-email-domain.stripe.com.
+bag:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
 bag.client:
   ttl: 3600
   type: A
