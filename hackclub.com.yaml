@@ -558,7 +558,7 @@ blossom:
 blot:
   - ttl: 1
     type: CNAME
-    value: symmetrical-octopus-lt8g3wd4mao62e2j6tq7eoah.herokudns.com.
+    value: floral-fox-hyj1o8cxitplwxu7tfwlz6rn.herokudns.com.
 bls:
   - ttl: 1
     type: CNAME
