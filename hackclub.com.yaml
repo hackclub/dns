@@ -1286,6 +1286,9 @@ hcb-proxy.servers:
 hear:
   type: CNAME
   value: cname.vercel-dns.com.
+help.bank:
+  type: CNAME
+  value: hcb-proxy.servers.hackclub.com.
 help.hcb:
   type: CNAME
   value: hcb.helpscoutdocs.com.
