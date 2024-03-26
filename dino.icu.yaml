@@ -390,7 +390,7 @@ wordcalc:
   value: cname.vercel-dns.com.
 
 write: # WriteFreely!
-  ttl: 1
+  ttl: 3600
   type: A
   value: 47.39.192.9
 
