@@ -389,6 +389,11 @@ wordcalc:
   type: CNAME
   value: cname.vercel-dns.com.
 
+write: # WriteFreely!
+  ttl: 3600
+  type: A
+  value: 47.39.192.9
+
 www: # redirect to bare domain
   ttl: 1
   type: CNAME
