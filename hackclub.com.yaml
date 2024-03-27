@@ -81,7 +81,7 @@ IAW:
 join.apocalypse:
   - ttl: 600
     type: CNAME
-    value: cname.tally.so
+    value: cname.tally.so.
 44.74:
   - ttl: 1
     type: CNAME
