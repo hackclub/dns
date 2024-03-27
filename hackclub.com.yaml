@@ -78,6 +78,10 @@ IAW:
   - ttl: 1
     type: CNAME
     value: iawhackclub.netlify.com.
+register.apocalypse:
+ - ttl: 1
+    type: CNAME
+    value: cname.tally.so
 44.74:
   - ttl: 1
     type: CNAME
