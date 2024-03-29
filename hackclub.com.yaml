@@ -1041,6 +1041,10 @@ events:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+evergreen:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 evoking:
   ttl: 1
   type: CNAME
