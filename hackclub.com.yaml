@@ -2305,7 +2305,7 @@ te:
     type: CNAME
     value: cname.vercel-dns.com.
 teach:
-  - ttl: 1
+  - ttl: 600
     type: CNAME
     value: hackclub.github.io.
 telemetry:
