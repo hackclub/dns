@@ -357,6 +357,10 @@ angelhacksba:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
+apocalypse:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 angelhacksla:
   - ttl: 1
     type: CNAME
