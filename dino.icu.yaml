@@ -299,6 +299,12 @@ skyfall: # Skyfall's website (gh: SkyfallWasTaken, email: hackclubdns@skyfall.33
   type: CNAME
   value: cname.vercel-dns.com.
 
+# spend hq's money
+spend:
+  - ttl: 600
+    type: A
+    value: 76.76.21.21
+
 spider: # spider.dino.icu; reserved by hack club bank
 - type: ALIAS
   value: cname.vercel-dns.com.
