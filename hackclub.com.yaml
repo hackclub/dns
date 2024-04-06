@@ -693,7 +693,7 @@ cgc:
     value: hackclubcgc.netlify.app.
 cghs:
   - ttl: 600
-  - type: CNAME
+    type: CNAME
     value: cghs-hackclub.github.io
 changelog.bank:
   ttl: 1
