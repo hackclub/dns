@@ -166,6 +166,10 @@ _github-challenge-rahs-hackclub.rahs:
   - ttl: 1
     type: TXT
     value: f43a54836a
+_github-pages-challenge-cghs-hackclub.cghs:
+  - ttl: 7200
+    type: TXT
+    value: a1704fb19aca2f4b785803f2f2edb8
 _h323cs._tcp.px:
   ttl: 1
   type: SRV
