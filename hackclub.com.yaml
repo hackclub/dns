@@ -694,7 +694,7 @@ cgc:
 cghs:
   - ttl: 600
   - type: CNAME
-  - value: cghs-hackclub.github.io
+    value: cghs-hackclub.github.io
 changelog.bank:
   ttl: 1
   type: CNAME
