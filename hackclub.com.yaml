@@ -238,7 +238,7 @@ _sip._udp.px:
   ttl: 1
   type: SRV
   values:
-    - port: 5060600
+    - port: 500
       priority: 10
       target: ygg1.vp.vc.
       weight: 100
