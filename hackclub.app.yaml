@@ -18,9 +18,6 @@ secure:
     value: 37.27.51.33
   - type: AAAA
     value: 2a01:4f9:3081:399c::3
-summit:
-  - type: CNAME
-    value: cname.vercel-dns.com.
 ts:
   - type: CNAME
     value: secure.hackclub.app.
