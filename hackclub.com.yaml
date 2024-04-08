@@ -238,7 +238,7 @@ _sip._udp.px:
   ttl: 1
   type: SRV
   values:
-    - port: 5060
+    - port: 5060600
       priority: 10
       target: ygg1.vp.vc.
       weight: 100
@@ -736,7 +736,7 @@ cken:
     type: A
     value: 52.191.165.18
 codeabit:
-  - ttl: 1
+  - ttl: 600
     type: CNAME
     value: codeabitkw.github.io.
 coet:
