@@ -735,6 +735,10 @@ cken:
   - ttl: 1
     type: A
     value: 52.191.165.18
+codeabit:
+  - ttl: 1
+    type: CNAME
+    value: codeabitkw.github.io.
 coet:
   - ttl: 1
     type: CNAME
