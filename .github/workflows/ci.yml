@@ -1,0 +1,47 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request: {}
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+    - name: Validate JSON & YAML files
+      uses: GrantBirki/json-yaml-validate@v2.6.2
+  format:
+    runs-on: ubuntu-latest
+    needs: validate
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+    - name: Format YAML files
+      uses: ./.github/actions/format
+    - name: Push changes
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: Format YAML files
+        commit_author: "github-actions[bot] <>"
+  test:
+    runs-on: ubuntu-latest
+    needs: format
+    steps:
+    - name: Setup Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3
+    - name: Install OctoDNS
+      run: pip install octodns==0.9.10
+    - name: Do a dry run
+      run: ./bin/dry-run
+      env:
+        DNSIMPLE_ACCOUNT_NUMBER: ${{ secrets.DNSIMPLE_ACCOUNT_NUMBER }}
+        DNSIMPLE_API_KEY: ${{ secrets.DNSIMPLE_API_KEY }}

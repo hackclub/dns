@@ -1,0 +1,8 @@
+name: Format YAML files
+inputs:
+  token:
+    required: true
+    default: "${{ github.token }}"
+runs:
+  using: node20
+  main: index.js
