@@ -8,3 +8,6 @@ www:
 wwww:
   type: CNAME
   value: exu3.github.io.
+aux:
+  type: A
+  value: 136.62.158.195

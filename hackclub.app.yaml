@@ -2,12 +2,22 @@
 "":
   - type: A
     value: 37.27.51.34
+  - type: AAAA
+    value: 2a01:4f9:3081:399c::4
+  - type: MX
+    values: 
+      - exchange: mail.hackclub.app.
+        priority: 10
+  - type: TXT
+    value: "v=spf1 mx ~all" 
 "*":
   - type: CNAME
     value: hackclub.app.
 secure:
   - type: A
     value: 37.27.51.33
+  - type: AAAA
+    value: 2a01:4f9:3081:399c::3
 summit:
   - type: CNAME
     value: cname.vercel-dns.com.
@@ -17,9 +27,24 @@ ts:
 pve.ts:
   - type: A
     value: 100.64.0.10
+  - type: AAAA
+    value: 2a01:4f9:3081:399c::2
 guides:
   - type: CNAME
     value: secure.hackclub.app.
 identity:
   - type: CNAME
     value: secure.hackclub.app.
+mail:
+  - type: A
+    value: 37.27.51.34
+  - type: AAAA
+    value: 2a01:4f9:3081:399c::4
+  - type: TXT
+    value: "v=spf1 a ~all"
+_dmarc:
+  - type: TXT
+    value: v=DMARC1\; p=quarantine\; pct=100\; rua=mailto:re+go6t7fdzddc@dmarc.postmarkapp.com\; sp=none\; aspf=r\;
+default._domainkey:
+  - type: TXT
+    value: v=DKIM1\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA17VSzPTBHOoJZakJwP61rT45jUBXrwUOxyZ1cAJdcHTNZDqxAxK6BzGM0TlpUW2eY8mMSXqiqS6fGSOkJOVnJT4TR4lXP+bK9rQW758q2nbArbGVEO8R8vsaeaGUBPHxwlNdtnvmtBqgTjNLl4KZ5hmyHjtAbFovb8QlgEHOW8/itt9ayHOocD6fZwb0fqZUCCVjQsrJ3TLa5CcTiQVuzV25ZoUOY64M95ZpUiT2lkQBqIcdsNl9FSZ4Cn1u88MHR/sgC/VX9JcWMeviIfNmlSDkFEH6ciht65iMWLoS6jqEQEg0v8G/5tdc3kAYFQoeOOACqCdk7qpRwmgNrB7A5QIDAQAB

@@ -37,6 +37,10 @@ internal:
   - ttl: 1
     type: A
     value: 138.197.18.43
+maps:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 www:
   - ttl: 1
     type: CNAME

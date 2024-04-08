@@ -66,7 +66,12 @@ art: # by https://github.com/rajanwastaken
   ttl: 1
   type: CNAME
   value: particle-generativeart.netlify.app.
-
+  
+canteen:
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com. # vercel
+  
 channels: # an API for getting slack channels and their IDs
   ttl: 1
   type: CNAME
@@ -98,6 +103,11 @@ dev-email:
   type: TXT
   values:
   - v=spf1 include:spf.improvmx.com ~all
+
+dev.hkgi: # HKGI test instance
+  ttl: 3600
+  type: CNAME
+  value: garden.devcara.com.
   
 diafano: # cfanoulis/diafano-hackclub
   ttl: 1
@@ -289,6 +299,12 @@ skyfall: # Skyfall's website (gh: SkyfallWasTaken, email: hackclubdns@skyfall.33
   type: CNAME
   value: cname.vercel-dns.com.
 
+# spend hq's money
+spend:
+  - ttl: 600
+    type: A
+    value: 76.76.21.21
+
 spider: # spider.dino.icu; reserved by hack club bank
 - type: ALIAS
   value: cname.vercel-dns.com.
@@ -378,6 +394,11 @@ wordcalc:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+
+write: # WriteFreely!
+  ttl: 3600
+  type: A
+  value: 47.39.192.9
 
 www: # redirect to bare domain
   ttl: 1

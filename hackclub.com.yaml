@@ -78,10 +78,10 @@ IAW:
   - ttl: 1
     type: CNAME
     value: iawhackclub.netlify.com.
-MaggieWalker:
-  - ttl: 1
+join.apocalypse:
+  - ttl: 600
     type: CNAME
-    value: Home.
+    value: cname.tally.so.
 44.74:
   - ttl: 1
     type: CNAME
@@ -166,6 +166,10 @@ _github-challenge-rahs-hackclub.rahs:
   - ttl: 1
     type: TXT
     value: f43a54836a
+_github-pages-challenge-cghs-hackclub.cghs:
+  - ttl: 7200
+    type: TXT
+    value: a1704fb19aca2f4b785803f2f2edb8
 _h323cs._tcp.px:
   ttl: 1
   type: SRV
@@ -286,6 +290,7 @@ _vercel:
     - vc-domain-verify=ihs.hackclub.com,21e13c0c6af87766f6f5
     - vc-domain-verify=poolesville.hackclub.com,d8099895eaea670eec60
     - vc-domain-verify=wonderland.hackclub.com,0c2e35e271cd0c23752d
+    - vc-domain-verify=wonderland-launch.hackclub.com,2a724b908654f2912e48
     - vc-domain-verify=alopb.hackclub.com,4e5088446aea4b3d4559
     - vc-domain-verify=tlap.hackclub.com,fab392891c03fb490ae4
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
@@ -354,6 +359,10 @@ angelhacks-yyz:
     value: cname.vercel-dns.com.
 angelhacksba:
   - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
+apocalypse:
+  - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
 angelhacksla:
@@ -426,6 +435,14 @@ asiet:
   - ttl: 1
     type: CNAME
     value: kkharidev.github.io.
+asmgame:
+  - ttl: 3600
+    type: A
+    values:
+      - 185.199.108.153
+      - 185.199.109.153
+      - 185.199.110.153
+      - 185.199.111.153
 assemble:
   - ttl: 1
     type: CNAME
@@ -470,10 +487,14 @@ b7zvtelc2k757b2pyx7bfr5gigqwni64._domainkey:
   - ttl: 1
     type: CNAME
     value: b7zvtelc2k757b2pyx7bfr5gigqwni64.dkim.custom-email-domain.stripe.com.
-bag-client:
+bag:
   ttl: 1
   type: CNAME
-  value: clean-newt-pvkclyvh5jba28mi1hxaltg5.herokudns.com.
+  value: cname.vercel-dns.com.
+bag.client:
+  ttl: 3600
+  type: A
+  value: 34.49.72.119
 bank:
   ttl: 1
   type: A
@@ -550,6 +571,10 @@ blossom:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
+blot:
+  - ttl: 1
+    type: CNAME
+    value: floral-fox-hyj1o8cxitplwxu7tfwlz6rn.herokudns.com.
 bls:
   - ttl: 1
     type: CNAME
@@ -631,12 +656,30 @@ cca:
   - ttl: 1
     type: CNAME
     value: reticulated-taiga-qmd1uv2l14p5opobi3fwksqv.herokudns.com.
+ccn:
+  - ttl: 3600
+    type: MX
+    values:
+      - exchange: aspmx.l.google.com.
+        preference: 1
+      - exchange: alt1.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt2.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt3.aspmx.l.google.com.
+        preference: 10
+      - exchange: alt4.aspmx.l.google.com.
+        preference: 10
 cccs:
   type: CNAME
   value: cname.vercel-dns.com.
 cchs:
   type: CNAME
   value: cname.vercel-dns.com.
+ccshc:
+  - ttl: 180
+    type: CNAME
+    value: cmshc.github.io.
 cdn:
   type: CNAME
   value: cname.vercel-dns.com.
@@ -652,6 +695,10 @@ cgc:
   - ttl: 1
     type: CNAME
     value: hackclubcgc.netlify.app.
+cghs:
+  - ttl: 600
+    type: CNAME
+    value: cghs-hackclub.github.io.
 changelog.bank:
   ttl: 1
   type: CNAME
@@ -688,6 +735,10 @@ cken:
   - ttl: 1
     type: A
     value: 52.191.165.18
+codeabit:
+  - ttl: 600
+    type: CNAME
+    value: codeabitkw.github.io.
 coet:
   - ttl: 1
     type: CNAME
@@ -717,6 +768,10 @@ coxmill:
   - ttl: 1
     type: CNAME
     value: modest-swanson-0a9aa6.netlify.app.
+craft:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 css:
   - ttl: 1
     type: CNAME
@@ -909,6 +964,14 @@ embed.scrapbook:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+envelope: # for loops.so spf & dmarc
+  - type: MX
+    values:
+      - exchange: feedback-smtp.us-east-1.amazonses.com.
+        preference: 1
+  - type: TXT
+    values:
+      - v=spf1 include:amazonses.com ~all
 eolink:
   ttl: 1
   type: CNAME
@@ -998,6 +1061,10 @@ events:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
+evergreen:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 evoking:
   ttl: 1
   type: CNAME
@@ -1251,6 +1318,9 @@ hcb-proxy.servers:
 hear:
   type: CNAME
   value: cname.vercel-dns.com.
+help.bank:
+  type: CNAME
+  value: hcb-proxy.servers.hackclub.com.
 help.hcb:
   type: CNAME
   value: hcb.helpscoutdocs.com.
@@ -1473,6 +1543,12 @@ lonestar:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
+lxqekzzkeh32evz7auo5klcbsas5ccbs._domainkey: # for loops.so dkim
+  - type: CNAME
+    value: lxqekzzkeh32evz7auo5klcbsas5ccbs.dkim.amazonses.com.
+m73ztewzt6jv32f4lj6wk3vlkceswf3f._domainkey: # for loops.so dkim
+  - type: CNAME
+    value: m73ztewzt6jv32f4lj6wk3vlkceswf3f.dkim.amazonses.com.
 mail:
   - ttl: 1
     type: MX
@@ -1518,6 +1594,10 @@ malagon:
   - ttl: 1
     type: CNAME
     value: hackclubmalagon.netlify.app.
+maps:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 markdown:
   - ttl: 1
     type: CNAME
@@ -1617,10 +1697,6 @@ ms:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
-mw:
-  - ttl: 1
-    type: CNAME
-    value: Home.
 mx._domainkey:
   ttl: 1
   type: TXT
@@ -2183,10 +2259,14 @@ status:
 status.haas:
   type: A
   value: 34.138.52.92
-stemegypt:
-  - ttl: 1
+status.hcb:
+  - ttl: 3600
     type: CNAME
-    value: stemegypthc.netlify.app.
+    value: cname.appsignal-status.com.
+stemegypt:
+  - ttl: 900
+    type: CNAME
+    value: hack-club-stem-egypt-website.pages.dev.
 stemsharkya:
   - ttl: 1
     type: CNAME
@@ -2248,6 +2328,10 @@ te:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
+teach:
+  - ttl: 600
+    type: CNAME
+    value: hackclub.github.io.
 telemetry:
   - ttl: 1
     type: A
@@ -2360,6 +2444,10 @@ transfers.hcb:
   ttl: 1
   type: TXT
   value: google-site-verification=ozdU6t74W_kUOxJEc1QOQxvU-GkWq7XimWhOmuUW2ic
+trail:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 turner:
   - ttl: 1
     type: CNAME
@@ -2448,6 +2536,9 @@ vmc:
   - ttl: 1
     type: A
     value: 45.61.162.143
+vn6m35np2nwaqdbm4l2potsno5qfnfz3._domainkey: # for loops.so dkim
+  - type: CNAME
+    value: vn6m35np2nwaqdbm4l2potsno5qfnfz3.dkim.amazonses.com.
 warsaw:
   - ttl: 1
     type: CNAME
@@ -2489,7 +2580,11 @@ summit:
     type: CNAME
     value: cname.vercel-dns.com.
 wonderland:
-  - ttl: 1
+  - ttl: 3600
+    type: CNAME
+    value: cname.vercel-dns.com.
+wonderland-launch:
+  - ttl: 3600
     type: CNAME
     value: cname.vercel-dns.com.
 wootton:
