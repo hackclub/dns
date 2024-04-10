@@ -34,7 +34,6 @@ slashz:
   - ttl: 1
     type: A
     value: 209.97.144.104
-    
 ihs:
   - ttl: 1
     type: CNAME
@@ -2186,6 +2185,10 @@ slash-z:
   ttl: 1
   type: CNAME
   value: sheltered-macaw-2pwfsepypwy3e60hw28b57a5.herokudns.com.
+professorbloom:
+  ttl: 1
+  type: CNAME
+  value: behavioural-crag-3cp212813kwpnv174r5p27e1.herokudns.com.
 smhs:
   - ttl: 1
     type: CNAME
