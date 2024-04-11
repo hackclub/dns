@@ -14,13 +14,13 @@
     values:
       - algorithm: 1
         fingerprint_type: 2
-        fingerprint: "AAAAB3NzaC1yc2EAAAADAQABAAABgQCkQnX8cBdKobrNL8xCoS+Z1vNRcWcmj2kGhZsgfzF91Rmj2iX/kTC4qQvm/2yYUb58AULew+tuwaZitUCIpUIA6qn41rURpzYf5Yuf0Xjy9DeJwZmBuw6jjoKMYcy1nD/eDMvSMyIKpr0Yygqfdw7F8VghJzKeG/CEqfZkBV1993ad9G0usl74gPrgIb524FeTnrNr+G3NXs53VtvBY7TrpJK2wHLlLfMm6mXk3C7AI5AYaGRo+3PndqhmGnfQndgj3oK6AZAYQHR8XXrZEZt6eptNdi5vQs+VvNZHCVLB4AO3O+IgVfVh6Pm+Y1nXk13coTXJtfI4grrxAVjIbGzrCUC9Gr34u7037xUyvgVPLMHhEWc7zw5YqBotptz0IUE6Qjffa3NaBdM4oRsdEXK5VmPlowsxeHVz0H+S8omL8stRtOA37SXhP8nepH1Eqo5/cyVo/pR0+JsEBqptHAjJ19qEz3qUl+i5YB84ewyq3hDLOA3+p8fCwcV+oZp/u9c="
+        fingerprint: "02a18b3600e4e3149d31d2b08837439ff83a25cc46df43ba3ef968fe32b99480"
       - algorithm: 3
         fingerprint_type: 2
-        fingerprint: "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBNzIySdwx0OqVCH8vFBDkQwsWJ4h0mVN1F2Al840f0zuF/5BjF5TQDvlZXlTtT7NpKsBga4tkk4VMnA3lHc8WYY="
+        fingerprint: "9cc7279f33cf60d307c99f01aa0a39c9b337ff9c1fbc345ab29223e7c39ee23e"
       - algorithm: 4
         fingerprint_type: 2
-        fingerprint: "AAAAC3NzaC1lZDI1NTE5AAAAIJ3pezDUZG+4bPRZg2znAuuMp42AL+rc1HGUltnNf8cA"
+        fingerprint: "b656fdb2bfdacec9e8e7538ba834d6d6bed7aafe3cd9e0d7957722ec6877addf"
 "*":
   - type: CNAME
     value: hackclub.app.
