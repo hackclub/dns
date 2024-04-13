@@ -2577,7 +2577,7 @@ whs:
 wl:
   - ttl: 1
     type: CNAME
-    value: wl-hackclub.netlify.com.
+    value: wlhackclub.github.io.
 summit:
   - ttl: 1
     type: CNAME
