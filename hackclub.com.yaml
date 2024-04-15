@@ -292,6 +292,7 @@ _vercel:
     - vc-domain-verify=wonderland-launch.hackclub.com,2a724b908654f2912e48
     - vc-domain-verify=alopb.hackclub.com,4e5088446aea4b3d4559
     - vc-domain-verify=tlap.hackclub.com,fab392891c03fb490ae4
+    - vc-domain-verify=evergreen.hackclub.com,4464d82393ad62c6bc0b
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
   type: CNAME
