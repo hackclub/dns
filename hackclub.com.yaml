@@ -2690,5 +2690,5 @@ internal:
 node:
 - ttl: 1
   type: CNAME
-  value: dinode.dino.icu.
+  value: node.dino.icu.
   
