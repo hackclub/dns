@@ -2686,4 +2686,9 @@ internal:
 - ttl: 1
   type: A
   value: 134.209.190.125
+
+node:
+- ttl: 1
+  type: CNAME
+  value: dinode.dino.icu.
   
