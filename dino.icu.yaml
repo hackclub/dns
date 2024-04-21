@@ -419,6 +419,6 @@ xn--rl8h:
   value: maxwofford.github.io.
 
 node:
-- ttl: 1
+- ttl: 600
   type: CNAME
   value: tgh75972.github.io.
