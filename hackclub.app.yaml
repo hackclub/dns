@@ -33,8 +33,10 @@ ts:
   - type: CNAME
     value: secure.hackclub.app.
 passwd.ts:
-  - type: CNAME
-    value: secure.hackclub.app.
+  - type: A
+    value: 100.64.0.2
+  - type: AAAA
+    value: fd7a:115c:a1e0::2
 pve.ts:
   - type: A
     value: 100.64.0.10
