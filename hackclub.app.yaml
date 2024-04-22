@@ -14,13 +14,13 @@
     values:
       - algorithm: 1
         fingerprint_type: 2
-        fingerprint: "9LNUl0XK2uImngAShvC5n/EdT/DuazOoMArZ+XN/1Ls"
+        fingerprint: "f4b3549745cadae2269e001286f0b99ff11d4ff0ee6b33a8300ad9f9737fd4bb"
       - algorithm: 3
         fingerprint_type: 2
-        fingerprint: "C89oJuxXbCpfFwuBZC2UMCzch0QKLenaAiSNuiZVoJw"
+        fingerprint: "0bcf6826ec576c2a5f170b81642d94302cdc87440a2de9da02248dba2655a09c"
       - algorithm: 4
         fingerprint_type: 2
-        fingerprint: "HMpqihlnZErDu5whsf8PbhYPSjUGf+KK++zhmSfDADo"
+        fingerprint: "1cca6a8a1967644ac3bb9c21b1ff0f6e160f4a35067fe28afbece19927c3003a"
 "*":
   - type: CNAME
     value: hackclub.app.
@@ -32,6 +32,11 @@ secure:
 ts:
   - type: CNAME
     value: secure.hackclub.app.
+passwd.ts:
+  - type: A
+    value: 100.64.0.2
+  - type: AAAA
+    value: fd7a:115c:a1e0::2
 pve.ts:
   - type: A
     value: 100.64.0.10
