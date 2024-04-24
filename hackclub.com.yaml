@@ -839,7 +839,7 @@ daysofservice:
   type: CNAME
   value: cname.vercel-dns.com.
 db:
-  ttl: 1
+  ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
 ddze3tkuawtlnbviwym44yhrjczhqzxw._domainkey:
