@@ -34,7 +34,6 @@ slashz:
   - ttl: 1
     type: A
     value: 209.97.144.104
-    
 ihs:
   - ttl: 1
     type: CNAME
@@ -293,6 +292,7 @@ _vercel:
     - vc-domain-verify=wonderland-launch.hackclub.com,2a724b908654f2912e48
     - vc-domain-verify=alopb.hackclub.com,4e5088446aea4b3d4559
     - vc-domain-verify=tlap.hackclub.com,fab392891c03fb490ae4
+    - vc-domain-verify=evergreen.hackclub.com,4464d82393ad62c6bc0b
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
   type: CNAME
@@ -735,6 +735,10 @@ cken:
   - ttl: 1
     type: A
     value: 52.191.165.18
+codeabit:
+  - ttl: 600
+    type: CNAME
+    value: codeabitkw.github.io.
 coet:
   - ttl: 1
     type: CNAME
@@ -1479,7 +1483,11 @@ knit:
     type: CNAME
     value: hackclubknit.netlify.app.
 kr:
-  ttl: 1
+  ttl: 3600
+  type: CNAME
+  value: cname.vercel-dns.com.
+ko:
+  ttl: 3600
   type: CNAME
   value: cname.vercel-dns.com.
 lasa:
@@ -2178,6 +2186,10 @@ slash-z:
   ttl: 1
   type: CNAME
   value: sheltered-macaw-2pwfsepypwy3e60hw28b57a5.herokudns.com.
+professorbloom:
+  ttl: 1
+  type: CNAME
+  value: behavioural-crag-3cp212813kwpnv174r5p27e1.herokudns.com.
 smhs:
   - ttl: 1
     type: CNAME
@@ -2564,9 +2576,9 @@ whs:
     type: CNAME
     value: whs-hackclub.netlify.com.
 wl:
-  - ttl: 1
+  - ttl: 600
     type: CNAME
-    value: wl-hackclub.netlify.com.
+    value: wlhackclub.github.io.
 summit:
   - ttl: 1
     type: CNAME
