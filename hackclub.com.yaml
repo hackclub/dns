@@ -293,6 +293,7 @@ _vercel:
     - vc-domain-verify=alopb.hackclub.com,4e5088446aea4b3d4559
     - vc-domain-verify=tlap.hackclub.com,fab392891c03fb490ae4
     - vc-domain-verify=evergreen.hackclub.com,4464d82393ad62c6bc0b
+    - vc-domain-verify=db.hackclub.com,e0f7d1d3ecee61a2acbb
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
   type: CNAME
@@ -834,6 +835,10 @@ app-1.hackathons:
   type: A
   value: 5.161.229.50
 daysofservice:
+  ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
+db:
   ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
