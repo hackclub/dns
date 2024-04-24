@@ -293,6 +293,7 @@ _vercel:
     - vc-domain-verify=alopb.hackclub.com,4e5088446aea4b3d4559
     - vc-domain-verify=tlap.hackclub.com,fab392891c03fb490ae4
     - vc-domain-verify=evergreen.hackclub.com,4464d82393ad62c6bc0b
+    - vc-domain-verify=donbosco.hackclub.com,8a14878a86451bc1ad03
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 1
   type: CNAME
@@ -835,6 +836,10 @@ app-1.hackathons:
   value: 5.161.229.50
 daysofservice:
   ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
+donbosco:
+  ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
 ddze3tkuawtlnbviwym44yhrjczhqzxw._domainkey:
