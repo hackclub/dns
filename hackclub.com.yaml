@@ -1296,6 +1296,10 @@ halo:
     ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
+ham:
+  ttl: 600
+  type: CNAME
+  value: hackclub.github.io.
 harvest:
   ttl: 1
   type: CNAME
