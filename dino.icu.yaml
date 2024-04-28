@@ -420,7 +420,7 @@ xn--rl8h:
 
 yc:
   type: NS
-  value: ns.youngchief.xyz
+  value: ns.youngchief.xyz.
   
 node:
 - ttl: 600
