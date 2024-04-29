@@ -6,5 +6,5 @@
 
 'www':
 - type: CNAME
-  ttl: 21600
-  value: cname.vercel-dns.com.
+  ttl: 1
+  value: hackclub.github.io.
