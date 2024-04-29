@@ -1,10 +1,8 @@
 ---
 '':
-- type: A
-  ttl: 21600
-  value: 76.76.21.21
+- type: ALIAS
+  value: hackclub.github.io.
 
 'www':
 - type: CNAME
-  ttl: 1
   value: hackclub.github.io.
