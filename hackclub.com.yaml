@@ -585,7 +585,7 @@ bn:
     type: CNAME
     value: cname.vercel-dns.com.
 boba:
-  - type: ALIAS
+  - type: CNAME
     value: hackclub.github.io.
 bounce:
   - ttl: 1
