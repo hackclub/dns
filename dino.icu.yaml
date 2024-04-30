@@ -418,6 +418,10 @@ xn--rl8h:
   type: CNAME
   value: maxwofford.github.io.
 
+yc:
+  type: NS
+  value: ns.youngchief.xyz.
+  
 node:
 - ttl: 600
   type: CNAME
