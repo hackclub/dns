@@ -14,10 +14,10 @@ jobs:
   json-yaml-validate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: json-yaml-validate
         id: json-yaml-validate
-        uses: GrantBirki/json-yaml-validate@v2.3.1
+        uses: GrantBirki/json-yaml-validate@v2.7.1
         with:
           comment: "true"
