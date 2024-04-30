@@ -584,6 +584,9 @@ bn:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+boba:
+  - type: CNAME
+    value: hackclub.github.io.
 bounce:
   - ttl: 600
     type: CNAME
@@ -1299,7 +1302,7 @@ halo:
 ham:
   ttl: 600
   type: CNAME
-  value: hackclub.github.io.
+  value: cname.vercel-dns.com.
 harvest:
   ttl: 600
   type: CNAME
