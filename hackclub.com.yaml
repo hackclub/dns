@@ -1777,6 +1777,10 @@ nust:
   - ttl: 600
     type: CNAME
     value: nusthackclub.netlify.app.
+oasis:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 ocsa:
   - ttl: 3600
     type: TXT
