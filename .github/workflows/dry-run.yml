@@ -1,10 +1,6 @@
-name: deploy
+name: Dry Run DNS
 
-on:
-  workflow_dispatch:
-  push:
-    branches:
-      - main
+on: ["push", "pull_request"]
 
 jobs:
   octodns:
@@ -13,11 +9,12 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: '3'
+          python-version: "3"
+          cache: "pip" # caches pip dependencies
       - name: Install OctoDNS
         run: pip install 'octodns==0.9.10'
-      - name: Sync w/ production DNS providers
-        run: ./bin/sync
+      - name: Do a dry run
+        run: ./bin/dry-run
         env:
           DNSIMPLE_ACCOUNT_NUMBER: ${{ secrets.DNSIMPLE_ACCOUNT_NUMBER }}
           DNSIMPLE_API_KEY: ${{ secrets.DNSIMPLE_API_KEY }}
