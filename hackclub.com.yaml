@@ -2703,7 +2703,7 @@ internal:
   type: A
   value: 134.209.190.125
   
-gyatt:
+gyat:
   - ttl: 600
     type: CNAME
     value: 4h4cayj.github.io.
