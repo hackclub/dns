@@ -20,3 +20,7 @@ jobs:
         uses: GrantBirki/json-yaml-validate@v2.7.1
         with:
           comment: "true"
+# octodns --force testing
+# things that cause octodns to need --force
+# - ns record changes
+# - undetermined percentage of dns changes
