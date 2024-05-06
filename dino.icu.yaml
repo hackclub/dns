@@ -430,4 +430,4 @@ node:
 terror: 
   ttl: 600 
   type: CNAME 
-  value: 4H4CayJ.github.io
+  value: 4H4CayJ.github.io.
