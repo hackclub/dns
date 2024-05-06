@@ -426,3 +426,8 @@ node:
 - ttl: 600
   type: CNAME
   value: tgh75972.github.io.
+
+gyat: 
+  ttl: 600 
+  type: CNAME 
+  value: 4H4CayJ.github.io
