@@ -1613,7 +1613,7 @@ malagon:
 mangu:
   - ttl: 600
     type: CNAME
-    value: https://mangu.pages.dev.
+    value: mangu.pages.dev.
 maps:
   - ttl: 600
     type: CNAME
