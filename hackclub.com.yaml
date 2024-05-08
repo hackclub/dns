@@ -1420,7 +1420,7 @@ iter:
 jagiellonbitbrewers:
   - ttl: 600
     type: CNAME
-    value: jagiellon-bitbrewers.github.io/Hack-Club-Website/.
+    value: jagiellon-bitbrewers.github.io.
 jain:
   ttl: 600
   type: A
