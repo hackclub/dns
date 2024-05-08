@@ -1606,6 +1606,10 @@ malagon:
   - ttl: 600
     type: CNAME
     value: hackclubmalagon.netlify.app.
+mangu:
+  - ttl: 600
+    type: CNAME
+    value: https://mangu.pages.dev.
 maps:
   - ttl: 600
     type: CNAME
