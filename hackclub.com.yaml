@@ -936,6 +936,10 @@ earlybird:
   ttl: 600
   type: CNAME
   value: early-bird-hackclub.netlify.com.
+easel:
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
 editor:
   ttl: 600
   type: CNAME
