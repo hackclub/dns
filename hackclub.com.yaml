@@ -15,9 +15,14 @@
         preference: 10
       - exchange: aspmx3.googlemail.com.
         preference: 10
+      - exchange:  mx1.forwardemail.net
+        preference: 10
+      - exchange:  mx2.forwardemail.net
+        preference: 10
   - ttl: 5
     type: TXT
     values:
+      - forward-email=johnkelsey.irungu@gmail.com
       - ALIAS for hackclub.com.herokudns.com
       - google-site-verification=U8tZZVtnG2hU2CIde1FeMzGJM7d9yYUfuCKYwWVYeGo
       - google-site-verification=TeokboHEWLDXXpRCIoubXYbpcGFfmOLhj9FuexruDKc
@@ -1618,6 +1623,18 @@ mangu:
   - ttl: 600
     type: CNAME
     value: mangu.pages.dev.
+  - ttl: 600
+    type: MX
+    values: 
+      - exchange:  mx1.forwardemail.net
+        preference: 10
+      - exchange:  mx2.forwardemail.net
+        preference: 10
+  - ttl: 5
+    type: TXT
+    values:
+      - forward-email=johnkelsey.irungu@gmail.com
+       
 maps:
   - ttl: 600
     type: CNAME
