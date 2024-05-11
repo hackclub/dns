@@ -278,7 +278,12 @@ piyush:
    ttl: 600
    type: CNAME
    value: dino.piyush.ovh.
-   
+
+print:
+   ttl: 600
+   type: CNAME
+   value: cname.vercel-dns.com.
+
 rr: # Rickroll with a single line of bash
   ttl: 600
   type: CNAME

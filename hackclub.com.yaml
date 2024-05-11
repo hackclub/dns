@@ -1315,6 +1315,37 @@ harvest:
 haxidraw:
   type: CNAME
   value: cname.vercel-dns.com.
+
+hcarc:
+  - type: MX
+    ttl: 600
+    values:
+      - exchange: aspmx1.migadu.com.
+        preference: 10
+      - exchange: aspmx2.migadu.com.
+        preference: 20
+  - type: TXT
+    ttl: 600
+    values:
+      - hosted-email-verify=czorstw1
+      - v=spf1 include:spf.migadu.com -all
+_dmarc.hcarc:
+  type: TXT
+  ttl: 600
+  value: "v=DMARC1\\; p=quarantine\\;"
+key1._domainkey.hcarc:
+  type: CNAME
+  ttl: 600
+  value: key1.hcarc.hackclub.com._domainkey.migadu.com.
+key2._domainkey.hcarc:
+  type: CNAME
+  ttl: 600
+  value: key2.hcarc.hackclub.com._domainkey.migadu.com.
+key3._domainkey.hcarc:
+  type: CNAME
+  ttl: 600
+  value: key3.hcarc.hackclub.com._domainkey.migadu.com.
+      
 hcb:
   - type: ALIAS
     value: rocky-jackfruit-11wv1arsenhczo2z58bae8lt.herokudns.com.
@@ -1619,6 +1650,7 @@ mangu:
   - ttl: 600
     type: CNAME
     value: mangu.pages.dev.
+
   - ttl: 600
     type: MX
     values:
@@ -1630,6 +1662,7 @@ mangu:
     type: TXT
     values:
       - zoho-verification=zb16546999.zmverify.zoho.com
+
 maps:
   - ttl: 600
     type: CNAME
@@ -1745,6 +1778,10 @@ naal:
   - ttl: 600
     type: CNAME
     value: f188f909-4cbb-48f7-8391-1f4096ded524.id.repl.co.
+nairobi:
+  - ttl: 600
+    type: CNAME
+    value: hackclubnairobi.codeberg.page.
 ncssm:
   - ttl: 600
     type: CNAME
