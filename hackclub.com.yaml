@@ -1331,7 +1331,7 @@ hcarc:
 _dmarc.hcarc:
   type: TXT
   ttl: 600
-  value: "v=DMARC1\; p=quarantine\;"
+  value: "v=DMARC1\\; p=quarantine\\;"
 key1._domainkey.hcarc:
   type: CNAME
   ttl: 600
