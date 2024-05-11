@@ -1760,6 +1760,10 @@ naal:
   - ttl: 600
     type: CNAME
     value: f188f909-4cbb-48f7-8391-1f4096ded524.id.repl.co.
+nairobi:
+  - ttl: 600
+    type: CNAME
+    value: hackclubnairobi.codeberg.page.
 ncssm:
   - ttl: 600
     type: CNAME
