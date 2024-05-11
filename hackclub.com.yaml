@@ -1649,6 +1649,10 @@ mangu:
   - ttl: 600
     type: CNAME
     value: mangu.pages.dev.
+  - ttl: 5
+    type: TXT
+    values:
+      - zoho-verification=zb16546999.zmverify.zoho.com
 maps:
   - ttl: 600
     type: CNAME
