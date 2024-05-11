@@ -1621,11 +1621,11 @@ mangu:
   - ttl: 600
     type: MX
     values: 
-      - exchange:  mx1.forwardemail.net
+      - exchange:  mx1.forwardemail.net.
         preference: 10
-      - exchange:  mx2.forwardemail.net
+      - exchange:  mx2.forwardemail.net.
         preference: 10
-  - ttl: 5
+  - ttl: 600
     type: TXT
     values:
       - forward-email=johnkelsey.irungu@gmail.com
