@@ -22,7 +22,6 @@
   - ttl: 5
     type: TXT
     values:
-      - forward-email=johnkelsey.irungu@gmail.com
       - ALIAS for hackclub.com.herokudns.com
       - google-site-verification=U8tZZVtnG2hU2CIde1FeMzGJM7d9yYUfuCKYwWVYeGo
       - google-site-verification=TeokboHEWLDXXpRCIoubXYbpcGFfmOLhj9FuexruDKc
