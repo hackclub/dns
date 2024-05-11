@@ -1319,9 +1319,9 @@ hcarc:
   - type: MX
     ttl: 600
     values:
-      - exchange: aspmx1.migadu.com
+      - exchange: aspmx1.migadu.com.
         preference: 10
-      - exchange: aspmx2.migadu.com
+      - exchange: aspmx2.migadu.com.
         preference: 20
   - type: TXT
     ttl: 600
