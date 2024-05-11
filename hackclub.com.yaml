@@ -15,10 +15,6 @@
         preference: 10
       - exchange: aspmx3.googlemail.com.
         preference: 10
-      - exchange:  mx1.forwardemail.net
-        preference: 10
-      - exchange:  mx2.forwardemail.net
-        preference: 10
   - ttl: 5
     type: TXT
     values:
