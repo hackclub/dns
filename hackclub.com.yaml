@@ -1328,7 +1328,7 @@ hcarc:
     values:
       - hosted-email-verify=czorstw1
       - v=spf1 include:spf.migadu.com -all
-_dmarc:
+_dmarc.hcarc:
   type: TXT
   ttl: 600
   value: "v=DMARC1\; p=quarantine\;"
