@@ -1314,6 +1314,37 @@ harvest:
 haxidraw:
   type: CNAME
   value: cname.vercel-dns.com.
+
+hcarc:
+  - type: MX
+    ttl: 600
+    values:
+      - exchange: aspmx1.migadu.com
+        preference: 10
+      - exchange: aspmx2.migadu.com
+        preference: 20
+  - type: TXT
+    ttl: 600
+    values:
+      - hosted-email-verify=czorstw1
+      - v=spf1 include:spf.migadu.com -all
+_dmarc:
+  type: TXT
+  ttl: 600
+  value: v=DMARC1; p=quarantine;
+key1._domainkey.hcarc:
+  type: CNAME
+  ttl: 600
+  value: key1.hcarc.hackclub.com._domainkey.migadu.com.
+key2._domainkey.hcarc:
+  type: CNAME
+  ttl: 600
+  value: key2.hcarc.hackclub.com._domainkey.migadu.com.
+key3._domainkey.hcarc:
+  type: CNAME
+  ttl: 600
+  value: key3.hcarc.hackclub.com._domainkey.migadu.com.
+      
 hcb:
   - type: ALIAS
     value: rocky-jackfruit-11wv1arsenhczo2z58bae8lt.herokudns.com.
