@@ -10,3 +10,23 @@ hackclub.app.yaml @hackclub/nest @hackclub/infra
 
 # HCB
 bank.engineering.yaml @hackclub/hcb-engineers @hackclub/infra 
+nonprofit.new.yaml @hackclub/hcb-engineers @hackclub/infra
+
+# "Core" HC domains
+hackclub.*.yaml @hackclub/dns-friends @hackclub/infra
+hackfoundation.org @hackclub/dns-friends @hackclub/infra
+wackclub.com.yaml @hackclub/dns-friends @hackclub/infra
+hack.club.yaml @hackclub/dns-friends @hackclub/infra
+hack.af.yaml @hackclub/infra
+
+# Development
+scrapbook.dev.yaml @hackclub/infra
+scrap.dev.yaml @hackclub/infra
+
+# Projects
+aisafety.dance.yaml @hackclub/infra
+cpu.land.yaml @hackclub/infra
+
+# Fun/Shenaniganery
+dino.icu.yaml @hackclub/dns-friends @hackclub/infra
+dinosaurbbq.org.yaml @hackclub/dns-friends @hackclub/infra
