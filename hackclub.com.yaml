@@ -607,6 +607,10 @@ bulc:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+bunker.apocalypse:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 bunyan.tilde:
   - ttl: 600
     type: CNAME
