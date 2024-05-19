@@ -646,6 +646,11 @@ birthday:
 #    type: CNAME
 #    value: averseabfun.github.io/bloomington-hackclub.
 
+boreal:
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
+
 calendar:
   ttl: 600
   type: CNAME
