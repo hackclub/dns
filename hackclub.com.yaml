@@ -2115,7 +2115,7 @@ register.outernet:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
-renaissance:
+renaissance-24:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
