@@ -442,6 +442,11 @@ astrohacks:
   - ttl: 1
     type: CNAME
     value: www.mmgraphix.net.
+atlantis:
+  ttl: 1
+  type: CNAME
+  value: hackclub-atlantis.netlify.com
+
 austin:
   ttl: 1
   type: CNAME
