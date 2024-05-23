@@ -169,7 +169,7 @@ javier: # by https://github.com/J-cordz - my personal hack club scrapbook
 jzaleta: # Javi's twitter redirect
    ttl: 600
    type: CNAME
-   value: https://x.com/_jzaleta.   
+   value: x.com/_jzaleta.   
 
 krish: # @krishstwt
    ttl: 600
