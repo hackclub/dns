@@ -357,11 +357,15 @@ tejas: # by tej
   type: CNAME
   value: tejasag.netlify.app.
 
+toonnongaeoy:
+ - ttl: 600
+   type: A
+   value: 198.51.233.1
+
 vansh:
  - ttl: 600
    type: CNAME
    value: lowkeyvansh.github.io.
-
 
 vercel:
 - ttl: 600
