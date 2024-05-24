@@ -359,8 +359,8 @@ tejas: # by tej
 
 toonnongaeoy:
  - ttl: 600
-   type: A
-   value: 198.51.233.1
+   type: CNAME
+   value: retro.toonstorytime.me
 
 vansh:
  - ttl: 600
