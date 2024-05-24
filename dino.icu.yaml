@@ -360,7 +360,7 @@ tejas: # by tej
 toonnongaeoy:
  - ttl: 600
    type: CNAME
-   value: retro.toonstorytime.me
+   value: retro.toonstorytime.me.
 
 vansh:
  - ttl: 600
