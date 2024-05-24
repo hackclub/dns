@@ -737,6 +737,10 @@ churchill:
   - ttl: 600
     type: CNAME
     value: hackclub-ej5rl3bqj.now.sh.
+cider: 
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 ciudalcampo:
   - ttl: 600
     type: CNAME
