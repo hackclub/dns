@@ -165,6 +165,11 @@ javier: # by https://github.com/J-cordz - my personal hack club scrapbook
    ttl: 600
    type: CNAME
    value: cname.vercel-dns.com.
+   
+jzaleta: # Javi's twitter redirect
+   ttl: 600
+   type: A
+   value: 76.76.21.21  
 
 krish: # @krishstwt
    ttl: 600
