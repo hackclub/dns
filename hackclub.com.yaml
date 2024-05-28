@@ -2298,10 +2298,6 @@ som-mail-system:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
-solstice:
-  - ttl: 600
-    type: CNAME
-    value: cname.vercel-dns.com.
 spark:
   - ttl: 3600
     type: TXT
