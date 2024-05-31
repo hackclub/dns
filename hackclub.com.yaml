@@ -2136,6 +2136,10 @@ riverbend:
   - ttl: 600
     type: CNAME
     value: yousefhaggy.github.io.
+riverside:
+  - ttl: 600
+    type: CNAME
+    value: aahannadas.github.io.
 rr:
   - ttl: 600
     type: CNAME
