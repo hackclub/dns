@@ -232,6 +232,11 @@ niilas: # Niilas - repo: https://github.com/niilasoika/niilas.dino.icu
   type: CNAME
   value: niilasoika.github.io.
 
+nimit: #https://github.com/NimitVijayvargee/nimitvijayvargee.github.io/
+  ttl: 600
+  type: CNAME
+  value: nimitvijayvargee.github.io.
+  
 normie: # normie
   ttl: 600
   type: CNAME
