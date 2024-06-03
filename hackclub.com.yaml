@@ -2786,4 +2786,9 @@ internal:
 - ttl: 600
   type: A
   value: 134.209.190.125
+
+sahilpanghal.com:
+  - ttl: 600
+    type: CNAME
+    value: sahilpanghal.github.io.
   
