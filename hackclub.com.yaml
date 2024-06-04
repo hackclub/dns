@@ -1578,6 +1578,10 @@ leaderboard:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+leaders-letters:
+ - ttl: 600
+   type: CNAME
+   value: cname.vercel-dns.com.
 leap:
   - ttl: 600
     type: CNAME
