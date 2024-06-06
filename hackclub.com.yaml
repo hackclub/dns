@@ -1304,7 +1304,7 @@ hackerabad:
 hackhour:
   ttl: 600
   type: CNAME
-  value: evolutionary-meadow-v0odnp3h34mtsm07dz1jqkww.herokudns.com
+  value: evolutionary-meadow-v0odnp3h34mtsm07dz1jqkww.herokudns.com.
 hackinux:
   ttl: 600
   type: CNAME
