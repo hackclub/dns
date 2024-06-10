@@ -1301,6 +1301,10 @@ hackerabad:
   - ttl: 600
     type: CNAME
     value: hackerabad.netlify.app.
+hackhour:
+  ttl: 600
+  type: CNAME
+  value: evolutionary-meadow-v0odnp3h34mtsm07dz1jqkww.herokudns.com.
 hackinux:
   ttl: 600
   type: CNAME
@@ -1563,6 +1567,10 @@ kr:
   value: cname.vercel-dns.com.
 ko:
   ttl: 3600
+  type: CNAME
+  value: cname.vercel-dns.com.
+langjam:
+  ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
 lasa:
@@ -2135,6 +2143,10 @@ riverbend:
   - ttl: 600
     type: CNAME
     value: yousefhaggy.github.io.
+riverside:
+  - ttl: 600
+    type: CNAME
+    value: aahannadas.github.io.
 rr:
   - ttl: 600
     type: CNAME
