@@ -31,7 +31,7 @@
       - stripe-verification=5bdd0e2475b12744bfe1f778ac419f917800d476fd498ae2682ecd161d162c64
       
 8-bit-heart:
-  - ttl 600
+    ttl 600
     type: CNAME
     value: functional-azalea-h6sdoabk7z20wkqr48lvcsv6.herokudns.com.
 
