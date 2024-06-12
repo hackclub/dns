@@ -1482,6 +1482,10 @@ iter:
   ttl: 600
   type: CNAME
   value: hackclubiter.github.io.
+ja:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 jagiellonbitbrewers:
   - ttl: 600
     type: CNAME
