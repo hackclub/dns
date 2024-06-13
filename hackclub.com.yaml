@@ -1164,6 +1164,10 @@ rw:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+fraps:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 fremont:
   - ttl: 600
     type: CNAME
