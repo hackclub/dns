@@ -412,6 +412,10 @@ api.ticketing.assemble:
 apply:
   type: CNAME
   value: cname.vercel-dns.com.
+arcadius:
+  - ttl: 600
+    type: CNAME
+    value: asymmetrical-trout-5k9xmc0r8d2c6cggv0pxu70c.herokudns.com
 archived.guide:
   ttl: 600
   type: CNAME
@@ -2293,10 +2297,6 @@ slash-z:
   ttl: 600
   type: CNAME
   value: sheltered-macaw-2pwfsepypwy3e60hw28b57a5.herokudns.com.
-trashpanda:
-  - ttl: 600
-    type: CNAME
-    value: mathematical-daffodil-4bfjpuvlxshso5s8oylfhoo3.herokudns.com.
 professorbloom:
   ttl: 600
   type: CNAME
