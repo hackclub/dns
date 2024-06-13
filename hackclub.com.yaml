@@ -29,12 +29,6 @@
       - google-site-verification=n9knjT30SgPd80zLKBD6M8fPFGIQUAO5OgfjDsPSrRM
       - v=spf1 include:_spf.google.com include:mailgun.org include:amazonses.com include:sendgrid.net include:spf.mtasv.net ~all
       - stripe-verification=5bdd0e2475b12744bfe1f778ac419f917800d476fd498ae2682ecd161d162c64
-      
-8-bit-heart:
-  - ttl: 600
-    type: CNAME
-    value: functional-azalea-h6sdoabk7z20wkqr48lvcsv6.herokudns.com.
-
 slashz:
   - ttl: 600
     type: A
@@ -2295,6 +2289,10 @@ slash-z:
   ttl: 600
   type: CNAME
   value: sheltered-macaw-2pwfsepypwy3e60hw28b57a5.herokudns.com.
+trashpanda:
+  - ttl: 600
+    type: CNAME
+    value: mathematical-daffodil-4bfjpuvlxshso5s8oylfhoo3.herokudns.com.
 professorbloom:
   ttl: 600
   type: CNAME
