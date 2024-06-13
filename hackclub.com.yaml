@@ -2292,7 +2292,7 @@ slash-z:
 trashpanda:
   - ttl: 600
     type: CNAME
-    value: mathematical-daffodil-4bfjpuvlxshso5s8oylfhoo3.herokudns.com
+    value: mathematical-daffodil-4bfjpuvlxshso5s8oylfhoo3.herokudns.com.
 professorbloom:
   ttl: 600
   type: CNAME
