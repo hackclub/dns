@@ -294,7 +294,6 @@ _vercel:
     - vc-domain-verify=evergreen.hackclub.com,4464d82393ad62c6bc0b
     - vc-domain-verify=donbosco.hackclub.com,8a14878a86451bc1ad03
     - vc-domain-verify=bunker.apocalypse.hackclub.com,75a61be6a0e63f44d7c1
-    - vc-domain-verify=fraps.hackclub.com,503a4140059bc75807f0
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
