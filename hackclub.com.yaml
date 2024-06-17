@@ -413,7 +413,7 @@ apply:
   type: CNAME
   value: cname.vercel-dns.com.
 arcadius:
-  - ttl: 600
+  - ttl: 1
     type: CNAME
     value: heron-selected-literally.ngrok-free.app.
     # value: asymmetrical-trout-5k9xmc0r8d2c6cggv0pxu70c.herokudns.com.
