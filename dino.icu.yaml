@@ -440,6 +440,10 @@ xn--rl8h:
 yc:
   type: NS
   value: ns.youngchief.xyz.
+
+yates: 
+  type: CNAME
+  value: peteryates.net
   
 node:
 - ttl: 600
