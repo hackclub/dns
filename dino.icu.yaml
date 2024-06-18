@@ -443,7 +443,7 @@ yc:
 
 yates: 
   type: CNAME
-  value: peteryates.net
+  value: peteryates.net.
   
 node:
 - ttl: 600
