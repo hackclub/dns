@@ -442,8 +442,8 @@ yc:
   value: ns.youngchief.xyz.
 
 yates: 
-  type: CNAME
-  value: peteryates.net.
+  type: A
+  value: 1.158.68.199
   
 node:
 - ttl: 600
