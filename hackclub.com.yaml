@@ -2801,4 +2801,8 @@ internal:
 - ttl: 600
   type: A
   value: 104.131.182.116
-  
+rayan:
+- ttl: 600
+  type: txt
+  value: 
+  - vc-domain-verify=rayan.hackclub.com,5c7eacd6c182f7c51698
