@@ -31,7 +31,7 @@ e:
 syria:
   - ttl: 600
     type: CNAME
-    value: https://hackclub-syria.github.io/website/.
+    value: hackclub-syria.github.io/website/.
 email:
   type: CNAME
   value: mailgun.org.
