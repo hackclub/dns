@@ -28,10 +28,6 @@ draw:
 e:
   type: CNAME
   value: cname.vercel-dns.com.
-syria:
-  - ttl: 600
-    type: CNAME
-    value: hackclub-syria.github.io/website/.
 email:
   type: CNAME
   value: mailgun.org.
