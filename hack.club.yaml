@@ -5,3 +5,7 @@
 hack.club:
   - type: ALIAS
     value: cname.vercel-dns.com.
+syria:
+  - ttl: 600
+    type: CNAME
+    value: hackclub-syria.github.io/website/.
