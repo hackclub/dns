@@ -1339,7 +1339,10 @@ harvest:
 haxidraw:
   type: CNAME
   value: cname.vercel-dns.com.
-
+hcarc:
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
 hcarc:
   - type: MX
     ttl: 600
