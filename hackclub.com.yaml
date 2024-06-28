@@ -1323,6 +1323,9 @@ hcarc:
         preference: 10
       - exchange: aspmx2.migadu.com.
         preference: 20
+  - type: A
+    ttl: 600
+    value: 76.76.21.21
   - type: TXT
     ttl: 600
     values:
