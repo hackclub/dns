@@ -370,6 +370,10 @@ angelhacksla:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+forge:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 ama-machine:
   - ttl: 600
     type: CNAME
