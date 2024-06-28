@@ -159,7 +159,7 @@ innohacks: #efe
 jaehyeon: # https://github.com/MCPE-PC
   ttl: 3600
   type: CNAME
-  value: dino-icu.pages.dev
+  value: dino-icu.pages.dev.
 
 japroz: # Japroz Saini
   ttl: 600
@@ -220,12 +220,12 @@ mail: # a page to share your email with orpheus
 mcpe-pc: # https://github.com/MCPE-PC
   ttl: 3600
   type: CNAME
-  value: dino-icu.pages.dev
+  value: dino-icu.pages.dev.
 
 mcpepc: # https://github.com/MCPE-PC
   ttl: 3600
   type: CNAME
-  value: dino-icu.pages.dev
+  value: dino-icu.pages.dev.
 
 meta: # meta page
   ttl: 600
@@ -297,7 +297,7 @@ pay: # by Ella
 pc: # https://github.com/MCPE-PC
   ttl: 3600
   type: CNAME
-  value: dino-icu.pages.dev
+  value: dino-icu.pages.dev.
 
 periodic:
    ttl: 600
