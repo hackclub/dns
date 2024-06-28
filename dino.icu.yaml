@@ -440,6 +440,10 @@ xn--rl8h:
 yc:
   type: NS
   value: ns.youngchief.xyz.
+
+yates: 
+  type: A
+  value: 1.158.68.199
   
 node:
 - ttl: 600
