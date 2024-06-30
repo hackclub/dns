@@ -1615,6 +1615,10 @@ lhscc:
   - ttl: 600
     type: A
     value: 174.86.1.223
+librarian:
+  - ttl: 600
+    type: CNAME
+    value: triangular-echidna-0a5axtm1u7or2rralmviurao.herokudns.com.
 libre:
   - ttl: 600
     type: NS
