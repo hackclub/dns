@@ -37,7 +37,8 @@ ihs:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
-        
+
+
 20230913174421pm._domainkey:
   type: TXT
   value: k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCbYfun+ZMwXJGRqp41sG/OXWPgbQd6Ewf/ccOBCvigm9LSarnT1QCUizzc+ZqBfSc4UTlJJx2hyhWYN6zFHibSndOBmY3y09uKuv7S4v3usfhpVVJZw9BOQLL4N9uIysrzLhVOfCpXiIIQQHn/a277SA8klIDfVcZkxdkyBRQDlQIDAQAB
@@ -2811,4 +2812,12 @@ internal:
 - ttl: 600
   type: A
   value: 104.131.182.116
+
+  
+_vercel:
+  ttl: 600
+  type: TXT
+  values:
+    -vc-domain-verify=indian-hc-finder.hackclub.com,6bc40daab2feffbb2061       
+  
   
