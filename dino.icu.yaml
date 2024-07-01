@@ -403,7 +403,36 @@ vercel-ns:
   values: 
   - ns1.vercel-dns.com.
   - ns2.vercel-dns.com.
-  
+
+# BEGIN Vortex DNS records
+# contact @justhypex on discord for issues/enquiries
+vortex: # Base domain records
+- ttl: 600
+  type: A
+  value: 76.76.21.21
+
+- ttl: 600
+  type: MX
+  values:
+  - exchange: mail.vortex.dino.icu.
+    preference: 10
+
+- ttl: 600
+  type: TXT
+  values:
+  - v=spf1 ip4:35.193.1.201 ~all
+
+mail.vortex: # Mail server A record
+- ttl: 600
+  type: A
+  value: 35.193.1.201
+
+api.vortex:
+- ttl: 600
+  type: A
+  value: 35.193.1.201
+# End Vortex DNS records
+
 winterlings: # a site to view winter wonderland projects (contact @ZeroQL on slack for thingies)
   ttl: 600
   type: CNAME
