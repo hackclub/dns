@@ -156,11 +156,6 @@ innohacks: #efe
   type: CNAME
   value: cname.vercel-dns.com.
 
-jaehyeon: # https://github.com/MCPE-PC
-  ttl: 3600
-  type: CNAME
-  value: dino-icu.pages.dev.
-
 japroz: # Japroz Saini
   ttl: 600
   type: CNAME
@@ -216,16 +211,6 @@ mail: # a page to share your email with orpheus
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
-
-mcpe-pc: # https://github.com/MCPE-PC
-  ttl: 3600
-  type: CNAME
-  value: dino-icu.pages.dev.
-
-mcpepc: # https://github.com/MCPE-PC
-  ttl: 3600
-  type: CNAME
-  value: dino-icu.pages.dev.
 
 meta: # meta page
   ttl: 600
@@ -294,7 +279,7 @@ pay: # by Ella
   type: CNAME
   value: 72ce41e0-b635-4025-a3ab-519ba661d5b7.id.repl.co.
 
-pc: # https://github.com/MCPE-PC
+pc: # https://github.com/MCPE-PC/dino.icu
   ttl: 3600
   type: CNAME
   value: dino-icu.pages.dev.
