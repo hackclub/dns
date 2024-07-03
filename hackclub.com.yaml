@@ -1372,6 +1372,11 @@ heist:
     type: CNAME
     value: heist.iunstable0.com.
 
+heist-api:
+  - ttl: 600
+    type: CNAME
+    value: heist-api.iunstable0.com.
+
 _dmarc.hcarc:
   type: TXT
   ttl: 600
