@@ -1366,6 +1366,17 @@ hcarc:
     values:
       - google-site-verification=xzGbA1OB1AnLPBHMOjrh5qPFZIwXXe-1_ci2GuomAjY
       - v=spf1 include:_spf.google.com -all
+
+heist:
+  - ttl: 600
+    type: CNAME
+    value: heist.iunstable0.com.
+
+heist-api:
+  - ttl: 600
+    type: CNAME
+    value: heist-api.iunstable0.com.
+
 _dmarc.hcarc:
   type: TXT
   ttl: 600
