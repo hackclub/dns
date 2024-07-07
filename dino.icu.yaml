@@ -459,3 +459,8 @@ terror:
   ttl: 600 
   type: CNAME 
   value: 4H4CayJ.github.io.
+
+opott:
+- ttl: 600
+  type: CNAME
+  value: opott.pages.dev
