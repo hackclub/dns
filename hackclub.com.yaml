@@ -370,6 +370,10 @@ angelhacksla:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+forge:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 ama-machine:
   - ttl: 600
     type: CNAME
@@ -1354,12 +1358,25 @@ hcarc:
         preference: 10
       - exchange: ALT4.ASPMX.L.GOOGLE.COM.
         preference: 10
+  - type: A
+    ttl: 600
+    value: 76.76.21.21
   - type: TXT
     ttl: 600
     values:
-      - hosted-email-verify=czorstw1
       - google-site-verification=xzGbA1OB1AnLPBHMOjrh5qPFZIwXXe-1_ci2GuomAjY
       - v=spf1 include:_spf.google.com -all
+
+heist:
+  - ttl: 600
+    type: CNAME
+    value: heist.iunstable0.com.
+
+heist-api:
+  - ttl: 600
+    type: CNAME
+    value: heist-api.iunstable0.com.
+
 _dmarc.hcarc:
   type: TXT
   ttl: 600
@@ -1609,6 +1626,10 @@ lhscc:
   - ttl: 600
     type: A
     value: 174.86.1.223
+librarian:
+  - ttl: 600
+    type: CNAME
+    value: triangular-echidna-0a5axtm1u7or2rralmviurao.herokudns.com.
 libre:
   - ttl: 600
     type: NS

@@ -279,6 +279,11 @@ pay: # by Ella
   type: CNAME
   value: 72ce41e0-b635-4025-a3ab-519ba661d5b7.id.repl.co.
 
+pc: # https://github.com/MCPE-PC/dino.icu
+  ttl: 3600
+  type: CNAME
+  value: dino-icu.pages.dev.
+
 periodic:
    ttl: 600
    type: CNAME
