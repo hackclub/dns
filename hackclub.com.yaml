@@ -2822,4 +2822,19 @@ internal:
 - ttl: 600
   type: A
   value: 104.131.182.116
+
+opott:
+- ttl: 600
+  type: ALIAS
+  value: opott.pages.dev
+- ttl: 600
+  type: TXT
+  value: forward-email=om.potter09@gmail.com
+- ttl: 3600
+  type: MX
+     - exchange: mx1.forwardemail.net
+       preference: 10
+     - exchange: mx2.forwardemail.net
+       preference: 10
+     
   
