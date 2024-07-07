@@ -2805,4 +2805,4 @@ internal:
 syria:
   - ttl: 600
     type: CNAME
-    value: hackclub-syria.github.io
+    value: hackclub-syria.github.io.
