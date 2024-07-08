@@ -2823,3 +2823,7 @@ internal:
   type: A
   value: 104.131.182.116
   
+syria:
+  - ttl: 600
+    type: CNAME
+    value: hackclub-syria.github.io.
