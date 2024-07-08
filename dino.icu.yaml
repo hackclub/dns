@@ -463,4 +463,4 @@ terror:
 opott:
 - ttl: 600
   type: CNAME
-  value: opott.pages.dev
+  value: opott.pages.dev.
