@@ -1288,6 +1288,10 @@ hackaruto:
   - ttl: 600
     type: CNAME
     value: hackaruto.netlify.app.
+hackathon:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 hackathons:
   - ttl: 600
     type: CNAME
