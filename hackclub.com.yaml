@@ -2829,6 +2829,6 @@ syria:
     value: hackclub-syria.github.io.
 
 pa:
-  - ttl: 1
+  - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
