@@ -52,6 +52,7 @@ ihs:
 72f724f0383247cd44371eb3cf8102a1:
   type: CNAME
   value: verify.bing.com.
+  
 
 "*":
   ttl: 600
@@ -2018,6 +2019,10 @@ pic._domainkey.mail:
   ttl: 600
   type: TXT
   value: k=rsa
+  pinetree.hack.com:
+  - ttl: 600
+    type: A
+    value: 127.0.0.1.
 piobfpwf42smbkxcysnrx7qe5es6f5tp._domainkey:
   ttl: 600
   type: CNAME
