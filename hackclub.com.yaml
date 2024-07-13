@@ -1655,6 +1655,10 @@ list:
   - ttl: 600
     type: TXT
     value: google-site-verification=dy5FQ7euw6ZutiApm5ZdCTUgWn9CL3uhfJWHfD3TxLk
+live.onboard:
+  - ttl: 600
+    type: A
+    value: 195.201.227.192
 lonestar:
   - ttl: 600
     type: CNAME
