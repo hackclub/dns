@@ -2752,6 +2752,37 @@ workshops:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+_vercel.go.wellington:
+  - type: TXT
+    value: vc-domain-verify=go.wellington.hackclub.com,61bf41cc9d7230bcf32f
+_vercel.wellington:
+  - type: TXT
+    value: vc-domain-verify=wellington.hackclub.com,0a68c3aec547d782d6e5
+wellington:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com
+    # hosted email records with migadu for sending newsletters & event updates
+  - type: TXT
+    values: 
+    - hosted-email-verify=34prbpjz
+    - v=spf1 include:spf.migadu.com -all
+  - type: MX
+    values: 
+    - aspmx1.migadu.com
+    - aspmx2.migadu.com
+key1._domainkey.wellington:
+  - type: CNAME
+    value: key1.wellington.hackclub.com._domainkey.migadu.com.
+key2._domainkey.wellington:
+  - type: CNAME
+    value: key2.wellington.hackclub.com._domainkey.migadu.com.
+key3._domainkey.wellington:
+  - type: CNAME
+    value: key3.wellington.hackclub.com._domainkey.migadu.com.
+_dmarc.wellington:
+  - type: TXT
+    value: v=DMARC1; p=quarantine;
 www:
   - ttl: 600
     type: CNAME
