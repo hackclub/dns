@@ -2840,3 +2840,8 @@ syria:
   - ttl: 600
     type: CNAME
     value: hackclub-syria.github.io.
+
+arson:
+  - ttl: 600
+    type: CNAME
+    value: arsoninstigator.github.io
