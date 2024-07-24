@@ -295,6 +295,7 @@ _vercel:
     - vc-domain-verify=donbosco.hackclub.com,8a14878a86451bc1ad03
     - vc-domain-verify=bunker.apocalypse.hackclub.com,75a61be6a0e63f44d7c1
     - vc-domain-verify=ten-days-of-code.hackclub.com,f4bdc5d47d93a15aea28
+    - vc-domain-verify=athena.hackclub.com,2e501f1e64f9510cc920
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -469,6 +470,10 @@ astrohacks:
   - ttl: 600
     type: CNAME
     value: www.mmgraphix.net.
+athena:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 austin:
   ttl: 600
   type: CNAME
