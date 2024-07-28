@@ -62,6 +62,11 @@ ansh:
    type: CNAME
    value: ansh3108.github.io.
 
+arson: # accidentally added it to the hcb site first
+  - ttl: 600
+    type: CNAME
+    value: arsoninstigator.github.io.
+
 art: # by https://github.com/rajanwastaken
   ttl: 600
   type: CNAME
