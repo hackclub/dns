@@ -260,6 +260,7 @@ _vercel:
   ttl: 600
   type: TXT
   values:
+    - vc-domain-verify=forge.hackclub.com,9dbbce561a571cab8a3b
     - vc-domain-verify=saleh.hackclub.com,cdcc382c0ddbefe586b1
     - vc-domain-verify=gaynormccown.hackclub.com,32e375ae13476a9653b9
     - vc-domain-verify=hackerabad.hackclub.com,6c3d5d32a250935189d8
