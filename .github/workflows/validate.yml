@@ -1,4 +1,4 @@
-name: json-yaml-validate 
+name: Validate DNS Configs
 on:
   push:
     branches:
@@ -15,9 +15,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      - name: json-yaml-validate
+      - name: Validdate JSON & YAML
         id: json-yaml-validate
         uses: GrantBirki/json-yaml-validate@v2.7.1
         with:
           comment: "true"
+# octodns --force testing
+# things that cause octodns to need --force
+# - ns record changes
+# - undetermined percentage of dns changes
