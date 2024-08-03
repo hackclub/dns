@@ -1334,7 +1334,7 @@ hackinux:
 hackstore:
   ttl: 600
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: hack-store.netlify.app.
 hacktheoctober:
   ttl: 600
   type: CNAME
