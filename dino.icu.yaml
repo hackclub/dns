@@ -92,6 +92,11 @@ click: # a URL shortener
   type: CNAME
   value: cname.vercel-dns.com.
   
+codingcrew: # by https://github.com/shim-sham
+  ttl: 600 
+  type: CNAME
+  value: shim-sham.github.io/coding-crew. 
+  
 cslide: 
   ttl: 600
   type: CNAME
