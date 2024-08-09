@@ -771,6 +771,12 @@ codeabit:
   - ttl: 600
     type: CNAME
     value: codeabitkw.github.io.
+    
+codingcrew:
+  - ttl: 600
+    type: CNAME
+    value: shim-sham.github.io/coding-crew.
+    
 coet:
   - ttl: 600
     type: CNAME
