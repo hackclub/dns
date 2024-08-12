@@ -95,7 +95,7 @@ click: # a URL shortener
 codingcrew: # by https://github.com/shim-sham
   ttl: 600 
   type: CNAME
-  value: shim-sham.github.io/coding-crew. 
+  value: lustrous-ganache-dbb807.netlify.app. 
   
 cslide: 
   ttl: 600
