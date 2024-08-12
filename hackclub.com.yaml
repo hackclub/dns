@@ -770,8 +770,7 @@ cken:
 codeabit:
   - ttl: 600
     type: CNAME
-    value: codeabitkw.github.io.
-    
+    value: codeabitkw.github.io.  
 coet:
   - ttl: 600
     type: CNAME
