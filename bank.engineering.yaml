@@ -45,3 +45,7 @@ www:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
+yellowpages:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
