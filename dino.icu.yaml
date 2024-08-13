@@ -464,3 +464,7 @@ terror:
   ttl: 600 
   type: CNAME 
   value: 4H4CayJ.github.io.
+ mk:
+ - ttl: 600
+   type: CNAME
+   value: vic.hackclub.app.
