@@ -227,6 +227,12 @@ mindson: # by rajan
   type: CNAME
   value: mindson.netlify.app.
 
+mk:
+ ttl: 600
+ type: CNAME
+ value: vic.hackclub.app.
+
+
 motivation: 
   ttl: 600
   type: CNAME
@@ -464,7 +470,3 @@ terror:
   ttl: 600 
   type: CNAME 
   value: 4H4CayJ.github.io.
- mk:
- - ttl: 600
-   type: CNAME
-   value: vic.hackclub.app.
