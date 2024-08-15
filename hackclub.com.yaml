@@ -297,6 +297,7 @@ _vercel:
     - vc-domain-verify=bunker.apocalypse.hackclub.com,75a61be6a0e63f44d7c1
     - vc-domain-verify=ten-days-of-code.hackclub.com,f4bdc5d47d93a15aea28
     - vc-domain-verify=athena.hackclub.com,2e501f1e64f9510cc920
+    - vc-domain-verify=lambert.hackclub.com,3e5d64ff4f6d55af2248
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -1605,6 +1606,10 @@ ko:
   ttl: 3600
   type: CNAME
   value: cname.vercel-dns.com.
+lambert:
+  - ttl: 600
+    type: CNAME
+    value: https://lambert-hackclub.vercel.app/.
 langjam:
   ttl: 600
   type: CNAME
