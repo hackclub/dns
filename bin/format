@@ -4,7 +4,7 @@
 yq '.zones | keys | .[]' config/production.yaml | while read -r zone; do
   # For each file...
   FILENAME="$zone"yaml
-  echo -e "\nSorting $FILENAME"
+  echo -e "\nFormatting $FILENAME"
 
   # Print a diff (if changes are made)
   yq -MP 'sort_keys(.)' $FILENAME >$FILENAME.tmp
