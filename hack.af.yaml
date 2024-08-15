@@ -13,7 +13,7 @@
       - v=spf1 include:mailgun.org ~all
       - google-site-verification=ntu4oLX1DPYni0Ti5N_gsW0jgkl7TY1pViqw7Kfcqn8
       - 1password-site-verification=QMNA42JBYBF7HLP6UYIJDMLDXQ # 1pass domain breach report feature
-"*":
+'*':
   type: CNAME
   value: proxyparty.hackclub.com.
 as:
