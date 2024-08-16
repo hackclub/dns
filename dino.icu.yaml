@@ -152,6 +152,9 @@ geta: # yoda - https://getadinoicu.yodacode.repl.co/dino.png - get a dino from h
 hi: # doruk.dino.icu email address
  - type: TXT
    value: apple-domain=rkbobCmChEtkhbTS.
+hk:
+- type: CNAME
+  value: vic.hackclub.app.
 hkgi:
 - type: CNAME
   value: garden.devcara.com.
