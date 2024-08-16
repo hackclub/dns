@@ -1675,6 +1675,10 @@ lonestar:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+luna:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 lxqekzzkeh32evz7auo5klcbsas5ccbs._domainkey: # for loops.so dkim
   - type: CNAME
     value: lxqekzzkeh32evz7auo5klcbsas5ccbs.dkim.amazonses.com.
