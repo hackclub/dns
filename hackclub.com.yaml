@@ -1609,7 +1609,7 @@ ko:
 lambert:
   - ttl: 600
     type: CNAME
-    value: https://lambert-hackclub.vercel.app/.
+    value: lambert-hackclub.vercel.app.
 langjam:
   ttl: 600
   type: CNAME
