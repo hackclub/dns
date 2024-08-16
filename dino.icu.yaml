@@ -56,6 +56,11 @@ andrew: # by https://github.com/anddddrew
   ttl: 600
   type: CNAME
   value: nijmeh.xyz.
+
+amina: # by https://github.com/amino47
+  ttl: 600
+  type: CNAME
+  value: amino47.github.io.
   
 ansh:
    ttl: 600
@@ -91,6 +96,11 @@ click: # a URL shortener
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+  
+codingcrew: # by https://github.com/shim-sham
+  ttl: 600 
+  type: CNAME
+  value: lustrous-ganache-dbb807.netlify.app. 
   
 cslide: 
   ttl: 600
