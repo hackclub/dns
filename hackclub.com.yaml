@@ -2855,3 +2855,9 @@ syria:
   - ttl: 600
     type: CNAME
     value: hackclub-syria.github.io.
+bbss:
+_vercel:
+  ttl: 600
+  type: TXT
+  values:
+    - vc-domain-verify=bbss.hackclub.com,6c79bb5ffee8bbfd78d2
