@@ -395,6 +395,11 @@ toonnongaeoy:
    type: CNAME
    value: retro.toonstorytime.me.
 
+url: # A url shortener for anyone in hack club :D
+ - ttl: 600
+   type: CNAME
+   value: felixgao.hackclub.app.
+
 vansh:
  - ttl: 600
    type: CNAME
