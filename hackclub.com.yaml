@@ -552,6 +552,13 @@ bank-wrapped:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+bbss:
+  _vercel:
+  ttl: 600
+  type: TXT
+  values:
+    - vc-domain-verify=bbss.hackclub.com,6c79bb5ffee8bbfd78d2
+
 berkeley:
   - ttl: 600
     type: CNAME
@@ -2855,9 +2862,3 @@ syria:
   - ttl: 600
     type: CNAME
     value: hackclub-syria.github.io.
-bbss:
-_vercel:
-  ttl: 600
-  type: TXT
-  values:
-    - vc-domain-verify=bbss.hackclub.com,6c79bb5ffee8bbfd78d2
