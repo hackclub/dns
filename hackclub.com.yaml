@@ -298,6 +298,7 @@ _vercel:
     - vc-domain-verify=ten-days-of-code.hackclub.com,f4bdc5d47d93a15aea28
     - vc-domain-verify=athena.hackclub.com,2e501f1e64f9510cc920
     - vc-domain-verify=lambert.hackclub.com,3e5d64ff4f6d55af2248
+    - vc-domain-verify=bbss.hackclub.com,6c79bb5ffee8bbfd78d2
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -552,12 +553,7 @@ bank-wrapped:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
-bbss:
-  _vercel:
-  ttl: 600
-  type: TXT
-  values:
-    - vc-domain-verify=bbss.hackclub.com,6c79bb5ffee8bbfd78d2
+
 
 berkeley:
   - ttl: 600
