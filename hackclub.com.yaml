@@ -1021,6 +1021,10 @@ eomail:
   ttl: 600
   type: CNAME
   value: custom.eomail2.com.
+eventmasterapi:
+  ttl: 600
+  type: CNAME
+  value: reticulated-journey-r4a6es43tvz06y6xob26ki8j.herokudns.com.
 es:
   - ttl: 600
     type: A
