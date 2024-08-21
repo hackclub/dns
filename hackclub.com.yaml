@@ -2089,6 +2089,9 @@ postal.servers:
 posthog:
   type: A
   value: 45.79.174.48
+pm-bounces: # Priate Ship's Return Path verification (Postmark)
+  type: CNAME
+  value: pm.mtasv.net.
 prc:
   - ttl: 600
     type: A
