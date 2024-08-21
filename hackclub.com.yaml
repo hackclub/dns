@@ -2855,3 +2855,8 @@ syria:
   - ttl: 600
     type: CNAME
     value: hackclub-syria.github.io.
+    
+astra:
+  - ttl: 600
+    type: CNAME
+    value: astra-collective.github.io.
