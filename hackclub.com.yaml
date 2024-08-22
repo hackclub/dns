@@ -1024,6 +1024,10 @@ eomail:
   ttl: 600
   type: CNAME
   value: custom.eomail2.com.
+eventmasterapi:
+  ttl: 600
+  type: CNAME
+  value: reticulated-journey-r4a6es43tvz06y6xob26ki8j.herokudns.com.
 es:
   - ttl: 600
     type: A
@@ -2088,6 +2092,9 @@ postal.servers:
 posthog:
   type: A
   value: 45.79.174.48
+pm-bounces: # Priate Ship's Return Path verification (Postmark)
+  type: CNAME
+  value: pm.mtasv.net.
 prc:
   - ttl: 600
     type: A
@@ -2858,3 +2865,8 @@ syria:
   - ttl: 600
     type: CNAME
     value: hackclub-syria.github.io.
+
+replit-takeout:
+- ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
