@@ -434,6 +434,10 @@ aryan:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+arsenic:
+  - ttl: 600
+    type: CNAME
+    value: arsenobetaine.github.io.
 asia-summit:
   - ttl: 600
     type: CNAME
