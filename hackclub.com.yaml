@@ -430,14 +430,14 @@ archived.guide:
   ttl: 600
   type: CNAME
   value: hackclub-guide.netlify.com.
-aryan:
-  - ttl: 600
-    type: CNAME
-    value: cname.vercel-dns.com.
 arsenic:
   - ttl: 600
     type: CNAME
     value: arsenobetaine.github.io.
+aryan:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 asia-summit:
   - ttl: 600
     type: CNAME
