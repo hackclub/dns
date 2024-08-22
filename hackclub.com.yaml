@@ -430,6 +430,10 @@ archived.guide:
   ttl: 600
   type: CNAME
   value: hackclub-guide.netlify.com.
+arsenic:
+  - ttl: 600
+    type: CNAME
+    value: arsenobetaine.github.io.
 aryan:
   - ttl: 600
     type: CNAME
