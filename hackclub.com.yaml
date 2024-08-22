@@ -2879,3 +2879,8 @@ replit-takeout:
 - ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+
+pan:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
