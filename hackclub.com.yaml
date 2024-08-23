@@ -436,7 +436,7 @@ archived.guide:
   value: hackclub-guide.netlify.com.
 arsenic:
   - ttl: 600
-  - type: CNAME
+    type: CNAME
     value: arsenobetaine.github.io.
   - type: TXT
     value: v=spf1 include:zohomail.com ~all
