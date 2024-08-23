@@ -438,9 +438,13 @@ arsenic:
   - ttl: 600
     type: CNAME
     value: arsenobetaine.github.io.
-  - type: TXT
+arsenic:
+  - ttl: 600
+    type: TXT
     value: v=spf1 include:zohomail.com ~all
-  - type: MX
+arsenic:
+  - ttl: 600
+    type: MX
     values:
       - exchange: mx.zoho.com.
         preference: 10
