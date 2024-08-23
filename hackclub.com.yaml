@@ -2028,6 +2028,11 @@ packages:
   ttl: 600
   type: CNAME
   value: secret-zebra-lydr194iy8x0x4n4rmzcii3r.herokudns.com.
+
+pan:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 petcs:
   ttl: 600
   type: CNAME
@@ -2879,8 +2884,3 @@ replit-takeout:
 - ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
-
-pan:
-  - ttl: 1
-    type: CNAME
-    value: cname.vercel-dns.com.
