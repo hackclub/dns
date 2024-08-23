@@ -436,8 +436,18 @@ archived.guide:
   value: hackclub-guide.netlify.com.
 arsenic:
   - ttl: 600
-    type: CNAME
+  - type: CNAME
     value: arsenobetaine.github.io.
+  - type: TXT
+    value: v=spf1 include:zohomail.com ~all
+  - type: MX
+    values:
+      - exchange: mx.zoho.com.
+        preference: 10
+      - exchange: mx2.zoho.com.
+        preference: 
+      - exchange: mx3.zoho.com.
+        preference: 50
 aryan:
   - ttl: 600
     type: CNAME
@@ -2834,6 +2844,10 @@ zh:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+zmail._domainkey.arsenic:
+  - ttl: 600
+  - type: TXT
+    value: v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCEvPRKGRA0TVgL3seCQ23xn2cV9CAp06mB3iCT/wJ1sx54fq7WpUuVkz/gunNCzvYPVZk4MvFyBulr/rkj+tVqVEIJlKzGKg+djWiXqwCakgZIOC5FfBv3dzzbIAFKU5NHaipYmmXNzJxKSEuu0hVPv8fILiwqqmnOB88pfCRzVQIDAQAB
 zwp:
   - ttl: 600
     type: A
