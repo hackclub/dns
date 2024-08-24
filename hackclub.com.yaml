@@ -316,6 +316,10 @@ adastra:
   - ttl: 600
     type: TXT
     value: bit.ly/adastrahacks
+astra:
+  - ttl: 600
+    type: CNAME
+    value: astra-collective.github.io.
 airbridge:
   ttl: 600
   type: CNAME
