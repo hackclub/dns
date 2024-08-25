@@ -2898,3 +2898,13 @@ syria:
   - ttl: 600
     type: CNAME
     value: hackclub-syria.github.io.
+
+replit-takeout:
+- ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
+
+nl:
+- ttl: 1
+  type: CNAME
+  value: cname.vercel-dns.com.
