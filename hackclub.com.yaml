@@ -319,7 +319,7 @@ adastra:
 astra:
   - ttl: 600
     type: CNAME
-    value: astra-collective.github.io.
+    value: astra2-ops.github.io.
 airbridge:
   ttl: 600
   type: CNAME
