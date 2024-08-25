@@ -2243,6 +2243,10 @@ rrhshack:
   - ttl: 600
     type: CNAME
     value: rrhshack.github.io.
+ru:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 s1._domainkey:
   ttl: 600
   type: CNAME
@@ -2660,6 +2664,10 @@ teenhack:
     type: CNAME
     value: cname.vercel-dns.com.
 uet:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
+uk:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
