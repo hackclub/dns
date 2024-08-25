@@ -1533,6 +1533,10 @@ irvine:
   - ttl: 600
     type: ALIAS
     value: cname.vercel-dns.com.
+it:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 iter:
   ttl: 600
   type: CNAME
