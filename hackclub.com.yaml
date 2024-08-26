@@ -2227,6 +2227,10 @@ renaissance-24:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+resend._domainkey.lambert:
+  ttl: 600
+  type: TXT
+  value: p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDUXULWodM9ZsEgOSaPJhRjM/X11hI5Vm/NAKq+IGPSbNpVlrBaDv8nqyR/xaIfEUZBb+TpFsEdWzUvdaiQb2XpbzqEPBKdqZlEzPqmqYC7CvR1B1i5BrGFxx0CCAwfVTj/ktCjEIQQbaHYvauNVzsmy36dKdJkqhq1PpNaZ9qehwIDAQAB
 riverbend:
   - ttl: 600
     type: CNAME
@@ -2310,6 +2314,14 @@ scrappy:
   ttl: 600
   type: CNAME
   value: glacial-dusk-446cvr5bsl9xqyp8yoge5tt7.herokudns.com.
+send.lambert:
+  - ttl: 600
+    type: MX
+    value: feedback-smtp.us-east-1.amazonses.com
+    priority: 10 
+  - ttl: 600
+    type: TXT
+    value: v=spf1 include:amazonses.com ~all
 server.psn:
   ttl: 600
   type: A
