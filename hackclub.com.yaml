@@ -2898,3 +2898,8 @@ syria:
   - ttl: 600
     type: CNAME
     value: hackclub-syria.github.io.
+
+takeout:
+  - ttl: 600
+    type: A
+    value: 68.183.252.105
