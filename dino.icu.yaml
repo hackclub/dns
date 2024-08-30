@@ -56,11 +56,21 @@ andrew: # by https://github.com/anddddrew
   ttl: 600
   type: CNAME
   value: nijmeh.xyz.
+
+amina: # by https://github.com/amino47
+  ttl: 600
+  type: CNAME
+  value: amino47.github.io.
   
 ansh:
    ttl: 600
    type: CNAME
    value: ansh3108.github.io.
+
+arson: # accidentally added it to the hcb site first
+  - ttl: 600
+    type: CNAME
+    value: arsoninstigator.github.io.
 
 art: # by https://github.com/rajanwastaken
   ttl: 600
@@ -86,6 +96,11 @@ click: # a URL shortener
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+  
+codingcrew: # by https://github.com/shim-sham
+  ttl: 600 
+  type: CNAME
+  value: lustrous-ganache-dbb807.netlify.app. 
   
 cslide: 
   ttl: 600
@@ -129,11 +144,6 @@ emojile: # wordle with slack emojis - https://github.com/yodalightsabr/emojile
   type: CNAME
   value: yodalightsabr.github.io.
 
-gaming: # sprig gaming controller (aka Sprig+) - https://github.com/cytronicoder/sprig-gaming-controller
-  ttl: 600
-  type: CNAME
-  value: cname.vercel-dns.com.
-
 geta: # yoda - https://getadinoicu.yodacode.repl.co/dino.png - get a dino from hackclub/dinosaurs api
   ttl: 600
   type: CNAME
@@ -142,6 +152,9 @@ geta: # yoda - https://getadinoicu.yodacode.repl.co/dino.png - get a dino from h
 hi: # doruk.dino.icu email address
  - type: TXT
    value: apple-domain=rkbobCmChEtkhbTS.
+hk:
+- type: CNAME
+  value: vic.hackclub.app.
 hkgi:
 - type: CNAME
   value: garden.devcara.com.
@@ -279,6 +292,11 @@ pay: # by Ella
   type: CNAME
   value: 72ce41e0-b635-4025-a3ab-519ba661d5b7.id.repl.co.
 
+pc: # https://github.com/MCPE-PC/dino.icu
+  ttl: 3600
+  type: CNAME
+  value: dino-icu.pages.dev.
+
 periodic:
    ttl: 600
    type: CNAME
@@ -308,7 +326,12 @@ short: # short.dino.icu; by kunal botla (.com)
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
-
+ 
+sk: # sk.dino.icu unofficial hackclub sharkey instance
+  ttl: 600
+  type: CNAME
+  value: vic.hackclub.app.
+  
 skyfall: # Skyfall's website (gh: SkyfallWasTaken, email: hackclubdns@skyfall.33mail.com)
   ttl: 600
   type: CNAME
