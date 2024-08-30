@@ -2903,3 +2903,9 @@ takeout:
   - ttl: 600
     type: A
     value: 68.183.252.105
+
+indian-hc-finder:
+  ttl: 600
+  type: TXT
+  values:
+    - vc-domain-verify=indian-hc-finder.hackclub.com,6bc40daab2feffbb2061   
