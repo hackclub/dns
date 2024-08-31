@@ -1291,7 +1291,7 @@ globalcovid:
 golden:
   - ttl: 600
     type: CNAME
-    value: golden.hackclub.dev
+    value: golden.hackclub.dev.
 google._domainkey:
   ttl: 600
   type: TXT
