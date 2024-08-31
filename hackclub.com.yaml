@@ -1291,7 +1291,7 @@ globalcovid:
 golden:
   - ttl: 600
     type: CNAME
-    value: golden.hackclub.dev.
+    value: cname.vercel-dns.com.
 google._domainkey:
   ttl: 600
   type: TXT
