@@ -456,6 +456,11 @@ api.vortex:
   value: 35.193.1.201
 # End Vortex DNS records
 
+weather:
+  - ttl: 600
+    type: CNAME
+    value: weathersomewhere.netlify.app.
+    
 winterlings: # a site to view winter wonderland projects (contact @ZeroQL on slack for thingies)
   ttl: 600
   type: CNAME
