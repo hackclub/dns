@@ -2910,5 +2910,5 @@ takeout:
 
 aviquo:
   - ttl: 600
-    type: CNAME
+    type: A 
     value: 18.191.65.154
