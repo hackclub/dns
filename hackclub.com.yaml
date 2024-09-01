@@ -1296,6 +1296,10 @@ globalcovid:
   ttl: 600
   type: CNAME
   value: globalcovid.netlify.com.
+golden:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 google._domainkey:
   ttl: 600
   type: TXT
