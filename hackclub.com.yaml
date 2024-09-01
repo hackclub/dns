@@ -732,6 +732,10 @@ ccshc:
 cdn:
   type: CNAME
   value: cname.vercel-dns.com.
+cdn.arsenic:
+  - ttl: 600
+    type: CNAME
+    value: arsenobetaine.github.io.
 cec:
   - ttl: 600
     type: CNAME
