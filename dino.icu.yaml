@@ -527,3 +527,8 @@ terror:
   ttl: 600 
   type: CNAME 
   value: 4H4CayJ.github.io.
+
+aviquo:
+  - ttl: 600
+    type: A 
+    value: 13.58.162.229

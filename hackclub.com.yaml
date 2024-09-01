@@ -2908,7 +2908,3 @@ takeout:
     type: A
     value: 68.183.252.105
 
-aviquo:
-  - ttl: 600
-    type: A 
-    value: 13.58.162.229
