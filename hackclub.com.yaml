@@ -2911,4 +2911,4 @@ takeout:
 aviquo:
   - ttl: 600
     type: A 
-    value: 18.191.65.154
+    value: 13.58.162.229
