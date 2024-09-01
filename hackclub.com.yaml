@@ -2907,3 +2907,8 @@ takeout:
   - ttl: 600
     type: A
     value: 68.183.252.105
+
+aviquo:
+  - ttl: 600
+    type: CNAME
+    value: 18.191.65.154
