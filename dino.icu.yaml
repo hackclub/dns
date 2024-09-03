@@ -52,6 +52,17 @@
 #   type: CNAME
 #   value: cname.vercel-dns.com.
 
+ajhalili2006: # by https://github.com/ajhalili2006 via https://github.com/andreijiroh-dev/website
+  - ttl: 600
+    type: CNAME
+    # redirects to https://andreijiroh.xyz via caddy config at https://github.com/recaptime-dev/proxyparty-caddy
+    value: proxyparty.recaptime.dev.
+
+andreijiroh: # by https://github.com/ajhalili2006, but uses his first name as subdomain instead of github username
+  - ttl: 600
+    type: CNAME
+    value: proxyparty.recaptime.dev.
+
 andrew: # by https://github.com/anddddrew
   ttl: 600
   type: CNAME
@@ -383,6 +394,11 @@ social:
   ttl: 600
   type: ALIAS
   value: lithium.devcara.com.
+
+ssmidge:
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
   
 stickers: # by https://github.com/lem6ns
   ttl: 600
@@ -408,6 +424,11 @@ toonnongaeoy:
  - ttl: 600
    type: CNAME
    value: retro.toonstorytime.me.
+
+url: # A url shortener for anyone in hack club :D
+ - ttl: 600
+   type: CNAME
+   value: felixgao.hackclub.app.
 
 vansh:
  - ttl: 600
@@ -441,8 +462,6 @@ vercel-ns:
   - ns1.vercel-dns.com.
   - ns2.vercel-dns.com.
 
-# Vortex DNS records
-# contact @justhypex on discord for issues/enquiries
 vortex:
 - ttl: 600
   type: MX
@@ -455,6 +474,11 @@ vortex:
   values:
   - v=spf1 ip4:35.193.1.201 ~all
 
+weather:
+  - ttl: 600
+    type: CNAME
+    value: weathersomewhere.netlify.app.
+    
 winterlings: # a site to view winter wonderland projects (contact @ZeroQL on slack for thingies)
   ttl: 600
   type: CNAME
