@@ -118,6 +118,11 @@ cslide:
   type: CNAME
   value: leecheeyong.github.io.
 
+dast: # by https://github.com/danielsebesta
+  ttl: 600
+  type: A
+  value: 194.163.149.155
+
 dev-email:
 - type: MX
   values:
