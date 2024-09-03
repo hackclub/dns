@@ -380,6 +380,11 @@ social:
   ttl: 600
   type: ALIAS
   value: lithium.devcara.com.
+
+ssmidge:
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
   
 stickers: # by https://github.com/lem6ns
   ttl: 600
