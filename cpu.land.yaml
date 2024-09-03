@@ -13,3 +13,9 @@
 - type: CNAME
   ttl: 21600
   value: cname.vercel-dns.com.
+
+'dast':
+- type: A
+  ttl: 600
+  value: 194.163.149.155
+  
