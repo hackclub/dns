@@ -118,6 +118,11 @@ cslide:
   type: CNAME
   value: leecheeyong.github.io.
 
+dast: # by https://github.com/danielsebesta
+  ttl: 600
+  type: A
+  value: 194.163.149.155
+
 dev-email:
 - type: MX
   values:
@@ -154,6 +159,13 @@ emojile: # wordle with slack emojis - https://github.com/yodalightsabr/emojile
   ttl: 600
   type: CNAME
   value: yodalightsabr.github.io.
+
+erdtree: # erdtree.dino.icu - contact @justhypex on discord for issues/enquiries
+- ttl: 600
+  type: MX
+  values:
+  - exchange: mail.vortex.skyfall.dev.
+    preference: 500
 
 geta: # yoda - https://getadinoicu.yodacode.repl.co/dino.png - get a dino from hackclub/dinosaurs api
   ttl: 600
@@ -333,6 +345,13 @@ scales: # (yet another?) currency slack bot (with some web UI) :D
   type: A
   value: 150.136.254.91 # Oracle Always Free:tm: server lol
 
+shadow: # shadow.dino.icu - contact @justhypex on discord for issues/enquiries
+- ttl: 600
+  type: MX
+  values:
+  - exchange: mail.vortex.skyfall.dev.
+    preference: 500
+
 short: # short.dino.icu; by kunal botla (.com)
   ttl: 600
   type: CNAME
@@ -380,6 +399,11 @@ social:
   ttl: 600
   type: ALIAS
   value: lithium.devcara.com.
+
+ssmidge:
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
   
 stickers: # by https://github.com/lem6ns
   ttl: 600
@@ -443,34 +467,17 @@ vercel-ns:
   - ns1.vercel-dns.com.
   - ns2.vercel-dns.com.
 
-# BEGIN Vortex DNS records
-# contact @justhypex on discord for issues/enquiries
-vortex: # Base domain records
-- ttl: 600
-  type: A
-  value: 76.76.21.21
-
+vortex:
 - ttl: 600
   type: MX
   values:
-  - exchange: mail.vortex.dino.icu.
-    preference: 10
+  - exchange: mail.vortex.skyfall.dev.
+    preference: 500
 
 - ttl: 600
   type: TXT
   values:
   - v=spf1 ip4:35.193.1.201 ~all
-
-mail.vortex: # Mail server A record
-- ttl: 600
-  type: A
-  value: 35.193.1.201
-
-api.vortex:
-- ttl: 600
-  type: A
-  value: 35.193.1.201
-# End Vortex DNS records
 
 weather:
   - ttl: 600

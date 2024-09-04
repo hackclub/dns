@@ -129,6 +129,10 @@ _dmarc:
   ttl: 600
   type: TXT
   value: v=DMARC1\; p=quarantine\; rua=mailto:6192c543e0e61@ag.dmarcly.com\; ruf=mailto:6192c543e0e61@fo.dmarcly.com\; fo=1\;
+_gh-arsenobetaine-o:
+  - ttl: 600
+    type: TXT
+    value: cea65ff579
 _gh-arsenobetaine-o.arsenic:
   - ttl: 600
     type: TXT
@@ -168,6 +172,10 @@ _github-challenge-rahs-hackclub.rahs:
   - ttl: 600
     type: TXT
     value: f43a54836a
+_github-pages-challenge-arsenobetaine.arsenic:
+  - ttl: 600
+    type: TXT
+    value: e46c397c5bd751389a024480dbb07b
 _github-pages-challenge-cghs-hackclub.cghs:
   - ttl: 7200
     type: TXT
