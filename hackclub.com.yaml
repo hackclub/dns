@@ -1508,6 +1508,9 @@ hub.zephyr:
 ia:
   type: CNAME
   value: cname.vercel-dns.com.
+ice:
+  - type: CNAME
+    value: hackclub.github.io.
 icons:
   ttl: 600
   type: CNAME
