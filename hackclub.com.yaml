@@ -1473,6 +1473,10 @@ help.bank:
 help.hcb:
   type: CNAME
   value: hcb.helpscoutdocs.com.
+hersey:
+  - ttl: 600
+    type: CNAME
+    value: hersey-hack-club.vercel.app/.
 hillsdale:
   - ttl: 600
     type: CNAME
