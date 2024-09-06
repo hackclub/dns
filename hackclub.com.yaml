@@ -2018,7 +2018,11 @@ onboard:
 oneditor:
   - ttl: 600
     type: CNAME
-    value: oneditor.netlify.app.
+    value: oneditor.netlify.app.   
+op:
+  - ttl: 600
+    type: CNAME
+    value: optsa.kayla.hackclub.app.
 orpheushacks: # Harrison Katz automatically wins for adding the DNS entry - thats how it works, right?
   - ttl: 600
     type: CNAME
@@ -2919,11 +2923,6 @@ syria:
   - ttl: 600
     type: CNAME
     value: hackclub-syria.github.io.
-    
-op:
-  - ttl: 600
-    type: CNAME
-    value: optsa.kayla.hackclub.app.
 
 takeout:
   - ttl: 600
