@@ -2021,7 +2021,7 @@ onboard:
 oneditor:
   - ttl: 600
     type: CNAME
-    value: oneditor.netlify.app.   
+    value: oneditor.netlify.app.
 op:
   - ttl: 600
     type: CNAME
