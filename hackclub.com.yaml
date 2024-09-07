@@ -1476,7 +1476,7 @@ help.hcb:
 hersey:
   - ttl: 600
     type: CNAME
-    value: hersey-hack-club.vercel.app.
+    value: cname.vercel-dns.com.
 hillsdale:
   - ttl: 600
     type: CNAME
