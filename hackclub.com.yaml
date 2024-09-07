@@ -2098,6 +2098,10 @@ pic._domainkey.mail:
   ttl: 600
   type: TXT
   value: k=rsa
+pinetree:
+  - ttl: 600
+    type: CNAME
+    value: tensixxx.github.io.
 piobfpwf42smbkxcysnrx7qe5es6f5tp._domainkey:
   ttl: 600
   type: CNAME
