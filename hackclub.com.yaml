@@ -1508,6 +1508,9 @@ hub.zephyr:
 ia:
   type: CNAME
   value: cname.vercel-dns.com.
+ice:
+  - type: CNAME
+    value: hackclub.github.io.
 icons:
   ttl: 600
   type: CNAME
@@ -2019,6 +2022,10 @@ oneditor:
   - ttl: 600
     type: CNAME
     value: oneditor.netlify.app.
+op:
+  - ttl: 600
+    type: CNAME
+    value: kayla.hackclub.app.
 orpheushacks: # Harrison Katz automatically wins for adding the DNS entry - thats how it works, right?
   - ttl: 600
     type: CNAME
