@@ -1155,6 +1155,10 @@ f5qsmeu4qwef4yvo2p6e4a4vrspzdqdc._domainkey.epochvt:
   ttl: 600
   type: CNAME
   value: f5qsmeu4qwef4yvo2p6e4a4vrspzdqdc.dkim.amazonses.com.
+fa:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 feed.assemble:
   - ttl: 600
     type: CNAME
