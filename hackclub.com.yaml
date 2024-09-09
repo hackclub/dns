@@ -1155,6 +1155,10 @@ f5qsmeu4qwef4yvo2p6e4a4vrspzdqdc._domainkey.epochvt:
   ttl: 600
   type: CNAME
   value: f5qsmeu4qwef4yvo2p6e4a4vrspzdqdc.dkim.amazonses.com.
+fa:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 feed.assemble:
   - ttl: 600
     type: CNAME
@@ -2029,7 +2033,7 @@ oneditor:
 op:
   - ttl: 600
     type: CNAME
-    value: optsa.kayla.hackclub.app.
+    value: kayla.hackclub.app.
 orpheushacks: # Harrison Katz automatically wins for adding the DNS entry - thats how it works, right?
   - ttl: 600
     type: CNAME
@@ -2102,6 +2106,10 @@ pic._domainkey.mail:
   ttl: 600
   type: TXT
   value: k=rsa
+pinetree:
+  - ttl: 600
+    type: CNAME
+    value: tensixxx.github.io.
 piobfpwf42smbkxcysnrx7qe5es6f5tp._domainkey:
   ttl: 600
   type: CNAME
