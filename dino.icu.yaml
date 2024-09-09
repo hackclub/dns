@@ -52,6 +52,11 @@
 #   type: CNAME
 #   value: cname.vercel-dns.com.
 
+ai: # for a AI website
+  ttl: 600
+  type: A
+  value: 76.76.21.21
+  
 ajhalili2006: # by https://github.com/ajhalili2006 via https://github.com/andreijiroh-dev/website
   - ttl: 600
     type: CNAME
@@ -335,6 +340,11 @@ print:
    type: CNAME
    value: cname.vercel-dns.com.
 
+roxy: # for peosonal blog
+  ttl: 600
+  type: A
+  value: 76.76.21.21
+  
 rr: # Rickroll with a single line of bash
   ttl: 600
   type: CNAME
@@ -540,12 +550,6 @@ mthlpbs:
     type: CNAME
     value: mthlpbs.github.io.
 
-roxy: # for peosonal blog
-  ttl: 600
-  type: A
-  value: 76.76.21.21
 
-ai: # for a AI website
-  ttl: 600
-  type: A
-  value: 76.76.21.21
+
+
