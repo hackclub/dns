@@ -539,3 +539,13 @@ mthlpbs:
   - ttl: 600
     type: CNAME
     value: mthlpbs.github.io.
+
+roxy: # for peosonal blog
+  ttl: 600
+  type: A
+  value: 76.76.21.21
+
+ai: # for a AI website
+  ttl: 600
+  type: A
+  value: 76.76.21.21
