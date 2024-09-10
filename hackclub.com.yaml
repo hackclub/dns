@@ -2939,3 +2939,8 @@ takeout:
   - ttl: 600
     type: A
     value: 68.183.252.105
+
+shipment-viewer:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
