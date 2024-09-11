@@ -1673,7 +1673,7 @@ langjam:
 lasa:
   - ttl: 600
     type: A
-    value: 136.62.158.195
+    value: hackclublasa.github.io.
 laslomas:
   - ttl: 600
     type: CNAME
