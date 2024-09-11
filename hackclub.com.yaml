@@ -2437,6 +2437,10 @@ smus:
   - ttl: 600
     type: CNAME
     value: smushackclub.github.io.
+soleimani:
+  - ttl: 600
+    type: CNAME
+    value: soleimanis.github.io.
 solstice:
   - ttl: 600
     type: CNAME
