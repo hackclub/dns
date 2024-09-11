@@ -2925,10 +2925,10 @@ codecafe:
   type: CNAME 
   value: cname.vercel-dns.com.
 
-internal:
+team:
 - ttl: 600
-  type: A
-  value: 104.131.182.116
+  type: CNAME
+  value: walrus-app-ynr6x.ondigitalocean.app.
   
 syria:
   - ttl: 600
