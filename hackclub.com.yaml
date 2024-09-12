@@ -1735,7 +1735,7 @@ list:
 live.onboard:
   - ttl: 600
     type: A
-    value: 195.201.227.192
+    value: 188.40.116.216
 lonestar:
   - ttl: 600
     type: CNAME
