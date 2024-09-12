@@ -313,6 +313,7 @@ _vercel:
     - vc-domain-verify=luna.hackclub.com,efe00a2321b67aac26d6
     - vc-domain-verify=lambert.hackclub.com,3e5d64ff4f6d55af2248
     - vc-domain-verify=bbss.hackclub.com,6c79bb5ffee8bbfd78d2
+    - vc-domain-verify=ascend.hackclub.com,5c143e010cb754d62113
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -452,6 +453,10 @@ arsenic:
     type: CNAME
     value: arsenobetaine.github.io.
 aryan:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
+ascend:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
