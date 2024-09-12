@@ -459,7 +459,7 @@ aryan:
 ascend:
   - ttl: 600
     type: CNAME
-    value: cname.vercel.dns.com.
+    value: cname.vercel-dns.com.
 asia-summit:
   - ttl: 600
     type: CNAME
