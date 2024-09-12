@@ -1672,7 +1672,7 @@ langjam:
   value: cname.vercel-dns.com.
 lasa:
   - ttl: 600
-    type: A
+    type: CNAME
     value: hackclublasa.github.io.
 laslomas:
   - ttl: 600
