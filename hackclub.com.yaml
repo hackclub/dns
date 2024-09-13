@@ -313,6 +313,8 @@ _vercel:
     - vc-domain-verify=luna.hackclub.com,efe00a2321b67aac26d6
     - vc-domain-verify=lambert.hackclub.com,3e5d64ff4f6d55af2248
     - vc-domain-verify=bbss.hackclub.com,6c79bb5ffee8bbfd78d2
+    - vc-domain-verify=ascend.hackclub.com,5c143e010cb754d62113
+    - vc-domain-verify=ecolint.hackclub.com,2ce5d27d136e89567e39
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -452,6 +454,10 @@ arsenic:
     type: CNAME
     value: arsenobetaine.github.io.
 aryan:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
+ascend:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
@@ -1002,6 +1008,10 @@ easel:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+ecolint:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 editor:
   ttl: 600
   type: CNAME
@@ -1155,6 +1165,10 @@ f5qsmeu4qwef4yvo2p6e4a4vrspzdqdc._domainkey.epochvt:
   ttl: 600
   type: CNAME
   value: f5qsmeu4qwef4yvo2p6e4a4vrspzdqdc.dkim.amazonses.com.
+fa:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 feed.assemble:
   - ttl: 600
     type: CNAME
@@ -1668,8 +1682,8 @@ langjam:
   value: cname.vercel-dns.com.
 lasa:
   - ttl: 600
-    type: A
-    value: 136.62.158.195
+    type: CNAME
+    value: hackclublasa.github.io.
 laslomas:
   - ttl: 600
     type: CNAME
@@ -1726,7 +1740,7 @@ list:
 live.onboard:
   - ttl: 600
     type: A
-    value: 195.201.227.192
+    value: 188.40.116.216
 lonestar:
   - ttl: 600
     type: CNAME
@@ -1862,6 +1876,10 @@ milesmac:
   ttl: 600
   type: CNAME
   value: 7b6d4e2f-ac5b-41f5-ab5e-d3c248bcda0c.repl.co.
+milton:
+  ttl: 10000
+  type: CNAME
+  value: miltonhackclub.pages.dev.
 miracosta:
   ttl: 600
   type: CNAME
@@ -2098,6 +2116,10 @@ pic._domainkey.mail:
   ttl: 600
   type: TXT
   value: k=rsa
+pinetree:
+  - ttl: 600
+    type: CNAME
+    value: tensixxx.github.io.
 piobfpwf42smbkxcysnrx7qe5es6f5tp._domainkey:
   ttl: 600
   type: CNAME
@@ -2917,10 +2939,10 @@ codecafe:
   type: CNAME 
   value: cname.vercel-dns.com.
 
-internal:
+team:
 - ttl: 600
-  type: A
-  value: 104.131.182.116
+  type: CNAME
+  value: walrus-app-ynr6x.ondigitalocean.app.
   
 syria:
   - ttl: 600
@@ -2931,3 +2953,8 @@ takeout:
   - ttl: 600
     type: A
     value: 68.183.252.105
+
+shipment-viewer:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
