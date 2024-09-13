@@ -1876,6 +1876,10 @@ milesmac:
   ttl: 600
   type: CNAME
   value: 7b6d4e2f-ac5b-41f5-ab5e-d3c248bcda0c.repl.co.
+milton:
+  ttl: 10000
+  type: CNAME
+  value: miltonhackclub.pages.dev.
 miracosta:
   ttl: 600
   type: CNAME
