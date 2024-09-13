@@ -2954,3 +2954,7 @@ shipment-viewer:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+for-reviewers:
+   - ttl: 600
+    type: CNAME
+    value: souptik-samanta.github.io/final-for-arcade/index.html.
