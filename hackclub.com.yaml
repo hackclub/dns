@@ -2961,4 +2961,4 @@ shipment-viewer:
 for-reviewers:
    - ttl: 600
     type: CNAME
-    value: souptik-samanta.github.io/final-for-arcade/index.html.
+    value: souptik-samanta.github.io.
