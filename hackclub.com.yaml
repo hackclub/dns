@@ -1879,7 +1879,7 @@ milesmac:
 milton:
   ttl: 10000
   type: CNAME
-  value: miltonhackclub.pages.dev
+  value: miltonhackclub.pages.dev.
 miracosta:
   ttl: 600
   type: CNAME
