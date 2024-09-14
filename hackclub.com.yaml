@@ -2043,7 +2043,7 @@ oneditor:
 op:
   - ttl: 600
     type: CNAME
-    value: kayla.hackclub.app.
+    value: wordpress12345.chabox.me.
 orpheushacks: # Harrison Katz automatically wins for adding the DNS entry - thats how it works, right?
   - ttl: 600
     type: CNAME
