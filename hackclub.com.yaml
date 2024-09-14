@@ -2960,5 +2960,5 @@ shipment-viewer:
     value: cname.vercel-dns.com.
 for-reviewers:
    - ttl: 600
-    type: CNAME
-    value: souptik-samanta.github.io.
+     type: CNAME
+     value: souptik-samanta.github.io.
