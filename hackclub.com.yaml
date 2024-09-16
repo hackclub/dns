@@ -917,6 +917,18 @@ ddze3tkuawtlnbviwym44yhrjczhqzxw._domainkey:
   ttl: 600
   type: CNAME
   value: ddze3tkuawtlnbviwym44yhrjczhqzxw.dkim.amazonses.com.
+ai33r7fqmoefihzcm3c5yksogilyhsfv._domainkey:
+  ttl: 600
+  type: CNAME
+  value: ai33r7fqmoefihzcm3c5yksogilyhsfv.dkim.amazonses.com.
+65nnw42onodxiiqs6vt2y24prjkd66zj._domainkey:
+  ttl: 600
+  type: CNAME
+  value: 65nnw42onodxiiqs6vt2y24prjkd66zj.dkim.amazonses.com.
+hsqb5f7fwbzachritpekj4hc43east5o._domainkey:
+  ttl: 600
+  type: CNAME
+  value: hsqb5f7fwbzachritpekj4hc43east5o.dkim.amazonses.com.
 ddze3tkuawtlnbviwym44yhrjczhqzxw._domainkey.epochvt:
   ttl: 600
   type: CNAME
