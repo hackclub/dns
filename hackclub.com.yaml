@@ -2459,6 +2459,10 @@ som-mail-system:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+souptik:
+   - ttl: 600
+     type: CNAME
+     value: souptik-samanta.github.io/.
 spark:
   - ttl: 3600
     type: TXT
@@ -2958,7 +2962,3 @@ shipment-viewer:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
-for-reviewers:
-   - ttl: 600
-     type: CNAME
-     value: souptik-samanta.github.io.
