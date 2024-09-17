@@ -2978,3 +2978,7 @@ for-reviewers:
    - ttl: 600
      type: CNAME
      value: souptik-samanta.github.io.
+hacknoel:
+   - ttl: 600
+     type: TXT
+     value: vc-domain-verify=hacknoel.hackclub.com,646e8440c270793f0f96
