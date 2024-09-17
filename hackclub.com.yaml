@@ -2978,3 +2978,7 @@ for-reviewers:
    - ttl: 600
      type: CNAME
      value: souptik-samanta.github.io.
+retrospect:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
