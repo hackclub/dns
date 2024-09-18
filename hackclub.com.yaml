@@ -1103,7 +1103,6 @@ epoch0:
   - ttl: 3600
     type: TXT
     values:
-      - zoho-verification=zb71957826.zmverify.zoho.in
       - vc-domain-verify=epoch0.hackclub.com,ff9cc22901478379593a
 epochba:
   - ttl: 600
