@@ -1931,6 +1931,10 @@ ms:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+matchups:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 mx._domainkey:
   ttl: 600
   type: TXT
