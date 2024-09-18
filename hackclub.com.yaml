@@ -1403,6 +1403,10 @@ hackinux:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+hackpad:
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
 hackstore:
   ttl: 600
   type: CNAME
