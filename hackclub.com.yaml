@@ -129,6 +129,10 @@ _dmarc:
   ttl: 600
   type: TXT
   value: v=DMARC1\; p=quarantine\; rua=mailto:6192c543e0e61@ag.dmarcly.com\; ruf=mailto:6192c543e0e61@fo.dmarcly.com\; fo=1\;
+_gh-ACT-Hack-Club-o.act:
+  - ttl: 600
+    type: TXT
+    value: 346a2cce9c
 _gh-arsenobetaine-o:
   - ttl: 600
     type: TXT
@@ -323,6 +327,10 @@ a5fj644skxexxgvvraqrag5ngcaovcny._domainkey.epochvt:
   ttl: 600
   type: CNAME
   value: a5fj644skxexxgvvraqrag5ngcaovcny.dkim.amazonses.com.
+act:
+  - ttl: 600
+    type: CNAME
+    value: act-hack-club.github.io.
 adastra:
   - ttl: 600
     type: TXT
@@ -2974,3 +2982,11 @@ for-reviewers:
    - ttl: 600
      type: CNAME
      value: souptik-samanta.github.io.
+retrospect:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
+gps:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
