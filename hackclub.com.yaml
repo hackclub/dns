@@ -329,29 +329,8 @@ a5fj644skxexxgvvraqrag5ngcaovcny._domainkey.epochvt:
   value: a5fj644skxexxgvvraqrag5ngcaovcny.dkim.amazonses.com.
 act:
   - ttl: 600
-    type: A
-    value: 185.199.108.153
-  - ttl: 600
-    type: A
-    value: 185.199.109.153
-  - ttl: 600
-    type: A
-    value: 185.199.110.153
-  - ttl: 600
-    type: A
-    value: 185.199.111.153
-  - ttl: 600
-    type: AAAA
-    value: 2606:50c0:8000::153
-  - ttl: 600
-    type: AAAA
-    value: 2606:50c0:8001::153
-  - ttl: 600
-    type: AAAA
-    value: 2606:50c0:8002::153
-  - ttl: 600
-    type: AAAA
-    value: 2606:50c0:8003::153
+    type: CNAME
+    value: act-hack-club.github.io.
 adastra:
   - ttl: 600
     type: TXT
