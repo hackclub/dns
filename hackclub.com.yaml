@@ -176,7 +176,7 @@ _github-challenge-rahs-hackclub.rahs:
   - ttl: 600
     type: TXT
     value: f43a54836a
-_github-pages-challenge-arsenobetaine.arsenic:
+_github-pages-challenge-arsenic-club.arsenic:
   - ttl: 600
     type: TXT
     value: e46c397c5bd751389a024480dbb07b
@@ -460,7 +460,7 @@ archived.guide:
 arsenic:
   - ttl: 600
     type: CNAME
-    value: arsenobetaine.github.io.
+    value: arsenic-club.github.io.
 aryan:
   - ttl: 600
     type: CNAME
@@ -755,10 +755,6 @@ ccshc:
 cdn:
   type: CNAME
   value: cname.vercel-dns.com.
-cdn.arsenic:
-  - ttl: 600
-    type: CNAME
-    value: arsenobetaine.github.io.
 cec:
   - ttl: 600
     type: CNAME
