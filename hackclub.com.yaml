@@ -2462,7 +2462,7 @@ som-mail-system:
 souptik:
    - ttl: 600
      type: CNAME
-     value: souptik-samanta.github.io/.
+     value: souptik-samanta.github.io.
 spark:
   - ttl: 3600
     type: TXT
