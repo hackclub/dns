@@ -763,6 +763,10 @@ cecclphs:
   - ttl: 3600
     type: TXT
     value: google-site-verification=_c3oOWsKBUxlmaanXeqC1tBTLNZGflwsEMQQiuP-EUM
+celestial:
+  - ttl: 600
+    type: CNAME
+    value: emma-x1.github.io.
 cgc:
   - ttl: 600
     type: CNAME
