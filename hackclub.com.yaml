@@ -766,7 +766,7 @@ cecclphs:
 celestial:
   - ttl: 600
     type: CNAME
-    value: emma-x1.github.io
+    value: emma-x1.github.io.
 cgc:
   - ttl: 600
     type: CNAME
