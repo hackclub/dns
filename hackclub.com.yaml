@@ -766,7 +766,7 @@ cecclphs:
 celestial:
   - ttl: 600
     type: CNAME
-    value: https://emma-x1.github.io/Toronto-DoS-Celestial/
+    value: emma-x1.github.io
 cgc:
   - ttl: 600
     type: CNAME
