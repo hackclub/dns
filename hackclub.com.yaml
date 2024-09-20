@@ -972,6 +972,10 @@ devhacks:
         preference: 10
       - exchange: aspmx3.googlemail.com.
         preference: 10
+descend:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 devzat:
   - ttl: 600
     type: A
