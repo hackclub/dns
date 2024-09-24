@@ -848,6 +848,10 @@ contribute:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+counterspell:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 coxmill:
   - ttl: 600
     type: CNAME
