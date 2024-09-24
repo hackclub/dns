@@ -2834,8 +2834,8 @@ vn6m35np2nwaqdbm4l2potsno5qfnfz3._domainkey: # for loops.so dkim
     value: vn6m35np2nwaqdbm4l2potsno5qfnfz3.dkim.amazonses.com.
 waka:
   - ttl: 600
-    type: A
-    value: 129.80.7.134
+    type: CNAME
+    value: perpendicular-skunk-v36lghvkpfqlpajkpm6otfzl.herokudns.com
 warsaw:
   - ttl: 600
     type: CNAME
