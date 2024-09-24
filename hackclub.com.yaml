@@ -589,6 +589,10 @@ bank-wrapped:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+barracoders:
+  - ttl: 600
+    type: CNAME
+    value: barracoders.netlify.app.
 bbss:
   - ttl: 600
     type: CNAME
