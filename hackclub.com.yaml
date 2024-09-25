@@ -650,6 +650,12 @@ bn:
 boba:
   - type: CNAME
     value: hackclub.github.io.
+    
+bobabase:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
+    
 bounce:
   - ttl: 600
     type: CNAME
@@ -3015,7 +3021,3 @@ gps:
     type: CNAME
     value: cname.vercel-dns.com.
 
-bobabase:
-  - ttl: 600
-    type: CNAME
-    value: cname.vercel-dns.com.
