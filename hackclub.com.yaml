@@ -319,6 +319,7 @@ _vercel:
     - vc-domain-verify=bbss.hackclub.com,6c79bb5ffee8bbfd78d2
     - vc-domain-verify=ascend.hackclub.com,5c143e010cb754d62113
     - vc-domain-verify=ecolint.hackclub.com,2ce5d27d136e89567e39
+    - vc-domain-verify=descend.hackclub.com,766f399a5ac7216e01a1
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
