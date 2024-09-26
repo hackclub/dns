@@ -771,7 +771,7 @@ cecclphs:
 celestial:
   - ttl: 600
     type: CNAME
-    value: emma-x1.github.io.
+    value: cname.vercel-dns.com.
 cgc:
   - ttl: 600
     type: CNAME
