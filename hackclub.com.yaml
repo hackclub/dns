@@ -1845,7 +1845,7 @@ mangu:
 manor:
   - ttl: 600
     type: CNAME
-    value: boba-manor.vercel.app/.
+    value: cname.vercel-dns.com.
 maps:
   - ttl: 600
     type: CNAME
