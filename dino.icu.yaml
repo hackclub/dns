@@ -335,6 +335,11 @@ print:
    type: CNAME
    value: cname.vercel-dns.com.
 
+qr: # A hack club themed QR code generator
+  ttl: 600
+  type: CNAME
+  value: felixgao.hackclub.app.
+
 rr: # Rickroll with a single line of bash
   ttl: 600
   type: CNAME
