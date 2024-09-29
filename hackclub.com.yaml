@@ -272,6 +272,7 @@ _vercel:
   ttl: 600
   type: TXT
   values:
+    - vc-domain-verify=hersey.hackclub.com,cc9535e7b0f931982d6e
     - vc-domain-verify=ocsa.hackclub.com,642a8568483f6bd767a9
     - vc-domain-verify=forge.hackclub.com,9dbbce561a571cab8a3b
     - vc-domain-verify=saleh.hackclub.com,cdcc382c0ddbefe586b1
