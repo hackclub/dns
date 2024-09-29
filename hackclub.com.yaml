@@ -321,6 +321,7 @@ _vercel:
     - vc-domain-verify=ecolint.hackclub.com,2ce5d27d136e89567e39
     - vc-domain-verify=descend.hackclub.com,766f399a5ac7216e01a1
     - vc-domain-verify=manor.hackclub.com,c99d993e9a9687a44549
+    - vc-domain-verify=counterspell-map.hackclub.com,8be76211f84615e6f80f
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -851,6 +852,10 @@ contribute:
     type: CNAME
     value: cname.vercel-dns.com.
 counterspell:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
+counterspell-map:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
