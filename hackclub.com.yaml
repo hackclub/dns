@@ -2767,7 +2767,7 @@ trail:
 trickortrace:
   - ttl: 1600
     type: CNAME
-    value: onboard.limeskey.com.
+    value: onboard-7w9.pages.dev.
 turner:
   - ttl: 600
     type: CNAME
