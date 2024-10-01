@@ -2430,7 +2430,7 @@ sgd._domainkey: # SendGrid Sender Authentication (bank@hackclub.com)
 showcase:
   ttl: 600
   type: CNAME
-  value: onboard.limeskey.com
+  value: onboard.limeskey.com.
 shop:
   - ttl: 600
     type: TXT
