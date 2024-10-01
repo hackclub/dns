@@ -1747,6 +1747,10 @@ leap-manual:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+legacy.verify.onboard:
+  - ttl: 5000
+    type: CNAME
+    value: legacy.verify.onboard.limeskey.com.
 lghs:
   - ttl: 600
     type: CNAME
