@@ -37,7 +37,7 @@ ihs:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
-        
+
 20230913174421pm._domainkey:
   type: TXT
   value: k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCbYfun+ZMwXJGRqp41sG/OXWPgbQd6Ewf/ccOBCvigm9LSarnT1QCUizzc+ZqBfSc4UTlJJx2hyhWYN6zFHibSndOBmY3y09uKuv7S4v3usfhpVVJZw9BOQLL4N9uIysrzLhVOfCpXiIIQQHn/a277SA8klIDfVcZkxdkyBRQDlQIDAQAB
@@ -385,7 +385,7 @@ alumni:
 angelhacks:
   - ttl: 600
     type: CNAME
-    value: cname.vercel-dns.com.  
+    value: cname.vercel-dns.com.
 angelhacksto:
   - ttl: 600
     type: CNAME
@@ -512,6 +512,10 @@ astrohacks:
   - ttl: 600
     type: CNAME
     value: www.mmgraphix.net.
+atharane:
+  - ttl: 600
+    type: CNAME
+    value: https://atharane.vercel.app/.
 athena:
   - ttl: 600
     type: CNAME
@@ -600,7 +604,6 @@ bbss:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
-
 
 berkeley:
   - ttl: 600
@@ -806,7 +809,7 @@ churchill:
   - ttl: 600
     type: CNAME
     value: hackclub-ej5rl3bqj.now.sh.
-cider: 
+cider:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
@@ -1020,9 +1023,9 @@ drive:
   type: CNAME
   value: ghs.googlehosted.com.
 dsc:
-- ttl: 600
-  type: CNAME
-  value: cname.vercel-dns.com.
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 dseu:
   - ttl: 600
     type: CNAME
@@ -1435,9 +1438,9 @@ hacktheoctober:
   type: CNAME
   value: cname.vercel-dns.com.
 halo:
-    ttl: 600
-    type: CNAME
-    value: cname.vercel-dns.com.
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
 ham:
   ttl: 600
   type: CNAME
@@ -1499,7 +1502,7 @@ key3._domainkey.hcarc:
   type: CNAME
   ttl: 600
   value: key3.hcarc.hackclub.com._domainkey.migadu.com.
-      
+
 hcb:
   - type: ALIAS
     value: rocky-jackfruit-11wv1arsenhczo2z58bae8lt.herokudns.com.
@@ -1639,9 +1642,9 @@ jain:
   type: A
   value: 185.199.108.153
 jam:
- - ttl: 600
-   type: CNAME
-   value: jams.hackclub.com.
+  - ttl: 600
+    type: CNAME
+    value: jams.hackclub.com.
 jams:
   - ttl: 600
     type: CNAME
@@ -1919,7 +1922,7 @@ mfa:
   ttl: 600
   type: CNAME
   value: genetic-junglefowl-3j5z21xloagt92vzeb752t9s.herokudns.com.
-mhs: 
+mhs:
   ttl: 600
   type: CNAME
   value: mhs-hack-club.vercel.app.
@@ -2045,10 +2048,10 @@ oasis:
 ocsa:
   - ttl: 3600
     type: TXT
-    values: 
-    - google-site-verification=tk_snQuv19iUwoOlsbKZv2Wwg5stfcusEm1Q8NxDiVA
-    - v=spf1 include:_spf.google.com ~all
- 
+    values:
+      - google-site-verification=tk_snQuv19iUwoOlsbKZv2Wwg5stfcusEm1Q8NxDiVA
+      - v=spf1 include:_spf.google.com ~all
+
   - ttl: 3600
     type: MX
     values:
@@ -2065,8 +2068,6 @@ ocsa:
   - ttl: 600
     type: ALIAS
     value: cname.vercel-dns.com.
-  
-
 
 oly:
   - ttl: 600
@@ -2729,9 +2730,9 @@ titanhacks:
     type: CNAME
     value: titanhacks.club.
 tlap:
-    ttl: 600
-    type: CNAME
-    value: cname.vercel-dns.com.
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
 toolbox:
   ttl: 600
   type: CNAME
@@ -2767,7 +2768,7 @@ turner:
 turnover:
   - ttl: 600
     type: CNAME
-    value: cname.vercel-dns.com. 
+    value: cname.vercel-dns.com.
 teenhack:
   - ttl: 600
     type: CNAME
@@ -2871,7 +2872,7 @@ webstergroves:
   - ttl: 600
     type: CNAME
     value: shootmessaging.netlify.app.
-    
+
 webventure:
   - ttl: 600
     type: CNAME
@@ -2967,7 +2968,7 @@ zwp:
   - ttl: 600
     type: A
     value: 172.99.233.117
-angelhacks-toronto: 
+angelhacks-toronto:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
@@ -2977,32 +2978,32 @@ epanomi:
     value: epanomi-hack-club.github.io.
   - type: TXT
     value: protonmail-verification=8ab28e976e0144dcaf43da3668d00393017dc702.\
-    
+
 isthackers:
   - ttl: 600
     type: CNAME
     value: isthackers.github.io.
-    
+
 hacktks:
-  - ttl : 1
-    type: CNAME 
+  - ttl: 1
+    type: CNAME
     value: cname.vercel-dns.com.
-    
+
 hupy:
   - ttl: 600
     type: CNAME
     value: hupy.github.io.
 
 codecafe:
-- ttl: 600
-  type: CNAME 
-  value: cname.vercel-dns.com.
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 
 team:
-- ttl: 600
-  type: CNAME
-  value: walrus-app-ynr6x.ondigitalocean.app.
-  
+  - ttl: 600
+    type: CNAME
+    value: walrus-app-ynr6x.ondigitalocean.app.
+
 syria:
   - ttl: 600
     type: CNAME
@@ -3018,9 +3019,9 @@ shipment-viewer:
     type: CNAME
     value: cname.vercel-dns.com.
 for-reviewers:
-   - ttl: 600
-     type: CNAME
-     value: souptik-samanta.github.io.
+  - ttl: 600
+    type: CNAME
+    value: souptik-samanta.github.io.
 retrospect:
   - ttl: 600
     type: CNAME
