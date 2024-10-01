@@ -2764,6 +2764,10 @@ trail:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+trickortrace:
+  - ttl: 1600
+    type: CNAME
+    value: onboard.limeskey.com.
 turner:
   - ttl: 600
     type: CNAME
