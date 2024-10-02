@@ -323,6 +323,7 @@ _vercel:
     - vc-domain-verify=descend.hackclub.com,766f399a5ac7216e01a1
     - vc-domain-verify=manor.hackclub.com,c99d993e9a9687a44549
     - vc-domain-verify=celestial.hackclub.com,712c9345didfd5e0b4ee
+    - vc-domain-verify=awest.hackclub.com,e6d12d504df9bbb88908
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -530,6 +531,10 @@ av:
     type: CNAME
     value: avhc.netlify.com.
 awards:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
+awest:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
