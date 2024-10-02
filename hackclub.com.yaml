@@ -129,6 +129,10 @@ _dmarc:
   ttl: 600
   type: TXT
   value: v=DMARC1\; p=quarantine\; rua=mailto:6192c543e0e61@ag.dmarcly.com\; ruf=mailto:6192c543e0e61@fo.dmarcly.com\; fo=1\;
+_F078EA6DF6FD4C8A6D3381BE47D91754.waka:
+  ttl: 600
+  type: CNAME
+  value: 8EE742E1BCF3D22634864F0615C0968A.F16F6610A3E159E6CB0B97DEF4D873F5.f555p5dtQ5lto55IiRM5.sectigo.com.
 _gh-ACT-Hack-Club-o.act:
   - ttl: 600
     type: TXT
