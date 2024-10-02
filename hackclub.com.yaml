@@ -3051,3 +3051,7 @@ gps:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+wggs:
+  - ttl: 600
+    type: CNAME
+    value: https://luna5379.github.io.
