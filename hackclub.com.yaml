@@ -2903,7 +2903,12 @@ westborough:
   - ttl: 600
     type: CNAME
     value: whs-hackclub.netlify.com.
-
+    
+wggs:
+  - ttl: 600
+    type: CNAME
+    value: luna5379.github.io
+    
 whis:
   - ttl: 600
     type: CNAME
@@ -3051,7 +3056,3 @@ gps:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
-wggs:
-  - ttl: 600
-    type: CNAME
-    value: luna5379.github.io
