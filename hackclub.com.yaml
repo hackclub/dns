@@ -2907,7 +2907,7 @@ westborough:
 wggs:
   - ttl: 600
     type: CNAME
-    value: luna5379.github.io
+    value: luna5379.github.io.
     
 whis:
   - ttl: 600
