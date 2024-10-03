@@ -1806,6 +1806,10 @@ lonestar:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+low-skies:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 luna:
   - ttl: 600
     type: CNAME
