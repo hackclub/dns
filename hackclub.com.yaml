@@ -1758,7 +1758,7 @@ leap-manual:
     type: CNAME
     value: cname.vercel-dns.com.
 legacy.verify.onboard:
-  - ttl: 5000
+  - ttl: 120
     type: CNAME
     value: legacy.verify.onboard.limeskey.com.
 lghs:
@@ -2863,7 +2863,7 @@ vcejoqk3ugmcla3kub7bfcyn2ktbimhv._domainkey.staging.hcb: # HCB Staging SES DKIM
     type: CNAME
     value: vcejoqk3ugmcla3kub7bfcyn2ktbimhv.dkim.amazonses.com.
 verify.onboard:
-  - ttl: 2600
+  - ttl: 120
     type: CNAME
     value: ysws.limeskey.com.
 vh7v2gsayfsmxmllwaannilorrbs5jbp._domainkey:
