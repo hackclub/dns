@@ -33,4 +33,4 @@
 '_dmarc':
   type: TXT
   values:
-    - v=DMARC1; p=none
+    - v=DMARC1\; p=none
