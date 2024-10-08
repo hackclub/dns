@@ -2380,8 +2380,8 @@ ru:
     value: cname.vercel-dns.com.
 runshaw:
   - ttl: 600
-    type: CNAME
-    value: dragon863.hackclub.app.
+    type: ALIAS
+    value: hackclub.app.
   - ttl: 600
     type: TXT
     values:
