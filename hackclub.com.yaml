@@ -2378,6 +2378,10 @@ ru:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+runshaw:
+  - ttl: 600
+    type: CNAME
+    value: dragon863.hackclub.app.
 s1._domainkey:
   ttl: 600
   type: CNAME
