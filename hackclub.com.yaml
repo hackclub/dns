@@ -820,6 +820,10 @@ cider:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+browserbuddy: 
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 ciudalcampo:
   - ttl: 600
     type: CNAME
