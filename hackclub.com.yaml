@@ -2119,8 +2119,8 @@ oneditor:
     value: oneditor.netlify.app.
 op:
   - ttl: 600
-    type: CNAME
-    value: optsa.hackclub.app.
+    type: A
+    value: 37.27.51.34.
   - ttl: 600
     type: TXT
     value: domain-verification=optsa
