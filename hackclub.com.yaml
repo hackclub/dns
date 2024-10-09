@@ -726,11 +726,6 @@ boreal:
   type: CNAME
   value: cname.vercel-dns.com.
 
-busan:
-  ttl: 600
-  type: CNAME
-  value: counterspell-busan.netlify.app.
-
 calendar:
   ttl: 600
   type: CNAME
