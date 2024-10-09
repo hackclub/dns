@@ -1728,11 +1728,18 @@ knit:
 kr:
   ttl: 3600
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: counterspell-busan.netlify.app.
+
 ko:
   ttl: 3600
   type: CNAME
   value: cname.vercel-dns.com.
+
+korea:
+  ttl: 3600
+  type: CNAME
+  value: counterspell-busan.netlify.app.
+
 lambert:
   - ttl: 600
     type: CNAME
