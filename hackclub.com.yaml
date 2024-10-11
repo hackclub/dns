@@ -29,6 +29,7 @@
       - google-site-verification=n9knjT30SgPd80zLKBD6M8fPFGIQUAO5OgfjDsPSrRM
       - v=spf1 include:_spf.google.com include:mailgun.org include:amazonses.com include:sendgrid.net include:spf.mtasv.net ~all
       - stripe-verification=5bdd0e2475b12744bfe1f778ac419f917800d476fd498ae2682ecd161d162c64
+      - airtable-verification=6a190bbac6305fe1d58071f48f535cf5
 slashz:
   - ttl: 600
     type: A
@@ -328,6 +329,7 @@ _vercel:
     - vc-domain-verify=manor.hackclub.com,c99d993e9a9687a44549
     - vc-domain-verify=celestial.hackclub.com,712c9345didfd5e0b4ee
     - vc-domain-verify=awest.hackclub.com,e6d12d504df9bbb88908
+    - vc-domain-verify=philippines.hackclub.com,8ce6b0b9767789ac9e92
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -2178,6 +2180,10 @@ philanthropy:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+philippines:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 phs:
   - ttl: 600
     type: ALIAS
@@ -2383,12 +2389,8 @@ ru:
     value: cname.vercel-dns.com.
 runshaw:
   - ttl: 600
-    type: ALIAS
-    value: hackclub.app.
-  - ttl: 600
-    type: TXT
-    values:
-      - domain-verification=dragon863
+    type: CNAME
+    value: dragon863.hackclub.app.
 s1._domainkey:
   ttl: 600
   type: CNAME
