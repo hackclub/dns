@@ -2121,8 +2121,11 @@ oneditor:
     value: oneditor.netlify.app.
 op:
   - ttl: 600
-    type: CNAME
-    value: optsa.club.
+    type: A
+    value: 37.27.51.34
+  - ttl: 600
+    type: TXT
+    value: domain-verification=optsa
 orpheushacks: # Harrison Katz automatically wins for adding the DNS entry - thats how it works, right?
   - ttl: 600
     type: CNAME
