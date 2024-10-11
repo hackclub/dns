@@ -2389,8 +2389,14 @@ ru:
     value: cname.vercel-dns.com.
 runshaw:
   - ttl: 600
-    type: CNAME
-    value: dragon863.hackclub.app.
+    type: A
+    value: 37.27.51.34
+  - ttl: 600
+    type: AAAA
+    value: 2a01:4f9:3081:399c::4
+  - ttl: 600
+    type: TXT
+    value: domain-verification=dragon863
 s1._domainkey:
   ttl: 600
   type: CNAME
