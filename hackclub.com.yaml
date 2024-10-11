@@ -329,6 +329,7 @@ _vercel:
     - vc-domain-verify=manor.hackclub.com,c99d993e9a9687a44549
     - vc-domain-verify=celestial.hackclub.com,712c9345didfd5e0b4ee
     - vc-domain-verify=awest.hackclub.com,e6d12d504df9bbb88908
+    - vc-domain-verify=philippines.hackclub.com,8ce6b0b9767789ac9e92
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -2176,6 +2177,10 @@ philanthropy:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+philippines:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 phs:
   - ttl: 600
     type: ALIAS
