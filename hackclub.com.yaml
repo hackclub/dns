@@ -453,6 +453,10 @@ api.id.assemble:
   ttl: 600
   type: A
   value: 173.255.212.205
+api.onboard:
+  ttl: 600
+  type: CNAME
+  value: api.onboard.limeskey.com.
 api.ticketing.assemble:
   ttl: 600
   type: A
