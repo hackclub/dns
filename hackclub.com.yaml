@@ -281,6 +281,7 @@ _vercel:
   ttl: 600
   type: TXT
   values:
+    - vc-domain-verify=shipping.hackclub.com,464c73a9fe563d60fb74
     - vc-domain-verify=hersey.hackclub.com,cc9535e7b0f931982d6e
     - vc-domain-verify=ocsa.hackclub.com,642a8568483f6bd767a9
     - vc-domain-verify=forge.hackclub.com,9dbbce561a571cab8a3b
@@ -2469,7 +2470,7 @@ sgd._domainkey: # SendGrid Sender Authentication (bank@hackclub.com)
 shipping:
   - ttl: 600
     type: CNAME
-    value: shipping-hq.vercel.app
+    value: cname.vercel-dns.com.
 showcase:
   ttl: 600
   type: CNAME
