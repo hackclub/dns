@@ -2466,6 +2466,10 @@ sgd._domainkey: # SendGrid Sender Authentication (bank@hackclub.com)
   ttl: 600
   type: CNAME
   value: sgd.domainkey.u14148987.wl238.sendgrid.net.
+shipping:
+  - ttl: 600
+    type: CNAME
+    value: shipping-hq.vercel.app
 showcase:
   ttl: 600
   type: CNAME
