@@ -213,11 +213,11 @@ _minecraft._tcp.vanilla.mc:
     priority: 10
     target: mc-vps.hackclub.com.
     weight: 10
-_minecraft._tcp.modded.mc:
+_minecraft._tcp.minigames:
   ttl: 600
   type: SRV
   value:
-    port: 25567
+    port: 25570
     priority: 10
     target: mc-vps.hackclub.com.
     weight: 10
