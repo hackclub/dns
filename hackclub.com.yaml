@@ -331,6 +331,7 @@ _vercel:
     - vc-domain-verify=celestial.hackclub.com,712c9345didfd5e0b4ee
     - vc-domain-verify=awest.hackclub.com,e6d12d504df9bbb88908
     - vc-domain-verify=philippines.hackclub.com,8ce6b0b9767789ac9e92
+    - vc-domain-verify=agra.hackclub.com,e0c3166ccb4778500ea3
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -347,6 +348,10 @@ adastra:
   - ttl: 600
     type: TXT
     value: bit.ly/adastrahacks
+agra:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 astra:
   - ttl: 600
     type: CNAME
