@@ -703,6 +703,12 @@ bunyan.tilde:
   - ttl: 600
     type: CNAME
     value: hackclub.myftp.biz.
+
+busan:
+  - ttl: 600
+    type: CNAME
+    value: hackclub-busan.netlify.app.
+
 byte:
   - ttl: 600
     type: CNAME
