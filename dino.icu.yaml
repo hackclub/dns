@@ -544,3 +544,9 @@ mthlpbs:
   - ttl: 600
     type: CNAME
     value: mthlpbs.github.io.
+
+hashcoders:
+  - ttl: 600
+    type: CNAME
+    value: hashcoders.duckdns.org.
+    
