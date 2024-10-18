@@ -2311,6 +2311,10 @@ preflight.assemble:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+printalyst:
+  ttl: 600
+  type: CNAME
+  value: kayla.optsa.club.
 proton:
   ttl: 600
   type: CNAME
