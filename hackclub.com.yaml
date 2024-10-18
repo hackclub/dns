@@ -2314,7 +2314,7 @@ preflight.assemble:
 printalyst:
   ttl: 600
   type: CNAME
-  value: kayla.optsa.club.
+  value: kayla.hackclub.app.
 proton:
   ttl: 600
   type: CNAME
