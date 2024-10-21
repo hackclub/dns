@@ -189,6 +189,10 @@ _github-pages-challenge-cghs-hackclub.cghs:
   - ttl: 7200
     type: TXT
     value: a1704fb19aca2f4b785803f2f2edb8
+_github-pages-challenge-OSCA-Hack-Club.osca:
+  - ttl: 600
+    type: TXT
+    value: 05f02f6fc6cce92877573361810958
 _h323cs._tcp.px:
   ttl: 600
   type: SRV
