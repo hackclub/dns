@@ -3114,3 +3114,8 @@ gps:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+
+wesley:
+  - ttl: 600
+    type: CNAME
+    value: wesleyhackclub.github.io.
