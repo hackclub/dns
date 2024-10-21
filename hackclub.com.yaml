@@ -2957,6 +2957,11 @@ webventure:
     type: CNAME
     value: ansh3108.github.io.
 
+wesley:
+  - ttl: 600
+    type: CNAME
+    value: wesleyhackclub.github.io.
+
 westborough:
   - ttl: 600
     type: CNAME
