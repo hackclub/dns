@@ -242,6 +242,16 @@ low-ping: # roblox low ping finder site thingy; by https://github.com/lem6ns
   ttl: 600
   type: CNAME
   value: lem6ns.github.io.
+
+leo:
+  ttl: 600
+  type: CNAME
+  value: wilkin.xyz.
+
+lkmw:
+  ttl: 600
+  type: CNAME
+  value: wilkin.xyz.
   
 mail: # a page to share your email with orpheus
   ttl: 600
@@ -262,6 +272,11 @@ motivation:
   ttl: 600
   type: CNAME
   value: maxwofford.github.io.
+
+money:
+  ttl: 600
+  type: CNAME
+  value: hcb.hackclub.com.
 
 niilas: # Niilas - repo: https://github.com/niilasoika/niilas.dino.icu
   ttl: 600
