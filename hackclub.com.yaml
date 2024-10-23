@@ -332,6 +332,7 @@ _vercel:
     - vc-domain-verify=awest.hackclub.com,e6d12d504df9bbb88908
     - vc-domain-verify=philippines.hackclub.com,8ce6b0b9767789ac9e92
     - vc-domain-verify=cascade.hackclub.com,9d7bd97667ee52151183
+    - vc-domain-verify=aurahunt.hackclub.com,04187fc5d6fe3d7fc5e9
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -530,6 +531,10 @@ athena:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+aurahunt:
+  - ttl: 600
+    type: CNAME
+    value: https://aura-hunt.vercel.app/.
 austin:
   ttl: 600
   type: CNAME
