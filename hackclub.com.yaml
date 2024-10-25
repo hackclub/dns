@@ -889,10 +889,9 @@ counterspell:
     value: cname.vercel-dns.com.
   - ttl: 3600
     type: TXT
-    value: v=spf1 include:_spf.google.com ~all
-  - ttl: 3600
-    type: TXT
-    value: v=DMARC1\; p=none\; rua=mailto:dmarc@counterspell.hackclub.com
+    values:
+      - v=spf1 include:_spf.google.com ~all
+      - v=DMARC1\; p=none\; rua=mailto:dmarc@counterspell.hackclub.com
   - ttl: 3600
     type: MX
     values:
