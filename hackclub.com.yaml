@@ -3084,6 +3084,10 @@ hupy:
   - ttl: 600
     type: CNAME
     value: hupy.github.io.
+czcx:
+  -ttl: 600
+  type: CMA<E
+  value: czcx.dev
 
 codecafe:
 - ttl: 600
