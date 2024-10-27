@@ -172,6 +172,12 @@ geta: # yoda - https://getadinoicu.yodacode.repl.co/dino.png - get a dino from h
   type: CNAME
   value: ef35bb48-f121-4f7f-91f6-93f601559c24.id.repl.co.
 
+heramb:
+  ttl: 600
+  type: CNAME
+  value: https://heramb-814z38mf5-heramb0x1s-projects.vercel.app.
+  
+
 hi: # doruk.dino.icu email address
  - type: TXT
    value: apple-domain=rkbobCmChEtkhbTS.
