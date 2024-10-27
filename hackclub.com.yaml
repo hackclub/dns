@@ -332,7 +332,7 @@ _vercel:
     - vc-domain-verify=awest.hackclub.com,e6d12d504df9bbb88908
     - vc-domain-verify=philippines.hackclub.com,8ce6b0b9767789ac9e92
     - vc-domain-verify=cascade.hackclub.com,9d7bd97667ee52151183
-    - vc-domain-verify=heramb.hackclub.com,b57e52c0917d42ff4605
+
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -1534,11 +1534,6 @@ heist-api:
     type: CNAME
     value: heist-api.iunstable0.com.
 
-heramb:
-  ttl: 600
-  type: CNAME
-  value: https://heramb-814z38mf5-heramb0x1s-projects.vercel.app.
-  
 _dmarc.hcarc:
   type: TXT
   ttl: 600
