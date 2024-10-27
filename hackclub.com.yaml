@@ -1533,6 +1533,11 @@ heist-api:
     type: CNAME
     value: heist-api.iunstable0.com.
 
+heramb:
+  ttl: 600
+  type: CNAME
+  value: https://heramb-814z38mf5-heramb0x1s-projects.vercel.app.
+  
 _dmarc.hcarc:
   type: TXT
   ttl: 600
