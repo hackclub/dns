@@ -652,6 +652,10 @@ blair:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+blog.hcb:
+  ttl: 600 # HCB engineering/blog website
+  type: CNAME
+  value: cname.vercel-dns.com.
 blog.ctrl-alt-tec:
   - ttl: 600
     type: CNAME
