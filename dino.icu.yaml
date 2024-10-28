@@ -87,6 +87,11 @@ art: # by https://github.com/rajanwastaken
   ttl: 600
   type: CNAME
   value: particle-generativeart.netlify.app.
+
+aryanpatel: # by https://github.com/aryanpatel142006
+  ttl: 600
+  type: A
+  value: 76.76.21.21
   
 canteen:
   ttl: 600
