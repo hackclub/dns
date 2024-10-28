@@ -1466,8 +1466,8 @@ hackbox:
   value: cname.vercel-dns.com.
 hackcraft:
   ttl: 600
-  type: A
-  value: 173.208.140.126
+  type: CNAME
+  value: cname.vercel-dns.com.
 hackerabad:
   - ttl: 600
     type: CNAME
