@@ -189,6 +189,10 @@ _github-pages-challenge-cghs-hackclub.cghs:
   - ttl: 7200
     type: TXT
     value: a1704fb19aca2f4b785803f2f2edb8
+_github-pages-challenge-OSCA-Hack-Club.osca:
+  - ttl: 600
+    type: TXT
+    value: 05f02f6fc6cce92877573361810958
 _h323cs._tcp.px:
   ttl: 600
   type: SRV
@@ -889,7 +893,9 @@ counterspell:
     value: cname.vercel-dns.com.
   - ttl: 3600
     type: TXT
-    value: v=spf1 include:_spf.google.com ~all
+    values:
+      - v=spf1 include:_spf.google.com ~all
+      - v=DMARC1\; p=none\; rua=mailto:dmarc@counterspell.hackclub.com
   - ttl: 3600
     type: MX
     values:
@@ -2122,7 +2128,10 @@ ocsa:
     type: ALIAS
     value: cname.vercel-dns.com.
   
-
+osca:
+  - ttl: 600
+    type: CNAME
+    value: osca-hack-club.github.io.
 
 oly:
   - ttl: 600
@@ -2924,6 +2933,10 @@ vi:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+india.verifications:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com. 
 vikingsdev:
   - ttl: 600
     type: CNAME
@@ -2956,6 +2969,11 @@ webventure:
   - ttl: 600
     type: CNAME
     value: ansh3108.github.io.
+
+wesley:
+  - ttl: 600
+    type: CNAME
+    value: wesleyhackclub.github.io.
 
 westborough:
   - ttl: 600
