@@ -174,8 +174,8 @@ geta: # yoda - https://getadinoicu.yodacode.repl.co/dino.png - get a dino from h
 
 heramb:
   ttl: 600
-  type: A
-  value: 76.76.21.21
+  type: CNAME
+  value: cname.vercel-dns.com.
   
 
 hi: # doruk.dino.icu email address
