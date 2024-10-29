@@ -88,6 +88,11 @@ art: # by https://github.com/rajanwastaken
   type: CNAME
   value: particle-generativeart.netlify.app.
   
+aryanpatel: # by https://github.com/aryanpatel142006 
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com. # vercel
+  
 canteen:
   ttl: 600
   type: CNAME
@@ -247,6 +252,16 @@ low-ping: # roblox low ping finder site thingy; by https://github.com/lem6ns
   ttl: 600
   type: CNAME
   value: lem6ns.github.io.
+
+leo:
+  ttl: 600
+  type: CNAME
+  value: wilkin.xyz.
+
+lkmw:
+  ttl: 600
+  type: CNAME
+  value: wilkin.xyz.
   
 mail: # a page to share your email with orpheus
   ttl: 600

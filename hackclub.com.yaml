@@ -189,6 +189,10 @@ _github-pages-challenge-cghs-hackclub.cghs:
   - ttl: 7200
     type: TXT
     value: a1704fb19aca2f4b785803f2f2edb8
+_github-pages-challenge-OSCA-Hack-Club.osca:
+  - ttl: 600
+    type: TXT
+    value: 05f02f6fc6cce92877573361810958
 _h323cs._tcp.px:
   ttl: 600
   type: SRV
@@ -646,6 +650,10 @@ bkbiet:
   value: bkbiethackclub.netlify.com.
 blair:
   ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
+blog.hcb:
+  ttl: 600 # HCB engineering/blog website
   type: CNAME
   value: cname.vercel-dns.com.
 blog.ctrl-alt-tec:
@@ -1458,8 +1466,8 @@ hackbox:
   value: cname.vercel-dns.com.
 hackcraft:
   ttl: 600
-  type: A
-  value: 173.208.140.126
+  type: CNAME
+  value: cname.vercel-dns.com.
 hackerabad:
   - ttl: 600
     type: CNAME
@@ -2124,7 +2132,10 @@ ocsa:
     type: ALIAS
     value: cname.vercel-dns.com.
   
-
+osca:
+  - ttl: 600
+    type: CNAME
+    value: osca-hack-club.github.io.
 
 oly:
   - ttl: 600
