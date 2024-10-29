@@ -474,6 +474,10 @@ arcadius:
   - ttl: 1
     type: CNAME
     value: asymmetrical-trout-5k9xmc0r8d2c6cggv0pxu70c.herokudns.com.
+archives:
+  - ttl: 600
+    type: CNAME
+    value: crabby605.github.io.
 archived.guide:
   ttl: 600
   type: CNAME
@@ -3136,7 +3140,3 @@ gps:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
-archives:
-  - ttl: 600
-    type: CNAME
-    value: crabby605.github.io.
