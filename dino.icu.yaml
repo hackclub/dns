@@ -172,6 +172,14 @@ erdtree: # erdtree.dino.icu - contact @justhypex on discord for issues/enquiries
   - exchange: mail.vortex.skyfall.dev.
     preference: 500
 
+firepi:
+- ttl: 600
+  type: AAAA
+  value: 2001:470:c0ec:142::6
+- ttl: 600
+  type: A
+  value: 47.221.98.52
+
 geta: # yoda - https://getadinoicu.yodacode.repl.co/dino.png - get a dino from hackclub/dinosaurs api
   ttl: 600
   type: CNAME
