@@ -5,11 +5,11 @@
   - type: AAAA
     value: 2a01:4f9:3081:399c::4
   - type: MX
-    values: 
+    values:
       - exchange: mail.hackclub.app.
         priority: 10
   - type: TXT
-    value: "v=spf1 mx ~all" 
+    value: "v=spf1 mx ~all"
   - type: SSHFP
     values:
       - algorithm: 1
@@ -29,6 +29,9 @@ secure:
     value: 37.27.51.33
   - type: AAAA
     value: 2a01:4f9:3081:399c::3
+summit:
+  - type: CNAME
+    value: cname.vercel-dns.com.
 ts:
   - type: CNAME
     value: secure.hackclub.app.
@@ -40,6 +43,11 @@ passwd.ts:
 pve.ts:
   - type: A
     value: 100.64.0.10
+  - type: AAAA
+    value: fd7a:115c:a1e0::a
+proxmox:
+  - type: A
+    value: 37.27.51.35
   - type: AAAA
     value: 2a01:4f9:3081:399c::2
 guides:
