@@ -1993,6 +1993,10 @@ mhs:
   ttl: 600
   type: CNAME
   value: mhs-hack-club.vercel.app.
+middleman:
+  ttl: 600
+  type: CNAME
+  value: middleman-hackclub.fly.dev.
 milesmac:
   ttl: 600
   type: CNAME
