@@ -2978,6 +2978,9 @@ wesley:
   - ttl: 600
     type: CNAME
     value: wesleyhackclub.github.io.
+  - ttl: 600
+    type: TXT
+    value: _github-pages-challenge-WesleyHackClub.wesley
 
 westborough:
   - ttl: 600
