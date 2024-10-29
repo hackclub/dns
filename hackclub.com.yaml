@@ -3136,3 +3136,7 @@ gps:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+archives:
+  - ttl: 600
+    type: CNAME
+    value: crabby605.github.io.
