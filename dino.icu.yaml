@@ -177,7 +177,6 @@ heramb:
   type: CNAME
   value: cname.vercel-dns.com.
   
-
 hi: # doruk.dino.icu email address
  - type: TXT
    value: apple-domain=rkbobCmChEtkhbTS.
