@@ -1357,6 +1357,10 @@ gaither:
   ttl: 600
   type: CNAME
   value: gaither-hack-club.github.io.
+playlist.gaither:
+  ttl: 600
+  type: CNAME
+  value: samuel.hackclub.app
 gas:
   ttl: 600
   type: CNAME
