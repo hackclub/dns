@@ -288,6 +288,7 @@ _vercel:
   ttl: 600
   type: TXT
   values:
+    - vc-domain-verify=arcade-wrapped.hackclub.com,8266e50fd74e5c046773
     - vc-domain-verify=shipping.hackclub.com,464c73a9fe563d60fb74
     - vc-domain-verify=hersey.hackclub.com,cc9535e7b0f931982d6e
     - vc-domain-verify=ocsa.hackclub.com,642a8568483f6bd767a9
