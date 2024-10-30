@@ -2642,6 +2642,10 @@ spark:
   - ttl: 600
     type: ALIAS
     value: cname.vercel-dns.com.
+spotify:
+  - ttl: 600
+    type: CNAME
+    value: spotify.neon.hackclub.app
 spp:
   - ttl: 600
     type: CNAME
