@@ -340,6 +340,7 @@ _vercel:
     - vc-domain-verify=awest.hackclub.com,e6d12d504df9bbb88908
     - vc-domain-verify=philippines.hackclub.com,8ce6b0b9767789ac9e92
     - vc-domain-verify=cascade.hackclub.com,9d7bd97667ee52151183
+    - vc-domain-verify=contact-helper.hackclub.com,ecd049f45e2ad550fd89
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -895,6 +896,10 @@ conduct-test:
   - ttl: 600
     type: TXT
     value: v=spf1 include:amazonses.com ~all
+contact-helper:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 contribute:
   - ttl: 600
     type: CNAME
