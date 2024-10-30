@@ -3151,3 +3151,7 @@ highseas:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+highseas-donate:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
