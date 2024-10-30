@@ -3156,3 +3156,7 @@ highseas-donate:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+arcade-wrapped:
+  - ttl: 600
+    type: CNAME
+    value: arcade-wrapped.vercel.app.
