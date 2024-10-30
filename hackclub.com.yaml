@@ -1360,7 +1360,7 @@ gaither:
 playlist.gaither:
   ttl: 600
   type: CNAME
-  value: samuel.hackclub.app
+  value: samuel.hackclub.app.
 gas:
   ttl: 600
   type: CNAME
