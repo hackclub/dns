@@ -102,6 +102,9 @@ _acme-challenge.haas:
   type: TXT
   values:
     - WeFHw1rO8PfGWEGAEh9CnfvOhokXXYgK-PD0kbI6RS0
+_acme-challenge.middleman:
+  type: TXT
+  value: middleman.hackclub.com.3gzn0m.flydns.net.
 _amazonses:
   ttl: 600
   type: TXT
@@ -1993,6 +1996,10 @@ mhs:
   ttl: 600
   type: CNAME
   value: mhs-hack-club.vercel.app.
+middleman:
+  ttl: 600
+  type: CNAME
+  value: middleman-hackclub.fly.dev.
 milesmac:
   ttl: 600
   type: CNAME
