@@ -478,6 +478,10 @@ arcadius:
   - ttl: 1
     type: CNAME
     value: asymmetrical-trout-5k9xmc0r8d2c6cggv0pxu70c.herokudns.com.
+arcade-wrapped:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 archived.guide:
   ttl: 600
   type: CNAME
@@ -3156,7 +3160,3 @@ highseas-donate:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
-arcade-wrapped:
-  - ttl: 600
-    type: CNAME
-    value: arcade-wrapped.vercel.app.
