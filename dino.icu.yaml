@@ -316,6 +316,16 @@ orpheus: # prophet orpheus's page (when making your page enter your github usern
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+_github-pages-challenge-opott.opott:
+  ttl: 600
+  type: TXT
+  value: e404870971850eac043d10def3932d
+
+opott:
+  ttl: 600
+  type: CNAME
+  value: opott.github.io.
+
 parker: # parker.dino.icu; reserved by hack club bank
 - type: ALIAS
   value: cname.vercel-dns.com.
