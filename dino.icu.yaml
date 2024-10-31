@@ -436,7 +436,7 @@ social:
 spotify:
   - ttl: 600
     type: CNAME
-    value: spotify.neon.hackclub.app
+    value: spotify.neon.hackclub.app.
 
 ssmidge:
   ttl: 600
