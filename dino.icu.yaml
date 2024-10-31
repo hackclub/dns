@@ -443,6 +443,11 @@ social:
   type: ALIAS
   value: lithium.devcara.com.
 
+spotify:
+  - ttl: 600
+    type: CNAME
+    value: spotify.neon.hackclub.app.
+
 ssmidge:
   ttl: 600
   type: CNAME
