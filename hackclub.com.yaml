@@ -3173,3 +3173,7 @@ high-seas:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+Gharbia.hackclub.com:
+  - ttl: 600
+    type: CNAME
+    value: https://hack-club-gh.github.io/Gharbia-Branch/.
