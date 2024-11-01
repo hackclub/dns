@@ -3173,3 +3173,8 @@ high-seas:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+
+egypt.hackclub.com:
+  - ttl: 600
+    type: CNAME
+    value: hack-club-gh.github.io.
