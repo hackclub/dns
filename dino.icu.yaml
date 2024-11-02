@@ -331,6 +331,11 @@ opott:
   type: CNAME
   value: opott.github.io.
 
+overflow:
+  ttl: 600
+  type: CNAME
+  value: overflow.craigg.hackclub.app
+
 parker: # parker.dino.icu; reserved by hack club bank
 - type: ALIAS
   value: cname.vercel-dns.com.
