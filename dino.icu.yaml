@@ -334,7 +334,7 @@ opott:
 overflow:
   ttl: 600
   type: CNAME
-  value: overflow.craigg.hackclub.app
+  value: overflow.craigg.hackclub.app.
 
 parker: # parker.dino.icu; reserved by hack club bank
 - type: ALIAS
