@@ -400,8 +400,8 @@ scales: # (yet another?) currency slack bot (with some web UI) :D
 
 subdomain: # Free subdomain generator.
   ttl: 600
-  type: A
-  value: 76.76.21.21
+  type: CNAME
+  value: cname.vercel-dns.com.
 
 shadow: # shadow.dino.icu - contact @justhypex on discord for issues/enquiries
 - ttl: 600
