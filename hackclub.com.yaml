@@ -1416,7 +1416,7 @@ geochat-api:
 gharbia:
   ttl: 600
   type: CNAME
-  value: hack-club-gh.github.io.
+  value: hack-club-gh.github.io/Gharbia-Branch/.
 gita:
   - ttl: 600
     type: A
