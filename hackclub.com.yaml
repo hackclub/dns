@@ -768,6 +768,10 @@ camp:
 camp-apply:
   type: CNAME
   value: hackcamp-apply.netlify.com.
+cargo-cult:
+  ttl: 600
+  type: A
+  value: 150.136.168.136
 cascade:
   - ttl: 600
     type: CNAME
