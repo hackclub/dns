@@ -441,6 +441,10 @@ amity:
   - ttl: 600
     type: CNAME
     value: b7b5adc9.hackclub.pages.dev.
+anchor:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 anti:
   type: CNAME
   value: anti-hack.netlify.com.
