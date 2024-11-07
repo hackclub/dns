@@ -305,7 +305,12 @@ nimit: #https://github.com/NimitVijayvargee/nimitvijayvargee.github.io/
   ttl: 600
   type: CNAME
   value: nimitvijayvargee.github.io.
-  
+
+hacknote: # https://github.com/dispherical/hacknote
+  ttl: 600
+  type: CNAME
+  value: david.hackclub.app.
+
 normie: # normie
   ttl: 600
   type: CNAME
