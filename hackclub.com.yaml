@@ -2251,6 +2251,10 @@ packages:
   ttl: 600
   type: CNAME
   value: secret-zebra-lydr194iy8x0x4n4rmzcii3r.herokudns.com.
+parcel-pyxis:
+  - ttl: 600
+    type: CNAME
+    value: lit-angelfish-s8z2r3cgy4b922hygkb2m86r.herokudns.com.
 petcs:
   ttl: 600
   type: CNAME
