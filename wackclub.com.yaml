@@ -9,3 +9,7 @@
   ttl: 1
   type: CNAME
   value: proxyparty.hackclub.com.
+waka:
+  ttl: 600
+  type: CNAME
+  value: perpendicular-skunk-v36lghvkpfqlpajkpm6otfzl.herokudns.com.
