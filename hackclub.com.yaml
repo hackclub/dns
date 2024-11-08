@@ -904,6 +904,10 @@ conduct-test:
   - ttl: 600
     type: TXT
     value: v=spf1 include:amazonses.com ~all
+constellation:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 contact-helper:
   - ttl: 600
     type: CNAME
