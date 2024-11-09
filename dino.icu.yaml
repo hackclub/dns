@@ -52,6 +52,11 @@
 #   type: CNAME
 #   value: cname.vercel-dns.com.
 
+avsc:
+   ttl: 600
+   type: CNAME
+   value: avscgreat.github.io.
+   
 andrew: # by https://github.com/anddddrew
   ttl: 600
   type: CNAME
