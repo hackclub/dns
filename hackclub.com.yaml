@@ -2478,7 +2478,8 @@ runshaw:
   - ttl: 600
     type: CNAME
     value: dragon863.hackclub.app.
-  - type: MX
+  - ttl: 600
+    type: MX
     values:
       - exchange: mail.danieldb.uk.
         preference: 1
