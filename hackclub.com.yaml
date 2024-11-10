@@ -2480,9 +2480,9 @@ runshaw:
     value: dragon863.hackclub.app.
   - ttl: 600
     type: MX
-    values:
-      - exchange: mail.danieldb.uk.
-        preference: 1
+    value:
+      exchange: mail.danieldb.uk.
+      preference: 1
 s1._domainkey:
   ttl: 600
   type: CNAME
