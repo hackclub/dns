@@ -467,8 +467,8 @@ spider: # spider.dino.icu; reserved by hack club bank
 
 social:
   ttl: 600
-  type: ALIAS
-  value: lithium.devcara.com.
+  type: CNAME
+  value: mastodon.hackclub.app.
 
 spotify:
   - ttl: 600
