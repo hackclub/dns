@@ -3197,4 +3197,4 @@ high-seas:
 riceathon:
   - ttl: 600
     type: CNAME
-    value: hackclub.github.io.
+    value: cname.vercel-dns.com.
