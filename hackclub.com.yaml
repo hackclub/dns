@@ -925,6 +925,7 @@ counterspell:
     values:
       - v=spf1 include:_spf.google.com ~all
       - v=DMARC1\; p=none\; rua=mailto:dmarc@counterspell.hackclub.com
+      - google-site-verification=OBNPZbObzTh54IxkKj0mQwrIcmyDRocjNZS2GglHb3w
   - ttl: 3600
     type: MX
     values:
