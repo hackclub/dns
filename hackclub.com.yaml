@@ -441,6 +441,10 @@ amity:
   - ttl: 600
     type: CNAME
     value: b7b5adc9.hackclub.pages.dev.
+anchor:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 anti:
   type: CNAME
   value: anti-hack.netlify.com.
@@ -768,6 +772,10 @@ camp:
 camp-apply:
   type: CNAME
   value: hackcamp-apply.netlify.com.
+cargo-cult:
+  ttl: 600
+  type: A
+  value: 150.136.168.136
 cascade:
   - ttl: 600
     type: CNAME
@@ -896,6 +904,10 @@ conduct-test:
   - ttl: 600
     type: TXT
     value: v=spf1 include:amazonses.com ~all
+constellation:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 contact-helper:
   - ttl: 600
     type: CNAME
@@ -913,6 +925,7 @@ counterspell:
     values:
       - v=spf1 include:_spf.google.com ~all
       - v=DMARC1\; p=none\; rua=mailto:dmarc@counterspell.hackclub.com
+      - google-site-verification=OBNPZbObzTh54IxkKj0mQwrIcmyDRocjNZS2GglHb3w
   - ttl: 3600
     type: MX
     values:
@@ -1413,6 +1426,10 @@ geochat-api:
   ttl: 600
   type: CNAME
   value: geochat-api.hackclub.com.herokudns.com.
+gharbia:
+  ttl: 600
+  type: CNAME
+  value: hack-club-gh.github.io.
 gita:
   - ttl: 600
     type: A
@@ -2239,6 +2256,10 @@ packages:
   ttl: 600
   type: CNAME
   value: secret-zebra-lydr194iy8x0x4n4rmzcii3r.herokudns.com.
+parcel-pyxis:
+  - ttl: 600
+    type: CNAME
+    value: lit-angelfish-s8z2r3cgy4b922hygkb2m86r.herokudns.com.
 petcs:
   ttl: 600
   type: CNAME
@@ -3170,6 +3191,10 @@ highseas-donate:
     type: CNAME
     value: cname.vercel-dns.com.
 high-seas:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
+riceathon:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
