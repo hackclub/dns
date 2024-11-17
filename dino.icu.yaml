@@ -96,7 +96,7 @@ aryanpatel: # by https://github.com/aryanpatel142006
 betterwork-ai: # by https://heramb0x1.github.io/betterwork-ai
   ttl: 600
   type: CNAME
-  value: heramb0x1.github.io/betterwork-ai
+  value: heramb0x1.github.io.
   
 canteen:
   ttl: 600
