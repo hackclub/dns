@@ -92,6 +92,11 @@ aryanpatel: # by https://github.com/aryanpatel142006
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com. # vercel
+
+betterwork-ai: # by https://heramb0x1.github.io/betterwork-ai
+  ttl: 600
+  type: CNAME
+  value: heramb0x1.github.io.
   
 canteen:
   ttl: 600
