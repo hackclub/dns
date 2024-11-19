@@ -2099,10 +2099,6 @@ network.scrapbook:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
-new:
-  ttl: 600
-  type: CNAME
-  value: hackclub.netlify.com.
 newcanaan:
   ttl: 600
   type: CNAME
@@ -2634,10 +2630,6 @@ smtp._domainkey.mail.assemble:
   - ttl: 600
     type: TXT
     value: k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDEEhn+RqVZ0JyEzyjhXDPbqNr3yEUBAY1etOwaHxKCzRbJarGsbjtuyDhMaK7fqJOOqrUDyCfb2M14WtyqydYNKSw3qQpgHAmLsK5TPftGhnJxZSah2fPlLEqPH1UW/GhRRq0MP4k/J+/FUf7C7CKBlHt9qbvtRrp3V964xGUgzwIDAQAB
-smus:
-  - ttl: 600
-    type: CNAME
-    value: smushackclub.github.io.
 solstice:
   - ttl: 600
     type: CNAME
