@@ -341,6 +341,7 @@ _vercel:
     - vc-domain-verify=philippines.hackclub.com,8ce6b0b9767789ac9e92
     - vc-domain-verify=cascade.hackclub.com,9d7bd97667ee52151183
     - vc-domain-verify=contact-helper.hackclub.com,ecd049f45e2ad550fd89
+    - vc-domain-verify=southhighhack.hackclub.com,8cf484f7551780f58ae9
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -2645,6 +2646,10 @@ som-mail-system:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+southhighhack:
+  - ttl: 600
+    type: CNAME
+    value: south-high-hack.vercel.app.
 spark:
   - ttl: 3600
     type: TXT
