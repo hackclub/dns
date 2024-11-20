@@ -908,7 +908,7 @@ conduct-test:
 constellation:
   - ttl: 600
     type: A
-    value: 64.23.238.153.
+    value: 167.99.7.0
 contact-helper:
   - ttl: 600
     type: CNAME
