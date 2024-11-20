@@ -907,8 +907,8 @@ conduct-test:
     value: v=spf1 include:amazonses.com ~all
 constellation:
   - ttl: 600
-    type: CNAME
-    value: cname.vercel-dns.com.
+    type: A
+    value: 167.99.7.0
 contact-helper:
   - ttl: 600
     type: CNAME
