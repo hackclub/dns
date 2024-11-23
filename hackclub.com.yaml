@@ -3199,3 +3199,7 @@ riceathon:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+portal:
+  - ttl: 600
+    type: A
+    value: 173.255.236.153
