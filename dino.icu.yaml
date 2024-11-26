@@ -63,6 +63,11 @@ andreijiroh: # by https://github.com/ajhalili2006, but uses his first name as su
     type: CNAME
     value: proxyparty.recaptime.dev.
 
+avsc:
+  ttl: 600
+  type: CNAME
+  value: avscgreat.github.io.
+   
 andrew: # by https://github.com/anddddrew
   ttl: 600
   type: CNAME
