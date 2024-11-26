@@ -23,6 +23,8 @@ SUBDOMAIN_NAME:
 
 That's it! Someone with contributor access to the repo will then review your PR.
 
+If you're asked to make any changes to your pull request, please amend it by commiting to your fork, instead of closing it and creating another.
+
 ### Google Workspace / Vercel Combination
 
 If you're looking to use both Google Workspace and Vercel, deploying your changes may break. To fix this, follow these steps (each in a seperate step, `irvine.hackclub.com` is an example of this process):
