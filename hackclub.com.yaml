@@ -776,7 +776,7 @@ camp-apply:
 cargo-cult:
   ttl: 600
   type: A
-  value: 150.136.168.136
+  value: 198.199.90.134
 cascade:
   - ttl: 600
     type: CNAME
