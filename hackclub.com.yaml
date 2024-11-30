@@ -771,6 +771,10 @@ camp:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+capsule:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 camp-apply:
   type: CNAME
   value: hackcamp-apply.netlify.com.
