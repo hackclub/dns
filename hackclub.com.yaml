@@ -342,6 +342,7 @@ _vercel:
     - vc-domain-verify=cascade.hackclub.com,9d7bd97667ee52151183
     - vc-domain-verify=contact-helper.hackclub.com,ecd049f45e2ad550fd89
     - vc-domain-verify=southhighhack.hackclub.com,8cf484f7551780f58ae9
+    - vc-domain-verify=capsule.hackclub.com,2095a0d425ab70e65ae2
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -770,6 +771,10 @@ camp:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+capsule:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 camp-apply:
   type: CNAME
   value: hackcamp-apply.netlify.com.
