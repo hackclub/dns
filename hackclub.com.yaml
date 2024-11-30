@@ -1359,6 +1359,14 @@ fraps:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+fraser:
+  - ttl: 600
+    type: A
+    values: 
+      - 185.199.108.153
+      - 185.199.109.153
+      - 185.199.110.153
+      - 185.199.111.153
 fremont:
   - ttl: 600
     type: CNAME
