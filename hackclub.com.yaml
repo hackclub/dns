@@ -1536,6 +1536,10 @@ hackstore:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+hackaccino:
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
 hacktheoctober:
   ttl: 600
   type: CNAME
