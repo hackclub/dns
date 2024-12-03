@@ -1736,6 +1736,10 @@ it:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+italia:
+  - ttl: 600
+  type: A
+  value: 185.151.30.185
 iter:
   ttl: 600
   type: CNAME
