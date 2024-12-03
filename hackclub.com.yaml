@@ -251,7 +251,7 @@ _now:
 pk:
 - ttl: 600
   type: CNAME
-  value: https://teenverse.github.io/
+  value: https://teenverse.github.io./.
 _sip._tcp.px:
   ttl: 600
   type: SRV
