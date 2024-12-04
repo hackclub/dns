@@ -2774,7 +2774,7 @@ synthax:
     type: CNAME
     value: qwel-exe.github.io.
 
-    teenverse:
+teenverse:
   - ttl: 600
     type: CNAME
     value: teenverse.github.io.
