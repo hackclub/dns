@@ -1009,6 +1009,16 @@ dash.hackathons:
   ttl: 600
   type: A
   value: 5.161.160.54
+_acme-challenge.dash.hackathons:
+- ttl: 600
+  type: NS
+  value: hydrogen.ns.hetzner.com
+- ttl: 600
+  type: NS
+  value: helium.ns.hetzner.de
+- ttl: 600
+  type: NS
+  value: oxygen.ns.hetzner.com
 app-1.hackathons:
   ttl: 600
   type: A
