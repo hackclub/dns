@@ -2773,11 +2773,6 @@ synthax:
   - ttl: 600
     type: CNAME
     value: qwel-exe.github.io.
-
-teenverse:
-  - ttl: 600
-    type: CNAME
-    value: teenverse.github.io.
 tbp:
   - ttl: 600
     type: NS
@@ -2793,6 +2788,10 @@ teach:
   - ttl: 600
     type: CNAME
     value: hackclub.github.io.
+teenverse:
+  - ttl: 600
+    type: CNAME
+    value: teenverse.github.io.
 telemetry:
   - ttl: 600
     type: A
