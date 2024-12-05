@@ -548,6 +548,10 @@ athena:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+aswhackclub:
+  - ttl: 600
+    type: A
+    value: 67.217.241.159
 austin:
   ttl: 600
   type: CNAME
