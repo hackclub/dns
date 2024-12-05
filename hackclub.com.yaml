@@ -548,7 +548,7 @@ athena:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
-aswhackclub:
+asw:
   - ttl: 600
     type: A
     value: 67.217.241.159
