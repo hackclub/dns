@@ -342,6 +342,8 @@ _vercel:
     - vc-domain-verify=contact-helper.hackclub.com,ecd049f45e2ad550fd89
     - vc-domain-verify=southhighhack.hackclub.com,8cf484f7551780f58ae9
     - vc-domain-verify=capsule.hackclub.com,2095a0d425ab70e65ae2
+    - vc-domain-verify=hacky-holidays.hackclub.com,c8f8c52c1790e239650e
+    - vc-domain-verify=hackyholidays.hackclub.com,dcb0e995448d8cfaae37
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -1544,6 +1546,14 @@ hackaccino:
   type: CNAME
   value: cname.vercel-dns.com.
 hacktheoctober:
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
+hackyholidays:
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
+hacky-holidays:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
