@@ -2,6 +2,9 @@
 "":
   - type: ALIAS
     value: solid-daffodil-0mn798giomwnltj8ssbu2xb6.herokudns.com.
+ahoy:
+  - type: CNAME
+    value: cname.vercel-dns.com.
 hack.club:
   - type: ALIAS
     value: cname.vercel-dns.com.
