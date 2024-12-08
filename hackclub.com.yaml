@@ -3233,3 +3233,7 @@ portal:
   - ttl: 600
     type: A
     value: 173.255.236.153
+sdheeraj:
+  - ttl: 600
+    type: CNAME
+    value: 17sdheeraj.github.io.
