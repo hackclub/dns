@@ -590,6 +590,10 @@ bag.client:
   ttl: 3600
   type: A
   value: 34.49.72.119
+bakebuild:
+  ttl: 6000
+  type: CNAME
+  value: Kayla.hackclub.app
 bank:
   ttl: 600
   type: A
@@ -2397,6 +2401,10 @@ preflight.assemble:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+printalyst:
+  ttl: 600
+  type: CNAME
+  value: kayla.hackclub.app.
 proton:
   ttl: 600
   type: CNAME
