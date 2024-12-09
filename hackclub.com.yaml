@@ -1537,6 +1537,10 @@ hackpad:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+hackstone:
+  ttl: 600
+  type: CNAME
+  value: hackstone-4ed483b2d3df.herokuapp.com.
 hackstore:
   ttl: 600
   type: CNAME
