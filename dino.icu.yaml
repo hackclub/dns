@@ -193,7 +193,7 @@ firepi:
   value: 2001:470:c0ec:142::6
 - ttl: 600
   type: A
-  value: 47.221.98.52
+  value: 69.8.95.218
 
 geta: # yoda - https://getadinoicu.yodacode.repl.co/dino.png - get a dino from hackclub/dinosaurs api
   ttl: 600
