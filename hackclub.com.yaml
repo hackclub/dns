@@ -1540,7 +1540,7 @@ hackpad:
 hackstone:
   ttl: 600
   type: CNAME
-  value: shielded-ant-u9v36m3z1919rhc6dmr2perb.herokudns.com
+  value: shielded-ant-u9v36m3z1919rhc6dmr2perb.herokudns.com.
 hackstore:
   ttl: 600
   type: CNAME
