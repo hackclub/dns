@@ -546,6 +546,10 @@ astrohacks:
   - ttl: 600
     type: CNAME
     value: www.mmgraphix.net.
+asw:
+  - ttl: 600
+    type: A
+    value: 67.217.241.159
 athena:
   - ttl: 600
     type: CNAME
