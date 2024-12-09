@@ -52,6 +52,11 @@
 #   type: CNAME
 #   value: cname.vercel-dns.com.
 
+archives:
+  - ttl: 600
+    type: CNAME
+    value: crabby605.github.io
+
 ajhalili2006: # by https://github.com/ajhalili2006 via https://github.com/andreijiroh-dev/website
   - ttl: 600
     type: CNAME
