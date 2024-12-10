@@ -642,8 +642,10 @@ bbss:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
-
-
+bccs:
+  - ttl: 600
+    type: CNAME
+    value: acidicts.github.io.
 berkeley:
   - ttl: 600
     type: CNAME
