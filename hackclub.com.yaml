@@ -153,6 +153,10 @@ _github-challenge-ALOPB-Hack-Club-org.alopb:
   - ttl: 600
     type: TXT
     value: 8c323c2c39
+_github-pages-challenge-Acidicts.bccs:
+  - ttl: 600
+    type: TXT
+    value: 43944fe4fc778c3944f82a0ac22d24
 _github-challenge-GaynorMcCown.gaynormccown:
   - ttl: 600
     type: TXT
@@ -642,10 +646,10 @@ bbss:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
-_github-pages-challenge-Acidicts.bccs:
+bccs:
   - ttl: 600
-    type: TXT
-    value: 43944fe4fc778c3944f82a0ac22d24.
+    type: CNAME
+    value: acidicts.github.io.
 berkeley:
   - ttl: 600
     type: CNAME
