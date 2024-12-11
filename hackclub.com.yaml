@@ -3133,6 +3133,10 @@ your-first-ship:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+ysws:
+  - ttl: 600
+    type: CNAME
+    value: hackclub.github.io
 zachday:
   - ttl: 600
     type: CNAME
