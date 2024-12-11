@@ -594,6 +594,10 @@ bag.client:
   ttl: 3600
   type: A
   value: 34.49.72.119
+bakebuild:
+  ttl: 600
+  type: CNAME
+  value: kaympe20.github.io.
 bank:
   ttl: 600
   type: A
