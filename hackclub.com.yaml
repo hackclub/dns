@@ -597,7 +597,7 @@ bag.client:
 bakebuild:
   ttl: 600
   type: CNAME
-  value: kaympe20.github.io
+  value: kaympe20.github.io.
 bank:
   ttl: 600
   type: A
