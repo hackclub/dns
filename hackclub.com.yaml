@@ -3247,3 +3247,7 @@ portal:
   - ttl: 600
     type: A
     value: 173.255.236.153
+SUBDOMAIN_NAME:
+  - ttl: 600
+    type: CNAME
+    value: henleyhigh
