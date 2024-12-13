@@ -594,6 +594,10 @@ bag.client:
   ttl: 3600
   type: A
   value: 34.49.72.119
+bakebuild:
+  ttl: 600
+  type: CNAME
+  value: kaympe20.github.io.
 bank:
   ttl: 600
   type: A
@@ -642,8 +646,10 @@ bbss:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
-
-
+bccs:
+  - ttl: 600
+    type: CNAME
+    value: acidicts.github.io.
 berkeley:
   - ttl: 600
     type: CNAME
@@ -1537,6 +1543,10 @@ hackpad:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+hackstone:
+  ttl: 600
+  type: CNAME
+  value: shielded-ant-u9v36m3z1919rhc6dmr2perb.herokudns.com.
 hackstore:
   ttl: 600
   type: CNAME
@@ -3127,6 +3137,10 @@ your-first-ship:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+ysws:
+  - ttl: 600
+    type: CNAME
+    value: hackclub.github.io.
 zachday:
   - ttl: 600
     type: CNAME
