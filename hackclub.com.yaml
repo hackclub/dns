@@ -2858,6 +2858,10 @@ theme:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+thehackmic:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 thorn:
   - ttl: 600
     type: CNAME
