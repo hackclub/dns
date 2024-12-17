@@ -2418,6 +2418,14 @@ preflight.assemble:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+printboard:
+  - ttl: 3600
+    type: A
+    values:
+      - 185.199.108.153
+      - 185.199.109.153
+      - 185.199.110.153
+      - 185.199.111.153
 proton:
   ttl: 600
   type: CNAME
