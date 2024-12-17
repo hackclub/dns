@@ -1065,6 +1065,10 @@ dedicated.servers:
   - ttl: 600
     type: A
     value: 173.208.140.122
+dessert:
+  - ttl: 600
+    type: CNAME
+    value: dessert-ysws.netlify.app.
 devhacks:
   - ttl: 600
     type: TXT
@@ -3259,7 +3263,3 @@ metabase:
   - ttl: 600
     type: CNAME
     value: naigidt4.up.railway.app.
-dessert:
-  - ttl: 600
-    type: CNAME
-    value: dessert-ysws.netlify.app.
