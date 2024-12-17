@@ -550,7 +550,6 @@ asw:
   - ttl: 600
     type: A
     value: 67.217.241.159
-  asw:
   - ttl: 600
     type: TXT
     value: google-site-verification=d_K6jzYREeilfewHLzAj968pU2v_z1ZBY1aNrXSt_Pg
