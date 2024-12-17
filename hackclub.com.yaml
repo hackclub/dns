@@ -597,7 +597,7 @@ bag.client:
 bakebuild:
   ttl: 600
   type: CNAME
-  value: kaympe20.github.io.
+  value: cname.vercel-dns.com.
 bank:
   ttl: 600
   type: A
@@ -2858,6 +2858,10 @@ theme:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+thehackmic:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 thorn:
   - ttl: 600
     type: CNAME
@@ -3251,3 +3255,7 @@ portal:
   - ttl: 600
     type: A
     value: 173.255.236.153
+metabase:
+  - ttl: 600
+    type: CNAME
+    value: naigidt4.up.railway.app.
