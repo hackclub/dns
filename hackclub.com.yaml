@@ -3263,3 +3263,7 @@ metabase:
   - ttl: 600
     type: CNAME
     value: naigidt4.up.railway.app.
+calhack:
+  - ttl: 600
+    type: CNAME
+    value: calhack-to-be-updated.vercel.app.
