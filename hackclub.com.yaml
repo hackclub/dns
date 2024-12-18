@@ -778,6 +778,13 @@ calendar:
   ttl: 600
   type: CNAME
   value: ghs.googlehosted.com.
+calhack:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.  
 camp:
   ttl: 600
   type: CNAME
@@ -3263,7 +3270,4 @@ metabase:
   - ttl: 600
     type: CNAME
     value: naigidt4.up.railway.app.
-calhack:
-  - ttl: 600
-    type: CNAME
-    value: calhack-to-be-updated.vercel.app.
+
