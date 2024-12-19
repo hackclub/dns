@@ -550,6 +550,9 @@ asw:
   - ttl: 600
     type: A
     value: 67.217.241.159
+  - ttl: 600
+    type: TXT
+    value: google-site-verification=d_K6jzYREeilfewHLzAj968pU2v_z1ZBY1aNrXSt_Pg
 athena:
   - ttl: 600
     type: CNAME
@@ -1065,6 +1068,10 @@ dedicated.servers:
   - ttl: 600
     type: A
     value: 173.208.140.122
+dessert:
+  - ttl: 600
+    type: CNAME
+    value: dessert-ysws.netlify.app.
 devhacks:
   - ttl: 600
     type: TXT
