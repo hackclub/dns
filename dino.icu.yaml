@@ -98,6 +98,11 @@ aryanpatel: # by https://github.com/aryanpatel142006
   type: CNAME
   value: cname.vercel-dns.com. # vercel
 
+baguette: # blog
+  ttl: 600
+  type: CNAME
+  value: oui-oui-baguetti.vercel.app
+
 betterwork-ai: # by https://heramb0x1.github.io/betterwork-ai
   ttl: 600
   type: CNAME
