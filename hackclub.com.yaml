@@ -1323,6 +1323,10 @@ hackerabad:
   - ttl: 600
     type: CNAME
     value: hackerabad.netlify.app.
+hackerspace:
+  ttl: 600
+  type: CNAME
+  value: arson.dino.icu/hackerspace.
 hackhour:
   ttl: 600
   type: CNAME
