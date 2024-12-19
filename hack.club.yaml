@@ -8,6 +8,9 @@ ahoy:
 hack.club:
   - type: ALIAS
     value: cname.vercel-dns.com.
+glenny:
+  - type: CNAME
+    value: bobbedbob.github.io
 l:
   - type: CNAME
     value: developmental-honeysuckle-bw0w1sr07xraztscn4sxtahk.herokudns.com.
