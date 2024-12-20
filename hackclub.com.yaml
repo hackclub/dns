@@ -1470,6 +1470,10 @@ github-oauth:
   ttl: 600
   type: CNAME
   value: synthetic-grape-ht3rdj3kqbc6fuyjcuc5f6ob.herokudns.com.
+glenny:
+  - ttl: 600
+    type: CNAME
+    value: bobbedbob.github.io.
 globalcovid:
   ttl: 600
   type: CNAME
