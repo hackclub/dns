@@ -783,9 +783,6 @@ calhack:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
-  - ttl: 600
-    type: CNAME
-    value: cname.vercel-dns.com.  
 camp:
   ttl: 600
   type: CNAME
