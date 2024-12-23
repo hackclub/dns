@@ -2598,6 +2598,10 @@ scrappy:
   ttl: 600
   type: CNAME
   value: glacial-dusk-446cvr5bsl9xqyp8yoge5tt7.herokudns.com.
+scrapyard:
+  - ttl: 60
+    type: CNAME
+    value: cname.vercel-dns.com.
 server.psn:
   ttl: 600
   type: A
