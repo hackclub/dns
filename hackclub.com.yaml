@@ -432,6 +432,10 @@ forge:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+firehose:
+  - ttl: 600
+    type: CNAME
+    value: cylindrical-rose-bklwrtred01ytycfprxq1lvm.herokudns.com.
 ama-machine:
   - ttl: 600
     type: CNAME
