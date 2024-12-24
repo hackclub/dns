@@ -435,7 +435,7 @@ forge:
 firehose:
   - ttl: 600
     type: CNAME
-    value: cylindrical-rose-bklwrtred01ytycfprxq1lvm.herokudns.com
+    value: cylindrical-rose-bklwrtred01ytycfprxq1lvm.herokudns.com.
 ama-machine:
   - ttl: 600
     type: CNAME
