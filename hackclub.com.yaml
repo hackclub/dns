@@ -557,6 +557,10 @@ asw:
   - ttl: 600
     type: TXT
     value: google-site-verification=d_K6jzYREeilfewHLzAj968pU2v_z1ZBY1aNrXSt_Pg
+asylum:
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
 athena:
   - ttl: 600
     type: CNAME
