@@ -1199,6 +1199,10 @@ embed.scrapbook:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+emilyahmad:
+  ttl: 600
+  type: CNAME
+  value: emily202777.github.io.
 envelope: # for loops.so spf & dmarc
   - type: MX
     values:
