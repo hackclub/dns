@@ -2607,15 +2607,12 @@ scrappy:
   type: CNAME
   value: glacial-dusk-446cvr5bsl9xqyp8yoge5tt7.herokudns.com.
 scrapyard:
-  - ttl: 600
-    type: ALIAS
-    value: cname.vercel-dns.com.
-  - ttl: 3600
+  - ttl: 60
     type: TXT
     values:
       - v=spf1 include:_spf.google.com ~all
       - google-site-verification=yZxQNIGF8LvRVUJ_LpekD1PTKCTFj2ECQZBA0OZXQus.
-  - ttl: 3600
+  - ttl: 60
     type: MX
     values:
       - exchange: aspmx.l.google.com.
@@ -2628,6 +2625,9 @@ scrapyard:
         preference: 10
       - exchange: alt4.aspmx.l.google.com.
         preference: 10
+  - ttl: 60
+    type: ALIAS
+    value: cname.vercel-dns.com.
 server.psn:
   ttl: 600
   type: A
