@@ -2699,6 +2699,10 @@ skyscrapper:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+slack-id:
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
 slash-z:
   ttl: 600
   type: CNAME
