@@ -2608,7 +2608,7 @@ scrappy:
   value: glacial-dusk-446cvr5bsl9xqyp8yoge5tt7.herokudns.com.
 scrapyard:
   - ttl: 60
-    type: CNAME
+    type: ALIAS
     value: cname.vercel-dns.com.
   - ttl: 60
     type: TXT
