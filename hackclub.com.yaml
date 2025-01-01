@@ -2625,9 +2625,9 @@ scrapyard:
         preference: 10
       - exchange: alt4.aspmx.l.google.com.
         preference: 10
-  #- ttl: 60
-   # type: ALIAS
-    #value: cname.vercel-dns.com.
+  - ttl: 60
+    type: ALIAS
+    value: cname.vercel-dns.com.
 server.psn:
   ttl: 600
   type: A
