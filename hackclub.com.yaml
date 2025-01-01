@@ -2613,7 +2613,7 @@ scrapyard:
   - ttl: 60
     type: TXT
     value: google-site-verification=yZxQNIGF8LvRVUJ_LpekD1PTKCTFj2ECQZBA0OZXQus.
-  - ttl: 60
+  - ttl: 600
     type: TXT
     value: v=spf1 include:_spf.google.com ~all
   - ttl: 600
