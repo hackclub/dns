@@ -2610,6 +2610,25 @@ scrapyard:
   - ttl: 60
     type: CNAME
     value: cname.vercel-dns.com.
+  - ttl: 60
+    type: TXT
+    value: google-site-verification=yZxQNIGF8LvRVUJ_LpekD1PTKCTFj2ECQZBA0OZXQus.
+  - ttl: 60
+    type: TXT
+    value: v=spf1 include:_spf.google.com ~all
+  - ttl: 600
+    type: MX
+    values:
+      - exchange: ASPMX.L.GOOGLE.COM.
+        preference: 1
+      - exchange: ALT1.ASPMX.L.GOOGLE.COM.
+        preference: 5
+      - exchange: ALT2.ASPMX.L.GOOGLE.COM.
+        preference: 5
+      - exchange: ALT3.ASPMX.L.GOOGLE.COM.
+        preference: 10
+      - exchange: ALT4.ASPMX.L.GOOGLE.COM.
+        preference: 10
 server.psn:
   ttl: 600
   type: A
