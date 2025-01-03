@@ -344,6 +344,7 @@ _vercel:
     - vc-domain-verify=capsule.hackclub.com,2095a0d425ab70e65ae2
     - vc-domain-verify=hacky-holidays.hackclub.com,c8f8c52c1790e239650e
     - vc-domain-verify=hackyholidays.hackclub.com,dcb0e995448d8cfaae37
+    - vc-domain-verify=dessert.hackclub.com,8452d8879c3995b17783
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -1068,7 +1069,7 @@ dedicated.servers:
 dessert:
   - ttl: 600
     type: CNAME
-    value: dessert-ysws.netlify.app.
+    value: cname.vercel-dns.com.
 devhacks:
   - ttl: 600
     type: TXT
