@@ -297,6 +297,7 @@ _vercel:
     - vc-domain-verify=bunker.apocalypse.hackclub.com,75a61be6a0e63f44d7c1
     - vc-domain-verify=ten-days-of-code.hackclub.com,f4bdc5d47d93a15aea28
     - vc-domain-verify=athena.hackclub.com,2e501f1e64f9510cc920
+    - vc-domain-verify=hackerspacein.hackclub.com,0792c5b958d087ab339e
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -1323,10 +1324,10 @@ hackerabad:
   - ttl: 600
     type: CNAME
     value: hackerabad.netlify.app.
-hackerspace:
+hackerspacein:
   ttl: 600
   type: CNAME
-  value: arson.dino.icu/hackerspace.
+  value: hackerspaceclub.vercel.app.
 hackhour:
   ttl: 600
   type: CNAME
