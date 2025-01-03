@@ -1559,7 +1559,7 @@ hackerabad:
 hackerspacein:
   ttl: 600
   type: CNAME
-  value: hackerspaceclub.vercel.app.
+  value: cname.vercel-dns.com.
 hackhour:
   ttl: 600
   type: CNAME
