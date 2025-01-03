@@ -69,6 +69,10 @@ ihs:
   ttl: 600
   type: A
   value: 173.208.140.124
+"*.a.selfhosted":
+  ttl: 600
+  type: A
+  value: 5.161.100.52
 Cabbache:
   - ttl: 600
     type: CNAME
