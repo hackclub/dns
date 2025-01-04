@@ -1,5 +1,10 @@
 ---
 "":
+_vercel:
+  - ttl: 600
+    type: TXT
+    value: vc-domain-verify=scrapyardkigali.hackclub.com,67fc1c8234f8f2963acc
+
   - type: ALIAS
     value: cname.vercel-dns.com.
   - ttl: 600
@@ -3334,7 +3339,3 @@ metabase:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
-scrapyardkigali:
-  - ttl: 600
-    type: CNAME
-    value: cname.vercel-dns.com.
