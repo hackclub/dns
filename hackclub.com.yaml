@@ -741,7 +741,7 @@ brasil:
 bucky:
   - ttl: 600
     type: CNAME
-    value: lit-anenome-0a8n6ev3vwpusdyktkunqnea.herokudns.com.
+    value: a.selfhosted.hackclub.com.
 bulc:
   - ttl: 600
     type: CNAME
