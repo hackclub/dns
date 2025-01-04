@@ -3334,3 +3334,7 @@ metabase:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+scrapyardkigali:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
