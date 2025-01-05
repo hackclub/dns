@@ -714,7 +714,7 @@ blossom:
 blot:
   - ttl: 600
     type: CNAME
-    value: floral-fox-hyj1o8cxitplwxu7tfwlz6rn.herokudns.com.
+    value: a.selfhosted.hackclub.com.
 bls:
   - ttl: 600
     type: CNAME
