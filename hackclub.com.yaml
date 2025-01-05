@@ -354,6 +354,7 @@ _vercel:
     - vc-domain-verify=hackyholidays.hackclub.com,dcb0e995448d8cfaae37
     - vc-domain-verify=dessert.hackclub.com,8452d8879c3995b17783
     - vc-domain-verify=hackerspacein.hackclub.com,0792c5b958d087ab339e
+    - vc-domain-verify=ro.hackclub.com,2f000cc1b00f1f78b361
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -2549,6 +2550,10 @@ riverside:
   - ttl: 600
     type: CNAME
     value: aahannadas.github.io.
+ro:
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
 rr:
   - ttl: 600
     type: CNAME
