@@ -3302,7 +3302,7 @@ takeout:
 shipment-viewer:
   - ttl: 600
     type: CNAME
-    value: cname.vercel-dns.com.
+    value: a.selfhosted.hackclub.com.
 for-reviewers:
    - ttl: 600
      type: CNAME
