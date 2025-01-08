@@ -2342,7 +2342,7 @@ packages:
 parcel-pyxis:
   - ttl: 600
     type: CNAME
-    value: lit-angelfish-s8z2r3cgy4b922hygkb2m86r.herokudns.com.
+    value: a.selfhosted.hackclub.com.
 petcs:
   ttl: 600
   type: CNAME
