@@ -204,6 +204,11 @@ hk:
 hkgi:
 - type: CNAME
   value: garden.devcara.com.
+
+heramb:
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
    
 icons: # yoda - https://github.com/yodalightsabr/icons-dino-icu - a CDN for @hackclub/icons
   ttl: 600
