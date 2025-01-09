@@ -355,6 +355,7 @@ _vercel:
     - vc-domain-verify=dessert.hackclub.com,8452d8879c3995b17783
     - vc-domain-verify=hackerspacein.hackclub.com,0792c5b958d087ab339e
     - vc-domain-verify=ro.hackclub.com,2f000cc1b00f1f78b361
+    - vc-domain-verify=raspapi.hackclub.com,9efbc48bf594bc9528cb
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -2506,6 +2507,10 @@ rahs:
   - ttl: 600
     type: CNAME
     value: rahs-hackclub.netlify.com.
+raspapi:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 ravenhack:
   - ttl: 600
     type: CNAME
