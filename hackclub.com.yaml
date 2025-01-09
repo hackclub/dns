@@ -2599,6 +2599,10 @@ santa:
   ttl: 600
   type: CNAME
   value: ancient-pinchusion-nm14orueibm39fhm2ntl24qj.herokudns.com.
+saycheese:
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
 schacks:
   - type: CNAME
     value: schacks.netlify.com.
