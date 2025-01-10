@@ -3348,3 +3348,7 @@ metabase:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+vidisha:
+  - ttl: 600
+    type: CNAME
+    value: arjav0703.github.io
