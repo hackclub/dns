@@ -3351,4 +3351,4 @@ metabase:
 vidisha:
   - ttl: 600
     type: CNAME
-    value: arjav0703.github.io
+    value: arjav0703.github.io.
