@@ -324,7 +324,6 @@ _vercel:
     - vc-domain-verify=hacktks.hackclub.com,2b83e058127863ee2d1d
     - vc-domain-verify=status.hackclub.com,40b1b3248e4b63e61f56
     - vc-domain-verify=codecafe.hackclub.com,7626bb39bfb56e9ea791
-    - vc-domain-verify=directory.hackclub.com,0a9f7c5764c6f89d642b
     - vc-domain-verify=ihs.hackclub.com,21e13c0c6af87766f6f5
     - vc-domain-verify=poolesville.hackclub.com,d8099895eaea670eec60
     - vc-domain-verify=wonderland.hackclub.com,0c2e35e271cd0c23752d
@@ -1131,10 +1130,6 @@ dinos:
   - ttl: 600
     type: CNAME
     value: orpheus-dinos.netlify.com.
-directory:
-  - ttl: 600
-    type: CNAME
-    value: cname.vercel-dns.com.
 dorman:
   ttl: 600
   type: ALIAS
