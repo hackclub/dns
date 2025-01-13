@@ -2470,7 +2470,7 @@ printboard:
 proton:
   ttl: 600
   type: CNAME
-  value: techpro709.github.io.
+  value: pxldevv.github.io.
 proxyparty:
   type: A
   value: 45.79.164.46
