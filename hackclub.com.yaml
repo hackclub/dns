@@ -355,6 +355,7 @@ _vercel:
     - vc-domain-verify=hackerspacein.hackclub.com,0792c5b958d087ab339e
     - vc-domain-verify=ro.hackclub.com,2f000cc1b00f1f78b361
     - vc-domain-verify=raspapi.hackclub.com,9efbc48bf594bc9528cb
+    - vc-domain-verify=orpheuspico.hackclub.com,78eb32078b9f08ca12e5
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -2255,6 +2256,11 @@ ocsa:
         preference: 10
   - ttl: 600
     type: ALIAS
+    value: cname.vercel-dns.com.
+
+orpheuspico:
+  - ttl: 600
+    type: CNAME
     value: cname.vercel-dns.com.
   
 osca:
