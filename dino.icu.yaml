@@ -54,14 +54,17 @@
 
 ajhalili2006: # by https://github.com/ajhalili2006 via https://github.com/andreijiroh-dev/website
   - ttl: 600
-    type: CNAME
-    # redirects to https://andreijiroh.xyz via caddy config at https://github.com/recaptime-dev/proxyparty-caddy
-    value: proxyparty.recaptime.dev.
+    type: NS
+    values:
+    - ns1.desec.io.
+    - ns2.desec.io.
 
 andreijiroh: # by https://github.com/ajhalili2006, but uses his first name as subdomain instead of github username
   - ttl: 600
-    type: CNAME
-    value: proxyparty.recaptime.dev.
+    type: NS
+    values:
+    - ns1.desec.io.
+    - ns2.desec.io.
 
 avsc:
   ttl: 600
