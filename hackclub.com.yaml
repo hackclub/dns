@@ -3120,6 +3120,10 @@ vi:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+vidisha:
+  - ttl: 600
+    type: CNAME
+    value: arjav0703.github.io.
 india.verifications:
   - ttl: 600
     type: CNAME
