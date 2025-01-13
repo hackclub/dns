@@ -2122,6 +2122,10 @@ milton:
   ttl: 10000
   type: CNAME
   value: miltonhackclub.pages.dev.
+minustwelve:
+  ttl: 600
+  type: CNAME
+  value: hackclub.github.io.
 miracosta:
   ttl: 600
   type: CNAME
