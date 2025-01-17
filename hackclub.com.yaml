@@ -1538,6 +1538,10 @@ gyfaieadefoity2i3m2aif6evdmlll2j._domainkey.conduct-test:
   ttl: 600
   type: CNAME
   value: gyfaieadefoity2i3m2aif6evdmlll2j.dkim.amazonses.com.
+hackapet:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 hackaruto:
   - ttl: 600
     type: CNAME
