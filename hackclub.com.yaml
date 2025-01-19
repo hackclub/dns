@@ -109,6 +109,10 @@ _65244219885cf4f9a5b8765b58e0807a.assemble-images:
   - ttl: 600
     type: CNAME
     value: _062a94fad0c28f72c88b05c7724484ce.wsqgzrdths.acm-validations.aws.
+aast.iep:
+  - ttl: 600
+    type: A
+    value: SOURCE_DOMAIN_OR_IP.
 _acme-challenge:
   type: TXT
   values:
