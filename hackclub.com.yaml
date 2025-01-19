@@ -957,7 +957,7 @@ conduct:
     type: TXT
     values:
       - v=spf1 include:_spf.google.com ~all
-      - google-site-verification=yZxQNIGF8LvRVUJ_LpekD1PTKCTFj2ECQZBA0OZXQus.
+      - google-site-verification=n09_T0NT7x7SVInETpDjjL2AhsTi0pW7jWceXy1cJjY
   - ttl: 60
     type: MX
     values:
