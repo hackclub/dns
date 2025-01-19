@@ -1,5 +1,5 @@
 ---
-"":
+"":    
   - type: ALIAS
     value: cname.vercel-dns.com.
   - ttl: 600
@@ -3369,3 +3369,12 @@ metabase:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+AAST.IEP.form:
+  - ttl: 600
+    type: CNAME
+    value: https://forms.fillout.com/t/69eH3BVdg5us.
+  AAST.IEP.Community:
+  - ttl: 600
+    type: CNAME
+    value: chat.whatsapp.com/HA7uxg0nUz482WqfYBxhcW?fbclid=IwY2xjawH45l1leHRuA2FlbQIxMAABHSdiEPiZNTafyT6JmnPc-gIR6xoxMsA_PGeeu5qWv7bvSfb1a5Hb8ACPsg_aem_nkPhKhlNcTSDKfSBvYZ4HQ. 
+
