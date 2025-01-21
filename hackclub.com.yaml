@@ -1125,6 +1125,7 @@ devhacks:
     values:
       - v=spf1 include:_spf.google.com ~all
       - google-site-verification=6kNb9Tf56I4fGzIVUN9lFs_yg7HtJ-qMCd5lZeLrJvI
+      - google-site-verification=zqMYOQZ_242uBdQe_7FEwpMnV08ngyIn9VCqy8CCf3o
   - ttl: 600
     type: MX
     values:
