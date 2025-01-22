@@ -2544,6 +2544,10 @@ rahs:
   - ttl: 600
     type: CNAME
     value: rahs-hackclub.netlify.com.
+raincloud:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 raspapi:
   - ttl: 600
     type: CNAME
