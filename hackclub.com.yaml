@@ -2927,6 +2927,10 @@ synthax:
   - ttl: 600
     type: CNAME
     value: qwel-exe.github.io.
+tag:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 tbp:
   - ttl: 600
     type: NS
