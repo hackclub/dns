@@ -689,6 +689,10 @@ berkley:
   - ttl: 600
     type: CNAME
     value: ce68625a-92ad-439c-823d-7dc4bab9c62f.repl.co.
+berman:
+   - ttl: 600
+     type: CNAME
+     value: bermanclub.pages.dev
 bewacky:
   - ttl: 600
     type: TXT
