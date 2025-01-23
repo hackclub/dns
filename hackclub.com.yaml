@@ -1863,6 +1863,10 @@ jank:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+juice: 
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 jp:
   - ttl: 600
     type: CNAME
