@@ -692,7 +692,7 @@ berkley:
 berman:
    - ttl: 600
      type: CNAME
-     value: bermanclub.pages.dev
+     value: bermanclub.pages.dev.
 bewacky:
   - ttl: 600
     type: TXT
