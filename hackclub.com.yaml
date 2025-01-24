@@ -364,6 +364,7 @@ _vercel:
     - vc-domain-verify=ro.hackclub.com,2f000cc1b00f1f78b361
     - vc-domain-verify=raspapi.hackclub.com,9efbc48bf594bc9528cb
     - vc-domain-verify=orpheuspico.hackclub.com,78eb32078b9f08ca12e5
+    - vc-domain-verify=podium.hackclub.com,8dad6840c48e341ef42e
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -664,7 +665,7 @@ bank-receipts:
 bank-shields:
   ttl: 600
   type: CNAME
-  value: young-mastodon-ly8r821ksr8ksbrdwd8tvoi6.herokudns.com.
+  value: a.selfhosted.hackclub.com.
 bank-wrapped:
   - ttl: 600
     type: CNAME
@@ -689,6 +690,10 @@ berkley:
   - ttl: 600
     type: CNAME
     value: ce68625a-92ad-439c-823d-7dc4bab9c62f.repl.co.
+berman:
+   - ttl: 600
+     type: CNAME
+     value: bermanclub.pages.dev.
 bewacky:
   - ttl: 600
     type: TXT
@@ -1862,6 +1867,10 @@ jank:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+juice: 
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 jp:
   - ttl: 600
     type: CNAME
@@ -2436,6 +2445,10 @@ plis:
   type: CNAME
   value: plis-hackclub.netlify.app.
 podcast:
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
+podium:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
