@@ -665,7 +665,7 @@ bank-receipts:
 bank-shields:
   ttl: 600
   type: CNAME
-  value: young-mastodon-ly8r821ksr8ksbrdwd8tvoi6.herokudns.com.
+  value: a.selfhosted.hackclub.com.
 bank-wrapped:
   - ttl: 600
     type: CNAME
@@ -1864,6 +1864,10 @@ jams:
     type: CNAME
     value: cname.vercel-dns.com.
 jank:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
+juice: 
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
