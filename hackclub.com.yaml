@@ -2659,11 +2659,6 @@ saycheese:
   type: CNAME
   value: cname.vercel-dns.com.
 
-sayhan:
-  - ttl: 600
-    type: CNAME
-    value: alexxsh16.hackclub.app.
-
 schacks:
   - type: CNAME
     value: schacks.netlify.com.
