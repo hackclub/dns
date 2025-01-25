@@ -1579,6 +1579,10 @@ hackathons:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+hackatsst:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 hackaway:
   - ttl: 600
     type: CNAME
