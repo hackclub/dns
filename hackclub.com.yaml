@@ -3390,7 +3390,7 @@ gps:
 highseas:
   - ttl: 600
     type: CNAME
-    value: cname.vercel-dns.com.
+    value: hackclub.github.io.
 highseas-donate:
   - ttl: 600
     type: CNAME
