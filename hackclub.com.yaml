@@ -365,6 +365,7 @@ _vercel:
     - vc-domain-verify=raspapi.hackclub.com,9efbc48bf594bc9528cb
     - vc-domain-verify=orpheuspico.hackclub.com,78eb32078b9f08ca12e5
     - vc-domain-verify=podium.hackclub.com,8dad6840c48e341ef42e
+    - vc-domain-verify=hackatsst.hackclub.com,984d9d75559c592d5b88
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -1576,6 +1577,10 @@ hackathon:
     type: CNAME
     value: cname.vercel-dns.com.
 hackathons:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
+hackatsst:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
