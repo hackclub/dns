@@ -2663,6 +2663,7 @@ saycheese:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+
 schacks:
   - type: CNAME
     value: schacks.netlify.com.

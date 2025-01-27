@@ -410,6 +410,12 @@ runshaw: # Used for an email alias for for runshaw hack club members (https://ru
     exchange: mail.danieldb.uk.
     preference: 1
 
+
+sayhan: # portfolio and other apps?
+  - ttl: 600
+    type: CNAME
+    value: alexxsh16.hackclub.app.
+
 scales: # (yet another?) currency slack bot (with some web UI) :D
   ttl: 600
   type: A
