@@ -2204,10 +2204,6 @@ nmit:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
-northpark:
-  - ttl: 600
-    type: CNAME
-    value: nphack.club.
 notebook:
   - ttl: 600
     type: CNAME
