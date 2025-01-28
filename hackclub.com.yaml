@@ -627,6 +627,10 @@ bag.client:
   ttl: 3600
   type: A
   value: 34.49.72.119
+bag-api:
+  ttl: 600
+  type: CNAME
+  value: bag-api.a.selfhosted.hackclub.com.
 bakebuild:
   ttl: 600
   type: CNAME
