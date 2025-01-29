@@ -715,6 +715,10 @@ bkbiet:
   ttl: 600
   type: CNAME
   value: bkbiethackclub.netlify.com.
+blackbox:
+  ttl: 600
+  type: CNAME
+  value: hackclub.github.io.
 blair:
   ttl: 600
   type: CNAME
