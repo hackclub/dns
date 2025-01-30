@@ -2160,7 +2160,7 @@ merivalja:
 mfa:
   ttl: 600
   type: CNAME
-  value: genetic-junglefowl-3j5z21xloagt92vzeb752t9s.herokudns.com.
+  value: a.selfhosted.hackclub.com.
 mhs: 
   ttl: 600
   type: CNAME
