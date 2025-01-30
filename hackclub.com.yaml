@@ -365,6 +365,7 @@ _vercel:
     - vc-domain-verify=raspapi.hackclub.com,9efbc48bf594bc9528cb
     - vc-domain-verify=orpheuspico.hackclub.com,78eb32078b9f08ca12e5
     - vc-domain-verify=podium.hackclub.com,8dad6840c48e341ef42e
+    - vc-domain-verify=hackatsst.hackclub.com,984d9d75559c592d5b88
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -626,6 +627,10 @@ bag.client:
   ttl: 3600
   type: A
   value: 34.49.72.119
+bag-api:
+  ttl: 600
+  type: CNAME
+  value: bag-api.a.selfhosted.hackclub.com.
 bakebuild:
   ttl: 600
   type: CNAME
@@ -690,6 +695,10 @@ berkley:
   - ttl: 600
     type: CNAME
     value: ce68625a-92ad-439c-823d-7dc4bab9c62f.repl.co.
+berman:
+   - ttl: 600
+     type: CNAME
+     value: bermanclub.pages.dev.
 bewacky:
   - ttl: 600
     type: TXT
@@ -706,6 +715,10 @@ bkbiet:
   ttl: 600
   type: CNAME
   value: bkbiethackclub.netlify.com.
+blackbox:
+  ttl: 600
+  type: CNAME
+  value: hackclub.github.io.
 blair:
   ttl: 600
   type: CNAME
@@ -1575,6 +1588,10 @@ hackathons:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+hackatsst:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 hackaway:
   - ttl: 600
     type: CNAME
@@ -1882,8 +1899,8 @@ jg2ygmrfby4vhxve3cozh4yz3xc2ul5y._domainkey:
     value: jg2ygmrfby4vhxve3cozh4yz3xc2ul5y.dkim.custom-email-domain.stripe.com.
 jobs:
   - ttl: 600
-    type: A
-    value: 96.126.108.99
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 js-slash-z:
   - ttl: 600
     type: CNAME
@@ -2501,13 +2518,9 @@ preflight.assemble:
   type: CNAME
   value: cname.vercel-dns.com.
 printboard:
-  - ttl: 3600
-    type: A
-    values:
-      - 185.199.108.153
-      - 185.199.109.153
-      - 185.199.110.153
-      - 185.199.111.153
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 proton:
   ttl: 600
   type: CNAME
@@ -2936,6 +2949,10 @@ synthax:
   - ttl: 600
     type: CNAME
     value: qwel-exe.github.io.
+tag:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 tbp:
   - ttl: 600
     type: NS
@@ -3402,3 +3419,7 @@ metabase:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+ai:
+  - ttl: 600
+    type: A
+    value: 5.161.100.52
