@@ -1899,8 +1899,8 @@ jg2ygmrfby4vhxve3cozh4yz3xc2ul5y._domainkey:
     value: jg2ygmrfby4vhxve3cozh4yz3xc2ul5y.dkim.custom-email-domain.stripe.com.
 jobs:
   - ttl: 600
-    type: A
-    value: 96.126.108.99
+    type: CNAME
+    value: a.selfhosted.hackclub.com
 js-slash-z:
   - ttl: 600
     type: CNAME
