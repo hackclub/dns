@@ -1900,7 +1900,7 @@ jg2ygmrfby4vhxve3cozh4yz3xc2ul5y._domainkey:
 jobs:
   - ttl: 600
     type: CNAME
-    value: a.selfhosted.hackclub.com
+    value: a.selfhosted.hackclub.com.
 js-slash-z:
   - ttl: 600
     type: CNAME
