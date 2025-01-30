@@ -2160,7 +2160,7 @@ merivalja:
 mfa:
   ttl: 600
   type: CNAME
-  value: selfhosted.a.hackclub.com.
+  value: a.selfhosted.hackclub.com.
 mhs: 
   ttl: 600
   type: CNAME
