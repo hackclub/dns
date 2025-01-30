@@ -1,7 +1,7 @@
 ---
 "":
   - type: ALIAS
-    value: adjacent-crag-9vk67y6ktr6zzlqitcb2fxwn.herokudns.com.
+    value: a.selfhosted.hackclub.com.
   - type: MX
     value:
       exchange: mail.hack.af.
