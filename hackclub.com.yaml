@@ -2527,7 +2527,7 @@ proton:
   value: pxldevv.github.io.
 proxyparty:
   type: A
-  value: 5.161.116.59
+  value: 45.79.164.46
 pshs:
   - ttl: 600
     type: CNAME
