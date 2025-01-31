@@ -2809,7 +2809,7 @@ slash-z:
 professorbloom:
   ttl: 600
   type: CNAME
-  value: behavioural-crag-3cp212813kwpnv174r5p27e1.herokudns.com.
+  value: a.selfhosted.hackclub.com.
 smhs:
   - ttl: 600
     type: CNAME
