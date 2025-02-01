@@ -997,6 +997,10 @@ contribute:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+coolify-conductor:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 counterspell:
   - ttl: 600
     type: ALIAS
