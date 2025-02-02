@@ -2525,6 +2525,10 @@ printboard:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+printlegion:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 proton:
   ttl: 600
   type: CNAME
