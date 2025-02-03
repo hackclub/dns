@@ -3083,7 +3083,7 @@ toolbox:
 toriel:
   - ttl: 600
     type: CNAME
-    value: enigmatic-celmentine-ut0w3vatz8vihtqllhcsl1o2.herokudns.com.
+    value: a.selfhosted.hackclub.com.
 toronto:
   - ttl: 600
     type: CNAME
