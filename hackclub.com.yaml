@@ -1086,7 +1086,7 @@ codethetech:
     type: CNAME
     value: codethetech.github.io.
 dash.hackathons:
-  ttl: 600
+  ttl: 1
   type: A
   value: 5.161.160.54
 app-1.hackathons:
