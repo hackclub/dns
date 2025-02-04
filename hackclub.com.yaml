@@ -1086,9 +1086,9 @@ codethetech:
     type: CNAME
     value: codethetech.github.io.
 dash.hackathons:
-  ttl: 1
-  type: A
-  value: 5.161.160.54
+  ttl: 600
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 app-1.hackathons:
   ttl: 600
   type: A
