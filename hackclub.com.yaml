@@ -1817,6 +1817,10 @@ innkeeper:
   ttl: 600
   type: CNAME
   value: computational-wildfowl-4zkl40wjjsepa2w7iivn026m.herokudns.com.
+intranet:
+  - ttl: 600
+    type: CNAME
+    value: kaympe20.github.io
 intro.moonbeam:
   - ttl: 600
     type: CNAME
