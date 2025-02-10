@@ -366,6 +366,7 @@ _vercel:
     - vc-domain-verify=orpheuspico.hackclub.com,78eb32078b9f08ca12e5
     - vc-domain-verify=podium.hackclub.com,8dad6840c48e341ef42e
     - vc-domain-verify=hackatsst.hackclub.com,984d9d75559c592d5b88
+    - vc-domain-verify=jua.hackclub.com,f187c5e6c1e4e681fb22
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
