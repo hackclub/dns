@@ -1891,6 +1891,10 @@ jank:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+jua:
+  - ttl: 600
+    type: CNAME
+    value: juanairobi.netlify.app.
 juice: 
   - ttl: 600
     type: CNAME
