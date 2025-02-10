@@ -3438,3 +3438,12 @@ ai:
   - ttl: 600
     type: A
     value: 5.161.100.52
+spaces:
+  - ttl: 600
+    type: A
+    value: 34.111.179.208
+spaces:
+  - ttl: 600
+    type: TXT
+    value: replit-verify=f8a8a2eb-03c5-4122-8d55-f17ac1de3bde
+    
