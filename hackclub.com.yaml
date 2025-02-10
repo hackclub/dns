@@ -2213,6 +2213,9 @@ more.cchs:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+multiverse:
+  type: CNAME
+  value: cname.vercel-dns.com.
 mumble:
   - ttl: 600
     type: A
