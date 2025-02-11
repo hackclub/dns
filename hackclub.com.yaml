@@ -1815,6 +1815,10 @@ id.assemble:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+infill:
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
 innkeeper:
   ttl: 600
   type: CNAME
