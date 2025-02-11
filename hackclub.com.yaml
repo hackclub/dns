@@ -1783,7 +1783,7 @@ horizon:
 hsi:
   - ttl: 600
     type: CNAME
-    value: dry-chameleon-14gbb2i6pe82p6g176z0ysjm.herokudns.com.
+    value: a.selfhosted.hackclub.com.
 haunted:
   type: CNAME
   value: cname.vercel-dns.com.
