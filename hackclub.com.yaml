@@ -1241,7 +1241,7 @@ editor.haxidraw:
 editor.sprig:
   ttl: 600
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a.selfhosted.hackclub.com.
 el:
   ttl: 600
   type: CNAME
@@ -2903,15 +2903,7 @@ spp:
 sprig:
   - ttl: 600
     type: CNAME
-    value: cname.vercel-dns.com.
-sprig-drop:
-  - ttl: 600
-    type: CNAME
-    value: cname.vercel-dns.com.
-sprig-order:
-  - ttl: 600
-    type: CNAME
-    value: cname.vercel-dns.com.
+    value: a.selfhosted.hackclub.com.
 sshchat:
   - ttl: 600
     type: A
