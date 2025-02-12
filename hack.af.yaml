@@ -51,3 +51,6 @@ mx._domainkey:
 st:
   type: CNAME
   value: cname.vercel-dns.com.
+sy:
+  type: CNAME
+  value: cname.vercel-dns.com.
