@@ -1745,7 +1745,7 @@ hcb:
     value: google-gws-recovery-domain-verification=49632973
 hcb-test:
   - type: CNAME
-    value: ingress.hcb.hackclub.com
+    value: ingress.hcb.hackclub.com.
 hcb-og:
   type: CNAME
   value: cname.vercel-dns.com.
