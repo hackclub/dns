@@ -3224,6 +3224,13 @@ india.verifications:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com. 
+ingress.hcb:
+  - ttl: 1
+    type: A
+    value: 5.161.32.67
+  - ttl: 1
+    type: AAAA
+    value: 2a01:4ff:f1:2d2::1
 vikingsdev:
   - ttl: 600
     type: CNAME
