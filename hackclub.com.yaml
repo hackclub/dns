@@ -118,6 +118,14 @@ _acme-challenge.haas:
   type: TXT
   values:
     - WeFHw1rO8PfGWEGAEh9CnfvOhokXXYgK-PD0kbI6RS0
+_acme-challenge.hcb:
+  type: TXT
+  values:
+    - G8mlLCACopWDnpCSUrM2tcu_rNMpmv3S4va2zTqzWis
+_acme-challenge.hcb-test:
+  type: TXT
+  values:
+    - fz1rT4GLzW6a_MNUApgmKL-9VF90xSjTMQg5ZWmgmvw
 _acme-challenge.middleman:
   type: TXT
   value: middleman.hackclub.com.3gzn0m.flydns.net.
