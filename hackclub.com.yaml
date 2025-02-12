@@ -376,6 +376,7 @@ _vercel:
     - vc-domain-verify=podium.hackclub.com,8dad6840c48e341ef42e
     - vc-domain-verify=hackatsst.hackclub.com,984d9d75559c592d5b88
     - vc-domain-verify=jua.hackclub.com,f187c5e6c1e4e681fb22
+    - vc-domain-verify=atharane.hackclub.com,ec5786b587249131e3d7
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -597,6 +598,10 @@ asylum:
   type: CNAME
   value: cname.vercel-dns.com.
 athena:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
+atharane:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
