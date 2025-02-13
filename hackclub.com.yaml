@@ -77,14 +77,6 @@ ihs:
   ttl: 600
   type: CNAME
   value: static.52.100.161.5.clients.your-server.de.
-"a.hcb.selfhosted":
-  ttl: 600
-  type: CNAME
-  value:  static.6.202.161.5.clients.your-server.de.
-"*.a.hcb.selfhosted":
-  ttl: 600
-  type: CNAME
-  value:  static.6.202.161.5.clients.your-server.de.
 Cabbache:
   - ttl: 600
     type: CNAME
@@ -1751,10 +1743,6 @@ hcb:
   - ttl: 3600
     type: TXT
     value: google-gws-recovery-domain-verification=49632973
-hcb-test:
-  - type: CNAME
-    ttl: 1
-    value: ingress.hcb.hackclub.com.
 hcb-og:
   type: CNAME
   value: cname.vercel-dns.com.
