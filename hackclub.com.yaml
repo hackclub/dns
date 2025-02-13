@@ -3450,4 +3450,8 @@ metabase:
 ai:
   - ttl: 600
     type: A
-    value: 5.161.100.52
+    value: 5.161.100.
+sock1:
+  - ttl: 600
+    type: A
+    value: 143.198.126.149
