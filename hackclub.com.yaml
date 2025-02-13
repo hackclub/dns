@@ -32,8 +32,8 @@
       - airtable-verification=6a190bbac6305fe1d58071f48f535cf5
 slashz:
   - ttl: 600
-    type: A
-    value: 209.97.144.104
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 ihs:
   - ttl: 600
     type: CNAME
@@ -1926,7 +1926,7 @@ jobs:
 js-slash-z:
   - ttl: 600
     type: CNAME
-    value: enigmatic-fish-c39gdknhp34g7n56zhxrvpf6.herokudns.com.
+    value: a.selfhosted.hackclub.com.
 jv:
   - ttl: 600
     type: CNAME
@@ -2834,7 +2834,7 @@ slack-id:
 slash-z:
   ttl: 600
   type: CNAME
-  value: sheltered-macaw-2pwfsepypwy3e60hw28b57a5.herokudns.com.
+  value: a.selfhosted.hackclub.com.
 professorbloom:
   ttl: 600
   type: CNAME
