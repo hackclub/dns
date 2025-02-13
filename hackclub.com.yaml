@@ -1752,7 +1752,8 @@ hcb:
     type: TXT
     value: google-gws-recovery-domain-verification=49632973
 hcb-test:
-  - type: CNAME
+  - type: ALIAS
+    ttl: 1
     value: integrative-persimmon-bbqibbb7mpgnchg1aiz44ujm.herokudns.com.
 hcb-og:
   type: CNAME
