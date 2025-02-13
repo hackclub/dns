@@ -1734,7 +1734,7 @@ key3._domainkey.hcarc:
 hcb:
   - type: ALIAS
     value: ingress.hcb.hackclub.com.
-    ttl: 1
+    ttl: 300
   - type: MX
     ttl: 6000
     value:
