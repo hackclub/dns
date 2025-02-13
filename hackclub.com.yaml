@@ -1754,7 +1754,7 @@ hcb:
 hcb-test:
   - type: CNAME
     ttl: 1
-    value: integrative-persimmon-bbqibbb7mpgnchg1aiz44ujm.herokudns.com.
+    value: ingress.hcb.hackclub.com.
 hcb-og:
   type: CNAME
   value: cname.vercel-dns.com.
