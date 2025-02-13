@@ -2721,7 +2721,7 @@ school-toolkit:
 scrapbook:
   - ttl: 600
     type: CNAME
-    value: cname.vercel-dns.com.
+    value: a.selfhosted.hackclub.com.
 scrapbook.assemble:
   - ttl: 600
     type: CNAME
@@ -2733,7 +2733,7 @@ scrapbooks:
 scrappy:
   ttl: 600
   type: CNAME
-  value: glacial-dusk-446cvr5bsl9xqyp8yoge5tt7.herokudns.com.
+  value: a.selfhosted.hackclub.com.
 scrapyard:
   - ttl: 60
     type: TXT
