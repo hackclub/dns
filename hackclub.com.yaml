@@ -1700,6 +1700,10 @@ hcarc:
       - google-site-verification=xzGbA1OB1AnLPBHMOjrh5qPFZIwXXe-1_ci2GuomAjY
       - v=spf1 include:_spf.google.com -all
 
+hcer-public-github-data:
+  - type: CNAME
+    value: a.selfhosted.hackclub.com.
+
 heist:
   - ttl: 600
     type: CNAME
