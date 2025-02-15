@@ -3455,3 +3455,7 @@ ai:
   - ttl: 600
     type: A
     value: 5.161.100.52
+vortech:
+  - ttl: 600
+    type: CNAME
+    value: vortech-at.hackclub.com
