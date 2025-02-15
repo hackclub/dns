@@ -3459,7 +3459,6 @@ spaces:
   - ttl: 1
     type: A
     value: 34.111.179.208
-spaces:
   - ttl: 1
     type: TXT
     value: replit-verify=9e8060df-e776-48e9-82e7-0ab3dd45817d
