@@ -3456,11 +3456,11 @@ ai:
     type: A
     value: 5.161.100.52
 spaces:
-  - ttl: 600
+  - ttl: 1
     type: A
     value: 34.111.179.208
 spaces:
-  - ttl: 600
+  - ttl: 1
     type: TXT
-    value: replit-verify=f8a8a2eb-03c5-4122-8d55-f17ac1de3bde
+    value: replit-verify=9e8060df-e776-48e9-82e7-0ab3dd45817d
     
