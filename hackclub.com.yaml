@@ -3455,3 +3455,11 @@ ai:
   - ttl: 600
     type: A
     value: 5.161.100.52
+spaces:
+  - ttl: 1
+    type: A
+    value: 34.111.179.208
+  - ttl: 1
+    type: TXT
+    value: replit-verify=3c136ae5-ddbb-48c4-98b0-95eb83e7136d
+    
