@@ -1533,10 +1533,6 @@ gita:
   - ttl: 600
     type: A
     value: 165.232.189.107
-github-oauth:
-  ttl: 600
-  type: CNAME
-  value: synthetic-grape-ht3rdj3kqbc6fuyjcuc5f6ob.herokudns.com.
 glenny:
   - ttl: 600
     type: CNAME
