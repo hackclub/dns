@@ -1533,6 +1533,10 @@ gita:
   - ttl: 600
     type: A
     value: 165.232.189.107
+github-oauth:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 glenny:
   - ttl: 600
     type: CNAME
