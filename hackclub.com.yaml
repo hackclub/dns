@@ -1737,7 +1737,7 @@ key3._domainkey.hcarc:
       
 hcb:
   - type: ALIAS
-    value: ingress.hcb.hackclub.com.
+    value: rocky-jackfruit-11wv1arsenhczo2z58bae8lt.herokudns.com.
     ttl: 300
   - type: MX
     ttl: 6000
