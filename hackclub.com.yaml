@@ -3216,7 +3216,13 @@ vi:
 vidisha:
   - ttl: 600
     type: CNAME
-    value: arjav0703.github.io.
+    value: cname.vercel-dns.com.
+_vercel:
+  ttl: 600
+  type: TXT
+  values:
+    - vc-domain-verify=vidisha.hackclub.com,865c18c50e3614795dfc
+
 india.verifications:
   - ttl: 600
     type: CNAME
