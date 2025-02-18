@@ -1723,6 +1723,10 @@ _dmarc.scrapyard:
   type: TXT
   ttl: 3600
   value: v=DMARC1\; p=none\; rua=mailto:dmarc_report@hackclub.com\; ruf=mailto:dmarc_report@hackclub.com\;fo=1
+_dmarc.intranet:
+- ttl: 600
+  type: CNAME
+  value: dmarcroot.purelymail.com.
 key1._domainkey.hcarc:
   type: CNAME
   ttl: 600
@@ -1833,6 +1837,15 @@ intranet:
   - ttl: 600
     type: CNAME
     value: kaympe20.github.io.
+  - ttl: 600
+    type: MX
+    value: mailserver.purelymail.com.
+  - ttl: 600
+    type: TXT
+    value: v=spf1 include:_spf.purelymail.com ~all
+  - ttl: 600
+    type: TXT
+    value: purelymail_ownership_proof=f891b36f781e2d66b883b30b47c77105b72d58ddfc8d3091c950bbb6c8deff7eb774087d5257c17bc0b9c3af9c49c083f785b044fb518ce6d4d246fa29790085
 intro.moonbeam:
   - ttl: 600
     type: CNAME
@@ -2570,6 +2583,18 @@ psn:
   - ttl: 600
     type: CNAME
     value: psnhackclub.netlify.app.
+purelymail1._domainkey.intranet:
+  - ttl: 600
+    type: CNAME
+    value: key1.dkimroot.purelymail.com.
+purelymail2._domainkey.intranet:
+  - ttl: 600
+    type: CNAME
+    value: key2.dkimroot.purelymail.com.
+purelymail3._domainkey.intranet:
+  - ttl: 600
+    type: CNAME
+    value: key3.dkimroot.purelymail.com.
 puyallup:
   - ttl: 600
     type: ALIAS
