@@ -2745,6 +2745,7 @@ scrapyard:
     values:
       - v=spf1 include:_spf.google.com ~all
       - google-site-verification=yZxQNIGF8LvRVUJ_LpekD1PTKCTFj2ECQZBA0OZXQus.
+      - v=DMARC1\; p=none\; rua=mailto:dmarc_report@hackclub.com\; ruf=mailto:dmarc_report@hackclub.com\;fo=1
   - ttl: 60
     type: MX
     values:
