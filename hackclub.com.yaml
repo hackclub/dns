@@ -1630,6 +1630,10 @@ hackhour:
   ttl: 600
   type: CNAME
   value: evolutionary-meadow-v0odnp3h34mtsm07dz1jqkww.herokudns.com.
+hacktales:
+  ttl: 600
+  type: CNAME
+  value: boo.hackclub.app
 hackinux:
   ttl: 600
   type: CNAME
