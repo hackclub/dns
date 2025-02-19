@@ -2923,6 +2923,10 @@ sprig:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+sprig-order:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 sshchat:
   - ttl: 600
     type: A
