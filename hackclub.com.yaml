@@ -2072,6 +2072,10 @@ newcanaanlib:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+neko:
+ttl: 600
+type: CNAME
+value: cat-jammers.github.io.
 nigeria:
   ttl: 600
   type: CNAME
