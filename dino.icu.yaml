@@ -64,9 +64,9 @@ andreijiroh: # by https://github.com/ajhalili2006, but uses his first name as su
     value: proxyparty.recaptime.dev.
 
 arjav: #by https://github.com/arjav0703
-- ttl: 600
-  type: A
-  value: 76.76.21.21
+  - ttl: 600
+    type: A
+    value: 76.76.21.21
 
 avsc:
   ttl: 600
