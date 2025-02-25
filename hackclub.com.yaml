@@ -883,7 +883,7 @@ ccshc:
     value: cmshc.github.io.
 cdn:
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a.selfhosted.hackclub.com.
 cec:
   - ttl: 600
     type: CNAME
