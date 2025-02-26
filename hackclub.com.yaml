@@ -2058,7 +2058,7 @@ live.onboard:
 lms:
   - ttl: 600
     type: CNAME
-    value: cname.vercel-dns.com
+    value: cname.vercel-dns.com.
 lonestar:
   - ttl: 600
     type: CNAME
