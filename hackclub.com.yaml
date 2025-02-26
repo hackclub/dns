@@ -304,6 +304,7 @@ _vercel:
   ttl: 600
   type: TXT
   values:
+    - vc-domain-verify=lms.hackclub.com,74ac7dc05caf5ed4c5e3
     - vc-domain-verify=multiverse.hackclub.com,1d8996d4a42eba75e1d8
     - vc-domain-verify=arcade-wrapped.hackclub.com,8266e50fd74e5c046773
     - vc-domain-verify=hersey.hackclub.com,cc9535e7b0f931982d6e
@@ -2054,6 +2055,10 @@ live.onboard:
   - ttl: 600
     type: A
     value: 188.40.116.216
+lms:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com
 lonestar:
   - ttl: 600
     type: CNAME
