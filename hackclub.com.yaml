@@ -551,6 +551,10 @@ asiasummit:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+terminalcraft:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 asiet:
   - ttl: 600
     type: CNAME
