@@ -3078,6 +3078,10 @@ tilde:
   - ttl: 600
     type: CNAME
     value: hackclub.myftp.biz.
+timedump:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 tist:
   - ttl: 600
     type: A
