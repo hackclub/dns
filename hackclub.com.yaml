@@ -446,6 +446,10 @@ angelhacksba:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+apex:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 apocalypse:
   - ttl: 600
     type: CNAME
