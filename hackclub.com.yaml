@@ -2484,6 +2484,10 @@ piobfpwf42smbkxcysnrx7qe5es6f5tp._domainkey.epochvt:
   ttl: 600
   type: CNAME
   value: piobfpwf42smbkxcysnrx7qe5es6f5tp.dkim.amazonses.com.
+pixeldust:
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
 pl:
   ttl: 600
   type: CNAME
