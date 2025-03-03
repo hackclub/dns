@@ -2938,7 +2938,7 @@ status.hcb:
 stemegypt:
   - ttl: 900
     type: CNAME
-    value: hack-club-stem-egypt-website.pages.dev.
+    value: stem-hack-club-site-ibrahimwael951s-projects.vercel.app.
 stemsharkya:
   - ttl: 600
     type: CNAME
