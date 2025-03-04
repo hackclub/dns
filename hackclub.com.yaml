@@ -446,6 +446,10 @@ angelhacksba:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+apex:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 apocalypse:
   - ttl: 600
     type: CNAME
@@ -1826,6 +1830,10 @@ id.assemble:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+imperial:
+  ttl: 600
+  type: CNAME
+  value: ihs-hacklab.github.io.
 infill:
   ttl: 600
   type: CNAME
@@ -3078,6 +3086,10 @@ tilde:
   - ttl: 600
     type: CNAME
     value: hackclub.myftp.biz.
+timedump:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 tist:
   - ttl: 600
     type: A
