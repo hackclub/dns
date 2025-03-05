@@ -57,7 +57,11 @@ ajhalili2006: # by https://github.com/ajhalili2006 via https://github.com/andrei
     type: CNAME
     # redirects to https://andreijiroh.xyz via caddy config at https://github.com/recaptime-dev/proxyparty-caddy
     value: proxyparty.recaptime.dev.
-
+wisp: # by https://github.com/ajhalili2006 via https://github.com/andreijiroh-dev/website
+  - ttl: 600
+    type: CNAME
+    # redirects to https://intruder.wtf/numerous-transparency-070620.framer.app/
+    value: https://intruder.wtf/numerous-transparency-070620.framer.app/
 andreijiroh: # by https://github.com/ajhalili2006, but uses his first name as subdomain instead of github username
   - ttl: 600
     type: CNAME
