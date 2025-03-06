@@ -2389,6 +2389,10 @@ onboard:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+onboard-stats:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 oneditor:
   - ttl: 600
     type: CNAME
