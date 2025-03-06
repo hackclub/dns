@@ -371,6 +371,7 @@ _vercel:
     - vc-domain-verify=vidisha.hackclub.com,865c18c50e3614795dfc
     - vc-domain-verify=suceava.hackclub.com,b3c8f92fe1ba1f1f89f4
     - vc-domain-verify=stemegypt.hackclub.com,246d2979e0905d3792b8
+    - vc-domain-verify=mchs.hackclub.com,731f84def0232c3bd916
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -2178,6 +2179,10 @@ mccownhacks:
       - ns3.he.net.
       - ns4.he.net.
       - ns5.he.net.
+mchs:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 mcneil:
   - ttl: 600
     type: A
