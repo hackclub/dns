@@ -735,7 +735,7 @@ bkbiet:
 blackbox:
   ttl: 600
   type: CNAME
-  value: hackclub.github.io.
+  value: a.selfhosted.hackclub.com.
 blair:
   ttl: 600
   type: CNAME
