@@ -55,7 +55,7 @@ nf3m6e2ow5ronraohfd2y4z5lejghjti._domainkey.timedump:
 _dmarc.timedump:
   ttl: 600
   type: TXT
-  value: "v=DMARC1\; p=none" # extra lenient while setting up dmarc
+  value: "v=DMARC1\\; p=none" # extra lenient while setting up dmarc
 
 3blue1brown:
   ttl: 600
