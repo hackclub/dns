@@ -200,6 +200,11 @@ geta: # yoda - https://getadinoicu.yodacode.repl.co/dino.png - get a dino from h
   type: CNAME
   value: ef35bb48-f121-4f7f-91f6-93f601559c24.id.repl.co.
 
+hacktv:
+  - ttl: 600
+    type: CNAME
+    value: conversafe.hackclub.app.
+
 hasd: # hasd school forum
   ttl: 600
   type: A
@@ -524,7 +529,7 @@ tejas: # by tej
 toonnongaeoy:
  - ttl: 600
    type: CNAME
-   value: retro.toonstorytime.me.
+   value: storyhouseproduction.duckdns.org.
 
 url: # A url shortener for anyone in hack club :D
  - ttl: 600

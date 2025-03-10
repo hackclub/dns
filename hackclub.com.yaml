@@ -42,6 +42,21 @@ ihs:
 20230913174421pm._domainkey:
   type: TXT
   value: k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCbYfun+ZMwXJGRqp41sG/OXWPgbQd6Ewf/ccOBCvigm9LSarnT1QCUizzc+ZqBfSc4UTlJJx2hyhWYN6zFHibSndOBmY3y09uKuv7S4v3usfhpVVJZw9BOQLL4N9uIysrzLhVOfCpXiIIQQHn/a277SA8klIDfVcZkxdkyBRQDlQIDAQAB
+
+2adksa7hr3i3ca2rj47jym72toiq6gi6._domainkey.timedump: # timedump.hackclub.com dkim
+  type: CNAME
+  value: 2adksa7hr3i3ca2rj47jym72toiq6gi6.dkim.amazonses.com.
+nf3m6e2ow5ronraohfd2y4z5lejghjti._domainkey.timedump:
+  type: CNAME
+  value: nf3m6e2ow5ronraohfd2y4z5lejghjti.dkim.amazonses.com. # timedump.hackclub.com dkim
+5afxyqg5oa33pfpifwmw3gbruphezlbb._domainkey.timedump:
+  type: CNAME
+  value: 5afxyqg5oa33pfpifwmw3gbruphezlbb.dkim.amazonses.com. # timedump.hackclub.com dkim
+_dmarc.timedump:
+  ttl: 600
+  type: TXT
+  value: "v=DMARC1\\; p=none" # extra lenient while setting up dmarc
+
 3blue1brown:
   ttl: 600
   type: CNAME
@@ -165,6 +180,10 @@ _gh-arsenobetaine-o.arsenic:
   - ttl: 600
     type: TXT
     value: 1f595876ef
+_gh-hackclubmchs-o.mchs:
+  - ttl: 600
+    type: TXT
+    value: 564d413bdf
 _github-challenge-ALOPB-Hack-Club-org.alopb:
   - ttl: 600
     type: TXT
@@ -370,6 +389,8 @@ _vercel:
     - vc-domain-verify=jua.hackclub.com,f187c5e6c1e4e681fb22
     - vc-domain-verify=vidisha.hackclub.com,865c18c50e3614795dfc
     - vc-domain-verify=suceava.hackclub.com,b3c8f92fe1ba1f1f89f4
+    - vc-domain-verify=stemegypt.hackclub.com,246d2979e0905d3792b8
+    - vc-domain-verify=mchs.hackclub.com,731f84def0232c3bd916
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -733,7 +754,7 @@ bkbiet:
 blackbox:
   ttl: 600
   type: CNAME
-  value: hackclub.github.io.
+  value: a.selfhosted.hackclub.com.
 blair:
   ttl: 600
   type: CNAME
@@ -1381,10 +1402,6 @@ f5qsmeu4qwef4yvo2p6e4a4vrspzdqdc._domainkey:
   ttl: 600
   type: CNAME
   value: f5qsmeu4qwef4yvo2p6e4a4vrspzdqdc.dkim.amazonses.com.
-f5qsmeu4qwef4yvo2p6e4a4vrspzdqdc._domainkey.epochvt:
-  ttl: 600
-  type: CNAME
-  value: f5qsmeu4qwef4yvo2p6e4a4vrspzdqdc.dkim.amazonses.com.
 fa:
   - ttl: 1
     type: CNAME
@@ -1830,6 +1847,10 @@ id.assemble:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+imperial:
+  ttl: 600
+  type: CNAME
+  value: ihs-hacklab.github.io.
 infill:
   ttl: 600
   type: CNAME
@@ -2173,6 +2194,10 @@ mccownhacks:
       - ns3.he.net.
       - ns4.he.net.
       - ns5.he.net.
+mchs:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 mcneil:
   - ttl: 600
     type: A
@@ -2384,6 +2409,10 @@ onboard:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+onboard-stats:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 oneditor:
   - ttl: 600
     type: CNAME
@@ -2938,7 +2967,7 @@ status.hcb:
 stemegypt:
   - ttl: 900
     type: CNAME
-    value: hack-club-stem-egypt-website.pages.dev.
+    value: cname.vercel-dns.com.
 stemsharkya:
   - ttl: 600
     type: CNAME
