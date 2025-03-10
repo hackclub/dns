@@ -304,6 +304,7 @@ _vercel:
   ttl: 600
   type: TXT
   values:
+    - vc-domain-verify=parliment.hackclub.com,ece75e75c9c932a8bf91
     - vc-domain-verify=multiverse.hackclub.com,1d8996d4a42eba75e1d8
     - vc-domain-verify=arcade-wrapped.hackclub.com,8266e50fd74e5c046773
     - vc-domain-verify=hersey.hackclub.com,cc9535e7b0f931982d6e
