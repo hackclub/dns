@@ -165,6 +165,10 @@ _gh-arsenobetaine-o.arsenic:
   - ttl: 600
     type: TXT
     value: 1f595876ef
+_gh-hackclubmchs-o.mchs:
+  - ttl: 600
+    type: TXT
+    value: 564d413bdf
 _github-challenge-ALOPB-Hack-Club-org.alopb:
   - ttl: 600
     type: TXT
