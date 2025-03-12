@@ -272,7 +272,7 @@ kevin: # Kevin Yang
 knoledgebase.arjav: # @arjav0703 I use it for my knowledgebase
   ttl: 600
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: arjav0703.github.io.
   
 kunal: # kunal
   ttl: 600
