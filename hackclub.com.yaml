@@ -3349,7 +3349,7 @@ wl:
 wshackclub:
   - ttl: 600
     type: A
-    value: 35.158.87.123.
+    value: 35.158.87.123
 summit:
   - ttl: 600
     type: CNAME
