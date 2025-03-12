@@ -57,6 +57,20 @@ _dmarc.timedump:
   type: TXT
   value: "v=DMARC1\\; p=none" # extra lenient while setting up dmarc
 
+2qdnwxx6mfbqzjwbtkigeofbcfs575pc._domainkey.hackatime:
+  type: CNAME
+  value: 2qdnwxx6mfbqzjwbtkigeofbcfs575pc.dkim.amazonses.com.
+mx3gvrbbxdtyaywpifk3oi47vso6oi3w._domainkey.hackatime:
+  type: CNAME
+  value: mx3gvrbbxdtyaywpifk3oi47vso6oi3w.dkim.amazonses.com.
+6oadcgmwgj62jw7hbbunf47rakuy5dgi._domainkey.hackatime:
+  type: CNAME
+  value: 6oadcgmwgj62jw7hbbunf47rakuy5dgi.dkim.amazonses.com.
+_dmarc.hackatime:
+  ttl: 600
+  type: TXT
+  value: "v=DMARC1\\; p=none" # extra lenient while setting up dmarc
+
 3blue1brown:
   ttl: 600
   type: CNAME
