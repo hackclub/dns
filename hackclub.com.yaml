@@ -2237,6 +2237,10 @@ merivalja:
   ttl: 600
   type: CNAME
   value: merivalja.github.io.
+meltdown:
+  ttl: 600
+  type: CNAME
+  value: meltdown-delta.vercel.app.
 mfa:
   ttl: 600
   type: CNAME
