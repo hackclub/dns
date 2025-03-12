@@ -269,6 +269,11 @@ kevin: # Kevin Yang
   type: CNAME
   value: bykevinyang.netlify.app.
   
+knoledgebase.arjav: # @arjav0703 I use it for my knowledgebase
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
+  
 kunal: # kunal
   ttl: 600
   type: NS
