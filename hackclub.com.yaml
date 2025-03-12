@@ -1625,6 +1625,10 @@ hackathons:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+hackatime:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 hackatsst:
   - ttl: 600
     type: CNAME
