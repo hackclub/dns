@@ -55,7 +55,6 @@ sy:
   type: CNAME
   value: cname.vercel-dns.com.
 
-# dkim + dmarc for amazon ses
 w4slhmfjwdthextblpgaxdgzj2y3kw6q._domainkey:
   type: CNAME
   value: w4slhmfjwdthextblpgaxdgzj2y3kw6q.dkim.amazonses.com.
@@ -67,4 +66,4 @@ sgchkpvavjjoceumlu5bnfz2n3hy563y._domainkey:
   value: 64xoc3uapdq42u63dw6epuciq4nau5nv.dkim.amazonses.com.
 _dmarc.hack.af:
   type: TXT
-  value: "v=DMARC1; p=none; rua=mailto:team@hackclub.com; ruf=mailto:team@hackclub.com; fo=1; ri=86400"
+  value: "v=DMARC1\\; p=none\\; rua=mailto:team@hackclub.com\\; ruf=mailto:team@hackclub.com\\; fo=1\\; ri=86400"
