@@ -3346,6 +3346,10 @@ wl:
   - ttl: 600
     type: CNAME
     value: wlhackclub.github.io.
+wshackclub:
+  - ttl: 600
+    type: A
+    value: 35.158.87.123.
 summit:
   - ttl: 600
     type: CNAME
