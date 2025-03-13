@@ -3046,6 +3046,15 @@ synthax:
   - ttl: 600
     type: CNAME
     value: qwel-exe.github.io.
+spaces:
+  - ttl: 600
+    type: A
+    value: 34.111.179.208
+  - ttl: 600
+    type: TXT
+    value: replit-verify=3c136ae5-ddbb-48c4-98b0-95eb83e7136d
+    
+
 tag:
   - ttl: 600
     type: CNAME
@@ -3531,11 +3540,3 @@ ai:
   - ttl: 600
     type: A
     value: 5.161.100.52
-spaces:
-  - ttl: 600
-    type: A
-    value: 34.111.179.208
-  - ttl: 600
-    type: TXT
-    value: replit-verify=3c136ae5-ddbb-48c4-98b0-95eb83e7136d
-    
