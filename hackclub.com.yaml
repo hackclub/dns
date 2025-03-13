@@ -1785,7 +1785,7 @@ key3._domainkey.hcarc:
 hcb:
   - type: ALIAS
     value: rocky-jackfruit-11wv1arsenhczo2z58bae8lt.herokudns.com.
-    ttl: 300
+    ttl: 1
   - type: MX
     ttl: 6000
     value:
@@ -1800,6 +1800,10 @@ hcb-og:
 hcb-proxy.servers:
   type: A
   value: 45.79.179.212
+hcb-test:
+  type: A
+  value: 5.161.32.67
+  ttl: 1
 hear:
   type: CNAME
   value: cname.vercel-dns.com.
@@ -3372,6 +3376,10 @@ wl:
   - ttl: 600
     type: CNAME
     value: wlhackclub.github.io.
+wshackclub:
+  - ttl: 600
+    type: A
+    value: 35.158.87.123
 summit:
   - ttl: 600
     type: CNAME
