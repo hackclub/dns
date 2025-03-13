@@ -190,7 +190,7 @@ evan:
 factorio: # factorio.dino.icu - Nest hacktorio server - Slack: #factorio
 - ttl: 600
   type: CNAME
-  value: hackclub.app
+  value: grimsteel.hackclub.app
 
 firepi:
 - ttl: 600
