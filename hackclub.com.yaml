@@ -1024,6 +1024,9 @@ conduct:
     values:
       - v=spf1 include:_spf.google.com ~all
       - google-site-verification=n09_T0NT7x7SVInETpDjjL2AhsTi0pW7jWceXy1cJjY
+  - ttl: 600
+    type: CNAME
+    value: proxyparty.hackclub.com.
   - ttl: 60
     type: MX
     values:
