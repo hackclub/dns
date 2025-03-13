@@ -27,6 +27,7 @@
       - google-site-verification=g4D9KzvB2JVf_HCcslryBI05oOxVdee9sspmd9pBAaU
       - google-site-verification=2979FUSGCz-WxnW6EukLx_N_Ay31YOyGBnvUSbwHcXc
       - google-site-verification=n9knjT30SgPd80zLKBD6M8fPFGIQUAO5OgfjDsPSrRM
+      - google-site-verification=4xlGOIPHkhZqsYh8OMKQy3aqLj6_EKJFAE_iQjb0D_s
       - v=spf1 include:_spf.google.com include:mailgun.org include:amazonses.com include:sendgrid.net include:spf.mtasv.net ~all
       - stripe-verification=5bdd0e2475b12744bfe1f778ac419f917800d476fd498ae2682ecd161d162c64
       - airtable-verification=6a190bbac6305fe1d58071f48f535cf5
@@ -53,6 +54,20 @@ nf3m6e2ow5ronraohfd2y4z5lejghjti._domainkey.timedump:
   type: CNAME
   value: 5afxyqg5oa33pfpifwmw3gbruphezlbb.dkim.amazonses.com. # timedump.hackclub.com dkim
 _dmarc.timedump:
+  ttl: 600
+  type: TXT
+  value: "v=DMARC1\\; p=none" # extra lenient while setting up dmarc
+
+2qdnwxx6mfbqzjwbtkigeofbcfs575pc._domainkey.hackatime:
+  type: CNAME
+  value: 2qdnwxx6mfbqzjwbtkigeofbcfs575pc.dkim.amazonses.com.
+mx3gvrbbxdtyaywpifk3oi47vso6oi3w._domainkey.hackatime:
+  type: CNAME
+  value: mx3gvrbbxdtyaywpifk3oi47vso6oi3w.dkim.amazonses.com.
+6oadcgmwgj62jw7hbbunf47rakuy5dgi._domainkey.hackatime:
+  type: CNAME
+  value: 6oadcgmwgj62jw7hbbunf47rakuy5dgi.dkim.amazonses.com.
+_dmarc.hackatime:
   ttl: 600
   type: TXT
   value: "v=DMARC1\\; p=none" # extra lenient while setting up dmarc
@@ -1625,6 +1640,10 @@ hackathons:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+hackatime:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 hackatsst:
   - ttl: 600
     type: CNAME
