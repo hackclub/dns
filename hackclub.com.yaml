@@ -622,16 +622,7 @@ assets:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
-assiut:
-  - ttl: 600
-    type: TXT
-    value: domain-verification=future-x
-  - ttl: 600
-    type: A
-    value: 37.27.51.34
-  - ttl: 600
-    type: AAA
-    value: 2a01:4f9:3081:399c::4
+
 astrohacks:
   - ttl: 600
     type: CNAME
@@ -2849,6 +2840,16 @@ scrapyard:
   - ttl: 60
     type: ALIAS
     value: cname.vercel-dns.com.
+  scriptingnest:
+  - ttl: 600
+    type: TXT
+    value: domain-verification=future-x
+  - ttl: 600
+    type: A
+    value: 37.27.51.34
+  - ttl: 600
+    type: AAA
+    value: 2a01:4f9:3081:399c::4
 server.psn:
   ttl: 600
   type: A
