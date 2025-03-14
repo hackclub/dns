@@ -622,7 +622,6 @@ assets:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
-
 astrohacks:
   - ttl: 600
     type: CNAME
