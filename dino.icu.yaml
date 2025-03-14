@@ -268,12 +268,12 @@ krishstwt: # @krishstwt
    values:
    - ns1.vercel-dns.com.
    - ns2.vercel-dns.com.
-  
+
 kevin: # Kevin Yang
   ttl: 600
   type: CNAME
   value: bykevinyang.netlify.app.
-
+  
 kunal: # kunal
   ttl: 600
   type: NS
