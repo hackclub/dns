@@ -31,6 +31,7 @@
       - v=spf1 include:_spf.google.com include:mailgun.org include:amazonses.com include:sendgrid.net include:spf.mtasv.net ~all
       - stripe-verification=5bdd0e2475b12744bfe1f778ac419f917800d476fd498ae2682ecd161d162c64
       - airtable-verification=6a190bbac6305fe1d58071f48f535cf5
+      - yandex-verification=befd33a8f4f21226
 slashz:
   - ttl: 600
     type: CNAME
@@ -407,6 +408,7 @@ _vercel:
     - vc-domain-verify=suceava.hackclub.com,b3c8f92fe1ba1f1f89f4
     - vc-domain-verify=stemegypt.hackclub.com,246d2979e0905d3792b8
     - vc-domain-verify=mchs.hackclub.com,731f84def0232c3bd916
+    - vc-domain-verify=meltdown.hackclub.com,f6609cf94710dda22b0c
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -1788,7 +1790,7 @@ key3._domainkey.hcarc:
 hcb:
   - type: ALIAS
     value: rocky-jackfruit-11wv1arsenhczo2z58bae8lt.herokudns.com.
-    ttl: 300
+    ttl: 1
   - type: MX
     ttl: 6000
     value:
@@ -1796,13 +1798,19 @@ hcb:
       preference: 10
   - ttl: 3600
     type: TXT
-    value: google-gws-recovery-domain-verification=49632973
+    values:
+      - google-gws-recovery-domain-verification=49632973
+      - yandex-verification=befd33a8f4f21226
 hcb-og:
   type: CNAME
   value: cname.vercel-dns.com.
 hcb-proxy.servers:
   type: A
   value: 45.79.179.212
+hcb-test:
+  type: A
+  value: 5.161.32.67
+  ttl: 1
 hear:
   type: CNAME
   value: cname.vercel-dns.com.
@@ -2241,6 +2249,10 @@ merivalja:
   ttl: 600
   type: CNAME
   value: merivalja.github.io.
+meltdown:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 mfa:
   ttl: 600
   type: CNAME
@@ -2934,6 +2946,13 @@ southhighhack:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+spaces:
+  - ttl: 600
+    type: A
+    value: 34.111.179.208
+  - ttl: 600
+    type: TXT
+    value: replit-verify=3c136ae5-ddbb-48c4-98b0-95eb83e7136d
 spark:
   - ttl: 3600
     type: TXT
@@ -3368,6 +3387,10 @@ wl:
   - ttl: 600
     type: CNAME
     value: wlhackclub.github.io.
+wshackclub:
+  - ttl: 600
+    type: A
+    value: 35.158.87.123
 summit:
   - ttl: 600
     type: CNAME
