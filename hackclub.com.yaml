@@ -2839,7 +2839,7 @@ scrapyard:
   - ttl: 60
     type: ALIAS
     value: cname.vercel-dns.com.
-  scriptingnest:
+scriptingnest:
   - ttl: 600
     type: TXT
     value: domain-verification=future-x
