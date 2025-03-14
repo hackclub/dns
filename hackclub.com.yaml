@@ -27,9 +27,11 @@
       - google-site-verification=g4D9KzvB2JVf_HCcslryBI05oOxVdee9sspmd9pBAaU
       - google-site-verification=2979FUSGCz-WxnW6EukLx_N_Ay31YOyGBnvUSbwHcXc
       - google-site-verification=n9knjT30SgPd80zLKBD6M8fPFGIQUAO5OgfjDsPSrRM
+      - google-site-verification=4xlGOIPHkhZqsYh8OMKQy3aqLj6_EKJFAE_iQjb0D_s
       - v=spf1 include:_spf.google.com include:mailgun.org include:amazonses.com include:sendgrid.net include:spf.mtasv.net ~all
       - stripe-verification=5bdd0e2475b12744bfe1f778ac419f917800d476fd498ae2682ecd161d162c64
       - airtable-verification=6a190bbac6305fe1d58071f48f535cf5
+      - yandex-verification=befd33a8f4f21226
 slashz:
   - ttl: 600
     type: CNAME
@@ -1785,7 +1787,7 @@ key3._domainkey.hcarc:
 hcb:
   - type: ALIAS
     value: rocky-jackfruit-11wv1arsenhczo2z58bae8lt.herokudns.com.
-    ttl: 300
+    ttl: 1
   - type: MX
     ttl: 6000
     value:
@@ -1793,13 +1795,19 @@ hcb:
       preference: 10
   - ttl: 3600
     type: TXT
-    value: google-gws-recovery-domain-verification=49632973
+    values:
+      - google-gws-recovery-domain-verification=49632973
+      - yandex-verification=befd33a8f4f21226
 hcb-og:
   type: CNAME
   value: cname.vercel-dns.com.
 hcb-proxy.servers:
   type: A
   value: 45.79.179.212
+hcb-test:
+  type: A
+  value: 5.161.32.67
+  ttl: 1
 hear:
   type: CNAME
   value: cname.vercel-dns.com.
@@ -2935,6 +2943,13 @@ southhighhack:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+spaces:
+  - ttl: 600
+    type: A
+    value: 34.111.179.208
+  - ttl: 600
+    type: TXT
+    value: replit-verify=3c136ae5-ddbb-48c4-98b0-95eb83e7136d
 spark:
   - ttl: 3600
     type: TXT
@@ -3369,6 +3384,10 @@ wl:
   - ttl: 600
     type: CNAME
     value: wlhackclub.github.io.
+wshackclub:
+  - ttl: 600
+    type: A
+    value: 35.158.87.123
 summit:
   - ttl: 600
     type: CNAME
