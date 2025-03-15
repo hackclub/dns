@@ -2351,6 +2351,10 @@ newcanaanlib:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+newspaper:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 nigeria:
   ttl: 600
   type: CNAME
