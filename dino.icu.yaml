@@ -23,29 +23,29 @@
 # make sure you're adding your subdomain in alphabetical order, so that it passes the DNS check!
 
 ---
-'': # the bare domain
-- type: ALIAS
-  value: proxyparty.hackclub.com.
-- ttl: 600
-  type: MX
-  values:
-  - exchange: aspmx.l.google.com.
-    preference: 1
-  - exchange: alt1.aspmx.l.google.com.
-    preference: 5
-  - exchange: alt2.aspmx.l.google.com.
-    preference: 5
-  - exchange: alt3.aspmx.l.google.com.
-    preference: 10
-  - exchange: alt4.aspmx.l.google.com.
-    preference: 10
-- ttl: 5
-  type: TXT
-  values:
-  - google-site-verification=LPx57IBOflR6ko3yB9xUp4MokUh_jXXNO8mVd0Tzh6k
-  - v=spf1 include:_spf.google.com ~all
-  - "00071672" # vercel verification code
-  - 1password-site-verification=USIDTEC4TVE67CUT3E7HYFVHGY # 1pass domain breach report feature
+"": # the bare domain
+  - type: ALIAS
+    value: proxyparty.hackclub.com.
+  - ttl: 600
+    type: MX
+    values:
+      - exchange: aspmx.l.google.com.
+        preference: 1
+      - exchange: alt1.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt2.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt3.aspmx.l.google.com.
+        preference: 10
+      - exchange: alt4.aspmx.l.google.com.
+        preference: 10
+  - ttl: 5
+    type: TXT
+    values:
+      - google-site-verification=LPx57IBOflR6ko3yB9xUp4MokUh_jXXNO8mVd0Tzh6k
+      - v=spf1 include:_spf.google.com ~all
+      - "00071672" # vercel verification code
+      - 1password-site-verification=USIDTEC4TVE67CUT3E7HYFVHGY # 1pass domain breach report feature
 
 # "*": # wildcard redirect
 #   ttl: 600
@@ -67,7 +67,7 @@ arjav: #by https://github.com/arjav0703
   - ttl: 600
     type: A
     value: 76.76.21.21
-    
+
 knowledgebase.arjav: # @arjav0703 I use it for my knowledgebase
   ttl: 600
   type: CNAME
@@ -77,7 +77,7 @@ avsc:
   ttl: 600
   type: CNAME
   value: avscgreat.github.io.
-   
+
 andrew: # by https://github.com/anddddrew
   ttl: 600
   type: CNAME
@@ -87,11 +87,11 @@ amina: # by https://github.com/amino47
   ttl: 600
   type: CNAME
   value: amino47.github.io.
-  
+
 ansh:
-   ttl: 600
-   type: CNAME
-   value: ansh3108.github.io.
+  ttl: 600
+  type: CNAME
+  value: ansh3108.github.io.
 
 arson: # accidentally added it to the hcb site first
   - ttl: 600
@@ -102,8 +102,8 @@ art: # by https://github.com/rajanwastaken
   ttl: 600
   type: CNAME
   value: particle-generativeart.netlify.app.
-  
-aryanpatel: # by https://github.com/aryanpatel142006 
+
+aryanpatel: # by https://github.com/aryanpatel142006
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com. # vercel
@@ -118,12 +118,11 @@ betterwork-ai: # by https://heramb0x1.github.io/betterwork-ai
   type: CNAME
   value: cname.vercel-dns.com.
 
-
 canteen:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com. # vercel
-  
+
 channels: # an API for getting slack channels and their IDs
   ttl: 600
   type: CNAME
@@ -138,13 +137,13 @@ click: # a URL shortener
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
-  
+
 codingcrew: # by https://github.com/shim-sham
-  ttl: 600 
+  ttl: 600
   type: CNAME
-  value: lustrous-ganache-dbb807.netlify.app. 
-  
-cslide: 
+  value: lustrous-ganache-dbb807.netlify.app.
+
+cslide:
   ttl: 600
   type: CNAME
   value: leecheeyong.github.io.
@@ -155,48 +154,48 @@ dast: # by https://github.com/danielsebesta
   value: 194.163.149.155
 
 dev-email:
-- type: MX
-  values:
-  - exchange: mx1.improvmx.com.
-    preference: 10
-  - exchange: mx2.improvmx.com.
-    preference: 20
-- ttl: 5
-  type: TXT
-  values:
-  - v=spf1 include:spf.improvmx.com ~all
+  - type: MX
+    values:
+      - exchange: mx1.improvmx.com.
+        preference: 10
+      - exchange: mx2.improvmx.com.
+        preference: 20
+  - ttl: 5
+    type: TXT
+    values:
+      - v=spf1 include:spf.improvmx.com ~all
 
 dev.hkgi: # HKGI test instance
   ttl: 3600
   type: CNAME
   value: garden.devcara.com.
-  
+
 diafano: # cfanoulis/diafano-hackclub
   ttl: 600
   type: A
   value: 76.76.21.21
-  
-doruk: 
-  ttl: 600 
-  type: CNAME 
+
+doruk:
+  ttl: 600
+  type: CNAME
   value: itsimpeccable.github.io.
-  
+
 e: # drawing app - by https://github.com/sporeball
   ttl: 600
   type: CNAME
   value: sporeball.github.io.
-  
+
 emojile: # wordle with slack emojis - https://github.com/yodalightsabr/emojile
   ttl: 600
   type: CNAME
   value: yodalightsabr.github.io.
 
 erdtree: # erdtree.dino.icu - contact @justhypex on discord for issues/enquiries
-- ttl: 600
-  type: MX
-  values:
-  - exchange: mail.vortex.skyfall.dev.
-    preference: 500
+  - ttl: 600
+    type: MX
+    values:
+      - exchange: mail.vortex.skyfall.dev.
+        preference: 500
 
 evan:
   ttl: 600
@@ -204,12 +203,12 @@ evan:
   value: 129.213.147.149
 
 firepi:
-- ttl: 600
-  type: AAAA
-  value: 2001:470:c0ec:142::6
-- ttl: 600
-  type: A
-  value: 69.8.95.218
+  - ttl: 600
+    type: AAAA
+    value: 2001:470:c0ec:142::6
+  - ttl: 600
+    type: A
+    value: 69.8.95.218
 
 geta: # yoda - https://getadinoicu.yodacode.repl.co/dino.png - get a dino from hackclub/dinosaurs api
   ttl: 600
@@ -230,22 +229,22 @@ heramb:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
-  
+
 hi: # doruk.dino.icu email address
- - type: TXT
-   value: apple-domain=rkbobCmChEtkhbTS.
+  - type: TXT
+    value: apple-domain=rkbobCmChEtkhbTS.
 hk:
-- type: CNAME
-  value: vic.hackclub.app.
+  - type: CNAME
+    value: vic.hackclub.app.
 hkgi:
-- type: CNAME
-  value: garden.devcara.com.
-   
+  - type: CNAME
+    value: garden.devcara.com.
+
 icons: # yoda - https://github.com/yodalightsabr/icons-dino-icu - a CDN for @hackclub/icons
   ttl: 600
   type: A
   value: 76.76.21.21
-  
+
 innohacks: #efe
   ttl: 600
   type: CNAME
@@ -257,46 +256,46 @@ japroz: # Japroz Saini
   value: japrozsaini.vercel.app.
 
 javier: # by https://github.com/J-cordz - my personal hack club scrapbook
-   ttl: 600
-   type: CNAME
-   value: cname.vercel-dns.com.
-   
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
+
 jzaleta: # Javi's twitter redirect
-   ttl: 600
-   type: A
-   value: 76.76.21.21  
+  ttl: 600
+  type: A
+  value: 76.76.21.21
 
 krish: # @krishstwt
-   ttl: 600
-   type: NS
-   values:
-   - ns1.vercel-dns.com.
-   - ns2.vercel-dns.com.
+  ttl: 600
+  type: NS
+  values:
+    - ns1.vercel-dns.com.
+    - ns2.vercel-dns.com.
 
 krishstwt: # @krishstwt
-   ttl: 600
-   type: NS
-   values:
-   - ns1.vercel-dns.com.
-   - ns2.vercel-dns.com.
+  ttl: 600
+  type: NS
+  values:
+    - ns1.vercel-dns.com.
+    - ns2.vercel-dns.com.
 
 kevin: # Kevin Yang
   ttl: 600
   type: CNAME
   value: bykevinyang.netlify.app.
-  
+
 kunal: # kunal
   ttl: 600
   type: NS
-  values: 
-  - ns1.vercel-dns.com.
-  - ns2.vercel-dns.com.
-  
+  values:
+    - ns1.vercel-dns.com.
+    - ns2.vercel-dns.com.
+
 la: # Laker Turner's links page - @lxjv or @la / @laker in the slack
-  ttl: 600 
-  type: CNAME 
+  ttl: 600
+  type: CNAME
   value: laker.omg.lol.
-  
+
 low-ping: # roblox low ping finder site thingy; by https://github.com/lem6ns
   ttl: 600
   type: CNAME
@@ -311,7 +310,7 @@ lkmw:
   ttl: 600
   type: CNAME
   value: wilkin.xyz.
-  
+
 mail: # a page to share your email with orpheus
   ttl: 600
   type: CNAME
@@ -327,7 +326,7 @@ mindson: # by rajan
   type: CNAME
   value: mindson.netlify.app.
 
-motivation: 
+motivation:
   ttl: 600
   type: CNAME
   value: maxwofford.github.io.
@@ -378,26 +377,26 @@ overflow:
   value: overflow.craigg.hackclub.app.
 
 parker: # parker.dino.icu; reserved by hack club bank
-- type: ALIAS
-  value: cname.vercel-dns.com.
-- ttl: 600
-  type: MX
-  values:
-  - exchange: aspmx.l.google.com.
-    preference: 1
-  - exchange: alt1.aspmx.l.google.com.
-    preference: 5
-  - exchange: alt2.aspmx.l.google.com.
-    preference: 5
-  - exchange: alt3.aspmx.l.google.com.
-    preference: 10
-  - exchange: alt4.aspmx.l.google.com.
-    preference: 10
-- ttl: 5
-  type: TXT
-  values:
-  - google-site-verification=XqT81Vm5K6PUs4sy90BWKQMEVPaIDAXxBPI_n773h-A
-  - v=spf1 include:_spf.google.com ~all
+  - type: ALIAS
+    value: cname.vercel-dns.com.
+  - ttl: 600
+    type: MX
+    values:
+      - exchange: aspmx.l.google.com.
+        preference: 1
+      - exchange: alt1.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt2.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt3.aspmx.l.google.com.
+        preference: 10
+      - exchange: alt4.aspmx.l.google.com.
+        preference: 10
+  - ttl: 5
+    type: TXT
+    values:
+      - google-site-verification=XqT81Vm5K6PUs4sy90BWKQMEVPaIDAXxBPI_n773h-A
+      - v=spf1 include:_spf.google.com ~all
 
 pay: # by Ella
   ttl: 600
@@ -410,19 +409,19 @@ pc: # https://github.com/MCPE-PC/dino.icu
   value: dino-icu.pages.dev.
 
 periodic:
-   ttl: 600
-   type: CNAME
-   value: leecheeyong.github.io.
-   
+  ttl: 600
+  type: CNAME
+  value: leecheeyong.github.io.
+
 piyush:
-   ttl: 600
-   type: CNAME
-   value: dino.piyush.ovh.
+  ttl: 600
+  type: CNAME
+  value: dino.piyush.ovh.
 
 print:
-   ttl: 600
-   type: CNAME
-   value: cname.vercel-dns.com.
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
 
 qr: # A hack club themed QR code generator
   ttl: 600
@@ -440,7 +439,6 @@ runshaw: # Used for an email alias for for runshaw hack club members (https://ru
   value:
     exchange: mail.danieldb.uk.
     preference: 1
-
 
 sayhan: # portfolio and other apps?
   - ttl: 600
@@ -463,17 +461,17 @@ subdomain: # Free subdomain generator.
   value: cname.vercel-dns.com.
 
 shadow: # shadow.dino.icu - contact @justhypex on discord for issues/enquiries
-- ttl: 600
-  type: MX
-  values:
-  - exchange: mail.vortex.skyfall.dev.
-    preference: 500
+  - ttl: 600
+    type: MX
+    values:
+      - exchange: mail.vortex.skyfall.dev.
+        preference: 500
 
 short: # short.dino.icu; by kunal botla (.com)
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
- 
+
 sk: # sk.dino.icu unofficial hackclub sharkey instance
   ttl: 600
   type: CNAME
@@ -486,26 +484,26 @@ spend:
     value: 76.76.21.21
 
 spider: # spider.dino.icu; reserved by hack club bank
-- type: ALIAS
-  value: cname.vercel-dns.com.
-- ttl: 600
-  type: MX
-  values:
-  - exchange: aspmx.l.google.com.
-    preference: 1
-  - exchange: alt1.aspmx.l.google.com.
-    preference: 5
-  - exchange: alt2.aspmx.l.google.com.
-    preference: 5
-  - exchange: alt3.aspmx.l.google.com.
-    preference: 10
-  - exchange: alt4.aspmx.l.google.com.
-    preference: 10
-- ttl: 5
-  type: TXT
-  values:
-  - google-site-verification=i1xM1TEj6jJSVo8p9s8oGmSZW2Wo2MIyxhyb007OAuA
-  - v=spf1 include:_spf.google.com ~all
+  - type: ALIAS
+    value: cname.vercel-dns.com.
+  - ttl: 600
+    type: MX
+    values:
+      - exchange: aspmx.l.google.com.
+        preference: 1
+      - exchange: alt1.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt2.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt3.aspmx.l.google.com.
+        preference: 10
+      - exchange: alt4.aspmx.l.google.com.
+        preference: 10
+  - ttl: 5
+    type: TXT
+    values:
+      - google-site-verification=i1xM1TEj6jJSVo8p9s8oGmSZW2Wo2MIyxhyb007OAuA
+      - v=spf1 include:_spf.google.com ~all
 
 social:
   ttl: 600
@@ -521,7 +519,7 @@ ssmidge:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
-  
+
 stickers: # by https://github.com/lem6ns
   ttl: 600
   type: CNAME
@@ -531,36 +529,36 @@ story:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
-  
+
 suryaansh:
-- ttl: 600
-  type: CNAME
-  value: suryaanshah.github.io.
- 
+  - ttl: 600
+    type: CNAME
+    value: suryaanshah.github.io.
+
 tejas: # by tej
   ttl: 600
   type: CNAME
   value: tejasag.netlify.app.
 
 toonnongaeoy:
- - ttl: 600
-   type: CNAME
-   value: storyhouseproduction.duckdns.org.
+  - ttl: 600
+    type: CNAME
+    value: storyhouseproduction.duckdns.org.
 
 url: # A url shortener for anyone in hack club :D
- - ttl: 600
-   type: CNAME
-   value: felixgao.hackclub.app.
+  - ttl: 600
+    type: CNAME
+    value: felixgao.hackclub.app.
 
 vansh:
- - ttl: 600
-   type: CNAME
-   value: lowkeyvansh.github.io.
+  - ttl: 600
+    type: CNAME
+    value: lowkeyvansh.github.io.
 
 vercel:
-- ttl: 600
-  type: ALIAS
-  value: cname.vercel-dns.com.
+  - ttl: 600
+    type: ALIAS
+    value: cname.vercel-dns.com.
 
 vercel-a:
   ttl: 600
@@ -571,7 +569,7 @@ vercel-alias:
   ttl: 600
   type: ALIAS
   value: cname.vercel-dns.com.
-  
+
 vercel-cname:
   ttl: 600
   type: CNAME
@@ -580,27 +578,27 @@ vercel-cname:
 vercel-ns:
   ttl: 600
   type: NS
-  values: 
-  - ns1.vercel-dns.com.
-  - ns2.vercel-dns.com.
+  values:
+    - ns1.vercel-dns.com.
+    - ns2.vercel-dns.com.
 
 vortex:
-- ttl: 600
-  type: MX
-  values:
-  - exchange: mail.vortex.skyfall.dev.
-    preference: 500
+  - ttl: 600
+    type: MX
+    values:
+      - exchange: mail.vortex.skyfall.dev.
+        preference: 500
 
-- ttl: 600
-  type: TXT
-  values:
-  - v=spf1 ip4:35.193.1.201 ~all
+  - ttl: 600
+    type: TXT
+    values:
+      - v=spf1 ip4:35.193.1.201 ~all
 
 weather:
   - ttl: 600
     type: CNAME
     value: weathersomewhere.netlify.app.
-    
+
 winterlings: # a site to view winter wonderland projects (contact @ZeroQL on slack for thingies)
   ttl: 600
   type: CNAME
@@ -610,8 +608,8 @@ wikibase: # wikibase for the Hack Club community, to be managed by @recaptime-de
   ttl: 600
   type: CNAME
   value: sites-1.dyna.wikibase.cloud.
-  
-wordcalc: 
+
+wordcalc:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
@@ -627,9 +625,9 @@ www: # redirect to bare domain
   value: cname.vercel-dns.com.
 
 xn--c1h:
-- ttl: 600
-  type: ALIAS
-  value: cname.vercel-dns.com.
+  - ttl: 600
+    type: ALIAS
+    value: cname.vercel-dns.com.
 
 xn--ct9h:
   type: CNAME
@@ -643,21 +641,26 @@ yc:
   type: NS
   value: ns.youngchief.xyz.
 
-yates: 
+yates:
   type: A
   value: 1.158.68.199
-  
-node:
-- ttl: 600
-  type: CNAME
-  value: tgh75972.github.io.
 
-terror: 
-  ttl: 600 
-  type: CNAME 
+node:
+  - ttl: 600
+    type: CNAME
+    value: tgh75972.github.io.
+
+terror:
+  ttl: 600
+  type: CNAME
   value: 4H4CayJ.github.io.
 
 mthlpbs:
   - ttl: 600
     type: CNAME
     value: mthlpbs.github.io.
+
+croissant:
+  - ttl: 600
+    type: CNAME
+    value: spectralo.me
