@@ -517,7 +517,7 @@ spotify:
     type: CNAME
     value: spotify.neon.hackclub.app.
 
-srbnfs: #by https://github.com/arjav0703
+srbnfs:
   - ttl: 600
     type: A
     value: 69.62.65.208
