@@ -101,7 +101,7 @@ aryanpatel: # by https://github.com/aryanpatel142006
 baguette: # blog
   ttl: 600
   type: CNAME
-  value: oui-oui-baguetti.vercel.app
+  value: cname.vercel-dns.com.
 
 betterwork-ai: # by https://heramb0x1.github.io/betterwork-ai
   ttl: 600
