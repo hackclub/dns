@@ -663,4 +663,4 @@ mthlpbs:
 croissant:
   - ttl: 600
     type: CNAME
-    value: spectralo.me
+    value: spectralo.me.
