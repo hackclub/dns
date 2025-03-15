@@ -239,6 +239,10 @@ _github-pages-challenge-arsenic-club.arsenic:
   - ttl: 600
     type: TXT
     value: e46c397c5bd751389a024480dbb07b
+_github-pages-challenge-Acidicts.bccs:
+  - ttl: 600
+    type: TXT
+    value: 43944fe4fc778c3944f82a0ac22d24.
 _github-pages-challenge-cghs-hackclub.cghs:
   - ttl: 7200
     type: TXT
@@ -2347,6 +2351,10 @@ newcanaanlib:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+newspaper:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 nigeria:
   ttl: 600
   type: CNAME
@@ -2494,6 +2502,12 @@ p2p:
   ttl: 600
   type: CNAME
   value: p2phackclub.github.io.
+
+pa:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
+
 pack:
   ttl: 600
   type: CNAME
@@ -2839,6 +2853,16 @@ scrapyard:
   - ttl: 60
     type: ALIAS
     value: cname.vercel-dns.com.
+scriptingnest:
+  - ttl: 600
+    type: TXT
+    value: domain-verification=future-x
+  - ttl: 600
+    type: A
+    value: 37.27.51.34
+  - ttl: 600
+    type: AAAA
+    value: 2a01:4f9:3081:399c::4
 server.psn:
   ttl: 600
   type: A
