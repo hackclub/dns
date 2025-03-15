@@ -2494,6 +2494,12 @@ p2p:
   ttl: 600
   type: CNAME
   value: p2phackclub.github.io.
+
+pa:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
+
 pack:
   ttl: 600
   type: CNAME
