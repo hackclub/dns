@@ -68,7 +68,7 @@ arjav: #by https://github.com/arjav0703
     type: A
     value: 76.76.21.21
     
-knoledgebase.arjav: # @arjav0703 I use it for my knowledgebase
+knowledgebase.arjav: # @arjav0703 I use it for my knowledgebase
   ttl: 600
   type: CNAME
   value: arjav0703.github.io.
