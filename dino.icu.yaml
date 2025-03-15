@@ -63,6 +63,11 @@ andreijiroh: # by https://github.com/ajhalili2006, but uses his first name as su
     type: CNAME
     value: proxyparty.recaptime.dev.
 
+arjav: #by https://github.com/arjav0703
+  - ttl: 600
+    type: A
+    value: 76.76.21.21
+
 avsc:
   ttl: 600
   type: CNAME
@@ -107,6 +112,7 @@ betterwork-ai: # by https://heramb0x1.github.io/betterwork-ai
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+
 
 canteen:
   ttl: 600
@@ -204,6 +210,16 @@ geta: # yoda - https://getadinoicu.yodacode.repl.co/dino.png - get a dino from h
   ttl: 600
   type: CNAME
   value: ef35bb48-f121-4f7f-91f6-93f601559c24.id.repl.co.
+
+hacktv:
+  - ttl: 600
+    type: CNAME
+    value: conversafe.hackclub.app.
+
+hasd: # hasd school forum
+  ttl: 600
+  type: A
+  value: 143.244.201.64
 
 heramb:
   ttl: 600
@@ -420,6 +436,12 @@ runshaw: # Used for an email alias for for runshaw hack club members (https://ru
     exchange: mail.danieldb.uk.
     preference: 1
 
+
+sayhan: # portfolio and other apps?
+  - ttl: 600
+    type: CNAME
+    value: sayhan.hackclub.app.
+
 scales: # (yet another?) currency slack bot (with some web UI) :D
   ttl: 600
   type: A
@@ -451,11 +473,6 @@ sk: # sk.dino.icu unofficial hackclub sharkey instance
   ttl: 600
   type: CNAME
   value: vic.hackclub.app.
-  
-skyfall: # Skyfall's website (gh: SkyfallWasTaken, email: hackclubdns@skyfall.33mail.com)
-  ttl: 600
-  type: CNAME
-  value: cname.vercel-dns.com.
 
 # spend hq's money
 spend:
@@ -523,7 +540,7 @@ tejas: # by tej
 toonnongaeoy:
  - ttl: 600
    type: CNAME
-   value: retro.toonstorytime.me.
+   value: storyhouseproduction.duckdns.org.
 
 url: # A url shortener for anyone in hack club :D
  - ttl: 600
@@ -583,6 +600,11 @@ winterlings: # a site to view winter wonderland projects (contact @ZeroQL on sla
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+
+wikibase: # wikibase for the Hack Club community, to be managed by @recaptime-dev team through @ajhalili2006
+  ttl: 600
+  type: CNAME
+  value: sites-1.dyna.wikibase.cloud.
   
 wordcalc: 
   ttl: 600
