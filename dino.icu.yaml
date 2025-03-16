@@ -601,6 +601,11 @@ vortex:
   values:
   - v=spf1 ip4:35.193.1.201 ~all
 
+waffle:
+  - ttl: 600
+    type: CNAME
+    value: ewoudweb.netlify.app.
+
 weather:
   - ttl: 600
     type: CNAME
