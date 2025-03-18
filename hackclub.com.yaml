@@ -200,6 +200,10 @@ _gh-hackclubmchs-o.mchs:
   - ttl: 600
     type: TXT
     value: 564d413bdf
+_gh-HackClub-Vidisha-o.vidisha:
+  - ttl: 600
+    type: TXT
+    value: 1e6022fcc5
 _github-challenge-ALOPB-Hack-Club-org.alopb:
   - ttl: 600
     type: TXT
