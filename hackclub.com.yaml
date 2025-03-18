@@ -2750,7 +2750,7 @@ ro:
 rpg:
   - ttl: 600
     type: CNAME
-    value: a.selfhosted.hackclub.com
+    value: a.selfhosted.hackclub.com.
 rr:
   - ttl: 600
     type: CNAME
