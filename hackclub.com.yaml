@@ -2142,15 +2142,8 @@ m73ztewzt6jv32f4lj6wk3vlkceswf3f._domainkey: # for loops.so dkim
     value: m73ztewzt6jv32f4lj6wk3vlkceswf3f.dkim.amazonses.com.
 mail:
   - ttl: 600
-    type: MX
-    values:
-      - exchange: mxa.mailgun.org.
-        preference: 10
-      - exchange: mxb.mailgun.org.
-        preference: 10
-  - ttl: 600
-    type: TXT
-    value: v=spf1 include:mailgun.org ~all
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 mail-services:
   ttl: 600
   type: CNAME
