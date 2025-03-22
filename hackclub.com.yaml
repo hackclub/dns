@@ -3586,3 +3586,7 @@ lockin:
   - ttl: 600
     type: A
     value: 5.161.100.52
+signalling.lockin:
+  - ttl: 600
+    type: A
+    value: 5.161.100.52
