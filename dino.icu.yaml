@@ -446,7 +446,11 @@ runshaw: # Used for an email alias for for runshaw hack club members (https://ru
     exchange: mail.danieldb.uk.
     preference: 1
 
-
+saif:
+  - ttl: 600
+    type: A
+    value: 76.76.21.21
+    
 sayhan: # portfolio and other apps?
   - ttl: 600
     type: CNAME
