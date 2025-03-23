@@ -676,3 +676,7 @@ mthlpbs:
   - ttl: 600
     type: CNAME
     value: mthlpbs.github.io.
+
+saif:
+  type: A
+  value: 76.76.21.21
