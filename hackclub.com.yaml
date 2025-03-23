@@ -417,6 +417,7 @@ _vercel:
     - vc-domain-verify=stemegypt.hackclub.com,246d2979e0905d3792b8
     - vc-domain-verify=mchs.hackclub.com,731f84def0232c3bd916
     - vc-domain-verify=meltdown.hackclub.com,f6609cf94710dda22b0c
+    - vc-domain-verify=visioneer.hackclub.com,b1bec26133a3a1d74d62
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -3355,6 +3356,10 @@ vikingsdev:
   - ttl: 600
     type: CNAME
     value: vikingsdev.github.io.
+visioneer:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 vmc:
   - ttl: 600
     type: A
