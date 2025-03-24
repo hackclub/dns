@@ -1784,9 +1784,9 @@ _dmarc.scrapyard:
   ttl: 3600
   value: v=DMARC1\; p=none\; rua=mailto:dmarc_report@hackclub.com\; ruf=mailto:dmarc_report@hackclub.com\;fo=1
 _dmarc.intranet:
-- ttl: 600
-  type: CNAME
-  value: dmarcroot.purelymail.com.
+    - ttl: 600
+      type: CNAME
+      value: dmarcroot.purelymail.com.
 key1._domainkey.hcarc:
   type: CNAME
   ttl: 600
