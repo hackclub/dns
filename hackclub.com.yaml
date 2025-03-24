@@ -1802,8 +1802,7 @@ key3._domainkey.hcarc:
       
 hcb:
   - type: ALIAS
-    value: rocky-jackfruit-11wv1arsenhczo2z58bae8lt.herokudns.com.
-    ttl: 1
+    value: ingress.hcb.hackclub.com.
   - type: MX
     ttl: 6000
     value:
@@ -1820,10 +1819,6 @@ hcb-og:
 hcb-proxy.servers:
   type: A
   value: 45.79.179.212
-hcb-test:
-  type: A
-  value: 5.161.32.67
-  ttl: 1
 hear:
   type: CNAME
   value: cname.vercel-dns.com.
@@ -3026,6 +3021,9 @@ spark:
   - ttl: 600
     type: ALIAS
     value: cname.vercel-dns.com.
+spotcheck:
+  - type: CNAME
+    value: a.selfhosted.hackclub.com.
 spp:
   - ttl: 600
     type: CNAME
@@ -3371,8 +3369,7 @@ india.verifications:
     type: CNAME
     value: cname.vercel-dns.com. 
 ingress.hcb:
-  - ttl: 1
-    type: A
+  - type: A
     value: 5.161.32.67
   - ttl: 1
     type: AAAA
