@@ -2894,6 +2894,10 @@ shop:
         preference: 10
       - exchange: aspmx3.googlemail.com.
         preference: 10
+sidequests:
+  ttl: 600
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 sign:
   ttl: 600
   type: CNAME
