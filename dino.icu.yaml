@@ -67,6 +67,11 @@ arjav: #by https://github.com/arjav0703
   - ttl: 600
     type: A
     value: 76.76.21.21
+    
+knowledgebase.arjav: # @arjav0703 I use it for my knowledgebase
+  ttl: 600
+  type: CNAME
+  value: arjav0703.github.io.
 
 avsc:
   ttl: 600
@@ -102,6 +107,17 @@ aryanpatel: # by https://github.com/aryanpatel142006
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com. # vercel
+
+baguette: # blog
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
+
+betterwork-ai: # by https://heramb0x1.github.io/betterwork-ai
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
+
 
 canteen:
   ttl: 600
@@ -185,7 +201,7 @@ erdtree: # erdtree.dino.icu - contact @justhypex on discord for issues/enquiries
 evan:
   ttl: 600
   type: A
-  value: 129.213.147.149
+  value: 150.136.115.122
 
 factorio: # factorio.dino.icu - Nest hacktorio server - Slack: #factorio
 - ttl: 600
@@ -199,6 +215,11 @@ firepi:
 - ttl: 600
   type: A
   value: 69.8.95.218
+
+foodshuffle: #scrapyard seattle team foodshuffle project
+- ttl: 600
+  type: A
+  value: 161.35.238.105
 
 geta: # yoda - https://getadinoicu.yodacode.repl.co/dino.png - get a dino from hackclub/dinosaurs api
   ttl: 600
@@ -430,7 +451,11 @@ runshaw: # Used for an email alias for for runshaw hack club members (https://ru
     exchange: mail.danieldb.uk.
     preference: 1
 
-
+saif:
+  - ttl: 600
+    type: A
+    value: 76.76.21.21
+    
 sayhan: # portfolio and other apps?
   - ttl: 600
     type: CNAME
@@ -505,6 +530,11 @@ spotify:
   - ttl: 600
     type: CNAME
     value: spotify.neon.hackclub.app.
+
+srbnfs:
+  - ttl: 600
+    type: A
+    value: 69.62.65.208
 
 ssmidge:
   ttl: 600
@@ -584,6 +614,11 @@ vortex:
   type: TXT
   values:
   - v=spf1 ip4:35.193.1.201 ~all
+
+waffle:
+  - ttl: 600
+    type: CNAME
+    value: ewoudweb.netlify.app.
 
 weather:
   - ttl: 600
