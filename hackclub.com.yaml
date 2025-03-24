@@ -1797,8 +1797,8 @@ key3._domainkey.hcarc:
   value: key3.hcarc.hackclub.com._domainkey.migadu.com.
       
 hcb:
-  - type: ALIAS
-    value: rocky-jackfruit-11wv1arsenhczo2z58bae8lt.herokudns.com.
+  - type: A
+    value: 5.161.32.67
     ttl: 1
   - type: MX
     ttl: 6000
