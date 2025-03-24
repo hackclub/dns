@@ -1797,9 +1797,8 @@ key3._domainkey.hcarc:
   value: key3.hcarc.hackclub.com._domainkey.migadu.com.
       
 hcb:
-  - type: A
-    value: 5.161.32.67
-    ttl: 1
+  - type: ALIAS
+    value: ingress.hcb.hackclub.com.
   - type: MX
     ttl: 6000
     value:
@@ -1816,10 +1815,6 @@ hcb-og:
 hcb-proxy.servers:
   type: A
   value: 45.79.179.212
-hcb-test:
-  type: A
-  value: 5.161.32.67
-  ttl: 1
 hear:
   type: CNAME
   value: cname.vercel-dns.com.
@@ -3349,8 +3344,7 @@ india.verifications:
     type: CNAME
     value: cname.vercel-dns.com. 
 ingress.hcb:
-  - ttl: 1
-    type: A
+  - type: A
     value: 5.161.32.67
   - ttl: 1
     type: AAAA
