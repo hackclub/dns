@@ -670,6 +670,21 @@ yc:
 yates: 
   type: A
   value: 1.158.68.199
+
+you-ship-we-vote:
+  - ttl: 600
+    type: A
+    value: 172.93.104.12
+
+backend.you-ship-we-vote:
+  - ttl: 600
+    type: A
+    value: 172.93.104.12
+
+db.you-ship-we-vote:
+  - ttl: 600
+    type: A
+    value: 172.93.104.12
   
 node:
 - ttl: 600
