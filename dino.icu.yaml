@@ -685,3 +685,12 @@ mthlpbs:
   - ttl: 600
     type: CNAME
     value: mthlpbs.github.io.
+
+you-ship-we-vote:
+  - ttl: 600
+    type: A
+    value: 172.93.104.12
+*.you-ship-we-vote:
+  - ttl: 600
+    type: A
+    value: 172.93.104.12
