@@ -3091,6 +3091,10 @@ summitshasta:
   - ttl: 600
     type: CNAME
     value: summitshasta.github.io.
+swirl:
+  - ttl: 900
+    type: CNAME
+    value: cname.vercel-dns.com.
 synthax:
   - ttl: 600
     type: CNAME
