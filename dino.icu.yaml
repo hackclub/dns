@@ -108,6 +108,11 @@ aryanpatel: # by https://github.com/aryanpatel142006
   type: CNAME
   value: cname.vercel-dns.com. # vercel
 
+backend.you-ship-we-vote:
+  - ttl: 600
+    type: A
+    value: 172.93.104.12
+
 baguette: # blog
   ttl: 600
   type: CNAME
@@ -153,6 +158,11 @@ dast: # by https://github.com/danielsebesta
   ttl: 600
   type: A
   value: 194.163.149.155
+
+db.you-ship-we-vote:
+  - ttl: 600
+    type: A
+    value: 172.93.104.12
 
 dev-email:
 - type: MX
@@ -691,12 +701,3 @@ you-ship-we-vote:
     type: A
     value: 172.93.104.12
 
-backend.you-ship-we-vote:
-  - ttl: 600
-    type: A
-    value: 172.93.104.12
-
-db.you-ship-we-vote:
-  - ttl: 600
-    type: A
-    value: 172.93.104.12
