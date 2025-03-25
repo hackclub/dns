@@ -690,7 +690,13 @@ you-ship-we-vote:
   - ttl: 600
     type: A
     value: 172.93.104.12
-*.you-ship-we-vote:
+
+backend.you-ship-we-vote:
+  - ttl: 600
+    type: A
+    value: 172.93.104.12
+
+db.you-ship-we-vote:
   - ttl: 600
     type: A
     value: 172.93.104.12
