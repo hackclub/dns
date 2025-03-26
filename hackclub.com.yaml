@@ -3603,3 +3603,7 @@ ships:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+api.ships:
+  - ttl: 600
+    type: A
+    value: 5.161.100.52
