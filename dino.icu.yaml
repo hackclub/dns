@@ -685,6 +685,11 @@ db.you-ship-we-vote:
   - ttl: 600
     type: A
     value: 172.93.104.12
+
+proxy.you-ship-we-vote:
+  - ttl: 600
+    type: A
+    value: 172.93.104.12
   
 node:
 - ttl: 600
