@@ -417,6 +417,7 @@ _vercel:
     - vc-domain-verify=mchs.hackclub.com,731f84def0232c3bd916
     - vc-domain-verify=meltdown.hackclub.com,f6609cf94710dda22b0c
     - vc-domain-verify=visioneer.hackclub.com,b1bec26133a3a1d74d62
+    - vc-domain-verify=vote.visioneer.hackclub.com,eacfb41e3088190eecbf
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -3371,6 +3372,10 @@ vmc:
 vn6m35np2nwaqdbm4l2potsno5qfnfz3._domainkey: # for loops.so dkim
   - type: CNAME
     value: vn6m35np2nwaqdbm4l2potsno5qfnfz3.dkim.amazonses.com.
+vote.visioneer:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 waka:
   - ttl: 600
     type: CNAME
