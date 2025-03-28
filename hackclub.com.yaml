@@ -2724,6 +2724,10 @@ register.outernet:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+rehacted:
+  ttl: 600
+  type: CNAME
+  value: rehacted.pages.dev
 renaissance-24:
   ttl: 600
   type: CNAME
