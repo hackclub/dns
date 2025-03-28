@@ -1897,7 +1897,7 @@ innkeeper:
 intranet:
   - ttl: 600
     type: CNAME
-    value: kaympe20.github.io.
+    value: intranet-72n.pages.dev.
 intro.moonbeam:
   - ttl: 600
     type: CNAME
