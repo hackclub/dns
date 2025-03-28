@@ -3064,6 +3064,10 @@ suceava:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+submersion:
+  - ttl: 600
+    type: CNAME
+    value: submersion.pages.dev.
 summer:
   - ttl: 600
     type: ALIAS
