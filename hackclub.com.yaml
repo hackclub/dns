@@ -2727,7 +2727,7 @@ register.outernet:
 rehacted:
   ttl: 600
   type: CNAME
-  value: rehacted.pages.dev
+  value: rehacted.pages.dev.
 renaissance-24:
   ttl: 600
   type: CNAME
