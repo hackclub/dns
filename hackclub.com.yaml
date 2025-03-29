@@ -3099,7 +3099,7 @@ swirl:
 synthax:
   - ttl: 600
     type: CNAME
-    value: qwel-exe.github.io.
+    value: synthax.tech.
 tag:
   - ttl: 600
     type: CNAME
