@@ -204,7 +204,7 @@ evan:
   value: 150.136.115.122
 
 factorio: # factorio.dino.icu - Hack Club hacktorio server - Slack: #factorio
-- ttl: 600
+  ttl: 600
   type: A
   value: 168.119.243.45
 
