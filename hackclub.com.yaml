@@ -252,6 +252,10 @@ _github-pages-challenge-cghs-hackclub.cghs:
   - ttl: 7200
     type: TXT
     value: a1704fb19aca2f4b785803f2f2edb8
+_github-pages-challenge-hackclubmchs.mchs:
+  - ttl: 600
+    type: TXT
+    value: 7758abbb60ddb92f7bca19e65bca60
 _github-pages-challenge-OSCA-Hack-Club.osca:
   - ttl: 600
     type: TXT
@@ -415,7 +419,6 @@ _vercel:
     - vc-domain-verify=vidisha.hackclub.com,865c18c50e3614795dfc
     - vc-domain-verify=suceava.hackclub.com,b3c8f92fe1ba1f1f89f4
     - vc-domain-verify=stemegypt.hackclub.com,246d2979e0905d3792b8
-    - vc-domain-verify=mchs.hackclub.com,731f84def0232c3bd916
     - vc-domain-verify=meltdown.hackclub.com,f6609cf94710dda22b0c
     - vc-domain-verify=visioneer.hackclub.com,b1bec26133a3a1d74d62
     - vc-domain-verify=vote.visioneer.hackclub.com,eacfb41e3088190eecbf
@@ -2226,7 +2229,7 @@ mccownhacks:
 mchs:
   - ttl: 600
     type: CNAME
-    value: cname.vercel-dns.com.
+    value: hackclubmchs.github.io.
 mcneil:
   - ttl: 600
     type: A
