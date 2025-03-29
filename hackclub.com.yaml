@@ -145,6 +145,7 @@ _acme-challenge.hcb:
   type: TXT
   values:
     - G8mlLCACopWDnpCSUrM2tcu_rNMpmv3S4va2zTqzWis
+    - 9ywyiTK2ET9kATSBOUgOaRq3GdpR20csyFbQRWjh7OI
 _acme-challenge.hcb-test:
   type: TXT
   values:
