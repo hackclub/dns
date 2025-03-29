@@ -203,11 +203,6 @@ evan:
   type: A
   value: 150.136.115.122
 
-factorio: # factorio.dino.icu - Nest hacktorio server - Slack: #factorio
-- ttl: 600
-  type: CNAME
-  value: grimsteel.hackclub.app.
-
 firepi:
 - ttl: 600
   type: AAAA
