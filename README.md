@@ -29,10 +29,10 @@ If you're asked to make any changes to your pull request, please amend it by com
 
 The CNAME record cannot coexist with other record types, which may require you to change to an `ALIAS` or `A` record type if you need additional DNS records on your subdomain. Due to a bug in OctoDNS, removing a CNAME may result in deploying your changes breaking. You might encounter this when trying to use both Vercel and email/Google Workspace on the same subdomain. 
 
-To fix this, follow these steps (each in a seperate PR, `irvine.hackclub.com` is an example of this process):
+To fix this, follow these steps, each in a seperate PR:
 
-1. Make a PR that deletes all records on your subdomain.
-2. Make another PR that adds the additional records needed, replacing the `CNAME` with the other record that you want (oftentimes `ALIAS`).
+1. Make a PR that deletes all records on your subdomain (ex: [#1642](https://github.com/hackclub/dns/pull/1642)).
+2. Make another PR that adds the additional records needed, replacing the `CNAME` with the other record that you want (oftentimes `ALIAS`) (ex: [#1643](https://github.com/hackclub/dns/pull/1643)).
 3. Make it clear to the person reviewing your PRs that the first PR must be merged before the second one. 
 
 ## Limitations
