@@ -3177,6 +3177,10 @@ the-pier:
   - ttl: 600
     type: A
     value: 178.156.170.71
+jitsi.the-pier:
+  - ttl: 600
+    type: A
+    value: 178.156.170.71
 thorn:
   - ttl: 600
     type: CNAME
