@@ -2547,6 +2547,14 @@ pic._domainkey.mail:
   ttl: 600
   type: TXT
   value: k=rsa
+pier:
+  - ttl: 600
+    type: A
+    value: 178.156.170.71
+jitsi.pier:
+  - ttl: 600
+    type: A
+    value: 178.156.170.71
 pinetree:
   - ttl: 600
     type: CNAME
