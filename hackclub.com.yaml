@@ -3632,3 +3632,7 @@ api.ships:
   - ttl: 600
     type: A
     value: 5.161.100.52
+ip:
+  - ttl: 600
+    type: A
+    value: 5.161.100.52
