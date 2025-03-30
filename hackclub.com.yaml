@@ -3173,6 +3173,10 @@ thehackmic:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+the-pier:
+  - ttl: 600
+    type: A
+    value: 178.156.170.71
 thorn:
   - ttl: 600
     type: CNAME
