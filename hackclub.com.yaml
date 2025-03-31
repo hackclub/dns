@@ -2865,7 +2865,7 @@ scrapyard:
 scriptingnest:
   - ttl: 600
     type: TXT
-    value: domain-verification=future-x
+    value: domain-verification=yousseftech
   - ttl: 600
     type: A
     value: 37.27.51.34
