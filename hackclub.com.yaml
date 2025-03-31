@@ -2985,8 +2985,11 @@ southhighhack:
     value: cname.vercel-dns.com.
 spaces:
   - ttl: 600
-    type: CNAME
-    value: a.selfhosted.hackclub.com.
+    type: A
+    value: 34.111.179.208
+  - ttl: 600
+    type: TXT
+    value: replit-verify=3c136ae5-ddbb-48c4-98b0-95eb83e7136d
 spark:
   - ttl: 3600
     type: TXT
