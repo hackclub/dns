@@ -2257,7 +2257,7 @@ merivalja:
 melodymuffler:
   ttl: 600
   type: CNAME
-  value: a.selfhosted.hackclub.com
+  value: a.selfhosted.hackclub.com.
 meltdown:
   - ttl: 600
     type: CNAME
