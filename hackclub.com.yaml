@@ -2559,6 +2559,10 @@ pinecone:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+appzap:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 jitsi.pier:
   - ttl: 600
     type: A
