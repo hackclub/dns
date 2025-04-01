@@ -2919,6 +2919,9 @@ sign:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+signature:
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 sinerider-api:
   ttl: 600
   type: CNAME
