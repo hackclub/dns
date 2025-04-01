@@ -2254,6 +2254,10 @@ merivalja:
   ttl: 600
   type: CNAME
   value: merivalja.github.io.
+melodymuffler:
+  ttl: 600
+  type: CNAME
+  value: a.selfhosted.hackclub.com
 meltdown:
   - ttl: 600
     type: CNAME
