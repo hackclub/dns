@@ -833,6 +833,10 @@ bucky:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+bugs:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 bulc:
   - ttl: 600
     type: CNAME
