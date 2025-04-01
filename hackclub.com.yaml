@@ -2997,6 +2997,10 @@ smtp._domainkey.mail.assemble:
   - ttl: 600
     type: TXT
     value: k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDEEhn+RqVZ0JyEzyjhXDPbqNr3yEUBAY1etOwaHxKCzRbJarGsbjtuyDhMaK7fqJOOqrUDyCfb2M14WtyqydYNKSw3qQpgHAmLsK5TPftGhnJxZSah2fPlLEqPH1UW/GhRRq0MP4k/J+/FUf7C7CKBlHt9qbvtRrp3V964xGUgzwIDAQAB
+socktalk:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 solstice:
   - ttl: 600
     type: CNAME
