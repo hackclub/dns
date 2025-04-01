@@ -3046,6 +3046,10 @@ sprig-order:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+spud:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 sshchat:
   - ttl: 600
     type: A
