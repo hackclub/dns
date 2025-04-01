@@ -3513,6 +3513,10 @@ your-first-ship:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+you-ship-we-clip:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 ysws:
   - ttl: 600
     type: CNAME
