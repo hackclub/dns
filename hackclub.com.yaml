@@ -3001,6 +3001,10 @@ socktalk:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+solder:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 solstice:
   - ttl: 600
     type: CNAME
