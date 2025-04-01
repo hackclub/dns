@@ -3404,6 +3404,10 @@ ingress.hcb:
   - ttl: 1
     type: AAAA
     value: 2a01:4ff:f1:2d2::1
+viel:
+ -  ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 vikingsdev:
   - ttl: 600
     type: CNAME
