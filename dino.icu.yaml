@@ -63,6 +63,16 @@ andreijiroh: # by https://github.com/ajhalili2006, but uses his first name as su
     type: CNAME
     value: proxyparty.recaptime.dev.
 
+arjav: #by https://github.com/arjav0703
+  - ttl: 600
+    type: A
+    value: 76.76.21.21
+    
+knowledgebase.arjav: # @arjav0703 I use it for my knowledgebase
+  ttl: 600
+  type: CNAME
+  value: arjav0703.github.io.
+
 avsc:
   ttl: 600
   type: CNAME
@@ -97,6 +107,17 @@ aryanpatel: # by https://github.com/aryanpatel142006
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com. # vercel
+
+baguette: # blog
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
+
+betterwork-ai: # by https://heramb0x1.github.io/betterwork-ai
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
+
 
 canteen:
   ttl: 600
@@ -180,7 +201,12 @@ erdtree: # erdtree.dino.icu - contact @justhypex on discord for issues/enquiries
 evan:
   ttl: 600
   type: A
-  value: 129.213.147.149
+  value: 150.136.115.122
+
+factorio: # factorio.dino.icu - Hack Club hacktorio server - Slack: #factorio
+  ttl: 600
+  type: A
+  value: 168.119.243.45
 
 firepi:
 - ttl: 600
@@ -190,10 +216,25 @@ firepi:
   type: A
   value: 69.8.95.218
 
+foodshuffle: #scrapyard seattle team foodshuffle project
+- ttl: 600
+  type: A
+  value: 161.35.238.105
+
 geta: # yoda - https://getadinoicu.yodacode.repl.co/dino.png - get a dino from hackclub/dinosaurs api
   ttl: 600
   type: CNAME
   value: ef35bb48-f121-4f7f-91f6-93f601559c24.id.repl.co.
+
+hacktv:
+  - ttl: 600
+    type: CNAME
+    value: conversafe.hackclub.app.
+
+hasd: # hasd school forum
+  ttl: 600
+  type: A
+  value: 143.244.201.64
 
 heramb:
   ttl: 600
@@ -410,6 +451,16 @@ runshaw: # Used for an email alias for for runshaw hack club members (https://ru
     exchange: mail.danieldb.uk.
     preference: 1
 
+saif:
+  - ttl: 600
+    type: A
+    value: 76.76.21.21
+    
+sayhan: # portfolio and other apps?
+  - ttl: 600
+    type: CNAME
+    value: sayhan.hackclub.app.
+
 scales: # (yet another?) currency slack bot (with some web UI) :D
   ttl: 600
   type: A
@@ -441,11 +492,6 @@ sk: # sk.dino.icu unofficial hackclub sharkey instance
   ttl: 600
   type: CNAME
   value: vic.hackclub.app.
-  
-skyfall: # Skyfall's website (gh: SkyfallWasTaken, email: hackclubdns@skyfall.33mail.com)
-  ttl: 600
-  type: CNAME
-  value: cname.vercel-dns.com.
 
 # spend hq's money
 spend:
@@ -485,6 +531,11 @@ spotify:
     type: CNAME
     value: spotify.neon.hackclub.app.
 
+srbnfs:
+  - ttl: 600
+    type: A
+    value: 69.62.65.208
+
 ssmidge:
   ttl: 600
   type: CNAME
@@ -513,7 +564,7 @@ tejas: # by tej
 toonnongaeoy:
  - ttl: 600
    type: CNAME
-   value: retro.toonstorytime.me.
+   value: storyhouseproduction.duckdns.org.
 
 url: # A url shortener for anyone in hack club :D
  - ttl: 600
@@ -563,6 +614,11 @@ vortex:
   type: TXT
   values:
   - v=spf1 ip4:35.193.1.201 ~all
+
+waffle:
+  - ttl: 600
+    type: CNAME
+    value: ewoudweb.netlify.app.
 
 weather:
   - ttl: 600
@@ -614,6 +670,26 @@ yc:
 yates: 
   type: A
   value: 1.158.68.199
+
+you-ship-we-vote:
+  - ttl: 600
+    type: A
+    value: 172.93.104.12
+
+backend.you-ship-we-vote:
+  - ttl: 600
+    type: A
+    value: 172.93.104.12
+
+db.you-ship-we-vote:
+  - ttl: 600
+    type: A
+    value: 172.93.104.12
+
+proxy.you-ship-we-vote:
+  - ttl: 600
+    type: A
+    value: 172.93.104.12
   
 node:
 - ttl: 600
