@@ -2957,6 +2957,10 @@ skcet:
   ttl: 600
   type: CNAME
   value: wonderful-goldwasser-b6b01d.netlify.app.
+sketchglow:
+  ttl: 600
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 skn:
   ttl: 600
   type: CNAME
