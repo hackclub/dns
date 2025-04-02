@@ -14,3 +14,6 @@ l:
 hss:
   - type: CNAME
     value: a.selfhosted.hackclub.com.
+mail:
+  - type: CNAME
+    value: a.selfhosted.hackclub.com.
