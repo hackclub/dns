@@ -3151,6 +3151,10 @@ tag:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+tarot:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 tbp:
   - ttl: 600
     type: NS
