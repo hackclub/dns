@@ -3455,6 +3455,10 @@ warsaw:
   - ttl: 600
     type: CNAME
     value: warsaw.hackclub.pl.
+waveband:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 webring:
   - ttl: 600
     type: CNAME
