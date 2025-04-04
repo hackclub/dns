@@ -2527,6 +2527,9 @@ packages:
   ttl: 600
   type: CNAME
   value: secret-zebra-lydr194iy8x0x4n4rmzcii3r.herokudns.com.
+panorama:
+  ttl: 600
+  value: panorama-countdown.pages.dev.
 parcel-pyxis:
   - ttl: 600
     type: CNAME
