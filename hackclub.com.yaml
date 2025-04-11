@@ -3703,3 +3703,7 @@ ip:
   - ttl: 600
     type: A
     value: 5.161.100.52
+compass:
+  - ttl: 600
+    type: CNAME
+    value: compass.spectralo.hackclub.app.
