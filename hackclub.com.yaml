@@ -1999,6 +1999,10 @@ jp:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+journey:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 jchs:
   ttl: 600
   type: CNAME
