@@ -1006,6 +1006,9 @@ congress:
 convert:
   - type: CNAME
     value: a.self.hosted.hackclub.com.
+convert-backend:
+  - type: A
+    value: 104.36.86.12
 browserbuddy: 
   - ttl: 600
     type: CNAME
