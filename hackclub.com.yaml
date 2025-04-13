@@ -1003,6 +1003,9 @@ cider:
 congress:
   - type: CNAME
     value: a.selfhosted.hackclub.com.
+convert:
+  - type: CNAME
+    value: a.self.hosted.hackclub.com.
 browserbuddy: 
   - ttl: 600
     type: CNAME
