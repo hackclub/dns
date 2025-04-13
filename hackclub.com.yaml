@@ -3711,3 +3711,9 @@ thing:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+saturnyx:
+  - ttl: 600
+    type: A
+    value: 192.168.18.75
+
+
