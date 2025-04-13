@@ -1005,7 +1005,7 @@ congress:
     value: a.selfhosted.hackclub.com.
 convert:
   - type: CNAME
-    value: a.self.hosted.hackclub.com.
+    value: a.selfhosted.hackclub.com.
 convert-backend:
   - type: A
     value: 104.36.86.12
