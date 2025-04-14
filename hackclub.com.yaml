@@ -423,6 +423,7 @@ _vercel:
     - vc-domain-verify=visioneer.hackclub.com,b1bec26133a3a1d74d62
     - vc-domain-verify=vote.visioneer.hackclub.com,eacfb41e3088190eecbf
     - vc-domain-verify=waveband.hackclub.com,11dbb017182f655585ef
+    - vc-domain-verify=hackatime-badge.hackclub.com,60373d0b6c8c20a2bf7f
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -1679,6 +1680,10 @@ hackatime:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+hackatime-badge:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 hackatsst:
   - ttl: 600
     type: CNAME
