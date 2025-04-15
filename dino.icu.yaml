@@ -453,8 +453,12 @@ runshaw: # Used for an email alias for for runshaw hack club members (https://ru
 
 saif:
   - ttl: 600
-    type: A
-    value: 76.76.21.21
+    type: NS
+    value: ns1.vercel-dns.com
+  - ttl: 600
+    type: NS
+    value: ns2.vercel-dns.com
+
     
 sayhan: # portfolio and other apps?
   - ttl: 600
