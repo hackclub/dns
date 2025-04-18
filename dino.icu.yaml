@@ -53,15 +53,44 @@
 #   value: cname.vercel-dns.com.
 
 ajhalili2006: # by https://github.com/ajhalili2006 via https://github.com/andreijiroh-dev/website
+# https://dash.deno.com/playground/ajhalili2006
+  - ttl: 600
+    type: A
+    value: 34.120.54.55
+  - ttl: 600
+    type: AAAA
+    value: "2600:1901:0:6d85::"
+# Keyoxide identity claim challenge
+  - ttl: 420
+    type: TXT
+    values:
+      - aspe:keyoxide.org:DNHOHR4QWFIX5ZNPHAN4I2FWOI
+      - "https://andreijiroh.dev | https://hackclub.slack.com/team/U07CAPBB9B5"
+
+_acme-challenge.ajhalili2006:
   - ttl: 600
     type: CNAME
-    # redirects to https://andreijiroh.xyz via caddy config at https://github.com/recaptime-dev/proxyparty-caddy
-    value: proxyparty.recaptime.dev.
+    value: 4bb61292f3de0ea4419a7dfb._acme.deno.dev.
 
 andreijiroh: # by https://github.com/ajhalili2006, but uses his first name as subdomain instead of github username
+# https://dash.deno.com/playground/ajhalili2006
+  - ttl: 600
+    type: A
+    value: 34.120.54.55
+  - ttl: 600
+    type: AAAA
+    value: "2600:1901:0:6d85::"
+# Keyoxide identity claim challenge
+  - ttl: 420
+    type: TXT
+    values:
+      - aspe:keyoxide.org:DNHOHR4QWFIX5ZNPHAN4I2FWOI
+      - "https://andreijiroh.dev | https://hackclub.slack.com/team/U07CAPBB9B5"
+
+_acme-challenge.andreijiroh:
   - ttl: 600
     type: CNAME
-    value: proxyparty.recaptime.dev.
+    value: 3bcc136a4b3c8c88e20c3d59._acme.deno.dev.
 
 arjav: #by https://github.com/arjav0703
   - ttl: 600
