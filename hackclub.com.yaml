@@ -993,6 +993,10 @@ chronicle:
   - ttl: 600
     type: A
     value: 157.230.66.75
+chroma:
+  - ttl: 600
+    type: CNAME
+    value: trose2012.github.io.
 churchill:
   - ttl: 600
     type: CNAME
