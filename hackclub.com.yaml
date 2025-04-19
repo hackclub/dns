@@ -1720,6 +1720,10 @@ hackinux:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+hacklet:
+  ttl: 600
+  type: CNAME
+  value: scaling-carnival-4jg9ye4.pages.github.io
 hackpad:
   ttl: 600
   type: CNAME
