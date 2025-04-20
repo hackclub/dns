@@ -424,6 +424,7 @@ _vercel:
     - vc-domain-verify=vote.visioneer.hackclub.com,eacfb41e3088190eecbf
     - vc-domain-verify=waveband.hackclub.com,11dbb017182f655585ef
     - vc-domain-verify=hackatime-badge.hackclub.com,60373d0b6c8c20a2bf7f
+    - vc-domain-verify=aurora.hackclub.com,3cb95c1035e0a176fb7a
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -515,6 +516,10 @@ angelhacksla:
 archive:
   - type: CNAME
     value: a.selfhosted.hackclub.com.
+aurora:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 forge:
   - ttl: 600
     type: CNAME
