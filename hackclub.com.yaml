@@ -2598,6 +2598,10 @@ pier:
   - ttl: 600
     type: A
     value: 178.156.170.71
+dev.pier:
+  - ttl: 600
+    type: A
+    value: 178.156.170.71
 pinecone:
   - ttl: 600
     type: CNAME
