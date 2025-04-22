@@ -2099,7 +2099,7 @@ langjam:
 largo: # largo.hackclub.com
   ttl: 600
   type: CNAME
-  value: https://lhscoding.github.io/
+  value: lhscoding.github.io.
 lasa:
   - ttl: 600
     type: CNAME
