@@ -3743,3 +3743,7 @@ thing:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+lhscc:
+  - ttl: 600
+    type: CNAME
+    value: lhscoding.github.io.
