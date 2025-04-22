@@ -2096,6 +2096,10 @@ langjam:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+largo: # largo.hackclub.com
+  ttl: 600
+  type: CNAME
+  value: lhscoding.github.io.
 lasa:
   - ttl: 600
     type: CNAME
