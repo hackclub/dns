@@ -1,7 +1,7 @@
 ---
-'':
-  type: A
-  value: 76.76.21.21
+"":
+  type: "A"
+  value: "76.76.21.21"
 the:
-  type: CNAME
-  value: cname.vercel-dns.com.
+  type: "CNAME"
+  value: "cname.vercel-dns.com."
