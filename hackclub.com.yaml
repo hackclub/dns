@@ -3329,6 +3329,10 @@ tlap:
     ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+tonic:
+  ttl: 600
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 toolbox:
   ttl: 600
   type: CNAME
