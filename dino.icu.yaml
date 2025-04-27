@@ -149,6 +149,13 @@ cslide:
   type: CNAME
   value: leecheeyong.github.io.
 
+dash: # vortex master record - https://vortex.skyfall.dev
+  ttl: 60
+  type: MX
+  values:
+  - exchange: sequoia.dino.icu.
+    preference: 10
+
 dast: # by https://github.com/danielsebesta
   ttl: 600
   type: A
@@ -203,10 +210,10 @@ evan:
   type: A
   value: 150.136.115.122
 
-factorio: # factorio.dino.icu - Nest hacktorio server - Slack: #factorio
-- ttl: 600
-  type: CNAME
-  value: grimsteel.hackclub.app.
+factorio: # factorio.dino.icu - Hack Club hacktorio server - Slack: #factorio
+  ttl: 600
+  type: A
+  value: 168.119.243.45
 
 firepi:
 - ttl: 600
@@ -470,6 +477,11 @@ sdheeraj: # https://github.com/17sdheeraj/17sdheeraj.github.io
   ttl: 600
   type: CNAME
   value: 17sdheeraj.github.io.
+
+sequoia: # vortex slave record - https://vortex.skyfall.dev
+  ttl: 60
+  type: A
+  value: 37.27.245.191
 
 subdomain: # Free subdomain generator.
   ttl: 600
