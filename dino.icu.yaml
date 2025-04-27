@@ -686,22 +686,22 @@ yates:
 you-ship-we-vote:
   - ttl: 600
     type: A
-    value: 172.93.104.12
+    value: 209.112.91.50
 
 backend.you-ship-we-vote:
   - ttl: 600
     type: A
-    value: 172.93.104.12
+    value: 209.112.91.50
 
 db.you-ship-we-vote:
   - ttl: 600
     type: A
-    value: 172.93.104.12
+    value: 209.112.91.50
 
 proxy.you-ship-we-vote:
   - ttl: 600
     type: A
-    value: 172.93.104.12
+    value: 209.112.91.50
   
 node:
 - ttl: 600
