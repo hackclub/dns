@@ -2467,6 +2467,10 @@ ocsa:
     type: ALIAS
     value: cname.vercel-dns.com.
 
+orpheus-engine:
+  - type: CNAME
+    value: a.selfhosted.hackclub.com.
+
 orpheuspico:
   - ttl: 600
     type: CNAME
