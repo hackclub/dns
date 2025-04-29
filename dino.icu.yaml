@@ -538,7 +538,7 @@ social:
   type: CNAME
   value: mastodon.hackclub.app.
 
-smtp:
+smtp: # hackclub free smtp service
   - ttl: 600
     type: CNAME
     value: smtp.neon.hackclub.app.
