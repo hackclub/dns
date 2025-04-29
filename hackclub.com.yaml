@@ -2237,6 +2237,10 @@ maps:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+market:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 markdown:
   - ttl: 600
     type: CNAME
@@ -2466,6 +2470,10 @@ ocsa:
   - ttl: 600
     type: ALIAS
     value: cname.vercel-dns.com.
+
+orpheus-engine:
+  - type: CNAME
+    value: a.selfhosted.hackclub.com.
 
 orpheuspico:
   - ttl: 600
