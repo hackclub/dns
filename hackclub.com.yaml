@@ -2237,6 +2237,10 @@ maps:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+market:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 markdown:
   - ttl: 600
     type: CNAME
