@@ -538,6 +538,11 @@ social:
   type: CNAME
   value: mastodon.hackclub.app.
 
+smtp:
+  - ttl: 600
+    type: CNAME
+    value: smtp.neon.hackclub.app.
+
 spotify:
   - ttl: 600
     type: CNAME
