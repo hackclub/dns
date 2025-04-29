@@ -425,7 +425,6 @@ _vercel:
     - vc-domain-verify=waveband.hackclub.com,11dbb017182f655585ef
     - vc-domain-verify=hackatime-badge.hackclub.com,60373d0b6c8c20a2bf7f
     - vc-domain-verify=aurora.hackclub.com,3cb95c1035e0a176fb7a
-    - vc-domain-verify=shammah.hackclub.com,b6aff5ed962bd5632f29
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -2952,10 +2951,6 @@ sgd._domainkey: # SendGrid Sender Authentication (bank@hackclub.com)
   ttl: 600
   type: CNAME
   value: sgd.domainkey.u14148987.wl238.sendgrid.net.
-shammah:
-  - ttl: 600
-    type: CNAME
-    value: cname.vercel-dns.com.
 shipwrecked:
   - ttl: 600
     type: CNAME
