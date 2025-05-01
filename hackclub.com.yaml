@@ -3361,7 +3361,7 @@ toolbox:
 toppings:
   ttl: 600
   type: CNAME
-  value: css-side-quest.vercel.app.
+  value: cname.vercel-dns.com.
 toriel:
   - ttl: 600
     type: CNAME
