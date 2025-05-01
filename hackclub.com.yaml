@@ -2396,6 +2396,10 @@ network.scrapbook:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+neighborhood:
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
 newcanaan:
   ttl: 600
   type: CNAME
