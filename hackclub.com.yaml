@@ -3415,6 +3415,10 @@ uk:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+underground: 
+  - ttl: 600
+    type: CNAME
+    value: carrotsoups.github.io.
 university:
   - ttl: 600
     type: CNAME
