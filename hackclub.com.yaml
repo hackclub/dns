@@ -40,25 +40,22 @@ ihs:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
-        
 20230913174421pm._domainkey:
   type: TXT
   value: k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCbYfun+ZMwXJGRqp41sG/OXWPgbQd6Ewf/ccOBCvigm9LSarnT1QCUizzc+ZqBfSc4UTlJJx2hyhWYN6zFHibSndOBmY3y09uKuv7S4v3usfhpVVJZw9BOQLL4N9uIysrzLhVOfCpXiIIQQHn/a277SA8klIDfVcZkxdkyBRQDlQIDAQAB
-
-2adksa7hr3i3ca2rj47jym72toiq6gi6._domainkey.timedump:
+2adksa7hr3i3ca2rj47jym72toiq6gi6._domainkey.timedump: # timedump.hackclub.com dkim
   type: CNAME
   value: 2adksa7hr3i3ca2rj47jym72toiq6gi6.dkim.amazonses.com.
-nf3m6e2ow5ronraohfd2y4z5lejghjti._domainkey.timedump:
+nf3m6e2ow5ronraohfd2y4z5lejghjti._domainkey.timedump: # timedump.hackclub.com dkim
   type: CNAME
   value: nf3m6e2ow5ronraohfd2y4z5lejghjti.dkim.amazonses.com.
-5afxyqg5oa33pfpifwmw3gbruphezlbb._domainkey.timedump:
+5afxyqg5oa33pfpifwmw3gbruphezlbb._domainkey.timedump: # timedump.hackclub.com dkim
   type: CNAME
   value: 5afxyqg5oa33pfpifwmw3gbruphezlbb.dkim.amazonses.com.
 _dmarc.timedump:
   ttl: 600
   type: TXT
-  value: 'v=DMARC1\\; p=none'
-
+  value: 'v=DMARC1\\; p=none' # extra lenient while setting up dmarc
 2qdnwxx6mfbqzjwbtkigeofbcfs575pc._domainkey.hackatime:
   type: CNAME
   value: 2qdnwxx6mfbqzjwbtkigeofbcfs575pc.dkim.amazonses.com.
@@ -71,20 +68,18 @@ mx3gvrbbxdtyaywpifk3oi47vso6oi3w._domainkey.hackatime:
 _dmarc.hackatime:
   ttl: 600
   type: TXT
-  value: 'v=DMARC1\\; p=none'
-
+  value: 'v=DMARC1\\; p=none' # extra lenient while setting up dmarc
 3blue1brown:
   ttl: 600
   type: CNAME
   value: 97be9df7-6155-40f3-8f4b-ee2b9dcb811e.repl.co.
-'14148987':
+'14148987': # SendGrid Sender Authentication (bank@hackclub.com)
   ttl: 600
   type: CNAME
   value: sendgrid.net.
 72f724f0383247cd44371eb3cf8102a1:
   type: CNAME
   value: verify.bing.com.
-
 '*':
   ttl: 600
   type: CNAME
@@ -533,7 +528,7 @@ ama-machine:
   - ttl: 600
     type: CNAME
     value: rugged-pheasant-1rx4ei5ejoumyp4fxpq3s8rs.herokudns.com.
-amdozjy23iquzlcpjvctd3usceggvkih._domainkey.staging.hcb:
+amdozjy23iquzlcpjvctd3usceggvkih._domainkey.staging.hcb: # HCB Staging SES DKIM
   - ttl: 600
     type: CNAME
     value: amdozjy23iquzlcpjvctd3usceggvkih.dkim.amazonses.com.
@@ -726,17 +721,17 @@ bank-docs:
   ttl: 600
   type: CNAME
   value: evolutionary-heron-qlwebnpw35gb7ovyf9z3xqwy.herokudns.com.
-bank-og:
+bank-og: # Bank opengraph images
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
-bank-parse:
+bank-parse: # Used by Sendgrid's ActionMailbox integration
   ttl: 6000
   type: MX
   value:
     exchange: mx.sendgrid.net.
     preference: 10
-bank-receipts:
+bank-receipts: # Used by Sendgrid's ActionMailbox integration
   ttl: 6000
   type: MX
   value:
@@ -798,7 +793,7 @@ blair:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
-blog.hcb:
+blog.hcb: # HCB engineering/blog website
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
@@ -1322,7 +1317,7 @@ elon:
   ttl: 600
   type: CNAME
   value: proxyparty.hackclub.com.
-em4440:
+em4440: # SendGrid Sender Authentication (bank@hackclub.com)
   ttl: 600
   type: CNAME
   value: u14148987.wl238.sendgrid.net.
@@ -1338,7 +1333,7 @@ embed.scrapbook:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
-envelope:
+envelope: # for loops.so spf & dmarc
   - type: MX
     values:
       - exchange: feedback-smtp.us-east-1.amazonses.com.
@@ -2092,7 +2087,7 @@ langjam:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
-largo:
+largo: # largo.hackclub.com
   ttl: 600
   type: CNAME
   value: lhscoding.github.io.
@@ -2173,10 +2168,10 @@ luna:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
-lxqekzzkeh32evz7auo5klcbsas5ccbs._domainkey:
+lxqekzzkeh32evz7auo5klcbsas5ccbs._domainkey: # for loops.so dkim
   - type: CNAME
     value: lxqekzzkeh32evz7auo5klcbsas5ccbs.dkim.amazonses.com.
-m73ztewzt6jv32f4lj6wk3vlkceswf3f._domainkey:
+m73ztewzt6jv32f4lj6wk3vlkceswf3f._domainkey: # for loops.so dkim
   - type: CNAME
     value: m73ztewzt6jv32f4lj6wk3vlkceswf3f.dkim.amazonses.com.
 mail:
@@ -2516,7 +2511,7 @@ op:
   - ttl: 600
     type: CNAME
     value: optsa.club.
-orpheushacks:
+orpheushacks: # Harrison Katz automatically wins for adding the DNS entry - thats how it works, right?
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
@@ -2541,7 +2536,7 @@ outernetwebservices:
       - ns3.he.net.
       - ns4.he.net.
       - ns5.he.net.
-ows:
+ows: #outernet-web-services
   - ttl: 600
     type: NS
     values:
@@ -2685,7 +2680,7 @@ postal.servers:
 posthog:
   type: A
   value: 45.79.174.48
-pm-bounces:
+pm-bounces: # Priate Ship's Return Path verification (Postmark)
   type: CNAME
   value: pm.mtasv.net.
 prc:
@@ -2759,7 +2754,7 @@ q6vh4lhupwotqenjf4s4ygzyhir3e5ii._domainkey.epochvt:
   ttl: 600
   type: CNAME
   value: q6vh4lhupwotqenjf4s4ygzyhir3e5ii.dkim.amazonses.com.
-qxzidlw3degr5ejxptxl5755zlix7hwc._domainkey.staging.hcb:
+qxzidlw3degr5ejxptxl5755zlix7hwc._domainkey.staging.hcb: # HCB Staging SES DKIM
   - ttl: 600
     type: CNAME
     value: qxzidlw3degr5ejxptxl5755zlix7hwc.dkim.amazonses.com.
@@ -2947,11 +2942,11 @@ server.psn:
   ttl: 600
   type: A
   value: 20.207.195.6
-sgd2._domainkey:
+sgd2._domainkey: # SendGrid Sender Authentication (bank@hackclub.com)
   ttl: 600
   type: CNAME
   value: sgd2.domainkey.u14148987.wl238.sendgrid.net.
-sgd._domainkey:
+sgd._domainkey: # SendGrid Sender Authentication (bank@hackclub.com)
   ttl: 600
   type: CNAME
   value: sgd.domainkey.u14148987.wl238.sendgrid.net.
@@ -3430,7 +3425,7 @@ ur:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
-url75:
+url75: # SendGrid Sender Authentication (bank@hackclub.com)
   ttl: 600
   type: CNAME
   value: sendgrid.net.
@@ -3458,7 +3453,7 @@ vault:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
-vcejoqk3ugmcla3kub7bfcyn2ktbimhv._domainkey.staging.hcb:
+vcejoqk3ugmcla3kub7bfcyn2ktbimhv._domainkey.staging.hcb: # HCB Staging SES DKIM
   - ttl: 600
     type: CNAME
     value: vcejoqk3ugmcla3kub7bfcyn2ktbimhv.dkim.amazonses.com.
@@ -3504,7 +3499,7 @@ vmc:
   - ttl: 600
     type: A
     value: 45.61.162.143
-vn6m35np2nwaqdbm4l2potsno5qfnfz3._domainkey:
+vn6m35np2nwaqdbm4l2potsno5qfnfz3._domainkey: # for loops.so dkim
   - type: CNAME
     value: vn6m35np2nwaqdbm4l2potsno5qfnfz3.dkim.amazonses.com.
 vote.visioneer:
