@@ -6,8 +6,8 @@
   - type: TXT
     ttl: 5
     values:
-      - google-site-verification=yrBprsuPgbaoNFd79KLgjYMr2xqEZhkaTH6eZbYvsHg
-      - google-site-verification=KuU6_yKBnq6HLWIGl9z8FJTm9QERMFBkuhVnG7SxC5o
+      - 'google-site-verification=yrBprsuPgbaoNFd79KLgjYMr2xqEZhkaTH6eZbYvsHg' # google search console
+      - 'google-site-verification=KuU6_yKBnq6HLWIGl9z8FJTm9QERMFBkuhVnG7SxC5o' # ahrefs
 www:
   - type: CNAME
     ttl: 21600
