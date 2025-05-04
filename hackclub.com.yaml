@@ -2053,6 +2053,10 @@ jvv:
   - ttl: 600
     type: CNAME
     value: hackjvv.github.io.
+keepsake:
+  - ttl: 600
+    type: CNAME
+    value: tongyu.hackclub.app.
 kerala:
   - ttl: 600
     type: A
