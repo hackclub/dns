@@ -1679,6 +1679,10 @@ hackapet:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+hackarest:
+  - ttl: 600
+    type: A
+    value: 86.124.168.69
 hackaruto:
   - ttl: 600
     type: CNAME
