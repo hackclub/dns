@@ -829,6 +829,16 @@ bounce:
   - ttl: 600
     type: CNAME
     value: custom-email-domain.stripe.com.
+bridgeportoh:
+  - ttl: 600
+    type: CNAME
+    value: ghs.googlehosted.com.
+
+  - ttl: 600
+    type: TXT
+    value: google-site-verification=uGmPiY3y-za6GGGV4qONYU1fdZD2sTHmZ6M5u6boiAk
+
+
 bqogdt6xkltngfg62lq7jo5dk33zerss._domainkey:
   - ttl: 600
     type: CNAME
