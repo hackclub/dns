@@ -1679,14 +1679,14 @@ hackapet:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
-hackaruto:
-  - ttl: 600
-    type: CNAME
-    value: hackaruto.netlify.app.
 hackarest:
   - ttl: 600
     type: A
     value: 86.124.168.69
+hackaruto:
+  - ttl: 600
+    type: CNAME
+    value: hackaruto.netlify.app.
 hackathon:
   - ttl: 600
     type: CNAME
