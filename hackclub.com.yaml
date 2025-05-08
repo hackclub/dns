@@ -676,8 +676,8 @@ av:
     value: avhc.netlify.com.
 award.athena:
   - ttl: 600
-  type: CNAME
-  value: a.selfhosted.hackclub.com.
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 awards:
   - ttl: 600
     type: CNAME
