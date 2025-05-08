@@ -3639,6 +3639,10 @@ www.tist:
   - ttl: 600
     type: CNAME
     value: tist.hackclub.com.
+www.bridgeportoh:
+  - ttl: 600
+    type: ALIAS
+    value: ghs.googlehosted.com.
 your-first-ship:
   - ttl: 600
     type: CNAME
