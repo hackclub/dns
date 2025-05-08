@@ -837,6 +837,14 @@ brasil:
   ttl: 600
   type: CNAME
   value: hack-club-brasil.netlify.app.
+bridgeportoh:
+  - ttl: 600
+    type: CNAME
+    value: ghs.googlehosted.com.
+
+  - ttl: 600
+    type: TXT
+    value: google-site-verification=uGmPiY3y-za6GGGV4qONYU1fdZD2sTHmZ6M5u6boiAk
 bucky:
   - ttl: 600
     type: CNAME
