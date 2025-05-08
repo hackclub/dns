@@ -1686,7 +1686,7 @@ hackaruto:
 hackarest:
   - ttl: 600
     type: A
-    value: 86.124.168.69.
+    value: 86.124.168.69
 hackathon:
   - ttl: 600
     type: CNAME
