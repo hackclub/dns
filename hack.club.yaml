@@ -10,10 +10,19 @@ hack.club:
     value: cname.vercel-dns.com.
 l:
   - type: CNAME
-    value: developmental-honeysuckle-bw0w1sr07xraztscn4sxtahk.herokudns.com.
+    value: a.selfhosted.hackclub.com.
 hss:
   - type: CNAME
     value: a.selfhosted.hackclub.com.
 mail:
   - type: CNAME
     value: a.selfhosted.hackclub.com.
+shipwrecked:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
+ship:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
+

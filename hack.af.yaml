@@ -61,6 +61,10 @@ w4slhmfjwdthextblpgaxdgzj2y3kw6q._domainkey:
 sgchkpvavjjoceumlu5bnfz2n3hy563y._domainkey:
   type: CNAME
   value: sgchkpvavjjoceumlu5bnfz2n3hy563y.dkim.amazonses.com.
+shipwrecked:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 64xoc3uapdq42u63dw6epuciq4nau5nv._domainkey:
   type: CNAME
   value: 64xoc3uapdq42u63dw6epuciq4nau5nv.dkim.amazonses.com.

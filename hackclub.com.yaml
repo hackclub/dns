@@ -421,6 +421,7 @@ _vercel:
     - vc-domain-verify=waveband.hackclub.com,11dbb017182f655585ef
     - vc-domain-verify=hackatime-badge.hackclub.com,60373d0b6c8c20a2bf7f
     - vc-domain-verify=aurora.hackclub.com,3cb95c1035e0a176fb7a
+    - vc-domain-verify=toppings.hackclub.com,f82287f84e90ea2099f8
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -661,6 +662,14 @@ australia:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+av:
+  - ttl: 600
+    type: CNAME
+    value: avhc.netlify.com.
+award.athena:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 awards:
   - ttl: 600
     type: CNAME
@@ -820,6 +829,15 @@ brasil:
   ttl: 600
   type: CNAME
   value: hack-club-brasil.netlify.app.
+bridgeportoh:
+  - ttl: 600
+    type: ALIAS
+    value: ghs.googlehosted.com.
+
+  - ttl: 600
+    type: TXT
+    value: google-site-verification=uGmPiY3y-za6GGGV4qONYU1fdZD2sTHmZ6M5u6boiAk
+
 bucky:
   - ttl: 600
     type: CNAME
@@ -1622,6 +1640,10 @@ hackapet:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+hackarest:
+  - ttl: 600
+    type: A
+    value: 86.124.168.69
 hackaruto:
   - ttl: 600
     type: CNAME
@@ -1642,6 +1664,10 @@ hackatime-badge:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+status.hackatime:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 hackatsst:
   - ttl: 600
     type: CNAME
@@ -2001,6 +2027,10 @@ jvv:
   - ttl: 600
     type: CNAME
     value: hackjvv.github.io.
+keepsake:
+  - ttl: 600
+    type: CNAME
+    value: tongyu.hackclub.app.
 kerala:
   - ttl: 600
     type: A
@@ -2049,6 +2079,10 @@ langjam:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+largo: # largo.hackclub.com
+  ttl: 600
+  type: CNAME
+  value: lhscoding.github.io.
 lasa:
   - ttl: 600
     type: CNAME
@@ -2182,6 +2216,10 @@ maps:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+market:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 markdown:
   - ttl: 600
     type: CNAME
@@ -2218,10 +2256,6 @@ mccownhacks:
       - ns3.he.net.
       - ns4.he.net.
       - ns5.he.net.
-mchs:
-  - ttl: 600
-    type: CNAME
-    value: hackclubmchs.github.io.
 mcneil:
   - ttl: 600
     type: A
@@ -2328,6 +2362,10 @@ network.scrapbook:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+neighborhood:
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
 newcanaan:
   ttl: 600
   type: CNAME
@@ -2399,6 +2437,10 @@ ocsa:
   - ttl: 600
     type: ALIAS
     value: cname.vercel-dns.com.
+
+orpheus-engine:
+  - type: CNAME
+    value: a.selfhosted.hackclub.com.
 
 orpheuspico:
   - ttl: 600
@@ -2871,6 +2913,10 @@ shipwrecked:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+shipwrecked-staging:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 count.shipwrecked:
   - ttl: 600
     type: CNAME
@@ -3246,7 +3292,15 @@ tlap:
     ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+tonic:
+  ttl: 600
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 toolbox:
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
+toppings:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
@@ -3294,6 +3348,10 @@ uk:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+underground: 
+  - ttl: 600
+    type: CNAME
+    value: carrotsoups.github.io.
 university:
   - ttl: 600
     type: CNAME
