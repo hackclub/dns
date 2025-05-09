@@ -831,8 +831,8 @@ brasil:
   value: hack-club-brasil.netlify.app.
 bridgeportoh:
   - ttl: 600
-    type: ALIAS
-    value: ghs.googlehosted.com.
+    type: CNAME
+    value: www
 
   - ttl: 600
     type: TXT
