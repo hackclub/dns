@@ -850,7 +850,6 @@ www.bridgeportoh:
   - ttl: 600
     type: ALIAS
     value: ghs.googlehosted.com.
-
   - ttl: 600
     type: TXT
     value: google-site-verification=uGmPiY3y-za6GGGV4qONYU1fdZD2sTHmZ6M5u6boiAk
