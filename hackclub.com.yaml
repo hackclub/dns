@@ -2299,10 +2299,6 @@ mccownhacks:
       - ns3.he.net.
       - ns4.he.net.
       - ns5.he.net.
-mchs:
-  - ttl: 600
-    type: CNAME
-    value: hackclubmchs.github.io.
 mcneil:
   - ttl: 600
     type: A
