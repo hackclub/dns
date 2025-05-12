@@ -2921,6 +2921,10 @@ count.shipwrecked:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+idea.shipwrecked:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 showcase:
   ttl: 600
   type: CNAME
