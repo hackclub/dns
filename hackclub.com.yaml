@@ -1628,6 +1628,10 @@ gr:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+graph.hcb:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 groups:
   ttl: 600
   type: CNAME
