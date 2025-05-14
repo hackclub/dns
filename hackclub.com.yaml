@@ -1636,6 +1636,10 @@ groups:
   ttl: 600
   type: CNAME
   value: ghs.googlehosted.com.
+grub:
+  ttl: 600
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 gwas:
   ttl: 600
   type: CNAME
