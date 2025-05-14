@@ -1600,6 +1600,10 @@ glenny:
   - ttl: 600
     type: CNAME
     value: bobbedbob.github.io.
+grub:
+  ttl: 600
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 globalcovid:
   ttl: 600
   type: CNAME
