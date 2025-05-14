@@ -1858,6 +1858,10 @@ hersey:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+highway:
+  - ttl: 600
+  - type: CNAME
+  - value: a.selfhosted.hackclub.com.
 hillsdale:
   - ttl: 600
     type: CNAME
