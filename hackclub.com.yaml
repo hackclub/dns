@@ -3512,8 +3512,8 @@ whs:
     value: whs-hackclub.netlify.com.
 gharbia:
   - ttl: 600
-    type: TXT
-    value: gharbia.vercel-dns.com.
+    type: CNAME
+    value: cname.vercel-dns.com.
 wl:
   - ttl: 600
     type: CNAME
