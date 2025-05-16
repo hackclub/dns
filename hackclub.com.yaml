@@ -1589,6 +1589,10 @@ geochat-api:
   ttl: 600
   type: CNAME
   value: geochat-api.hackclub.com.herokudns.com.
+gharbia:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 gita:
   - ttl: 600
     type: A
