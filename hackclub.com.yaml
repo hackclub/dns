@@ -1450,6 +1450,10 @@ fa:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
+feature-tracker:
+  - ttl: 600
+    type: CNAME
+    value: cloudwaddie.hackclub.app.
 feed.assemble:
   - ttl: 600
     type: CNAME
