@@ -3353,7 +3353,7 @@ trail:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
-tribute:
+tribute.athena:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
