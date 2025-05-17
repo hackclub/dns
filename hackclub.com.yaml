@@ -2471,7 +2471,17 @@ orpheuspico:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
-  
+
+organizer:
+  - ttl: 600
+    type: TXT
+    values:
+      - canva-domain-verify=28b161e7-222d-4cd8-82d8-0f1177114c8d
+  - ttl: 600
+    type: A
+    values:
+      - 103.169.142.0
+      
 osca:
   - ttl: 600
     type: CNAME
@@ -3570,6 +3580,10 @@ www.gita:
   - ttl: 600
     type: A
     value: 165.232.189.107
+www.organizer:
+  - ttl: 600
+    type: A
+    value: 103.169.142.0
 www.tist:
   - ttl: 600
     type: CNAME
