@@ -2481,6 +2481,11 @@ organizer:
     type: A
     values:
       - 103.169.142.0
+
+www.organizer:
+  - ttl: 600
+    type: A
+    value: 103.169.142.0
       
 osca:
   - ttl: 600
@@ -3580,10 +3585,6 @@ www.gita:
   - ttl: 600
     type: A
     value: 165.232.189.107
-www.organizer:
-  - ttl: 600
-    type: A
-    value: 103.169.142.0
 www.tist:
   - ttl: 600
     type: CNAME
