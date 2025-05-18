@@ -214,6 +214,11 @@ factorio: # factorio.dino.icu - Hack Club hacktorio server - Slack: #factorio
   ttl: 600
   type: A
   value: 168.119.243.45
+  
+featuretracker:
+  ttl: 600
+  type: CNAME
+  value: cloudwaddie.hackclub.app.
 
 firepi:
 - ttl: 600
