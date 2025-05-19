@@ -1453,10 +1453,10 @@ feed.assemble:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
-fhshackclub:
+fhs:
   - ttl: 600
     type: CNAME
-    value: www.fhsprogramming.com.
+    value: cname.vercel-dns.com.
 finder:
   ttl: 600
   type: CNAME
