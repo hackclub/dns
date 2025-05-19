@@ -834,6 +834,10 @@ brasil:
   ttl: 600
   type: CNAME
   value: hack-club-brasil.netlify.app.
+www.bridgeportohio:
+  - ttl: 600
+    type: TXT
+    value: google-site-verification=LyMzKLL_ipFXkYsFq72ycj_fTyHa9A_KY6_-JdmhQxM
 bucky:
   - ttl: 600
     type: CNAME
@@ -3568,6 +3572,10 @@ www:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+www.bridgeportohio:
+  - ttl: 600
+  type: TXT
+  value: google-site-verification=LyMzKLL_ipFXkYsFq72ycj_fTyHa9A_KY6_-JdmhQxM
 www.gamelab:
   - ttl: 600
     type: CNAME
