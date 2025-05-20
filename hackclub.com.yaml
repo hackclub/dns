@@ -839,6 +839,18 @@ bridgeportohio:
   ttl: 600
   type: TXT
   value: google-site-verification=LyMzKLL_ipFXkYsFq72ycj_fTyHa9A_KY6_-JdmhQxM
+  - ttl: 600
+    type: A
+    value: 216.239.32.21
+  - ttl: 600
+    type: A
+    value: 216.239.34.21
+  - ttl: 600
+    type: A
+    value: 216.239.36.21
+  - ttl: 600
+    type: A
+    value: 216.239.38.21
 www.bridgeportohio:
   ttl: 600
   type: CNAME
