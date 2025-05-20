@@ -839,7 +839,7 @@ bridgeportohio:
   ttl: 600
   type: TXT
   value: google-site-verification=LyMzKLL_ipFXkYsFq72ycj_fTyHa9A_KY6_-JdmhQxM
-www.bridgeportohio:
+www:
   ttl: 600
   type: CNAME
   value: ghs.googlehosted.com.
