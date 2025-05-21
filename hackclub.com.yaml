@@ -570,10 +570,6 @@ api.onboard:
   ttl: 600
   type: CNAME
   value: api.onboard.limeskey.com.
-api.ticketing.assemble:
-  ttl: 600
-  type: A
-  value: 23.92.24.156
 apply:
   type: CNAME
   value: cname.vercel-dns.com.
