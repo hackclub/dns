@@ -2245,6 +2245,7 @@ maxday:
   type: CNAME
   value: maxday-prod.netlify.com.
 mc:
+  ttl: 600
   type: A
   value: 34.32.152.176
 mc-admin:
