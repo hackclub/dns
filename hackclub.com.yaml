@@ -2228,10 +2228,6 @@ mason:
 maxday:
   type: CNAME
   value: maxday-prod.netlify.com.
-mc:
-  type: A
-  value: 34.32.152.176
-  ttl: 600
 mccownhacks:
   - ttl: 600
     type: NS
