@@ -2247,10 +2247,6 @@ mason:
 maxday:
   type: CNAME
   value: maxday-prod.netlify.com.
-mc:
-  - ttl: 600
-    type: CNAME
-    value: ipv4.mc-vps.hackclub.com.
 mc-admin:
   - ttl: 600
     type: CNAME
