@@ -281,35 +281,11 @@ _mailchannels.spark:
   ttl: 600
   type: TXT
   value: v=mc1 cfid=mliu.workers.dev cfid=maggiel.workers.dev
-_minecraft._tcp.vanilla.mc:
-  ttl: 600
-  type: SRV
-  value:
-    port: 25566
-    priority: 10
-    target: mc-vps.hackclub.com.
-    weight: 10
 _minecraft._tcp.minigames:
   ttl: 600
   type: SRV
   value:
     port: 25570
-    priority: 10
-    target: mc-vps.hackclub.com.
-    weight: 10
-_minecraft._tcp.mc:
-  ttl: 600
-  type: SRV
-  value:
-    port: 25566
-    priority: 10
-    target: mc-vps.hackclub.com.
-    weight: 10
-_minecraft._tcp:
-  ttl: 600
-  type: SRV
-  value:
-    port: 25566
     priority: 10
     target: mc-vps.hackclub.com.
     weight: 10
@@ -2269,9 +2245,9 @@ maxday:
   type: CNAME
   value: maxday-prod.netlify.com.
 mc:
-  - ttl: 600
-    type: CNAME
-    value: ipv4.mc-vps.hackclub.com.
+  ttl: 600
+  type: A
+  value: 34.32.152.176
 mc-admin:
   - ttl: 600
     type: CNAME
