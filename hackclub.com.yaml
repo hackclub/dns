@@ -105,6 +105,14 @@ _dmarc.hackatime:
   ttl: 600
   type: CNAME
   value: static.52.100.161.5.clients.your-server.de.
+"b.selfhosted":
+  ttl: 600
+  type: CNAME
+  value: static.114.137.78.5.clients.your-server.de.
+"*.b.selfhosted":
+  ttl: 600
+  type: CNAME
+  value: static.114.137.78.5.clients.your-server.de.
 Cabbache:
   - ttl: 600
     type: CNAME
@@ -273,38 +281,6 @@ _mailchannels.spark:
   ttl: 600
   type: TXT
   value: v=mc1 cfid=mliu.workers.dev cfid=maggiel.workers.dev
-_minecraft._tcp.vanilla.mc:
-  ttl: 600
-  type: SRV
-  value:
-    port: 25566
-    priority: 10
-    target: mc-vps.hackclub.com.
-    weight: 10
-_minecraft._tcp.minigames:
-  ttl: 600
-  type: SRV
-  value:
-    port: 25570
-    priority: 10
-    target: mc-vps.hackclub.com.
-    weight: 10
-_minecraft._tcp.mc:
-  ttl: 600
-  type: SRV
-  value:
-    port: 25566
-    priority: 10
-    target: mc-vps.hackclub.com.
-    weight: 10
-_minecraft._tcp:
-  ttl: 600
-  type: SRV
-  value:
-    port: 25566
-    priority: 10
-    target: mc-vps.hackclub.com.
-    weight: 10
 _now:
   ttl: 600
   type: TXT
@@ -423,6 +399,7 @@ _vercel:
     - vc-domain-verify=hackatime-badge.hackclub.com,60373d0b6c8c20a2bf7f
     - vc-domain-verify=aurora.hackclub.com,3cb95c1035e0a176fb7a
     - vc-domain-verify=toppings.hackclub.com,f82287f84e90ea2099f8
+    - vc-domain-verify=fhs.hackclub.com,46936764d6774efee2b5
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -569,10 +546,6 @@ api.onboard:
   ttl: 600
   type: CNAME
   value: api.onboard.limeskey.com.
-api.ticketing.assemble:
-  ttl: 600
-  type: A
-  value: 23.92.24.156
 apply:
   type: CNAME
   value: cname.vercel-dns.com.
@@ -667,6 +640,10 @@ av:
   - ttl: 600
     type: CNAME
     value: avhc.netlify.com.
+award:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 award.athena:
   - ttl: 600
     type: CNAME
@@ -834,15 +811,14 @@ brasil:
   ttl: 600
   type: CNAME
   value: hack-club-brasil.netlify.app.
-bridgeportoh:
-  - ttl: 600
-    type: ALIAS
-    value: ghs.googlehosted.com.
-
-  - ttl: 600
-    type: TXT
-    value: google-site-verification=uGmPiY3y-za6GGGV4qONYU1fdZD2sTHmZ6M5u6boiAk
-
+bridgeportohio:
+  ttl: 600
+  type: TXT
+  value: google-site-verification=LyMzKLL_ipFXkYsFq72ycj_fTyHa9A_KY6_-JdmhQxM
+www.bridgeportohio:
+  ttl: 600
+  type: CNAME
+  value: ghs.googlehosted.com.
 bucky:
   - ttl: 600
     type: CNAME
@@ -1442,6 +1418,10 @@ evoking:
   ttl: 600
   type: CNAME
   value: evokinghc.netlify.app.
+express.athena:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 f5qsmeu4qwef4yvo2p6e4a4vrspzdqdc._domainkey:
   ttl: 600
   type: CNAME
@@ -1454,10 +1434,10 @@ feed.assemble:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
-fhshackclub:
+fhs:
   - ttl: 600
     type: CNAME
-    value: www.fhsprogramming.com.
+    value: cname.vercel-dns.com.
 finder:
   ttl: 600
   type: CNAME
@@ -1945,14 +1925,6 @@ intro.moonbeam:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
-ipv4.mc-vps:
-  - ttl: 600
-    type: A
-    value: 194.140.199.132
-ipv6.mc-vps:
-  - ttl: 600
-    type: AAAA
-    value: 2605:a143:2124:1775::1
 irvine:
   - ttl: 3600
     type: TXT
@@ -2257,21 +2229,9 @@ maxday:
   type: CNAME
   value: maxday-prod.netlify.com.
 mc:
-  - ttl: 600
-    type: CNAME
-    value: ipv4.mc-vps.hackclub.com.
-mc-admin:
-  - ttl: 600
-    type: CNAME
-    value: mc-vps.hackclub.com.
-mc-vps:
-  - ttl: 600
-    type: A
-    value: 194.140.199.132
-  - ttl: 600
-    type: AAAA
-    value: 2605:a143:2124:1775::1
-
+  ttl: 600
+  type: A
+  value: 34.32.152.176
 mccownhacks:
   - ttl: 600
     type: NS
@@ -2333,10 +2293,6 @@ miracosta:
   ttl: 600
   type: CNAME
   value: miracosta.netlify.app.
-modded.mc:
-  - ttl: 600
-    type: CNAME
-    value: ipv4.mc-vps.hackclub.com.
 moonbeam:
   - ttl: 600
     type: CNAME
@@ -2391,6 +2347,10 @@ neighborhood:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+express.neighborhood:
+  ttl: 600
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 newcanaan:
   ttl: 600
   type: CNAME
@@ -3404,6 +3364,9 @@ university:
   - ttl: 600
     type: CNAME
     value: developmental-garbanzo-kw68e5tap3bg721c9c295nux.herokudns.com.
+uptime:
+  - type: CNAME
+    value: b.selfhosted.hackclub.com.
 uqq467l64nnf3dyo6omjcjmcc3dmdqlb._domainkey:
   - ttl: 600
     type: CNAME
@@ -3432,10 +3395,6 @@ v47vtmhk3bv6ue4o2tspk6lfbbqs374u._domainkey.conduct-test:
   ttl: 600
   type: CNAME
   value: v47vtmhk3bv6ue4o2tspk6lfbbqs374u.dkim.amazonses.com.
-vanilla.mc:
-  - ttl: 600
-    type: CNAME
-    value: ipv4.mc-vps.hackclub.com.
 vault:
   - ttl: 600
     type: CNAME
