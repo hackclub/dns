@@ -1984,6 +1984,10 @@ jank:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+jpeg:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 jua:
   - ttl: 600
     type: CNAME
