@@ -2105,10 +2105,6 @@ legacy.verify.onboard:
   - ttl: 5000
     type: CNAME
     value: legacy.verify.onboard.limeskey.com.
-letters:
-  - ttl: 600
-    type: CNAME
-    value: a.selfhosted.hackclub.com.
 lghs:
   - ttl: 600
     type: CNAME
@@ -2364,6 +2360,11 @@ newcanaanlib:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+# explanation - news is the user-facing domain, newspaper is for internal stuff (very confusing i know :pf:)
+news:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 newspaper:
   - ttl: 600
     type: CNAME
