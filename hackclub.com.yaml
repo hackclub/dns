@@ -2360,7 +2360,6 @@ newcanaanlib:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
-
 # explanation - news is the user-facing domain, newspaper is for internal stuff (very confusing i know :pf:)
 news:
   - ttl: 600
@@ -2370,7 +2369,6 @@ newspaper:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
-
 nigeria:
   ttl: 600
   type: CNAME
