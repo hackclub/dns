@@ -2436,6 +2436,11 @@ orpheuspico:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+
+organizer:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
     
 osca:
   - ttl: 600
