@@ -2105,6 +2105,10 @@ legacy.verify.onboard:
   - ttl: 5000
     type: CNAME
     value: legacy.verify.onboard.limeskey.com.
+letters:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 lghs:
   - ttl: 600
     type: CNAME
@@ -2439,19 +2443,9 @@ orpheuspico:
 
 organizer:
   - ttl: 600
-    type: TXT
-    values:
-      - canva-domain-verify=28b161e7-222d-4cd8-82d8-0f1177114c8d
-  - ttl: 600
-    type: A
-    values:
-      - 103.169.142.0
-
-www.organizer:
-  - ttl: 600
-    type: A
-    value: 103.169.142.0
-      
+    type: CNAME
+    value: cname.vercel-dns.com.
+    
 osca:
   - ttl: 600
     type: CNAME
