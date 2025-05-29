@@ -2336,6 +2336,10 @@ ncssm:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+nepal:
+  ttl: 600
+  type: CNAME
+  value: dikshantpandey-dev.github.io.
 nestm:
   ttl: 600
   type: CNAME
