@@ -2551,6 +2551,10 @@ passport:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+pfp:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 philanthropy:
   ttl: 600
   type: CNAME
@@ -3690,10 +3694,6 @@ thing:
     type: CNAME
     value: cname.vercel-dns.com.
 doomscrolling:
-  - ttl: 600
-    type: CNAME
-    value: cname.vercel-dns.com.
-pfp:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
