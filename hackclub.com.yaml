@@ -403,6 +403,7 @@ _vercel:
     - vc-domain-verify=toppings.hackclub.com,f82287f84e90ea2099f8
     - vc-domain-verify=fhs.hackclub.com,46936764d6774efee2b5
     - vc-domain-verify=passport.hackclub.com,e2df763ae803aaf06728
+    - vc-domain-verify=pfp.hackclub.com,0089a080527af2869592
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -2555,6 +2556,10 @@ passport:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+pfp:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 philanthropy:
   ttl: 600
   type: CNAME
