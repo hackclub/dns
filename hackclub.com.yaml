@@ -3692,3 +3692,13 @@ doomscrolling:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+
+nightowls:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
+
+_vercel:
+  ttl: 600
+  type: TXT
+  values: vc-domain-verify=nightowls.hackclub.com,a9ab4b0278fe34962bf4
