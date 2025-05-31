@@ -326,6 +326,7 @@ _vercel:
   ttl: 600
   type: TXT
   values:
+    - vc-domain-verify=jpeg.hackclub.com,d10d5875d555c029e35a
     - vc-domain-verify=pixeldust.hackclub.com,4cedb02dcdafd0343fc5
     - vc-domain-verify=multiverse.hackclub.com,1d8996d4a42eba75e1d8
     - vc-domain-verify=arcade-wrapped.hackclub.com,8266e50fd74e5c046773
@@ -1982,6 +1983,10 @@ jams:
     type: CNAME
     value: cname.vercel-dns.com.
 jank:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
+jpeg:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
