@@ -151,6 +151,7 @@ _acme-challenge.hcb:
   values:
     - G8mlLCACopWDnpCSUrM2tcu_rNMpmv3S4va2zTqzWis
     - 9ywyiTK2ET9kATSBOUgOaRq3GdpR20csyFbQRWjh7OI
+    - dmb3x2Kd2tZ13wPCOfWFssWquxd6ZCgVH7KPZ9q_B4U
 _acme-challenge.hcb-test:
   type: TXT
   values:
@@ -2341,6 +2342,10 @@ ncssm:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+nepal:
+  ttl: 600
+  type: CNAME
+  value: dikshantpandey-dev.github.io.
 nestm:
   ttl: 600
   type: CNAME
@@ -2365,6 +2370,11 @@ newcanaanlib:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+# explanation - news is the user-facing domain, newspaper is for internal stuff (very confusing i know :pf:)
+news:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 newspaper:
   - ttl: 600
     type: CNAME
@@ -2440,19 +2450,9 @@ orpheuspico:
 
 organizer:
   - ttl: 600
-    type: TXT
-    values:
-      - canva-domain-verify=28b161e7-222d-4cd8-82d8-0f1177114c8d
-  - ttl: 600
-    type: A
-    values:
-      - 103.169.142.0
-
-www.organizer:
-  - ttl: 600
-    type: A
-    value: 103.169.142.0
-      
+    type: CNAME
+    value: cname.vercel-dns.com.
+    
 osca:
   - ttl: 600
     type: CNAME
