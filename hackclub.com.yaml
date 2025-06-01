@@ -1573,6 +1573,9 @@ geochat-api:
   ttl: 600
   type: CNAME
   value: geochat-api.hackclub.com.herokudns.com.
+geocoder:
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 gharbia:
   - ttl: 600
     type: CNAME
