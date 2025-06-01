@@ -456,6 +456,11 @@ rr: # Rickroll with a single line of bash
   type: CNAME
   value: cname.vercel-dns.com.
 
+run:
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
+
 runshaw: # Used for an email alias for for runshaw hack club members (https://runshaw.hackclub.com/) - contact @Dragon863
   ttl: 600
   type: MX
