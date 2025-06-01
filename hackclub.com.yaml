@@ -404,6 +404,7 @@ _vercel:
     - vc-domain-verify=fhs.hackclub.com,46936764d6774efee2b5
     - vc-domain-verify=passport.hackclub.com,e2df763ae803aaf06728
     - vc-domain-verify=pfp.hackclub.com,0089a080527af2869592
+    - vc-domain-verify=wallpapers.hackclub.com,3ab9c6d22029907f5c6f
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -3471,6 +3472,10 @@ waka:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+wallpapers:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 warsaw:
   - ttl: 600
     type: CNAME
