@@ -3702,3 +3702,7 @@ doomscrolling:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+avijitsingh:
+  - ttl: 600
+    type: CNAME
+    value: avijitsingh.ct.ws.
