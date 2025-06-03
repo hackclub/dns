@@ -3191,7 +3191,7 @@ tarot:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
-SUBDOMAIN_NAME:
+tbilisi:
   - ttl: 600
     type: CNAME
     value: tbilisihc.github.io.
