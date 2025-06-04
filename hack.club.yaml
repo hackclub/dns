@@ -25,4 +25,7 @@ ship:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
-
+my:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
