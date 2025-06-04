@@ -3719,3 +3719,11 @@ doomscrolling:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+dashboard:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
+clubdash:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
