@@ -2475,7 +2475,7 @@ osca:
 oscillart.athena:
   - ttl: 600
     type: CNAME
-    value: celesteroleslli.github.io.
+    value: celesteroselli.github.io.
 
 oly:
   - ttl: 600
