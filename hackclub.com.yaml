@@ -1906,6 +1906,10 @@ ia:
 ice:
   - type: CNAME
     value: hackclub.github.io.
+identity:
+  - ttl: 600
+    type: CNAME
+    value: a.limited.selfhosted.hackclub.com.
 icons:
   ttl: 600
   type: CNAME
