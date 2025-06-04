@@ -460,6 +460,10 @@ run:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+_vercel.run:
+  ttl: 600
+  type: TXT
+  value: "vc-domain-verify=run.dino.icu,64166b93fe669c4cf421"
 
 runshaw: # Used for an email alias for for runshaw hack club members (https://runshaw.hackclub.com/) - contact @Dragon863
   ttl: 600
