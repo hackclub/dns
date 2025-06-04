@@ -2472,6 +2472,11 @@ osca:
     type: CNAME
     value: osca-hack-club.github.io.
 
+osciiart.athena:
+  - ttl: 600
+    type: CNAME
+    value: celesteroleslli.github.io.
+
 oly:
   - ttl: 600
     type: A
