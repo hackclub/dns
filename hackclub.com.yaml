@@ -3732,9 +3732,9 @@ clubdash:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
-
 1or0:
   - ttl: 600
     type: CNAME
-    value:  cname.vercel-dns.com.
+    value: 1or0.vercel.app.
+
 
