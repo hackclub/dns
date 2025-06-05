@@ -113,6 +113,12 @@ _dmarc.hackatime:
   ttl: 600
   type: CNAME
   value: static.114.137.78.5.clients.your-server.de.
+"a.limited.selfhosted":
+  type: CNAME
+  value: static.205.141.156.178.clients.your-server.de.
+"*.a.limited.selfhosted":
+  type: CNAME
+  value: static.205.141.156.178.clients.your-server.de.
 Cabbache:
   - ttl: 600
     type: CNAME
@@ -1900,6 +1906,10 @@ ia:
 ice:
   - type: CNAME
     value: hackclub.github.io.
+identity:
+  - ttl: 600
+    type: CNAME
+    value: a.limited.selfhosted.hackclub.com.
 icons:
   ttl: 600
   type: CNAME
@@ -2461,6 +2471,11 @@ osca:
   - ttl: 600
     type: CNAME
     value: osca-hack-club.github.io.
+
+oscillart.athena:
+  - ttl: 600
+    type: CNAME
+    value: celesteroselli.github.io.
 
 oly:
   - ttl: 600
@@ -3713,3 +3728,11 @@ doomscrolling:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+dashboard:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
+clubdash:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
