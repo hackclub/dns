@@ -1480,7 +1480,7 @@ flhs:
       - exchange: alt4.aspmx.l.google.com.
         preference: 10
 flourish:
-  ttl: 600
+  - ttl: 600
   type: CNAME
   value: lubabanawla.github.io.
 fnt._domainkey:
