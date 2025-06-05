@@ -1481,8 +1481,8 @@ flhs:
         preference: 10
 flourish:
   - ttl: 600
-  type: CNAME
-  value: lubabanawla.github.io.
+    type: CNAME
+    value: lubabanawla.github.io.
 fnt._domainkey:
   - ttl: 600
     type: TXT
