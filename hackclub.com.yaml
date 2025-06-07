@@ -3219,6 +3219,10 @@ tarot:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+tbilisi:
+  - ttl: 600
+    type: CNAME
+    value: tbilisihc.github.io.
 tbp:
   - ttl: 600
     type: NS
