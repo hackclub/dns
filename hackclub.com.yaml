@@ -410,6 +410,7 @@ _vercel:
     - vc-domain-verify=fhs.hackclub.com,46936764d6774efee2b5
     - vc-domain-verify=passport.hackclub.com,e2df763ae803aaf06728
     - vc-domain-verify=pfp.hackclub.com,0089a080527af2869592
+    - vc-domain-verify=reflow.hackclub.com,cc069e8cdf1c55762e13
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -2789,6 +2790,10 @@ ref.guide:
   ttl: 600
   type: CNAME
   value: symmetrical-potatoe-xe9q1l2s6ikk2wmjs2c7obnj.herokudns.com.
+reflow:
+  - ttl: 600
+    type: CNAME
+    value: 62a76b082e14e7d7.vercel-dns-017.com.
 register.assemble:
   ttl: 600
   type: CNAME
