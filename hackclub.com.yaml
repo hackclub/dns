@@ -410,6 +410,7 @@ _vercel:
     - vc-domain-verify=fhs.hackclub.com,46936764d6774efee2b5
     - vc-domain-verify=passport.hackclub.com,e2df763ae803aaf06728
     - vc-domain-verify=pfp.hackclub.com,0089a080527af2869592
+    - vc-domain-verify=reflow.hackclub.com,cc069e8cdf1c55762e13
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -3736,3 +3737,7 @@ clubdash:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+reflow:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
