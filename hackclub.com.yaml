@@ -3224,8 +3224,8 @@ tbilisi:
     value: tbilisihc.github.io.
 _github-pages-challenge-tbilisihc.tbilisi:
   - ttl: 600
-    type: CNAME
-    value: 352ce0458af34bcb3ac0d2f8c7920d.
+    type: TXT
+    value: 352ce0458af34bcb3ac0d2f8c7920d
 tbp:
   - ttl: 600
     type: NS
