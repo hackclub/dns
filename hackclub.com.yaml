@@ -3226,6 +3226,10 @@ _github-pages-challenge-tbilisihc.tbilisi:
   - ttl: 600
     type: TXT
     value: 352ce0458af34bcb3ac0d2f8c7920d
+_gh-tbilisihc-o.tbilisi:
+  - ttl: 600
+    type: TXT
+    value: 02c3df7e7a
 tbp:
   - ttl: 600
     type: NS
