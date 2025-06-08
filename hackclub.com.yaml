@@ -2578,6 +2578,10 @@ passport:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+pfp:
+  - ttl: 600
+    type: A
+    value: 77.90.16.198
 philanthropy:
   ttl: 600
   type: CNAME
