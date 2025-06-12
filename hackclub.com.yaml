@@ -3753,3 +3753,7 @@ clubdash:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+alex:
+  - ttl: 600
+    type: CNAME
+    value: https://12ahmedashraf.github.io/AlexHack-club-website/.
