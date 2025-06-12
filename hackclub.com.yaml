@@ -2785,7 +2785,7 @@ rawr:
 reactive:
   - ttl: 600
     type: CNAME
-    value: c5165cd264885445.vercel-dns-017.com
+    value: c5165cd264885445.vercel-dns-017.com.
 redwood.scrapbook:
   ttl: 600
   type: CNAME
