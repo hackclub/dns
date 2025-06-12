@@ -332,6 +332,7 @@ _vercel:
   ttl: 600
   type: TXT
   values:
+    - vc-domain-verify=waffles.hackclub.com,04eb4de0bcc5369e4dca
     - vc-domain-verify=jpeg.hackclub.com,d10d5875d555c029e35a
     - vc-domain-verify=pixeldust.hackclub.com,4cedb02dcdafd0343fc5
     - vc-domain-verify=multiverse.hackclub.com,1d8996d4a42eba75e1d8
@@ -3505,6 +3506,10 @@ vote.visioneer:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+waffles:
+  - ttl: 600
+    type: CNAME
+    value: 4a3dcf8792973840.vercel-dns-017.com.
 waka:
   - ttl: 600
     type: CNAME
