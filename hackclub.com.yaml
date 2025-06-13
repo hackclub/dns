@@ -435,7 +435,7 @@ airbridge:
   ttl: 600
   type: CNAME
   value: a.selfhosted.hackclub.com.
-alex:
+alexandria:
   - ttl: 600
     type: CNAME
     value: 12ahmedashraf.github.io.
