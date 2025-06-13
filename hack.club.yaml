@@ -2,6 +2,10 @@
 "":
   - type: ALIAS
     value: a.selfhosted.hackclub.com.
+  - type: MX
+    value:
+      exchange: a.selfhosted.hackclub.com.
+      preference: 10
 ahoy:
   - type: CNAME
     value: cname.vercel-dns.com.
