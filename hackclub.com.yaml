@@ -2369,6 +2369,10 @@ nepal:
   ttl: 600
   type: CNAME
   value: dikshantpandey-dev.github.io.
+nephthys:
+  ttl: 600
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 nestm:
   ttl: 600
   type: CNAME
