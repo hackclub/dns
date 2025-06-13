@@ -411,6 +411,7 @@ _vercel:
     - vc-domain-verify=fhs.hackclub.com,46936764d6774efee2b5
     - vc-domain-verify=passport.hackclub.com,e2df763ae803aaf06728
     - vc-domain-verify=reflow.hackclub.com,cc069e8cdf1c55762e13
+    - vc-domain-verify=reactive.hackclub.com,dcd146599f4ae3bc6822
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -2794,6 +2795,10 @@ rawr:
   - ttl: 600
     type: CNAME
     value: hackclub.github.io.
+reactive:
+  - ttl: 600
+    type: CNAME
+    value: c5165cd264885445.vercel-dns-017.com.
 redwood.scrapbook:
   ttl: 600
   type: CNAME
