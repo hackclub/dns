@@ -1433,6 +1433,10 @@ evoking:
   ttl: 600
   type: CNAME
   value: evokinghc.netlify.app.
+explorpheus:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 express.athena:
   - ttl: 600
     type: CNAME
