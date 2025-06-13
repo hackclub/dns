@@ -435,6 +435,10 @@ airbridge:
   ttl: 600
   type: CNAME
   value: a.selfhosted.hackclub.com.
+alex:
+  - ttl: 600
+    type: CNAME
+    value: 12ahmedashraf.github.io.
 aloha:
   - ttl: 600
     type: CNAME
@@ -3753,7 +3757,3 @@ clubdash:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
-alex:
-  - ttl: 600
-    type: CNAME
-    value: https://12ahmedashraf.github.io/AlexHack-club-website/.
