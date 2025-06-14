@@ -2069,8 +2069,8 @@ keepsake:
     value: tongyu.hackclub.app.
 kerala:
   - ttl: 600
-    type: A
-    value: 185.199.111.153
+    type: CNAME
+    value:  kerala-hackclub.github.io 
 keys:
   - ttl: 600
     type: CNAME
