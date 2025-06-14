@@ -9,6 +9,9 @@
 ahoy:
   - type: CNAME
     value: cname.vercel-dns.com.
+athena:
+  - type: CNAME
+    value: a.selfhosted.hackclub.com.
 hack.club:
   - type: ALIAS
     value: cname.vercel-dns.com.
