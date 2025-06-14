@@ -411,6 +411,7 @@ _vercel:
     - vc-domain-verify=fhs.hackclub.com,46936764d6774efee2b5
     - vc-domain-verify=passport.hackclub.com,e2df763ae803aaf06728
     - vc-domain-verify=reflow.hackclub.com,cc069e8cdf1c55762e13
+    - vc-domain-verify=illumination.hackclub.com,8fee6443457bb70fcb81
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -1939,11 +1940,6 @@ illumination:
   - ttl: 600
     type: CNAME
     value: 0b4e7cc575f0aff2.vercel-dns-017.com.
-_vercel:
-  ttl: 600
-  type: TXT
-  values:
-    - vc-domain-verify=illumination.hackclub.com,8fee6443457bb70fcb81
 imperial:
   ttl: 600
   type: CNAME
