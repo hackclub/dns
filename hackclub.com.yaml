@@ -2070,7 +2070,7 @@ keepsake:
 kerala:
   - ttl: 600
     type: CNAME
-    value:  kerala-hackclub.github.io 
+    value:  kerala-hackclub.github.io. 
 keys:
   - ttl: 600
     type: CNAME
