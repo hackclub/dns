@@ -1935,6 +1935,15 @@ id.assemble:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+illumination:
+  - ttl: 600
+    type: CNAME
+    value: 0b4e7cc575f0aff2.vercel-dns-017.com.
+_vercel:
+  ttl: 600
+  type: TXT
+  values:
+    - vc-domain-verify=illumination.hackclub.com,8fee6443457bb70fcb81
 imperial:
   ttl: 600
   type: CNAME
