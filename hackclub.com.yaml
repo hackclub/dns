@@ -2270,7 +2270,7 @@ maxday:
 mc:
   ttl: 600
   type: A
-  value: 34.13.220.211
+  value: 34.90.213.59
 mccownhacks:
   - ttl: 600
     type: NS
@@ -2799,6 +2799,10 @@ rawr:
   - ttl: 600
     type: CNAME
     value: hackclub.github.io.
+reactive:
+  - ttl: 600
+    type: CNAME
+    value: 13eb4273ed8710df.vercel-dns-016.com.
 redwood.scrapbook:
   ttl: 600
   type: CNAME

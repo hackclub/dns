@@ -306,7 +306,12 @@ kevin: # Kevin Yang
   ttl: 600
   type: CNAME
   value: bykevinyang.netlify.app.
-  
+
+krishnan: # @krishnans2006
+  - ttl: 600
+    type: A
+    value: 150.136.13.65
+
 kunal: # kunal
   ttl: 600
   type: NS
