@@ -3202,7 +3202,7 @@ suceava:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
-2020.summer:
+2020-summer:
   - ttl: 600
     type: ALIAS
     value: cname.vercel-dns.com.
