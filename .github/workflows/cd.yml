@@ -1,0 +1,24 @@
+name: CD
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+    - name: Setup Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3
+    - name: Install OctoDNS
+      run: pip install octodns==0.9.10
+    - name: Sync with production DNS providers
+      run: ./bin/sync
+      env:
+        DNSIMPLE_ACCOUNT_NUMBER: ${{ secrets.DNSIMPLE_ACCOUNT_NUMBER }}
+        DNSIMPLE_API_KEY: ${{ secrets.DNSIMPLE_API_KEY }}
