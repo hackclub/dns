@@ -3208,8 +3208,8 @@ suceava:
     value: cname.vercel-dns.com.
 summer:
   - ttl: 600
-    type: ALIAS
-    value: cname.vercel-dns.com.
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
   - ttl: 600
     type: TXT
     values:
