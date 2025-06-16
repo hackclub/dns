@@ -2777,6 +2777,9 @@ puyallup:
   - ttl: 600
     type: TXT
     value: v=spf1 include:spf.improvmx.com ~all
+pyramid:
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 q6vh4lhupwotqenjf4s4ygzyhir3e5ii._domainkey:
   ttl: 600
   type: CNAME
