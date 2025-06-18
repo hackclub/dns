@@ -1468,6 +1468,9 @@ finder:
   ttl: 600
   type: CNAME
   value: finder.netlify.com.
+fixit:
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 flagship:
   ttl: 600
   type: CNAME
