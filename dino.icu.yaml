@@ -721,7 +721,7 @@ yc:
 
 yates: 
   type: A
-  value: 1.158.68.199
+  value: 101.178.35.248
 
 you-ship-we-vote:
   - ttl: 600
