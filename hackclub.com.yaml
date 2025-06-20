@@ -2811,10 +2811,6 @@ rawr:
   - ttl: 600
     type: CNAME
     value: hackclub.github.io.
-reactive:
-  - ttl: 600
-    type: CNAME
-    value: 13eb4273ed8710df.vercel-dns-016.com.
 redwood.scrapbook:
   ttl: 600
   type: CNAME
