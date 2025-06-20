@@ -1040,6 +1040,10 @@ coins:
   - ttl: 600
     type: A
     value: 173.208.140.124
+comms:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 conant:
   - ttl: 600
     type: CNAME
