@@ -3050,6 +3050,10 @@ singgasana:
   ttl: 600
   type: CNAME
   value: singgasana.netlify.app.
+sji:
+  ttl: 600
+  type: CNAME
+  value: sji-hack-club.github.io.
 skcet:
   ttl: 600
   type: CNAME
