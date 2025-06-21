@@ -1267,7 +1267,7 @@ dinoexplorer:
 dockerize:
   - ttl: 600
     type: CNAME
-    value: 80028c660ac02181.vercel-dns-017.com
+    value: 80028c660ac02181.vercel-dns-017.com.
 dorman:
   ttl: 600
   type: ALIAS
