@@ -2084,6 +2084,10 @@ kerala:
   - ttl: 600
     type: CNAME
     value:  kerala-hackclub.github.io. 
+_github-pages-challenge-kerala-hackclub.kerala:
+  - ttl: 600
+    type: TXT
+    value: f39cf4bf21f2e8087c97294b2944e4
 keys:
   - ttl: 600
     type: CNAME
