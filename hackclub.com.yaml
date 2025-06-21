@@ -413,6 +413,7 @@ _vercel:
     - vc-domain-verify=passport.hackclub.com,e2df763ae803aaf06728
     - vc-domain-verify=reflow.hackclub.com,cc069e8cdf1c55762e13
     - vc-domain-verify=illumination.hackclub.com,8fee6443457bb70fcb81
+    - vc-domain-verify=dockerize.hackclub.com,b5bf22725664baf9b20c
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -1263,6 +1264,10 @@ dinoexplorer:
   - ttl: 600
     type: CNAME
     value: internetramen.github.io.
+dockerize:
+  - ttl: 600
+    type: CNAME
+    value: 80028c660ac02181.vercel-dns-017.com.
 dorman:
   ttl: 600
   type: ALIAS
