@@ -335,6 +335,7 @@ _vercel:
   ttl: 600
   type: TXT
   values:
+    - vc-domain-verify=waffles.hackclub.com,04eb4de0bcc5369e4dca
     - vc-domain-verify=jpeg.hackclub.com,d10d5875d555c029e35a
     - vc-domain-verify=pixeldust.hackclub.com,4cedb02dcdafd0343fc5
     - vc-domain-verify=multiverse.hackclub.com,1d8996d4a42eba75e1d8
@@ -355,6 +356,7 @@ _vercel:
     - vc-domain-verify=dorman.hackclub.com,f3eed241f1f80b308a69
     - vc-domain-verify=birthdays.hackclub.com,7ca55aea82d546d470e1
     - vc-domain-verify=birthday.hackclub.com,b54f1e09bf276faffd29
+    - vc-domain-verify=butwal.hackclub.com,a925a860bf09fa56faa2
     - vc-domain-verify=teenhack.hackclub.com,83b35a519bc92ba8b94d
     - vc-domain-verify=register.epochvt.hackclub.com,8e89fd1c0e1dd7045bd5
     - vc-domain-verify=epochvt.hackclub.com,089353b4de0bf145067d
@@ -414,6 +416,9 @@ _vercel:
     - vc-domain-verify=passport.hackclub.com,e2df763ae803aaf06728
     - vc-domain-verify=pfp.hackclub.com,0089a080527af2869592
     - vc-domain-verify=1or0.hackclub.com,6342724060dadeb82eb3
+    - vc-domain-verify=reflow.hackclub.com,cc069e8cdf1c55762e13
+    - vc-domain-verify=illumination.hackclub.com,8fee6443457bb70fcb81
+    - vc-domain-verify=dockerize.hackclub.com,b5bf22725664baf9b20c
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -438,6 +443,10 @@ airbridge:
   ttl: 600
   type: CNAME
   value: a.selfhosted.hackclub.com.
+alexandria:
+  - ttl: 600
+    type: CNAME
+    value: 12ahmedashraf.github.io.
 aloha:
   - ttl: 600
     type: CNAME
@@ -859,6 +868,11 @@ busan:
     type: CNAME
     value: hackclub-busan.netlify.app.
 
+butwal:
+  - ttl: 600
+    type: CNAME
+    value: 30afd38e920ad4c7.vercel-dns-017.com.    
+
 byte:
   - ttl: 600
     type: CNAME
@@ -1032,6 +1046,10 @@ coins:
   - ttl: 600
     type: A
     value: 173.208.140.124
+comms:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 conant:
   - ttl: 600
     type: CNAME
@@ -1251,6 +1269,10 @@ dinoexplorer:
   - ttl: 600
     type: CNAME
     value: internetramen.github.io.
+dockerize:
+  - ttl: 600
+    type: CNAME
+    value: 80028c660ac02181.vercel-dns-017.com.
 dorman:
   ttl: 600
   type: ALIAS
@@ -1432,6 +1454,10 @@ evoking:
   ttl: 600
   type: CNAME
   value: evokinghc.netlify.app.
+explorpheus:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 express.athena:
   - ttl: 600
     type: CNAME
@@ -1456,6 +1482,9 @@ finder:
   ttl: 600
   type: CNAME
   value: finder.netlify.com.
+fixit:
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 flagship:
   ttl: 600
   type: CNAME
@@ -1483,6 +1512,10 @@ flhs:
         preference: 10
       - exchange: alt4.aspmx.l.google.com.
         preference: 10
+flourish:
+  - ttl: 600
+    type: CNAME
+    value: lubabanawla.github.io.
 fnt._domainkey:
   - ttl: 600
     type: TXT
@@ -1926,6 +1959,10 @@ id.assemble:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+illumination:
+  - ttl: 600
+    type: CNAME
+    value: 0b4e7cc575f0aff2.vercel-dns-017.com.
 imperial:
   ttl: 600
   type: CNAME
@@ -2055,8 +2092,12 @@ keepsake:
     value: tongyu.hackclub.app.
 kerala:
   - ttl: 600
-    type: A
-    value: 185.199.111.153
+    type: CNAME
+    value:  kerala-hackclub.github.io. 
+_github-pages-challenge-kerala-hackclub.kerala:
+  - ttl: 600
+    type: TXT
+    value: f39cf4bf21f2e8087c97294b2944e4
 keys:
   - ttl: 600
     type: CNAME
@@ -2256,7 +2297,7 @@ maxday:
 mc:
   ttl: 600
   type: A
-  value: 34.32.152.176
+  value: 34.90.213.59
 mccownhacks:
   - ttl: 600
     type: NS
@@ -2364,6 +2405,10 @@ nepal:
   ttl: 600
   type: CNAME
   value: dikshantpandey-dev.github.io.
+nephthys:
+  ttl: 600
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 nestm:
   ttl: 600
   type: CNAME
@@ -2580,8 +2625,8 @@ passport:
   value: cname.vercel-dns.com.
 pfp:
   - ttl: 600
-    type: CNAME
-    value: cname.vercel-dns.com.
+    type: A
+    value: 77.90.16.198
 philanthropy:
   ttl: 600
   type: CNAME
@@ -2753,6 +2798,9 @@ puyallup:
   - ttl: 600
     type: TXT
     value: v=spf1 include:spf.improvmx.com ~all
+pyramid:
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 q6vh4lhupwotqenjf4s4ygzyhir3e5ii._domainkey:
   ttl: 600
   type: CNAME
@@ -2789,6 +2837,10 @@ ref.guide:
   ttl: 600
   type: CNAME
   value: symmetrical-potatoe-xe9q1l2s6ikk2wmjs2c7obnj.herokudns.com.
+reflow:
+  - ttl: 600
+    type: CNAME
+    value: 62a76b082e14e7d7.vercel-dns-017.com.
 register.assemble:
   ttl: 600
   type: CNAME
@@ -3012,6 +3064,10 @@ singgasana:
   ttl: 600
   type: CNAME
   value: singgasana.netlify.app.
+sji:
+  ttl: 600
+  type: CNAME
+  value: sji-hack-club.github.io.
 skcet:
   ttl: 600
   type: CNAME
@@ -3170,14 +3226,14 @@ suceava:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
-2020.summer:
+2020-summer:
   - ttl: 600
     type: ALIAS
     value: cname.vercel-dns.com.
 summer:
   - ttl: 600
     type: ALIAS
-    value: cname.vercel-dns.com.
+    value: a.selfhosted.hackclub.com.
   - ttl: 600
     type: TXT
     values:
@@ -3214,6 +3270,14 @@ tarot:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+tbilisi:
+  - ttl: 600
+    type: CNAME
+    value: tbilisihc.github.io.
+_github-pages-challenge-tbilisihc.tbilisi:
+  - ttl: 600
+    type: TXT
+    value: 352ce0458af34bcb3ac0d2f8c7920d
 tbp:
   - ttl: 600
     type: NS
@@ -3493,6 +3557,10 @@ vote.visioneer:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+waffles:
+  - ttl: 600
+    type: CNAME
+    value: 4a3dcf8792973840.vercel-dns-017.com.
 waka:
   - ttl: 600
     type: CNAME

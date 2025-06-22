@@ -306,7 +306,12 @@ kevin: # Kevin Yang
   ttl: 600
   type: CNAME
   value: bykevinyang.netlify.app.
-  
+
+krishnan: # @krishnans2006
+  - ttl: 600
+    type: A
+    value: 150.136.13.65
+
 kunal: # kunal
   ttl: 600
   type: NS
@@ -506,7 +511,7 @@ sdheeraj: # https://github.com/17sdheeraj/17sdheeraj.github.io
 sequoia: # vortex slave record - https://vortex.skyfall.dev
   ttl: 60
   type: A
-  value: 37.27.245.191
+  value: 144.21.62.56
 
 subdomain: # Free subdomain generator.
   ttl: 600
@@ -716,7 +721,7 @@ yc:
 
 yates: 
   type: A
-  value: 1.158.68.199
+  value: 101.178.35.248
 
 you-ship-we-vote:
   - ttl: 600
