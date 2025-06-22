@@ -41,7 +41,10 @@ ihs:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
-        
+1or0:
+  - ttl: 3600
+    type: CNAME
+    value: 0446ea696fc11998.vercel-dns-017.com.
 20230913174421pm._domainkey:
   type: TXT
   value: k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCbYfun+ZMwXJGRqp41sG/OXWPgbQd6Ewf/ccOBCvigm9LSarnT1QCUizzc+ZqBfSc4UTlJJx2hyhWYN6zFHibSndOBmY3y09uKuv7S4v3usfhpVVJZw9BOQLL4N9uIysrzLhVOfCpXiIIQQHn/a277SA8klIDfVcZkxdkyBRQDlQIDAQAB
@@ -411,11 +414,6 @@ _vercel:
     - vc-domain-verify=passport.hackclub.com,e2df763ae803aaf06728
     - vc-domain-verify=pfp.hackclub.com,0089a080527af2869592
     - vc-domain-verify=1or0.hackclub.com,6342724060dadeb82eb3
-    
-1or0:
-  - ttl: 3600
-    type: CNAME
-    value: 0446ea696fc11998.vercel-dns-017.com.
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -3738,6 +3736,3 @@ clubdash:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
-
-
-
