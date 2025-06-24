@@ -1754,6 +1754,10 @@ hacklet:
   ttl: 600
   type: CNAME
   value: scaling-carnival-4jg9ye4.pages.github.io.
+hackmate:
+  ttl: 600
+  type: CNAME
+  value: 57c8fb5f659ff342.vercel-dns-017.com
 hackpad:
   ttl: 600
   type: CNAME
