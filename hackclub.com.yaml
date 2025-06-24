@@ -1119,6 +1119,10 @@ counterspell:
         preference: 10
       - exchange: alt4.aspmx.l.google.com.
         preference: 10
+converge:
+  - ttl: 300
+    type: CNAME
+    value: 8df02671b8ee6675.vercel-dns-016.com.
 coxmill:
   - ttl: 600
     type: CNAME
