@@ -1514,7 +1514,7 @@ flhs:
 flourish:
   - ttl: 600
     type: CNAME
-    value: reemlifa.github.io.
+    value: lubabanawla.github.io.
 fnt._domainkey:
   - ttl: 600
     type: TXT
