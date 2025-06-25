@@ -2052,6 +2052,10 @@ juice:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+jumpstart:
+  - ttl: 600
+    type: CNAME
+    value: themagicfrog.github.io.
 jp:
   - ttl: 600
     type: CNAME
