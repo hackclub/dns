@@ -30,9 +30,9 @@ curl:
     type: AAAA
     value: "2600:1901:0:6d85::"
 gverify:
-  ttl: 1
+  ttl: 600
   type: CNAME
-  value: frozen-orange-67zbfnflol9wncm7vfgzr3bb.herokudns.com.
+  value: a.selfhosted.hackclub.com.
 internal:
   - ttl: 1
     type: A
