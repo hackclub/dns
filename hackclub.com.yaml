@@ -2834,6 +2834,10 @@ spark:
   - ttl: 600
     type: ALIAS
     value: cname.vercel-dns.com.
+spatula: 
+  ttl: 600
+  type: CNAME
+  value: ugssgw80w0cgcg80ko88c4o8.a.selfhosted.hackclub.com
 spp:
   - ttl: 600
     type: CNAME
