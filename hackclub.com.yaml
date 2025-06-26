@@ -2838,6 +2838,9 @@ spatula:
   ttl: 600
   type: CNAME
   value: ugssgw80w0cgcg80ko88c4o8.a.selfhosted.hackclub.com
+spotcheck:
+  - type: CNAME
+    value: a.selfhosted.hackclub.com.
 spp:
   - ttl: 600
     type: CNAME
