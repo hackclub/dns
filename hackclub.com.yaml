@@ -3203,6 +3203,10 @@ stemegypt:
   - ttl: 900
     type: CNAME
     value: cname.vercel-dns.com.
+crm.stemegypt:
+  - ttl: 600
+    type: CNAME
+    value: stemegypt-crm.42web.io.
 stemsharkya:
   - ttl: 600
     type: CNAME
