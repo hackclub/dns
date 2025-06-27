@@ -1718,7 +1718,7 @@ hackathons:
 hackatime:
   - ttl: 600
     type: CNAME
-    value: a.selfhosted.hackclub.com.
+    value: hackatime.selfhosted.hackclub.com.
 hackatime-badge:
   - ttl: 600
     type: CNAME
