@@ -1124,6 +1124,10 @@ counterspell:
         preference: 10
       - exchange: alt4.aspmx.l.google.com.
         preference: 10
+converge:
+  - ttl: 300
+    type: CNAME
+    value: 8df02671b8ee6675.vercel-dns-016.com.
 coxmill:
   - ttl: 600
     type: CNAME
@@ -1515,7 +1519,7 @@ flhs:
 flourish:
   - ttl: 600
     type: CNAME
-    value: lubabanawla.github.io.
+    value: reemlifa.github.io.
 fnt._domainkey:
   - ttl: 600
     type: TXT
@@ -2053,6 +2057,10 @@ juice:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+jumpstart:
+  - ttl: 600
+    type: CNAME
+    value: themagicfrog.github.io.
 jp:
   - ttl: 600
     type: CNAME
@@ -3158,6 +3166,10 @@ spark:
   - ttl: 600
     type: ALIAS
     value: cname.vercel-dns.com.
+spatula: 
+  ttl: 600
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 spotcheck:
   - type: CNAME
     value: a.selfhosted.hackclub.com.
