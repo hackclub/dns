@@ -2631,6 +2631,10 @@ passport:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+pathfinder:
+  ttl: 600
+  type: CNAME
+  value: meghanam4.github.io.
 pfp:
   - ttl: 600
     type: A
