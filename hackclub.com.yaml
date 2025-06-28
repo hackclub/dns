@@ -2883,12 +2883,10 @@ renaissance-24:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
-
 rewind:
   ttl: 600
   type: CNAME
-  value: e80e9a41e224e406.vercel-dns-017.com
-  
+  value: e80e9a41e224e406.vercel-dns-017.com. 
 riverbend:
   - ttl: 600
     type: CNAME
