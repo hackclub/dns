@@ -427,6 +427,7 @@ _vercel:
     - vc-domain-verify=reflow.hackclub.com,cc069e8cdf1c55762e13
     - vc-domain-verify=illumination.hackclub.com,8fee6443457bb70fcb81
     - vc-domain-verify=dockerize.hackclub.com,b5bf22725664baf9b20c
+    - vc-domain-verify=rewind.hackclub.com,1cd9a3a9a2ca7ef0b939
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -2889,6 +2890,10 @@ renaissance-24:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+rewind:
+  ttl: 600
+  type: CNAME
+  value: e80e9a41e224e406.vercel-dns-017.com. 
 riverbend:
   - ttl: 600
     type: CNAME
