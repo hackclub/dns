@@ -2421,6 +2421,14 @@ nepal:
   ttl: 600
   type: CNAME
   value: dikshantpandey-dev.github.io.
+identity.nephthys:
+  ttl: 600
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
+summer.nephthys:
+  ttl: 600
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 nephthys:
   ttl: 600
   type: CNAME
