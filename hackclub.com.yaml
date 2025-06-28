@@ -3828,7 +3828,7 @@ clubdash:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
-som-lb:
+lb.summer:
   - ttl: 600
     type: CNAME
     value: cyteon.hackclub.app.
