@@ -3841,3 +3841,11 @@ clubdash:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+hackducky: #add hackducky
+  - ttl: 600
+    type: CNAME
+    value: 6be30c9fb60ab816.vercel-dns-017.com.
+  - ttl: 600
+    type: TXT
+    values:
+      - vc-domain-verify=hackducky.hackclub.com,511bdb3387c304b630b6
