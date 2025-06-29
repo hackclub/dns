@@ -428,6 +428,7 @@ _vercel:
     - vc-domain-verify=illumination.hackclub.com,8fee6443457bb70fcb81
     - vc-domain-verify=dockerize.hackclub.com,b5bf22725664baf9b20c
     - vc-domain-verify=rewind.hackclub.com,1cd9a3a9a2ca7ef0b939
+    - vc-domain-verify=hackducky.hackclub.com,511bdb3387c304b630b6
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -3845,7 +3846,3 @@ hackducky: #add hackducky
   - ttl: 600
     type: CNAME
     value: 6be30c9fb60ab816.vercel-dns-017.com.
-  - ttl: 600
-    type: TXT
-    values:
-      - vc-domain-verify=hackducky.hackclub.com,511bdb3387c304b630b6
