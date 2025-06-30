@@ -428,6 +428,7 @@ _vercel:
     - vc-domain-verify=illumination.hackclub.com,8fee6443457bb70fcb81
     - vc-domain-verify=dockerize.hackclub.com,b5bf22725664baf9b20c
     - vc-domain-verify=rewind.hackclub.com,1cd9a3a9a2ca7ef0b939
+    - vc-domain-verify=security.hackclub.com,b005370fba78b1b3b932
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -3051,6 +3052,10 @@ showcase:
   ttl: 600
   type: CNAME
   value: onboard-7w9.pages.dev.
+security:
+  ttl: 600
+  type: CNAME
+  value: fc3ebadf0856acf4.vercel-dns-017.com.
 shop:
   - ttl: 600
     type: TXT
