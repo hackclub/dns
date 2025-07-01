@@ -2473,6 +2473,10 @@ newspaper:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+newsroom:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 nigeria:
   ttl: 600
   type: CNAME
