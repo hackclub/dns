@@ -429,6 +429,7 @@ _vercel:
     - vc-domain-verify=dockerize.hackclub.com,b5bf22725664baf9b20c
     - vc-domain-verify=rewind.hackclub.com,1cd9a3a9a2ca7ef0b939
     - vc-domain-verify=hackducky.hackclub.com,511bdb3387c304b630b6
+    - vc-domain-verify=security.hackclub.com,b005370fba78b1b3b932
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -1027,6 +1028,10 @@ cider:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+cinema: 
+  - ttl: 600
+    type: CNAME
+    value: dandililacs.github.io.
 congress:
   - type: CNAME
     value: a.selfhosted.hackclub.com.
@@ -3052,6 +3057,10 @@ showcase:
   ttl: 600
   type: CNAME
   value: onboard-7w9.pages.dev.
+security:
+  ttl: 600
+  type: CNAME
+  value: fc3ebadf0856acf4.vercel-dns-017.com.
 shop:
   - ttl: 600
     type: TXT
