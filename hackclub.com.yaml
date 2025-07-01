@@ -526,6 +526,10 @@ apocalypse:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+anansi:
+  - ttl: 600
+    type: CNAME
+    value: be1d0f8f89b7f7e1.vercel-dns-016.com.
 angelhacksla:
   - ttl: 600
     type: CNAME
