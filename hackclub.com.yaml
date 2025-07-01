@@ -130,6 +130,14 @@ _dmarc.hackatime:
 "*.a.limited.selfhosted":
   type: CNAME
   value: static.205.141.156.178.clients.your-server.de.
+"warehouse.selfhosted":
+  ttl: 600
+  type: CNAME
+  value: static.249.211.181.135.clients.your-server.de.
+"*.warehouse.selfhosted":
+  ttl: 600
+  type: CNAME
+  value: static.249.211.181.135.clients.your-server.de.
 Cabbache:
   - ttl: 600
     type: CNAME
