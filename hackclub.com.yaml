@@ -2551,7 +2551,7 @@ ocsa:
 
 orpheus-engine:
   - type: CNAME
-    value: a.selfhosted.hackclub.com.
+    value: warehouse.selfhosted.hackclub.com.
 
 orpheuspico:
   - ttl: 600
