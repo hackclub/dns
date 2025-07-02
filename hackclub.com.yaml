@@ -438,6 +438,7 @@ _vercel:
     - vc-domain-verify=rewind.hackclub.com,1cd9a3a9a2ca7ef0b939
     - vc-domain-verify=hackducky.hackclub.com,511bdb3387c304b630b6
     - vc-domain-verify=security.hackclub.com,b005370fba78b1b3b932
+    - vc-domain-verify=squeak.hackclub.com,0574abe068e7c3c4a91e
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -3152,6 +3153,10 @@ slack-id:
   type: CNAME
   value: cname.vercel-dns.com.
 slash-z:
+  ttl: 600
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
+squeak: 
   ttl: 600
   type: CNAME
   value: a.selfhosted.hackclub.com.
