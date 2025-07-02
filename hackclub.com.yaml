@@ -3159,7 +3159,7 @@ slash-z:
 squeak: 
   ttl: 600
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: 9fb4466fee649078.vercel-dns-017.com.
 professorbloom:
   ttl: 600
   type: CNAME
