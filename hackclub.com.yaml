@@ -1514,6 +1514,10 @@ fhs:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+finalist:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 finder:
   ttl: 600
   type: CNAME
