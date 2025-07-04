@@ -545,7 +545,7 @@ angelhacksla:
     value: cname.vercel-dns.com.
 archive:
   - type: CNAME
-    value: a.selfhosted.hackclub.com.
+    value: archive.selfhosted.hackclub.com.
 aurora:
   - ttl: 600
     type: CNAME
