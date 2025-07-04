@@ -2349,7 +2349,7 @@ maxday:
 mc:
   ttl: 600
   type: A
-  value: 34.90.213.59
+  value: 34.90.81.2
 mccownhacks:
   - ttl: 600
     type: NS
