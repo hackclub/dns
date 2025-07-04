@@ -1168,6 +1168,10 @@ coxmill:
   - ttl: 600
     type: CNAME
     value: modest-swanson-0a9aa6.netlify.app.
+crm.stemegypt:
+  - ttl: 600
+    type: CNAME
+    value: stemegypt-crm.42web.io.
 craft:
   - ttl: 600
     type: CNAME
