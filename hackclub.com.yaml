@@ -429,6 +429,7 @@ _vercel:
     - vc-domain-verify=vidisha.hackclub.com,865c18c50e3614795dfc
     - vc-domain-verify=suceava.hackclub.com,b3c8f92fe1ba1f1f89f4
     - vc-domain-verify=stemegypt.hackclub.com,246d2979e0905d3792b8
+    - vc-domain-verify=eycc.stemegypt.hackclub.com,5962369a6ab4701c2401
     - vc-domain-verify=meltdown.hackclub.com,f6609cf94710dda22b0c
     - vc-domain-verify=visioneer.hackclub.com,b1bec26133a3a1d74d62
     - vc-domain-verify=vote.visioneer.hackclub.com,eacfb41e3088190eecbf
@@ -3286,6 +3287,10 @@ status.hcb:
     value: cname.appsignal-status.com.
 stemegypt:
   - ttl: 900
+    type: CNAME
+    value: cname.vercel-dns.com.
+eycc.stemegypt:
+  - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
 stemsharkya:
