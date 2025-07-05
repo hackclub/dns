@@ -127,11 +127,11 @@ _dmarc.hackatime:
 "archive.selfhosted":
   ttl: 600
   type: CNAME
-  value: static.43.206.130.94.clients.your-server.de.
+  value: static.185.68.69.159.clients.your-server.de.
 "*.archive.selfhosted":
   ttl: 600
   type: CNAME
-  value: static.43.206.130.94.clients.your-server.de.
+  value: static.185.68.69.159.clients.your-server.de.
 "a.limited.selfhosted":
   type: CNAME
   value: static.205.141.156.178.clients.your-server.de.
