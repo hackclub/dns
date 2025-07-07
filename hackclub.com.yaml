@@ -3806,4 +3806,4 @@ clubdash:
 teachyourmachine:
   - ttl: 600
     type: CNAME
-    value: https://reemlifa.github.io/teach-your-machine/.
+    value: reemlifa.github.io.
