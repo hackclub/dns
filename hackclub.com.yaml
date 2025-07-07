@@ -3803,3 +3803,7 @@ clubdash:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+teachyourmachine:
+  - ttl: 600
+    type: CNAME
+    value: https://reemlifa.github.io/teach-your-machine/.
