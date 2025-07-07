@@ -3892,6 +3892,10 @@ clubdash:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+teachyourmachine:
+  - ttl: 600
+    type: CNAME
+    value: reemlifa.github.io.
 hackducky: #add hackducky
   - ttl: 600
     type: CNAME
