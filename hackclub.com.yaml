@@ -2110,6 +2110,10 @@ jumpstart:
   - ttl: 600
     type: CNAME
     value: themagicfrog.github.io.
+v1.jumpstart:
+  - ttl: 600
+    type: CNAME
+    value: themagicfrog.github.io.
 jp:
   - ttl: 600
     type: CNAME
