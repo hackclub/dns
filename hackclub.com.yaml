@@ -3305,6 +3305,10 @@ stickerhuman:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+storyboard: 
+   - ttl: 600
+    type: CNAME 
+    value: hackclub.github.io.
 straya:
   - ttl: 600
     type: CNAME
