@@ -1720,6 +1720,10 @@ graph.hcb:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+grounded:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 groups:
   ttl: 600
   type: CNAME
@@ -3510,6 +3514,10 @@ toolbox:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+toolsmith:
+  ttl: 600
+  type: CNAME
+  value: hackclub.github.io.
 toppings:
   ttl: 600
   type: CNAME
