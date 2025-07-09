@@ -3517,7 +3517,7 @@ toolbox:
 toolsmith:
   ttl: 600
   type: CNAME
-  value: hackclub.github.io.
+  value: a.selfhosted.hackclub.com.
 toppings:
   ttl: 600
   type: CNAME
