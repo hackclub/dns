@@ -3510,6 +3510,10 @@ toolbox:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+toolsmith:
+  ttl: 600
+  type: CNAME
+  value: hackclub.github.io.
 toppings:
   ttl: 600
   type: CNAME
