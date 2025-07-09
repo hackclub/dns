@@ -3312,7 +3312,7 @@ stickerhuman:
 storyboard: 
   - ttl: 600
     type: CNAME 
-    value: hackclub.github.io.
+    value: a.selfhosted.hackclub.com. 
 straya:
   - ttl: 600
     type: CNAME
