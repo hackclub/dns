@@ -1720,6 +1720,10 @@ graph.hcb:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+grounded:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 groups:
   ttl: 600
   type: CNAME
