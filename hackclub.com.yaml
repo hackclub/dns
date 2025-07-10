@@ -2735,6 +2735,10 @@ plis:
   ttl: 600
   type: CNAME
   value: plis-hackclub.netlify.app.
+plunge:
+    - ttl: 600
+    type: CNAME
+    value: dandililacs.github.io.
 podcast:
   ttl: 600
   type: CNAME
