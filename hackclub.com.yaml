@@ -2587,6 +2587,11 @@ ocsa:
     type: ALIAS
     value: cname.vercel-dns.com.
 
+odyssey:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
+
 orpheus-engine:
   - type: CNAME
     value: warehouse.selfhosted.hackclub.com.
