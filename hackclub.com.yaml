@@ -1804,6 +1804,10 @@ hackerspacein:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+hackfinger:
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
 hackhour:
   ttl: 600
   type: CNAME
