@@ -235,7 +235,7 @@ firepi:
 
 fokus: # https://github.com/leecheeyong/fokus
   ttl: 600
-  ype: CNAME
+  type: CNAME
   value: leecheeyong.github.io.
   
 foodshuffle: #scrapyard seattle team foodshuffle project
