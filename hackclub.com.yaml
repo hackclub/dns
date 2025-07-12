@@ -2919,6 +2919,10 @@ raincloud:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+railway:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 raspapi:
   - ttl: 600
     type: CNAME
