@@ -3501,6 +3501,10 @@ timedump:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+timeless:
+  ttl: 600
+  type: CNAME
+  value: hackclub.github.io.
 tist:
   - ttl: 600
     type: A
