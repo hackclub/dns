@@ -79,6 +79,9 @@ status:
 minio:
   - type: AAAA
     value: 2a01:4f9:3081:399c::19
+pbx:
+  - type: AAAA
+    value: 2a01:4f9:3081:399c:be24:11ff:fef0:3b81
 _dmarc:
   - type: TXT
     value: v=DMARC1\; p=quarantine\; rua=mailto:dmarc@hackclub.app\; ruf=mailto:dmarc@hackclub.app\; sp=none\; pct=100\; aspf=r
