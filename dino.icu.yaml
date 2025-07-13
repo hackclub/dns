@@ -52,10 +52,10 @@
 #   type: CNAME
 #   value: cname.vercel-dns.com.
 
-ai:                      # Suprised no one took this yet!
- - ttl: 600              # + AI
-   type: CNAME           # https://github.com/elijah629/web2050,
-   value: e.hackclub.app # > the internet except everything is and was vibe coded 
+ai:                       # Suprised no one took this yet!
+ - ttl: 600               # + AI
+   type: CNAME            # https://github.com/elijah629/web2050,
+   value: e.hackclub.app. # > the internet except everything is and was vibe coded 
 
 
 ajhalili2006: # by https://github.com/ajhalili2006 via https://github.com/andreijiroh-dev/website
