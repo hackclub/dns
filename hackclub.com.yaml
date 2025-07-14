@@ -3120,6 +3120,10 @@ shipwrecked-staging:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+shop.converge:
+  - ttl: 300
+    type: CNAME
+    value: c9eysvur.up.railway.app.
 count.shipwrecked:
   - ttl: 600
     type: CNAME
