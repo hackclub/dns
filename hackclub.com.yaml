@@ -3882,6 +3882,10 @@ retrospect:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+retro:
+  - ttl: 600
+    type: CNAME
+    value: 2f398924f4ac1f34.vercel-dns-016.com
 gps:
   - ttl: 600
     type: CNAME
