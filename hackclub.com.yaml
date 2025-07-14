@@ -150,7 +150,7 @@ _dmarc.hackatime:
 daydream:
   - ttl: 600
     type: CNAME
-    value: hackclub.github.io.
+    value: cname.vercel-dns.com.
 Cabbache:
   - ttl: 600
     type: CNAME
