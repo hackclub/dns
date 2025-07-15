@@ -2527,10 +2527,6 @@ newspaper:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
-newsroom:
-  - ttl: 600
-    type: CNAME
-    value: a.selfhosted.hackclub.com.
 nigeria:
   ttl: 600
   type: CNAME
@@ -3439,6 +3435,10 @@ telemetry:
   - ttl: 600
     type: A
     value: 159.89.254.91
+telecom:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 ten-days-of-code:
   - ttl: 600
     type: CNAME
