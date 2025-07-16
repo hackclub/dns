@@ -1398,6 +1398,10 @@ embed.scrapbook:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+emporium:
+  - ttl: 300
+    type: CNAME
+    value: 27cbbde38306f198.vercel-dns-016.com.
 envelope: # for loops.so spf & dmarc
   - type: MX
     values:
