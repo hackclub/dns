@@ -147,6 +147,10 @@ _dmarc.hackatime:
   ttl: 600
   type: CNAME
   value: static.249.211.181.135.clients.your-server.de.
+daydream:
+  - ttl: 600
+    type: CNAME
+    value: cc0d095f38b635b9.vercel-dns-016.com.
 Cabbache:
   - ttl: 600
     type: CNAME
@@ -2527,10 +2531,6 @@ newspaper:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
-newsroom:
-  - ttl: 600
-    type: CNAME
-    value: a.selfhosted.hackclub.com.
 nigeria:
   ttl: 600
   type: CNAME
@@ -3439,6 +3439,10 @@ telemetry:
   - ttl: 600
     type: A
     value: 159.89.254.91
+telecom:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 ten-days-of-code:
   - ttl: 600
     type: CNAME
@@ -3882,6 +3886,10 @@ retrospect:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+retro:
+  - ttl: 600
+    type: CNAME
+    value: 2f398924f4ac1f34.vercel-dns-016.com.
 gps:
   - ttl: 600
     type: CNAME
