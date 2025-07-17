@@ -474,6 +474,10 @@ arena:
   - ttl: 600
     type: CNAME
     value: 9036d1a8d9157543.vercel-dns-017.com.
+backend.arena:
+  ttl: 600
+  type: CNAME
+  value: fd39bf74a906c3be.vercel-dns-017.com.
 astra:
   - ttl: 600
     type: CNAME
@@ -738,10 +742,6 @@ b7zvtelc2k757b2pyx7bfr5gigqwni64._domainkey:
   - ttl: 600
     type: CNAME
     value: b7zvtelc2k757b2pyx7bfr5gigqwni64.dkim.custom-email-domain.stripe.com.
-backend.arena:
-  ttl: 600
-  type: CNAME
-  value: fd39bf74a906c3be.vercel-dns-017.com.
 bag:
   ttl: 600
   type: CNAME
