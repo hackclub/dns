@@ -2114,6 +2114,10 @@ jank:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+jet:
+  - ttl: 600
+    type: CNAME
+    value: 93403cee35b42da2.vercel-dns-016.com.
 jpeg:
   - ttl: 600
     type: CNAME
