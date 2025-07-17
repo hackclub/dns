@@ -3319,6 +3319,10 @@ sshchat:
   - ttl: 600
     type: A
     value: 150.136.142.44
+staging.submit:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 statehigh:
   - ttl: 600
     type: CNAME
