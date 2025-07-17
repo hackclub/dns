@@ -364,6 +364,7 @@ _vercel:
   ttl: 600
   type: TXT
   values:
+    - vc-domain-verify=backend.arena.hackclub.com,079b94be7b001fa4e775
     - vc-domain-verify=arena.hackclub.com,18d51eef05279bd5822f
     - vc-domain-verify=waffles.hackclub.com,04eb4de0bcc5369e4dca
     - vc-domain-verify=jpeg.hackclub.com,d10d5875d555c029e35a
@@ -737,6 +738,10 @@ b7zvtelc2k757b2pyx7bfr5gigqwni64._domainkey:
   - ttl: 600
     type: CNAME
     value: b7zvtelc2k757b2pyx7bfr5gigqwni64.dkim.custom-email-domain.stripe.com.
+backend.arena:
+  ttl: 600
+  type: CNAME
+  value: fd39bf74a906c3be.vercel-dns-017.com
 bag:
   ttl: 600
   type: CNAME
