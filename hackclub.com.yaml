@@ -1322,6 +1322,10 @@ dinoexplorer:
   - ttl: 600
     type: CNAME
     value: internetramen.github.io.
+disconnect:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 dockerize:
   - ttl: 600
     type: CNAME
