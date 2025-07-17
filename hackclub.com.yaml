@@ -2967,7 +2967,7 @@ rawr:
     value: hackclub.github.io.
 reality:
   - ttl: 600
-    type: CNAMD
+    type: CNAME
     value: 282ab20b3c2de7dd.vercel-dns-016.com.
 redwood.scrapbook:
   ttl: 600
