@@ -151,6 +151,10 @@ daydream:
   - ttl: 600
     type: CNAME
     value: cc0d095f38b635b9.vercel-dns-016.com.
+daydream-ottawa:
+  - ttl: 600
+    type: CNAME
+    value: daydream-mocha.vercel.app.
 Cabbache:
   - ttl: 600
     type: CNAME
