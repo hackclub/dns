@@ -741,7 +741,7 @@ b7zvtelc2k757b2pyx7bfr5gigqwni64._domainkey:
 backend.arena:
   ttl: 600
   type: CNAME
-  value: fd39bf74a906c3be.vercel-dns-017.com
+  value: fd39bf74a906c3be.vercel-dns-017.com.
 bag:
   ttl: 600
   type: CNAME
