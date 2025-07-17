@@ -3583,6 +3583,10 @@ toriel:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+toybox:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 tr:
   ttl: 600
   type: CNAME
