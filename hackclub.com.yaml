@@ -1740,6 +1740,10 @@ grounded:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+groundplane:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 groups:
   ttl: 600
   type: CNAME
