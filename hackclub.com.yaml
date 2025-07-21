@@ -1984,6 +1984,10 @@ help.bank:
 help.hcb:
   type: CNAME
   value: hcb.helpscoutdocs.com.
+hermes:
+  ttl: 600
+  type: CNAME
+  value: meghanam4.github.io.
 hersey:
   - ttl: 600
     type: CNAME
