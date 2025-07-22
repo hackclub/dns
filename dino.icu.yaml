@@ -740,8 +740,9 @@ yc:
   value: ns.youngchief.xyz.
 
 yates: 
-  type: A
-  value: 101.178.35.248
+ - ttl: 600
+   type: CNAME
+   value: retconn.duckdns.org.
 
 you-ship-we-vote:
   - ttl: 600
