@@ -274,7 +274,7 @@ _github-challenge-Orpheuspod.podcast:
     type: TXT
     value: b2e369c8f1
 _github-challenge-hack-as-a-service.haas:
-  type: TXT`
+  type: TXT
   value: dc63dbf87b
 _github-challenge-hackclub:
   - ttl: 600
