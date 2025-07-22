@@ -472,7 +472,7 @@ adastra:
     value: bit.ly/adastrahacks
 aesthetic:
   ttl: 600
-  type: CNAME
+  type: TXT
   value: a.selfhosted.hackclub.com.
 arena:
   - ttl: 600
