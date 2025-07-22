@@ -1858,7 +1858,7 @@ hackstore:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
-aesthetic:
+hacktheaesthetic:
   ttl: 600
   type: CNAME
   value: a.selfhosted.hackclub.com.
