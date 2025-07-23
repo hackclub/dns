@@ -190,6 +190,7 @@ _acme-challenge.hcb:
     - G8mlLCACopWDnpCSUrM2tcu_rNMpmv3S4va2zTqzWis
     - 9ywyiTK2ET9kATSBOUgOaRq3GdpR20csyFbQRWjh7OI
     - dmb3x2Kd2tZ13wPCOfWFssWquxd6ZCgVH7KPZ9q_B4U
+    - QEokOJNeUPCGQnbxXje5e93mxIprBZ_NtZbbRxwotGA
 _acme-challenge.hcb-test:
   type: TXT
   values:
