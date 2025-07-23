@@ -569,6 +569,10 @@ aurora:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+authly: 
+  - ttl: 600
+    type: CNAME
+    value: dandililacs.github.io.
 forge:
   - ttl: 600
     type: CNAME
