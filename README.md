@@ -37,7 +37,7 @@ To fix this, follow these steps, each in a seperate PR:
 
 ## Limitations
 
-Subdomains, under domains following the format `hackclub.xxx`(or other domains reffering to hackclub), are only available for clubs and projects related to Hack Club, this does not include HCB projects. Everyone is welcome to use `dino.icu`!
+Subdomains, under domains following the format `hackclub.xxx`(or other domains reffering to hackclub), are only available for official Hack Club projects, not including HCB (fiscally sponsored) projects. Everyone is welcome to use `dino.icu`!
 
 When adding a site hosted on ▲ Vercel, you will need to verifiy the domain by adding a TXT record.
 
