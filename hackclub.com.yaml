@@ -2701,6 +2701,11 @@ orpheusodyssey:
   - ttl: 600
     type: CNAME
     value: 1b3djzn4.up.railway.app.
+# fraud detection :D // hi@skyfall.dev
+osiris:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 outerlan:
   - ttl: 600
     type: CNAME
