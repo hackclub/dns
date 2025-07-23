@@ -3094,6 +3094,10 @@ saycheese:
 schedule:
   - type: CNAME
     value: calendso-production-f2a4.up.railway.app.
+schedule.webdev:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 scholarship:
   ttl: 600
   type: CNAME
@@ -3783,6 +3787,10 @@ warsaw:
     type: CNAME
     value: warsaw.hackclub.pl.
 waveband:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
+webdev:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
