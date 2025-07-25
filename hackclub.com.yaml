@@ -455,6 +455,7 @@ _vercel:
     - vc-domain-verify=hackducky.hackclub.com,511bdb3387c304b630b6
     - vc-domain-verify=security.hackclub.com,b005370fba78b1b3b932
     - vc-domain-verify=squeak.hackclub.com,0574abe068e7c3c4a91e
+    - vc-domain-verify=optimize.hackclub.com,08b88e7ff4ae25385700
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
