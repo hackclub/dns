@@ -2987,6 +2987,10 @@ raspapi:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+raspite:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 rawr:
   - ttl: 600
     type: CNAME
