@@ -3695,6 +3695,10 @@ uk:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+undercity:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 underground: 
   - ttl: 600
     type: CNAME
