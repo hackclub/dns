@@ -2879,6 +2879,10 @@ portal.ctf:
   ttl: 600
   type: A
   value: 167.99.110.64
+protalvr:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 postal:
   ttl: 600
   type: CNAME
