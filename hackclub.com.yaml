@@ -1370,6 +1370,10 @@ duk:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+dummies:
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
 dv:
   ttl: 600
   type: CNAME
