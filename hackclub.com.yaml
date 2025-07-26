@@ -2281,8 +2281,8 @@ laslomas:
     value: mystifying-torvalds-f8e697.netlify.com.
 lb.summer:
   - ttl: 600
-    type: CNAME
-    value: cyteon.hackclub.app.
+    type: A
+    value: 45.8.201.37
 leaderboard:
   ttl: 600
   type: CNAME
