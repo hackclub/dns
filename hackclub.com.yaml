@@ -64,8 +64,8 @@ ihs:
   - ttl: 3600
     type: TXT
     name: zmail._domainkey.1or0
-    value: "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCKKyJiBWZBxQdbGUiGLxV140jFzg1lbRg4FmdieLlssc7nutSuXqroGRjqXA1O9myTxoQTh7f5tokrBRTdB3kxjIELePLraxHBzKi8tdhI3fx2qWeI5pndtdTkKpX3ucCCLDpCoH2kc5avNdlhvYNHp0ReU5Mwe3mF2FcCvCMpaQIDAQAB"
-    
+    value: "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCKKyJiBWZBxQdbGUiGLxV140jFzg1lbRg4FmdieLlssc7nutSuXqroGRjqXA1O9myTxoQTh7f5tokrBRTdB3kxjIELePLraxHBzKi8tdhI3fx2qWeI5pndtdTkKpX3ucCCLDpCoH2kc5avNdlhvYNHp0ReU5Mwe3mF2FcCvCMpaQIDAQAB"    
+
 20230913174421pm._domainkey:
   type: TXT
   value: k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCbYfun+ZMwXJGRqp41sG/OXWPgbQd6Ewf/ccOBCvigm9LSarnT1QCUizzc+ZqBfSc4UTlJJx2hyhWYN6zFHibSndOBmY3y09uKuv7S4v3usfhpVVJZw9BOQLL4N9uIysrzLhVOfCpXiIIQQHn/a277SA8klIDfVcZkxdkyBRQDlQIDAQAB
@@ -4083,3 +4083,4 @@ hackducky: #add hackducky
   - ttl: 600
     type: CNAME
     value: 6be30c9fb60ab816.vercel-dns-017.com.
+
