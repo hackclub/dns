@@ -21,6 +21,14 @@ hack.club:
 l:
   - type: CNAME
     value: a.selfhosted.hackclub.com.
+my:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
+phantom:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 hss:
   - type: CNAME
     value: a.selfhosted.hackclub.com.
@@ -37,8 +45,4 @@ ship:
     value: a.selfhosted.hackclub.com.
 summer:
   - type: CNAME
-    value: a.selfhosted.hackclub.com.
-my:
-  - ttl: 600
-    type: CNAME
     value: a.selfhosted.hackclub.com.
