@@ -964,6 +964,10 @@ boreal:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+bitstream:
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
 caffeinecrash:
   ttl: 600
   type: CNAME
