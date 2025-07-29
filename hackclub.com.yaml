@@ -1434,7 +1434,11 @@ emporium:
   - ttl: 300
     type: CNAME
     value: 27cbbde38306f198.vercel-dns-016.com.
-envelope: # for loops.so spf & dmarc
+endpointer:
+  - ttl: 600
+    type: CNAME
+    value: 793ca34752d16877.vercel-dns-016.com.
+envelope: # for loops. so spf & dmarc
   - type: MX
     values:
       - exchange: feedback-smtp.us-east-1.amazonses.com.
