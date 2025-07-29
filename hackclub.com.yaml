@@ -2438,7 +2438,7 @@ maxday:
 mc:
   ttl: 600
   type: CNAME
-  value: pterodactyl.hack.ngo
+  value: pterodactyl.hack.ngo.
 _minecraft._tcp.mc.hackclub.com:
   ttl: 600
   type: SRV
