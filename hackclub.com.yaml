@@ -456,6 +456,7 @@ _vercel:
     - vc-domain-verify=security.hackclub.com,b005370fba78b1b3b932
     - vc-domain-verify=squeak.hackclub.com,0574abe068e7c3c4a91e
     - vc-domain-verify=optimize.hackclub.com,08b88e7ff4ae25385700
+    - vc-domain-verify=enclosure.hackclub.com,d53bb405059ed166d79e
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -1434,6 +1435,10 @@ emporium:
   - ttl: 300
     type: CNAME
     value: 27cbbde38306f198.vercel-dns-016.com.
+enclosure:
+  - ttl: 600
+  - type: CNAME
+  - value: cname.vercel-dns.com
 endpointer:
   - ttl: 600
     type: CNAME
