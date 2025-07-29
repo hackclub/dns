@@ -2437,8 +2437,16 @@ maxday:
   value: maxday-prod.netlify.com.
 mc:
   ttl: 600
-  type: A
-  value: 34.90.81.2
+  type: CNAME
+  value: pterodactyl.hack.ngo
+_minecraft._tcp.mc.hackclub.com:
+  ttl: 600
+  type: SRV
+  values:
+    - port: 26656
+      priority: 10
+      target: node.pterodactyl.hack.ngo.
+      weight: 100
 mccownhacks:
   - ttl: 600
     type: NS
