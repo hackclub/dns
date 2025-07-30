@@ -1,4 +1,3 @@
----
 "":
   - type: ALIAS
     value: a.selfhosted.hackclub.com.
@@ -9,40 +8,51 @@
   - type: TXT
     values:
       - ahrefs-site-verification_047924a9a454abb4497f9a4389b610eeca5538ca8d46ab4288da0da0b8acc282
+
 ahoy:
   - type: CNAME
     value: cname.vercel-dns.com.
+
 athena:
   - type: CNAME
     value: a.selfhosted.hackclub.com.
+
 hack.club:
   - type: ALIAS
     value: cname.vercel-dns.com.
+
 l:
   - type: CNAME
     value: a.selfhosted.hackclub.com.
+
 my:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+
 phantom:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+
 hss:
   - type: CNAME
     value: a.selfhosted.hackclub.com.
+
 mail:
   - type: CNAME
     value: a.selfhosted.hackclub.com.
+
 shipwrecked:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+
 ship:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+
 summer:
   - type: CNAME
     value: a.selfhosted.hackclub.com.
