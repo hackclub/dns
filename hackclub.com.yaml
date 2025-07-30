@@ -1434,7 +1434,11 @@ emporium:
   - ttl: 300
     type: CNAME
     value: 27cbbde38306f198.vercel-dns-016.com.
-envelope: # for loops.so spf & dmarc
+endpointer:
+  - ttl: 600
+    type: CNAME
+    value: 793ca34752d16877.vercel-dns-016.com.
+envelope: # for loops. so spf & dmarc
   - type: MX
     values:
       - exchange: feedback-smtp.us-east-1.amazonses.com.
@@ -2029,6 +2033,10 @@ hi:
 hiring:
   - type: CNAME
     value: animate-pheasant-b68leqv9y7xrz13060wscb8c.herokudns.com.
+hivemind:
+  ttl: 600
+  type: CNAME
+  value: hackclub.github.io.
 holiday2022.cchs:
   - ttl: 600
     type: CNAME
@@ -2179,6 +2187,10 @@ jumpstart:
     type: CNAME
     value: themagicfrog.github.io.
 v1.jumpstart:
+  - ttl: 600
+    type: CNAME
+    value: themagicfrog.github.io.
+daydream.jumpstart:
   - ttl: 600
     type: CNAME
     value: themagicfrog.github.io.
@@ -2429,8 +2441,16 @@ maxday:
   value: maxday-prod.netlify.com.
 mc:
   ttl: 600
-  type: A
-  value: 34.90.81.2
+  type: CNAME
+  value: pterodactyl.hack.ngo.
+_minecraft._tcp.mc.hackclub.com:
+  ttl: 600
+  type: SRV
+  values:
+    - port: 26656
+      priority: 10
+      target: node.pterodactyl.hack.ngo.
+      weight: 100
 mccownhacks:
   - ttl: 600
     type: NS
