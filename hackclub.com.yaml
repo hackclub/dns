@@ -3076,6 +3076,10 @@ renaissance-24:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+review-factory-backend:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 rewind:
   ttl: 600
   type: CNAME
