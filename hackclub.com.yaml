@@ -2512,6 +2512,10 @@ miracosta:
   ttl: 600
   type: CNAME
   value: miracosta.netlify.app.
+mob-games:
+  ttl: 600
+  type: CNAME
+  value: d906b8f58a045a63e82061d953776462.ipv4.tcpshield.com.
 moonbeam:
   - ttl: 600
     type: CNAME
