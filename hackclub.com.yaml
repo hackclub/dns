@@ -1103,6 +1103,10 @@ cken:
   - ttl: 600
     type: A
     value: 52.191.165.18
+cmd-k:
+  ttl: 600
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 codeabit:
   - ttl: 600
     type: CNAME
