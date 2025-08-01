@@ -3269,6 +3269,10 @@ showcase:
   ttl: 600
   type: CNAME
   value: onboard-7w9.pages.dev.
+shush:
+  ttl: 600
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 security:
   ttl: 600
   type: CNAME
