@@ -2084,6 +2084,10 @@ id:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+iframe:
+ - ttl: 600
+   type: CNAME
+   value: a.selfhosted.hackclub.com.
 id.assemble:
   ttl: 600
   type: CNAME
