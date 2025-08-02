@@ -567,6 +567,9 @@ angelhacksla:
 archive:
   - type: CNAME
     value: archive.selfhosted.hackclub.com.
+arker-demo:
+  - type: CNAME
+    value: archive.selfhosted.hackclub.com.
 aurora:
   - ttl: 600
     type: CNAME
