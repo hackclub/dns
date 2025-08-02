@@ -3010,6 +3010,10 @@ psn:
   - ttl: 600
     type: CNAME
     value: psnhackclub.netlify.app.
+pulse:
+  - ttl: 600
+    type: CNAME
+    value: pulse.phoenixclub.ro.
 puyallup:
   - ttl: 600
     type: ALIAS
