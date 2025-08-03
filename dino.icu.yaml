@@ -363,6 +363,11 @@ lkmw:
   ttl: 600
   type: CNAME
   value: wilkin.xyz.
+
+lyon:
+   ttl: 600
+    type: CNAME
+    value: lyon-website.pages.dev.
   
 mail: # a page to share your email with orpheus
   ttl: 600
