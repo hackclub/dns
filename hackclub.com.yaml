@@ -38,6 +38,10 @@ slashz:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+siliconplane:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 ihs:
   - ttl: 600
     type: CNAME
