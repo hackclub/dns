@@ -2800,6 +2800,10 @@ infinity:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+zoo:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 ows: #outernet-web-services
   - ttl: 600
     type: NS
