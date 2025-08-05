@@ -368,6 +368,11 @@ lyon:
   ttl: 600
   type: CNAME
   value: lyon-website.pages.dev.
+  ttl: 3600
+  type: TXT
+  value: MS=ms53190800.
+  #I need to use this domain to send and receive email.
+  #Is it allowed to use nameservers from others (such as Cloudflare)?
   
 mail: # a page to share your email with orpheus
   ttl: 600
