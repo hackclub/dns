@@ -3248,6 +3248,10 @@ scriptingnest:
   - ttl: 600
     type: AAAA
     value: 2a01:4f9:3081:399c::4
+self-portrait:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 server.psn:
   ttl: 600
   type: A
