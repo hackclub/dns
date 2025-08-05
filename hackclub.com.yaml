@@ -2800,10 +2800,6 @@ infinity:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
-zoo:
-  - ttl: 600
-    type: CNAME
-    value: a.selfhosted.hackclub.com.
 ows: #outernet-web-services
   - ttl: 600
     type: NS
@@ -4011,6 +4007,10 @@ zh:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+zoo:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 zwp:
   - ttl: 600
     type: A
