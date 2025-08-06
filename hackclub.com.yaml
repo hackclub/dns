@@ -1546,6 +1546,10 @@ epochvt:
         preference: 10
       - exchange: aspmx4.googlemail.com.
         preference: 10
+essays:
+  ttl: 600
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 events:
   ttl: 600
   type: CNAME
