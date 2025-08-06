@@ -2597,6 +2597,10 @@ nephthys:
   ttl: 600
   type: CNAME
   value: a.selfhosted.hackclub.com.
+neohack:
+  - ttl: 600
+    type: CNAME
+    value: neohackysws.netlify.app.
 nestm:
   ttl: 600
   type: CNAME
@@ -4015,6 +4019,10 @@ zh:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+zoo:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 zwp:
   - ttl: 600
     type: A
