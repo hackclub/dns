@@ -5,11 +5,11 @@
   - type: AAAA
     value: 2a01:4f9:3081:399c::4
   - type: MX
-    values: 
+    values:
       - exchange: mail.hackclub.app.
         priority: 10
   - type: TXT
-    value: "v=spf1 mx ~all" 
+    value: "v=spf1 mx ~all"
   - type: SSHFP
     values:
       - algorithm: 1
@@ -24,11 +24,17 @@
 "*":
   - type: CNAME
     value: hackclub.app.
+scrapyard:
+  - type: CNAME
+    value: cname.vercel-dns.com.
 secure:
   - type: A
     value: 37.27.51.33
   - type: AAAA
     value: 2a01:4f9:3081:399c::3
+summit:
+  - type: CNAME
+    value: cname.vercel-dns.com.
 ts:
   - type: CNAME
     value: secure.hackclub.app.
@@ -40,6 +46,11 @@ passwd.ts:
 pve.ts:
   - type: A
     value: 100.64.0.10
+  - type: AAAA
+    value: fd7a:115c:a1e0::a
+proxmox:
+  - type: A
+    value: 37.27.51.35
   - type: AAAA
     value: 2a01:4f9:3081:399c::2
 guides:
@@ -55,9 +66,28 @@ mail:
     value: 2a01:4f9:3081:399c::4
   - type: TXT
     value: "v=spf1 a ~all"
+logs:
+  - type: A
+    value: 65.21.241.32
+  - type: AAAA
+    value: 2a01:4f9:c012:27ed::1
+status:
+  - type: A
+    value: 65.21.241.32
+  - type: AAAA
+    value: 2a01:4f9:c012:27ed::2
+minio:
+  - type: AAAA
+    value: 2a01:4f9:3081:399c::19
+pbx:
+  - type: AAAA
+    value: 2a01:4f9:3081:399c:be24:11ff:fef0:3b81
 _dmarc:
   - type: TXT
-    value: v=DMARC1\; p=quarantine\; pct=100\; rua=mailto:re+go6t7fdzddc@dmarc.postmarkapp.com\; sp=none\; aspf=r\;
+    value: v=DMARC1\; p=quarantine\; rua=mailto:dmarc@hackclub.app\; ruf=mailto:dmarc@hackclub.app\; sp=none\; pct=100\; aspf=r
 default._domainkey:
   - type: TXT
     value: v=DKIM1\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA17VSzPTBHOoJZakJwP61rT45jUBXrwUOxyZ1cAJdcHTNZDqxAxK6BzGM0TlpUW2eY8mMSXqiqS6fGSOkJOVnJT4TR4lXP+bK9rQW758q2nbArbGVEO8R8vsaeaGUBPHxwlNdtnvmtBqgTjNLl4KZ5hmyHjtAbFovb8QlgEHOW8/itt9ayHOocD6fZwb0fqZUCCVjQsrJ3TLa5CcTiQVuzV25ZoUOY64M95ZpUiT2lkQBqIcdsNl9FSZ4Cn1u88MHR/sgC/VX9JcWMeviIfNmlSDkFEH6ciht65iMWLoS6jqEQEg0v8G/5tdc3kAYFQoeOOACqCdk7qpRwmgNrB7A5QIDAQAB
+nest2024._domainkey:
+  - type: TXT
+    value: v=DKIM1\; h=sha256\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAty0gSU619f5L+iykm4FezEwL7zqYqaMV7bcTw31z417DZ2zmV17nPqmJEKmnwNu7H0wxbDOJQdxacTexlmTQS+SMnDhPzkeR72bJC6iXfWvhknwfnuoHeTSszHSrywpSIQ5qNybrGQKMv2pn+FZAQh38j/I2bjVwsAyqfQgj8h4KD5GilUtue9BRvaYnfH9y0JyIesDmsVjkiSGOp2wf4B81tPO9QuS+2aiHkyXsEyMzWuCEux0MXHcalLKDMqQkawcJrgRuBgUFXfqsowFq2WgpAi8Fb7ngxHO+h65nPV3I0rk9i+LsyJ+S30C2uI/vLjd2aN7+4q/gSM75QdsfXwIDAQAB

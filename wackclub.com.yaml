@@ -9,3 +9,7 @@
   ttl: 1
   type: CNAME
   value: proxyparty.hackclub.com.
+waka:
+  ttl: 600
+  type: CNAME
+  value: computational-peanut-mvy0y15xi0piy49ub7khg5mn.herokudns.com.
