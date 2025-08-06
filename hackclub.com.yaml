@@ -1413,10 +1413,6 @@ editor.bitstream:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
-editor.fab:
-  ttl: 600
-  type: CNAME
-  value: cname.vercel-dns.com.
 editor.haxidraw:
   ttl: 600
   type: CNAME
@@ -1586,6 +1582,10 @@ fab:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+editor.fab:
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
 feed.assemble:
   - ttl: 600
     type: CNAME
