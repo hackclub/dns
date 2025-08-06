@@ -163,6 +163,11 @@ codingcrew: # by https://github.com/shim-sham
   ttl: 600 
   type: CNAME
   value: lustrous-ganache-dbb807.netlify.app. 
+
+cr:
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
   
 cslide: 
   ttl: 600

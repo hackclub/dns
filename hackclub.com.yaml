@@ -1546,6 +1546,10 @@ epochvt:
         preference: 10
       - exchange: aspmx4.googlemail.com.
         preference: 10
+essays:
+  ttl: 600
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 events:
   ttl: 600
   type: CNAME
@@ -2594,9 +2598,9 @@ nephthys:
   type: CNAME
   value: a.selfhosted.hackclub.com.
 neohack:
-  - ttl: 600
-    type: CNAME
-    value: neohackysws.netlify.app.
+   ttl: 600
+   type: CNAME
+   value: a.selfhosted.hackclub.com.
 nestm:
   ttl: 600
   type: CNAME
