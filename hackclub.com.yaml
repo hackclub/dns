@@ -4146,3 +4146,12 @@ hackducky: #add hackducky
   - ttl: 600
     type: CNAME
     value: 6be30c9fb60ab816.vercel-dns-017.com.
+buildathon:
+  - ttl: 600
+    type: CNAME
+    value: build-athon.vercel.app.
+_vercel:
+  ttl: 600
+  type: TXT
+  values:
+    - vc-domain-verify=buildathon.hackclub.com,e8e478aaa2d2c324dd3c
