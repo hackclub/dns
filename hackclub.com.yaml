@@ -2598,9 +2598,9 @@ nephthys:
   type: CNAME
   value: a.selfhosted.hackclub.com.
 neohack:
-  - ttl: 600
-    type: CNAME
-    value: neohackysws.netlify.app.
+   ttl: 600
+   type: CNAME
+   value: a.selfhosted.hackclub.com.
 nestm:
   ttl: 600
   type: CNAME
