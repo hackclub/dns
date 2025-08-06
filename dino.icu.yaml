@@ -163,6 +163,11 @@ codingcrew: # by https://github.com/shim-sham
   ttl: 600 
   type: CNAME
   value: lustrous-ganache-dbb807.netlify.app. 
+
+cr:
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
   
 cslide: 
   ttl: 600
@@ -262,6 +267,11 @@ geta: # yoda - https://getadinoicu.yodacode.repl.co/dino.png - get a dino from h
   ttl: 600
   type: CNAME
   value: ef35bb48-f121-4f7f-91f6-93f601559c24.id.repl.co.
+
+gyor: # hack club győr website
+  - ttl: 600
+    type: CNAME
+    value: hackclub-gyor.4f48.workers.dev.
 
 hacktv:
   - ttl: 600

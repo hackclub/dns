@@ -1445,6 +1445,10 @@ embed.scrapbook:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+emerge:
+  ttl: 600
+  type: CNAME
+  value: 9551a288652e69f0.vercel-dns-016.com.
 emporium:
   - ttl: 300
     type: CNAME
@@ -1546,6 +1550,10 @@ epochvt:
         preference: 10
       - exchange: aspmx4.googlemail.com.
         preference: 10
+essays:
+  ttl: 600
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 events:
   ttl: 600
   type: CNAME
@@ -2601,6 +2609,10 @@ nephthys:
   ttl: 600
   type: CNAME
   value: a.selfhosted.hackclub.com.
+neohack:
+   ttl: 600
+   type: CNAME
+   value: a.selfhosted.hackclub.com.
 nestm:
   ttl: 600
   type: CNAME
@@ -3135,6 +3147,10 @@ ro:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+roulette:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 rpg:
   - ttl: 600
     type: CNAME
@@ -3252,6 +3268,10 @@ scriptingnest:
   - ttl: 600
     type: AAAA
     value: 2a01:4f9:3081:399c::4
+self-portrait:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 server.psn:
   ttl: 600
   type: A
@@ -4011,6 +4031,10 @@ zh:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+zoo:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 zwp:
   - ttl: 600
     type: A
