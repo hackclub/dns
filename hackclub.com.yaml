@@ -1586,6 +1586,14 @@ fa:
   - ttl: 1
     type: CNAME
     value: cname.vercel-dns.com.
+fab:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
+editor.fab:
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
 feed.assemble:
   - ttl: 600
     type: CNAME
