@@ -1565,7 +1565,7 @@ epochvt:
 essays:
   ttl: 600
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: hackclub.github.io.
 events:
   ttl: 600
   type: CNAME
