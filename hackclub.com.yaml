@@ -582,6 +582,10 @@ archive:
 arker-demo:
   - type: CNAME
     value: archive.selfhosted.hackclub.com.
+armed:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 aurora:
   - ttl: 600
     type: CNAME
