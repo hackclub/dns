@@ -3304,6 +3304,10 @@ shipwrecked-staging:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+badge.shipwrecked:
+  - ttl: 600
+    type: CNAME
+    value: mpkendall.github.io.
 count.shipwrecked:
   - ttl: 600
     type: CNAME
