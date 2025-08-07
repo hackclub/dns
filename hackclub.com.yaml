@@ -4128,8 +4128,8 @@ metabase:
     value: a.selfhosted.hackclub.com.
 ai:
   - ttl: 600
-    type: A
-    value: 5.161.100.52
+    type: CNAME
+    value: b.selfhosted.hackclub.com.
 lockin:
   - ttl: 600
     type: A
