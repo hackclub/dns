@@ -116,11 +116,11 @@ _dmarc.hackatime:
 "b.selfhosted":
   ttl: 600
   type: CNAME
-  value: static.37.133.55.162.clients.your-server.de.
+  value: static.56.213.119.168.clients.your-server.de.
 "*.b.selfhosted":
   ttl: 600
   type: CNAME
-  value: static.37.133.55.162.clients.your-server.de.
+  value: static.56.213.119.168.clients.your-server.de.
 "uptime.selfhosted":
   ttl: 600
   type: CNAME
