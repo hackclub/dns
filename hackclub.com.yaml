@@ -116,8 +116,16 @@ _dmarc.hackatime:
 "b.selfhosted":
   ttl: 600
   type: CNAME
-  value: static.114.137.78.5.clients.your-server.de.
+  value: static.37.133.55.162.clients.your-server.de.
 "*.b.selfhosted":
+  ttl: 600
+  type: CNAME
+  type: static.37.133.55.162.clients.your-server.de.
+"uptime.selfhosted":
+  ttl: 600
+  type: CNAME
+  value: static.114.137.78.5.clients.your-server.de.
+"*.uptime.selfhosted":
   ttl: 600
   type: CNAME
   value: static.114.137.78.5.clients.your-server.de.
@@ -3809,7 +3817,7 @@ university:
     value: developmental-garbanzo-kw68e5tap3bg721c9c295nux.herokudns.com.
 uptime:
   - type: CNAME
-    value: b.selfhosted.hackclub.com.
+    value: uptime.selfhosted.hackclub.com.
 uqq467l64nnf3dyo6omjcjmcc3dmdqlb._domainkey:
   - ttl: 600
     type: CNAME
