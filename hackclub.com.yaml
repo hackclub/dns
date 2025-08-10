@@ -3556,6 +3556,10 @@ submit:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+submit.v2.hackclub.com:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 suceava:
   - ttl: 600
     type: CNAME
