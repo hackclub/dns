@@ -4174,6 +4174,10 @@ clubdash:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+crates:
+  - ttl: 600
+    type: CNAME
+    value: b.selfhosted.hackclub.com.
 teachyourmachine:
   - ttl: 600
     type: CNAME
