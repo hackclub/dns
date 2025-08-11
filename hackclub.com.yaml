@@ -3317,7 +3317,7 @@ shipwrecked-staging:
 simmer:
   ttl: 600
   type: CNAME
-  value: 852ee4e4c4f50fbd.vercel-dns-017.com
+  value: 852ee4e4c4f50fbd.vercel-dns-017.com.
 badge.shipwrecked:
   - ttl: 600
     type: CNAME
