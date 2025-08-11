@@ -3368,7 +3368,7 @@ sidequests:
 siege:
   ttl: 600
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: b.selfhosted.hackclub.com.
 sign:
   ttl: 600
   type: CNAME
