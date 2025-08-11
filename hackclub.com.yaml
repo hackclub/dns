@@ -2554,7 +2554,7 @@ milton:
 minicraft:
   ttl: 600
   type: CNAME
-  value: minicraft-dvk.pages.dev
+  value: minicraft-dvk.pages.dev.
 minustwelve:
   ttl: 600
   type: CNAME
