@@ -2551,6 +2551,10 @@ milton:
   ttl: 10000
   type: CNAME
   value: miltonhackclub.pages.dev.
+minicraft:
+  ttl: 600
+  type: CNAME
+  value: minicraft-dvk.pages.dev
 minustwelve:
   ttl: 600
   type: CNAME
