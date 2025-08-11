@@ -974,6 +974,11 @@ birthday:
     type: TXT
     value: vc-domain-verify=birthday.hackclub.com,b54f1e09bf276faffd29.
 
+birthday-cards:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
+
 #bloomington:
 #  - ttl: 600
 #    type: CNAME
