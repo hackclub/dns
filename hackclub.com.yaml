@@ -1612,6 +1612,10 @@ editor.fab:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+fanpage:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 feed.assemble:
   - ttl: 600
     type: CNAME
