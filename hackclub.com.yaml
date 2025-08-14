@@ -1128,6 +1128,10 @@ cken:
   - ttl: 600
     type: A
     value: 52.191.165.18
+clutter:
+  - ttl: 600
+    type: A
+    value: a.selfhosted.hackclub.com.
 cmd-k:
   ttl: 600
   type: CNAME
