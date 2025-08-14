@@ -3993,6 +3993,10 @@ whs:
   - ttl: 600
     type: CNAME
     value: whs-hackclub.netlify.com.
+windmill:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 wl:
   - ttl: 600
     type: CNAME
