@@ -2276,6 +2276,10 @@ jobs:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+joe:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 js-slash-z:
   - ttl: 600
     type: CNAME
