@@ -469,6 +469,7 @@ _vercel:
     - vc-domain-verify=squeak.hackclub.com,0574abe068e7c3c4a91e
     - vc-domain-verify=optimize.hackclub.com,08b88e7ff4ae25385700
     - vc-domain-verify=simmer.hackclub.com,19a5cdf65fc7aedb7ccb
+    - vc-domain-verify=fusering.hackclub.com,b3bcae34deb4b6c261c1
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -1624,6 +1625,10 @@ feed.assemble:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+fusering:
+  - ttl: 600
+    type: CNAME
+    value: 71b1e2defbc1af44.vercel-dns-017.com
 fhs:
   - ttl: 600
     type: CNAME
