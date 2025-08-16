@@ -1625,10 +1625,6 @@ feed.assemble:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
-fusering:
-  - ttl: 600
-    type: CNAME
-    value: 71b1e2defbc1af44.vercel-dns-017.com.
 fhs:
   - ttl: 600
     type: CNAME
@@ -1719,6 +1715,10 @@ front-mail:
     values:
       - exchange: mx.sendgrid.net.
         preference: 1
+fusering:
+  - ttl: 600
+    type: CNAME
+    value: 71b1e2defbc1af44.vercel-dns-017.com.
 gaither:
   ttl: 600
   type: CNAME
