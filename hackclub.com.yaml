@@ -1628,7 +1628,7 @@ feed.assemble:
 fusering:
   - ttl: 600
     type: CNAME
-    value: 71b1e2defbc1af44.vercel-dns-017.com
+    value: 71b1e2defbc1af44.vercel-dns-017.com.
 fhs:
   - ttl: 600
     type: CNAME
