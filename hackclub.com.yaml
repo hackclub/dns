@@ -3323,6 +3323,10 @@ sgd._domainkey: # SendGrid Sender Authentication (bank@hackclub.com)
   ttl: 600
   type: CNAME
   value: sgd.domainkey.u14148987.wl238.sendgrid.net.
+shiba:
+  - ttl: 600
+    type: CNAME
+    value: f34017b678602b1e.vercel-dns-016.com.
 shipwrecked:
   - ttl: 600
     type: CNAME
