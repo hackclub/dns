@@ -182,7 +182,7 @@ daydream:
         preference: 10
       - exchange: ALT4.ASPMX.L.GOOGLE.COM.
         preference: 10
-  Cabbache:
+Cabbache:
   - ttl: 600
     type: CNAME
     value: cabbache.ddnsking.com.
