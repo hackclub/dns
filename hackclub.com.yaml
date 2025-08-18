@@ -159,29 +159,6 @@ _dmarc.hackatime:
   ttl: 600
   type: CNAME
   value: static.249.211.181.135.clients.your-server.de.
-daydream:
-  - ttl: 600
-    type: A
-    value: a.selfhosted.hackclub.com.
-  - ttl: 3600
-    type: TXT
-    value: google-site-verification=Bu5WZO3irOCbcJhWCTUrBN_JJfbuGNeEAp4j_itf6J8
-  - ttl: 3600
-    type: TXT
-    value: v=spf1 include:_spf.google.com ~all
-  - ttl: 600
-    type: MX
-    values:
-      - exchange: ASPMX.L.GOOGLE.COM.
-        preference: 1
-      - exchange: ALT1.ASPMX.L.GOOGLE.COM.
-        preference: 5
-      - exchange: ALT2.ASPMX.L.GOOGLE.COM.
-        preference: 5
-      - exchange: ALT3.ASPMX.L.GOOGLE.COM.
-        preference: 10
-      - exchange: ALT4.ASPMX.L.GOOGLE.COM.
-        preference: 10
 Cabbache:
   - ttl: 600
     type: CNAME
