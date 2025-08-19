@@ -3323,10 +3323,6 @@ self-portrait:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
-waveform:
-  - ttl: 600
-    type: CNAME
-    value: a.selfhosted.hackclub.com.    
 server.psn:
   ttl: 600
   type: A
@@ -3990,6 +3986,10 @@ waveband:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+waveform:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.        
 webdev:
   - ttl: 600
     type: CNAME
