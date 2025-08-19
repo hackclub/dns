@@ -1830,6 +1830,10 @@ graph.hcb:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+grass:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 grounded:
   - ttl: 600
     type: CNAME
@@ -2852,6 +2856,14 @@ slushies:
     type: CNAME
     value: a.selfhosted.hackclub.com.
 tile:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
+touch:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
+touch-grass:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
