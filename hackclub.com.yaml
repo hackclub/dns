@@ -3323,6 +3323,10 @@ self-portrait:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+waveform:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.    
 server.psn:
   ttl: 600
   type: A
