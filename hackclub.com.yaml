@@ -297,10 +297,6 @@ _github-pages-challenge-arsenic-club.arsenic:
   - ttl: 600
     type: TXT
     value: e46c397c5bd751389a024480dbb07b
-_github-pages-challenge-Acidicts.bccs:
-  - ttl: 600
-    type: TXT
-    value: 43944fe4fc778c3944f82a0ac22d24.
 _github-pages-challenge-cghs-hackclub.cghs:
   - ttl: 7200
     type: TXT
@@ -833,10 +829,6 @@ bbss:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
-bccs:
-  - ttl: 600
-    type: CNAME
-    value: acidicts.github.io.
 berkeley:
   - ttl: 600
     type: CNAME
@@ -2547,15 +2539,6 @@ _minecraft._tcp.mc.hackclub.com:
       priority: 10
       target: node.pterodactyl.hack.ngo.
       weight: 100
-mccownhacks:
-  - ttl: 600
-    type: NS
-    values:
-      - ns1.he.net.
-      - ns2.he.net.
-      - ns3.he.net.
-      - ns4.he.net.
-      - ns5.he.net.
 mcneil:
   - ttl: 600
     type: A
