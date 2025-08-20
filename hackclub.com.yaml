@@ -1012,6 +1012,10 @@ bitstream:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+cad:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 caffeinecrash:
   ttl: 600
   type: CNAME
@@ -1845,6 +1849,10 @@ gr:
   type: CNAME
   value: cname.vercel-dns.com.
 graph.hcb:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
+grass:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
@@ -2873,6 +2881,14 @@ tile:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+touch:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
+touch-grass:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 infinity:
   - ttl: 600
     type: CNAME
@@ -3341,6 +3357,10 @@ sgd._domainkey: # SendGrid Sender Authentication (bank@hackclub.com)
   ttl: 600
   type: CNAME
   value: sgd.domainkey.u14148987.wl238.sendgrid.net.
+shiba:
+  - ttl: 600
+    type: CNAME
+    value: f34017b678602b1e.vercel-dns-016.com.
 shipwrecked:
   - ttl: 600
     type: CNAME
@@ -3988,6 +4008,10 @@ waveband:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+waveform:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.        
 webdev:
   - ttl: 600
     type: CNAME
