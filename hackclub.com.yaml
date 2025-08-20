@@ -2084,6 +2084,10 @@ hcpcxc:
 hear:
   type: CNAME
   value: cname.vercel-dns.com.
+helm:
+  - ttl: 600
+    type: CNAME
+    value: helm-bgh.pages.dev.
 help.bank:
   type: CNAME
   value: hcb-proxy.servers.hackclub.com.
