@@ -994,6 +994,10 @@ bitstream:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+cad:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 caffeinecrash:
   ttl: 600
   type: CNAME
