@@ -159,10 +159,6 @@ _dmarc.hackatime:
   ttl: 600
   type: CNAME
   value: static.249.211.181.135.clients.your-server.de.
-daydream:
-  - ttl: 600
-    type: CNAME
-    value: a.selfhosted.hackclub.com.
 Cabbache:
   - ttl: 600
     type: CNAME
