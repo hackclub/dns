@@ -159,6 +159,28 @@ _dmarc.hackatime:
   ttl: 600
   type: CNAME
   value: static.249.211.181.135.clients.your-server.de.
+daydream:
+  - ttl: 600
+    type: ALIAS
+    value: a.selfhosted.hackclub.com.
+  - ttl: 3600
+    type: TXT
+    values:
+      - google-site-verification=Bu5WZO3irOCbcJhWCTUrBN_JJfbuGNeEAp4j_itf6J8
+      - v=spf1 include:_spf.google.com ~all
+  - ttl: 600
+    type: MX
+    values:
+      - exchange: aspmx.l.google.com.
+        preference: 1
+      - exchange: alt1.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt2.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt3.aspmx.l.google.com.
+        preference: 10
+      - exchange: alt4.aspmx.l.google.com.
+        preference: 10
 Cabbache:
   - ttl: 600
     type: CNAME
@@ -1288,28 +1310,6 @@ dash.hackathons:
   ttl: 600
   type: CNAME
   value: a.selfhosted.hackclub.com.
-daydream:
-  - ttl: 600
-    type: ALIAS
-    value: a.selfhosted.hackclub.com.
-  - ttl: 3600
-    type: TXT
-    values:
-      - google-site-verification=Bu5WZO3irOCbcJhWCTUrBN_JJfbuGNeEAp4j_itf6J8
-      - v=spf1 include:_spf.google.com ~all
-  - ttl: 600
-    type: MX
-    values:
-      - exchange: aspmx.l.google.com.
-        preference: 1
-      - exchange: alt1.aspmx.l.google.com.
-        preference: 5
-      - exchange: alt2.aspmx.l.google.com.
-        preference: 5
-      - exchange: alt3.aspmx.l.google.com.
-        preference: 10
-      - exchange: alt4.aspmx.l.google.com.
-        preference: 10
 app-1.hackathons:
   ttl: 600
   type: A
