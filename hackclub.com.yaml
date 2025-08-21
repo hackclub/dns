@@ -550,6 +550,7 @@ angelhacks-yyz:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+#this is a test
 angelhacksba:
   - ttl: 600
     type: CNAME
