@@ -2180,6 +2180,10 @@ imperial:
   ttl: 600
   type: CNAME
   value: ihs-hacklab.github.io.
+improving:
+    ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 infill:
   ttl: 600
   type: CNAME
