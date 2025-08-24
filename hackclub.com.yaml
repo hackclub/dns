@@ -1310,6 +1310,10 @@ daydream:
         preference: 10
       - exchange: alt4.aspmx.l.google.com.
         preference: 10
+help.daydream:
+  ttl: 600
+  type: CNAME
+  value: 5a32724a08a44e30c47bb5717b4a1986.freshdesk.com.
 daysofservice:
   ttl: 600
   type: CNAME
