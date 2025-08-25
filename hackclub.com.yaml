@@ -4283,3 +4283,7 @@ hackducky: #add hackducky
   - ttl: 600
     type: CNAME
     value: 6be30c9fb60ab816.vercel-dns-017.com.
+gh-proxy:
+  - ttl: 600
+    type: CNAME
+    value: b.selfhosted.hackclub.com.
