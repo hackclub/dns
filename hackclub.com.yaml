@@ -45,7 +45,7 @@ siliconplane:
 ihs:
   - ttl: 600
     type: CNAME
-    value: cname.-dns.com.
+    value: cname.vercel-dns.com.
 1or0:
   - ttl: 3600
     type: CNAME
