@@ -3665,6 +3665,10 @@ summer:
         preference: 10
       - exchange: aspmx4.googlemail.com.
         preference: 10
+super-cdn-bot:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 swirl:
   - ttl: 900
     type: CNAME
