@@ -15,9 +15,6 @@ ahoy:
 athena:
   - type: CNAME
     value: a.selfhosted.hackclub.com.
-gh-proxy:
-  - type: CNAME
-    value: a.selfhosted.hackclub.com.
 hack.club:
   - type: ALIAS
     value: cname.vercel-dns.com.
