@@ -834,6 +834,10 @@ berkeley:
   - ttl: 600
     type: CNAME
     value: berkeleyhackclub.github.io.
+better-brightdata-mcp:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 berman:
    - ttl: 600
      type: CNAME
