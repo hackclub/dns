@@ -4187,7 +4187,7 @@ for-reviewers:
    - ttl: 600
      type: CNAME
      value: souptik-samanta.github.io.
-retrospect:
+x:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
@@ -4279,3 +4279,7 @@ hackducky: #add hackducky
   - ttl: 600
     type: CNAME
     value: 6be30c9fb60ab816.vercel-dns-017.com.
+motion: 
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
