@@ -45,7 +45,7 @@ siliconplane:
 ihs:
   - ttl: 600
     type: CNAME
-    value: cname.vercel-dns.com.
+    value: cname.-dns.com.
 1or0:
   - ttl: 3600
     type: CNAME
@@ -462,6 +462,7 @@ _vercel:
     - vc-domain-verify=optimize.hackclub.com,08b88e7ff4ae25385700
     - vc-domain-verify=simmer.hackclub.com,19a5cdf65fc7aedb7ccb
     - vc-domain-verify=fusering.hackclub.com,b3bcae34deb4b6c261c1
+    - vc-domain-verify=docs.submit.hackclub.com,c514fee6606689bce8ad
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -1402,6 +1403,10 @@ dockerize:
   - ttl: 600
     type: CNAME
     value: 80028c660ac02181.vercel-dns-017.com.
+docs.submit:
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 dorman:
   ttl: 600
   type: ALIAS
