@@ -1438,7 +1438,7 @@ emporium:
 enclosure:
   - ttl: 600
   - type: CNAME
-  - value: cname.vercel-dns.com
+  - value: cname.vercel-dns.com.
 endpointer:
   - ttl: 600
     type: CNAME
