@@ -707,7 +707,7 @@ assets:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
-asw:
+ahs:
   - ttl: 600
     type: A
     value: 67.217.241.159
