@@ -928,7 +928,7 @@ bulc:
 bunbougu: 
   - ttl: 600
     type: CNAME
-    value: applepieeeeee.github.io/bunbougu.
+    value: applepieeeeee.github.io.
 bunker.apocalypse:
   - ttl: 600
     type: CNAME
