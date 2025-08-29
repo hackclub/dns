@@ -925,6 +925,10 @@ bulc:
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+bunbougu: 
+  - ttl: 600
+    type: CNAME
+    value: applepieeeeee.github.io.
 bunker.apocalypse:
   - ttl: 600
     type: CNAME
