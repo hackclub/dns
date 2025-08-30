@@ -905,7 +905,7 @@ bqogdt6xkltngfg62lq7jo5dk33zerss._domainkey:
 branch:
   - ttl: 600
     type: CNAME
-    value: 7f6ac627cb1e65e3.vercel-dns-017.com
+    value: 7f6ac627cb1e65e3.vercel-dns-017.com.
 brasil:
   ttl: 600
   type: CNAME
