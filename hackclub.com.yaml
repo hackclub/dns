@@ -463,6 +463,7 @@ _vercel:
     - vc-domain-verify=simmer.hackclub.com,19a5cdf65fc7aedb7ccb
     - vc-domain-verify=fusering.hackclub.com,b3bcae34deb4b6c261c1
     - vc-domain-verify=docs.submit.hackclub.com,c514fee6606689bce8ad
+    - vc-domain-verify=branch.hackclub.com,21874c5af09f455c2cc0
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -901,6 +902,10 @@ bqogdt6xkltngfg62lq7jo5dk33zerss._domainkey:
   - ttl: 600
     type: CNAME
     value: bqogdt6xkltngfg62lq7jo5dk33zerss.dkim.custom-email-domain.stripe.com.
+branch:
+  - ttl: 600
+    type: CNAME
+    value: 7f6ac627cb1e65e3.vercel-dns-017.com
 brasil:
   ttl: 600
   type: CNAME
