@@ -2787,7 +2787,7 @@ ocsa:
 odyssey:
   - ttl: 600
     type: CNAME
-    value: cname.vercel-dns.com.
+    value: odyssey-orpin.vercel.app.
 
 orpheus-engine:
   - type: CNAME
