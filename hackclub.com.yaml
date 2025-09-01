@@ -2716,6 +2716,14 @@ newcanaanlib:
   type: CNAME
   value: cname.vercel-dns.com.
 # explanation - news is the user-facing domain, newspaper is for internal stuff (very confusing i know :pf:)
+news:
+  - ttl: 600
+    type: ALIAS
+    value: 886e7f7579941754.vercel-dns-016.com.
+  - ttl: 3600
+    type: TXT
+    values:
+      - google-site-verification=Mc08Mplkv-e0eNBR0VW3ogoctBoozEETwZvrb-9prb0
 newspaper:
   - ttl: 600
     type: CNAME
