@@ -202,6 +202,11 @@ dev.hkgi: # HKGI test instance
   ttl: 3600
   type: CNAME
   value: garden.devcara.com.
+
+dhs:
+  ttl: 600
+  type: CNAME
+  value: dhshackclub.netlify.app.
   
 diafano: # cfanoulis/diafano-hackclub
   ttl: 600
@@ -267,11 +272,6 @@ geta: # yoda - https://getadinoicu.yodacode.repl.co/dino.png - get a dino from h
   ttl: 600
   type: CNAME
   value: ef35bb48-f121-4f7f-91f6-93f601559c24.id.repl.co.
-
-gyor: # hack club győr website
-  - ttl: 600
-    type: CNAME
-    value: hackclub-gyor.4f48.workers.dev.
 
 hacktv:
   - ttl: 600
