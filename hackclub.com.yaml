@@ -3189,10 +3189,6 @@ ref.guide:
   ttl: 600
   type: CNAME
   value: symmetrical-potatoe-xe9q1l2s6ikk2wmjs2c7obnj.herokudns.com.
-remix:
-  - ttl: 600
-    type: CNAME
-    value:  hackclub.github.io.
 reflow:
   - ttl: 600
     type: CNAME
