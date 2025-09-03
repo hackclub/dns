@@ -3,7 +3,7 @@ providers:
   config:
     class: octodns.provider.yaml.YamlProvider
     directory: ./
-    enforce_order: False
+    enforce_order: True
   dnsimple:
     class: octodns.provider.dnsimple.DnsimpleProvider
     token: env/DNSIMPLE_API_KEY
