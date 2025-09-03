@@ -1094,6 +1094,10 @@ chapters:
   ttl: 600
   type: CNAME
   value: comparative-echidna-7grmrhvb3l980vdmg6f0vuu7.herokudns.com.
+charon:
+  ttl: 600
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 christinaday2020:
   - ttl: 3600
     type: CNAME
