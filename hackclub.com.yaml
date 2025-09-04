@@ -887,6 +887,10 @@ bls:
   - ttl: 600
     type: CNAME
     value: v-iinh.github.io.
+blueprint:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 bn:
   - ttl: 600
     type: CNAME
