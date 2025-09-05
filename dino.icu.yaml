@@ -52,16 +52,22 @@
 #   type: CNAME
 #   value: cname.vercel-dns.com.
 
-ajhalili2006: # by https://github.com/ajhalili2006 via https://github.com/andreijiroh-dev/website
-  - ttl: 600
-    type: CNAME
-    # redirects to https://andreijiroh.xyz via caddy config at https://github.com/recaptime-dev/proxyparty-caddy
-    value: proxyparty.recaptime.dev.
+ai:                       # Suprised no one took this yet!
+ - ttl: 600               # + AI
+   type: CNAME            # https://github.com/elijah629/web2050,
+   value: e.hackclub.app. # > the internet except everything is and was vibe coded 
 
-andreijiroh: # by https://github.com/ajhalili2006, but uses his first name as subdomain instead of github username
-  - ttl: 600
-    type: CNAME
-    value: proxyparty.recaptime.dev.
+
+#ajhalili2006: # by https://github.com/ajhalili2006 via https://github.com/andreijiroh-dev/website
+#  - ttl: 600
+#    type: CNAME
+#    # redirects to https://andreijiroh.xyz via caddy config at https://github.com/recaptime-dev/proxyparty-caddy
+#    value: proxyparty.recaptime.dev.
+
+#andreijiroh: # by https://github.com/ajhalili2006, but uses his first name as subdomain instead of github username
+#  - ttl: 600
+#    type: CNAME
+#    value: proxyparty.recaptime.dev.
 
 arjav: #by https://github.com/arjav0703
   - ttl: 600
@@ -118,7 +124,16 @@ betterwork-ai: # by https://heramb0x1.github.io/betterwork-ai
   type: CNAME
   value: cname.vercel-dns.com.
 
-
+bs: # by https://github.com/leecheeyong/BrawlBio
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
+  
+cad: # by https://github.com/leecheeyong/community-widgets
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
+  
 canteen:
   ttl: 600
   type: CNAME
@@ -134,6 +149,11 @@ channle: # by https://github.com/cjdenio
   type: CNAME
   value: channle.netlify.app.
 
+chess: # by https://github.com/leecheeyong/chinese-chess
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
+  
 click: # a URL shortener
   ttl: 600
   type: CNAME
@@ -143,6 +163,11 @@ codingcrew: # by https://github.com/shim-sham
   ttl: 600 
   type: CNAME
   value: lustrous-ganache-dbb807.netlify.app. 
+
+cr:
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
   
 cslide: 
   ttl: 600
@@ -177,6 +202,11 @@ dev.hkgi: # HKGI test instance
   ttl: 3600
   type: CNAME
   value: garden.devcara.com.
+
+dhs:
+  ttl: 600
+  type: CNAME
+  value: dhshackclub.netlify.app.
   
 diafano: # cfanoulis/diafano-hackclub
   ttl: 600
@@ -228,6 +258,11 @@ firepi:
   type: A
   value: 69.8.95.218
 
+fokus: # https://github.com/leecheeyong/fokus
+  ttl: 600
+  type: CNAME
+  value: leecheeyong.github.io.
+  
 foodshuffle: #scrapyard seattle team foodshuffle project
 - ttl: 600
   type: A
@@ -338,6 +373,11 @@ lkmw:
   ttl: 600
   type: CNAME
   value: wilkin.xyz.
+
+lyon:
+  ttl: 600
+  type: CNAME
+  value: lyon-website.pages.dev.
   
 mail: # a page to share your email with orpheus
   ttl: 600
@@ -720,8 +760,9 @@ yc:
   value: ns.youngchief.xyz.
 
 yates: 
-  type: A
-  value: 101.178.35.248
+ - ttl: 600
+   type: CNAME
+   value: retconn.duckdns.org.
 
 you-ship-we-vote:
   - ttl: 600
