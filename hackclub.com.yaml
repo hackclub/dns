@@ -2623,8 +2623,8 @@ middleman:
   value: middleman-hackclub.fly.dev.
 midi:
   ttl: 600
-  type: A
-  value: 76.76.21.61
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 milton:
   ttl: 10000
   type: CNAME
