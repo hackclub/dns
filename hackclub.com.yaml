@@ -2916,10 +2916,6 @@ overflow-hidden:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
-parthenon:
-  - ttl: 600
-    type: CNAME
-    value: d5aba33cc6b279e0.vercel-dns-017.com
 slushies:
   - ttl: 600
     type: CNAME
@@ -2976,7 +2972,7 @@ parcel-pyxis:
 parthenon: 
   - ttl: 600
     type: CNAME
-    value: a.selfhosted.hackclub.com.
+    value: d5aba33cc6b279e0.vercel-dns-017.com.
 passport:
   ttl: 600
   type: CNAME
