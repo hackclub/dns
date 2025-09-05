@@ -2621,7 +2621,7 @@ parcel-pyxis:
 parthenon: 
   - ttl: 600
     type: CNAME
-    value: http://a.selfhosted.hackclub.com
+    value: a.selfhosted.hackclub.com.
 passport:
   ttl: 600
   type: CNAME
