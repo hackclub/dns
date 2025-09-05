@@ -465,7 +465,6 @@ _vercel:
     - vc-domain-verify=docs.submit.hackclub.com,c514fee6606689bce8ad
     - vc-domain-verify=branch.hackclub.com,21874c5af09f455c2cc0
     - vc-domain-verify=parthenon.hackclub.com,66acbbffb5cfd91f844f
-    
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
