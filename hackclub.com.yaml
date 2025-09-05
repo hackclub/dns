@@ -472,6 +472,10 @@ a5fj644skxexxgvvraqrag5ngcaovcny._domainkey.epochvt:
   ttl: 600
   type: CNAME
   value: a5fj644skxexxgvvraqrag5ngcaovcny.dkim.amazonses.com.
+accelerate:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 act:
   - ttl: 600
     type: CNAME
