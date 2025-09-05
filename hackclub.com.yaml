@@ -1696,6 +1696,10 @@ flagvote:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+format:
+  ttl: 600
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
 flhs:
   - ttl: 3600
     type: TXT
