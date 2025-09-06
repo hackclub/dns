@@ -27,7 +27,7 @@ zones:
     sources:
       - config
     targets:
-      - cloudflare  # Primary target: Cloudflare (migrated from DNSimple)
+      - cloudflare
   hackclub.org.:
     sources:
       - config
