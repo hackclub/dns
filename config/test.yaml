@@ -1,0 +1,26 @@
+---
+# Test configuration - Cloudflare only
+# Used by GitHub Actions test workflow to avoid DNSimple credential requirement
+
+providers:
+  config:
+    class: octodns.provider.yaml.YamlProvider
+    directory: ./
+    enforce_order: False
+  cloudflare:
+    class: octodns_cloudflare.CloudflareProvider
+    token: env/CLOUDFLARE_TOKEN
+    plan_type: pro
+    pagerules: true
+    min_ttl: 120
+    retry_count: 5
+    retry_period: 600
+    zones_per_page: 50
+    records_per_page: 100
+
+zones:
+  hackclub.com.:
+    sources:
+      - config
+    targets:
+      - cloudflare  # Only test Cloudflare since that's what we migrated
