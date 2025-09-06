@@ -11,7 +11,7 @@ jobs:
         with:
           python-version: '3'
       - name: Install OctoDNS
-        run: pip install 'octodns==0.9.10'
+        run: pip install 'octodns>=1.5.0' octodns-cloudflare
       - name: Do a dry run
         run: ./bin/dry-run
         env:
