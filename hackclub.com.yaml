@@ -1374,10 +1374,7 @@ app-1.hackathons:
   type: A
   value: 5.161.229.50
 daydream:
-- octodns:
-    cloudflare:
-      proxied: true
-  ttl: 300
+- ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 help.daydream:
