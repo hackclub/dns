@@ -16,7 +16,7 @@ athena:
   - type: CNAME
     value: a.selfhosted.hackclub.com.
 hack.club:
-  - type: ALIAS
+  - type: CNAME
     value: cname.vercel-dns.com.
 l:
   - type: CNAME
