@@ -6,8 +6,7 @@
     value:
       exchange: mail.hack.af.
       preference: 10
-  - type: SPF
-    value: v=spf1 include:mailgun.org ~all
+
   - type: TXT
     values:
       - v=spf1 include:mailgun.org ~all

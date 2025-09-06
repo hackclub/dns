@@ -187,7 +187,8 @@ dast: # by https://github.com/danielsebesta
   value: 194.163.149.155
 
 dev-email:
-- type: MX
+- ttl: 600
+  type: MX
   values:
   - exchange: mx1.improvmx.com.
     preference: 10
@@ -289,13 +290,16 @@ heramb:
   value: cname.vercel-dns.com.
   
 hi: # doruk.dino.icu email address
- - type: TXT
+ - ttl: 600
+   type: TXT
    value: apple-domain=rkbobCmChEtkhbTS.
 hk:
-- type: CNAME
+- ttl: 600
+  type: CNAME
   value: vic.hackclub.app.
 hkgi:
-- type: CNAME
+- ttl: 600
+  type: CNAME
   value: garden.devcara.com.
    
 icons: # yoda - https://github.com/yodalightsabr/icons-dino-icu - a CDN for @hackclub/icons
@@ -444,27 +448,6 @@ overflow:
   type: CNAME
   value: overflow.craigg.hackclub.app.
 
-parker: # parker.dino.icu; reserved by hack club bank
-- type: ALIAS
-  value: cname.vercel-dns.com.
-- ttl: 600
-  type: MX
-  values:
-  - exchange: aspmx.l.google.com.
-    preference: 1
-  - exchange: alt1.aspmx.l.google.com.
-    preference: 5
-  - exchange: alt2.aspmx.l.google.com.
-    preference: 5
-  - exchange: alt3.aspmx.l.google.com.
-    preference: 10
-  - exchange: alt4.aspmx.l.google.com.
-    preference: 10
-- ttl: 5
-  type: TXT
-  values:
-  - google-site-verification=XqT81Vm5K6PUs4sy90BWKQMEVPaIDAXxBPI_n773h-A
-  - v=spf1 include:_spf.google.com ~all
 
 pay: # by Ella
   ttl: 600
@@ -586,27 +569,7 @@ spend:
     type: A
     value: 76.76.21.21
 
-spider: # spider.dino.icu; reserved by hack club bank
-- type: ALIAS
-  value: cname.vercel-dns.com.
-- ttl: 600
-  type: MX
-  values:
-  - exchange: aspmx.l.google.com.
-    preference: 1
-  - exchange: alt1.aspmx.l.google.com.
-    preference: 5
-  - exchange: alt2.aspmx.l.google.com.
-    preference: 5
-  - exchange: alt3.aspmx.l.google.com.
-    preference: 10
-  - exchange: alt4.aspmx.l.google.com.
-    preference: 10
-- ttl: 5
-  type: TXT
-  values:
-  - google-site-verification=i1xM1TEj6jJSVo8p9s8oGmSZW2Wo2MIyxhyb007OAuA
-  - v=spf1 include:_spf.google.com ~all
+
 
 social:
   ttl: 600
@@ -670,7 +633,7 @@ vansh:
 
 vercel:
 - ttl: 600
-  type: ALIAS
+  type: CNAME
   value: cname.vercel-dns.com.
 
 vercel-a:
@@ -680,7 +643,7 @@ vercel-a:
 
 vercel-alias:
   ttl: 600
-  type: ALIAS
+  type: CNAME
   value: cname.vercel-dns.com.
   
 vercel-cname:
@@ -742,20 +705,8 @@ www: # redirect to bare domain
   type: CNAME
   value: cname.vercel-dns.com.
 
-xn--c1h:
-- ttl: 600
-  type: ALIAS
-  value: cname.vercel-dns.com.
-
-xn--ct9h:
-  type: CNAME
-  value: b616c4f2-bfad-4b67-9c6d-ee6afc35cc0b.id.repl.co.
-
-xn--rl8h:
-  type: CNAME
-  value: maxwofford.github.io.
-
 yc:
+  ttl: 600
   type: NS
   value: ns.youngchief.xyz.
 
