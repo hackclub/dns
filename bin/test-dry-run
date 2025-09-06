@@ -1,3 +1,0 @@
-#!/bin/sh
-
-octodns-sync --config-file=./config/test.yaml
