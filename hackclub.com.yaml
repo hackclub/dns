@@ -1272,7 +1272,7 @@ conduct-test:
   value: v=spf1 include:amazonses.com ~all
 conduct:
 - ttl: 300
-  type: CNAME
+  type: ALIAS
   value: proxyparty.hackclub.com.
 - ttl: 3600
   type: TXT
