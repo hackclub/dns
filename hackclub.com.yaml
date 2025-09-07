@@ -2309,6 +2309,14 @@ intro.moonbeam:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+ipv4.mc-vps:
+  ttl: 600
+  type: A
+  value: 194.140.199.132
+ipv6.mc-vps:
+  ttl: 600
+  type: AAAA
+  value: 2605:a143:2124:1775::1
 irvine:
 - ttl: 300
   type: CNAME
@@ -2656,17 +2664,32 @@ maxday:
   type: CNAME
   value: maxday-prod.netlify.com.
 mc:
-  ttl: 300
+  ttl: 600
   type: CNAME
-  value: pterodactyl.hack.ngo.
-_minecraft._tcp.mc.hackclub.com:
-  ttl: 300
+  value: ipv4.mc-vps.hackclub.com.
+mc-vps:
+  - ttl: 600
+    type: A
+    value: 194.140.199.132
+  - ttl: 600
+    type: AAAA
+    value: 2605:a143:2124:1775::1
+_minecraft._tcp.mc:
+  ttl: 600
   type: SRV
-  values:
-  - port: 26656
+  value:
+    port: 25566
     priority: 10
-    target: node.pterodactyl.hack.ngo.
-    weight: 100
+    target: mc-vps.hackclub.com.
+    weight: 10
+_minecraft._tcp:
+  ttl: 600
+  type: SRV
+  value:
+    port: 25566
+    priority: 10
+    target: mc-vps.hackclub.com.
+    weight: 10
 mcneil:
 - ttl: 300
   type: A
