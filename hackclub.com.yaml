@@ -1274,6 +1274,24 @@ conduct:
 - ttl: 300
   type: CNAME
   value: proxyparty.hackclub.com.
+- ttl: 3600
+  type: TXT
+  values:
+    - google-site-verification=n09_T0NT7x7SVInETpDjjL2AhsTi0pW7jWceXy1cJjY
+    - v=spf1 include:_spf.google.com ~all
+- ttl: 3600
+  type: MX
+  values:
+    - exchange: ASPMX.L.GOOGLE.COM.
+      preference: 1
+    - exchange: ALT1.ASPMX.L.GOOGLE.COM.
+      preference: 5
+    - exchange: ALT2.ASPMX.L.GOOGLE.COM.
+      preference: 5
+    - exchange: ALT3.ASPMX.L.GOOGLE.COM.
+      preference: 10
+    - exchange: ALT4.ASPMX.L.GOOGLE.COM.
+      preference: 10
 constellation:
 - ttl: 300
   type: A
