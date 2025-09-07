@@ -1375,7 +1375,7 @@ app-1.hackathons:
   value: 5.161.229.50
 daydream:
 - ttl: 300
-  type: CNAME
+  type: ALIAS
   value: a.selfhosted.hackclub.com.
 - ttl: 3600
   type: TXT
