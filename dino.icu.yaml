@@ -595,6 +595,11 @@ ssmidge:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+
+stickerboard:
+  ttl: 600
+  type: CNAME
+  value: david.hackclub.app.
   
 stickers: # by https://github.com/lem6ns
   ttl: 600
