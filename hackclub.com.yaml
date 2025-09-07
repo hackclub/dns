@@ -3009,8 +3009,28 @@ oasis:
   type: CNAME
   value: cname.vercel-dns.com.
 ocsa:
-- ttl: 300
-  type: CNAME
+- ttl: 3600
+  type: TXT
+  values: 
+  - google-site-verification=tk_snQuv19iUwoOlsbKZv2Wwg5stfcusEm1Q8NxDiVA
+  - v=spf1 include:_spf.google.com ~all
+- ttl: 3600
+  type: MX
+  values:
+  - exchange: aspmx.l.google.com.
+    preference: 1
+  - exchange: alt1.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt2.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt3.aspmx.l.google.com.
+    preference: 10
+  - exchange: alt4.aspmx.l.google.com.
+    preference: 10
+- octodns:
+    lenient: true
+  ttl: 600
+  type: ALIAS
   value: cname.vercel-dns.com.
 odyssey:
 - ttl: 300
@@ -3213,9 +3233,21 @@ philippines:
   type: CNAME
   value: cname.vercel-dns.com.
 phs:
-- ttl: 300
-  type: CNAME
+- octodns:
+    lenient: true
+  ttl: 600
+  type: ALIAS
   value: cname.vercel-dns.com.
+- ttl: 600
+  type: MX
+  values:
+  - exchange: mx1.improvmx.com.
+    preference: 1
+  - exchange: mx2.improvmx.com.
+    preference: 5
+- ttl: 600
+  type: TXT
+  value: v=spf1 include:spf.improvmx.com ~all
 pic._domainkey.mail:
   ttl: 300
   type: TXT
@@ -3379,9 +3411,21 @@ psn:
   type: CNAME
   value: psnhackclub.netlify.app.
 puyallup:
-- ttl: 300
-  type: CNAME
+- octodns:
+    lenient: true
+  ttl: 600
+  type: ALIAS
   value: cname.vercel-dns.com.
+- ttl: 600
+  type: MX
+  values:
+  - exchange: mx1.improvmx.com.
+    preference: 1
+  - exchange: mx2.improvmx.com.
+    preference: 5
+- ttl: 600
+  type: TXT
+  value: v=spf1 include:spf.improvmx.com ~all
 pyramid:
   ttl: 300
   type: CNAME
@@ -3811,8 +3855,28 @@ spaces:
   type: CNAME
   value: a.selfhosted.hackclub.com.
 spark:
-- ttl: 300
-  type: CNAME
+- ttl: 3600
+  type: TXT
+  values:
+  - google-site-verification=tfR_HodAOAG-fVR_kaKvsE2gEz8MIqidrd-NMM2XxmQ
+  - v=spf1 include:_spf.google.com ~all
+- ttl: 3600
+  type: MX
+  values:
+  - exchange: aspmx.l.google.com.
+    preference: 1
+  - exchange: alt1.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt2.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt3.aspmx.l.google.com.
+    preference: 10
+  - exchange: alt4.aspmx.l.google.com.
+    preference: 10
+- octodns:
+    lenient: true
+  ttl: 600
+  type: ALIAS
   value: cname.vercel-dns.com.
 spatula:
   ttl: 300
@@ -3935,9 +3999,30 @@ summer:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
-  type: CNAME
+    lenient: true
+  ttl: 600
+  type: ALIAS
   value: a.selfhosted.hackclub.com.
+- ttl: 600
+  type: TXT
+  values:
+  - google-site-verification=zx9NMOA8WwJ7FlmnASICBEvNzpAMhWSgX2Api6ROjAk
+  - v=spf1 include:_spf.google.com ~all
+- ttl: 600
+  type: MX
+  values:
+  - exchange: aspmx.l.google.com.
+    preference: 1
+  - exchange: alt1.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt2.aspmx.l.google.com.
+    preference: 5
+  - exchange: aspmx2.googlemail.com.
+    preference: 10
+  - exchange: aspmx3.googlemail.com.
+    preference: 10
+  - exchange: aspmx4.googlemail.com.
+    preference: 10
 super-cdn-bot:
 - octodns:
     cloudflare:
