@@ -15,6 +15,6 @@ jobs:
       - name: Do a dry run
         run: ./bin/dry-run
         env:
-          DNSIMPLE_ACCOUNT_NUMBER: ${{ secrets.DNSIMPLE_ACCOUNT_NUMBER }}
-          DNSIMPLE_API_KEY: ${{ secrets.DNSIMPLE_API_KEY }}
-          CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
+          DNSIMPLE_ACCOUNT_NUMBER: 123
+          DNSIMPLE_API_KEY: 'testapikey'
+          CLOUDFLARE_TOKEN: 'testapikey'
