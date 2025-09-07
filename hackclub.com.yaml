@@ -1271,9 +1271,29 @@ conduct-test:
   type: TXT
   value: v=spf1 include:amazonses.com ~all
 conduct:
-- ttl: 300
-  type: CNAME
+- ttl: 60
+  type: TXT
+  values:
+  - v=spf1 include:_spf.google.com ~all
+  - google-site-verification=n09_T0NT7x7SVInETpDjjL2AhsTi0pW7jWceXy1cJjY
+- octodns:
+    lenient: true
+  ttl: 600
+  type: ALIAS
   value: proxyparty.hackclub.com.
+- ttl: 60
+  type: MX
+  values:
+  - exchange: aspmx.l.google.com.
+    preference: 1
+  - exchange: alt1.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt2.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt3.aspmx.l.google.com.
+    preference: 10
+  - exchange: alt4.aspmx.l.google.com.
+    preference: 10
 constellation:
 - ttl: 300
   type: A
@@ -1294,9 +1314,30 @@ coolify-conductor:
   type: CNAME
   value: a.selfhosted.hackclub.com.
 counterspell:
-- ttl: 300
-  type: CNAME
+- octodns:
+    lenient: true
+  ttl: 300
+  type: ALIAS
   value: cname.vercel-dns.com.
+- ttl: 3600
+  type: TXT
+  values:
+  - v=spf1 include:_spf.google.com ~all
+  - v=DMARC1\; p=none\; rua=mailto:dmarc@counterspell.hackclub.com
+  - google-site-verification=OBNPZbObzTh54IxkKj0mQwrIcmyDRocjNZS2GglHb3w
+- ttl: 3600
+  type: MX
+  values:
+  - exchange: aspmx.l.google.com.
+    preference: 1
+  - exchange: alt1.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt2.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt3.aspmx.l.google.com.
+    preference: 10
+  - exchange: alt4.aspmx.l.google.com.
+    preference: 10
 converge:
 - ttl: 300
   type: CNAME
@@ -1374,9 +1415,29 @@ app-1.hackathons:
   type: A
   value: 5.161.229.50
 daydream:
-- ttl: 300
-  type: CNAME
+- octodns:
+    lenient: true
+  ttl: 600
+  type: ALIAS
   value: a.selfhosted.hackclub.com.
+- ttl: 3600
+  type: TXT
+  values:
+  - google-site-verification=Bu5WZO3irOCbcJhWCTUrBN_JJfbuGNeEAp4j_itf6J8
+  - v=spf1 include:_spf.google.com ~all
+- ttl: 600
+  type: MX
+  values:
+  - exchange: aspmx.l.google.com.
+    preference: 1
+  - exchange: alt1.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt2.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt3.aspmx.l.google.com.
+    preference: 10
+  - exchange: alt4.aspmx.l.google.com.
+    preference: 10
 help.daydream:
   ttl: 300
   type: CNAME
@@ -1602,13 +1663,57 @@ es:
   type: A
   value: 76.76.21.21
 epoch:
-- ttl: 300
-  type: CNAME
+- octodns:
+    lenient: true
+  ttl: 600
+  type: ALIAS
   value: cname.vercel-dns.com.
+- ttl: 3600
+  type: TXT
+  values:
+  - google-site-verification=MKJ2KL_Yttoy9RS2qJoHmthoiPULC5ZqSJ6YMVr4ZlE
+  - v=spf1 include:_spf.google.com ~all
+- ttl: 600
+  type: MX
+  values:
+  - exchange: aspmx.l.google.com.
+    preference: 1
+  - exchange: alt1.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt2.aspmx.l.google.com.
+    preference: 5
+  - exchange: aspmx2.googlemail.com.
+    preference: 10
+  - exchange: aspmx3.googlemail.com.
+    preference: 10
+  - exchange: aspmx4.googlemail.com.
+    preference: 10
 epochba:
-- ttl: 300
-  type: CNAME
+- octodns:
+    lenient: true
+  ttl: 600
+  type: ALIAS
   value: cname.vercel-dns.com.
+- ttl: 3600
+  type: TXT
+  values:
+  - google-site-verification=2979FUSGCz-WxnW6EukLx_N_Ay31YOyGBnvUSbwHcXc
+  - v=spf1 include:_spf.google.com ~all
+- ttl: 600
+  type: MX
+  values:
+  - exchange: aspmx.l.google.com.
+    preference: 1
+  - exchange: alt1.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt2.aspmx.l.google.com.
+    preference: 5
+  - exchange: aspmx2.googlemail.com.
+    preference: 10
+  - exchange: aspmx3.googlemail.com.
+    preference: 10
+  - exchange: aspmx4.googlemail.com.
+    preference: 10
 epochvt:
 - ttl: 300
   type: TXT
@@ -2151,9 +2256,20 @@ key3._domainkey.hcarc:
   type: CNAME
   value: key3.hcarc.hackclub.com._domainkey.migadu.com.
 hcb:
-- ttl: 300
-  type: CNAME
+- octodns:
+    lenient: true
+  type: ALIAS
   value: ingress.hcb.hackclub.com.
+- type: MX
+  ttl: 6000
+  value:
+    exchange: mx.sendgrid.net.
+    preference: 10
+- ttl: 3600
+  type: TXT
+  values:
+  - google-gws-recovery-domain-verification=49632973
+  - yandex-verification=befd33a8f4f21226
 hcb-og:
   ttl: 300
   type: CNAME
@@ -2310,8 +2426,28 @@ intro.moonbeam:
   type: CNAME
   value: cname.vercel-dns.com.
 irvine:
-- ttl: 300
-  type: CNAME
+- ttl: 3600
+  type: TXT
+  values:
+  - v=spf1 include:_spf.google.com ~all
+  - google-site-verification=n9knjT30SgPd80zLKBD6M8fPFGIQUAO5OgfjDsPSrRM
+- ttl: 3600
+  type: MX
+  values:
+  - exchange: aspmx.l.google.com.
+    preference: 1
+  - exchange: alt1.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt2.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt3.aspmx.l.google.com.
+    preference: 10
+  - exchange: alt4.aspmx.l.google.com.
+    preference: 10
+- octodns:
+    lenient: true
+  ttl: 600
+  type: ALIAS
   value: cname.vercel-dns.com.
 it:
 - ttl: 300
