@@ -3630,9 +3630,30 @@ scrappy:
   type: CNAME
   value: a.selfhosted.hackclub.com.
 scrapyard:
-- ttl: 60
-  type: CNAME
+- octodns:
+    lenient: true
+  ttl: 60
+  type: ALIAS
   value: cname.vercel-dns.com.
+- ttl: 60
+  type: MX
+  values:
+  - exchange: aspmx.l.google.com.
+    preference: 1
+  - exchange: alt1.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt2.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt3.aspmx.l.google.com.
+    preference: 10
+  - exchange: alt4.aspmx.l.google.com.
+    preference: 10
+- ttl: 60
+  type: TXT
+  values:
+  - v=spf1 include:_spf.google.com ~all
+  - google-site-verification=yZxQNIGF8LvRVUJ_LpekD1PTKCTFj2ECQZBA0OZXQus.
+  - v=DMARC1\; p=none\; rua=mailto:dmarc_report@hackclub.com\; ruf=mailto:dmarc_report@hackclub.com\;fo=1
 scriptingnest:
 - ttl: 300
   type: TXT
@@ -4103,9 +4124,22 @@ testing.mail:
   type: TXT
   value: v=spf1 include:mailgun.org ~all
 tfss:
-- ttl: 300
-  type: CNAME
+- octodns:
+    lenient: true
+  ttl: 600
+  type: ALIAS
   value: cname.vercel-dns.com.
+- ttl: 600
+  type: MX
+  values:
+  - exchange: mx1.improvmx.com.
+    preference: 10
+  - exchange: mx2.improvmx.com.
+    preference: 20
+- ttl: 600
+  type: TXT
+  values:
+  - v=spf1 include:spf.improvmx.com ~all
 thai:
 - ttl: 300
   type: CNAME
@@ -4559,9 +4593,13 @@ angelhacks-toronto:
   type: CNAME
   value: cname.vercel-dns.com.
 epanomi:
-- ttl: 300
-  type: CNAME
+- octodns:
+    lenient: true
+  ttl: 600
+  type: ALIAS
   value: epanomi-hack-club.github.io.
+- type: TXT
+  value: protonmail-verification=8ab28e976e0144dcaf43da3668d00393017dc702.
 isthackers:
 - ttl: 300
   type: CNAME
