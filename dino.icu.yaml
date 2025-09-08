@@ -621,11 +621,6 @@ tejas: # by tej
   type: CNAME
   value: tejasag.netlify.app.
 
-test:
-- ttl: 600
-  type: CNAME
-  value: a.selfhosted.hackclub.com.
-
 toonnongaeoy:
  - ttl: 600
    type: CNAME
