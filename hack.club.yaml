@@ -15,6 +15,10 @@ ahoy:
 athena:
   - type: CNAME
     value: a.selfhosted.hackclub.com.
+daydream:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 hack.club:
   - type: CNAME
     value: cname.vercel-dns.com.
