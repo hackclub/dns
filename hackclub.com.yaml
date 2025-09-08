@@ -2292,6 +2292,10 @@ hcpcxc:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+hc-repo:
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 hear:
   ttl: 300
   type: CNAME
