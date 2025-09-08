@@ -1197,6 +1197,13 @@ cinema:
 - ttl: 300
   type: CNAME
   value: dandililacs.github.io.
+cockpit:
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
 congress:
 - octodns:
     cloudflare:
