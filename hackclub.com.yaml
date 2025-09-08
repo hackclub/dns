@@ -730,9 +730,13 @@ asiasummit:
   type: CNAME
   value: cname.vercel-dns.com.
 terminalcraft:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+  - ttl: 300
+    type: CNAME
+    value: cname.vercel-dns.com.
+carnival:
+  - ttl: 300
+    type: CNAME
+    value: cname.vercel-dns.com.
 asiet:
 - ttl: 300
   type: CNAME
