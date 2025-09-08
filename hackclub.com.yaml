@@ -3949,10 +3949,7 @@ spp:
   type: CNAME
   value: spphacks.netlify.com.
 sprig:
-- octodns:
-    cloudflare:
-      proxied: true
-  ttl: 300
+- ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 sprig-order:
