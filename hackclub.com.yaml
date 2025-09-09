@@ -34,6 +34,9 @@
     - stripe-verification=5bdd0e2475b12744bfe1f778ac419f917800d476fd498ae2682ecd161d162c64
     - airtable-verification=6a190bbac6305fe1d58071f48f535cf5
     - yandex-verification=befd33a8f4f21226
+  - ttl: 3600
+    type: DS
+    value: 2371 13 2 9E05C6F0B3EB4335BADCA118B94912BCEE368E3901DAABACB0F757895600D35F
 slashz:
 - octodns:
     cloudflare:
