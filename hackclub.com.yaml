@@ -2324,6 +2324,13 @@ help.hcb:
   ttl: 300
   type: CNAME
   value: hcb.helpscoutdocs.com.
+helloleeksgetajob:
+  octodns:
+    cloudflare:
+      proxied: true
+  ttl: auto
+  type: CNAME
+  value: hackatime.pages.dev.
 hermes:
   ttl: 300
   type: CNAME
