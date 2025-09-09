@@ -147,6 +147,14 @@ hackatime.selfhosted:
   ttl: 300
   type: CNAME
   value: static.27.205.161.5.clients.your-server.de.
+summer.selfhosted:
+  ttl: 300
+  type: CNAME
+  value: static.90.195.156.178.clients.your-server.de.
+'*.summer.selfhosted':
+  ttl: 300
+  type: CNAME
+  value: static.90.195.156.178.clients.your-server.de.
 archive.selfhosted:
   ttl: 300
   type: CNAME
