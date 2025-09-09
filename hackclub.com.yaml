@@ -2328,7 +2328,7 @@ helloleeksgetajob:
   octodns:
     cloudflare:
       proxied: true
-  ttl: auto
+  ttl: 300
   type: CNAME
   value: hackatime.pages.dev.
 hermes:
