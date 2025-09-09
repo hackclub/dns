@@ -1436,7 +1436,9 @@ daydream:
   values:
   - google-site-verification=Bu5WZO3irOCbcJhWCTUrBN_JJfbuGNeEAp4j_itf6J8
   - v=spf1 include:_spf.google.com ~all
-- ttl: 600
+  - v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3ePXxt2BMmJtA4zkNRYuhevKo3W5jE9QmZyAoGpLsckQJLJIeHCVd3YMj+78ifHZjvaNYH0Y6LbqPODAMtSa79QrSzqJs+Ip4VHRR1Oiuy14IiI4MjwFfsS/IfSKjEK4UDjQTdQNrQpV/LWvgGZZhASZoGBVtiTS+zIx/0zZ+TE55qQnaywgK7jo0DheY/ZaPGDFKtE3vHIeJm/dIlta/Mdx5VKzwzv9F26lBTp2Iw1nQ20bPlUqFGpuSzw50WBZe4WSxg7vGsGTkfZJKT41O+/VSM7D40BdG7e0HboGMkZ7ZjiYd+UDYpS4cDK0QhcB2E5xoIUrfZ30y8olmfI0EwIDAQAB
+  - v=DMARC1; p=none; rua=mailto:dmarc_report@hackclub.com; ruf=mailto:dmarc_report@hackclub.com;fo=1
+- ttl: 3600
   type: MX
   values:
   - exchange: aspmx.l.google.com.
