@@ -3860,6 +3860,10 @@ slack-id:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+slack-gateway:
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 slash-z:
   ttl: 300
   type: CNAME
