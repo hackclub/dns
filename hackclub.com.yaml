@@ -1372,7 +1372,7 @@ crm.stemegypt:
 craft:
 - ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: craft-ept.pages.dev.
 css:
 - ttl: 300
   type: CNAME
