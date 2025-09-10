@@ -1368,11 +1368,11 @@ coxmill:
 crm.stemegypt:
 - ttl: 300
   type: CNAME
-  value: stemegypt-crm.42web.io.
+  value: craft-ept.pages.dev.
 craft:
 - ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: craft-ept.pages.dev.
 css:
 - ttl: 300
   type: CNAME
