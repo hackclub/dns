@@ -864,8 +864,8 @@ bakebuild:
   value: cname.vercel-dns.com.
 bank:
   ttl: 300
-  type: A
-  value: 45.79.179.212
+  type: CNAME
+  value: 11cecfc3c082c480.vercel-dns-016.com.
 bankalias:
   ttl: 300
   type: CNAME
