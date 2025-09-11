@@ -1555,6 +1555,10 @@ dockerize:
 - ttl: 300
   type: CNAME
   value: 80028c660ac02181.vercel-dns-017.com.
+docs.charon:
+  ttl: 300
+  type: CNAME
+  value: hackclub.github.io.
 docs.submit:
 - ttl: 300
   type: CNAME
