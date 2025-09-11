@@ -3738,6 +3738,7 @@ sgd._domainkey: # SendGrid Sender Authentication (bank@hackclub.com)
   type: CNAME
   value: sgd.domainkey.u14148987.wl238.sendgrid.net.
 shallow-learning:
+- octodns:
     cloudflare:
       proxied: true
   ttl: 300
