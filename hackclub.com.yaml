@@ -34,6 +34,7 @@
     - stripe-verification=5bdd0e2475b12744bfe1f778ac419f917800d476fd498ae2682ecd161d162c64
     - airtable-verification=6a190bbac6305fe1d58071f48f535cf5
     - yandex-verification=befd33a8f4f21226
+    - apple-domain-verification=WrMSA7tlbHndVLMgLFn9Q6dNhxqz9wAaROCPA5I73Z0
 slashz:
 - octodns:
     cloudflare:
