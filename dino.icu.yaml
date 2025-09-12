@@ -108,7 +108,12 @@ art: # by https://github.com/rajanwastaken
   ttl: 600
   type: CNAME
   value: particle-generativeart.netlify.app.
-  
+
+aus: # by https://github.com/bennygaming635
+  ttl: 600
+  type: A
+  value: 35.158.87.123
+
 aryanpatel: # by https://github.com/aryanpatel142006 
   ttl: 600
   type: CNAME
