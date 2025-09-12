@@ -515,6 +515,11 @@ saif:
   - ttl: 600
     type: TXT
     value: domain-verification=saif
+
+saturnyx: # https://github.com/saturnyx/saturnyx.github.io
+  ttl: 600
+  type: CNAME
+  value: saturnyx.github.io.
     
 sayhan: # portfolio and other apps?
   - ttl: 600
