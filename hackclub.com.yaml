@@ -907,6 +907,10 @@ barracoders:
 - ttl: 300
   type: CNAME
   value: barracoders.netlify.app.
+bathpass:
+- ttl: 600
+  type: CNAME
+  value: bathpass.vercel.app.
 bbss:
 - ttl: 300
   type: CNAME
