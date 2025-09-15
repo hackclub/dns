@@ -1458,6 +1458,10 @@ daydream:
     preference: 10
   - exchange: alt4.aspmx.l.google.com.
     preference: 10
+checkin.daydream:
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 help.daydream:
   ttl: 300
   type: CNAME
