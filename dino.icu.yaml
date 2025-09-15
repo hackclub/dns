@@ -519,7 +519,7 @@ saif:
 saturnyx: # https://github.com/saturnyx/saturnyx.github.io
   ttl: 600
   type: CNAME
-  value: saturnyx.github.io.
+  value: saturnyx.github.io
     
 sayhan: # portfolio and other apps?
   - ttl: 600
