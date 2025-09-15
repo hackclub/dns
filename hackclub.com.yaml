@@ -1374,6 +1374,15 @@ craft:
 - ttl: 300
   type: CNAME
   value: craft-ept.pages.dev.
+- ttl: 300
+  type: TXT
+  values:
+  - v=spf1 include:amazonses.com ~all
+- ttl: 300
+  type: MX
+  values:
+  - exchange: feedback-smtp.us-east-1.amazonses.com.
+    preference: 10
 css:
 - ttl: 300
   type: CNAME
