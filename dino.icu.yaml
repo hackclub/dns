@@ -58,16 +58,25 @@ ai:                       # Suprised no one took this yet!
    value: e.hackclub.app. # > the internet except everything is and was vibe coded 
 
 
-#ajhalili2006: # by https://github.com/ajhalili2006 via https://github.com/andreijiroh-dev/website
-#  - ttl: 600
-#    type: CNAME
-#    # redirects to https://andreijiroh.xyz via caddy config at https://github.com/recaptime-dev/proxyparty-caddy
-#    value: proxyparty.recaptime.dev.
+ajhalili2006: # by https://github.com/ajhalili2006 via https://github.com/andreijiroh-dev/website
+  - ttl: 600
+    type: A
+    # https://github.com/andreijiroh-dev/api-servers/tree/main/apps/redirector, hosted on Deno Deploy
+    value: 69.67.170.170
+_acme-challenge.ajhalili2006:
+  - ttl: 600
+    type: CNAME
+    value: 3a1ea03c191e234288b279704763e052._acme.deno.net
 
-#andreijiroh: # by https://github.com/ajhalili2006, but uses his first name as subdomain instead of github username
-#  - ttl: 600
-#    type: CNAME
-#    value: proxyparty.recaptime.dev.
+andreijiroh: # by https://github.com/ajhalili2006, but uses his first name as subdomain instead of github username
+  - ttl: 600
+    type: A
+    # https://github.com/andreijiroh-dev/api-servers/tree/main/apps/redirector, hosted on Deno Deploy
+    value: 69.67.170.170
+_acme-challenge.andreijiroh:
+  - ttl: 600
+    type: CNAME
+    value: abd77e2d22191e54d5f6c8ad24fcfd97._acme.deno.net
 
 arjav: #by https://github.com/arjav0703
   - ttl: 600
