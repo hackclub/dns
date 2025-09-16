@@ -53,6 +53,9 @@ proxmox:
     value: 37.27.51.35
   - type: AAAA
     value: 2a01:4f9:3081:399c::2
+parthenon:
+  - type: CNAME
+    value: d5aba33cc6b279e0.vercel-dns-017.com
 guides:
   - type: CNAME
     value: secure.hackclub.app.
