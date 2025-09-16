@@ -66,7 +66,7 @@ ajhalili2006: # by https://github.com/ajhalili2006 via https://github.com/andrei
 _acme-challenge.ajhalili2006:
   - ttl: 600
     type: CNAME
-    value: 3a1ea03c191e234288b279704763e052._acme.deno.net
+    value: 3a1ea03c191e234288b279704763e052._acme.deno.net.
 
 andreijiroh: # by https://github.com/ajhalili2006, but uses his first name as subdomain instead of github username
   - ttl: 600
@@ -76,7 +76,7 @@ andreijiroh: # by https://github.com/ajhalili2006, but uses his first name as su
 _acme-challenge.andreijiroh:
   - ttl: 600
     type: CNAME
-    value: abd77e2d22191e54d5f6c8ad24fcfd97._acme.deno.net
+    value: abd77e2d22191e54d5f6c8ad24fcfd97._acme.deno.net.
 
 arjav: #by https://github.com/arjav0703
   - ttl: 600
