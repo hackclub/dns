@@ -2842,7 +2842,7 @@ not.slack:
   - ttl: 600
     type: A
     value: 178.156.195.90
-  - octodns:
+    octodns:
     cloudflare:
       proxied: true
     
