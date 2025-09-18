@@ -175,11 +175,11 @@ a.limited.selfhosted:
 b.limited.selfhosted:
   ttl: 300
   type: CNAME
-  value: static.65.21.231.234.clients.your-server.de.
+  value: static.234.231.21.65.clients.your-server.de.
 '*.b.limited.selfhosted':
   ttl: 300
   type: CNAME
-  value: static.65.21.231.234.clients.your-server.de.
+  value: static.234.231.21.65.clients.your-server.de.
 warehouse.selfhosted:
   ttl: 300
   type: CNAME
