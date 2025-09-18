@@ -2838,6 +2838,14 @@ mc-vps:
   - ttl: 600
     type: AAAA
     value: 2605:a143:2124:1775::1
+not.slack:
+  - ttl: 600
+    type: A
+    value: 178.156.195.90
+  - octodns:
+    cloudflare:
+      proxied: true
+    
 ipv4.mc-vps:
   ttl: 600
   type: A
