@@ -172,6 +172,14 @@ a.limited.selfhosted:
   ttl: 300
   type: CNAME
   value: static.205.141.156.178.clients.your-server.de.
+b.limited.selfhosted:
+  ttl: 300
+  type: CNAME
+  value: static.65.21.231.234.clients.your-server.de.
+'*.b.limited.selfhosted':
+  ttl: 300
+  type: CNAME
+  value: static.65.21.231.234.clients.your-server.de.
 warehouse.selfhosted:
   ttl: 300
   type: CNAME
@@ -4529,6 +4537,13 @@ waveform:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+we-out:
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: a.limited.selfhosted.hackclub.com.
 webdev:
 - ttl: 300
   type: CNAME
