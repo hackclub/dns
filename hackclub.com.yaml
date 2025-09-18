@@ -3007,8 +3007,8 @@ not.slack:
     type: A
     value: 178.156.195.90
     octodns:
-    cloudflare:
-      proxied: true
+      cloudflare:
+        proxied: true
 express.neighborhood:
   ttl: 300
   type: CNAME
