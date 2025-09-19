@@ -3010,13 +3010,6 @@ neighborhood:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-not.slack:
-    ttl: 600
-    type: A
-    value: 178.156.195.90
-    octodns:
-      cloudflare:
-        proxied: true
 express.neighborhood:
   ttl: 300
   type: CNAME
