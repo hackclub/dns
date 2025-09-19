@@ -458,7 +458,6 @@ _vercel:
   - vc-domain-verify=ten-days-of-code.hackclub.com,f4bdc5d47d93a15aea28
   - vc-domain-verify=luna.hackclub.com,efe00a2321b67aac26d6
   - vc-domain-verify=lambert.hackclub.com,3e5d64ff4f6d55af2248
-  - vc-domain-verify=bbss.hackclub.com,6c79bb5ffee8bbfd78d2
   - vc-domain-verify=ascend.hackclub.com,5c143e010cb754d62113
   - vc-domain-verify=ecolint.hackclub.com,2ce5d27d136e89567e39
   - vc-domain-verify=descend.hackclub.com,766f399a5ac7216e01a1
@@ -918,7 +917,7 @@ barracoders:
 bbss:
 - ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: bbsshackclub.netlify.app.
 berkeley:
 - ttl: 300
   type: CNAME
