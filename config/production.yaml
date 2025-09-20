@@ -114,8 +114,3 @@ zones:
       - config
     targets:
       - dnsimple
-  hackclub.community.:
-    sources:
-      - config
-    targets: 
-      - cloudflare
