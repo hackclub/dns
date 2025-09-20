@@ -1752,9 +1752,6 @@ emerge:
   type: CNAME
   value: 9551a288652e69f0.vercel-dns-016.com.
 emporium:
-  - ttl: 300
-    type: CNAME
-    value: 27cbbde38306f198.vercel-dns-016.com.
 enclosure:
   - ttl: 600
     type: CNAME
