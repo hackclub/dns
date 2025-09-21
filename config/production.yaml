@@ -21,6 +21,16 @@ providers:
     retry_period: 600            # 10 minute wait on rate limits
     zones_per_page: 50           # API pagination
     records_per_page: 100        # API pagination
+  cloudflare-alt:
+    class: octodns_cloudflare.CloudflareProvider
+    token: env/CLOUDFLARE_TOKEN
+    # Production best practices
+    min_ttl: 120                 # Cloudflare minimum
+    # Enhanced reliability settings
+    retry_count: 5               # More retries for production
+    retry_period: 600            # 10 minute wait on rate limits
+    zones_per_page: 50           # API pagination
+    records_per_page: 100        # API pagination
 
 zones:
   hackclub.com.:
@@ -118,4 +128,4 @@ zones:
     sources:
       - config
     targets: 
-      - cloudflare
+      - cloudflare-alt
