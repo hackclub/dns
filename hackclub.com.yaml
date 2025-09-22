@@ -172,6 +172,14 @@ a.limited.selfhosted:
   ttl: 300
   type: CNAME
   value: static.205.141.156.178.clients.your-server.de.
+b.limited.selfhosted:
+  ttl: 300
+  type: CNAME
+  value: static.234.231.21.65.clients.your-server.de.
+'*.b.limited.selfhosted':
+  ttl: 300
+  type: CNAME
+  value: static.234.231.21.65.clients.your-server.de.
 warehouse.selfhosted:
   ttl: 300
   type: CNAME
@@ -450,7 +458,6 @@ _vercel:
   - vc-domain-verify=ten-days-of-code.hackclub.com,f4bdc5d47d93a15aea28
   - vc-domain-verify=luna.hackclub.com,efe00a2321b67aac26d6
   - vc-domain-verify=lambert.hackclub.com,3e5d64ff4f6d55af2248
-  - vc-domain-verify=bbss.hackclub.com,6c79bb5ffee8bbfd78d2
   - vc-domain-verify=ascend.hackclub.com,5c143e010cb754d62113
   - vc-domain-verify=ecolint.hackclub.com,2ce5d27d136e89567e39
   - vc-domain-verify=descend.hackclub.com,766f399a5ac7216e01a1
@@ -910,7 +917,7 @@ barracoders:
 bbss:
 - ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: bbsshackclub.netlify.app.
 berkeley:
 - ttl: 300
   type: CNAME
@@ -1194,10 +1201,6 @@ christinaday2020:
 - ttl: 300
   type: CNAME
   value: hackclub.github.io.
-chronicle:
-- ttl: 300
-  type: A
-  value: 157.230.66.75
 churchill:
 - ttl: 300
   type: CNAME
@@ -2139,6 +2142,10 @@ hackbeats:
   ttl: 300
   type: CNAME
   value: csb-yzetpt.vercel.app.
+hackberry:
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 hackbox:
   ttl: 300
   type: CNAME
@@ -2481,6 +2488,10 @@ irvine:
   ttl: 600
   type: ALIAS
   value: cname.vercel-dns.com.
+isabelle:
+- ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 it:
 - ttl: 300
   type: CNAME
@@ -4518,6 +4529,13 @@ waveform:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+we-out:
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: a.limited.selfhosted.hackclub.com.
 webdev:
 - ttl: 300
   type: CNAME
@@ -4576,6 +4594,10 @@ summit:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+wiki: 
+- ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 wonderland:
 - ttl: 300
   type: CNAME
