@@ -3102,8 +3102,7 @@ ocsa:
 odyssey:
 - ttl: 300
   type: CNAME
-  values:
-  - cname.vercel-dns.com.
+  value: cname.vercel-dns.com.
 orpheus-engine:
 - octodns:
     cloudflare:
