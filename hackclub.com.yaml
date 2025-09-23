@@ -3096,8 +3096,9 @@ ocsa:
   value: cname.vercel-dns.com.
 odyssey:
 - ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+  type: TXT
+  values:
+  - vc-domain-verify=odyssey.hackclub.com,44ac2c39dd9ccfc6d991
 orpheus-engine:
 - octodns:
     cloudflare:
