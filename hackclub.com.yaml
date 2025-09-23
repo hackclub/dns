@@ -2143,6 +2143,10 @@ hackbeats:
   ttl: 300
   type: CNAME
   value: csb-yzetpt.vercel.app.
+hackberry:
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 hackbox:
   ttl: 300
   type: CNAME
