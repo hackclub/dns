@@ -1477,6 +1477,10 @@ help.daydream:
   ttl: 300
   type: CNAME
   value: 5a32724a08a44e30c47bb5717b4a1986.freshdesk.com.
+itch.daydream:
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 daysofservice:
   ttl: 300
   type: CNAME
