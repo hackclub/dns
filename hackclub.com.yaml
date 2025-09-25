@@ -178,12 +178,6 @@ archive-hq-local.selfhosted:
   ttl: 300
   type: CNAME
   value: 493d65b3-2040-4db2-af28-ea33c026beb5.cfargotunnel.com.
-- octodns:
-    cloudflare:
-      proxied: true
-  ttl: 300
-  type: CNAME
-  value: 493d65b3-2040-4db2-af28-ea33c026beb5.cfargotunnel.com.
 a.limited.selfhosted:
   ttl: 300
   type: CNAME
