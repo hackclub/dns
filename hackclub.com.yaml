@@ -625,10 +625,10 @@ angelhacksla:
 archive:
 - octodns:
     cloudflare:
-      proxied: false
+      proxied: true
   ttl: 300
   type: CNAME
-  value: archive.selfhosted.hackclub.com.
+  value: 493d65b3-2040-4db2-af28-ea33c026beb5.cfargotunnel.com.
 arker-demo:
 - octodns:
     cloudflare:
