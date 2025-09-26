@@ -1982,6 +1982,10 @@ gas.gas.gas:
   ttl: 300
   type: A
   value: 45.79.179.212
+gamebit:
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 gamelab:
 - ttl: 300
   type: CNAME
