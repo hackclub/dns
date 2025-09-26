@@ -3433,7 +3433,7 @@ podium:
 podium-backend:
   ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: b.selfhosted.hackclub.com.
 polaroid:
   ttl: 300
   type: CNAME
