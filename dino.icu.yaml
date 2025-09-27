@@ -768,3 +768,8 @@ mthlpbs:
   - ttl: 600
     type: CNAME
     value: mthlpbs.github.io.
+
+fileserver:
+  - ttl: 600
+    type: CNAME
+    value: 6f453c7a-030b-4adb-9b7f-c1670a62af73.cfargotunnel.com.
