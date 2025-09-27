@@ -156,14 +156,6 @@ summer.selfhosted:
   ttl: 300
   type: CNAME
   value: static.90.195.156.178.clients.your-server.de.
-archive.selfhosted:
-  ttl: 300
-  type: CNAME
-  value: static.185.68.69.159.clients.your-server.de.
-'*.archive.selfhosted':
-  ttl: 300
-  type: CNAME
-  value: static.185.68.69.159.clients.your-server.de.
 archive-hq-local.selfhosted:
 - octodns:
     cloudflare:
