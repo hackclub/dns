@@ -548,7 +548,7 @@ sdheeraj: # https://github.com/17sdheeraj/17sdheeraj.github.io
 sequoia: # vortex slave record - https://vortex.skyfall.dev
   ttl: 60
   type: A
-  value: 144.21.62.56
+  value: 152.67.157.1
 
 subdomain: # Free subdomain generator.
   ttl: 600
