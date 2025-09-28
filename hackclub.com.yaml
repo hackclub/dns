@@ -560,6 +560,10 @@ alexandria:
 - ttl: 300
   type: CNAME
   value: 12ahmedashraf.github.io.
+alley:
+- ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 aloha:
 - ttl: 300
   type: CNAME
