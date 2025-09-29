@@ -2184,6 +2184,18 @@ hackcraft:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+mc.hackcraft:
+  ttl: 300
+  type: A
+  value: 37.187.138.84
+_minecraft._tcp.hackcraft:
+  ttl: 300
+  type: SRV
+  value:
+    port: 25567
+    priority: 0
+    target: mc.hackclub.com.
+    weight: 0
 hackerabad:
 - ttl: 300
   type: CNAME
