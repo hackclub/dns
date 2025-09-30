@@ -2534,6 +2534,10 @@ irvine:
   ttl: 600
   type: ALIAS
   value: cname.vercel-dns.com.
+island:
+- ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 isabelle:
 - ttl: 300
   type: CNAME
