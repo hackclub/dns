@@ -768,6 +768,8 @@ asiet:
 - ttl: 300
   type: CNAME
   value: 29c7cdfcbcdf0161.vercel-dns-017.com.
+  type: TXT
+  value: vc-domain-verify=asiet.hackclub.com,2975ee268d07e199efdc
 asmgame:
 - octodns:
     cloudflare:
