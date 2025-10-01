@@ -513,6 +513,7 @@ _vercel:
   - vc-domain-verify=branch.hackclub.com,21874c5af09f455c2cc0
   - vc-domain-verify=parthenon.hackclub.com,66acbbffb5cfd91f844f
   - vc-domain-verify=odyssey.hackclub.com,44ac2c39dd9ccfc6d991
+  - vc-domain-verify=reactive.hackclub.com,dcd146599f4ae3bc6822
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 300
   type: CNAME
@@ -3596,6 +3597,10 @@ rawr:
 - ttl: 300
   type: CNAME
   value: hackclub.github.io.
+reactive:
+- ttl: 300
+  type: CNAME
+  value: c5165cd264885445.vercel-dns-017.com.
 reality:
 - ttl: 300
   type: CNAME
