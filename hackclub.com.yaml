@@ -2538,6 +2538,10 @@ isabelle:
 - ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+island:
+- ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 it:
 - ttl: 300
   type: CNAME
