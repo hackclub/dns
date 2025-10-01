@@ -767,7 +767,7 @@ carnival:
 asiet:
 - ttl: 300
   type: CNAME
-  value: kkharidev.github.io.
+  value: 29c7cdfcbcdf0161.vercel-dns-017.com.
 asmgame:
 - octodns:
     cloudflare:
