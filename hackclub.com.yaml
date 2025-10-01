@@ -1006,10 +1006,6 @@ boba:
 - ttl: 300
   type: CNAME
   value: hackclub.github.io.
-bobaevent:
-- ttl: 3600
-  type: CNAME
-  value: sites.zite.com.
 bounce:
 - ttl: 300
   type: CNAME
