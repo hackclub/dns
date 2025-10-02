@@ -514,6 +514,7 @@ _vercel:
   - vc-domain-verify=parthenon.hackclub.com,66acbbffb5cfd91f844f
   - vc-domain-verify=odyssey.hackclub.com,44ac2c39dd9ccfc6d991
   - vc-domain-verify=reactive.hackclub.com,dcd146599f4ae3bc6822
+  - vc-domain-verify=end.summer.hackclub.com,4563edefa4566f325a15
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 300
   type: CNAME
@@ -1690,6 +1691,10 @@ endpointer:
 - ttl: 300
   type: CNAME
   value: 793ca34752d16877.vercel-dns-016.com.
+end.summer:
+- ttl: 300
+  type: CNAME
+  value: 2de99f371fb896bf.vercel-dns-017.com.
 envelope: # for loops.so spf & dmarc
 - ttl: 300
   type: MX
