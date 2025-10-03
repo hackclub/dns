@@ -2192,7 +2192,7 @@ _minecraft._tcp.hackcraft:
   value:
     port: 25567
     priority: 0
-    target: mc.hackclub.com.
+    target: mc.hackcraft.hackclub.com.
     weight: 0
 hackerabad:
 - ttl: 300
