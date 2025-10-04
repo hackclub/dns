@@ -4889,6 +4889,12 @@ app:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+- vision:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 teachyourmachine:
 - ttl: 300
   type: CNAME
