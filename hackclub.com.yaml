@@ -2222,6 +2222,10 @@ hackpad:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+hacksaber:
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 hackstone:
   ttl: 300
   type: CNAME
