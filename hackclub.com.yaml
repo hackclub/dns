@@ -3020,6 +3020,10 @@ ms:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+msft:
+- ttl: 300
+  type: TXT
+  value: "MS=ms62939426"
 matchups:
 - ttl: 300
   type: CNAME
