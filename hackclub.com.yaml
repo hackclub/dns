@@ -189,12 +189,12 @@ b.limited.selfhosted:
   value: static.234.231.21.65.clients.your-server.de.
 warehouse.selfhosted:
   ttl: 300
-  type: CNAME
-  value: static.249.211.181.135.clients.your-server.de.
+  type: A
+  value: 65.109.156.40
 '*.warehouse.selfhosted':
   ttl: 300
-  type: CNAME
-  value: static.249.211.181.135.clients.your-server.de.
+  type: A
+  value: 65.109.156.40
 Cabbache:
 - ttl: 300
   type: CNAME
@@ -642,13 +642,6 @@ archive:
   ttl: 300
   type: CNAME
   value: 493d65b3-2040-4db2-af28-ea33c026beb5.cfargotunnel.com.
-arker-demo:
-- octodns:
-    cloudflare:
-      proxied: true
-  ttl: 300
-  type: CNAME
-  value: archive.selfhosted.hackclub.com.
 armed:
 - octodns:
     cloudflare:
