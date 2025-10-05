@@ -1005,6 +1005,10 @@ bn:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+shop.boba:
+- ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
 boba:
 - ttl: 300
   type: CNAME
