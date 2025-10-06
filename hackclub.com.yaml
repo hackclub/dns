@@ -490,6 +490,7 @@ _vercel:
   - vc-domain-verify=vidisha.hackclub.com,865c18c50e3614795dfc
   - vc-domain-verify=suceava.hackclub.com,b3c8f92fe1ba1f1f89f4
   - vc-domain-verify=stemegypt.hackclub.com,0c6e30f2705906e4924c
+  - vc-domain-verify=enclosure.hackclub.com,d53bb405059ed166d79e
   - vc-domain-verify=meltdown.hackclub.com,f6609cf94710dda22b0c
   - vc-domain-verify=visioneer.hackclub.com,b1bec26133a3a1d74d62
   - vc-domain-verify=vote.visioneer.hackclub.com,eacfb41e3088190eecbf
@@ -1688,6 +1689,10 @@ emporium:
 - ttl: 300
   type: CNAME
   value: 27cbbde38306f198.vercel-dns-016.com.
+enclosure:
+- ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
 endpointer:
 - ttl: 300
   type: CNAME
