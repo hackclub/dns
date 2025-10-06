@@ -1013,6 +1013,15 @@ bounce:
 - ttl: 300
   type: CNAME
   value: custom-email-domain.stripe.com.
+booyah:
+- ttl: 300
+  type: CNAME
+  value: 06e84828a954e090.vercel-dns-017.com.
+_vercel:
+  ttl: 600
+  type: TXT
+  values:
+    - vc-domain-verify=booyah.hackclub.com,2a658c4327fd0679ac16
 bqogdt6xkltngfg62lq7jo5dk33zerss._domainkey:
 - octodns:
     cloudflare:
