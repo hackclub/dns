@@ -3178,6 +3178,10 @@ odyssey:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+olympics:
+- ttl: 300
+  type: CNAME
+  value: e65532a7e0d6bba4.vercel-dns-016.com.
 orpheus-engine:
 - octodns:
     cloudflare:
