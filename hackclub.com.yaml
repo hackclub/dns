@@ -1684,7 +1684,7 @@ embed.scrapbook:
 emerge:
   ttl: 300
   type: CNAME
-  value: 9551a288652e69f0.vercel-dns-016.com.
+  value: a.selfhosted.hackclub.com.
 emporium:
 - ttl: 300
   type: CNAME
