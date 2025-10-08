@@ -421,7 +421,7 @@ _vercel:
   - vc-domain-verify=asiet.hackclub.com,2975ee268d07e199efdc
   - vc-domain-verify=backend.arena.hackclub.com,079b94be7b001fa4e775
   - vc-domain-verify=arena.hackclub.com,18d51eef05279bd5822f
-  - vc-domain-verify=waffles.hackclub.com,04eb4de0bcc5369e4dca
+  - vc-domain-verify=waffles.hackclub.com,cd0782b9e3c6dbac5af2
   - vc-domain-verify=jpeg.hackclub.com,d10d5875d555c029e35a
   - vc-domain-verify=pixeldust.hackclub.com,4cedb02dcdafd0343fc5
   - vc-domain-verify=multiverse.hackclub.com,1d8996d4a42eba75e1d8
@@ -490,6 +490,7 @@ _vercel:
   - vc-domain-verify=vidisha.hackclub.com,865c18c50e3614795dfc
   - vc-domain-verify=suceava.hackclub.com,b3c8f92fe1ba1f1f89f4
   - vc-domain-verify=stemegypt.hackclub.com,0c6e30f2705906e4924c
+  - vc-domain-verify=enclosure.hackclub.com,d53bb405059ed166d79e
   - vc-domain-verify=meltdown.hackclub.com,f6609cf94710dda22b0c
   - vc-domain-verify=visioneer.hackclub.com,b1bec26133a3a1d74d62
   - vc-domain-verify=vote.visioneer.hackclub.com,eacfb41e3088190eecbf
@@ -1687,11 +1688,15 @@ embed.scrapbook:
 emerge:
   ttl: 300
   type: CNAME
-  value: 9551a288652e69f0.vercel-dns-016.com.
+  value: a.selfhosted.hackclub.com.
 emporium:
 - ttl: 300
   type: CNAME
   value: 27cbbde38306f198.vercel-dns-016.com.
+enclosure:
+- ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
 endpointer:
 - ttl: 300
   type: CNAME
@@ -2994,6 +2999,20 @@ moonbeam:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+moonshot:
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
+moonshot-staging:
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 more.cchs:
 - ttl: 300
   type: CNAME
@@ -3163,6 +3182,10 @@ odyssey:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+olympics:
+- ttl: 300
+  type: CNAME
+  value: e65532a7e0d6bba4.vercel-dns-016.com.
 orpheus-engine:
 - octodns:
     cloudflare:
