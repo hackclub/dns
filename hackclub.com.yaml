@@ -2971,6 +2971,10 @@ midi:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+milkyway:
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 milton:
   ttl: 300
   type: CNAME
