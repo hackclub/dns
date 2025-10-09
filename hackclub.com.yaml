@@ -2191,12 +2191,12 @@ hackcraft:
 mc.hackcraft:
   ttl: 300
   type: A
-  value: 37.187.138.84
+  value: 92.222.100.10
 _minecraft._tcp.hackcraft:
   ttl: 300
   type: SRV
   value:
-    port: 25567
+    port: 25575
     priority: 0
     target: mc.hackcraft.hackclub.com.
     weight: 0
