@@ -1010,6 +1010,10 @@ boba:
 - ttl: 300
   type: CNAME
   value: hackclub.github.io.
+shop.boba:
+- ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
 bounce:
 - ttl: 300
   type: CNAME
