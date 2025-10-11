@@ -366,6 +366,11 @@ kunal: # kunal
   values: 
   - ns1.vercel-dns.com.
   - ns2.vercel-dns.com.
+
+kyle-is-a: # @Kyle B
+  ttl: 600
+  type: CNAME
+  value: dekoder-py.github.io.
   
 la: # Laker Turner's links page - @lxjv or @la / @laker in the slack
   ttl: 600 
