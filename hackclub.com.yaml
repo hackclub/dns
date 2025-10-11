@@ -3288,6 +3288,10 @@ overflow-hidden:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+overglade:
+- ttl: 300
+  type: CNAME
+  value: hackclub.github.io.
 slushies:
 - octodns:
     cloudflare:
