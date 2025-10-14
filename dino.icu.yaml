@@ -370,11 +370,11 @@ kunal: # kunal
 kyle-is-a: # @Kyle B
   ttl: 600
   type: CNAME
-  value: dekoder-py.github.io.
-_github-pages-challenge-Dekoder-py.kyle-is-a:
-  ttl: 300
-  type: TXT
-  value: 7bc87f7fd34d4e34b8a1ae3fd1944e
+  value: cname.vercel-dns.com
+# _github-pages-challenge-Dekoder-py.kyle-is-a:
+  # ttl: 300
+  # type: TXT
+  # value: 7bc87f7fd34d4e34b8a1ae3fd1944e
   
 la: # Laker Turner's links page - @lxjv or @la / @laker in the slack
   ttl: 600 
