@@ -532,6 +532,10 @@ accelerate:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+aces:
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 act:
 - ttl: 300
   type: CNAME
@@ -1628,7 +1632,7 @@ duk:
 dummies:
   ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: dummies.peleg2210.hackclub.app.
 dv:
   ttl: 300
   type: CNAME
@@ -3001,16 +3005,10 @@ moonbeam:
   type: CNAME
   value: cname.vercel-dns.com.
 moonshot:
-- octodns:
-    cloudflare:
-      proxied: true
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 moonshot-staging:
-- octodns:
-    cloudflare:
-      proxied: true
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
