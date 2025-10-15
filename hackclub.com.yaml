@@ -534,7 +534,6 @@ accelerate:
   value: a.selfhosted.hackclub.com.
 aces:
   ttl: 300
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 act:
