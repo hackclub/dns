@@ -536,6 +536,10 @@ aces:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+auth.aces:
+- ttl: 300
+  type: A
+  value: 54.36.60.57
 act:
 - ttl: 300
   type: CNAME
