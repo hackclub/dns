@@ -662,6 +662,10 @@ authly:
 - ttl: 300
   type: CNAME
   value: dandililacs.github.io.
+auth.aces:
+- ttl: 300
+  type: A
+  value: 54.36.60.57
 forge:
 - ttl: 300
   type: CNAME
