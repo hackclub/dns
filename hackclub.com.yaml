@@ -3016,7 +3016,7 @@ moonshot:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-moonshot-staging:
+moonshot-testing:
 - octodns:
     cloudflare:
       proxied: false
