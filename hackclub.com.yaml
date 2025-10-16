@@ -3009,10 +3009,16 @@ moonbeam:
   type: CNAME
   value: cname.vercel-dns.com.
 moonshot:
+- octodns:
+    cloudflare:
+      proxied: false
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 moonshot-staging:
+- octodns:
+    cloudflare:
+      proxied: false
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
