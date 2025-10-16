@@ -3007,14 +3007,14 @@ moonbeam:
 moonshot:
 - octodns:
     cloudflare:
-      proxied: true
+      proxied: false
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 moonshot-staging:
 - octodns:
     cloudflare:
-      proxied: true
+      proxied: false
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
