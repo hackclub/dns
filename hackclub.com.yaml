@@ -171,11 +171,11 @@ archive-hq-local.selfhosted:
   ttl: 300
   type: CNAME
   value: 493d65b3-2040-4db2-af28-ea33c026beb5.cfargotunnel.com.
-a.limited.selfhosted:
+a.identity.selfhosted:
   ttl: 300
   type: CNAME
   value: static.205.141.156.178.clients.your-server.de.
-'*.a.limited.selfhosted':
+'*.a.identity.selfhosted':
   ttl: 300
   type: CNAME
   value: static.205.141.156.178.clients.your-server.de.
@@ -2483,7 +2483,7 @@ identity:
       proxied: true
   ttl: 300
   type: CNAME
-  value: a.limited.selfhosted.hackclub.com.
+  value: a.identity.selfhosted.hackclub.com.
 icons:
   ttl: 300
   type: CNAME
@@ -4639,13 +4639,6 @@ waveform:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-we-out:
-- octodns:
-    cloudflare:
-      proxied: true
-  ttl: 300
-  type: CNAME
-  value: a.limited.selfhosted.hackclub.com.
 webdev:
 - ttl: 300
   type: CNAME
