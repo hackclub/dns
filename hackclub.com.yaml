@@ -125,6 +125,14 @@ a.selfhosted:
   ttl: 300
   type: CNAME
   value: static.52.100.161.5.clients.your-server.de.
+a.limited.selfhosted:
+  ttl: 300
+  type: CNAME
+  value: static.115.195.156.178.clients.your-server.de.
+'*.a.limited.selfhosted':
+  ttl: 300
+  type: CNAME
+  value: static.115.195.156.178.clients.your-server.de.
 b.selfhosted:
   ttl: 300
   type: CNAME
