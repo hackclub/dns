@@ -13,8 +13,6 @@
       preference: 5
     - exchange: aspmx2.googlemail.com.
       preference: 10
-    - exchange: feedback-smtp.us-east-2.amazonses.com.
-      preference: 10
     - exchange: aspmx3.googlemail.com.
       preference: 10
   - ttl: 300
@@ -1518,6 +1516,21 @@ help.daydream:
   ttl: 300
   type: CNAME
   value: 5a32724a08a44e30c47bb5717b4a1986.freshdesk.com.
+howiemail:
+- octodns:
+    lenient: true
+  ttl: 600
+  type: ALIAS
+  value: a.selfhosted.hackclub.com.
+- ttl: 3600
+  type: TXT
+  values:
+  - v=spf1 include:spf.howiemail.co ~all
+- ttl: 600
+  type: MX
+  values:
+  - exchange: feedback-smtp.us-east-2.amazonses.com.
+    preference: 10
 itch.daydream:
   ttl: 300
   type: CNAME
