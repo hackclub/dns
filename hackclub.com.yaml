@@ -566,7 +566,7 @@ aesthetic:
 aqok45oupsvrr7elmqtdcvqtbn77ac4y._domainkey:
 - ttl: 300
   type: CNAME
-  value: aqok45oupsvrr7elmqtdcvqtbn77ac4y.dkim.howiemail.co
+  value: aqok45oupsvrr7elmqtdcvqtbn77ac4y.dkim.howiemail.co.
 arena:
 - ttl: 300
   type: CNAME
@@ -3743,7 +3743,7 @@ rpg:
 rqoazhlw7bryffgn2xduhdtqqkp6envv._domainkey:
 - ttl: 300
   type: CNAME
-  value: rqoazhlw7bryffgn2xduhdtqqkp6envv.dkim.howiemail.co
+  value: rqoazhlw7bryffgn2xduhdtqqkp6envv.dkim.howiemail.co.
 
 rr:
 - ttl: 300
@@ -4760,7 +4760,7 @@ www.tist:
 yjggqrfhy2bwdn736r2lneu5a4quk4m6._domainkey:
 - ttl: 300
   type: CNAME
-  value: yjggqrfhy2bwdn736r2lneu5a4quk4m6.dkim.howiemail.co
+  value: yjggqrfhy2bwdn736r2lneu5a4quk4m6.dkim.howiemail.co.
 your-first-ship:
 - ttl: 300
   type: CNAME
@@ -4776,10 +4776,6 @@ ysws:
 - ttl: 300
   type: CNAME
   value: hackclub.github.io.
-rqoazhlw7bryffgn2xduhdtqqkp6envv._domainkey:
-- ttl: 300
-  type: CNAME
-  value: rqoazhlw7bryffgn2xduhdtqqkp6envv.dkim.howiemail.co
 zachday:
 - ttl: 300
   type: CNAME
