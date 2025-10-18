@@ -13,6 +13,8 @@
       preference: 5
     - exchange: aspmx2.googlemail.com.
       preference: 10
+    - exchange: feedback-smtp.us-east-2.amazonses.com
+      preference: 10
     - exchange: aspmx3.googlemail.com.
       preference: 10
   - ttl: 300
@@ -30,7 +32,7 @@
     - google-site-verification=4xlGOIPHkhZqsYh8OMKQy3aqLj6_EKJFAE_iQjb0D_s
     - google-site-verification=xH7iz1qe6HUsWmnYaT9Mxam5K5VhNubX4B-Nl2jmLEw
     - google-site-verification=dhp4vP1rvcNOr7sHbOF2ynnskqussnxTyxy-xI9edRo
-    - v=spf1 include:_spf.google.com include:mailgun.org include:amazonses.com include:sendgrid.net include:spf.mtasv.net ~all
+    - v=spf1 include:_spf.google.com include:mailgun.org include:amazonses.com include:sendgrid.net include:spf.mtasv.net include:spf.howiemail.co ~all
     - stripe-verification=5bdd0e2475b12744bfe1f778ac419f917800d476fd498ae2682ecd161d162c64
     - airtable-verification=6a190bbac6305fe1d58071f48f535cf5
     - yandex-verification=befd33a8f4f21226
@@ -561,6 +563,10 @@ aesthetic:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+aqok45oupsvrr7elmqtdcvqtbn77ac4y._domainkey:
+- ttl: 300
+  type: CNAME
+  value: aqok45oupsvrr7elmqtdcvqtbn77ac4y.dkim.howiemail.co
 arena:
 - ttl: 300
   type: CNAME
@@ -3733,6 +3739,12 @@ rpg:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+
+rqoazhlw7bryffgn2xduhdtqqkp6envv._domainkey:
+- ttl: 300
+  type: CNAME
+  value: rqoazhlw7bryffgn2xduhdtqqkp6envv.dkim.howiemail.co
+
 rr:
 - ttl: 300
   type: CNAME
@@ -4745,6 +4757,10 @@ www.tist:
 - ttl: 300
   type: CNAME
   value: tist.hackclub.com.
+yjggqrfhy2bwdn736r2lneu5a4quk4m6._domainkey:
+- ttl: 300
+  type: CNAME
+  value: yjggqrfhy2bwdn736r2lneu5a4quk4m6.dkim.howiemail.co
 your-first-ship:
 - ttl: 300
   type: CNAME
@@ -4760,6 +4776,10 @@ ysws:
 - ttl: 300
   type: CNAME
   value: hackclub.github.io.
+rqoazhlw7bryffgn2xduhdtqqkp6envv._domainkey:
+- ttl: 300
+  type: CNAME
+  value: rqoazhlw7bryffgn2xduhdtqqkp6envv.dkim.howiemail.co
 zachday:
 - ttl: 300
   type: CNAME
