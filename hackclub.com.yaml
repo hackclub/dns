@@ -13,7 +13,7 @@
       preference: 5
     - exchange: aspmx2.googlemail.com.
       preference: 10
-    - exchange: feedback-smtp.us-east-2.amazonses.com
+    - exchange: feedback-smtp.us-east-2.amazonses.com.
       preference: 10
     - exchange: aspmx3.googlemail.com.
       preference: 10
