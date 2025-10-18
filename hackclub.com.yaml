@@ -1664,7 +1664,7 @@ duk:
 dummies:
   ttl: 300
   type: CNAME
-  value: dummies.peleg2210.hackclub.app.
+  value: peleg2210.hackclub.app.
 dv:
   ttl: 300
   type: CNAME
