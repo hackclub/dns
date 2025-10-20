@@ -2766,6 +2766,10 @@ langjam:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+lapse:
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 largo: # largo.hackclub.com
   ttl: 300
   type: CNAME
