@@ -148,11 +148,11 @@ b.selfhosted:
 cooked.selfhosted:
   ttl: 300
   type: CNAME
-  value: static.219.197.161.5.clients.your-server.de
+  value: static.219.197.161.5.clients.your-server.de.
 '*.cooked.selfhosted':
   ttl: 300
   type: CNAME
-  value: static.219.197.161.5.clients.your-server.de
+  value: static.219.197.161.5.clients.your-server.de.
 uptime.selfhosted:
   ttl: 300
   type: CNAME
