@@ -81,7 +81,7 @@ _dmarc.timedump:
 20251020084858pm._domainkey:
   ttl: 300
   type: TXT
-  value: k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDAwqkKgd27Mq2uH4gRKHVgg6JlLcuDtB3/qDiB+ULqSsVNDvzU6HNa1njszIOeaeC4BPNgO/ysaNgjmJz6OeFFmIKGB55lwa8EI0/OuoQC9eGBd7oCkThgoTkuPQ5Ont83sFykEp0dZJCzjE5ztQtoKkhcikr641eXLlqK/vbSwwIDAQAB.
+  value: k=rsa\;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDAwqkKgd27Mq2uH4gRKHVgg6JlLcuDtB3/qDiB+ULqSsVNDvzU6HNa1njszIOeaeC4BPNgO/ysaNgjmJz6OeFFmIKGB55lwa8EI0/OuoQC9eGBd7oCkThgoTkuPQ5Ont83sFykEp0dZJCzjE5ztQtoKkhcikr641eXLlqK/vbSwwIDAQAB.
 2qdnwxx6mfbqzjwbtkigeofbcfs575pc._domainkey.hackatime:
   ttl: 300
   type: CNAME
