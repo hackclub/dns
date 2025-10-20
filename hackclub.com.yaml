@@ -1939,7 +1939,7 @@ format:
   ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
-flavorAdventure:
+flavor-adventure:
 - ttl: 300
   type: A
   value: 15.204.233.49
