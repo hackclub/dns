@@ -13,7 +13,7 @@ providers:
     class: octodns_cloudflare.CloudflareProvider
     token: env/CLOUDFLARE_TOKEN
     # Production best practices
-    plan_type: pro               # Cloudflare plan type (3,500 record limit)
+    plan_type: enterprise        # Cloudflare plan type
     pagerules: true              # Page Rules management
     min_ttl: 120                 # Cloudflare minimum
     # Enhanced reliability settings
