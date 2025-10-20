@@ -78,10 +78,10 @@ _dmarc.timedump:
   ttl: 300
   type: TXT
   value: v=DMARC1\; p=none # extra lenient while setting up dmarc
-20251020084858pm._domainkey:
+20251019203019pm._domainkey:
   ttl: 300
   type: TXT
-  value: k=rsa\;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDAwqkKgd27Mq2uH4gRKHVgg6JlLcuDtB3/qDiB+ULqSsVNDvzU6HNa1njszIOeaeC4BPNgO/ysaNgjmJz6OeFFmIKGB55lwa8EI0/OuoQC9eGBd7oCkThgoTkuPQ5Ont83sFykEp0dZJCzjE5ztQtoKkhcikr641eXLlqK/vbSwwIDAQAB.
+  value: k=rsa\;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCpvmb60zUfEHXWL+NV4L9mixZWNe/gU4MDxkzxpLovag/ub13NxZ3N83VKWojj6FeYLij5e+NGDsJQNb2KPXHQzYMX7jYrZYEOLu9laytBfcflCRNBhwICvNO09u2EApnO10JClgkV4nbv7dk2o/bRCl0AKZW6m/OWtNkaAIsExQIDAQAB.
 2qdnwxx6mfbqzjwbtkigeofbcfs575pc._domainkey.hackatime:
   ttl: 300
   type: CNAME
