@@ -4,6 +4,7 @@ providers:
     class: octodns.provider.yaml.YamlProvider
     directory: ./
     enforce_order: False
+    default_ttl: 600
   dnsimple:
     class: octodns_dnsimple.DnsimpleProvider
     token: env/DNSIMPLE_API_KEY
