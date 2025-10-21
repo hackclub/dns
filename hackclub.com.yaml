@@ -2208,7 +2208,7 @@ hackatime:
       proxied: true
   ttl: 300
   type: CNAME
-  value: hackatime.selfhosted.hackclub.com.
+  value: hackatime.limited.selfhosted.hackclub.com.
 hackatime-badge:
 - ttl: 300
   type: CNAME
