@@ -1969,7 +1969,7 @@ flourish:
 fnt._domainkey:
 - ttl: 300
   type: TXT
-  value: k=rsa\; t=s\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDAXHru7AQSRBIL6KnEIw/M+GsE8iXtCFOahhNng/5lxVq4rRY2mu/nFKmfGZHXxVXsCYNHwXAkLMcDWIwpaufeSY6tfp0YqGZaTaNT3yDvAU8Xf3f3SQF6Wtm5cM4RPVIOTBuIlU78tpacwGyTwLPDXJxBuTB9d8ee5yt8NLLOkwIDAQAB
+  value: k=rsa; t=s; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/fiPa2lnB4fmnX5hy+o1ZMnWPvVnR/jxucy2no2F3sNkMljgGXeHD7l8qxhh9ZbuIDtJwrDjgJHJ8KqbZ7reMHBNlr14C4TVhEQCDoLznMPyqcTSJ6kXcX2yz5OOUMqrprMlpVv7xz5tc7eZBrdvH5mxoFnIfG7uPOxJHAWWacQIDAQAB
 forms:
   ttl: 300
   type: CNAME
