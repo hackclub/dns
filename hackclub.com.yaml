@@ -2448,7 +2448,7 @@ highway:
       proxied: true
   ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: b.selfhosted.hackclub.com.
 hillsdale:
 - ttl: 300
   type: CNAME
