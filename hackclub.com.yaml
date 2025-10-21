@@ -169,6 +169,14 @@ hackatime.selfhosted:
   ttl: 300
   type: CNAME
   value: static.27.205.161.5.clients.your-server.de.
+hackatime.limited.selfhosted:
+  ttl: 300
+  type: A
+  value: 65.108.2.38
+'*.hackatime.limited.selfhosted':
+  ttl: 300
+  type: A
+  value: 65.108.2.38
 archive-hq-local.selfhosted:
 - octodns:
     cloudflare:
