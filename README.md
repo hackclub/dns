@@ -11,7 +11,7 @@ This repository is used for managing Hack Club's DNS configuration through [Octo
 2. In your fork open the [hackclub.com.yaml](./hackclub.com.yaml) file and add the following alphabetically based off the subdomain name:
 
 ```yaml
-SUBDOMAIN_NAME:
+SUBDOMAIN_NAME: # email@example.com U012AB345CD
   - ttl: 600
     type: CNAME
     value: SOURCE_DOMAIN_OR_IP.
@@ -19,7 +19,8 @@ SUBDOMAIN_NAME:
 
 3. Replace `SUBDOMAIN_NAME` with the name of the sub-domain. So if the name was `hello` then the subdomain would be `hello.hackclub.com`.
 4. Replace `SOURCE_DOMAIN_OR_IP` with the domain or IP address of the website you want the subdomain to go. If you are using an IP address change `type: CNAME` to `type: A`. Remember to leave that `.` at the end!
-5. Commit your changes and [create the PR](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork)!
+5. Add your contact information in a comment (see above). Include either an email address, Slack ID, or both.
+6. Commit your changes and [create the PR](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork)!
 
 That's it! Someone with contributor access to the repo will then review your PR.
 
