@@ -525,7 +525,7 @@ _vercel:
   - vc-domain-verify=optimize.hackclub.com,08b88e7ff4ae25385700
   - vc-domain-verify=simmer.hackclub.com,19a5cdf65fc7aedb7ccb
   - vc-domain-verify=fusering.hackclub.com,b3bcae34deb4b6c261c1
-  - vc-domain-verify=docs.submit.hackclub.com,c514fee6606689bce8ad
+  - vc-domain-verify=docs.identity.hackclub.com,ef5c12615db913aa8dee
   - vc-domain-verify=branch.hackclub.com,21874c5af09f455c2cc0
   - vc-domain-verify=parthenon.hackclub.com,66acbbffb5cfd91f844f
   - vc-domain-verify=odyssey.hackclub.com,44ac2c39dd9ccfc6d991
@@ -1634,6 +1634,10 @@ docs.charon:
   type: CNAME
   value: hackclub.github.io.
 docs.submit:
+- ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
+docs.identity:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
