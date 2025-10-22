@@ -1151,10 +1151,10 @@ calendar:
   ttl: 300
   type: CNAME
   value: ghs.googlehosted.com.
-camp:
-  ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+camp: # christian on slack U0938MZG8Q6 poc is euan
+  - ttl: 300
+    type: CNAME
+    value: https://christian.hackclub.app/camp/.
 capsule:
 - ttl: 300
   type: CNAME
