@@ -129,10 +129,6 @@ a.selfhosted:
   ttl: 300
   type: CNAME
   value: static.52.100.161.5.clients.your-server.de.
-  camp: # christian on slack U0938MZG8Q6 poc is euan
-  - ttl: 300
-    type: TXT
-    value: vc-domain-verify=camp.hackclub.com,7ef70c0d934b9f3a9bd3.
 a.limited.selfhosted:
   ttl: 300
   type: CNAME
@@ -443,6 +439,7 @@ _vercel:
   ttl: 300
   type: TXT
   values:
+  - vc-domain-verify=camp.hackclub.com,7ef70c0d934b9f3a9bd3
   - vc-domain-verify=asiet.hackclub.com,2975ee268d07e199efdc
   - vc-domain-verify=backend.arena.hackclub.com,079b94be7b001fa4e775
   - vc-domain-verify=arena.hackclub.com,18d51eef05279bd5822f
@@ -1155,6 +1152,10 @@ calendar:
   ttl: 300
   type: CNAME
   value: ghs.googlehosted.com.
+camp: # christian on slack U0938MZG8Q6 poc is euan
+  - ttl: 300
+    type: TXT
+    value: vc-domain-verify=camp.hackclub.com,7ef70c0d934b9f3a9bd3.
 capsule:
 - ttl: 300
   type: CNAME
