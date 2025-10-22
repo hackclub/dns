@@ -1153,8 +1153,8 @@ calendar:
   value: ghs.googlehosted.com.
 camp: # christian on slack U0938MZG8Q6 poc is euan
   - ttl: 300
-    type: CNAME
-    value: https://camp-smoky-nine.vercel.app.
+    type: TXT
+    value: vc-domain-verify=camp.hackclub.com,7ef70c0d934b9f3a9bd3.
 capsule:
 - ttl: 300
   type: CNAME
