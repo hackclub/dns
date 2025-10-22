@@ -1154,7 +1154,7 @@ calendar:
 camp: # christian on slack U0938MZG8Q6 poc is euan
   - ttl: 300
     type: CNAME
-    value: https://christian.hackclub.app/camp/.
+    value: cname.vercel-dns.com.
 capsule:
 - ttl: 300
   type: CNAME
