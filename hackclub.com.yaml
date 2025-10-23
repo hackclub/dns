@@ -1947,7 +1947,7 @@ format:
 flavor-adventure:
 - ttl: 300
   type: A
-  value: 15.204.233.49
+  value: 5.161.244.66
 flhs:
 - ttl: 300
   type: TXT
