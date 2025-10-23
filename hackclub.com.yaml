@@ -3027,8 +3027,8 @@ midi:
   value: a.selfhosted.hackclub.com.
 midnight:
   ttl: 300
-  type: CNAME
-  value: a.selfhosted.hackclub.com.
+  type: A
+  value: 5.161.244.66
 milkyway:
   ttl: 300
   type: CNAME
