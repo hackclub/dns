@@ -465,6 +465,20 @@ opott:
   type: CNAME
   value: opott.github.io.
 
+osu: # nightfall/dainfloop: contact via slack @nightfall [U07KVMBHH4L]
+  - ttl: 300
+    type: A
+    value: 37.27.51.34
+    
+  - ttl: 300
+    type: AAAA
+    value: 2a01:4f9:3081:399c::4
+
+  - ttl: 600
+    type: TXT
+    values: 
+      - domain-verification=rana
+
 overflow:
   ttl: 600
   type: CNAME
