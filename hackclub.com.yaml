@@ -2336,6 +2336,10 @@ harvest:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+haunted:
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 haxidraw:
   ttl: 300
   type: CNAME
