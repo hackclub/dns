@@ -3467,6 +3467,10 @@ pic._domainkey.mail:
   ttl: 300
   type: TXT
   value: k=rsa
+picoducky: # U079HV9PTC7 ; POC=olive
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 pier:
 - ttl: 300
   type: A
