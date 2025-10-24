@@ -3791,6 +3791,10 @@ rrhs:
 - ttl: 300
   type: CNAME
   value: rrhs-hack-club.netlify.app.
+rss:
+- ttl: 300
+  type: CNAME
+  value: 5e3aec56f7ee6698.vercel-dns-016.com.
 ru:
 - ttl: 300
   type: CNAME
