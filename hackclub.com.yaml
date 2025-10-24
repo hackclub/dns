@@ -3409,6 +3409,10 @@ packages:
   ttl: 300
   type: CNAME
   value: secret-zebra-lydr194iy8x0x4n4rmzcii3r.herokudns.com.
+page:
+  ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
 panorama:
   ttl: 300
   type: CNAME
