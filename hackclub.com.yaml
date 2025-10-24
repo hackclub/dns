@@ -2092,7 +2092,7 @@ geocoder:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-gharbiya:
+gharbiya: # U0666VATMT5
 - ttl: 300
   type: CNAME
   value: stemgharbiya.github.io.
