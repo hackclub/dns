@@ -2092,10 +2092,10 @@ geocoder:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-gharbia:
+gharbiya:
 - ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: stemgharbiya.github.io.
 gita:
 - ttl: 300
   type: A
