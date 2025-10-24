@@ -452,6 +452,20 @@ opott:
   type: CNAME
   value: opott.github.io.
 
+osu: # nightfall/dainfloop: contact via slack @nightfall [U07KVMBHH4L]
+  - ttl: 300
+    type: A
+    value: 37.27.51.34
+    
+  - ttl: 300
+    type: AAAA
+    value: 2a01:4f9:3081:399c::4
+
+  - ttl: 600
+    type: TXT
+    values: 
+      - domain-verification=rana
+
 overflow:
   ttl: 600
   type: CNAME
@@ -548,7 +562,7 @@ sdheeraj: # https://github.com/17sdheeraj/17sdheeraj.github.io
 sequoia: # vortex slave record - https://vortex.skyfall.dev
   ttl: 60
   type: A
-  value: 144.21.62.56
+  value: 152.67.157.1
 
 subdomain: # Free subdomain generator.
   ttl: 600
@@ -768,3 +782,8 @@ mthlpbs:
   - ttl: 600
     type: CNAME
     value: mthlpbs.github.io.
+
+fileserver:
+  - ttl: 600
+    type: CNAME
+    value: 6f453c7a-030b-4adb-9b7f-c1670a62af73.cfargotunnel.com.
