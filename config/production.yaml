@@ -24,7 +24,7 @@ providers:
   cloudflare-alt:
     class: octodns_cloudflare.CloudflareProvider
     token: env/CLOUDFLARE_TOKEN
-    plan: free
+    plan_type: free
     # Production best practices
     min_ttl: 120                 # Cloudflare minimum
     # Enhanced reliability settings
