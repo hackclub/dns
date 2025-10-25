@@ -2321,6 +2321,10 @@ halo:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+halloween: # @Charmunk and @jenin; POC=dhamari
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 ham:
   ttl: 300
   type: CNAME
