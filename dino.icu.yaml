@@ -78,6 +78,18 @@ _acme-challenge.andreijiroh:
     type: CNAME
     value: abd77e2d22191e54d5f6c8ad24fcfd97._acme.deno.net.
 
+# Alumni Society (https://github.com/hackclub-alumni/meta/issues/1)
+# Records are primarily managed by @ajhalili2006 (U07CAPBB9B5), although other alums
+# can manage them by coordinating at #alums channel or https://github.com/hackclub-alumni/meta.
+alumni: 
+  - ttl: 600
+    type: CNAME
+    value: hackclub-alumni.github.io.
+_atproto.alumni:
+  - ttl: 600
+    type: TXT
+    value: "did=did:plc:yi5ewii4xerodl6ljn3fwga6"
+
 arjav: #by https://github.com/arjav0703
   - ttl: 600
     type: A
