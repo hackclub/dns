@@ -17,3 +17,7 @@ _github-pages-challenge-hackclub-alumni.alumni:
   - ttl: 600
     type: TXT
     value: "62688903c020be82f48ace03d54467"
+blog.alumni:
+  - ttl: 600
+    type: CNAME
+    value: 731fb7077db63b1d.vercel-dns-016.com.
