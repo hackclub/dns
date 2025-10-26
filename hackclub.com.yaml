@@ -2572,7 +2572,7 @@ intro.moonbeam:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-iplace:
+iplace: # ascpixi@hackclub.com U082DPCGPST
 - ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
@@ -2779,7 +2779,7 @@ langjam:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-lapse:
+lapse: # ascpixi@hackclub.com U082DPCGPST
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
@@ -3444,7 +3444,7 @@ pathfinder:
   ttl: 300
   type: CNAME
   value: meghanam4.github.io.
-penumbra:
+penumbra: # ascpixi@hackclub.com U082DPCGPST
   ttl: 300
   type: CNAME
   value: hackclub.github.io.
