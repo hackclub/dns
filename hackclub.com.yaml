@@ -2572,6 +2572,10 @@ intro.moonbeam:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+iplace:
+- ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 irvine:
 - ttl: 3600
   type: TXT
