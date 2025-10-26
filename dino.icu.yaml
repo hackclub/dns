@@ -58,16 +58,36 @@ ai:                       # Suprised no one took this yet!
    value: e.hackclub.app. # > the internet except everything is and was vibe coded 
 
 
-#ajhalili2006: # by https://github.com/ajhalili2006 via https://github.com/andreijiroh-dev/website
-#  - ttl: 600
-#    type: CNAME
-#    # redirects to https://andreijiroh.xyz via caddy config at https://github.com/recaptime-dev/proxyparty-caddy
-#    value: proxyparty.recaptime.dev.
+ajhalili2006: # by https://github.com/ajhalili2006 via https://github.com/andreijiroh-dev/website
+  - ttl: 600
+    type: A
+    # https://github.com/andreijiroh-dev/api-servers/tree/main/apps/redirector, hosted on Deno Deploy
+    value: 69.67.170.170
+_acme-challenge.ajhalili2006:
+  - ttl: 600
+    type: CNAME
+    value: 3a1ea03c191e234288b279704763e052._acme.deno.net.
 
-#andreijiroh: # by https://github.com/ajhalili2006, but uses his first name as subdomain instead of github username
-#  - ttl: 600
-#    type: CNAME
-#    value: proxyparty.recaptime.dev.
+andreijiroh: # by https://github.com/ajhalili2006, but uses his first name as subdomain instead of github username
+  - ttl: 600
+    type: A
+    # https://github.com/andreijiroh-dev/api-servers/tree/main/apps/redirector, hosted on Deno Deploy
+    value: 69.67.170.170
+_acme-challenge.andreijiroh:
+  - ttl: 600
+    type: CNAME
+    value: abd77e2d22191e54d5f6c8ad24fcfd97._acme.deno.net.
+
+# Alumni Society (https://github.com/hackclub-alumni/meta/issues/1)
+# Records are primarily managed by @ajhalili2006 (U07CAPBB9B5), although other alums
+# can manage them by coordinating at #alums channel or https://github.com/hackclub-alumni/meta.
+# Note that we have moved to hackclub.community, although we keep GH Pages
+# domain verification record below to prevent domain takeovers if we do wildcard
+# CNAME records at *.alumni.dino.icu in future.
+_github-pages-challenge-hackclub-alumni.alumni:
+  - ttl: 600
+    type: TXT
+    value: "3777bf5f9b6076520d8bbcebb90d45"
 
 arjav: #by https://github.com/arjav0703
   - ttl: 600
@@ -443,6 +463,20 @@ opott:
   type: CNAME
   value: opott.github.io.
 
+osu: # nightfall/dainfloop: contact via slack @nightfall [U07KVMBHH4L]
+  - ttl: 300
+    type: A
+    value: 37.27.51.34
+    
+  - ttl: 300
+    type: AAAA
+    value: 2a01:4f9:3081:399c::4
+
+  - ttl: 600
+    type: TXT
+    values: 
+      - domain-verification=rana
+
 overflow:
   ttl: 600
   type: CNAME
@@ -515,6 +549,11 @@ saif:
   - ttl: 600
     type: TXT
     value: domain-verification=saif
+
+saturnyx: # https://github.com/saturnyx/saturnyx.github.io
+  ttl: 600
+  type: CNAME
+  value: saturnyx.github.io.
     
 sayhan: # portfolio and other apps?
   - ttl: 600
@@ -534,7 +573,7 @@ sdheeraj: # https://github.com/17sdheeraj/17sdheeraj.github.io
 sequoia: # vortex slave record - https://vortex.skyfall.dev
   ttl: 60
   type: A
-  value: 144.21.62.56
+  value: 152.67.157.1
 
 subdomain: # Free subdomain generator.
   ttl: 600
@@ -754,3 +793,8 @@ mthlpbs:
   - ttl: 600
     type: CNAME
     value: mthlpbs.github.io.
+
+fileserver:
+  - ttl: 600
+    type: CNAME
+    value: 6f453c7a-030b-4adb-9b7f-c1670a62af73.cfargotunnel.com.
