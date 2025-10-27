@@ -4578,7 +4578,7 @@ uet:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-ui3.hcb:
+ui3.hcb: # gary@hackclub.com
 - ttl: 300
   type: CNAME
   value: ingress.hcb.hackclub.com.
