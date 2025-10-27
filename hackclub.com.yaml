@@ -1944,7 +1944,7 @@ format:
   ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
-flavor-admin:
+flavor-admin: #euan@hackclub.com @U06T30DNB3L
 - ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
