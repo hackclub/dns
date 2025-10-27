@@ -3127,7 +3127,7 @@ nepal:
   ttl: 300
   type: CNAME
   value: dikshantpandey-dev.github.io.
-flavortown.nephthys:
+flavortown.nephthys: # mish@hackclub.com U073M5L9U13
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
