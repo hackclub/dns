@@ -884,6 +884,10 @@ awest:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+  axiom: # tanjimkamal1@gmail.com U09ASUK57K8 Axiom YSWS: #axiom on Slack
+  - ttl: 600
+    type: CNAME
+    value: axiom-ysws.github.io.
 az:
 - ttl: 300
   type: CNAME
