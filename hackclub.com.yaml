@@ -3557,7 +3557,7 @@ playphone:
 playverse: # @jenin on slack
   ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com. # @jenin on slack
+  value: a.selfhosted.hackclub.com.
 plis:
   ttl: 300
   type: CNAME
