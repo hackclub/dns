@@ -1946,7 +1946,7 @@ flagvote:
   type: CNAME
   value: cname.vercel-dns.com.
 foodie:
-  ttl: 300 # ascpixi@hackclub.com
+  ttl: 300 # narangswarit02@gmail.com POC: ascpixi
   type: CNAME
   value: 4ac2db95a894d00c.vercel-dns-017.com.
 format:
