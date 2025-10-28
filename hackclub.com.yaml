@@ -3563,10 +3563,6 @@ playphone:
   - 185.199.109.153
   - 185.199.110.153
   - 185.199.111.153
-playverse: # @jenin on slack
-  ttl: 300
-  type: CNAME
-  value: a.selfhosted.hackclub.com.
 plis:
   ttl: 300
   type: CNAME
