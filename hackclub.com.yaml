@@ -539,6 +539,7 @@ _vercel:
   - vc-domain-verify=parthenon.hackclub.com,66acbbffb5cfd91f844f
   - vc-domain-verify=odyssey.hackclub.com,44ac2c39dd9ccfc6d991
   - vc-domain-verify=reactive.hackclub.com,dcd146599f4ae3bc6822
+  - vc-domain-verify=foodie.hackclub.com,0215d38601a347a45686
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 300
   type: CNAME
@@ -1944,6 +1945,10 @@ flagvote:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+foodie:
+  ttl: 300 # narangswarit02@gmail.com POC: ascpixi
+  type: CNAME
+  value: 4ac2db95a894d00c.vercel-dns-017.com.
 format:
   ttl: 300
   type: CNAME
