@@ -2424,6 +2424,10 @@ hcb:
   values:
   - google-gws-recovery-domain-verification=49632973
   - yandex-verification=befd33a8f4f21226
+ui3.hcb: # gary@hackclub.com
+- ttl: 300
+  type: CNAME
+  value: ingress.hcb.hackclub.com.
 hcb-og:
   ttl: 300
   type: CNAME
@@ -4578,10 +4582,6 @@ uet:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-ui3.hcb: # gary@hackclub.com
-- ttl: 300
-  type: CNAME
-  value: ingress.hcb.hackclub.com.
 uk:
 - ttl: 300
   type: CNAME
