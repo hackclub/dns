@@ -555,6 +555,13 @@ accelerate:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+metabase.accelerate:
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 aces:
   ttl: 300
   type: CNAME
