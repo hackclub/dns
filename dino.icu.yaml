@@ -347,7 +347,7 @@ jzaleta: # Javi's twitter redirect
    type: A
    value: 76.76.21.21
 
-kashyap: # @kashsuks personal site
+kashyap: # @kashsuks (U084D1T5ZV0) personal site
    ttl: 600
    type: CNAME
    value: kashsuks.github.io.
