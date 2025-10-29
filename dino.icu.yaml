@@ -345,7 +345,12 @@ javier: # by https://github.com/J-cordz - my personal hack club scrapbook
 jzaleta: # Javi's twitter redirect
    ttl: 600
    type: A
-   value: 76.76.21.21  
+   value: 76.76.21.21
+
+kashyap: # @kashsuks personal site
+   ttl: 600
+   type: CNAME
+   value: kashsuks.github.io.
 
 krish: # @krishstwt
    ttl: 600
