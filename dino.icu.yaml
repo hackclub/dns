@@ -349,7 +349,7 @@ jzaleta: # Javi's twitter redirect
 
 kashyap: # @kashsuks personal site
    ttl: 600
-   type: CNAM
+   type: CNAME
    value: kashsuks.github.io.
 
 krish: # @krishstwt
