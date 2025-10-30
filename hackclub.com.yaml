@@ -1867,6 +1867,7 @@ essays:
   value: hackclub.github.io.
 events: # leo@hackclub.com
 - octodns:
+    lenient: true
     cloudflare:
       tags:
         - "cf-flatten-cname"
