@@ -539,6 +539,7 @@ _vercel:
   - vc-domain-verify=parthenon.hackclub.com,66acbbffb5cfd91f844f
   - vc-domain-verify=odyssey.hackclub.com,44ac2c39dd9ccfc6d991
   - vc-domain-verify=reactive.hackclub.com,dcd146599f4ae3bc6822
+  - vc-domain-verify=foodie.hackclub.com,0215d38601a347a45686
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 300
   type: CNAME
@@ -551,6 +552,13 @@ accelerate:
 - octodns:
     cloudflare:
       proxied: true
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
+metabase.accelerate: # alexvd@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: false
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
@@ -884,6 +892,10 @@ awest:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+axiom: # tanjimkamal1@gmail.com U09ASUK57K8 # Axiom YSWS: #axiom on Slack
+- ttl: 600
+  type: CNAME
+  value: axiom-ysws.github.io.
 az:
 - ttl: 300
   type: CNAME
@@ -1940,14 +1952,22 @@ flagvote:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+foodie:
+  ttl: 300 # narangswarit02@gmail.com POC: ascpixi
+  type: CNAME
+  value: 4ac2db95a894d00c.vercel-dns-017.com.
 format:
   ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
+flavor-admin: #euan@hackclub.com @U06T30DNB3L
+- ttl: 300
+  type: CNAME
+  value: cooked.selfhosted.hackclub.com.
 flavor-adventure:
 - ttl: 300
   type: A
-  value: 15.204.233.49
+  value: 5.161.244.66
 flhs:
 - ttl: 300
   type: TXT
@@ -2092,10 +2112,10 @@ geocoder:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-gharbia:
+gharbiya: # gh.hackclub@gmail.com U0666VATMT5
 - ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: stemgharbiya.github.io.
 gita:
 - ttl: 300
   type: A
@@ -2321,6 +2341,10 @@ halo:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+halloween: # @Charmunk and @jenin; POC=dhamari
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 ham:
   ttl: 300
   type: CNAME
@@ -2412,6 +2436,10 @@ hcb:
   values:
   - google-gws-recovery-domain-verification=49632973
   - yandex-verification=befd33a8f4f21226
+ui3.hcb: # gary@hackclub.com
+- ttl: 300
+  type: CNAME
+  value: ingress.hcb.hackclub.com.
 hcb-og:
   ttl: 300
   type: CNAME
@@ -2568,6 +2596,10 @@ intro.moonbeam:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+iplace: # ascpixi@hackclub.com U082DPCGPST
+- ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 irvine:
 - ttl: 3600
   type: TXT
@@ -2771,7 +2803,7 @@ langjam:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-lapse:
+lapse: # ascpixi@hackclub.com U082DPCGPST
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
@@ -3027,8 +3059,8 @@ midi:
   value: a.selfhosted.hackclub.com.
 midnight:
   ttl: 300
-  type: CNAME
-  value: a.selfhosted.hackclub.com.
+  type: A
+  value: 5.161.244.66
 milkyway:
   ttl: 300
   type: CNAME
@@ -3119,6 +3151,10 @@ nepal:
   ttl: 300
   type: CNAME
   value: dikshantpandey-dev.github.io.
+flavortown.nephthys: # mish@hackclub.com U073M5L9U13
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 identity.nephthys:
   ttl: 300
   type: CNAME
@@ -3409,6 +3445,10 @@ packages:
   ttl: 300
   type: CNAME
   value: secret-zebra-lydr194iy8x0x4n4rmzcii3r.herokudns.com.
+page:
+  ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
 panorama:
   ttl: 300
   type: CNAME
@@ -3432,7 +3472,7 @@ pathfinder:
   ttl: 300
   type: CNAME
   value: meghanam4.github.io.
-penumbra:
+penumbra: # ascpixi@hackclub.com U082DPCGPST
   ttl: 300
   type: CNAME
   value: hackclub.github.io.
@@ -3791,6 +3831,10 @@ rrhs:
 - ttl: 300
   type: CNAME
   value: rrhs-hack-club.netlify.app.
+rss:
+- ttl: 300
+  type: CNAME
+  value: 5e3aec56f7ee6698.vercel-dns-016.com.
 ru:
 - ttl: 300
   type: CNAME

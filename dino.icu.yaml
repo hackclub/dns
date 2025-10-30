@@ -78,6 +78,17 @@ _acme-challenge.andreijiroh:
     type: CNAME
     value: abd77e2d22191e54d5f6c8ad24fcfd97._acme.deno.net.
 
+# Alumni Society (https://github.com/hackclub-alumni/meta/issues/1)
+# Records are primarily managed by @ajhalili2006 (U07CAPBB9B5), although other alums
+# can manage them by coordinating at #alums channel or https://github.com/hackclub-alumni/meta.
+# Note that we have moved to hackclub.community, although we keep GH Pages
+# domain verification record below to prevent domain takeovers if we do wildcard
+# CNAME records at *.alumni.dino.icu in future.
+_github-pages-challenge-hackclub-alumni.alumni:
+  - ttl: 600
+    type: TXT
+    value: "3777bf5f9b6076520d8bbcebb90d45"
+
 arjav: #by https://github.com/arjav0703
   - ttl: 600
     type: A
@@ -334,7 +345,12 @@ javier: # by https://github.com/J-cordz - my personal hack club scrapbook
 jzaleta: # Javi's twitter redirect
    ttl: 600
    type: A
-   value: 76.76.21.21  
+   value: 76.76.21.21
+
+kashyap: # @kashsuks (U084D1T5ZV0) personal site
+   ttl: 600
+   type: CNAME
+   value: kashsuks.github.io.
 
 krish: # @krishstwt
    ttl: 600
@@ -366,19 +382,6 @@ kunal: # kunal
   values: 
   - ns1.vercel-dns.com.
   - ns2.vercel-dns.com.
-
-kyle-is-a: # @Kyle B
-  ttl: 600
-  type: CNAME
-  value: cname.vercel-dns.com.
-blog.kyle-is-a: # @Kyle B
-  ttl: 600
-  type: CNAME
-  value: cname.vercel-dns.com.
-_github-pages-challenge-Dekoder-py.kyle-is-a:
-  ttl: 300
-  type: TXT
-  value: 7bc87f7fd34d4e34b8a1ae3fd1944e
   
 la: # Laker Turner's links page - @lxjv or @la / @laker in the slack
   ttl: 600 
