@@ -1868,7 +1868,7 @@ essays:
 events: # leo@hackclub.com
 - octodns:
     lenient: true
-- ttl: 300
+  ttl: 300
   type: ALIAS
   value: cname.vercel-dns.com.
 - ttl: 3600
