@@ -1871,7 +1871,7 @@ events: # leo@hackclub.com
       tags:
         - "cf-flatten-cname"
   ttl: 300
-  type: CNAME
+  type: ALIAS
   value: cname.vercel-dns.com.
 - ttl: 3600
   type: TXT
