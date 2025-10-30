@@ -1867,7 +1867,7 @@ essays:
   value: hackclub.github.io.
 events: # leo@hackclub.com
 - ttl: 300
-  type: CNAME
+  type: ALIAS
   value: cname.vercel-dns.com.
 - ttl: 3600
   type: TXT
