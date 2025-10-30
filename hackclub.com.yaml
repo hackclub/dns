@@ -1865,10 +1865,28 @@ essays:
   ttl: 300
   type: CNAME
   value: hackclub.github.io.
-events:
-  ttl: 300
+events: # leo@hackclub.com
+- ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+- ttl: 3600
+  type: TXT
+  values:
+  - google-site-verification=PKLA_96C4mFmn3-vHBN9hLmrJLyv8htvkZaZp2wFk5U
+  - v=spf1 include:_spf.google.com ~all
+- ttl: 3600
+  type: MX
+  values:
+  - exchange: ASPMX.L.GOOGLE.COM.
+    preference: 1
+  - exchange: ALT1.ASPMX.L.GOOGLE.COM.
+    preference: 5
+  - exchange: ALT2.ASPMX.L.GOOGLE.COM.
+    preference: 5
+  - exchange: ALT3.ASPMX.L.GOOGLE.COM.
+    preference: 10
+  - exchange: ALT4.ASPMX.L.GOOGLE.COM.
+    preference: 10
 evergreen:
 - ttl: 300
   type: CNAME
