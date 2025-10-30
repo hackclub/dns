@@ -1868,6 +1868,9 @@ essays:
 events: # leo@hackclub.com
 - octodns:
     lenient: true
+    cloudflare:
+      tags:
+        - "cf-flatten-cname"
   ttl: 300
   type: ALIAS
   value: cname.vercel-dns.com.
