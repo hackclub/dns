@@ -265,6 +265,11 @@ _acme-challenge.hcb:
   - dmb3x2Kd2tZ13wPCOfWFssWquxd6ZCgVH7KPZ9q_B4U
   - QEokOJNeUPCGQnbxXje5e93mxIprBZ_NtZbbRxwotGA
   - udwnR4OUPvvTZ__-z9Ekz9s_wKDfNs4RIFj7hXb7Yf0
+_acme-challenge.ui3.hcb.hackclub.com:
+  ttl: 300
+  type: TXT
+  values:
+  - lK2_of7OYVyU5FE8WKQSwaTp8nL-YEMdjfmELfMmDzk
 _acme-challenge.hcb-test:
   ttl: 300
   type: TXT
