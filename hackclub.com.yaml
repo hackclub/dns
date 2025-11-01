@@ -1049,6 +1049,9 @@ blueprint:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+- ttl: 300
+  type: TXT
+  value: google-site-verification=hqht8UytWDhyzRlPNnXWaSQcMnzdcgiaIKGb0xvSOv0
 bn:
 - ttl: 300
   type: CNAME
