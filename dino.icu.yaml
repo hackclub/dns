@@ -144,6 +144,11 @@ betterwork-ai: # by https://heramb0x1.github.io/betterwork-ai
   type: CNAME
   value: cname.vercel-dns.com.
 
+blog.kashyap: # by @kashsuks (U084D1T5ZV0) for blog site
+  ttl: 600
+  type: CNAME
+  value: kashyapblog.netlify.app.
+
 bs: # by https://github.com/leecheeyong/BrawlBio
   ttl: 600
   type: CNAME
