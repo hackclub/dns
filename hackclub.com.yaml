@@ -1040,12 +1040,12 @@ blot:
   value: a.selfhosted.hackclub.com.
 bls:
 - ttl: 300
-  type: CNAME
+type: CNAME
   value: v-iinh.github.io.
 blueprint:
 - octodns:
     cloudflare:
-      proxied: true
+      proxied: false
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
