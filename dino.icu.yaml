@@ -351,7 +351,6 @@ kashyap: # @kashsuks (U084D1T5ZV0) personal site
    ttl: 600
    type: CNAME
    value: kashsuks.github.io.
-
 blog.kashyap: # by @kashsuks (U084D1T5ZV0) for blog site
   ttl: 600
   type: CNAME
