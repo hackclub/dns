@@ -3493,6 +3493,10 @@ parthenon:
 - ttl: 300
   type: CNAME
   value: d5aba33cc6b279e0.vercel-dns-017.com.
+portal.parthenon:
+- ttl: 300 
+  type: CNAME
+  value: a.selfhosted.hackclub.com. #POC = Reem reem@hackclub.com
 passport:
   ttl: 300
   type: CNAME
