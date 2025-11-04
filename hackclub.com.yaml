@@ -3545,6 +3545,10 @@ pier:
 - ttl: 300
   type: A
   value: 178.156.170.71
+portal.parthenon:
+- ttl: 300 
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 dev.pier:
 - ttl: 300
   type: A
