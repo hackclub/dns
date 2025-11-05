@@ -603,7 +603,7 @@ astra:
 airbridge:
   ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: a.limited.selfhosted.hackclub.com.
 alexandria:
 - ttl: 300
   type: CNAME
@@ -744,7 +744,7 @@ api:
 api2:
   ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: a.limited.selfhosted.hackclub.com.
 api.ctrl-alt-tec:
 - ttl: 300
   type: CNAME
