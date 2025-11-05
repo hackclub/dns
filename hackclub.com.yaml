@@ -545,6 +545,7 @@ _vercel:
   - vc-domain-verify=odyssey.hackclub.com,44ac2c39dd9ccfc6d991
   - vc-domain-verify=reactive.hackclub.com,dcd146599f4ae3bc6822
   - vc-domain-verify=foodie.hackclub.com,0215d38601a347a45686
+  - vc-domain-verify=fraud.hackclub.com,e3e5b184c19552f5c475
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 300
   type: CNAME
@@ -2051,6 +2052,10 @@ fraser:
   - 185.199.109.153
   - 185.199.110.153
   - 185.199.111.153
+fraud:
+- ttl: 300
+  type: CNAME
+  value: 4ba1d516ffa9aa93.vercel-dns-017.com.
 fremont:
 - ttl: 300
   type: CNAME
