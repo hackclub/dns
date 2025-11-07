@@ -21,3 +21,12 @@ blog.alumni:
   - ttl: 600
     type: CNAME
     value: 731fb7077db63b1d.vercel-dns-016.com.
+
+emoji: # alimad.co.ltd@gmail.com U08LQFRBL6S
+  - ttl: 300
+    type: CNAME
+    value: emojiout.netlify.app.
+stats: # alimad.co.ltd@gmail.com U08LQFRBL6S
+- ttl: 300
+  type: CNAME
+  value: Alimadcorp.github.io.
