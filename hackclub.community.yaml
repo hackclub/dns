@@ -27,6 +27,6 @@ emoji: # alimad.co.ltd@gmail.com U08LQFRBL6S
     type: CNAME
     value: emojiout.netlify.app.
 stats: # alimad.co.ltd@gmail.com U08LQFRBL6S
-- ttl: 300
-  type: CNAME
-  value: Alimadcorp.github.io.
+  - ttl: 300
+    type: CNAME
+    value: Alimadcorp.github.io.
