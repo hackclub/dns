@@ -3426,6 +3426,10 @@ slushies:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+stats: # Hackclub statistics
+- ttl: 300
+  type: CNAME
+  value: Alimadcorp.github.io.
 tile:
 - octodns:
     cloudflare:
