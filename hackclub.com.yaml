@@ -1736,6 +1736,10 @@ elon:
   ttl: 300
   type: CNAME
   value: proxyparty.hackclub.com.
+emoji: # Hackclub Emoji CDN U08LQFRBL6S (ali@alimad.co)
+  - ttl: 300
+    type: CNAME
+    value: emojiout.netlify.app.
 em4440: # SendGrid Sender Authentication (bank@hackclub.com)
   ttl: 300
   type: CNAME
