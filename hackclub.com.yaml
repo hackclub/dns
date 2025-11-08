@@ -3015,6 +3015,13 @@ mc:
   - ttl: 600
     type: AAAA
     value: 2a01:4f8:1c0c:7cb3::1
+admin.mc:
+  - ttl: 600
+    type: A
+    value: 188.245.102.44
+  - ttl: 600
+    type: AAAA
+    value: 2a01:4f8:1c0c:7cb3::1
 mcneil:
 - ttl: 300
   type: A
