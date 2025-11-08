@@ -3468,7 +3468,7 @@ page:
 pancakes: #niko@nikoo.dev
   ttl: 300
   type: CNAME
-  value: thisisrainy.hackclub.app.
+  value: pancakes.thisisrainy.hackclub.app.
 panorama:
   ttl: 300
   type: CNAME
