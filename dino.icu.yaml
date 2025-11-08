@@ -351,6 +351,10 @@ kashyap: # @kashsuks (U084D1T5ZV0) personal site
    ttl: 600
    type: CNAME
    value: kashsuks.github.io.
+blog.kashyap: # by @kashsuks (U084D1T5ZV0) for blog site
+  ttl: 600
+  type: CNAME
+  value: kashyapblog.netlify.app.
 
 krish: # @krishstwt
    ttl: 600
@@ -799,7 +803,7 @@ mthlpbs:
     type: CNAME
     value: mthlpbs.github.io.
 
-fileserver:
+fileserver: # will.kuntze@gmail.com Will Kuntze
   - ttl: 600
-    type: CNAME
-    value: 6f453c7a-030b-4adb-9b7f-c1670a62af73.cfargotunnel.com.
+    type: A
+    value: 174.112.38.43

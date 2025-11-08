@@ -265,6 +265,11 @@ _acme-challenge.hcb:
   - dmb3x2Kd2tZ13wPCOfWFssWquxd6ZCgVH7KPZ9q_B4U
   - QEokOJNeUPCGQnbxXje5e93mxIprBZ_NtZbbRxwotGA
   - udwnR4OUPvvTZ__-z9Ekz9s_wKDfNs4RIFj7hXb7Yf0
+_acme-challenge.ui3.hcb:
+  ttl: 300
+  type: TXT
+  values:
+  - LLPZLAlde42GwtLytAaEQSW__bIemx5nVPJIBgIDPHg
 _acme-challenge.hcb-test:
   ttl: 300
   type: TXT
@@ -540,6 +545,7 @@ _vercel:
   - vc-domain-verify=odyssey.hackclub.com,44ac2c39dd9ccfc6d991
   - vc-domain-verify=reactive.hackclub.com,dcd146599f4ae3bc6822
   - vc-domain-verify=foodie.hackclub.com,0215d38601a347a45686
+  - vc-domain-verify=fraud.hackclub.com,e3e5b184c19552f5c475
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 300
   type: CNAME
@@ -597,7 +603,7 @@ astra:
 airbridge:
   ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: a.limited.selfhosted.hackclub.com.
 alexandria:
 - ttl: 300
   type: CNAME
@@ -738,7 +744,7 @@ api:
 api2:
   ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: a.limited.selfhosted.hackclub.com.
 api.ctrl-alt-tec:
 - ttl: 300
   type: CNAME
@@ -895,7 +901,7 @@ awest:
 axiom: # tanjimkamal1@gmail.com U09ASUK57K8 # Axiom YSWS: #axiom on Slack
 - ttl: 600
   type: CNAME
-  value: axiom-ysws.github.io.
+  value: a.selfhosted.hackclub.com.
 az:
 - ttl: 300
   type: CNAME
@@ -1040,7 +1046,7 @@ bls:
 blueprint:
 - octodns:
     cloudflare:
-      proxied: true
+      proxied: false
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
@@ -1865,10 +1871,30 @@ essays:
   ttl: 300
   type: CNAME
   value: hackclub.github.io.
-events:
+events: # leo@hackclub.com
+- octodns:
+    lenient: true
   ttl: 300
-  type: CNAME
+  type: ALIAS
   value: cname.vercel-dns.com.
+- ttl: 3600
+  type: TXT
+  values:
+  - google-site-verification=PKLA_96C4mFmn3-vHBN9hLmrJLyv8htvkZaZp2wFk5U
+  - v=spf1 include:_spf.google.com ~all
+- ttl: 3600
+  type: MX
+  values:
+  - exchange: ASPMX.L.GOOGLE.COM.
+    preference: 1
+  - exchange: ALT1.ASPMX.L.GOOGLE.COM.
+    preference: 5
+  - exchange: ALT2.ASPMX.L.GOOGLE.COM.
+    preference: 5
+  - exchange: ALT3.ASPMX.L.GOOGLE.COM.
+    preference: 10
+  - exchange: ALT4.ASPMX.L.GOOGLE.COM.
+    preference: 10
 evergreen:
 - ttl: 300
   type: CNAME
@@ -2026,6 +2052,10 @@ fraser:
   - 185.199.109.153
   - 185.199.110.153
   - 185.199.111.153
+fraud:
+- ttl: 300
+  type: CNAME
+  value: 4ba1d516ffa9aa93.vercel-dns-017.com.
 fremont:
 - ttl: 300
   type: CNAME
@@ -2978,41 +3008,27 @@ maxday:
   ttl: 300
   type: CNAME
   value: maxday-prod.netlify.com.
-mc:
-  ttl: 600
-  type: CNAME
-  value: ipv4.mc-vps.hackclub.com.
-mc-vps:
+mc: # alexp@hackclub.com
   - ttl: 600
     type: A
-    value: 194.140.199.132
+    value: 188.245.102.44
   - ttl: 600
     type: AAAA
-    value: 2605:a143:2124:1775::1
-ipv4.mc-vps:
-  ttl: 600
-  type: A
-  value: 194.140.199.132
-ipv6.mc-vps:
-  ttl: 600
-  type: AAAA
-  value: 2605:a143:2124:1775::1
-_minecraft._tcp.mc:
-  ttl: 600
-  type: SRV
-  value:
-    port: 25566
-    priority: 10
-    target: mc-vps.hackclub.com.
-    weight: 10
-_minecraft._tcp:
-  ttl: 600
-  type: SRV
-  value:
-    port: 25566
-    priority: 10
-    target: mc-vps.hackclub.com.
-    weight: 10
+    value: 2a01:4f8:1c0c:7cb3::1
+admin.mc: # alexp@hackclub.com
+  - ttl: 600
+    type: A
+    value: 188.245.102.44
+  - ttl: 600
+    type: AAAA
+    value: 2a01:4f8:1c0c:7cb3::1
+wings.mc: # alexp@hackclub.com
+  - ttl: 600
+    type: A
+    value: 188.245.102.44
+  - ttl: 600
+    type: AAAA
+    value: 2a01:4f8:1c0c:7cb3::1
 mcneil:
 - ttl: 300
   type: A
@@ -3155,15 +3171,19 @@ flavortown.nephthys: # mish@hackclub.com U073M5L9U13
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-identity.nephthys:
+identity.nephthys: # amber / U054VC2KM9P
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-summer.nephthys:
+midnight.nephthys: # amber / U054VC2KM9P & leo / U07BLJ1MBEE
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-nephthys:
+summer.nephthys: # amber / U054VC2KM9P
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
+nephthys: # amber / U054VC2KM9P
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
@@ -3464,6 +3484,10 @@ parthenon:
 - ttl: 300
   type: CNAME
   value: d5aba33cc6b279e0.vercel-dns-017.com.
+portal.parthenon:
+- ttl: 300 
+  type: CNAME
+  value: a.selfhosted.hackclub.com. #POC = Reem reem@hackclub.com
 passport:
   ttl: 300
   type: CNAME
