@@ -4705,6 +4705,11 @@ teenhack:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+trackathon: # jagritsachdev@gmail.com U08BBMLC64A
+  ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
+
 uet:
 - ttl: 300
   type: CNAME
@@ -5162,10 +5167,6 @@ hackducky: #add hackducky
     type: CNAME
     value: 6be30c9fb60ab816.vercel-dns-017.com.
 
-trackathon:
-  - ttl: 3600
-    type: CNAME
-    value: 49fc45b1b6030d41.vercel-dns-017.com.
 - ttl: 300
   type: CNAME
   value: 6be30c9fb60ab816.vercel-dns-017.com.
