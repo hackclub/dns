@@ -3465,6 +3465,10 @@ page:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+pancakes: #niko@nikoo.dev
+  ttl: 300
+  type: CNAME
+  value: thisisrainy.hackclub.app.
 panorama:
   ttl: 300
   type: CNAME
