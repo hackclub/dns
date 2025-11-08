@@ -3737,10 +3737,6 @@ rahs:
 - ttl: 300
   type: CNAME
   value: rahs-hackclub.netlify.com.
-rooted: # christian on slack U0938MZG8Q6 poc is euan
-  - ttl: 300
-    type: CNAME
-    value: 0a2695bb00ff8d9b.vercel-dns-017.com.
 raincloud:
 - ttl: 300
   type: CNAME
@@ -3827,6 +3823,10 @@ ro:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+rooted: # christian on slack U0938MZG8Q6 poc is euan
+  - ttl: 300
+    type: CNAME
+    value: 0a2695bb00ff8d9b.vercel-dns-017.com.
 roulette:
 - octodns:
     cloudflare:
