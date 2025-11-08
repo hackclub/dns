@@ -444,7 +444,7 @@ _vercel:
   ttl: 300
   type: TXT
   values:
-  - vc-domain-verify=bornhack.hackclub.com,3bceb3d6d27faf37e7af
+  - vc-domain-verify=rooted.hackclub.com,98ed9303d9dc11f1ca2f
   - vc-domain-verify=asiet.hackclub.com,2975ee268d07e199efdc
   - vc-domain-verify=backend.arena.hackclub.com,079b94be7b001fa4e775
   - vc-domain-verify=arena.hackclub.com,18d51eef05279bd5822f
@@ -1170,7 +1170,7 @@ calendar:
   ttl: 300
   type: CNAME
   value: ghs.googlehosted.com.
-bornhack: # christian on slack U0938MZG8Q6 poc is euan
+rooted: # christian on slack U0938MZG8Q6 poc is euan
   - ttl: 300
     type: CNAME
     value: 0a2695bb00ff8d9b.vercel-dns-017.com.
