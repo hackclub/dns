@@ -5,17 +5,40 @@ providers:
     directory: ./
     enforce_order: False
   dnsimple:
-    class: octodns.provider.dnsimple.DnsimpleProvider
+    class: octodns_dnsimple.DnsimpleProvider
     token: env/DNSIMPLE_API_KEY
     account: env/DNSIMPLE_ACCOUNT_NUMBER
     delete_pcent_threshold: 1.0
+  cloudflare:
+    class: octodns_cloudflare.CloudflareProvider
+    token: env/CLOUDFLARE_TOKEN
+    # Production best practices
+    plan_type: enterprise        # Cloudflare plan type
+    pagerules: true              # Page Rules management
+    min_ttl: 120                 # Cloudflare minimum
+    # Enhanced reliability settings
+    retry_count: 5               # More retries for production
+    retry_period: 600            # 10 minute wait on rate limits
+    zones_per_page: 50           # API pagination
+    records_per_page: 100        # API pagination
+  cloudflare-alt:
+    class: octodns_cloudflare.CloudflareProvider
+    token: env/CLOUDFLARE_TOKEN
+    plan_type: free
+    # Production best practices
+    min_ttl: 120                 # Cloudflare minimum
+    # Enhanced reliability settings
+    retry_count: 5               # More retries for production
+    retry_period: 600            # 10 minute wait on rate limits
+    zones_per_page: 50           # API pagination
+    records_per_page: 100        # API pagination
 
 zones:
   hackclub.com.:
     sources:
       - config
     targets:
-      - dnsimple
+      - cloudflare
   hackclub.org.:
     sources:
       - config
@@ -102,3 +125,8 @@ zones:
       - config
     targets:
       - dnsimple
+  hackclub.community.:
+    sources:
+      - config
+    targets: 
+      - cloudflare-alt
