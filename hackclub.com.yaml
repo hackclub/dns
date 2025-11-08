@@ -58,26 +58,6 @@ ihs:
   - ttl: 3600
     type: CNAME
     value: 0446ea696fc11998.vercel-dns-017.com.
-  - ttl: 3600
-    type: MX
-    value: mx.zoho.in.
-    priority: 10
-  - ttl: 3600
-    type: MX
-    value: mx2.zoho.in.
-    priority: 20
-  - ttl: 3600
-    type: MX
-    value: mx3.zoho.in.
-    priority: 50
-  - ttl: 3600
-    type: TXT
-    value: "v=spf1 include:zoho.in ~all"
-  - ttl: 3600
-    type: TXT
-    name: zmail._domainkey.1or0
-    value: "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCKKyJiBWZBxQdbGUiGLxV140jFzg1lbRg4FmdieLlssc7nutSuXqroGRjqXA1O9myTxoQTh7f5tokrBRTdB3kxjIELePLraxHBzKi8tdhI3fx2qWeI5pndtdTkKpX3ucCCLDpCoH2kc5avNdlhvYNHp0ReU5Mwe3mF2FcCvCMpaQIDAQAB"
-    
 - ttl: 300
   type: CNAME
   value: 0446ea696fc11998.vercel-dns-017.com.
