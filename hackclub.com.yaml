@@ -1170,10 +1170,13 @@ calendar:
   ttl: 300
   type: CNAME
   value: ghs.googlehosted.com.
+<<<<<<< HEAD
 rooted: # christian on slack U0938MZG8Q6 poc is euan
   - ttl: 300
     type: CNAME
     value: 0a2695bb00ff8d9b.vercel-dns-017.com.
+=======
+>>>>>>> 18ac780 (Update DNS records for rooted.hackclub.com and remove camp entry)
 capsule:
 - ttl: 300
   type: CNAME
@@ -3745,6 +3748,10 @@ raincloud:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+rooted: # christian on slack U0938MZG8Q6 poc is euan
+  - ttl: 300
+    type: CNAME
+    value: 0a2695bb00ff8d9b.vercel-dns-017.com.
 railway:
 - octodns:
     cloudflare:
