@@ -3009,40 +3009,12 @@ maxday:
   type: CNAME
   value: maxday-prod.netlify.com.
 mc:
-  ttl: 600
-  type: CNAME
-  value: ipv4.mc-vps.hackclub.com.
-mc-vps:
   - ttl: 600
     type: A
-    value: 194.140.199.132
+    value: 188.245.102.44
   - ttl: 600
     type: AAAA
-    value: 2605:a143:2124:1775::1
-ipv4.mc-vps:
-  ttl: 600
-  type: A
-  value: 194.140.199.132
-ipv6.mc-vps:
-  ttl: 600
-  type: AAAA
-  value: 2605:a143:2124:1775::1
-_minecraft._tcp.mc:
-  ttl: 600
-  type: SRV
-  value:
-    port: 25566
-    priority: 10
-    target: mc-vps.hackclub.com.
-    weight: 10
-_minecraft._tcp:
-  ttl: 600
-  type: SRV
-  value:
-    port: 25566
-    priority: 10
-    target: mc-vps.hackclub.com.
-    weight: 10
+    value: 2a01:4f8:1c0c:7cb3::
 mcneil:
 - ttl: 300
   type: A
