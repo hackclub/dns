@@ -476,6 +476,7 @@ _vercel:
     - vc-domain-verify=security.hackclub.com,b005370fba78b1b3b932
     - vc-domain-verify=squeak.hackclub.com,0574abe068e7c3c4a91e
     - vc-domain-verify=optimize.hackclub.com,08b88e7ff4ae25385700
+    - vc-domain-verify=trackathon.hackclub.com,a557c00d6347080da372
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 600
   type: CNAME
@@ -4083,3 +4084,8 @@ hackducky: #add hackducky
   - ttl: 600
     type: CNAME
     value: 6be30c9fb60ab816.vercel-dns-017.com.
+
+trackathon:
+  - ttl: 3600
+    type: CNAME
+    value: 49fc45b1b6030d41.vercel-dns-017.com.
