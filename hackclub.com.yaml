@@ -3468,7 +3468,7 @@ page:
 pancakes: #niko@nikoo.dev
   ttl: 300
   type: CNAME
-  value: pancakes.thisisrainy.hackclub.app.
+  value: a.selfhosted.hackclub.com.
 panorama:
   ttl: 300
   type: CNAME
