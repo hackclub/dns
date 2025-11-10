@@ -1740,6 +1740,10 @@ em6326:
   ttl: 300
   type: CNAME
   value: u9906371.wl122.sendgrid.net.
+email-tools: # owned by zach latta (zach@hackclub.com)
+  ttl: 300
+  type: CNAME
+  value: a.limited.selfhosted.hackclub.com.
 email.mail:
   ttl: 300
   type: CNAME
