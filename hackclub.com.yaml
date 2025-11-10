@@ -1046,7 +1046,7 @@ bls:
 blueprint:
 - octodns:
     cloudflare:
-      proxied: false
+      proxied: true
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
