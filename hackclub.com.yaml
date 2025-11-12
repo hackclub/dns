@@ -3815,6 +3815,10 @@ review-factory-backend:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+remix: 
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 rewind:
   ttl: 300
   type: CNAME
