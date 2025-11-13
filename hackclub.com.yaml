@@ -2887,6 +2887,10 @@ leaderboard:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+leaders: #@Charmunk / ivie@hackclub.com
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 leap:
 - ttl: 300
   type: CNAME
