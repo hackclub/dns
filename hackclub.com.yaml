@@ -1387,10 +1387,6 @@ conduct:
     preference: 10
   - exchange: alt4.aspmx.l.google.com.
     preference: 10
-constellation:
-- ttl: 300
-  type: A
-  value: 167.99.7.0
 contact-helper:
 - ttl: 300
   type: CNAME
