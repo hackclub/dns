@@ -41,6 +41,10 @@ _gitlab-pages-verification-code.fediverse.alumni:
     type: TXT 
     value: "gitlab-pages-verification-code=6d5351c9c8ce7bc19be0bda5bdd4c4c5"
 
+aus: # benjamin.graetz@henleyhs.sa.edu.au U0828CN2BL4
+  - ttl: 600
+    type: A
+    value: 35.158.87.123
 emoji: # alimad.co.ltd@gmail.com U08LQFRBL6S
   - ttl: 300
     type: CNAME
