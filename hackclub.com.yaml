@@ -2363,6 +2363,10 @@ hacktheoctober:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+hackvault:
+  ttl: 300
+  type: CNAME
+  value: bennygaming635.github.io.
 hackyholidays:
   ttl: 300
   type: CNAME
@@ -2575,10 +2579,6 @@ hub.zephyr:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-hackvault:
-  ttl: 300
-  type: CNAME
-  value: bennygaming635.github.io.
 ia:
   ttl: 300
   type: CNAME
