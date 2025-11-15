@@ -444,7 +444,7 @@ _vercel:
   ttl: 300
   type: TXT
   values:
-  - vc-domain-verify=camp.hackclub.com,7ef70c0d934b9f3a9bd3
+  - vc-domain-verify=rooted.hackclub.com,98ed9303d9dc11f1ca2f
   - vc-domain-verify=asiet.hackclub.com,2975ee268d07e199efdc
   - vc-domain-verify=backend.arena.hackclub.com,079b94be7b001fa4e775
   - vc-domain-verify=arena.hackclub.com,18d51eef05279bd5822f
@@ -1046,7 +1046,7 @@ bls:
 blueprint:
 - octodns:
     cloudflare:
-      proxied: false
+      proxied: true
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
@@ -1170,10 +1170,6 @@ calendar:
   ttl: 300
   type: CNAME
   value: ghs.googlehosted.com.
-camp: # christian on slack U0938MZG8Q6 poc is euan
-  - ttl: 300
-    type: CNAME
-    value: c7fd0190e9c83af1.vercel-dns-017.com.
 capsule:
 - ttl: 300
   type: CNAME
@@ -1391,10 +1387,6 @@ conduct:
     preference: 10
   - exchange: alt4.aspmx.l.google.com.
     preference: 10
-constellation:
-- ttl: 300
-  type: A
-  value: 167.99.7.0
 contact-helper:
 - ttl: 300
   type: CNAME
@@ -1744,6 +1736,10 @@ em6326:
   ttl: 300
   type: CNAME
   value: u9906371.wl122.sendgrid.net.
+email-tools: # owned by zach latta (zach@hackclub.com)
+  ttl: 300
+  type: CNAME
+  value: a.limited.selfhosted.hackclub.com.
 email.mail:
   ttl: 300
   type: CNAME
@@ -1994,6 +1990,36 @@ flavor-adventure:
 - ttl: 300
   type: A
   value: 5.161.244.66
+flavortown: # U054VC2KM9P / amber
+- ttl: 300
+  type: MX
+  values:
+  - exchange: mx.sendgrid.net.
+    preference: 10
+url3649.flavortown: # U054VC2KM9P / amber
+- ttl: 300
+  type: CNAME
+  value: sendgrid.net.
+57277233.flavortown: # U054VC2KM9P / amber
+- ttl: 300
+  type: CNAME
+  value: sendgrid.net.
+em4826.flavortown: # U054VC2KM9P / amber
+- ttl: 300
+  type: CNAME
+  value: u57277233.wl234.sendgrid.net.
+s1._domainkey.flavortown: # U054VC2KM9P / amber
+- ttl: 300
+  type: CNAME
+  value: s1.domainkey.u57277233.wl234.sendgrid.net.
+s2._domainkey.flavortown: # U054VC2KM9P / amber
+- ttl: 300
+  type: CNAME
+  value: s2.domainkey.u57277233.wl234.sendgrid.net.
+_dmarc.flavortown: # U054VC2KM9P / amber
+- ttl: 300
+  type: TXT
+  value: v=DMARC1\; p=quarantine\; rua=mailto:6192c543e0e61@ag.dmarcly.com\; ruf=mailto:6192c543e0e61@fo.dmarcly.com\; fo=1\;
 flhs:
 - ttl: 300
   type: TXT
@@ -2857,6 +2883,10 @@ leaderboard:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+leaders: #@Charmunk / ivie@hackclub.com
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 leap:
 - ttl: 300
   type: CNAME
@@ -3008,41 +3038,27 @@ maxday:
   ttl: 300
   type: CNAME
   value: maxday-prod.netlify.com.
-mc:
-  ttl: 600
-  type: CNAME
-  value: ipv4.mc-vps.hackclub.com.
-mc-vps:
+mc: # alexp@hackclub.com
   - ttl: 600
     type: A
-    value: 194.140.199.132
+    value: 188.245.102.44
   - ttl: 600
     type: AAAA
-    value: 2605:a143:2124:1775::1
-ipv4.mc-vps:
-  ttl: 600
-  type: A
-  value: 194.140.199.132
-ipv6.mc-vps:
-  ttl: 600
-  type: AAAA
-  value: 2605:a143:2124:1775::1
-_minecraft._tcp.mc:
-  ttl: 600
-  type: SRV
-  value:
-    port: 25566
-    priority: 10
-    target: mc-vps.hackclub.com.
-    weight: 10
-_minecraft._tcp:
-  ttl: 600
-  type: SRV
-  value:
-    port: 25566
-    priority: 10
-    target: mc-vps.hackclub.com.
-    weight: 10
+    value: 2a01:4f8:1c0c:7cb3::1
+admin.mc: # alexp@hackclub.com
+  - ttl: 600
+    type: A
+    value: 188.245.102.44
+  - ttl: 600
+    type: AAAA
+    value: 2a01:4f8:1c0c:7cb3::1
+wings.mc: # alexp@hackclub.com
+  - ttl: 600
+    type: A
+    value: 188.245.102.44
+  - ttl: 600
+    type: AAAA
+    value: 2a01:4f8:1c0c:7cb3::1
 mcneil:
 - ttl: 300
   type: A
@@ -3483,6 +3499,10 @@ page:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+pancakes: #niko@nikoo.dev
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 panorama:
   ttl: 300
   type: CNAME
@@ -3825,6 +3845,10 @@ review-factory-backend:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+remix: 
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 rewind:
   ttl: 300
   type: CNAME
@@ -3841,6 +3865,10 @@ ro:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+rooted: # christian on slack U0938MZG8Q6 poc is euan
+  - ttl: 300
+    type: CNAME
+    value: 0a2695bb00ff8d9b.vercel-dns-017.com.
 roulette:
 - octodns:
     cloudflare:

@@ -21,6 +21,26 @@ blog.alumni:
   - ttl: 600
     type: CNAME
     value: 731fb7077db63b1d.vercel-dns-016.com.
+# GitLab Pages-hosted redirect to https://social.dino.icu/@alumni, also serves as custom handle
+# for AT Proto bridged profile (managed by Bridgy Fed).
+fediverse.alumni:
+  - ttl: 600
+    type: CNAME
+    value: hackclub-community.gitlab.io.
+# Custom AT Proto handle for bridged fediverse profile (technically we could go with
+# @alumni.social.dino.icu to match the Hackstodon side
+_atproto.fediverse.alumni:
+  - ttl: 600
+    type: TXT
+    value: "did:plc:pejmcpkvnajr4x3htexetbzc"
+# GitLab Pages verification challenge record (note that GitLab Pages uses Let's Encrypt over
+# HTTP-01 challenge method for TLS cert issuance).
+# Docs: https://gitlab.com/help/user/project/pages/custom_domains_ssl_tls_certification/_index.md#4-verify-the-domains-ownership
+_gitlab-pages-verification-code.fediverse.alumni:
+  - ttl: 600
+    type: TXT 
+    value: "gitlab-pages-verification-code=6d5351c9c8ce7bc19be0bda5bdd4c4c5"
+
 aus: # benjamin.graetz@henleyhs.sa.edu.au U0828CN2BL4
   - ttl: 600
     type: A
