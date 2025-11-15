@@ -17,15 +17,14 @@ _github-pages-challenge-hackclub-alumni.alumni:
   - ttl: 600
     type: TXT
     value: "62688903c020be82f48ace03d54467"
-aus: # benjamin.graetz@henleyhs.sa.edu.au U0828CN2BL4
-  - ttl: 600
-    type: A
-    value: 35.158.87.123
 blog.alumni:
   - ttl: 600
     type: CNAME
     value: 731fb7077db63b1d.vercel-dns-016.com.
-
+aus: # benjamin.graetz@henleyhs.sa.edu.au U0828CN2BL4
+  - ttl: 600
+    type: A
+    value: 35.158.87.123
 emoji: # alimad.co.ltd@gmail.com U08LQFRBL6S
   - ttl: 300
     type: CNAME
