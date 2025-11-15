@@ -11,16 +11,16 @@ _atproto.alumni:
   - ttl: 600
     type: TXT
     value: "did=did:plc:yi5ewii4xerodl6ljn3fwga6"
-aus: # benjamin.graetz@henleyhs.sa.edu.au U0828CN2BL4
-  - ttl: 600
-    type: A
-    value: 35.158.87.123
 # GH Pages domain verification to prevent domain takeovers if we do
 # wildcard CNAME records at *.alumni.hackclub.community
 _github-pages-challenge-hackclub-alumni.alumni:
   - ttl: 600
     type: TXT
     value: "62688903c020be82f48ace03d54467"
+aus: # benjamin.graetz@henleyhs.sa.edu.au U0828CN2BL4
+  - ttl: 600
+    type: A
+    value: 35.158.87.123
 blog.alumni:
   - ttl: 600
     type: CNAME
