@@ -1994,7 +1994,10 @@ flavor-adventure:
 - ttl: 300
   type: A
   value: 5.161.244.66
-flavortown: # U054VC2KM9P / amber
+flavortown: # kartikey@hackclub.com @cskartikey/U05F4B48GBF + U054VC2KM9P/amber
+- ttl: 300
+  type: A
+  value: 5.161.197.219
 - ttl: 300
   type: MX
   values:
