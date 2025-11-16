@@ -1982,6 +1982,10 @@ format:
   ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
+flavortown: #kartikey@hackclub.com @cskartikey/U05F4B48GBF
+- ttl: 600
+  type: ALIAS
+  value: cooked.selfhosted.hackclub.com.
 flavor-admin: #euan@hackclub.com @U06T30DNB3L
 - ttl: 300
   type: CNAME
