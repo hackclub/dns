@@ -372,6 +372,10 @@ _github-pages-challenge-arsenic-club.arsenic:
 - ttl: 300
   type: TXT
   value: e46c397c5bd751389a024480dbb07b
+_github-pages-challenge-BennyGaming635.hackvault: # benjamin.graetz@henleyhs.sa.edu.au U0828CN2BL4
+- ttl: 300
+  type: TXT
+  value: eb7c4c7569c1ef4036422ac45273f2
 _github-pages-challenge-cghs-hackclub.cghs:
 - ttl: 300
   type: TXT
@@ -2388,6 +2392,10 @@ hacktheoctober:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+hackvault: # benjamin.graetz@henleyhs.sa.edu.au U0828CN2BL4
+  ttl: 300
+  type: CNAME
+  value: bennygaming635.github.io.
 hackyholidays:
   ttl: 300
   type: CNAME
