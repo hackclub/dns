@@ -1391,10 +1391,6 @@ conduct:
     preference: 10
   - exchange: alt4.aspmx.l.google.com.
     preference: 10
-constellation:
-- ttl: 300
-  type: A
-  value: 167.99.7.0
 contact-helper:
 - ttl: 300
   type: CNAME
@@ -1998,6 +1994,36 @@ flavor-adventure:
 - ttl: 300
   type: A
   value: 5.161.244.66
+flavortown: # U054VC2KM9P / amber
+- ttl: 300
+  type: MX
+  values:
+  - exchange: mx.sendgrid.net.
+    preference: 10
+url3649.flavortown: # U054VC2KM9P / amber
+- ttl: 300
+  type: CNAME
+  value: sendgrid.net.
+57277233.flavortown: # U054VC2KM9P / amber
+- ttl: 300
+  type: CNAME
+  value: sendgrid.net.
+em4826.flavortown: # U054VC2KM9P / amber
+- ttl: 300
+  type: CNAME
+  value: u57277233.wl234.sendgrid.net.
+s1._domainkey.flavortown: # U054VC2KM9P / amber
+- ttl: 300
+  type: CNAME
+  value: s1.domainkey.u57277233.wl234.sendgrid.net.
+s2._domainkey.flavortown: # U054VC2KM9P / amber
+- ttl: 300
+  type: CNAME
+  value: s2.domainkey.u57277233.wl234.sendgrid.net.
+_dmarc.flavortown: # U054VC2KM9P / amber
+- ttl: 300
+  type: TXT
+  value: v=DMARC1\; p=quarantine\; rua=mailto:6192c543e0e61@ag.dmarcly.com\; ruf=mailto:6192c543e0e61@fo.dmarcly.com\; fo=1\;
 flhs:
 - ttl: 300
   type: TXT
@@ -2865,6 +2891,10 @@ leaderboard:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+leaders: #@Charmunk / ivie@hackclub.com
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 leap:
 - ttl: 300
   type: CNAME
@@ -3820,6 +3850,10 @@ review-factory-backend:
 - octodns:
     cloudflare:
       proxied: true
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
+remix: 
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
