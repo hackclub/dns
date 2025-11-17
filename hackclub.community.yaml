@@ -11,6 +11,11 @@ _atproto.alumni:
   - ttl: 600
     type: TXT
     value: "did=did:plc:yi5ewii4xerodl6ljn3fwga6"
+# GitHub organization domain verificiation
+_gh-hackclub-alumni-o.alumni:
+  - ttl: 600
+    type: TXT
+    value: "d066f40ce3"
 # GH Pages domain verification to prevent domain takeovers if we do
 # wildcard CNAME records at *.alumni.hackclub.community
 _github-pages-challenge-hackclub-alumni.alumni:
@@ -32,7 +37,7 @@ fediverse.alumni:
 _atproto.fediverse.alumni:
   - ttl: 600
     type: TXT
-    value: "did:plc:pejmcpkvnajr4x3htexetbzc"
+    value: "did=did:plc:pejmcpkvnajr4x3htexetbzc"
 # GitLab Pages verification challenge record (note that GitLab Pages uses Let's Encrypt over
 # HTTP-01 challenge method for TLS cert issuance).
 # Docs: https://gitlab.com/help/user/project/pages/custom_domains_ssl_tls_certification/_index.md#4-verify-the-domains-ownership
