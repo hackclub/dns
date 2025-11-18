@@ -38,8 +38,13 @@
     - MS=ms66267035
 polygon: 
   - ttl: 600
-    type: CNAME
-    value: https://polygon-ysws.vercel.app/
+    type: 1f2e326ff0beb553.vercel-dns-017.com.
+    value: polygon-ysws.vercel.app.
+_vercel: 
+  - ttl: 600
+    type: TXT
+    value: 
+        - vc-domain-verify=polygon.hackclub.com,3b90aa8a647cf9852dd2
 slashz:
 - octodns:
     cloudflare:
