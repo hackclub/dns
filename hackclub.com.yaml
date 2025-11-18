@@ -43,8 +43,8 @@ polygon: # zaidayan456@gmail.com U083VVA9M0W
 _vercel: 
   - ttl: 600
     type: TXT
-    value: 
-        - vc-domain-verify=polygon.hackclub.com,3b90aa8a647cf9852dd2
+    values: 
+      - vc-domain-verify=polygon.hackclub.com,3b90aa8a647cf9852dd2
 slashz:
 - octodns:
     cloudflare:
