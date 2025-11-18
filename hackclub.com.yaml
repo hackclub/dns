@@ -1964,8 +1964,8 @@ feed.assemble:
   value: cname.vercel-dns.com.
 fett:
 - ttl: 300
-type: CNAME
-value: bc88611c121f3104.vercel-dns-016.com.
+  type: CNAME
+  value: bc88611c121f3104.vercel-dns-016.com.
 fhs:
 - ttl: 300
   type: CNAME
