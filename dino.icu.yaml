@@ -758,7 +758,7 @@ www: # redirect to bare domain
   type: CNAME
   value: cname.vercel-dns.com.
 
-yc:
+yc: # turbofan-gag-swung@duck.com
   ttl: 600
   type: NS
   value: ns.yc.hn.
