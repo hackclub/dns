@@ -1107,6 +1107,10 @@ bucky:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+bubble:
+- ttl: 300
+  type: CNAME
+  value: bc88611c121f3104.vercel-dns-016.com.
 bugs:
 - octodns:
     cloudflare:
@@ -1958,6 +1962,10 @@ feed.assemble:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+fett:
+- ttl: 300
+type: CNAME
+value: bc88611c121f3104.vercel-dns-016.com.
 fhs:
 - ttl: 300
   type: CNAME
