@@ -989,6 +989,13 @@ bbss:
 - ttl: 300
   type: CNAME
   value: bbsshackclub.netlify.app.
+beat: #alexvd@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 berkeley:
 - ttl: 300
   type: CNAME
