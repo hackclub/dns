@@ -40,11 +40,6 @@ polygon: # zaidayan456@gmail.com U083VVA9M0W
   ttl: 600
   type: CNAME
   value: 1f2e326ff0beb553.vercel-dns-017.vercel-dns.com.
-_vercel:
-  ttl: 600
-  type: TXT
-  value:
-    - vc-domain-verify=polygon.hackclub.com,3b90aa8a647cf9852dd2
 slashz:
 - octodns:
     cloudflare:
@@ -457,6 +452,7 @@ _vercel:
   ttl: 300
   type: TXT
   values:
+  - vc-domain-verify=polygon.hackclub.com,3b90aa8a647cf9852dd2
   - vc-domain-verify=rooted.hackclub.com,98ed9303d9dc11f1ca2f
   - vc-domain-verify=asiet.hackclub.com,2975ee268d07e199efdc
   - vc-domain-verify=backend.arena.hackclub.com,079b94be7b001fa4e775
