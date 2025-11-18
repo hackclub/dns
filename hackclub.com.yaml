@@ -36,10 +36,6 @@
     - yandex-verification=befd33a8f4f21226
     - apple-domain-verification=WrMSA7tlbHndVLMgLFn9Q6dNhxqz9wAaROCPA5I73Z0
     - MS=ms66267035
-polygon: # zaidayan456@gmail.com U083VVA9M0W
-  ttl: 600
-  type: CNAME
-  value: 1f2e326ff0beb553.vercel-dns-017.vercel-dns.com.
 slashz:
 - octodns:
     cloudflare:
@@ -3526,6 +3522,10 @@ pancakes: #niko@nikoo.dev
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+polygon: # zaidayan456@gmail.com U083VVA9M0W
+  ttl: 600
+  type: CNAME
+  value: 1f2e326ff0beb553.vercel-dns-017.vercel-dns.com.
 panorama:
   ttl: 300
   type: CNAME
