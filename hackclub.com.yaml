@@ -3522,10 +3522,6 @@ pancakes: #niko@nikoo.dev
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-polygon: # zaidayan456@gmail.com U083VVA9M0W
-  ttl: 600
-  type: CNAME
-  value: 1f2e326ff0beb553.vercel-dns-017.vercel-dns.com.
 panorama:
   ttl: 300
   type: CNAME
@@ -3702,6 +3698,10 @@ posthog:
   ttl: 300
   type: A
   value: 45.79.174.48
+polygon: # zaidayan456@gmail.com U083VVA9M0W
+  ttl: 600
+  type: CNAME
+  value: 1f2e326ff0beb553.vercel-dns-017.vercel-dns.com.
 pm-bounces: # Priate Ship's Return Path verification (Postmark)
   ttl: 300
   type: CNAME
