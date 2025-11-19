@@ -1883,8 +1883,8 @@ events: # leo@hackclub.com
 - octodns:
     lenient: true
   ttl: 300
-  type: ALIAS
-  value: cname.vercel-dns.com.
+  type: A
+  value: 76.76.21.21
 - ttl: 3600
   type: TXT
   values:
