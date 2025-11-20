@@ -1390,7 +1390,7 @@ clutter:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-clubs:
+clubs: # hya@yip.cat U08E3UAUHFS
   - ttl: 600
     type: CNAME
     value: clubs.
