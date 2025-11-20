@@ -1190,6 +1190,25 @@ camp-apply:
   ttl: 300
   type: CNAME
   value: hackcamp-apply.netlify.com.
+campfire:
+- ttl: 3600
+  type: TXT
+  values: 
+  - google-site-verification=xis9BmP-gRLmEU4YC9opk7bCtkoAERLiA92Vafg4VkU
+  - v=spf1 include:_spf.google.com ~all
+- ttl: 3600
+  type: MX
+  values:
+  - exchange: aspmx.l.google.com.
+    preference: 1
+  - exchange: alt1.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt2.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt3.aspmx.l.google.com.
+    preference: 10
+  - exchange: alt4.aspmx.l.google.com.
+    preference: 10
 cargo-cult:
   ttl: 300
   type: A
