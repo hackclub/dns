@@ -491,7 +491,6 @@ overflow:
   type: CNAME
   value: overflow.craigg.hackclub.app.
 
-
 pay: # by Ella
   ttl: 600
   type: CNAME
@@ -616,8 +615,6 @@ spend:
   - ttl: 600
     type: A
     value: 76.76.21.21
-
-
 
 social:
   ttl: 600
@@ -748,6 +745,11 @@ wordcalc:
   type: CNAME
   value: cname.vercel-dns.com.
 
+wowstar: # email@example.com U012AB345CD
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
+
 write: # WriteFreely!
   ttl: 3600
   type: A
@@ -807,15 +809,3 @@ fileserver: # will.kuntze@gmail.com Will Kuntze
   - ttl: 600
     type: A
     value: 174.112.38.43
-
-web: # wowstar2504@proton.me 
-  ttl: 600
-  type: NS
-  values:
-  - freedns1.registrar-servers.com.
-  - freedns2.registrar-servers.com.
-  - freedns3.registrar-servers.com.
-  - freedns4.registrar-servers.com.
-  - freedns5.registrar-servers.com.
-  type: TXT
-  values: h82e59a6ccdf04b40bb5a7be7ebfeba88
