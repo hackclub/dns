@@ -745,7 +745,7 @@ wordcalc:
   type: CNAME
   value: cname.vercel-dns.com.
 
-wowstar: # email@example.com U012AB345CD
+wowstar: # wowstar2504@proton.me
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
