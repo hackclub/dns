@@ -1390,6 +1390,10 @@ clutter:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+clubs:
+  - ttl: 600
+    type: CNAME
+    value: clubs.
 cmd-k:
   ttl: 300
   type: CNAME
