@@ -1119,6 +1119,27 @@ bugs:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+buildboard: #alexvd@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: false
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
+n8n.buildboard: #alexvd@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: false
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
+metabase.buildboard: #alexvd@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: false
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 bulc:
 - ttl: 300
   type: CNAME
