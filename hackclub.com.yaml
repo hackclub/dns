@@ -3104,7 +3104,7 @@ mason:
 - ttl: 300
   type: CNAME
   value: mason-hack-club.netlify.com.
-mayhem:
+mayhem: #augie@hackclub.com U07FCRNHS1J
 - ttl: 600
   type: CNAME
   value: projectmayhem404.netlify.app.
