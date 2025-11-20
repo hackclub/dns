@@ -748,6 +748,11 @@ wordcalc:
   type: CNAME
   value: cname.vercel-dns.com.
 
+wowstar: # wowstar2504@proton.me
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
+
 write: # WriteFreely!
   ttl: 3600
   type: A
