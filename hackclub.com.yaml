@@ -1101,6 +1101,10 @@ www.bridgeportohio:
   ttl: 300
   type: CNAME
   value: ghs.googlehosted.com.
+bubble: # jared@hackclub.com U07HEH4N8UV 
+- ttl: 300
+  type: CNAME
+  value: bc88611c121f3104.vercel-dns-016.com.
 bucky:
 - octodns:
     cloudflare:
@@ -1978,6 +1982,10 @@ feed.assemble:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+fett: # jared@hackclub.com U07HEH4N8UV 
+- ttl: 300
+  type: CNAME
+  value: bc88611c121f3104.vercel-dns-016.com.
 fhs:
 - ttl: 300
   type: CNAME
