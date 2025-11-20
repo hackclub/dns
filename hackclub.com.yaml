@@ -1393,7 +1393,7 @@ clutter:
 clubs: # hya@yip.cat U08E3UAUHFS
   - ttl: 600
     type: CNAME
-    value: clubs.
+    value: clubs.hackclub.com.
 cmd-k:
   ttl: 300
   type: CNAME
