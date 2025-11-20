@@ -3189,6 +3189,9 @@ midnight:
   type: A
   value: 5.161.244.66
 milkyway:
+- octodns:
+    cloudflare:
+      proxied: true
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
