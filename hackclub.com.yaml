@@ -448,6 +448,7 @@ _vercel:
   ttl: 300
   type: TXT
   values:
+  - vc-domain-verify=polygon.hackclub.com,3b90aa8a647cf9852dd2
   - vc-domain-verify=rooted.hackclub.com,98ed9303d9dc11f1ca2f
   - vc-domain-verify=asiet.hackclub.com,2975ee268d07e199efdc
   - vc-domain-verify=backend.arena.hackclub.com,079b94be7b001fa4e775
@@ -1193,6 +1194,25 @@ camp-apply:
   ttl: 300
   type: CNAME
   value: hackcamp-apply.netlify.com.
+campfire:
+- ttl: 3600
+  type: TXT
+  values: 
+  - google-site-verification=xis9BmP-gRLmEU4YC9opk7bCtkoAERLiA92Vafg4VkU
+  - v=spf1 include:_spf.google.com ~all
+- ttl: 3600
+  type: MX
+  values:
+  - exchange: aspmx.l.google.com.
+    preference: 1
+  - exchange: alt1.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt2.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt3.aspmx.l.google.com.
+    preference: 10
+  - exchange: alt4.aspmx.l.google.com.
+    preference: 10
 cargo-cult:
   ttl: 300
   type: A
@@ -1886,8 +1906,8 @@ events: # leo@hackclub.com
 - octodns:
     lenient: true
   ttl: 300
-  type: ALIAS
-  value: cname.vercel-dns.com.
+  type: A
+  value: 76.76.21.21
 - ttl: 3600
   type: TXT
   values:
@@ -2013,6 +2033,9 @@ flavortown: # kartikey@hackclub.com @cskartikey/U05F4B48GBF + U054VC2KM9P/amber
 - ttl: 300
   type: A
   value: 5.161.197.219
+  octodns:
+    cloudflare:
+      proxied: true
 - ttl: 300
   type: MX
   values:
@@ -3705,6 +3728,10 @@ posthog:
   ttl: 300
   type: A
   value: 45.79.174.48
+polygon: # zaidayan456@gmail.com U083VVA9M0W
+  ttl: 600
+  type: CNAME
+  value: 1f2e326ff0beb553.vercel-dns-017.vercel-dns.com.
 pm-bounces: # Priate Ship's Return Path verification (Postmark)
   ttl: 300
   type: CNAME
