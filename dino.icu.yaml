@@ -807,3 +807,13 @@ fileserver: # will.kuntze@gmail.com Will Kuntze
   - ttl: 600
     type: A
     value: 174.112.38.43
+
+web: # wowstar2504@proton.me 
+  ttl: 600
+  type: NS
+  values:
+  - freedns1.registrar-servers.com.
+  - freedns2.registrar-servers.com.
+  - freedns3.registrar-servers.com.
+  - freedns4.registrar-servers.com.
+  - freedns5.registrar-servers.com.
