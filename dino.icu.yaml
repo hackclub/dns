@@ -491,6 +491,7 @@ overflow:
   type: CNAME
   value: overflow.craigg.hackclub.app.
 
+
 pay: # by Ella
   ttl: 600
   type: CNAME
@@ -615,6 +616,8 @@ spend:
   - ttl: 600
     type: A
     value: 76.76.21.21
+
+
 
 social:
   ttl: 600
