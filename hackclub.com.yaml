@@ -2873,6 +2873,10 @@ ko:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+la:
+  - ttl: 300
+    type: CNAME
+    value: cname.vercel-dns.com.
 lambert:
 - ttl: 300
   type: CNAME
