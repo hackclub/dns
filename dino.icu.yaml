@@ -817,3 +817,5 @@ web: # wowstar2504@proton.me
   - freedns3.registrar-servers.com.
   - freedns4.registrar-servers.com.
   - freedns5.registrar-servers.com.
+  type: TXT
+  values: h82e59a6ccdf04b40bb5a7be7ebfeba88
