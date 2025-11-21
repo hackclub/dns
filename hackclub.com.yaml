@@ -1136,14 +1136,14 @@ n8n.buildboard: #alexvd@hackclub.com && dhamari@hackclub.com
 metabase.buildboard: #alexvd@hackclub.com && dhamari@hackclub.com
 - octodns:
     cloudflare:
-      proxied: false
+      proxied: true
   ttl: 300
   type: CNAME
   value: metabase-f88kw0o0cg8kowsooc4o08sg.a.selfhosted.hackclub.com.
 unleash.buildboard: #dhamari@hackclub.com
 - octodns:
     cloudflare:
-      proxied: false
+      proxied: true
   ttl: 300
   type: CNAME
   value: unleash-k8wgsws4sco8gcoscksow0o4.a.selfhosted.hackclub.com.
