@@ -397,7 +397,7 @@ low-ping: # roblox low ping finder site thingy; by https://github.com/lem6ns
   type: CNAME
   value: lem6ns.github.io.
 
-loners: # support@solidqode.org
+loners: # support+loners@swehosting.pl
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
