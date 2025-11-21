@@ -617,7 +617,10 @@ spend:
     type: A
     value: 76.76.21.21
 
-
+solidqode: # support@solidqode.org
+  - ttl: 60
+    type: CNAME
+    value: cname.vercel-dns.com.
 
 social:
   ttl: 600
