@@ -1242,7 +1242,7 @@ campfire:
   - exchange: alt4.aspmx.l.google.com.
     preference: 10
 - ttl: 300
-  type: CNAME
+  type: ALIAS
   value: a.selfhosted.hackclub.com.
 cargo-cult:
   ttl: 300
