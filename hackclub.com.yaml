@@ -1223,6 +1223,11 @@ camp-apply:
   type: CNAME
   value: hackcamp-apply.netlify.com.
 campfire:
+- octodns:
+    lenient: true
+  ttl: 600
+  type: ALIAS
+  value: a.selfhosted.hackclub.com.
 - ttl: 3600
   type: TXT
   values: 
@@ -1241,9 +1246,6 @@ campfire:
     preference: 10
   - exchange: alt4.aspmx.l.google.com.
     preference: 10
-- ttl: 300
-  type: ALIAS
-  value: a.selfhosted.hackclub.com.
 cargo-cult:
   ttl: 300
   type: A
