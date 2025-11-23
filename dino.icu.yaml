@@ -397,6 +397,11 @@ low-ping: # roblox low ping finder site thingy; by https://github.com/lem6ns
   type: CNAME
   value: lem6ns.github.io.
 
+loners: # support+loners@swehosting.pl
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
+
 leo:
   ttl: 600
   type: CNAME
@@ -617,7 +622,10 @@ spend:
     type: A
     value: 76.76.21.21
 
-
+solidqode: # support@solidqode.org
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 
 social:
   ttl: 600
@@ -747,6 +755,11 @@ wordcalc:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+
+wowstar: # wowstar2504@proton.me
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 
 write: # WriteFreely!
   ttl: 3600
