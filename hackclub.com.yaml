@@ -778,6 +778,13 @@ archived.guide:
   ttl: 300
   type: CNAME
   value: hackclub-guide.netlify.com.
+are-we-there-yet:
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: a.identity.selfhosted.hackclub.com.
 arsenic:
 - ttl: 300
   type: CNAME
