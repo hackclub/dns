@@ -757,7 +757,7 @@ wordcalc:
   value: cname.vercel-dns.com.
 
 work: # workdino
-  ttl: 60
+  ttl: 600
   type: MX
   values:
   - exchange: flagrantbycolumn.cachingtech.com.
