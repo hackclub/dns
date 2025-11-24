@@ -2741,7 +2741,7 @@ iplace: # ascpixi@hackclub.com U082DPCGPST
 irc: # nora@hackclub.com U06QK6AG3RD
 - ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: b.selfhosted.hackclub.com.
 irvine:
 - ttl: 3600
   type: TXT
