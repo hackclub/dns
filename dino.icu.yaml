@@ -756,7 +756,7 @@ wordcalc:
   type: CNAME
   value: cname.vercel-dns.com.
 
-work: # workdino
+work: # mahadkalam1@proton.me
   ttl: 600
   type: MX
   values:
