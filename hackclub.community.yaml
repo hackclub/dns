@@ -62,7 +62,7 @@ stargazing: # jagritsachdev@gmail.com U08BBMLC64A
   - ttl: 300
     type: CNAME
     value: 63bd5230a7461a1e.vercel-dns-017.com.
-_vercel.hackclub.community:
+_vercel:
   - ttl: 300
     type: TXT
     value: "vc-domain-verify=stargazing.hackclub.community,6c036f41dd5fb04c3d06"
