@@ -756,6 +756,13 @@ wordcalc:
   type: CNAME
   value: cname.vercel-dns.com.
 
+work: # mahadkalam1@proton.me
+  ttl: 600
+  type: MX
+  values:
+  - exchange: flagrantbycolumn.cachingtech.com.
+    preference: 10
+
 wowstar: # wowstar2504@proton.me
   - ttl: 600
     type: CNAME
