@@ -573,6 +573,13 @@ metabase.accelerate: # alexvd@hackclub.com
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+account: # nora@
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: a.identity.selfhosted.hackclub.com.
 aces:
   ttl: 300
   type: CNAME
@@ -778,6 +785,13 @@ archived.guide:
   ttl: 300
   type: CNAME
   value: hackclub-guide.netlify.com.
+are-we-there-yet:
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: a.identity.selfhosted.hackclub.com.
 arsenic:
 - ttl: 300
   type: CNAME
@@ -2250,6 +2264,13 @@ gharbiya: # gh.hackclub@gmail.com U0666VATMT5
 - ttl: 300
   type: CNAME
   value: stemgharbiya.github.io.
+giftbox: # tongyu@hackclub.com U07DJMFAQQP
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 gita:
 - ttl: 300
   type: A
@@ -2738,6 +2759,10 @@ iplace: # ascpixi@hackclub.com U082DPCGPST
 - ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+irc: # nora@hackclub.com U06QK6AG3RD
+- ttl: 300
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
 irvine:
 - ttl: 3600
   type: TXT
