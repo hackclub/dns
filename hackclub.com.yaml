@@ -785,7 +785,7 @@ archived.guide:
   ttl: 300
   type: CNAME
   value: hackclub-guide.netlify.com.
-are-we-there-yet:
+are-we-there-yet: # owned by @msw (max@hackclub.com)
 - octodns:
     cloudflare:
       proxied: true
