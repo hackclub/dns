@@ -4060,6 +4060,10 @@ saycheese:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+science: # mahad@hackclub.com
+- ttl: 300
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
 schedule:
 - ttl: 300
   type: CNAME
