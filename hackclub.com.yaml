@@ -1358,6 +1358,10 @@ cinema:
 - ttl: 300
   type: CNAME
   value: dandililacs.github.io.
+clubapi: #ivie@hackclub.com @Charmunk
+- ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 cockpit:
 - octodns:
     cloudflare:
