@@ -2,7 +2,7 @@
 _vercel:
   - ttl: 300
     type: TXT
-    value: "vc-domain-verify=stargazing.hackclub.community,6c036f41dd5fb04c3d06"
+    value: vc-domain-verify=stargazing.hackclub.community,6c036f41dd5fb04c3d06
 # Alumni Society (https://github.com/hackclub-alumni/meta/issues/1)
 # Records are primarily managed by @ajhalili2006 (U07CAPBB9B5), although other alums
 # can manage them by coordinating at #alums channel or https://github.com/hackclub-alumni/meta.
