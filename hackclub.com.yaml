@@ -1362,6 +1362,10 @@ clubapi: #ivie@hackclub.com @Charmunk
 - ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+clubs: # jared@hackclub.com @jps @hya
+- ttl: 300
+  type: CNAME
+  value: 05fb403da2be67a7.vercel-dns-016.com.
 cockpit:
 - octodns:
     cloudflare:
