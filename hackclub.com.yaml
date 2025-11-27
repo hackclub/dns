@@ -2202,6 +2202,10 @@ front-mail:
   values:
   - exchange: mx.sendgrid.net.
     preference: 1
+fudge:
+- ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 fusering:
 - ttl: 300
   type: CNAME
