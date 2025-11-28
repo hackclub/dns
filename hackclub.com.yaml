@@ -573,6 +573,13 @@ metabase.accelerate: # alexvd@hackclub.com
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+pew.accelerate: # alexvd@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: false
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 account: # nora@
 - octodns:
     cloudflare:
@@ -1362,6 +1369,10 @@ clubapi: #ivie@hackclub.com @Charmunk
 - ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+clubs: # jared@hackclub.com @jps @hya
+- ttl: 300
+  type: CNAME
+  value: 05fb403da2be67a7.vercel-dns-016.com.
 cockpit:
 - octodns:
     cloudflare:
@@ -2116,6 +2127,22 @@ _dmarc.flavortown: # U054VC2KM9P / amber
 - ttl: 300
   type: TXT
   value: v=DMARC1\; p=quarantine\; rua=mailto:6192c543e0e61@ag.dmarcly.com\; ruf=mailto:6192c543e0e61@fo.dmarcly.com\; fo=1\;
+em7749.m.flavortown: # U054VC2KM9P / amber
+- ttl: 300
+  type: CNAME
+  value: u57277233.wl234.sendgrid.net.
+s1._domainkey.m.flavortown: # U054VC2KM9P / amber
+- ttl: 300
+  type: CNAME
+  value: s1.domainkey.u57277233.wl234.sendgrid.net.
+s2._domainkey.m.flavortown: # U054VC2KM9P / amber
+- ttl: 300
+  type: CNAME
+  value: s2.domainkey.u57277233.wl234.sendgrid.net.
+_dmarc.m.flavortown: # U054VC2KM9P / amber
+- ttl: 300
+  type: TXT
+  value: v=DMARC1\; p=quarantine\; rua=mailto:6192c543e0e61@ag.dmarcly.com\; ruf=mailto:6192c543e0e61@fo.dmarcly.com\; fo=1\;
 flhs:
 - ttl: 300
   type: TXT
@@ -2191,6 +2218,10 @@ front-mail:
   values:
   - exchange: mx.sendgrid.net.
     preference: 1
+fudge:
+- ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 fusering:
 - ttl: 300
   type: CNAME
@@ -3324,6 +3355,10 @@ identity.nephthys: # amber / U054VC2KM9P
   type: CNAME
   value: a.selfhosted.hackclub.com.
 midnight.nephthys: # amber / U054VC2KM9P & leo / U07BLJ1MBEE
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
+construct.nephthys: # mish@hackclub.com U073M5L9U13
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
