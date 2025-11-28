@@ -4,10 +4,6 @@ _vercel:
     type: TXT
     values:
       - vc-domain-verify=stargazing.hackclub.community,6c036f41dd5fb04c3d06
-_msverify.stargazing:
-  - ttl: 3600
-    type: TXT
-    value: "MS=ms58935092"
 # Alumni Society (https://github.com/hackclub-alumni/meta/issues/1)
 # Records are primarily managed by @ajhalili2006 (U07CAPBB9B5), although other alums
 # can manage them by coordinating at #alums channel or https://github.com/hackclub-alumni/meta.
@@ -70,3 +66,16 @@ stargazing: # jagritsachdev@gmail.com U08BBMLC64A
   - ttl: 300
     type: CNAME
     value: 63bd5230a7461a1e.vercel-dns-017.com.
+stargazing:
+  - ttl: 3600
+    type: MX
+    value: stargazing-hackclub-community.mail.protection.outlook.com
+autodiscover.stargazing:
+  - ttl: 3600
+    type: CNAME‎
+    value: autodiscover.outlook.com
+stargazing:
+  - ttl: 3600
+    type: TXT
+    value: v=spf1 include:spf.protection.outlook.com -all
+    
