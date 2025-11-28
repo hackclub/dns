@@ -2138,7 +2138,7 @@ s1._domainkey.m.flavortown.hackclub.com: # U054VC2KM9P / amber
 s2._domainkey.m.flavortown.hackclub.com: # U054VC2KM9P / amber
 - ttl: 300
   type: CNAME
-  value: s2.domainkey.u57277233.wl234.sendgrid.net
+  value: s2.domainkey.u57277233.wl234.sendgrid.net.
 _dmarc.m.flavortown.hackclub.com: # U054VC2KM9P / amber
 - ttl: 300
   type: CNAME
