@@ -2127,7 +2127,7 @@ _dmarc.flavortown: # U054VC2KM9P / amber
 - ttl: 300
   type: TXT
   value: v=DMARC1\; p=quarantine\; rua=mailto:6192c543e0e61@ag.dmarcly.com\; ruf=mailto:6192c543e0e61@fo.dmarcly.com\; fo=1\;
-m.flavortown:
+m.flavortown: # U054VC2KM9P / amber
 - ttl: 300
   type: MX
   values:
