@@ -11,8 +11,8 @@ Please title your PR like this: [Adding/Deleting/Updating] `subdomain.[hackclub.
 ## Description of changes
 <!-- Provide a description of the changes you are making. -->
 
-## Website content
-<!-- If you are adding a new subdomain, provide a quick description of the contents of the website you plan to host. -->
+## Website content/purpose
+<!-- If you are adding a new subdomain, provide a quick description of the content/purpose of the website you plan to host. -->
 
 ## HQ Sponsor
 <!-- If you are requesting a subdomain under `hackclub.com`, please state the name of your hq POC/sponsor: -->
