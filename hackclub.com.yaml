@@ -1964,6 +1964,10 @@ essays:
   ttl: 300
   type: CNAME
   value: hackclub.github.io.
+euan: # jenin@hackclub.com; POC=dhamari
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 events: # leo@hackclub.com
 - octodns:
     lenient: true
