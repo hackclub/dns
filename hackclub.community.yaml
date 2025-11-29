@@ -58,6 +58,11 @@ emoji: # alimad.co.ltd@gmail.com U08LQFRBL6S
   - ttl: 300
     type: CNAME
     value: emojiout.netlify.app.
+# https://tangled.org/recaptime.dev/knot-docker-nest
+knot: # ajhalili2006@crew.recaptime.dev U07CAPBB9B5
+  - ttl: 300
+    type: CNAME
+    value: recaptime-dev.hackclub.app.
 stats: # alimad.co.ltd@gmail.com U08LQFRBL6S
   - ttl: 300
     type: CNAME
