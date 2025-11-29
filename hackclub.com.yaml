@@ -1988,7 +1988,7 @@ events: # leo@hackclub.com
     preference: 10
   - exchange: ALT4.ASPMX.L.GOOGLE.COM.
     preference: 10
-euan: # @jenin; POC=dhamari
+euan: # jenin@hackclub.com; POC=dhamari
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
