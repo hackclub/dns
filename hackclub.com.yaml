@@ -54,10 +54,6 @@ ihs:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-1or0:
-- ttl: 300
-  type: CNAME
-  value: 0446ea696fc11998.vercel-dns-017.com.
 20230913174421pm._domainkey:
   ttl: 300
   type: TXT
