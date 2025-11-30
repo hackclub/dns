@@ -682,6 +682,11 @@ toonnongaeoy:
    type: CNAME
    value: storyhouseproduction.duckdns.org.
 
+two: # dns@twonum.org U094NTBR1S5
+  ttl: 600
+  type: NS
+  value: a.twonum-servers.net.
+
 url: # A url shortener for anyone in hack club :D
  - ttl: 600
    type: CNAME
