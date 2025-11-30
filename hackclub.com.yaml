@@ -5294,7 +5294,7 @@ vote.daydream:
   type: CNAME
   value: b.selfhosted.hackclub.com.
 
-construct: # Barnabás U07H3E1CW7J
-- ttl: 300
+construct:
+  ttl: 300
   type: CNAME
-  value: lg8cwggw0skgc0wk4440ossw.a.selfhosted.hackclub.com.
+  value: a.selfhosted.hackclub.com.
