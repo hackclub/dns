@@ -1383,6 +1383,10 @@ congress:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+construct: # U07H3E1CW7J
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 congressional:
 - octodns:
     cloudflare:
@@ -5290,7 +5294,3 @@ vote.daydream:
   type: CNAME
   value: b.selfhosted.hackclub.com.
 
-construct:
-  ttl: 300
-  type: CNAME
-  value: a.selfhosted.hackclub.com.
