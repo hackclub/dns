@@ -211,6 +211,13 @@ warehouse.selfhosted:
   ttl: 300
   type: A
   value: 65.109.156.40
+attend: # leo@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 Cabbache:
 - ttl: 300
   type: CNAME
