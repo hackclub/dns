@@ -720,6 +720,13 @@ aurora:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+auth: # nora@
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: a.identity.selfhosted.hackclub.com.
 authly:
 - ttl: 300
   type: CNAME
