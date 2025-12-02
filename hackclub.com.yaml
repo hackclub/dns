@@ -3506,7 +3506,7 @@ olympics:
 - ttl: 300
   type: CNAME
   value: e65532a7e0d6bba4.vercel-dns-016.com.
-old.parthenon:
+old.parthenon: # annabel@hackclub.com U078J6H1XL3
 - ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
@@ -3694,7 +3694,7 @@ parcel-pyxis:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-parthenon:
+parthenon: # annabel@hackclub.com U078J6H1XL3
 - ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
