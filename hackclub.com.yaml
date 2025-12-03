@@ -3256,6 +3256,13 @@ meltdown:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+meow: #alexvd@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 mfa:
   ttl: 300
   type: CNAME
