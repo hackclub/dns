@@ -4060,7 +4060,7 @@ rooted: # christian on slack U0938MZG8Q6 poc is euan
   - ttl: 300
     type: CNAME
     value: 0a2695bb00ff8d9b.vercel-dns-017.com.
-api.rooted:
+api.rooted: #U0938MZG8Q6
 - ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
