@@ -3189,7 +3189,7 @@ mason:
 mayhem: #augie@hackclub.com U07FCRNHS1J
 - ttl: 300
   type: CNAME
-  value: project-mayhem-r5q9.vercel.app.
+  value: 10c0b549a5d8fbfc.vercel-dns-017.com.
 maxday:
   ttl: 300
   type: CNAME
