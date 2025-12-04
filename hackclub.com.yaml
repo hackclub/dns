@@ -2170,6 +2170,10 @@ _dmarc.m.flavortown: # U054VC2KM9P / amber
 - ttl: 300
   type: TXT
   value: v=DMARC1\; p=quarantine\; rua=mailto:6192c543e0e61@ag.dmarcly.com\; ruf=mailto:6192c543e0e61@fo.dmarcly.com\; fo=1\;
+flavourtown: # euan@hackclub.com U06T30DNB3L
+  - ttl: 300
+    type: A
+    value: 5.161.197.219
 flhs:
 - ttl: 300
   type: TXT
