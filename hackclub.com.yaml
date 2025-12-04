@@ -1774,7 +1774,7 @@ dorman:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-downscale:
+downscale: # augie@hackclub.com
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
