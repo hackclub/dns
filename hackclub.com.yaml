@@ -1777,7 +1777,7 @@ dorman:
 downscale:
   ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com
+  value: a.selfhosted.hackclub.com.
 draw-dino:
   ttl: 300
   type: CNAME
