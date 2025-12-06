@@ -4429,11 +4429,15 @@ southhighhack:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-spaces:
+spaces: # ivie@hackclub.com @Charmunk
 - octodns:
     cloudflare:
       proxied: true
   ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
+old.spaces: # ivie@hackclub.com @Charmunk
+- ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 spark:
