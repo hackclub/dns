@@ -5258,7 +5258,7 @@ ships: # neon+dnsships@hackclub.com  U07L45W79E1
 - ttl: 300
   type: A
   value: 5.161.100.52
-api.ships:
+api.ships: # neon+dnsships@hackclub.com  U07L45W79E1
 - ttl: 300
   type: A
   value: 5.161.100.52
