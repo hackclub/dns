@@ -448,6 +448,7 @@ _vercel:
   ttl: 300
   type: TXT
   values:
+  - vc-domain-verify=mayhem.hackclub.com,acbfb3ec6423d80ff8e7
   - vc-domain-verify=polygon.hackclub.com,3b90aa8a647cf9852dd2
   - vc-domain-verify=rooted.hackclub.com,98ed9303d9dc11f1ca2f
   - vc-domain-verify=asiet.hackclub.com,2975ee268d07e199efdc
