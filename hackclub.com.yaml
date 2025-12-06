@@ -54,10 +54,6 @@ ihs:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-1or0:
-- ttl: 300
-  type: CNAME
-  value: 0446ea696fc11998.vercel-dns-017.com.
 20230913174421pm._domainkey:
   ttl: 300
   type: TXT
@@ -215,6 +211,13 @@ warehouse.selfhosted:
   ttl: 300
   type: A
   value: 65.109.156.40
+attend: # leo@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 Cabbache:
 - ttl: 300
   type: CNAME
@@ -542,12 +545,10 @@ _vercel:
   - vc-domain-verify=hackducky.hackclub.com,511bdb3387c304b630b6
   - vc-domain-verify=security.hackclub.com,b005370fba78b1b3b932
   - vc-domain-verify=squeak.hackclub.com,0574abe068e7c3c4a91e
-  - vc-domain-verify=optimize.hackclub.com,08b88e7ff4ae25385700
   - vc-domain-verify=simmer.hackclub.com,19a5cdf65fc7aedb7ccb
   - vc-domain-verify=fusering.hackclub.com,b3bcae34deb4b6c261c1
   - vc-domain-verify=docs.identity.hackclub.com,ef5c12615db913aa8dee
   - vc-domain-verify=branch.hackclub.com,21874c5af09f455c2cc0
-  - vc-domain-verify=parthenon.hackclub.com,66acbbffb5cfd91f844f
   - vc-domain-verify=odyssey.hackclub.com,44ac2c39dd9ccfc6d991
   - vc-domain-verify=reactive.hackclub.com,dcd146599f4ae3bc6822
   - vc-domain-verify=foodie.hackclub.com,0215d38601a347a45686
@@ -718,6 +719,13 @@ aurora:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+auth: # nora@
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: a.identity.selfhosted.hackclub.com.
 authly:
 - ttl: 300
   type: CNAME
@@ -1388,6 +1396,10 @@ congress:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+construct: # U07H3E1CW7J
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 congressional:
 - octodns:
     cloudflare:
@@ -1762,6 +1774,10 @@ dorman:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+downscale: # augie@hackclub.com
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 draw-dino:
   ttl: 300
   type: CNAME
@@ -2154,6 +2170,10 @@ _dmarc.m.flavortown: # U054VC2KM9P / amber
 - ttl: 300
   type: TXT
   value: v=DMARC1\; p=quarantine\; rua=mailto:6192c543e0e61@ag.dmarcly.com\; ruf=mailto:6192c543e0e61@fo.dmarcly.com\; fo=1\;
+flavourtown: # euan@hackclub.com U06T30DNB3L
+  - ttl: 300
+    type: A
+    value: 5.161.197.219
 flhs:
 - ttl: 300
   type: TXT
@@ -3244,6 +3264,13 @@ meltdown:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+meow: #alexvd@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 mfa:
   ttl: 300
   type: CNAME
@@ -3494,6 +3521,10 @@ olympics:
 - ttl: 300
   type: CNAME
   value: e65532a7e0d6bba4.vercel-dns-016.com.
+old.parthenon: # annabel@hackclub.com U078J6H1XL3
+- ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 orpheus-engine:
 - octodns:
     cloudflare:
@@ -3555,10 +3586,6 @@ op:
 - ttl: 300
   type: CNAME
   value: optsa.club.
-optimize:
-- ttl: 300
-  type: CNAME
-  value: ce448404c1886ddd.vercel-dns-017.com.
 orpheushacks: # Harrison Katz automatically wins for adding the DNS entry - thats how it works, right?
 - ttl: 300
   type: CNAME
@@ -3678,10 +3705,10 @@ parcel-pyxis:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-parthenon:
+parthenon: # annabel@hackclub.com U078J6H1XL3
 - ttl: 300
   type: CNAME
-  value: d5aba33cc6b279e0.vercel-dns-017.com.
+  value: a.selfhosted.hackclub.com.
 portal.parthenon:
 - ttl: 300 
   type: CNAME
@@ -4037,6 +4064,10 @@ rooted: # christian on slack U0938MZG8Q6 poc is euan
   - ttl: 300
     type: CNAME
     value: 0a2695bb00ff8d9b.vercel-dns-017.com.
+api.rooted: #U0938MZG8Q6
+- ttl: 300
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
 roulette:
 - octodns:
     cloudflare:
@@ -4399,11 +4430,15 @@ southhighhack:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-spaces:
+spaces: # ivie@hackclub.com @Charmunk
 - octodns:
     cloudflare:
       proxied: true
   ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
+old.spaces: # ivie@hackclub.com @Charmunk
+- ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 spark:
@@ -5224,11 +5259,11 @@ signalling.lockin:
 - ttl: 300
   type: A
   value: 5.161.100.52
-ships:
+ships: # neon+dnsships@hackclub.com  U07L45W79E1
 - ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
-api.ships:
+  type: A
+  value: 5.161.100.52
+api.ships: # neon+dnsships@hackclub.com  U07L45W79E1
 - ttl: 300
   type: A
   value: 5.161.100.52
