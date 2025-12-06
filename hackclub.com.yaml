@@ -544,7 +544,6 @@ _vercel:
   - vc-domain-verify=hackducky.hackclub.com,511bdb3387c304b630b6
   - vc-domain-verify=security.hackclub.com,b005370fba78b1b3b932
   - vc-domain-verify=squeak.hackclub.com,0574abe068e7c3c4a91e
-  - vc-domain-verify=optimize.hackclub.com,08b88e7ff4ae25385700
   - vc-domain-verify=simmer.hackclub.com,19a5cdf65fc7aedb7ccb
   - vc-domain-verify=fusering.hackclub.com,b3bcae34deb4b6c261c1
   - vc-domain-verify=docs.identity.hackclub.com,ef5c12615db913aa8dee
