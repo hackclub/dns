@@ -3206,10 +3206,10 @@ mason:
 - ttl: 300
   type: CNAME
   value: mason-hack-club.netlify.com.
-mayhem: #ganeshhgunda123@gmail.com U084193LCRL
-- ttl: 600
+mayhem: #augie@hackclub.com U07FCRNHS1J
+- ttl: 300
   type: CNAME
-  value: projectmayhem404.netlify.app.
+  value: 10c0b549a5d8fbfc.vercel-dns-017.com.
 maxday:
   ttl: 300
   type: CNAME
