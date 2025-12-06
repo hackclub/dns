@@ -5256,8 +5256,8 @@ signalling.lockin:
   value: 5.161.100.52
 ships:
 - ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+  type: A
+  value: 5.161.100.52
 api.ships:
 - ttl: 300
   type: A
