@@ -4436,7 +4436,7 @@ spaces: # ivie@hackclub.com @Charmunk
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-old.spaces: ivie@hackclub.com @Charmunk
+old.spaces: # ivie@hackclub.com @Charmunk
 - ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
