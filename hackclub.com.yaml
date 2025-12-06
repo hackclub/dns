@@ -5254,11 +5254,11 @@ signalling.lockin:
 - ttl: 300
   type: A
   value: 5.161.100.52
-ships:
+ships: # neon+dnsships@hackclub.com  U07L45W79E1
 - ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
-api.ships:
+  type: A
+  value: 5.161.100.52
+api.ships: # neon+dnsships@hackclub.com  U07L45W79E1
 - ttl: 300
   type: A
   value: 5.161.100.52
