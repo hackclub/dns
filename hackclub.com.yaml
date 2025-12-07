@@ -451,6 +451,7 @@ _vercel:
   ttl: 300
   type: TXT
   values:
+  - vc-domain-verify=mayhem.hackclub.com,acbfb3ec6423d80ff8e7
   - vc-domain-verify=polygon.hackclub.com,3b90aa8a647cf9852dd2
   - vc-domain-verify=rooted.hackclub.com,98ed9303d9dc11f1ca2f
   - vc-domain-verify=asiet.hackclub.com,2975ee268d07e199efdc
@@ -544,7 +545,6 @@ _vercel:
   - vc-domain-verify=hackducky.hackclub.com,511bdb3387c304b630b6
   - vc-domain-verify=security.hackclub.com,b005370fba78b1b3b932
   - vc-domain-verify=squeak.hackclub.com,0574abe068e7c3c4a91e
-  - vc-domain-verify=optimize.hackclub.com,08b88e7ff4ae25385700
   - vc-domain-verify=simmer.hackclub.com,19a5cdf65fc7aedb7ccb
   - vc-domain-verify=fusering.hackclub.com,b3bcae34deb4b6c261c1
   - vc-domain-verify=docs.identity.hackclub.com,ef5c12615db913aa8dee
@@ -3207,10 +3207,10 @@ mason:
 - ttl: 300
   type: CNAME
   value: mason-hack-club.netlify.com.
-mayhem: #ganeshhgunda123@gmail.com U084193LCRL
-- ttl: 600
+mayhem: #augie@hackclub.com U07FCRNHS1J
+- ttl: 300
   type: CNAME
-  value: projectmayhem404.netlify.app.
+  value: 10c0b549a5d8fbfc.vercel-dns-017.com.
 maxday:
   ttl: 300
   type: CNAME
@@ -3586,10 +3586,6 @@ op:
 - ttl: 300
   type: CNAME
   value: optsa.club.
-optimize:
-- ttl: 300
-  type: CNAME
-  value: ce448404c1886ddd.vercel-dns-017.com.
 orpheushacks: # Harrison Katz automatically wins for adding the DNS entry - thats how it works, right?
 - ttl: 300
   type: CNAME
@@ -4434,11 +4430,15 @@ southhighhack:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-spaces:
+spaces: # ivie@hackclub.com @Charmunk
 - octodns:
     cloudflare:
       proxied: true
   ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
+old.spaces: # ivie@hackclub.com @Charmunk
+- ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 spark:
@@ -5259,11 +5259,11 @@ signalling.lockin:
 - ttl: 300
   type: A
   value: 5.161.100.52
-ships:
+ships: # neon+dnsships@hackclub.com  U07L45W79E1
 - ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
-api.ships:
+  type: A
+  value: 5.161.100.52
+api.ships: # neon+dnsships@hackclub.com  U07L45W79E1
 - ttl: 300
   type: A
   value: 5.161.100.52
