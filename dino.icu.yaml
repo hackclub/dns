@@ -304,7 +304,7 @@ hasd: # hasd school forum
   type: A
   value: 143.244.201.64
 
-hcmobile: # Hack Club Mobile app (by TheAwesomeAJ)
+hcmobile: # U092329JX89
   ttl: 600
   type: CNAME
   value: cname.mintlify-dns.com.
