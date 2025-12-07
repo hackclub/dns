@@ -5258,6 +5258,10 @@ ai:
   ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
+docs.ai:
+- ttl: 300
+  type: CNAME
+  value: 0398d53533e1257d.vercel-dns-016.com.
 lockin:
 - ttl: 300
   type: A
