@@ -1012,6 +1012,13 @@ barracoders:
 - ttl: 300
   type: CNAME
   value: barracoders.netlify.app.
+bauble: #alexvd@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 bbss:
 - ttl: 300
   type: CNAME
