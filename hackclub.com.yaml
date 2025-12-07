@@ -4215,6 +4215,10 @@ scriptingnest:
 - ttl: 300
   type: AAAA
   value: 2a01:4f9:3081:399c::4
+search: # U059VC0UDEU
+  ttl: 300
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
 self-portrait:
 - octodns:
     cloudflare:
