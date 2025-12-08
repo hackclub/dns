@@ -3744,6 +3744,10 @@ philippines:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+photos: # tom@daamen.uk  U078PH0GBEH
+- ttl: 300
+  type: A
+  value: 77.90.16.198
 phs:
 - octodns:
     lenient: true
