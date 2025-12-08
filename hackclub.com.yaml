@@ -626,6 +626,9 @@ airbridge:
   type: CNAME
   value: a.limited.selfhosted.hackclub.com.
 airlock: # manitej@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
   ttl: 300
   type: A
   value: 178.156.142.136
