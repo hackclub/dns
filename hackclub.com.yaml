@@ -625,6 +625,10 @@ airbridge:
   ttl: 300
   type: CNAME
   value: a.limited.selfhosted.hackclub.com.
+airlock: # manitej@hackclub.com
+  ttl: 300
+  type: A
+  value: 178.156.142.136
 alexandria:
 - ttl: 300
   type: CNAME
