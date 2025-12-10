@@ -2431,7 +2431,7 @@ grub:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-guides:
+guides: # reem@hackclub.com U06U80G86H1
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
