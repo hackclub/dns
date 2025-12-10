@@ -1270,6 +1270,8 @@ camp-apply:
 campfire:
 - octodns:
     lenient: true
+    cloudflare:
+      proxied: true
   ttl: 600
   type: ALIAS
   value: a.selfhosted.hackclub.com.
