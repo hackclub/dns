@@ -3222,6 +3222,10 @@ markdown:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+  mariner: #mikesummers1602507@gmail.com
+  - ttl: 600
+    type: CNAME
+    value: https://sites.google.com/mukilteo.wednet.edu/mhs-hack-club/home
 mason:
 - ttl: 300
   type: CNAME
