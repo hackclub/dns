@@ -320,14 +320,6 @@ _gh-ACT-Hack-Club-o.act:
 - ttl: 300
   type: TXT
   value: 346a2cce9c
-_gh-arsenobetaine-o:
-- ttl: 300
-  type: TXT
-  value: cea65ff579
-_gh-arsenobetaine-o.arsenic:
-- ttl: 300
-  type: TXT
-  value: 1f595876ef
 _gh-hackclubmchs-o.mchs:
 - ttl: 300
   type: TXT
@@ -372,7 +364,7 @@ _github-challenge-rahs-hackclub.rahs:
 - ttl: 300
   type: TXT
   value: f43a54836a
-_github-pages-challenge-arsenic-club.arsenic:
+_github-pages-challenge-arsenicorg.arsenic:
 - ttl: 300
   type: TXT
   value: e46c397c5bd751389a024480dbb07b
@@ -819,7 +811,7 @@ are-we-there-yet: # owned by @msw (max@hackclub.com)
 arsenic:
 - ttl: 300
   type: CNAME
-  value: arsenic-club.github.io.
+  value: arsenicorg.github.io.
 aryan:
 - ttl: 300
   type: CNAME
@@ -3118,10 +3110,6 @@ liftoff:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-link.arsenic:
-- ttl: 300
-  type: CNAME
-  value: cname.short.io.
 linkscape:
 - ttl: 300
   type: CNAME
