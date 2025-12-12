@@ -3154,6 +3154,10 @@ live.onboard:
 - ttl: 300
   type: A
   value: 188.40.116.216
+loopy: # max@hackclub.com
+- ttl: 300
+  type: CNAME
+  value: a.limited.selfhosted.hackclub.com.
 lonestar:
 - ttl: 300
   type: CNAME
