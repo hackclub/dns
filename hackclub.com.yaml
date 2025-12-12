@@ -1771,7 +1771,7 @@ em9932.dinobags: # U054VC2KM9P / amber
 s1._domainkey.dinobags: # U054VC2KM9P / amber
 - ttl: 300
   type: CNAME
-  value: s1.domainkey.u57277233.wl234.sendgrid.net
+  value: s1.domainkey.u57277233.wl234.sendgrid.net.
 s2._domainkey.dinobags: # U054VC2KM9P / amber
 - ttl: 300
   type: CNAME
