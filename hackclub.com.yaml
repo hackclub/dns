@@ -1760,6 +1760,26 @@ dfw4j5coownesaecgmwfxhszrauwxzlk._domainkey:
   ttl: 300
   type: CNAME
   value: dfw4j5coownesaecgmwfxhszrauwxzlk.dkim.custom-email-domain.stripe.com.
+dinobags: # U054VC2KM9P / amber
+- ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
+em9932.dinobags: # U054VC2KM9P / amber
+- ttl: 300
+  type: CNAME
+  value: u57277233.wl234.sendgrid.net.
+s1._domainkey.dinobags: # U054VC2KM9P / amber
+- ttl: 300
+  type: CNAME
+  value: s1.domainkey.u57277233.wl234.sendgrid.net
+s2._domainkey.dinobags: # U054VC2KM9P / amber
+- ttl: 300
+  type: CNAME
+  value: s2.domainkey.u57277233.wl234.sendgrid.net.
+_dmarc.dinobags: # U054VC2KM9P / amber
+- ttl: 300
+  type: TXT  
+  value: v=DMARC1\; p=quarantine\; rua=mailto:6192c543e0e61@ag.dmarcly.com\; ruf=mailto:6192c543e0e61@fo.dmarcly.com\; fo=1\;
 dinoexplorer:
 - ttl: 300
   type: CNAME
