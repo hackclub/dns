@@ -2630,6 +2630,10 @@ haxidraw:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+haxmas: # ivie@hackclub.com, dhamari@hackclub.com
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 hcarc:
 - ttl: 300
   type: MX
