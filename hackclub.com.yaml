@@ -1764,6 +1764,11 @@ dinobags: # U054VC2KM9P / amber
 - ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
+- ttl: 300
+  type: MX
+  values:
+  - exchange: mx.sendgrid.net.
+    preference: 10
 em9932.dinobags: # U054VC2KM9P / amber
 - ttl: 300
   type: CNAME
