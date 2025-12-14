@@ -1763,7 +1763,7 @@ dfw4j5coownesaecgmwfxhszrauwxzlk._domainkey:
 dinobags: # U054VC2KM9P / amber
 - ttl: 300
   type: A
-  value: 56.213.119.168 # b server
+  value: 168.119.213.56 # b server
 - ttl: 300
   type: MX
   values:
