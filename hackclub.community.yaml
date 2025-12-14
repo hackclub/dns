@@ -63,6 +63,10 @@ knot: # ajhalili2006@crew.recaptime.dev U07CAPBB9B5
   - ttl: 300
     type: CNAME
     value: recaptime-dev.hackclub.app.
+n8n: # U07AGEVSTD2
+  - ttl: 600
+    type: CNAME
+    value: felix1.hackclub.app.
 stats: # alimad.co.ltd@gmail.com U08LQFRBL6S
   - ttl: 300
     type: CNAME
