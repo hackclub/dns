@@ -261,7 +261,7 @@ evan:
   type: A
   value: 150.136.115.122
 
-fabianovich: # email@example.com U012AB345CD
+fabianovich: # fabianovich@duck.com slack: @fabianovich
   - ttl: 600
     type: CNAME
     value: fabianovich.hackclub.app.
