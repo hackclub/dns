@@ -437,6 +437,11 @@ meta: # meta page
   type: CNAME
   value: cname.vercel-dns.com.
 
+midnight-status: #DragonSenseiGuy U09H4M0523Z : https://github.com/dragonSenseiGuy/midnight-status
+  ttl: 600
+  type: A
+  value: 77.90.16.198
+
 mindson: # by rajan
   ttl: 600
   type: CNAME
