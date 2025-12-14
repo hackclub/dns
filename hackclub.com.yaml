@@ -1762,8 +1762,8 @@ dfw4j5coownesaecgmwfxhszrauwxzlk._domainkey:
   value: dfw4j5coownesaecgmwfxhszrauwxzlk.dkim.custom-email-domain.stripe.com.
 dinobags: # U054VC2KM9P / amber
 - ttl: 300
-  type: CNAME
-  value: b.selfhosted.hackclub.com.
+  type: A
+  value: 56.213.119.168 # b server
 - ttl: 300
   type: MX
   values:
