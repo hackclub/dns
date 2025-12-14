@@ -4596,7 +4596,7 @@ stemsharkya:
 stickers: #euan@hackclub.com U06T30DNB3L 
 - ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com
+  value: a.selfhosted.hackclub.com.
 stickerhuman:
 - ttl: 300
   type: CNAME
