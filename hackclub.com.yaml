@@ -2820,6 +2820,10 @@ hub.zephyr:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+homelab:
+- ttl: 300
+  type: CNAME
+  value: homelab-e5c.pages.dev.
 ia:
   ttl: 300
   type: CNAME
