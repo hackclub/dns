@@ -842,3 +842,9 @@ fileserver: # will.kuntze@gmail.com Will Kuntze
   - ttl: 600
     type: A
     value: 174.112.38.43
+
+willgob: # williamnumismatics@gmail.com 
+  - ttl: 600
+    type: A
+    value: 216.198.79.1
+
