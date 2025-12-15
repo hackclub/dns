@@ -1107,6 +1107,10 @@ blueprint:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+badge.blueprint: # U06CRF4DLSU
+  - ttl: 600
+    type: CNAME
+    value: mpkendall.github.io.
 bn:
 - ttl: 300
   type: CNAME
