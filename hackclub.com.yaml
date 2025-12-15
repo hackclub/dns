@@ -5406,7 +5406,3 @@ vote.daydream:
   ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
-willgob: # williamnumismatics@gmail.com 
-  - ttl: 600
-    type: CNAME
-    value: willgob.vercel.app.
