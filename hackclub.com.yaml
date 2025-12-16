@@ -3175,6 +3175,10 @@ loopy: # max@hackclub.com
 - ttl: 300
   type: CNAME
   value: a.limited.selfhosted.hackclub.com.
+smtp.loopy: # max@hackclub.com
+- ttl: 300
+  type: CNAME
+  value: a.limited.selfhosted.hackclub.com.
 lonestar:
 - ttl: 300
   type: CNAME
