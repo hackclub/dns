@@ -2718,7 +2718,7 @@ hcb:
 ui3.hcb: # gary@hackclub.com
 - ttl: 300
   type: CNAME
-  value: ingress.hcb.hackclub.com.
+  value: 11cecfc3c082c480.vercel-dns-016.com.
 hcb-og:
   ttl: 300
   type: CNAME
