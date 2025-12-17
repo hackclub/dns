@@ -594,6 +594,11 @@ scales: # (yet another?) currency slack bot (with some web UI) :D
   type: A
   value: 150.136.254.91 # Oracle Always Free:tm: server lol
 
+scavenger: # U076W5GKC48
+- ttl: 600
+  type: CNAME
+  value: nate-greco.github.io.
+
 sdheeraj: # https://github.com/17sdheeraj/17sdheeraj.github.io
   ttl: 600
   type: CNAME
