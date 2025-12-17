@@ -4207,6 +4207,10 @@ saycheese:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+scavenger: # U076W5GKC48
+- ttl: 300
+  type: CNAME
+  value: nate-greco.github.io.
 science: # mahad@hackclub.com
 - ttl: 300
   type: CNAME
