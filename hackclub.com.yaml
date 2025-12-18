@@ -3989,6 +3989,13 @@ proton:
   ttl: 300
   type: CNAME
   value: pxldevv.github.io.
+prototype: # IRL Hardware event / prototype@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 proxyparty:
   ttl: 300
   type: A
