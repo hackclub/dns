@@ -2822,8 +2822,8 @@ hub.zephyr:
   value: cname.vercel-dns.com.
 homelab: # scunnili1@gmail.com U0971C3C44D
   ttl: 300
-  type: CNAME
-  value: 49z2paog.up.railway.app.
+  type: A
+  value: 148.113.191.8
 ia:
   ttl: 300
   type: CNAME
