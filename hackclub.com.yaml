@@ -2821,6 +2821,9 @@ hub.zephyr:
   type: CNAME
   value: cname.vercel-dns.com.
 homelab: # scunnili1@gmail.com U0971C3C44D
+- octodns:
+    cloudflare:
+      proxied: true
   ttl: 300
   type: CNAME
   value: homelab.sebcun.com.
