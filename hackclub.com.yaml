@@ -2823,7 +2823,7 @@ hub.zephyr:
 homelab: # scunnili1@gmail.com U0971C3C44D
   ttl: 300
   type: CNAME
-  value: homelab.sebcun.com.
+  value: 49z2paog.up.railway.app.
 ia:
   ttl: 300
   type: CNAME
