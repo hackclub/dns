@@ -71,3 +71,8 @@ stats: # alimad.co.ltd@gmail.com U08LQFRBL6S
   - ttl: 300
     type: CNAME
     value: Alimadcorp.github.io.
+# https://github.com/hackclub-community/community-services-status
+status: # ajhalili2006@crew.recaptime.dev U07CAPBB9B5
+  - ttl: 300
+    type: CNAME
+    value: hackclub-community.github.io.
