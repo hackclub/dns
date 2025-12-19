@@ -1847,7 +1847,7 @@ duk:
 dummies:
   ttl: 300
   type: CNAME
-  value: peleg2210.hackclub.app.
+  value: a.selfhosted.hackclub.com.
 dv:
   ttl: 300
   type: CNAME
