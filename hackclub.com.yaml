@@ -2571,7 +2571,7 @@ hackinux:
 hacklet:
   ttl: 300
   type: CNAME
-  value: scaling-carnival-4jg9ye4.pages.github.io.
+  value: hacklet.vercel.app.
 hackpad:
   ttl: 300
   type: CNAME
