@@ -1297,6 +1297,10 @@ campfire:
     preference: 10
   - exchange: alt4.aspmx.l.google.com.
     preference: 10
+flagship.campfire:
+  ttl: 300
+  type: CNAME
+  value: 8e80d9e700d71a77.vercel-dns-016.com.
 cargo-cult:
   ttl: 300
   type: A
@@ -2735,6 +2739,10 @@ hcpcxc:
   type: CNAME
   value: a.selfhosted.hackclub.com.
 hc-repo:
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
+hctg: # arav@hackclub.com U01MPHKFZ7S
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
