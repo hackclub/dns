@@ -2742,6 +2742,10 @@ hc-repo:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+hctg: # arav@hackclub.com U01MPHKFZ7S
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 hear:
   ttl: 300
   type: CNAME
