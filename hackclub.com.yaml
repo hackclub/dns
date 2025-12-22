@@ -3391,10 +3391,6 @@ miracosta:
   ttl: 300
   type: CNAME
   value: miracosta.netlify.app.
-mosaic: # U092UGQGHHP,U09B8FXUS78 for mosaic YSWS
-  ttl: 600
-  type: CNAME
-  value: mosaic-ysws.onrender.com.
 mob-games:
   ttl: 300
   type: CNAME
@@ -3421,6 +3417,10 @@ more.cchs:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+mosaic: # U092UGQGHHP,U09B8FXUS78 for mosaic YSWS
+  ttl: 600
+  type: CNAME
+  value: mosaic-ysws.onrender.com.
 multiverse:
   ttl: 300
   type: CNAME
