@@ -269,6 +269,7 @@ _acme-challenge.hcb:
   - dmb3x2Kd2tZ13wPCOfWFssWquxd6ZCgVH7KPZ9q_B4U
   - QEokOJNeUPCGQnbxXje5e93mxIprBZ_NtZbbRxwotGA
   - udwnR4OUPvvTZ__-z9Ekz9s_wKDfNs4RIFj7hXb7Yf0
+  - 43wfHzaTQm4QK6seBdZ2E-aQEyuMnqB_V7oY_7WGdjk
 _acme-challenge.ui3.hcb:
   ttl: 300
   type: TXT
