@@ -2987,7 +2987,7 @@ juice:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-jumpstart:
+v2.jumpstart: #estella@hackclub.co,
 - ttl: 300
   type: CNAME
   value: themagicfrog.github.io.
