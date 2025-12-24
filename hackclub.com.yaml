@@ -4098,6 +4098,13 @@ reality:
 - ttl: 300
   type: CNAME
   value: 282ab20b3c2de7dd.vercel-dns-016.com.
+recapsule:
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 redwood.scrapbook:
   ttl: 300
   type: CNAME
