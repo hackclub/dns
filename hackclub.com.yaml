@@ -5211,6 +5211,10 @@ workshops:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+woof: #alexvd@hackclub.com
+- ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 www:
 - ttl: 300
   type: CNAME
@@ -5448,7 +5452,3 @@ vote.daydream:
   ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
-woof: #alexvd@hackclub.com
-- ttl: 300
-  type: CNAME
-  value: a.selfhosted.hackclub.com.
