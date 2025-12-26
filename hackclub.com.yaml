@@ -4172,6 +4172,10 @@ api.rooted: #U0938MZG8Q6
 - ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
+woof: #alexvd@hackclub.com
+- ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 roulette:
 - octodns:
     cloudflare:
