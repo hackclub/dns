@@ -2470,7 +2470,7 @@ grub:
 guide.leaders: # lynn@hackclub.com U07ULNFPQ4T (for clubs)
   ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 9de93ecf1b2dc035.vercel-dns-016.com.
 guides: # reem@hackclub.com U06U80G86H1
   ttl: 300
   type: CNAME
