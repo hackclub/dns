@@ -7,10 +7,32 @@ _vercel:
 # Alumni Society (https://github.com/hackclub-alumni/meta/issues/1)
 # Records are primarily managed by @ajhalili2006 (U07CAPBB9B5), although other alums
 # can manage them by coordinating at #alums channel or https://github.com/hackclub-alumni/meta.
-alumni: 
+alumni:
+  # GitLab Pages - https://gitlab.com/hackclub-community/alumni/website
   - ttl: 600
-    type: CNAME
-    value: hackclub-alumni.github.io.
+    type: A
+    value: 35.185.44.232
+  - ttl: 600
+    type: AAAA
+    value: "2600:1901:0:7b8a::"
+  # Community mailbox for alums, currently managed by @ajhalili2006 on Uberspace [NOT PLANNED FOR SSO STUFF]
+  # If you are an alum, you can request one via Slack DMs or at https://gitlab.com/hackclub-community/alumni/meta/-/issues.
+  - octodns:
+      cloudflare:
+        comment: "U8 mailbox - ajhalili@janus.uberspace.de"
+    ttl: 600
+    type: MX
+    values:
+    - exchange: in-mx.uberspace.de.
+      preferences: 10
+  - octodns:
+      cloudflare:
+        comment: "U8 mailbox - ajhalili@janus.uberspace.de"
+    ttl: 600
+    type: TXT
+    values:
+    - "uberspace-mail-gyCEpx0wY8" # verification challenge
+    - "v=spf1 include:spf.uberspace.de ~all" # SPF records
 _atproto.alumni:
   - ttl: 600
     type: TXT
@@ -30,6 +52,20 @@ blog.alumni:
   - ttl: 600
     type: CNAME
     value: 731fb7077db63b1d.vercel-dns-016.com.
+uberspace1._domainkey.alumni:
+  - octodns:
+      cloudflare:
+        comment: "U8 mailbox - ajhalili@janus.uberspace.de"
+    ttl: 600
+    type: CNAME
+    value: dkim1.uberspace.de.
+uberspace2._domainkey.alumni:
+  - octodns:
+      cloudflare:
+        comment: "U8 mailbox - ajhalili@janus.uberspace.de"
+    ttl: 600
+    type: CNAME
+    value: dkim2.uberspace.de.
 # GitLab Pages-hosted redirect to https://social.dino.icu/@alumni, also serves as custom handle
 # for AT Proto bridged profile (managed by Bridgy Fed).
 fediverse.alumni:
