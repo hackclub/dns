@@ -24,7 +24,7 @@ alumni:
     type: MX
     values:
     - exchange: in-mx.uberspace.de.
-      preferences: 10
+      preference: 10
   - octodns:
       cloudflare:
         comment: "U8 mailbox - ajhalili@janus.uberspace.de"
