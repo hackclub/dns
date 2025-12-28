@@ -806,10 +806,6 @@ arcade-wrapped:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-archived.guide:
-  ttl: 300
-  type: CNAME
-  value: hackclub-guide.netlify.com.
 are-we-there-yet: # owned by @msw (max@hackclub.com)
 - octodns:
     cloudflare:
@@ -3130,6 +3126,10 @@ leaders: #@Charmunk / ivie@hackclub.com
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+guide.leaders: # lynn@hackclub.com U07ULNFPQ4T (for clubs)
+  ttl: 300
+  type: CNAME
+  value: 9de93ecf1b2dc035.vercel-dns-016.com.
 leap:
 - ttl: 300
   type: CNAME
