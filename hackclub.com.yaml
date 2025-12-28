@@ -1298,10 +1298,6 @@ flagship.campfire:
   ttl: 300
   type: CNAME
   value: 8e80d9e700d71a77.vercel-dns-016.com.
-cargo-cult:
-  ttl: 300
-  type: A
-  value: 198.199.90.134
 cascade:
 - ttl: 300
   type: CNAME
