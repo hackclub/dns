@@ -7,7 +7,7 @@ _vercel:
 # Alumni Society (https://github.com/hackclub-alumni/meta/issues/1)
 # Records are primarily managed by @ajhalili2006 (U07CAPBB9B5), although other alums
 # can manage them by coordinating at #alums channel or https://github.com/hackclub-alumni/meta.
-alumni:
+alumni: # ajhalili2006@andreijiroh.dev U07CAPBB9B5 https://andreijiroh.dev/contact
   # GitLab Pages - https://gitlab.com/hackclub-community/alumni/website
   - ttl: 600
     type: A
@@ -33,33 +33,33 @@ alumni:
     values:
     - "uberspace-mail-gyCEpx0wY8" # verification challenge
     - "v=spf1 include:spf.uberspace.de ~all" # SPF records
-_atproto.alumni:
+_atproto.alumni: # ajhalili2006@andreijiroh.dev U07CAPBB9B5 https://andreijiroh.dev/contact
   - ttl: 600
     type: TXT
     value: "did=did:plc:yi5ewii4xerodl6ljn3fwga6"
 # GitHub organization domain verificiation
-_gh-hackclub-alumni-o.alumni:
+_gh-hackclub-alumni-o.alumni: # ajhalili2006@andreijiroh.dev U07CAPBB9B5 https://andreijiroh.dev/contact
   - ttl: 600
     type: TXT
     value: "d066f40ce3"
 # GH Pages domain verification to prevent domain takeovers if we do
 # wildcard CNAME records at *.alumni.hackclub.community
-_github-pages-challenge-hackclub-alumni.alumni:
+_github-pages-challenge-hackclub-alumni.alumni: # ajhalili2006@andreijiroh.dev U07CAPBB9B5 https://andreijiroh.dev/contact
   - ttl: 600
     type: TXT
     value: "62688903c020be82f48ace03d54467"
-blog.alumni:
+blog.alumni: # ajhalili2006@andreijiroh.dev U07CAPBB9B5 https://andreijiroh.dev/contact
   - ttl: 600
     type: CNAME
     value: 731fb7077db63b1d.vercel-dns-016.com.
-uberspace1._domainkey.alumni:
+uberspace1._domainkey.alumni: # ajhalili2006@andreijiroh.dev U07CAPBB9B5 https://andreijiroh.dev/contact
   - octodns:
       cloudflare:
         comment: "U8 mailbox - ajhalili@janus.uberspace.de"
     ttl: 600
     type: CNAME
     value: dkim1.uberspace.de.
-uberspace2._domainkey.alumni:
+uberspace2._domainkey.alumni: # ajhalili2006@andreijiroh.dev U07CAPBB9B5 https://andreijiroh.dev/contact
   - octodns:
       cloudflare:
         comment: "U8 mailbox - ajhalili@janus.uberspace.de"
@@ -68,20 +68,20 @@ uberspace2._domainkey.alumni:
     value: dkim2.uberspace.de.
 # GitLab Pages-hosted redirect to https://social.dino.icu/@alumni, also serves as custom handle
 # for AT Proto bridged profile (managed by Bridgy Fed).
-fediverse.alumni:
+fediverse.alumni: # ajhalili2006@andreijiroh.dev U07CAPBB9B5 https://andreijiroh.dev/contact
   - ttl: 600
     type: CNAME
     value: hackclub-community.gitlab.io.
 # Custom AT Proto handle for bridged fediverse profile (technically we could go with
 # @alumni.social.dino.icu to match the Hackstodon side
-_atproto.fediverse.alumni:
+_atproto.fediverse.alumni: # ajhalili2006@andreijiroh.dev U07CAPBB9B5 https://andreijiroh.dev/contact
   - ttl: 600
     type: TXT
     value: "did=did:plc:pejmcpkvnajr4x3htexetbzc"
 # GitLab Pages verification challenge record (note that GitLab Pages uses Let's Encrypt over
 # HTTP-01 challenge method for TLS cert issuance).
 # Docs: https://gitlab.com/help/user/project/pages/custom_domains_ssl_tls_certification/_index.md#4-verify-the-domains-ownership
-_gitlab-pages-verification-code.fediverse.alumni:
+_gitlab-pages-verification-code.fediverse.alumni: # ajhalili2006@andreijiroh.dev U07CAPBB9B5 https://andreijiroh.dev/contact
   - ttl: 600
     type: TXT 
     value: "gitlab-pages-verification-code=6d5351c9c8ce7bc19be0bda5bdd4c4c5"
