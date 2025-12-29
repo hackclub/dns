@@ -4144,6 +4144,10 @@ remix:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+revoke: # nora@
+  ttl: 300
+  type: CNAME
+  value: a.limited.selfhosted.hackclub.com.
 rewind:
   ttl: 300
   type: CNAME
