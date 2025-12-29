@@ -674,7 +674,7 @@ alpine:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-alumni:
+alumni: #alexvd@hackclub.com
 - octodns:
     cloudflare:
       proxied: true
