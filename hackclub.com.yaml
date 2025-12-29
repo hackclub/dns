@@ -674,8 +674,11 @@ alpine:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-alumni:
-- ttl: 300
+alumni: #alexvd@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
   type: CNAME
   value: fundamental-carnotaurus-kk57ymxq2b4c594aeycak3sn.herokudns.com.
 angelhacks:
