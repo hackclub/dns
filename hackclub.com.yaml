@@ -3920,15 +3920,15 @@ podcast:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-podium:
+podium: # angad@hackclub.com U075RTSLDQ8
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-podium-backend:
+podium-backend: # angad@hackclub.com U075RTSLDQ8
   ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
-'*.podium-backend':
+mathesar.podium-backend: # angad@hackclub.com U075RTSLDQ8
   ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
