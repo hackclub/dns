@@ -3924,11 +3924,11 @@ podium:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-'*.podium-backend':
+podium-backend:
   ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
-podium-backend:
+'*.podium-backend':
   ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
