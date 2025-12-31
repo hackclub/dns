@@ -2986,6 +2986,10 @@ juice:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+jumpstart: #estella@hackclub.com
+- ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
 v2.jumpstart: #estella@hackclub.com
 - ttl: 300
   type: CNAME
