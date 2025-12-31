@@ -1123,7 +1123,7 @@ shop.boba:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-workshop.boba:
+workshop.boba: # U020X4GCWSF
 - ttl: 300
   type: CNAME
   value: f3bee60fd737044f.vercel-dns-016.com.
