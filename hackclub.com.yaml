@@ -4055,6 +4055,10 @@ pyramid:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+pxl: # olive@hackclub.com #U07BN55GN3D
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 q6vh4lhupwotqenjf4s4ygzyhir3e5ii._domainkey:
   ttl: 300
   type: CNAME
