@@ -4051,11 +4051,11 @@ puyallup:
 - ttl: 600
   type: TXT
   value: v=spf1 include:spf.improvmx.com ~all
-pyramid:
+pxl: # olive@hackclub.com #U07BN55GN3D
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-pxl: # olive@hackclub.com #U07BN55GN3D
+pyramid:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
