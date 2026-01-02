@@ -9,6 +9,10 @@
   - type: TXT
     values:
       - ahrefs-site-verification_047924a9a454abb4497f9a4389b610eeca5538ca8d46ab4288da0da0b8acc282
+aces: # U092CHMLB24
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 ahoy:
   - type: CNAME
     value: cname.vercel-dns.com.
@@ -16,6 +20,10 @@ athena:
   - type: CNAME
     value: a.selfhosted.hackclub.com.
 daydream:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
+flavortown: # U092CHMLB24
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.

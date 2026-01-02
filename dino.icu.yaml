@@ -261,6 +261,11 @@ evan:
   type: A
   value: 150.136.115.122
 
+fabianovich: # fabianovich@duck.com slack: @fabianovich
+  - ttl: 600
+    type: CNAME
+    value: fabianovich.hackclub.app.
+
 factorio: # factorio.dino.icu - Hack Club hacktorio server - Slack: #factorio
   ttl: 600
   type: A
@@ -303,6 +308,11 @@ hasd: # hasd school forum
   ttl: 600
   type: A
   value: 143.244.201.64
+
+hcmobile: # U092329JX89
+  ttl: 600
+  type: CNAME
+  value: cname.mintlify-dns.com.
 
 heramb:
   ttl: 600
@@ -397,6 +407,11 @@ low-ping: # roblox low ping finder site thingy; by https://github.com/lem6ns
   type: CNAME
   value: lem6ns.github.io.
 
+loners: # support+loners@swehosting.pl
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
+
 leo:
   ttl: 600
   type: CNAME
@@ -421,6 +436,11 @@ meta: # meta page
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+
+midnight-status: #DragonSenseiGuy U09H4M0523Z : https://github.com/dragonSenseiGuy/midnight-status
+  ttl: 600
+  type: A
+  value: 77.90.16.198
 
 mindson: # by rajan
   ttl: 600
@@ -574,6 +594,11 @@ scales: # (yet another?) currency slack bot (with some web UI) :D
   type: A
   value: 150.136.254.91 # Oracle Always Free:tm: server lol
 
+scavenger: # U076W5GKC48
+- ttl: 600
+  type: CNAME
+  value: nate-greco.github.io.
+
 sdheeraj: # https://github.com/17sdheeraj/17sdheeraj.github.io
   ttl: 600
   type: CNAME
@@ -617,7 +642,10 @@ spend:
     type: A
     value: 76.76.21.21
 
-
+solidqode: # support@solidqode.org
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 
 social:
   ttl: 600
@@ -748,6 +776,18 @@ wordcalc:
   type: CNAME
   value: cname.vercel-dns.com.
 
+work: # mahadkalam1@proton.me
+  ttl: 600
+  type: MX
+  values:
+  - exchange: flagrantbycolumn.cachingtech.com.
+    preference: 10
+
+wowstar: # wowstar2504@proton.me
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
+
 write: # WriteFreely!
   ttl: 3600
   type: A
@@ -758,10 +798,10 @@ www: # redirect to bare domain
   type: CNAME
   value: cname.vercel-dns.com.
 
-yc:
+yc: # turbofan-gag-swung@duck.com
   ttl: 600
   type: NS
-  value: ns.youngchief.xyz.
+  value: ns.yc.hn.
 
 yates: 
  - ttl: 600
@@ -807,3 +847,9 @@ fileserver: # will.kuntze@gmail.com Will Kuntze
   - ttl: 600
     type: A
     value: 174.112.38.43
+
+willgob: # williamnumismatics@gmail.com 
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
+
