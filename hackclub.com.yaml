@@ -5083,6 +5083,10 @@ for-reviewers:
 - ttl: 300
   type: CNAME
   value: souptik-samanta.github.io.
+resolution:
+- ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 retrospect:
 - ttl: 300
   type: CNAME
