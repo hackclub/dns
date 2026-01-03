@@ -3832,12 +3832,12 @@ philippines:
   type: CNAME
   value: cname.vercel-dns.com.
 photos: # tom@daamen.uk  U078PH0GBEH
-- octodns:
-    cloudflare:
-      proxied: true
 - ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
+- octodns:
+    cloudflare:
+      proxied: true
 phs:
 - octodns:
     lenient: true
