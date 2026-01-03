@@ -3836,8 +3836,8 @@ photos: # tom@daamen.uk  U078PH0GBEH
     cloudflare:
       proxied: true
   ttl: 300
-  type: CNAME
-  value: b.selfhosted.hackclub.com.
+  type: A
+  value: 77.90.16.198
 phs:
 - octodns:
     lenient: true
