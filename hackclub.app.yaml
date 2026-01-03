@@ -1,9 +1,9 @@
 ---
 "":
   - type: A
-    values:
-      - 37.27.51.34
-      - 135.181.209.89
+    value: 37.27.51.34
+  - type: A
+    value: 135.181.209.89
   - type: AAAA
     value: 2a01:4f9:3081:399c::4
   - type: MX
