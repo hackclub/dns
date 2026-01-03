@@ -3833,8 +3833,8 @@ philippines:
   value: cname.vercel-dns.com.
 photos: # tom@daamen.uk  U078PH0GBEH
 - ttl: 300
-  type: A
-  value: 77.90.16.198
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
 phs:
 - octodns:
     lenient: true
