@@ -24,6 +24,9 @@
 "*":
   - type: CNAME
     value: hackclub.app.
+lxc:
+  - type: A
+    value: 135.181.209.89
 scrapyard:
   - type: CNAME
     value: cname.vercel-dns.com.
