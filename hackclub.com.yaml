@@ -134,6 +134,14 @@ a.limited.selfhosted:
   ttl: 300
   type: CNAME
   value: static.115.195.156.178.clients.your-server.de.
+warehouse.limited.selfhosted:
+  ttl: 300
+  type: CNAME
+  value: static.42.11.21.65.clients.your-server.de.
+'*.warehouse.limited.selfhosted':
+  ttl: 300
+  type: CNAME
+  value: static.42.11.21.65.clients.your-server.de.
 b.selfhosted:
   ttl: 300
   type: CNAME
