@@ -3502,6 +3502,10 @@ construct.nephthys: # mish@hackclub.com U073M5L9U13
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+jumpstart.nephthys: # mish@hackclub.com U073M5L9U13
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 summer.nephthys: # amber / U054VC2KM9P
   ttl: 300
   type: CNAME
