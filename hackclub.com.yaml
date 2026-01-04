@@ -212,14 +212,14 @@ b.limited.selfhosted:
   ttl: 300
   type: CNAME
   value: static.234.231.21.65.clients.your-server.de.
-warehouse.selfhosted:
+warehouse.selfhosted: # zach@hackclub.com - this is deprecated, but an alias for old references so they don't break
   ttl: 300
-  type: A
-  value: 65.109.156.40
+  type: CNAME
+  value: warehouse.limited.selfhosted.hackclub.com.
 '*.warehouse.selfhosted':
   ttl: 300
-  type: A
-  value: 65.109.156.40
+  type: CNAME
+  value: warehouse.limited.selfhosted.hackclub.com.
 attend: # leo@hackclub.com
 - octodns:
     cloudflare:
