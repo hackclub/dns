@@ -4168,6 +4168,13 @@ renaissance-24:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+review: #dhamari@hackclub.com & alexvd@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 review-factory-backend:
 - octodns:
     cloudflare:
