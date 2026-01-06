@@ -98,7 +98,7 @@ emoji: # alimad.co.ltd@gmail.com U08LQFRBL6S
 knot: # ajhalili2006@crew.recaptime.dev U07CAPBB9B5
   - ttl: 300
     type: CNAME
-    value: recaptime-dev.hackclub.app.
+    value: proxyparty.recaptime.dev.
 n8n: # U07AGEVSTD2
   - ttl: 600
     type: CNAME
