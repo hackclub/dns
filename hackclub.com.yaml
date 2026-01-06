@@ -4129,6 +4129,10 @@ reality:
 - ttl: 300
   type: CNAME
   value: 282ab20b3c2de7dd.vercel-dns-016.com.
+reboot: # emmaborghi@hackclub.com U078DFX40A2
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 recapsule: # tongyu@hackclub.com U07DJMFAQQP
 - octodns:
     cloudflare:
