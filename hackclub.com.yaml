@@ -2545,6 +2545,10 @@ hackberry:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+reboot:
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 hackbox:
   ttl: 300
   type: CNAME
