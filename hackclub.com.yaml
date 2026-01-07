@@ -2899,6 +2899,10 @@ intranet:
 - ttl: 300
   type: CNAME
   value: intranet-72n.pages.dev.
+intercom._domainkey: #alexd@hackclub.com U02CWS020SD
+- ttl: 300
+  type: CNAME
+  value: 19da80c5-8fbd-4d19-af1c-4ad757de4c30.dkim.intercom.io.
 intro.moonbeam:
 - ttl: 300
   type: CNAME
@@ -3721,6 +3725,10 @@ outernetwebservices:
   - ns3.he.net.
   - ns4.he.net.
   - ns5.he.net.
+outbound.intercom: #alexd@hackclub.com U02CWS020SD
+- ttl: 300
+  type: CNAME
+  value: rp.hack-club-89976b4c824d.intercom-mail.com.
 overflow-hidden:
 - octodns:
     cloudflare:
