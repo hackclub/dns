@@ -5396,13 +5396,31 @@ for-reviewers:
 - ttl: 300
   type: CNAME
   value: souptik-samanta.github.io.
-resolution: #dhamari@hackclub.com
+resolution: #dhamari@hackclub.com // jenin@hackclub.com
 - octodns:
     cloudflare:
       proxied: true
   ttl: 300
-  type: CNAME
-  value: a.selfhosted.hackclub.com.
+  type: A
+  value: 5.161.100.52 #coolify
+- ttl: 3600
+  type: TXT
+  values:
+  - google-site-verification=fvT04G2tlITazXw_z2QacCdWWVNfddzipI5jPUjhDH8
+  - v=spf1 include:_spf.google.com ~all
+- ttl: 3600
+  type: MX
+  values:
+  - exchange: ASPMX.L.GOOGLE.COM.
+    preference: 1
+  - exchange: ALT1.ASPMX.L.GOOGLE.COM.
+    preference: 5
+  - exchange: ALT2.ASPMX.L.GOOGLE.COM.
+    preference: 5
+  - exchange: ALT3.ASPMX.L.GOOGLE.COM.
+    preference: 10
+  - exchange: ALT4.ASPMX.L.GOOGLE.COM.
+    preference: 10
 retrospect:
 - ttl: 300
   type: CNAME
