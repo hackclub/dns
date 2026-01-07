@@ -5397,8 +5397,8 @@ resolution: #dhamari@hackclub.com // jenin@hackclub.com
     cloudflare:
       proxied: true
   ttl: 300
-  type: CNAME
-  value: a.selfhosted.hackclub.com.
+  type: A
+  value: 5.161.100.52 #coolify
 - ttl: 3600
   type: TXT
   values:
