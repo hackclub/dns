@@ -856,7 +856,7 @@ terminalcraft:
 carnival:
   - ttl: 300
     type: CNAME
-    value: cname.vercel-dns.com.
+    value: a.selfhosted.hackclub.com.
 asiet:
 - ttl: 300
   type: CNAME
