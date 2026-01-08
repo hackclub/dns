@@ -5407,6 +5407,7 @@ resolution: #dhamari@hackclub.com // jenin@hackclub.com
   type: TXT
   values:
   - google-site-verification=fvT04G2tlITazXw_z2QacCdWWVNfddzipI5jPUjhDH8
+  - google-gws-recovery-domain-verification=66706742
   - v=spf1 include:_spf.google.com ~all
 - ttl: 3600
   type: MX
