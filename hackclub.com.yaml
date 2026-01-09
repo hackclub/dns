@@ -1314,6 +1314,10 @@ flagship.campfire:
   ttl: 300
   type: CNAME
   value: 8e80d9e700d71a77.vercel-dns-016.com.
+campfire-flagship:
+  ttl: 300
+  type: CNAME
+  value: 8e80d9e700d71a77.vercel-dns-016.com.
 cascade:
 - ttl: 300
   type: CNAME
