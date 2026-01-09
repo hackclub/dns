@@ -853,3 +853,7 @@ willgob: # williamnumismatics@gmail.com
     type: CNAME
     value: cname.vercel-dns.com.
 
+numycode: # numycode@pyroforge.dev U0A6U9MEA5D
+  - ttl: 600
+    type: CNAME
+    value: numycode.github.io.
