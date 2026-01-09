@@ -2987,6 +2987,10 @@ jank:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+jenin-mail: #jenin@hackclub.com
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 jet:
 - ttl: 300
   type: CNAME
