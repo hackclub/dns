@@ -1284,7 +1284,7 @@ camp-apply:
   ttl: 300
   type: CNAME
   value: hackcamp-apply.netlify.com.
-campfire:
+campfire: # augie@hackclub.com
 - octodns:
     lenient: true
     cloudflare:
@@ -1310,11 +1310,11 @@ campfire:
     preference: 10
   - exchange: alt4.aspmx.l.google.com.
     preference: 10
-flagship.campfire:
+flagship.campfire: # augie@hackclub.com
   ttl: 300
   type: CNAME
   value: 8e80d9e700d71a77.vercel-dns-016.com.
-campfire-flagship:
+campfire-flagship: # augie@hackclub.com
   ttl: 300
   type: CNAME
   value: 8e80d9e700d71a77.vercel-dns-016.com.
