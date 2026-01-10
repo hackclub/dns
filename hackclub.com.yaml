@@ -2571,7 +2571,7 @@ hackinux:
 hacklet:
   ttl: 300
   type: CNAME
-  value: hacklet.vercel.app.
+  value: a871e4abe6e8b5cf.vercel-dns-017.com.
 hackpad:
   ttl: 300
   type: CNAME
