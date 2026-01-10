@@ -554,6 +554,7 @@ _vercel:
   - vc-domain-verify=reactive.hackclub.com,dcd146599f4ae3bc6822
   - vc-domain-verify=foodie.hackclub.com,0215d38601a347a45686
   - vc-domain-verify=fraud.hackclub.com,e3e5b184c19552f5c475
+  - vc-domain-verify=hacklet.hackclub.com,d91aafc7d2db1be00287
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 300
   type: CNAME
