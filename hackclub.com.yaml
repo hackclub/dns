@@ -2908,7 +2908,10 @@ intercom._domainkey: #alexd@hackclub.com U02CWS020SD
   type: CNAME
   value: 19da80c5-8fbd-4d19-af1c-4ad757de4c30.dkim.intercom.io.
 intercom-files: #alexd@hackclub.com U02CWS020SD
-- ttl: 300
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
   type: CNAME
   value: hack-club-89976b4c824d.intercom-mail.com.
 intro.moonbeam:
