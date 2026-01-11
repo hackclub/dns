@@ -3586,10 +3586,6 @@ notebook:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-ntp:
-- ttl: 300
-  type: CNAME
-  value: ntp-hackclub.github.io.
 numberwang:
   ttl: 300
   type: CNAME
