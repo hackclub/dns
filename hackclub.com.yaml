@@ -3245,6 +3245,10 @@ m73ztewzt6jv32f4lj6wk3vlkceswf3f._domainkey: # for loops.so dkim
   ttl: 300
   type: CNAME
   value: m73ztewzt6jv32f4lj6wk3vlkceswf3f.dkim.amazonses.com.
+magazine: # acon@hackclub.com U04KEK4TS72
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 mail:
 - octodns:
     cloudflare:
