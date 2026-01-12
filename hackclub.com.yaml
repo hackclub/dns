@@ -3203,6 +3203,10 @@ linkscape:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+links: # leo@hackclub.com U07BLJ1MBEE
+- ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
 list:
 - ttl: 300
   type: TXT
