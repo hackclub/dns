@@ -2764,10 +2764,10 @@ help.bank:
   ttl: 300
   type: CNAME
   value: hcb-proxy.servers.hackclub.com.
-help.hcb:
+help.hcb: #alex@hackclub.com, gary@hackclub.com
   ttl: 300
   type: CNAME
-  value: hcb.helpscoutdocs.com.
+  value: custom.intercom.help.
 hermes:
   ttl: 300
   type: CNAME
