@@ -2767,7 +2767,7 @@ help.bank:
 help.hcb:
   ttl: 300
   type: CNAME
-  value: hcb.helpscoutdocs.com.
+  value: custom.intercom.help.
 hermes:
   ttl: 300
   type: CNAME
