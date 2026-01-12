@@ -564,6 +564,7 @@ _vercel:
   - vc-domain-verify=reactive.hackclub.com,dcd146599f4ae3bc6822
   - vc-domain-verify=foodie.hackclub.com,0215d38601a347a45686
   - vc-domain-verify=fraud.hackclub.com,e3e5b184c19552f5c475
+  - vc-domain-verify=hacklet.hackclub.com,d91aafc7d2db1be00287
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 300
   type: CNAME
@@ -2151,10 +2152,10 @@ fixit:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-flagship:
+flagship: # samliu@hackclub.com
   ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a.selfhosted.hackclub.com.
 flagvote:
   ttl: 300
   type: CNAME
@@ -2557,18 +2558,6 @@ hackcraft:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-mc.hackcraft:
-  ttl: 300
-  type: A
-  value: 92.222.100.10
-_minecraft._tcp.hackcraft:
-  ttl: 300
-  type: SRV
-  value:
-    port: 25575
-    priority: 0
-    target: mc.hackcraft.hackclub.com.
-    weight: 0
 hackerabad:
 - ttl: 300
   type: CNAME
@@ -2592,7 +2581,7 @@ hackinux:
 hacklet:
   ttl: 300
   type: CNAME
-  value: scaling-carnival-4jg9ye4.pages.github.io.
+  value: a871e4abe6e8b5cf.vercel-dns-017.com.
 hackpad:
   ttl: 300
   type: CNAME
@@ -2908,7 +2897,10 @@ intercom._domainkey: #alexd@hackclub.com U02CWS020SD
   type: CNAME
   value: 19da80c5-8fbd-4d19-af1c-4ad757de4c30.dkim.intercom.io.
 intercom-files: #alexd@hackclub.com U02CWS020SD
-- ttl: 300
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
   type: CNAME
   value: hack-club-89976b4c824d.intercom-mail.com.
 intro.moonbeam:
@@ -3211,6 +3203,10 @@ linkscape:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+links: # leo@hackclub.com U07BLJ1MBEE
+- ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
 list:
 - ttl: 300
   type: TXT
@@ -3253,6 +3249,10 @@ m73ztewzt6jv32f4lj6wk3vlkceswf3f._domainkey: # for loops.so dkim
   ttl: 300
   type: CNAME
   value: m73ztewzt6jv32f4lj6wk3vlkceswf3f.dkim.amazonses.com.
+magazine: # acon@hackclub.com U04KEK4TS72
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 mail:
 - octodns:
     cloudflare:
@@ -3595,10 +3595,6 @@ notebook:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-ntp:
-- ttl: 300
-  type: CNAME
-  value: ntp-hackclub.github.io.
 numberwang:
   ttl: 300
   type: CNAME

@@ -19,6 +19,10 @@ ahoy:
 athena:
   - type: CNAME
     value: a.selfhosted.hackclub.com.
+construct: # U092CHMLB24
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 daydream:
   - ttl: 600
     type: CNAME
