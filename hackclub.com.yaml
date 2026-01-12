@@ -2152,10 +2152,10 @@ fixit:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-flagship:
+flagship: # samliu@hackclub.com
   ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a.selfhosted.hackclub.com.
 flagvote:
   ttl: 300
   type: CNAME
@@ -2238,10 +2238,6 @@ flavourtown: # euan@hackclub.com U06T30DNB3L
   - ttl: 300
     type: A
     value: 5.161.197.219
-flagship: # samliu@hackclub.com
-  - ttl: 600
-    type: CNAME
-    value: a.selfhosted.hackclub.com.
 flhs:
 - ttl: 300
   type: TXT
