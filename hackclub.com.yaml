@@ -4564,6 +4564,10 @@ sleepover: #celeste@hackclub.com @thegrammarpolice
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+january.sleepover: #celeste@hackclub.com @thegrammarpolice
+- ttl: 300
+  type: CNAME
+  value: https://108charlotte.github.io/APIs-Guide-Website.
 squeak:
   ttl: 300
   type: CNAME
