@@ -605,6 +605,10 @@ aces:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+api.aces: # niko@nikoo.dev U08SF8MVC82
+- ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 act:
 - ttl: 300
   type: CNAME
