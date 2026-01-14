@@ -5188,6 +5188,10 @@ vote.visioneer:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+wacky: #euan@hackclub.com @U06T30DNB3L
+- ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
 waffles:
 - ttl: 300
   type: CNAME
