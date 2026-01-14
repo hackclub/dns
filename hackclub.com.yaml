@@ -863,6 +863,10 @@ carnival:
   - ttl: 300
     type: CNAME
     value: a.selfhosted.hackclub.com.
+carnival-staging:
+  - ttl: 300
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 asiet:
 - ttl: 300
   type: CNAME
