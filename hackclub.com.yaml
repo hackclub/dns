@@ -1951,6 +1951,10 @@ enclosure:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+encrypted-share: # zach@hackclub.com
+- ttl: 300
+  type: CNAME
+  value: a.limited.selfhosted.hackclub.com.
 endpointer:
 - ttl: 300
   type: CNAME
