@@ -4852,13 +4852,6 @@ te:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-training:
-- octodns:
-    cloudflare:
-      proxied: true
-  ttl: 300
-  type: CNAME
-  value: a.selfhosted.hackclub.com.
 teach:
 - ttl: 300
   type: CNAME
@@ -5025,6 +5018,13 @@ tracking:
   ttl: 300
   type: CNAME
   value: shiprocket.co.
+training: # leo@hackclub.com U07BLJ1MBEE
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 transfers.hcb:
   ttl: 300
   type: TXT
