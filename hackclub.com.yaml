@@ -4554,6 +4554,10 @@ skyscrapper:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+slack: # eps@hackclub.com
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 slack-id:
   ttl: 300
   type: CNAME
