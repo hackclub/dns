@@ -55,6 +55,10 @@ ship:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+sleepover: # U092CHMLB24
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 summer:
   - type: CNAME
     value: a.selfhosted.hackclub.com.
