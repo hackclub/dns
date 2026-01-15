@@ -4852,6 +4852,13 @@ te:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+training:
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 teach:
 - ttl: 300
   type: CNAME
