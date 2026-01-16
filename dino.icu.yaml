@@ -857,3 +857,7 @@ willgob: # williamnumismatics@gmail.com
     type: CNAME
     value: cname.vercel-dns.com.
 
+gooblet: # awesomerocket1000@gmail.com 
+  - ttl: 600
+    type: CNAME
+    value: goober234.codeberg.page.
