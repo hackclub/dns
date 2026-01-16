@@ -27,6 +27,10 @@ daydream:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+flagship: # nora@/campfire flagship team
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 flavortown: # U092CHMLB24
   - ttl: 600
     type: CNAME
