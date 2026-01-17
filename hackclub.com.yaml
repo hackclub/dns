@@ -3472,9 +3472,12 @@ more.cchs:
   type: CNAME
   value: cname.vercel-dns.com.
 mosaic: # U092UGQGHHP,U09B8FXUS78 for mosaic YSWS
+- octodns:
+    cloudflare:
+      proxied: true
   ttl: 600
   type: CNAME
-  value: mosaicysws.site.
+  value: 754fe0db-2157-4041-a256-a1bb24c1240b.cfargotunnel.com.
 multiverse:
   ttl: 300
   type: CNAME
