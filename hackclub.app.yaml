@@ -1,26 +1,26 @@
 ---
 "":
   - type: A
-    value: 37.27.51.34
+    value: 65.109.40.171
   - type: AAAA
-    value: 2a01:4f9:3081:399c::4
-  - type: MX
-    values:
-      - exchange: mail.hackclub.app.
-        priority: 10
-  - type: TXT
-    value: "v=spf1 mx ~all"
-  - type: SSHFP
-    values:
-      - algorithm: 1
-        fingerprint_type: 2
-        fingerprint: "f4b3549745cadae2269e001286f0b99ff11d4ff0ee6b33a8300ad9f9737fd4bb"
-      - algorithm: 3
-        fingerprint_type: 2
-        fingerprint: "0bcf6826ec576c2a5f170b81642d94302cdc87440a2de9da02248dba2655a09c"
-      - algorithm: 4
-        fingerprint_type: 2
-        fingerprint: "1cca6a8a1967644ac3bb9c21b1ff0f6e160f4a35067fe28afbece19927c3003a"
+    value: 2a01:4f9:c01e:236::1
+  # - type: MX
+  #   values:
+  #     - exchange: mail.hackclub.app.
+  #       priority: 10
+  # - type: TXT
+  #   value: "v=spf1 mx ~all"
+  # - type: SSHFP
+  #   values:
+  #     - algorithm: 1
+  #       fingerprint_type: 2
+  #       fingerprint: "f4b3549745cadae2269e001286f0b99ff11d4ff0ee6b33a8300ad9f9737fd4bb"
+  #     - algorithm: 3
+  #       fingerprint_type: 2
+  #       fingerprint: "0bcf6826ec576c2a5f170b81642d94302cdc87440a2de9da02248dba2655a09c"
+  #     - algorithm: 4
+  #       fingerprint_type: 2
+  #       fingerprint: "1cca6a8a1967644ac3bb9c21b1ff0f6e160f4a35067fe28afbece19927c3003a"
 "*":
   - type: CNAME
     value: hackclub.app.
