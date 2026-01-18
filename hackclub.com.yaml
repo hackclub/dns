@@ -5191,7 +5191,7 @@ vikingsdev:
 - ttl: 300
   type: CNAME
   value: vikingsdev.github.io.
-visas:
+visas: # leo@hackclub.com U07BLJ1MBEE
 - octodns:
     cloudflare:
       proxied: true
