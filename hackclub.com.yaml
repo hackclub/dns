@@ -5191,6 +5191,13 @@ vikingsdev:
 - ttl: 300
   type: CNAME
   value: vikingsdev.github.io.
+visas:
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 visioneer:
 - ttl: 300
   type: CNAME
