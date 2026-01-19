@@ -2577,7 +2577,7 @@ hackcraft:
   type: CNAME
   value: cname.vercel-dns.com.
 botfights.hackcraft: # christian on slack U0938MZG8Q6 event under felix
-  ttl: 300
+- ttl: 300
   type: CNAME 
   value:8726bb0e95fb84f0.vercel-dns-017.com.
 hackerabad:
