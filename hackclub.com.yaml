@@ -5027,9 +5027,6 @@ tracking:
   type: CNAME
   value: shiprocket.co.
 training: # leo@hackclub.com U07BLJ1MBEE
-- octodns:
-    cloudflare:
-      proxied: true
   ttl: 300
   type: CNAME
   value: lms-tqz-baa.l.frappe.cloud.
