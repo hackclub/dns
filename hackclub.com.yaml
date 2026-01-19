@@ -5032,7 +5032,7 @@ training: # leo@hackclub.com U07BLJ1MBEE
       proxied: true
   ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: lms-tqz-baa.l.frappe.cloud.
 transfers.hcb:
   ttl: 300
   type: TXT
