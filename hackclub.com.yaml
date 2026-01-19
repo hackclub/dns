@@ -462,6 +462,7 @@ _vercel:
   ttl: 300
   type: TXT
   values:
+  - vc-domain-verify=botfights.hackcraft.hackclub.com,0a512bcbd28db8e3d5bc
   - vc-domain-verify=mayhem.hackclub.com,acbfb3ec6423d80ff8e7
   - vc-domain-verify=jumpstart.hackclub.com,cce8c237a49c81456ec3
   - vc-domain-verify=polygon.hackclub.com,3b90aa8a647cf9852dd2
@@ -2575,6 +2576,10 @@ hackcraft:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+botfights.hackcraft: # christian on slack U0938MZG8Q6 event under felix
+  ttl: 300
+  type: CNAME
+  value: 8726bb0e95fb84f0.vercel-dns-017.com.
 hackerabad:
 - ttl: 300
   type: CNAME
