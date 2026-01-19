@@ -24,38 +24,12 @@
 "*":
   - type: CNAME
     value: hackclub.app.
-lxc:
-  - type: A
-    value: 135.181.209.89
 scrapyard:
   - type: CNAME
     value: cname.vercel-dns.com.
-secure:
-  - type: A
-    value: 37.27.51.33
-  - type: AAAA
-    value: 2a01:4f9:3081:399c::3
 summit:
   - type: CNAME
     value: cname.vercel-dns.com.
-ts:
-  - type: CNAME
-    value: secure.hackclub.app.
-passwd.ts:
-  - type: A
-    value: 100.64.0.2
-  - type: AAAA
-    value: fd7a:115c:a1e0::2
-pve.ts:
-  - type: A
-    value: 100.64.0.10
-  - type: AAAA
-    value: fd7a:115c:a1e0::a
-proxmox:
-  - type: A
-    value: 37.27.51.35
-  - type: AAAA
-    value: 2a01:4f9:3081:399c::2
 guides:
   - type: CNAME
     value: secure.hackclub.app.
@@ -74,11 +48,6 @@ logs:
     value: 65.21.241.32
   - type: AAAA
     value: 2a01:4f9:c012:27ed::1
-status:
-  - type: A
-    value: 65.21.241.32
-  - type: AAAA
-    value: 2a01:4f9:c012:27ed::2
 minio:
   - type: AAAA
     value: 2a01:4f9:3081:399c::19
