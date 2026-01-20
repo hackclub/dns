@@ -4643,7 +4643,7 @@ southhighhack:
 spaces: # ivie@hackclub.com @Charmunk
 - ttl: 300
   type: A
-  value: 65.108.71.92.
+  value: 65.108.71.92
 old.spaces: # ivie@hackclub.com @Charmunk
 - ttl: 300
   type: CNAME
