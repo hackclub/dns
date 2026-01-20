@@ -2335,6 +2335,10 @@ fudge:
 - ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+fulfillment:
+- ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 fusering:
 - ttl: 300
   type: CNAME
