@@ -4641,12 +4641,9 @@ southhighhack:
   type: CNAME
   value: cname.vercel-dns.com.
 spaces: # ivie@hackclub.com @Charmunk
-- octodns:
-    cloudflare:
-      proxied: true
-  ttl: 300
-  type: CNAME
-  value: a.selfhosted.hackclub.com.
+- ttl: 300
+  type: A
+  value: 65.108.71.92
 old.spaces: # ivie@hackclub.com @Charmunk
 - ttl: 300
   type: CNAME
