@@ -2335,7 +2335,7 @@ fudge:
 - ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-fulfillment:
+fulfillment: #jenin@hackclub.com @jenin
 - ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
