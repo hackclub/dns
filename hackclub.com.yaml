@@ -5521,7 +5521,7 @@ docs.ai: # mahad@hackclub.com
 status.ai: # mahad@hackclub.com
 - ttl: 300
   type: CNAME
-  value: status.mahadk.com.
+  value: nzzzratf.up.railway.app.
 lockin:
 - ttl: 300
   type: A
