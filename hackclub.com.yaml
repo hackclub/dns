@@ -5518,6 +5518,10 @@ docs.ai: # mahad@hackclub.com
 - ttl: 300
   type: CNAME
   value: 0398d53533e1257d.vercel-dns-016.com.
+status.ai: # mahad@hackclub.com
+- ttl: 300
+  type: CNAME
+  value: status.mahadk.com.
 lockin:
 - ttl: 300
   type: A
