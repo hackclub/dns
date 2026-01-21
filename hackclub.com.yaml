@@ -1301,7 +1301,7 @@ campfire: # augie@hackclub.com
     cloudflare:
       proxied: true
   ttl: 600
-  type: ALIAS
+  type: CNAME
   value: a.selfhosted.hackclub.com.
 - ttl: 3600
   type: TXT
