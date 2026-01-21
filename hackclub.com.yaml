@@ -2170,6 +2170,13 @@ fixit:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+fizzy: # zach@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: a.limited.selfhosted.hackclub.com.
 flagship: # samliu@hackclub.com
   ttl: 300
   type: CNAME
