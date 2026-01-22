@@ -3293,13 +3293,13 @@ magazine: # acon@hackclub.com U04KEK4TS72
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
-mail:
+mail: # nora@
 - octodns:
     cloudflare:
       proxied: true
   ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: a.limited.selfhosted.hackclub.com.
 mail-services:
   ttl: 300
   type: CNAME
