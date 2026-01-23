@@ -1414,6 +1414,10 @@ chapters:
   ttl: 300
   type: CNAME
   value: comparative-echidna-7grmrhvb3l980vdmg6f0vuu7.herokudns.com.
+challenger:
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 charon:
   ttl: 300
   type: CNAME
