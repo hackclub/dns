@@ -2924,6 +2924,10 @@ infill:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+inkling:
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 innkeeper:
   ttl: 300
   type: CNAME
