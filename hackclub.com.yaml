@@ -1134,7 +1134,7 @@ blueprint:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-badge:
+badge: # leo@hackclub.com U07BLJ1MBEE
 - octodns:
     cloudflare:
       proxied: true
