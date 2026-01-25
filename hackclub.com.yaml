@@ -3293,6 +3293,13 @@ lxqekzzkeh32evz7auo5klcbsas5ccbs._domainkey: # for loops.so dkim
   ttl: 300
   type: CNAME
   value: lxqekzzkeh32evz7auo5klcbsas5ccbs.dkim.amazonses.com.
+lyla: # U054VC2KM9P / U06EMBJH71S / U06UYA5GMB5 (amber/lou/jeremy)
+- octodns:
+    cloudflare:
+      proxied: false
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 m73ztewzt6jv32f4lj6wk3vlkceswf3f._domainkey: # for loops.so dkim
 - octodns:
     cloudflare:
