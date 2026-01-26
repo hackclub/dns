@@ -1174,9 +1174,9 @@ bqogdt6xkltngfg62lq7jo5dk33zerss._domainkey:
   type: CNAME
   value: bqogdt6xkltngfg62lq7jo5dk33zerss.dkim.custom-email-domain.stripe.com.
 boot: #beanoantenucci@gmail.com U08U12MNF97
--ttl: 300
-type: CNAME
-value: 8a20a1df3704dab0.vercel-dns-017.com.
+- ttl: 300
+  type: CNAME
+  value: 8a20a1df3704dab0.vercel-dns-017.com.
 branch:
 - ttl: 300
   type: CNAME
