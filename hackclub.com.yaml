@@ -4635,6 +4635,10 @@ professorbloom:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+orchid.professorbloom: # U072PTA5BNG
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 smelt:
 - octodns:
     cloudflare:
