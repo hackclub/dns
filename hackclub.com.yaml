@@ -469,6 +469,7 @@ _vercel:
   - vc-domain-verify=rooted.hackclub.com,98ed9303d9dc11f1ca2f
   - vc-domain-verify=asiet.hackclub.com,2975ee268d07e199efdc
   - vc-domain-verify=backend.arena.hackclub.com,079b94be7b001fa4e775
+  - vc-domain-verify=boot.hackclub.com,d42729095e2b6b414e75
   - vc-domain-verify=arena.hackclub.com,18d51eef05279bd5822f
   - vc-domain-verify=waffles.hackclub.com,cd0782b9e3c6dbac5af2
   - vc-domain-verify=jpeg.hackclub.com,d10d5875d555c029e35a
@@ -1161,6 +1162,10 @@ workshop.boba: # U020X4GCWSF
 - ttl: 300
   type: CNAME
   value: f3bee60fd737044f.vercel-dns-016.com.
+boot: #beanoantenucci@gmail.com U08U12MNF97
+- ttl: 300
+  type: CNAME
+  value: 8a20a1df3704dab0.vercel-dns-017.com.
 bounce:
 - ttl: 300
   type: CNAME
