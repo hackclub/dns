@@ -4409,6 +4409,10 @@ scrappy:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+scraps: # nathan@hackclub.com
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 scrapyard:
 - octodns:
     lenient: true
