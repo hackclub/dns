@@ -2220,6 +2220,14 @@ flavor-adventure:
 - ttl: 300
   type: A
   value: 5.161.244.66
+flavorless: # nathan@hackclub.com
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
+flavourless: # nathan@hackclub.com
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 flavortown: # kartikey@hackclub.com @cskartikey/U05F4B48GBF + U054VC2KM9P/amber
 - ttl: 300
   type: A
