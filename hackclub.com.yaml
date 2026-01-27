@@ -568,6 +568,7 @@ _vercel:
   - vc-domain-verify=foodie.hackclub.com,0215d38601a347a45686
   - vc-domain-verify=fraud.hackclub.com,e3e5b184c19552f5c475
   - vc-domain-verify=hacklet.hackclub.com,d91aafc7d2db1be00287
+  - vc-domain-verify=pagering.hackclub.com,c0471bf5c2cbf9023f95
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 300
   type: CNAME
@@ -3887,6 +3888,10 @@ page:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+pagering: # hey@gideon.sh U09D42Q0ARJ
+  ttl: 300
+  type: CNAME
+  value: 5105b9b8d814fbc1.vercel-dns-017.com.
 pancakes: #niko@nikoo.dev
   ttl: 300
   type: CNAME
