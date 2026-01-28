@@ -1354,6 +1354,9 @@ portal.flagship.campfire: # leo@hackclub.com U07BLJ1MBEE
   type: CNAME
   value: 8e80d9e700d71a77.vercel-dns-016.com.
 campfire-flagship: # augie@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
   ttl: 300
   type: CNAME
   value: 8e80d9e700d71a77.vercel-dns-016.com.
@@ -2202,6 +2205,9 @@ fizzy: # zach@hackclub.com
   type: CNAME
   value: a.limited.selfhosted.hackclub.com.
 flagship: # samliu@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
