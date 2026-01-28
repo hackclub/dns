@@ -2663,10 +2663,6 @@ hackstore:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-hacktive: # Origamibooklover@gmail.com
-  ttl: 300
-  type: CNAME
-  value: vrhshacktive.github.io.
 hacktheaesthetic:
   ttl: 300
   type: CNAME
