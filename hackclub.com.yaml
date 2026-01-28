@@ -4791,7 +4791,7 @@ statehigh:
 - ttl: 300
   type: CNAME
   value: schacks.netlify.com.
-stasis-staging:
+stasis-staging: # alexp@hackclub.com
 - ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
