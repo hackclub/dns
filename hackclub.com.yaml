@@ -3826,10 +3826,13 @@ overflow-hidden:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-overglade:
-- ttl: 300
+overglade: #tongyu@hackclub.com U07DJMFAQQP
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
   type: CNAME
-  value: hackclub.github.io.
+  value: a.selfhosted.hackclub.com.
 slushies:
 - octodns:
     cloudflare:
