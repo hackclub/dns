@@ -4787,14 +4787,14 @@ staging.submit:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-statehigh:
-- ttl: 300
-  type: CNAME
-  value: schacks.netlify.com.
 stasis-staging: # alexp@hackclub.com
 - ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+statehigh:
+- ttl: 300
+  type: CNAME
+  value: schacks.netlify.com.
 status:
 - ttl: 300
   type: CNAME
