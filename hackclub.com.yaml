@@ -3833,6 +3833,10 @@ overglade: #tongyu@hackclub.com U07DJMFAQQP
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+badges.overglade:
+    ttl: 600
+    type: CNAME
+    value: overgladebadgetool.nimitapps.com.
 slushies:
 - octodns:
     cloudflare:
