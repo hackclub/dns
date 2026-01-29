@@ -3833,7 +3833,7 @@ overglade: #tongyu@hackclub.com U07DJMFAQQP
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-badges.overglade:
+badges.overglade: #tongyu@hackclub.com U07DJMFAQQP
     ttl: 600
     type: CNAME
     value: overgladebadgetool.nimitapps.com.
