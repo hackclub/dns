@@ -3834,9 +3834,12 @@ overglade: #tongyu@hackclub.com U07DJMFAQQP
   type: CNAME
   value: a.selfhosted.hackclub.com.
 badges.overglade: #tongyu@hackclub.com U07DJMFAQQP
-    ttl: 600
+- octodns:
+    cloudflare:
+      proxied: true
+    ttl: 300
     type: CNAME
-    value: overgladebadgetool.nimitapps.com.
+    value: a.selfhosted.hackclub.com.
 slushies:
 - octodns:
     cloudflare:
