@@ -1430,6 +1430,10 @@ changelog.hcb:
   ttl: 300
   type: CNAME
   value: headwayapp.co.
+challenger: # U08RWM5U4L9
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 chapters:
   ttl: 300
   type: CNAME
