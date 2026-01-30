@@ -1431,6 +1431,9 @@ changelog.hcb:
   type: CNAME
   value: headwayapp.co.
 challenger: # U08RWM5U4L9
+  octodns:
+    cloudflare:
+      proxied: true
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
