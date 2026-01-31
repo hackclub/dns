@@ -1315,14 +1315,14 @@ camp-apply:
   ttl: 300
   type: CNAME
   value: hackcamp-apply.netlify.com.
-campfire: # augie@hackclub.com
+campfire: # leafd@hackclub.com
 - octodns:
     lenient: true
     cloudflare:
       proxied: true
   ttl: 600
-  type: ALIAS
-  value: a.selfhosted.hackclub.com.
+  type: A
+  value: 5.161.244.66
 - ttl: 3600
   type: TXT
   values: 
