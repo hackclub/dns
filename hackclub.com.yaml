@@ -1696,6 +1696,13 @@ dash.hackathons:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+data: # U07BLJ1MBEE leo
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 app-1.hackathons:
   ttl: 300
   type: A
