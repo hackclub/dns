@@ -3554,6 +3554,18 @@ more.cchs:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+morp: # @Olive, U07BN55GN3D
+- ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
+api.morp: # @Olive, U07BN55GN3D
+- ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
+game-server.morp: # @Olive, U07BN55GN3D
+- ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 mosaic: # U092UGQGHHP,U09B8FXUS78 for mosaic YSWS
   ttl: 600
   type: CNAME
