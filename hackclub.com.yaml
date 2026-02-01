@@ -2177,6 +2177,10 @@ editor.fab:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+fallout: # samliu@hackclub.com
+  ttl: 300
+  type: CNAME
+  value: d75e90cd6c899215.vercel-dns-016.com.
 fanpage:
 - octodns:
     cloudflare:
