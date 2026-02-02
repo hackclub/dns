@@ -2923,13 +2923,10 @@ hub.zephyr:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-homelab: # scunnili1@gmail.com U0971C3C44D
-- octodns:
-    cloudflare:
-      proxied: true
+homelab: # manitej@hackclub.com
   ttl: 300
-  type: A
-  value: 148.113.191.8
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 ia:
   ttl: 300
   type: CNAME
