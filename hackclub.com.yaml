@@ -4469,6 +4469,10 @@ scrappy:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+api.scraps: # nathan@hackclub.com
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 scraps: # nathan@hackclub.com
   ttl: 300
   type: CNAME
