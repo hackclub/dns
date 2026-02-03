@@ -1345,6 +1345,10 @@ flagship.campfire: # augie@hackclub.com
   ttl: 300
   type: CNAME
   value: 8e80d9e700d71a77.vercel-dns-016.com.
+training.campfire: # U022XFD2TML
+- ttl: 300
+  type: CNAME
+  value: 623fdbd4a63253ef.vercel-dns-016.com.
 tutorial.campfire: # deven@hackclub.com
   ttl: 300
   type: CNAME
@@ -1469,13 +1473,13 @@ clubs: # jared@hackclub.com @jps @hya
 - ttl: 300
   type: CNAME
   value: 05fb403da2be67a7.vercel-dns-016.com.
-cockpit:
+cockpit: # leafd@hackclub.com @lfd
 - octodns:
     cloudflare:
       proxied: true
   ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+  type: A
+  value: 5.161.244.66
 congress:
 - octodns:
     cloudflare:
@@ -4466,6 +4470,10 @@ scrapbooks:
   type: CNAME
   value: keen-brahmagupta-b1f934.netlify.app.
 scrappy:
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
+api.scraps: # nathan@hackclub.com
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
