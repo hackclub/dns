@@ -101,15 +101,13 @@ knowledgebase.arjav: # @arjav0703 I use it for my knowledgebase
 
 resend._domainkey.newsletter.arjav: # @arjav0703 for my newsletter service domain
   - ttl: 800
-    type: TEXT
+    type: TXT
     value: p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDb2sWq3Iok/7MNcVm72AVh4tbLNzjtkhOapX3uwIQz/VlPicvWrBhYfAh5J21dtWBEE/bpkLz2rAPipl8F7NeGTJ6/yg9XCfpBzGn5QD6o6ESQVUZDxbaoKIC0C8oyy7I0GnWEdMtv+U0WIYPSHjYM46vlnXpcX6PBOq2vJEvyZwIDAQAB
 
 send.newsletter.arjav: # @arjav0703
   - ttl: 800
     type: MX
     value: feedback-smtp.us-east-1.amazonses.com
-
-send.newsletter.arjav: # @arjav0703
   - ttl: 800
     type: TXT
     value: v=spf1 include:amazonses.com ~all
