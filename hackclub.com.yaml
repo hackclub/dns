@@ -4187,6 +4187,10 @@ printlegion:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+project: # dhyan@hackclub.com U0824G9PTFE
+  ttl: 600
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 proton:
   ttl: 300
   type: CNAME
