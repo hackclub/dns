@@ -1341,6 +1341,18 @@ campfire: # leafd@hackclub.com
     preference: 10
   - exchange: alt4.aspmx.l.google.com.
     preference: 10
+acrvg6z4frlb4a3cofgibi6hcvtlnfp6._domainkey.campfire:
+  ttl: 300
+  type: CNAME
+  value: acrvg6z4frlb4a3cofgibi6hcvtlnfp6.dkim.amazonses.com.
+mlcztkphxy4lhwqwg3tvwchoqgwr3pxx._domainkey.campfire:
+  ttl: 300
+  type: CNAME
+  value: mlcztkphxy4lhwqwg3tvwchoqgwr3pxx.dkim.amazonses.com.
+i5sinlqus3u2e5opzvqbdel3habdi7sk._domainkey.campfire:
+  ttl: 300
+  type: CNAME
+  value: i5sinlqus3u2e5opzvqbdel3habdi7sk.dkim.amazonses.com.
 flagship.campfire: # augie@hackclub.com
   ttl: 300
   type: CNAME
