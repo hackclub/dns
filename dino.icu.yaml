@@ -467,6 +467,11 @@ nimit: #https://github.com/NimitVijayvargee/nimitvijayvargee.github.io/
   type: CNAME
   value: nimitvijayvargee.github.io.
 
+null: # helioleles@comcast.net Helio Leles (OCI Instance)
+  - ttl: 600
+    type: A
+    value: 129.146.39.117
+
 hacknote: # https://github.com/dispherical/hacknote
   ttl: 600
   type: CNAME
