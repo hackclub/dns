@@ -786,6 +786,14 @@ amdozjy23iquzlcpjvctd3usceggvkih._domainkey.staging.hcb: # HCB Staging SES DKIM
   ttl: 300
   type: CNAME
   value: amdozjy23iquzlcpjvctd3usceggvkih.dkim.amazonses.com.
+amiigo:
+- ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
+amigo:
+- ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
 amity:
 - ttl: 300
   type: CNAME
