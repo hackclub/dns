@@ -3147,10 +3147,10 @@ jg2ygmrfby4vhxve3cozh4yz3xc2ul5y._domainkey:
   ttl: 300
   type: CNAME
   value: jg2ygmrfby4vhxve3cozh4yz3xc2ul5y.dkim.custom-email-domain.stripe.com.
-jobs:
+jobs: # nora@
 - octodns:
     cloudflare:
-      proxied: true
+      proxied: false
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
