@@ -2401,10 +2401,14 @@ fraser:
   - 185.199.109.153
   - 185.199.110.153
   - 185.199.111.153
-fraud:
+fraud: # echo - echo@hackclub.com
 - ttl: 300
   type: CNAME
   value: 4ba1d516ffa9aa93.vercel-dns-017.com.
+'*.fraud': 
+- ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 fremont:
 - ttl: 300
   type: CNAME
