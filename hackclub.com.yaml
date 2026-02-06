@@ -3841,6 +3841,13 @@ op:
 - ttl: 300
   type: CNAME
   value: optsa.club.
+orchard: #tongyu@hackclub.com U07DJMFAQQP
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 orpheushacks: # Harrison Katz automatically wins for adding the DNS entry - thats how it works, right?
 - ttl: 300
   type: CNAME
