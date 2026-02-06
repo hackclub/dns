@@ -2136,8 +2136,8 @@ events: # leo@hackclub.com
 - octodns:
     lenient: true
   ttl: 300
-  type: A
-  value: 76.76.21.21
+  type: CNAME
+  value: 3cd6735aa4e83c94.vercel-dns-016.com.
 - ttl: 3600
   type: TXT
   values:
