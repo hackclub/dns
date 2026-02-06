@@ -2133,8 +2133,6 @@ euan: # jenin@hackclub.com; POC=dhamari
     type: CNAME
     value: a.selfhosted.hackclub.com.
 events: # leo@hackclub.com
-- octodns:
-    lenient: true
   ttl: 300
   type: CNAME
   value: 3cd6735aa4e83c94.vercel-dns-016.com.
