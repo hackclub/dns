@@ -2405,7 +2405,7 @@ fraud: # echo - echo@hackclub.com
 - ttl: 300
   type: CNAME
   value: 4ba1d516ffa9aa93.vercel-dns-017.com.
-'*.fraud': 
+'*.fraud':  # neon - neon@hackclub.com
 - ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
