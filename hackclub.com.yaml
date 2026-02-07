@@ -3663,6 +3663,10 @@ summer.nephthys: # amber / U054VC2KM9P
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+stasis.nephthys: # amber / U054VC2KM9P & alexp@hackclub.com
+  ttl: 300
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
 nephthys: # amber / U054VC2KM9P
   ttl: 300
   type: CNAME
