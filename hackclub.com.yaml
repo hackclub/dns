@@ -2679,7 +2679,7 @@ server.botfights.hackcraft: #christian on slack U0938MZG8Q6 event under felix
   ttl: 300
   type: A
   value: 92.222.100.10
-_minecraft._tcp.92.222.100.10:25575:
+_minecraft._tcp.server.botfights.hackcraft: #  christian on slack U0938MZG8Q6 event under felix
   ttl: 300
   type: SRV
   value:
