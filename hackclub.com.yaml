@@ -2675,7 +2675,7 @@ botfights.hackcraft: # christian on slack U0938MZG8Q6 event under felix
   ttl: 300
   type: CNAME
   value: 8726bb0e95fb84f0.vercel-dns-017.com.
-server.botfights.hackcraft:
+server.botfights.hackcraft: #christian on slack U0938MZG8Q6 event under felix
   ttl: 300
   type: A
   value: 92.222.100.10
