@@ -19,6 +19,10 @@ ahoy:
 athena:
   - type: CNAME
     value: a.selfhosted.hackclub.com.
+campfire:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 construct: # U092CHMLB24
   - ttl: 600
     type: CNAME
@@ -38,6 +42,10 @@ flavortown: # U092CHMLB24
 hack.club:
   - type: CNAME
     value: cname.vercel-dns.com.
+hctg: # U092CHMLB24
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 l:
   - type: CNAME
     value: a.selfhosted.hackclub.com.
@@ -60,6 +68,10 @@ ship:
     type: CNAME
     value: a.selfhosted.hackclub.com.
 sleepover: # U092CHMLB24
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
+stasis: # alexp@hackclub.com
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
