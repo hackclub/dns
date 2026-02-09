@@ -445,7 +445,7 @@ meta: # meta page
 mats: # Contact via: mats@overmans.nl/lltool@overmans.nl/619401@olz.nl(only emergencies)
   ttl: 600
   type: CNAME
-  value: mats.overmans.nl
+  value: mats.overmans.nl.
 
 midnight-status: #DragonSenseiGuy U09H4M0523Z : https://github.com/dragonSenseiGuy/midnight-status
   ttl: 600
