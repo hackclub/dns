@@ -5779,3 +5779,7 @@ vote.daydream:
   ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
+trackit: # haquefaizeen11@gmail.com U0A11BBCQE7
+  - ttl: 300
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
