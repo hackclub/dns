@@ -3101,6 +3101,10 @@ jain:
   ttl: 300
   type: A
   value: 185.199.108.153
+jackpot: # emmaborghi@hackclub.com U078DFX40A2
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 jam:
 - ttl: 300
   type: CNAME
