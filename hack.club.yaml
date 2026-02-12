@@ -71,6 +71,10 @@ sleepover: # U092CHMLB24
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+stasis: # alexp@hackclub.com
+  - ttl: 600
+    type: CNAME
+    value: b9385139e8ff984c.vercel-dns-016.com.
 summer:
   - type: CNAME
     value: a.selfhosted.hackclub.com.
