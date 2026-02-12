@@ -3104,7 +3104,7 @@ jain:
 jackpot: # emmaborghi@hackclub.com U078DFX40A2
   ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: b.selfhosted.hackclub.com.
 jam:
 - ttl: 300
   type: CNAME
