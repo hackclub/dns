@@ -116,3 +116,7 @@ status: # ajhalili2006@crew.recaptime.dev U07CAPBB9B5
   - ttl: 300
     type: CNAME
     value: hackclub-community.github.io.
+status.create-mc: # grayson@vantilborg.ca U092DA495UY # This is for the status page of the minecraft server listed earlier. its the same ip, and im handling it locally with nginx
+  - ttl: 600
+    type: A
+    value: 40.233.121.197
