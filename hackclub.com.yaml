@@ -2013,10 +2013,10 @@ emporium:
 - ttl: 300
   type: CNAME
   value: 27cbbde38306f198.vercel-dns-016.com.
-enclosure:
+enclosure: #U082UPTRQU8
 - ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a.selfhosted.hackclub.com.
 encrypted-share: # zach@hackclub.com
 - ttl: 300
   type: CNAME
