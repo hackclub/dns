@@ -4408,7 +4408,7 @@ rewind:
 rework: # mgoldbergspar@gmail.com U08TCSANHDX
   - ttl: 600
     type: CNAME
-    value: a.selfhosted.hackclub.com
+    value: a.selfhosted.hackclub.com.
 riverbend:
 - ttl: 300
   type: CNAME
