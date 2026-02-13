@@ -4912,6 +4912,14 @@ stasis: # alexp@hackclub.com
 - ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+stastis: # alexp@hackclub.com
+- ttl: 300
+  type: CNAME
+  value: b9385139e8ff984c.vercel-dns-016.com.
+statis: # alexp@hackclub.com
+- ttl: 300
+  type: CNAME
+  value: b9385139e8ff984c.vercel-dns-016.com.
 stasis-staging: # alexp@hackclub.com
 - ttl: 300
   type: CNAME
