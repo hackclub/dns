@@ -569,6 +569,7 @@ _vercel:
   - vc-domain-verify=fraud.hackclub.com,e3e5b184c19552f5c475
   - vc-domain-verify=hacklet.hackclub.com,d91aafc7d2db1be00287
   - vc-domain-verify=pagering.hackclub.com,c0471bf5c2cbf9023f95
+  - vc-domain-verify=rework.hackclub.com,226647a0188f7f3788f8
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 300
   type: CNAME
@@ -5799,3 +5800,7 @@ vote.daydream:
   ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
+rework: # mgoldbergspar@gmail.com U08TCSANHDX
+  - ttl: 600
+    type: CNAME
+    value: 0b464dec3fafb53f.vercel-dns-017.com.
