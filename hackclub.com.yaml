@@ -4620,6 +4620,10 @@ shallow-learning:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+share: # @KaiPereira - kaipereira2020@gmail.com
+- ttl: 300
+  type: CNAME
+  value: share.kaipereira.com.
 shiba:
 - ttl: 300
   type: CNAME
