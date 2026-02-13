@@ -4405,6 +4405,10 @@ rewind:
   ttl: 300
   type: CNAME
   value: e80e9a41e224e406.vercel-dns-017.com.
+rework: # mgoldbergspar@gmail.com U08TCSANHDX
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 riverbend:
 - ttl: 300
   type: CNAME
