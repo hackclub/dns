@@ -3683,6 +3683,10 @@ stasis.nephthys: # amber / U054VC2KM9P & alexp@hackclub.com
   ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
+hctg.nephthys: # mish@hackclub.com U073M5L9U13 & arav@hackclub.com U01MPHKFZ7S
+  ttl: 300
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
 nephthys: # amber / U054VC2KM9P
   ttl: 300
   type: CNAME
