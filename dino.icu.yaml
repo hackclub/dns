@@ -882,3 +882,7 @@ willgob: # williamnumismatics@gmail.com
     type: CNAME
     value: cname.vercel-dns.com.
 
+swc:
+  - ttl: 600
+    type: CNAME
+    value: swcccwebsite.github.io.
