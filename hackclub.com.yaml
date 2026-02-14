@@ -559,6 +559,7 @@ _vercel:
   - vc-domain-verify=hackducky.hackclub.com,511bdb3387c304b630b6
   - vc-domain-verify=security.hackclub.com,b005370fba78b1b3b932
   - vc-domain-verify=share.hackclub.com,8d59dacc58f46585b195
+  - vc-domain-verify=spatula.hackclub.com,91026edc4d735b166c59
   - vc-domain-verify=squeak.hackclub.com,0574abe068e7c3c4a91e
   - vc-domain-verify=simmer.hackclub.com,19a5cdf65fc7aedb7ccb
   - vc-domain-verify=fusering.hackclub.com,b3bcae34deb4b6c261c1
@@ -4872,10 +4873,13 @@ spark:
   ttl: 600
   type: ALIAS
   value: cname.vercel-dns.com.
-spatula:
+spatula: # @Angad - U075RTSLDQ8
+- octodns:
+    cloudflare:
+      proxied: true
   ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: d4244bfd827d3c54.vercel-dns-016.com.
 spotcheck:
 - octodns:
     cloudflare:
