@@ -4624,7 +4624,7 @@ share: # @KaiPereira - kaipereira2020@gmail.com
 - octodns:
     cloudflare:
       proxied: true
-- ttl: 300
+  ttl: 300
   type: CNAME
   value: e46d17fe6a578731.vercel-dns-016.com.
 shiba:
