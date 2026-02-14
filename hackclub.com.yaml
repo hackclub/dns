@@ -558,6 +558,7 @@ _vercel:
   - vc-domain-verify=rewind.hackclub.com,1cd9a3a9a2ca7ef0b939
   - vc-domain-verify=hackducky.hackclub.com,511bdb3387c304b630b6
   - vc-domain-verify=security.hackclub.com,b005370fba78b1b3b932
+  - vc-domain-verify=share.hackclub.com,8d59dacc58f46585b195
   - vc-domain-verify=squeak.hackclub.com,0574abe068e7c3c4a91e
   - vc-domain-verify=simmer.hackclub.com,19a5cdf65fc7aedb7ccb
   - vc-domain-verify=fusering.hackclub.com,b3bcae34deb4b6c261c1
@@ -4628,6 +4629,13 @@ shallow-learning:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+share: # @KaiPereira - kaipereira2020@gmail.com
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: e46d17fe6a578731.vercel-dns-016.com.
 shiba:
 - ttl: 300
   type: CNAME
