@@ -4621,9 +4621,12 @@ shallow-learning:
   type: CNAME
   value: a.selfhosted.hackclub.com.
 share: # @KaiPereira - kaipereira2020@gmail.com
+- octodns:
+    cloudflare:
+      proxied: true
 - ttl: 300
   type: CNAME
-  value: share.kaipereira.com.
+  value: e46d17fe6a578731.vercel-dns-016.com.
 shiba:
 - ttl: 300
   type: CNAME
