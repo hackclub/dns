@@ -3327,10 +3327,6 @@ libre:
   - ns3.he.net.
   - ns4.he.net.
   - ns5.he.net.
-liftoff:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
 link.arsenic:
 - ttl: 300
   type: CNAME
