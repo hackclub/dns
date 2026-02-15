@@ -537,6 +537,7 @@ _vercel:
   - vc-domain-verify=passport.hackclub.com,e2df763ae803aaf06728
   - vc-domain-verify=pfp.hackclub.com,0089a080527af2869592
   - vc-domain-verify=phs.hackclub.com,ad31bc1412884df7c8d4
+  - vc-domain-verify=philippines.hackclub.com,8ce6b0b9767789ac9e92
   - vc-domain-verify=pixeldust.hackclub.com,4cedb02dcdafd0343fc5
   - vc-domain-verify=podium.hackclub.com,8dad6840c48e341ef42e
   - vc-domain-verify=polygon.hackclub.com,3b90aa8a647cf9852dd2
