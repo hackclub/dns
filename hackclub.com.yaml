@@ -571,6 +571,9 @@ _vercel:
   - vc-domain-verify=fraud.hackclub.com,e3e5b184c19552f5c475
   - vc-domain-verify=hacklet.hackclub.com,d91aafc7d2db1be00287
   - vc-domain-verify=pagering.hackclub.com,c0471bf5c2cbf9023f95
+  - vc-domain-verify=grass.hackclub.com,3e5317cc68bf47438580
+  - vc-domain-verify=touch.hackclub.com,0d725cdf1bc6a0559434
+  - vc-domain-verify=touch-grass.hackclub.com,189a48eebe168822ddef
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 300
   type: CNAME
@@ -2576,7 +2579,7 @@ grass:
       proxied: true
   ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: a628f92777bc527b.vercel-dns-016.com.
 grounded:
 - octodns:
     cloudflare:
@@ -3953,14 +3956,14 @@ touch:
       proxied: true
   ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: a628f92777bc527b.vercel-dns-016.com..
 touch-grass:
 - octodns:
     cloudflare:
       proxied: true
   ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: a628f92777bc527b.vercel-dns-016.com..
 infinity:
 - octodns:
     cloudflare:
