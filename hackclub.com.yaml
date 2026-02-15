@@ -5827,3 +5827,7 @@ vote.daydream:
   ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
+abbadh.dragonfly: # @notdragon.24@gmail.com
+  ttl: 600
+  type: TXT
+  values: 8ea609adb65c12376a9aad4a6e4ac3
