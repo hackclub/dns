@@ -4284,7 +4284,7 @@ puyallup:
 - ttl: 600
   type: TXT
   value: v=spf1 include:spf.improvmx.com ~all
-pxl: # olive@hackclub.com #U07BN55GN3D
+pxl: # euan@hackclub.com #U06T30DNB3L
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
