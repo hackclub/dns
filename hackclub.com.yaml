@@ -465,6 +465,7 @@ _vercel:
   - vc-domain-verify=1or0.hackclub.com,6342724060dadeb82eb3
   - vc-domain-verify=alopb.hackclub.com,c1c84ab0dda83595505e
   - vc-domain-verify=arena.hackclub.com,18d51eef05279bd5822f
+  - vc-domain-verify=arcade-wrapped.hackclub.com,8266e50fd74e5c046773
   - vc-domain-verify=ascend.hackclub.com,5c143e010cb754d62113
   - vc-domain-verify=asiet.hackclub.com,2975ee268d07e199efdc
   - vc-domain-verify=aurora.hackclub.com,3cb95c1035e0a176fb7a
