@@ -2741,6 +2741,10 @@ hackaccino:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+hacksaber:
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com
 hacktheoctober:
   ttl: 300
   type: CNAME
