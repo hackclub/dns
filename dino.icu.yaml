@@ -52,6 +52,11 @@
 #   type: CNAME
 #   value: cname.vercel-dns.com.
 
+3MB: #williamnumismatics@gmail.com 
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
+
 ai:                       # Suprised no one took this yet!
  - ttl: 600               # + AI
    type: CNAME            # https://github.com/elijah629/web2050,
@@ -881,4 +886,3 @@ willgob: # williamnumismatics@gmail.com
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
-
