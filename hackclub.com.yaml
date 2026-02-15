@@ -3956,14 +3956,14 @@ touch:
       proxied: true
   ttl: 300
   type: CNAME
-  value: a628f92777bc527b.vercel-dns-016.com..
+  value: a628f92777bc527b.vercel-dns-016.com.
 touch-grass:
 - octodns:
     cloudflare:
       proxied: true
   ttl: 300
   type: CNAME
-  value: a628f92777bc527b.vercel-dns-016.com..
+  value: a628f92777bc527b.vercel-dns-016.com.
 infinity:
 - octodns:
     cloudflare:
