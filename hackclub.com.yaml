@@ -554,6 +554,7 @@ _vercel:
   - vc-domain-verify=ro.hackclub.com,2f000cc1b00f1f78b361
   - vc-domain-verify=rooted.hackclub.com,98ed9303d9dc11f1ca2f
   - vc-domain-verify=saleh.hackclub.com,cdcc382c0ddbefe586b1
+  - vc-domain-verify=smelt.hackclub.com,e984b2fd8b23c434da2f
   - vc-domain-verify=security.hackclub.com,b005370fba78b1b3b932
   - vc-domain-verify=share.hackclub.com,8d59dacc58f46585b195
   - vc-domain-verify=simmer.hackclub.com,19a5cdf65fc7aedb7ccb
@@ -4813,7 +4814,7 @@ smelt:
       proxied: true
   ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: 4f03f3e1fce70e87.vercel-dns-016.com.
 smhs:
 - ttl: 300
   type: CNAME
