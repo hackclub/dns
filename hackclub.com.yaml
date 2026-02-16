@@ -501,6 +501,7 @@ _vercel:
   - vc-domain-verify=forge.hackclub.com,9dbbce561a571cab8a3b
   - vc-domain-verify=forms.phs.hackclub.com,25e08effb0de721c762e
   - vc-domain-verify=fraud.hackclub.com,e3e5b184c19552f5c475
+  - vc-domain-verify=fudge.hackclub.com,6141b368441cbcf96cb4
   - vc-domain-verify=fusering.hackclub.com,b3bcae34deb4b6c261c1
   - vc-domain-verify=flavourless.hackclub.com,a39ba57d4d6087d032ee
   - vc-domain-verify=flavorless.hackclub.com,f2cbf39f07898114f3b1
@@ -2438,9 +2439,12 @@ front-mail:
   - exchange: mx.sendgrid.net.
     preference: 1
 fudge:
-- ttl: 300
+  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+  octodns:
+    cloudflare:
+      proxied: true
 fulfillment: #jenin@hackclub.com @jenin
 - ttl: 300
   type: CNAME
