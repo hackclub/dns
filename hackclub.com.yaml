@@ -5540,10 +5540,6 @@ summit:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-wiki: 
-- ttl: 300
-  type: CNAME
-  value: a.selfhosted.hackclub.com.
 wonderland:
 - ttl: 300
   type: CNAME
