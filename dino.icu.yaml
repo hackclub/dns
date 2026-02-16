@@ -715,7 +715,12 @@ suryaansh:
 - ttl: 600
   type: CNAME
   value: suryaanshah.github.io.
- 
+
+swc: # akreamer@protonmail.com
+  - ttl: 600
+    type: CNAME
+    value: swcccwebsite.github.io.
+
 tejas: # by tej
   ttl: 600
   type: CNAME
