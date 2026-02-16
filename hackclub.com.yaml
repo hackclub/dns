@@ -2453,7 +2453,7 @@ front-mail:
 fudge:
   ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: e6bb05e736c5c4f7.vercel-dns-016.com.
   octodns:
     cloudflare:
       proxied: true
