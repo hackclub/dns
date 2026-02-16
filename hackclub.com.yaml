@@ -2527,12 +2527,12 @@ gharbiya: # gh.hackclub@gmail.com U0666VATMT5
   type: CNAME
   value: stemgharbiya.github.io.
 giftbox: # tongyu@hackclub.com U07DJMFAQQP
-- octodns:
+  octodns:
     cloudflare:
       proxied: true
   ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: 4711668836b198ab.vercel-dns-016.com.
 gita:
 - ttl: 300
   type: A
