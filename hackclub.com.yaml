@@ -578,6 +578,7 @@ _vercel:
   - vc-domain-verify=waveband.hackclub.com,11dbb017182f655585ef
   - vc-domain-verify=wonderland-launch.hackclub.com,2a724b908654f2912e48
   - vc-domain-verify=wonderland.hackclub.com,0c2e35e271cd0c23752d
+  - vc-domain-verify=woof.hackclub.com,576b3b21721743d2f9f9
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 300
   type: CNAME
@@ -5562,9 +5563,12 @@ workshops:
   type: CNAME
   value: cname.vercel-dns.com.
 woof: #alexvd@hackclub.com
-- ttl: 300
+  ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: 9b3edc9eb353600f.vercel-dns-016.com.
+  octodns:
+    cloudflare:
+      proxied: true
 www:
 - ttl: 300
   type: CNAME
