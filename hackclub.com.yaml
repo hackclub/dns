@@ -548,6 +548,7 @@ _vercel:
   - vc-domain-verify=puyallup.hackclub.com,ee486cad685cefa12fa6
   - vc-domain-verify=raspapi.hackclub.com,9efbc48bf594bc9528cb
   - vc-domain-verify=reactive.hackclub.com,dcd146599f4ae3bc6822
+  - vc-domain-verify=recapsule.hackclub.com,a58e0d535c6177f43804
   - vc-domain-verify=reflow.hackclub.com,cc069e8cdf1c55762e13
   - vc-domain-verify=register.epochvt.hackclub.com,8e89fd1c0e1dd7045bd5
   - vc-domain-verify=rewind.hackclub.com,1cd9a3a9a2ca7ef0b939
@@ -4361,7 +4362,7 @@ recapsule: # tongyu@hackclub.com U07DJMFAQQP
       proxied: true
   ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: 62c32438c89e0c3f.vercel-dns-016.com.
 redwood.scrapbook:
   ttl: 300
   type: CNAME
