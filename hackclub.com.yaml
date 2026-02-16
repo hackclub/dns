@@ -470,8 +470,10 @@ _vercel:
   - vc-domain-verify=asiet.hackclub.com,2975ee268d07e199efdc
   - vc-domain-verify=aurora.hackclub.com,3cb95c1035e0a176fb7a
   - vc-domain-verify=awest.hackclub.com,e6d12d504df9bbb88908
+  - vc-domain-verify=axiom.hackclub.com,532579ec9f0367f5c9fb
   - vc-domain-verify=backend.arena.hackclub.com,079b94be7b001fa4e775
   - vc-domain-verify=birthday.hackclub.com,b54f1e09bf276faffd29
+  - vc-domain-verify=birthday-cards.hackclub.com,2f06562bb5aa17e2f104
   - vc-domain-verify=birthdays.hackclub.com,7ca55aea82d546d470e1
   - vc-domain-verify=blair.hackclub.com,7de7c7631e837097d2a2
   - vc-domain-verify=boot.hackclub.com,d42729095e2b6b414e75
@@ -484,6 +486,7 @@ _vercel:
   - vc-domain-verify=celestial.hackclub.com,712c9345didfd5e0b4ee
   - vc-domain-verify=codecafe.hackclub.com,7626bb39bfb56e9ea791
   - vc-domain-verify=contact-helper.hackclub.com,ecd049f45e2ad550fd89
+  - vc-domain-verify=cmd-k.hackclub.com,8277d64d0a5f719f31ae
   - vc-domain-verify=descend.hackclub.com,766f399a5ac7216e01a1
   - vc-domain-verify=dessert.hackclub.com,8452d8879c3995b17783
   - vc-domain-verify=docs.identity.hackclub.com,ef5c12615db913aa8dee
@@ -506,6 +509,7 @@ _vercel:
   - vc-domain-verify=flavourless.hackclub.com,a39ba57d4d6087d032ee
   - vc-domain-verify=flavorless.hackclub.com,f2cbf39f07898114f3b1
   - vc-domain-verify=gaynormccown.hackclub.com,32e375ae13476a9653b9
+  - vc-domain-verify=giftbox.hackclub.com,ec53c6654e43c9729e72
   - vc-domain-verify=grass.hackclub.com,3e5317cc68bf47438580
   - vc-domain-verify=hackatime-badge.hackclub.com,60373d0b6c8c20a2bf7f
   - vc-domain-verify=hackatsst.hackclub.com,984d9d75559c592d5b88
@@ -549,6 +553,7 @@ _vercel:
   - vc-domain-verify=puyallup.hackclub.com,ee486cad685cefa12fa6
   - vc-domain-verify=raspapi.hackclub.com,9efbc48bf594bc9528cb
   - vc-domain-verify=reactive.hackclub.com,dcd146599f4ae3bc6822
+  - vc-domain-verify=recapsule.hackclub.com,a58e0d535c6177f43804
   - vc-domain-verify=reflow.hackclub.com,cc069e8cdf1c55762e13
   - vc-domain-verify=register.epochvt.hackclub.com,8e89fd1c0e1dd7045bd5
   - vc-domain-verify=rewind.hackclub.com,1cd9a3a9a2ca7ef0b939
@@ -579,6 +584,7 @@ _vercel:
   - vc-domain-verify=waveband.hackclub.com,11dbb017182f655585ef
   - vc-domain-verify=wonderland-launch.hackclub.com,2a724b908654f2912e48
   - vc-domain-verify=wonderland.hackclub.com,0c2e35e271cd0c23752d
+  - vc-domain-verify=woof.hackclub.com,576b3b21721743d2f9f9
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 300
   type: CNAME
@@ -989,9 +995,12 @@ awest:
   type: CNAME
   value: cname.vercel-dns.com.
 axiom: # tanjimkamal1@gmail.com U09ASUK57K8 # Axiom YSWS: #axiom on Slack
-- ttl: 600
+  octodns:
+    cloudflare:
+      proxied: true
+  ttl: 600
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: 8bfbc5e47c699b10.vercel-dns-016.com.
 az:
 - ttl: 300
   type: CNAME
@@ -1304,7 +1313,7 @@ birthday-cards:
       proxied: true
   ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: e4c96ee8cb8a840b.vercel-dns-016.com.
 boreal:
   ttl: 300
   type: CNAME
@@ -1559,9 +1568,12 @@ clutter:
   type: CNAME
   value: a.selfhosted.hackclub.com.
 cmd-k:
+  octodns:
+    cloudflare:
+      proxied: true
   ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: 5c7ac559fc7072e5.vercel-dns-016.com.
 codeabit:
 - ttl: 300
   type: CNAME
@@ -2531,12 +2543,12 @@ gharbiya: # gh.hackclub@gmail.com U0666VATMT5
   type: CNAME
   value: stemgharbiya.github.io.
 giftbox: # tongyu@hackclub.com U07DJMFAQQP
-- octodns:
+  octodns:
     cloudflare:
       proxied: true
   ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: 4711668836b198ab.vercel-dns-016.com.
 gita:
 - ttl: 300
   type: A
@@ -4365,7 +4377,7 @@ recapsule: # tongyu@hackclub.com U07DJMFAQQP
       proxied: true
   ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: 62c32438c89e0c3f.vercel-dns-016.com.
 redwood.scrapbook:
   ttl: 300
   type: CNAME
@@ -5566,9 +5578,12 @@ workshops:
   type: CNAME
   value: cname.vercel-dns.com.
 woof: #alexvd@hackclub.com
-- ttl: 300
+  ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: 9b3edc9eb353600f.vercel-dns-016.com.
+  octodns:
+    cloudflare:
+      proxied: true
 www:
 - ttl: 300
   type: CNAME
