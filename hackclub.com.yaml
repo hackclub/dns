@@ -484,6 +484,7 @@ _vercel:
   - vc-domain-verify=celestial.hackclub.com,712c9345didfd5e0b4ee
   - vc-domain-verify=codecafe.hackclub.com,7626bb39bfb56e9ea791
   - vc-domain-verify=contact-helper.hackclub.com,ecd049f45e2ad550fd89
+  - vc-domain-verify=cmd-k.hackclub.com,8277d64d0a5f719f31ae
   - vc-domain-verify=descend.hackclub.com,766f399a5ac7216e01a1
   - vc-domain-verify=dessert.hackclub.com,8452d8879c3995b17783
   - vc-domain-verify=docs.identity.hackclub.com,ef5c12615db913aa8dee
@@ -1558,9 +1559,12 @@ clutter:
   type: CNAME
   value: a.selfhosted.hackclub.com.
 cmd-k:
+  octodns:
+    cloudflare:
+      proxied: true
   ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: 5c7ac559fc7072e5.vercel-dns-016.com.
 codeabit:
 - ttl: 300
   type: CNAME
