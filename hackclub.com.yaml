@@ -502,6 +502,8 @@ _vercel:
   - vc-domain-verify=forms.phs.hackclub.com,25e08effb0de721c762e
   - vc-domain-verify=fraud.hackclub.com,e3e5b184c19552f5c475
   - vc-domain-verify=fusering.hackclub.com,b3bcae34deb4b6c261c1
+  - vc-domain-verify=flavourless.hackclub.com,a39ba57d4d6087d032ee
+  - vc-domain-verify=flavorless.hackclub.com,f2cbf39f07898114f3b1
   - vc-domain-verify=gaynormccown.hackclub.com,32e375ae13476a9653b9
   - vc-domain-verify=grass.hackclub.com,3e5317cc68bf47438580
   - vc-domain-verify=hackatime-badge.hackclub.com,60373d0b6c8c20a2bf7f
@@ -2280,13 +2282,19 @@ flavor-adventure:
   type: A
   value: 5.161.244.66
 flavorless: # nathan@hackclub.com
+  octodns:
+    cloudflare:
+      proxied: true
   ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: 21f81c9203897824.vercel-dns-016.com.
 flavourless: # nathan@hackclub.com
+  octodns:
+    cloudflare:
+      proxied: true
   ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: 21f81c9203897824.vercel-dns-016.com.
 flavortown: # kartikey@hackclub.com @cskartikey/U05F4B48GBF + U054VC2KM9P/amber
 - ttl: 300
   type: A
