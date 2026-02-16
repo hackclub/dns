@@ -470,6 +470,7 @@ _vercel:
   - vc-domain-verify=asiet.hackclub.com,2975ee268d07e199efdc
   - vc-domain-verify=aurora.hackclub.com,3cb95c1035e0a176fb7a
   - vc-domain-verify=awest.hackclub.com,e6d12d504df9bbb88908
+  - vc-domain-verify=axiom.hackclub.com,532579ec9f0367f5c9fb
   - vc-domain-verify=backend.arena.hackclub.com,079b94be7b001fa4e775
   - vc-domain-verify=birthday.hackclub.com,b54f1e09bf276faffd29
   - vc-domain-verify=birthdays.hackclub.com,7ca55aea82d546d470e1
@@ -484,6 +485,7 @@ _vercel:
   - vc-domain-verify=celestial.hackclub.com,712c9345didfd5e0b4ee
   - vc-domain-verify=codecafe.hackclub.com,7626bb39bfb56e9ea791
   - vc-domain-verify=contact-helper.hackclub.com,ecd049f45e2ad550fd89
+  - vc-domain-verify=cmd-k.hackclub.com,8277d64d0a5f719f31ae
   - vc-domain-verify=descend.hackclub.com,766f399a5ac7216e01a1
   - vc-domain-verify=dessert.hackclub.com,8452d8879c3995b17783
   - vc-domain-verify=docs.identity.hackclub.com,ef5c12615db913aa8dee
@@ -989,9 +991,12 @@ awest:
   type: CNAME
   value: cname.vercel-dns.com.
 axiom: # tanjimkamal1@gmail.com U09ASUK57K8 # Axiom YSWS: #axiom on Slack
-- ttl: 600
+  octodns:
+    cloudflare:
+      proxied: true
+  ttl: 600
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: 8bfbc5e47c699b10.vercel-dns-016.com.
 az:
 - ttl: 300
   type: CNAME
@@ -1559,9 +1564,12 @@ clutter:
   type: CNAME
   value: a.selfhosted.hackclub.com.
 cmd-k:
+  octodns:
+    cloudflare:
+      proxied: true
   ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: 5c7ac559fc7072e5.vercel-dns-016.com.
 codeabit:
 - ttl: 300
   type: CNAME
