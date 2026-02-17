@@ -1160,6 +1160,10 @@ bls:
 - ttl: 300
   type: CNAME
   value: v-iinh.github.io.
+blinky: # @CAN
+- ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 blueprint:
 - octodns:
     cloudflare:
