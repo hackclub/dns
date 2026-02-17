@@ -1527,6 +1527,10 @@ cockpit: # leafd@hackclub.com @lfd
   ttl: 300
   type: A
   value: 5.161.244.66
+coeur: # olive@hackclub.com @Olive @Ghost of L87 (Lynn)
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 congress:
 - octodns:
     cloudflare:
