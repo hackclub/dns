@@ -1393,9 +1393,9 @@ training.campfire: # U022XFD2TML
   type: CNAME
   value: 623fdbd4a63253ef.vercel-dns-016.com.
 tutorial.campfire: # deven@hackclub.com
-  ttl: 300
+- ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: 23f9766d334e905c.vercel-dns-016.com.
 portal.flagship.campfire: # leo@hackclub.com U07BLJ1MBEE
   ttl: 300
   type: CNAME
