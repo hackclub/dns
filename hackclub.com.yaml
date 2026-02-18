@@ -1642,6 +1642,10 @@ conduct:
     preference: 10
   - exchange: alt4.aspmx.l.google.com.
     preference: 10
+conman: # unified conduct system, nora@
+- ttl: 300
+  type: CNAME
+  value: a.limited.selfhosted.hackclub.com.
 contact-helper:
 - ttl: 300
   type: CNAME
