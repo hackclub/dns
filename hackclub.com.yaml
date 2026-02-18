@@ -104,10 +104,6 @@ _dmarc.hackatime:
   ttl: 300
   type: CNAME
   value: verify.bing.com.
-'*':
-  ttl: 300
-  type: CNAME
-  value: proxyparty.hackclub.com.
 '*.haas':
 - ttl: 300
   type: A
@@ -1628,7 +1624,7 @@ conduct:
     lenient: true
   ttl: 600
   type: ALIAS
-  value: proxyparty.hackclub.com.
+  value: a.selfhosted.hackclub.com.
 - ttl: 60
   type: MX
   values:
@@ -2019,10 +2015,6 @@ el:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-elon:
-  ttl: 300
-  type: CNAME
-  value: proxyparty.hackclub.com.
 em4440: # SendGrid Sender Authentication (bank@hackclub.com)
   ttl: 300
   type: CNAME
@@ -4293,10 +4285,6 @@ prototype: # IRL Hardware event / prototype@hackclub.com
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-proxyparty:
-  ttl: 300
-  type: A
-  value: 45.79.164.46
 pshs:
 - ttl: 300
   type: CNAME
