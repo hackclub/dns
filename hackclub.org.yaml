@@ -1,6 +1,6 @@
 ---
 ? ''
-: - type: CNAME
+: - type: ALIAS
     value: a.selfhosted.hackclub.com.
   - type: MX
     values:
