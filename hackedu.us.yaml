@@ -14,6 +14,9 @@
         preference: 10
       - exchange: ALT4.ASPMX.L.GOOGLE.COM.
         preference: 10
+donate:
+  - type: ALIAS
+    value: a.selfhosted.hackclub.com.
 google._domainkey:
   type: TXT
   values:
