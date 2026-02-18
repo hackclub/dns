@@ -20,9 +20,6 @@
       - google-site-verification=G4Gpms5zGF2f2EyrlPuKr5Uf4V_doJb9WS9SClfxOUw
       - spf2.0/pra include:aspmx.googlemail.com ~all
       - v=spf1 include:_spf.google.com ~all
-"*":
-  type: CNAME
-  value: a.selfhosted.hackclub.com.
 proxytest:
   type: A
   value: 45.79.179.212
