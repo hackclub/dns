@@ -1,5 +1,5 @@
-? ''
-: - ttl: 300
+"":
+  - ttl: 300
     type: ALIAS
     value: cname.vercel-dns.com.
   - ttl: 300
