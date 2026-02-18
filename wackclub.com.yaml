@@ -1,6 +1,6 @@
 ---
-? ''
-: - type: ALIAS
+"":
+  - type: ALIAS
     value: a.selfhosted.hackclub.com.
   - type: TXT
     value: deno-validation=5025b5524c32a90c0a690e47
