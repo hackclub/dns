@@ -496,7 +496,7 @@ _vercel:
   - vc-domain-verify=dockerize.hackclub.com,b5bf22725664baf9b20c
   - vc-domain-verify=dsc.hackclub.com,151b54b3f4af4d093d8d
   - vc-domain-verify=ecolint.hackclub.com,2ce5d27d136e89567e39
-  - vc-domain-verify=enclosure.hackclub.com,d53bb405059ed166d79e
+  - vc-domain-verify=enclosure.hackclub.com,9eba18ebb384f40d5504
   - vc-domain-verify=epochba.hackclub.com,705735e32a03c39fdd26
   - vc-domain-verify=epochvt.hackclub.com,089353b4de0bf145067d
   - vc-domain-verify=evergreen.hackclub.com,4464d82393ad62c6bc0b
@@ -2055,9 +2055,12 @@ emporium:
   type: CNAME
   value: 27cbbde38306f198.vercel-dns-016.com.
 enclosure: #U082UPTRQU8
-- ttl: 300
+  octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: 1fbf4c79a7c97461.vercel-dns-016.com.
 encrypted-share: # zach@hackclub.com
 - ttl: 300
   type: CNAME
