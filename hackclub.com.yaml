@@ -4196,10 +4196,10 @@ podcast:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-podium: # angad@hackclub.com U075RTSLDQ8
+podium: # sebastian@hackclub.com U07UBCSSQH3
   ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: ingress.lfdl.ink.
 podium-backend: # angad@hackclub.com U075RTSLDQ8
   ttl: 300
   type: CNAME
