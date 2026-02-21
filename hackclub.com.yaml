@@ -577,6 +577,7 @@ _vercel:
   - vc-domain-verify=toppings.hackclub.com,f82287f84e90ea2099f8
   - vc-domain-verify=touch-grass.hackclub.com,189a48eebe168822ddef
   - vc-domain-verify=touch.hackclub.com,0d725cdf1bc6a0559434
+  - vc-domain-verify=toybox.hackclub.com,74fb2711c966091d0598
   - vc-domain-verify=ts.hackclub.com,173e884ba6e0b2830330
   - vc-domain-verify=vidisha.hackclub.com,865c18c50e3614795dfc
   - vc-domain-verify=visioneer.hackclub.com,b1bec26133a3a1d74d62
@@ -5281,12 +5282,12 @@ toriel:
   type: CNAME
   value: a.selfhosted.hackclub.com.
 toybox:
-- octodns:
+  octodns:
     cloudflare:
       proxied: true
   ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: d7ce54e48ab125e2.vercel-dns-016.com.
 tr:
   ttl: 300
   type: CNAME
