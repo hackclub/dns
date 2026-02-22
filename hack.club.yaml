@@ -59,6 +59,10 @@ moonshot:
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+p: # nora
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 shipwrecked:
   - ttl: 600
     type: CNAME
