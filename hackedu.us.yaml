@@ -1,31 +1,31 @@
 ---
-? ''
-: - type: ALIAS
-    value: proxyparty.hackclub.com.
+"":
+  - type: ALIAS
+    value: a.selfhosted.hackclub.com.
   - type: MX
     values:
-    - exchange: ASPMX.L.GOOGLE.COM.
-      preference: 1
-    - exchange: ALT1.ASPMX.L.GOOGLE.COM.
-      preference: 5
-    - exchange: ALT2.ASPMX.L.GOOGLE.COM.
-      preference: 5
-    - exchange: ALT3.ASPMX.L.GOOGLE.COM.
-      preference: 10
-    - exchange: ALT4.ASPMX.L.GOOGLE.COM.
-      preference: 10
-'*':
-  type: CNAME
-  value: proxyparty.hackclub.com.
+      - exchange: ASPMX.L.GOOGLE.COM.
+        preference: 1
+      - exchange: ALT1.ASPMX.L.GOOGLE.COM.
+        preference: 5
+      - exchange: ALT2.ASPMX.L.GOOGLE.COM.
+        preference: 5
+      - exchange: ALT3.ASPMX.L.GOOGLE.COM.
+        preference: 10
+      - exchange: ALT4.ASPMX.L.GOOGLE.COM.
+        preference: 10
+donate:
+  - type: CNAME
+    value: a.selfhosted.hackclub.com.
 google._domainkey:
   type: TXT
   values:
-  - v=DKIM1
-  - k=rsa
-  - p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCLPRPRw+DbKH8nJmW7Zm1hQO4SDxF8+FFt+t7toDDodw/AiCzL2pOY5W4iuJI2lX39X6zAZkJ+jBaiyQ2ceuKaIATvPZ1DMyabCNMADMybsJnEk/L6962eymR9TfmBCncF9t/8JUzfs3V2oRkTBAda5wIDOjIeOGPhy6tHaUk9dwIDAQAB
+    - v=DKIM1
+    - k=rsa
+    - p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCLPRPRw+DbKH8nJmW7Zm1hQO4SDxF8+FFt+t7toDDodw/AiCzL2pOY5W4iuJI2lX39X6zAZkJ+jBaiyQ2ceuKaIATvPZ1DMyabCNMADMybsJnEk/L6962eymR9TfmBCncF9t/8JUzfs3V2oRkTBAda5wIDOjIeOGPhy6tHaUk9dwIDAQAB
 mesmtp._domainkey:
   type: TXT
   values:
-  - v=DKIM1
-  - k=rsa
-  - p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQD8YYZA3EQM55mAjzi+CFA243VS2WrsCXzEeK3sqRDhZjYAxKDxkO6ptSkvUygjDf0JFU6FEkt8sszP4zZi7FhJOSHrglp+yD/nOM17cI6YCh8peBMYjKR/MBf7t+4SVMNl4snCHuNRspQb0eNssVfcEvP4QI/0Vpb3bZy+4ZwCZwIDAQAB
+    - v=DKIM1
+    - k=rsa
+    - p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQD8YYZA3EQM55mAjzi+CFA243VS2WrsCXzEeK3sqRDhZjYAxKDxkO6ptSkvUygjDf0JFU6FEkt8sszP4zZi7FhJOSHrglp+yD/nOM17cI6YCh8peBMYjKR/MBf7t+4SVMNl4snCHuNRspQb0eNssVfcEvP4QI/0Vpb3bZy+4ZwCZwIDAQAB

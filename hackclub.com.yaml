@@ -492,7 +492,7 @@ _vercel:
   - vc-domain-verify=dockerize.hackclub.com,b5bf22725664baf9b20c
   - vc-domain-verify=dsc.hackclub.com,151b54b3f4af4d093d8d
   - vc-domain-verify=ecolint.hackclub.com,2ce5d27d136e89567e39
-  - vc-domain-verify=enclosure.hackclub.com,d53bb405059ed166d79e
+  - vc-domain-verify=enclosure.hackclub.com,9eba18ebb384f40d5504
   - vc-domain-verify=epochba.hackclub.com,705735e32a03c39fdd26
   - vc-domain-verify=epochvt.hackclub.com,089353b4de0bf145067d
   - vc-domain-verify=evergreen.hackclub.com,4464d82393ad62c6bc0b
@@ -537,6 +537,7 @@ _vercel:
   - vc-domain-verify=ocsa.hackclub.com,642a8568483f6bd767a9
   - vc-domain-verify=odyssey.hackclub.com,44ac2c39dd9ccfc6d991
   - vc-domain-verify=orpheuspico.hackclub.com,78eb32078b9f08ca12e5
+  - vc-domain-verify=overflow-hidden.hackclub.com,5330d31e9b1e10309f7d
   - vc-domain-verify=pagering.hackclub.com,c0471bf5c2cbf9023f95
   - vc-domain-verify=passport.hackclub.com,e2df763ae803aaf06728
   - vc-domain-verify=pfp.hackclub.com,0089a080527af2869592
@@ -573,6 +574,7 @@ _vercel:
   - vc-domain-verify=toppings.hackclub.com,f82287f84e90ea2099f8
   - vc-domain-verify=touch-grass.hackclub.com,189a48eebe168822ddef
   - vc-domain-verify=touch.hackclub.com,0d725cdf1bc6a0559434
+  - vc-domain-verify=toybox.hackclub.com,74fb2711c966091d0598
   - vc-domain-verify=ts.hackclub.com,173e884ba6e0b2830330
   - vc-domain-verify=vidisha.hackclub.com,865c18c50e3614795dfc
   - vc-domain-verify=visioneer.hackclub.com,b1bec26133a3a1d74d62
@@ -1524,9 +1526,12 @@ cockpit: # leafd@hackclub.com @lfd
   type: A
   value: 5.161.244.66
 coeur: # olive@hackclub.com @Olive @Ghost of L87 (Lynn)
+  octodns:
+    cloudflare:
+      proxied: true
   ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: 24bb8e539241bbef.vercel-dns-016.com.
 congress:
 - octodns:
     cloudflare:
@@ -2044,9 +2049,12 @@ emporium:
   type: CNAME
   value: 27cbbde38306f198.vercel-dns-016.com.
 enclosure: #U082UPTRQU8
-- ttl: 300
+  octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: 1fbf4c79a7c97461.vercel-dns-016.com.
 encrypted-share: # zach@hackclub.com
 - ttl: 300
   type: CNAME
@@ -3946,12 +3954,12 @@ outbound.intercom: #alexd@hackclub.com U02CWS020SD
   type: CNAME
   value: rp.hack-club-89976b4c824d.intercom-mail.com.
 overflow-hidden:
-- octodns:
+  octodns:
     cloudflare:
       proxied: true
   ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: feae0968189bef7f.vercel-dns-016.com.
 overglade: #tongyu@hackclub.com U07DJMFAQQP
 - octodns:
     cloudflare:
@@ -4182,10 +4190,10 @@ podcast:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-podium: # angad@hackclub.com U075RTSLDQ8
+podium: # sebastian@hackclub.com U07UBCSSQH3
   ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: ingress.lfdl.ink.
 podium-backend: # angad@hackclub.com U075RTSLDQ8
   ttl: 300
   type: CNAME
@@ -5263,12 +5271,12 @@ toriel:
   type: CNAME
   value: a.selfhosted.hackclub.com.
 toybox:
-- octodns:
+  octodns:
     cloudflare:
       proxied: true
   ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: d7ce54e48ab125e2.vercel-dns-016.com.
 tr:
   ttl: 300
   type: CNAME
