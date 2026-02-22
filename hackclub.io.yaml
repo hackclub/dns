@@ -1,36 +1,36 @@
 ---
-? ''
-: - type: ALIAS
-    value: proxyparty.hackclub.com.
+"":
+  - type: ALIAS
+    value: a.selfhosted.hackclub.com.
   - type: MX
     values:
-    - exchange: ASPMX.L.GOOGLE.COM.
-      preference: 1
-    - exchange: ALT1.ASPMX.L.GOOGLE.COM.
-      preference: 5
-    - exchange: ALT2.ASPMX.L.GOOGLE.COM.
-      preference: 5
-    - exchange: ASPMX2.GOOGLEMAIL.COM.
-      preference: 10
-    - exchange: ASPMX3.GOOGLEMAIL.COM.
-      preference: 10
+      - exchange: ASPMX.L.GOOGLE.COM.
+        preference: 1
+      - exchange: ALT1.ASPMX.L.GOOGLE.COM.
+        preference: 5
+      - exchange: ALT2.ASPMX.L.GOOGLE.COM.
+        preference: 5
+      - exchange: ASPMX2.GOOGLEMAIL.COM.
+        preference: 10
+      - exchange: ASPMX3.GOOGLEMAIL.COM.
+        preference: 10
   - type: TXT
     values:
-    - google-site-verification=Ax3REDljz8eoD-azWos7PURK7Hbe5CXqi8nJt6Z4YC0
-    - google-site-verification=G4Gpms5zGF2f2EyrlPuKr5Uf4V_doJb9WS9SClfxOUw
-    - spf2.0/pra include:aspmx.googlemail.com ~all
-    - v=spf1 include:_spf.google.com ~all
-'*':
+      - google-site-verification=Ax3REDljz8eoD-azWos7PURK7Hbe5CXqi8nJt6Z4YC0
+      - google-site-verification=G4Gpms5zGF2f2EyrlPuKr5Uf4V_doJb9WS9SClfxOUw
+      - spf2.0/pra include:aspmx.googlemail.com ~all
+      - v=spf1 include:_spf.google.com ~all
+donate:
   type: CNAME
-  value: proxyparty.hackclub.com.
+  value: a.selfhosted.hackclub.com.
 proxytest:
   type: A
   value: 45.79.179.212
 _acme-challenge:
   type: TXT
   values:
-  - F7sLVGq7I8tSRK10wx7O3oVyJAIu1y4PFgvSIEw02Tg
-  - ujJi9gGZ5mj0weLY9r51GM0qwPZarUlAiXNTaJh7HoA
+    - F7sLVGq7I8tSRK10wx7O3oVyJAIu1y4PFgvSIEw02Tg
+    - ujJi9gGZ5mj0weLY9r51GM0qwPZarUlAiXNTaJh7HoA
 google._domainkey:
   type: TXT
   value: v=DKIM1\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCs125Y3Ny0uCCMknvx9mix9FZqG0lw6HsguF3tPizAycHqo6QOFi8iQe6LKJc7MggYxi1O4s0juXrtzV7zF9iLEBwHvDLsxnviZU2U6RCwcVQDpryJy+j6VqmaHbbmd8w+73w0oq+JJwI1I9YL2NvK8nK35Z8/BRu8Qp2mtl+H0wIDAQAB
