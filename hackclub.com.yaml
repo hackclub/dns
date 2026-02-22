@@ -541,6 +541,7 @@ _vercel:
   - vc-domain-verify=ocsa.hackclub.com,642a8568483f6bd767a9
   - vc-domain-verify=odyssey.hackclub.com,44ac2c39dd9ccfc6d991
   - vc-domain-verify=orpheuspico.hackclub.com,78eb32078b9f08ca12e5
+  - vc-domain-verify=overflow-hidden.hackclub.com,5330d31e9b1e10309f7d
   - vc-domain-verify=pagering.hackclub.com,c0471bf5c2cbf9023f95
   - vc-domain-verify=passport.hackclub.com,e2df763ae803aaf06728
   - vc-domain-verify=pfp.hackclub.com,0089a080527af2869592
@@ -3961,12 +3962,12 @@ outbound.intercom: #alexd@hackclub.com U02CWS020SD
   type: CNAME
   value: rp.hack-club-89976b4c824d.intercom-mail.com.
 overflow-hidden:
-- octodns:
+  octodns:
     cloudflare:
       proxied: true
   ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: feae0968189bef7f.vercel-dns-016.com.
 overglade: #tongyu@hackclub.com U07DJMFAQQP
 - octodns:
     cloudflare:
