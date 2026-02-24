@@ -1390,6 +1390,14 @@ flagship.campfire: # augie@hackclub.com
   ttl: 300
   type: CNAME
   value: 8e80d9e700d71a77.vercel-dns-016.com.
+overdrive.campfire: # leafd@hackclub.com
+  ttl: 300
+  type: CNAME
+  value: 178c80c8381b842c.vercel-dns-016.com.
+storyboard.campfire:  # leafd@hackclub.com
+  ttl: 300
+  type: CNAME
+  value: bde32d57691aa97e.vercel-dns-016.com.
 training.campfire: # U022XFD2TML
 - ttl: 300
   type: CNAME
