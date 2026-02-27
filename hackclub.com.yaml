@@ -2048,6 +2048,10 @@ embed.scrapbook:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+ember:
+  ttl: 300
+  type: CNAME
+  value: 775a47043c4456c9.vercel-dns-016.com.
 emerge:
   ttl: 300
   type: CNAME
