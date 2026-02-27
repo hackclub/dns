@@ -38,6 +38,7 @@
     - apple-domain-verification=Kq0tydhcBoM2dHTX # gary@hackclub.com (Apple Business Manager)
     - MS=ms66267035
     - facebook-domain-verification=z5cyjpqj1fvx5315wk3ahnkx4ohi6r
+    - anthropic-domain-verification-hkth5m=hheIAy80WjbR1ZRaKVlWYZ0Z6 # alex@hackclub.com / gary@hackclub.com
 slashz:
 - octodns:
     cloudflare:
