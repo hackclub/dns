@@ -1869,7 +1869,7 @@ ats46zapgxv2a6g7kemi55qs7diofwme._domainkey:
 zv7a5yfkgcbmhnx6umera6dxpslsvykm._domainkey:
   ttl: 300
   type: CNAME
-  value: zv7a5yfkgcbmhnx6umera6dxpslsvykm.dkim.amazonses.com
+  value: zv7a5yfkgcbmhnx6umera6dxpslsvykm.dkim.amazonses.com.
 de:
 - ttl: 300
   type: CNAME
