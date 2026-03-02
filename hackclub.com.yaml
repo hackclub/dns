@@ -458,7 +458,6 @@ _sips._tcp.px:
     priority: 50
     target: ygg2.vp.vc.
     weight: 100
-    
 _vercel:
   ttl: 300
   type: TXT
