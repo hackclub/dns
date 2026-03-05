@@ -3345,6 +3345,10 @@ staging.lapse: # ascpixi@hackclub.com U082DPCGPST
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+api.staging.lapse: # ascpixi@hackclub.com U082DPCGPST
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 largo: # largo.hackclub.com
   ttl: 300
   type: CNAME
