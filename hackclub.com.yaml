@@ -5002,7 +5002,7 @@ staging.submit:
 stasis: # alexp@hackclub.com
 - ttl: 300
   type: CNAME
-  value: ingress.lfdl.ink.
+  value: b.selfhosted.hackclub.com.
 stastis: # alexp@hackclub.com
 - ttl: 300
   type: CNAME
