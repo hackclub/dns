@@ -1470,6 +1470,13 @@ cecclphs:
 - ttl: 300
   type: TXT
   value: google-site-verification=_c3oOWsKBUxlmaanXeqC1tBTLNZGflwsEMQQiuP-EUM
+ceiling: # tongyu@hackclub.com U07DJMFAQQP
+- ttl: 300
+  octodns:
+      cloudflare:
+        proxied: true
+  type: CNAME
+  value: 32fc8a9e82d43fef.vercel-dns-016.com.
 celestial:
 - ttl: 300
   type: CNAME
