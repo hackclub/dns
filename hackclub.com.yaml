@@ -556,6 +556,7 @@ _vercel:
   - vc-domain-verify=reflow.hackclub.com,cc069e8cdf1c55762e13
   - vc-domain-verify=register.epochvt.hackclub.com,8e89fd1c0e1dd7045bd5
   - vc-domain-verify=rewind.hackclub.com,1cd9a3a9a2ca7ef0b939
+  - vc-domain-verify=rework.hackclub.com,f896a53dbbb8b99d8bb6
   - vc-domain-verify=ro.hackclub.com,2f000cc1b00f1f78b361
   - vc-domain-verify=rooted.hackclub.com,98ed9303d9dc11f1ca2f
   - vc-domain-verify=saleh.hackclub.com,cdcc382c0ddbefe586b1
@@ -4477,7 +4478,7 @@ rewind:
 rework: # mgoldbergspar@gmail.com U08TCSANHDX
   - ttl: 600
     type: CNAME
-    value: a.selfhosted.hackclub.com.
+    value: 665462bc664a8a93.vercel-dns-016.com.
 riverbend:
 - ttl: 300
   type: CNAME
