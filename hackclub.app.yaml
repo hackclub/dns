@@ -54,6 +54,9 @@ minio:
 pbx:
   - type: AAAA
     value: 2a01:4f9:3081:399c:be24:11ff:fef0:3b81
+old:
+  - type: A
+    value: 37.27.51.34
 _psl:
   - type: TXT
     value: https://github.com/publicsuffix/list/pull/2579
