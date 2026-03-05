@@ -1,15 +1,9 @@
+---
 "":
-  - type: A
-    value: 34.120.54.55
-  - type: AAAA
-    value: "2600:1901:0:6d85::"
+  - type: ALIAS
+    value: a.selfhosted.hackclub.com.
   - type: TXT
     value: deno-validation=5025b5524c32a90c0a690e47
-"*":
-  ttl: 1
-  type: CNAME
-  value: proxyparty.hackclub.com.
 waka:
-  ttl: 600
   type: CNAME
   value: computational-peanut-mvy0y15xi0piy49ub7khg5mn.herokudns.com.

@@ -94,6 +94,10 @@ create-mc: # grayson@vantilborg.ca U092DA495UY # This is for a create minecraft 
   - ttl: 600
     type: A
     value: 40.233.121.197
+status.create-mc: # grayson@vantilborg.ca U092DA495UY # This is for the status page of the minecraft server listed above. its the same ip, and im handling it locally with nginx
+  - ttl: 600
+    type: A
+    value: 40.233.121.197
 emoji: # alimad.co.ltd@gmail.com U08LQFRBL6S
   - ttl: 300
     type: CNAME
