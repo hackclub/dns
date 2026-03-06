@@ -3520,6 +3520,10 @@ mangu:
 - ttl: 300
   type: CNAME
   value: mangu.pages.dev.
+manifesto:
+- ttl: 300
+  type: CNAME
+  value: a45c6884820232b2.vercel-dns-016.com.
 manor:
 - ttl: 300
   type: CNAME
