@@ -3748,6 +3748,10 @@ identity.nephthys: # amber / U054VC2KM9P
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+lynx.nephthys: # Nathan U05EZRFKRV4 & Santi U08PD2ZB3DL
+  ttl: 300
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
 midnight.nephthys: # amber / U054VC2KM9P & leo / U07BLJ1MBEE
   ttl: 300
   type: CNAME
