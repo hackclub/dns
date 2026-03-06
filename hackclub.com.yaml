@@ -3523,7 +3523,7 @@ mangu:
 manifesto:
 - ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a45c6884820232b2.vercel-dns-016.com.
 manor:
 - ttl: 300
   type: CNAME
