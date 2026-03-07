@@ -509,6 +509,7 @@ _vercel:
   - vc-domain-verify=gaynormccown.hackclub.com,32e375ae13476a9653b9
   - vc-domain-verify=giftbox.hackclub.com,ec53c6654e43c9729e72
   - vc-domain-verify=grass.hackclub.com,3e5317cc68bf47438580
+  - vc-domain-verify=grounded.hackclub.com,49a8bd06b60a3ebbe0b6
   - vc-domain-verify=hackatime-badge.hackclub.com,60373d0b6c8c20a2bf7f
   - vc-domain-verify=hackatsst.hackclub.com,984d9d75559c592d5b88
   - vc-domain-verify=hackerabad.hackclub.com,6c3d5d32a250935189d8
@@ -2658,12 +2659,12 @@ grass:
   type: CNAME
   value: a628f92777bc527b.vercel-dns-016.com.
 grounded:
-- octodns:
+  octodns:
     cloudflare:
       proxied: true
   ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: be04b33af5b8d582.vercel-dns-016.com.
 groundplane:
 - octodns:
     cloudflare:
