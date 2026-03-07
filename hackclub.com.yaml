@@ -4518,10 +4518,6 @@ rooted: # christian on slack U0938MZG8Q6 poc is euan
   - ttl: 300
     type: CNAME
     value: 0a2695bb00ff8d9b.vercel-dns-017.com.
-rust: # mahad@hackclub.com
-- ttl: 300
-  type: CNAME
-  value: b.selfhosted.hackclub.com.
 api.rooted: #U0938MZG8Q6
 - ttl: 300
   type: CNAME
@@ -5770,6 +5766,13 @@ resolution: #dhamari@hackclub.com // jenin@hackclub.com
   ttl: 300
   type: A
   value: 5.161.100.52 #coolify
+rust: # mahad@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
 - ttl: 3600
   type: TXT
   values:
