@@ -3967,6 +3967,13 @@ op:
 - ttl: 300
   type: CNAME
   value: optsa.club.
+opensauce-leaderboard: # zach@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: a.limited.selfhosted.hackclub.com.
 orchard: #tongyu@hackclub.com U07DJMFAQQP
 - octodns:
     cloudflare:
