@@ -5785,6 +5785,13 @@ resolution: #dhamari@hackclub.com // jenin@hackclub.com
     preference: 10
   - exchange: ALT4.ASPMX.L.GOOGLE.COM.
     preference: 10
+rust.resolution: # mahad@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
 retrospect:
 - ttl: 300
   type: CNAME
