@@ -5766,7 +5766,7 @@ resolution: #dhamari@hackclub.com // jenin@hackclub.com
   ttl: 300
   type: A
   value: 5.161.100.52 #coolify
-rust: # mahad@hackclub.com
+rust.resolution: # mahad@hackclub.com
 - octodns:
     cloudflare:
       proxied: true
