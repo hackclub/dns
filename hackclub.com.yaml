@@ -3021,6 +3021,24 @@ horizons: # manitej@hackclub.com
   ttl: 300
   type: A
   value: 5.161.244.66
+- ttl: 3600
+  type: TXT
+  values: 
+  - google-site-verification=O9rvr9dcb8X2nFWyznK7G_jvZph_vSRUUY_pbeWa8H8
+  - v=spf1 include:_spf.google.com ~all
+- ttl: 3600
+  type: MX
+  values:
+  - exchange: aspmx.l.google.com.
+    preference: 1
+  - exchange: alt1.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt2.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt3.aspmx.l.google.com.
+    preference: 10
+  - exchange: alt4.aspmx.l.google.com.
+    preference: 10
 hsi:
 - octodns:
     cloudflare:
