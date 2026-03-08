@@ -233,10 +233,6 @@ IAW:
 - ttl: 300
   type: CNAME
   value: iawhackclub.netlify.com.
-join.apocalypse:
-- ttl: 300
-  type: CNAME
-  value: cname.tally.so.
 44.74:
 - ttl: 300
   type: CNAME
