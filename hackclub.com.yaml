@@ -2285,7 +2285,7 @@ editor.fab:
 fallout: # samliu@hackclub.com
   ttl: 300
   type: CNAME
-  value: d75e90cd6c899215.vercel-dns-016.com.
+  value: a.selfhosted.hackclub.com.
 fanpage:
 - octodns:
     cloudflare:
