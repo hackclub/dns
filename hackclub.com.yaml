@@ -536,6 +536,7 @@ _vercel:
   - vc-domain-verify=mhs.hackclub.com,5ef9386e721cc5cd58cb
   - vc-domain-verify=multiverse.hackclub.com,1d8996d4a42eba75e1d8
   - vc-domain-verify=ncssm.hackclub.com,ad11133371193e2e6538
+  - vc-domain-verify=neohack.hackclub.com,18a68d04871233b73588
   - vc-domain-verify=ocsa.hackclub.com,642a8568483f6bd767a9
   - vc-domain-verify=odyssey.hackclub.com,44ac2c39dd9ccfc6d991
   - vc-domain-verify=orpheuspico.hackclub.com,78eb32078b9f08ca12e5
@@ -3812,9 +3813,12 @@ nephthys: # amber / U054VC2KM9P
   type: CNAME
   value: a.selfhosted.hackclub.com.
 neohack:
+  octodns:
+    cloudflare:
+      proxied: true
   ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: 10f7be41618be21d.vercel-dns-016.com.
 nestm:
   ttl: 300
   type: CNAME
