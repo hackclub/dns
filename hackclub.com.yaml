@@ -576,6 +576,7 @@ _vercel:
   - vc-domain-verify=teenhack.hackclub.com,83b35a519bc92ba8b94d
   - vc-domain-verify=ten-days-of-code.hackclub.com,f4bdc5d47d93a15aea28
   - vc-domain-verify=tlap.hackclub.com,fab392891c03fb490ae4
+  - vc-domain-verify=toolsmith.hackclub.com,59d39defb05a336e28ad
   - vc-domain-verify=toppings.hackclub.com,f82287f84e90ea2099f8
   - vc-domain-verify=touch-grass.hackclub.com,189a48eebe168822ddef
   - vc-domain-verify=touch.hackclub.com,0d725cdf1bc6a0559434
@@ -5355,9 +5356,12 @@ toolbox:
   type: CNAME
   value: cname.vercel-dns.com.
 toolsmith:
+  octodns:
+    cloudflare:
+      proxied: true
   ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: 0092c4795f899abe.vercel-dns-016.com.
 toppings:
   ttl: 300
   type: CNAME
