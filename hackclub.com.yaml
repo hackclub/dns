@@ -642,6 +642,13 @@ adastra:
 - ttl: 300
   type: TXT
   value: bit.ly/adastrahacks
+aegis: # echo@hackclub.com U080A3QP42C
+  ttl: 300
+  type: CNAME
+  value: 4804a692-b64f-4669-906c-ae69f2dfffdb.cfargotunnel.com.
+  octodns:
+    cloudflare:
+      proxied: true
 aesthetic:
   octodns:
     cloudflare:
@@ -2279,7 +2286,7 @@ editor.fab:
 fallout: # samliu@hackclub.com
   ttl: 300
   type: CNAME
-  value: d75e90cd6c899215.vercel-dns-016.com.
+  value: a.selfhosted.hackclub.com.
 fanpage:
 - octodns:
     cloudflare:
