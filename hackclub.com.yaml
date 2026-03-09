@@ -643,14 +643,10 @@ adastra:
 - ttl: 300
   type: TXT
   value: bit.ly/adastrahacks
-_cf-custom-hostname.aegis.hackclub.com:
-  ttl: 300
-  type: TXT
-  value: 024e5151-09bf-46fe-bd81-c626b7fa6f50
 aegis: # echo@hackclub.com U080A3QP42C
   ttl: 300
   type: CNAME
-  value: 4804a692-b64f-4669-906c-ae69f2dfffdb.cfargotunnel.com.
+  value: 56fad06d-66c5-48c2-9d4e-bd8af8cf805a.cfargotunnel.com.
   octodns:
     cloudflare:
       proxied: true
