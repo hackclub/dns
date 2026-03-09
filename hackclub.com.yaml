@@ -4580,6 +4580,10 @@ api.rooted: #U0938MZG8Q6
 - ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
+rosetta: # nathan@hackclub.com
+  ttl: 300
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
 roulette:
   octodns:
     cloudflare:
