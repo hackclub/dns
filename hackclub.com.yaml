@@ -194,6 +194,10 @@ archive-hq-local.selfhosted:
   ttl: 300
   type: CNAME
   value: 493d65b3-2040-4db2-af28-ea33c026beb5.cfargotunnel.com.
+control.identity.selfhosted:
+  ttl: 300
+  type: CNAME
+  value: static.20.176.78.5.clients.your-server.de.
 a.identity.selfhosted:
   ttl: 300
   type: CNAME
