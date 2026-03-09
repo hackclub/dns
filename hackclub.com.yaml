@@ -3861,7 +3861,7 @@ news: # explanation - news is the user-facing domain, newspaper is for internal 
     lenient: true
   ttl: 600
   type: ALIAS
-  value: 886e7f7579941754.vercel-dns-016.com.
+  value: a.selfhosted.hackclub.com.
 - ttl: 3600
   type: TXT
   values:
