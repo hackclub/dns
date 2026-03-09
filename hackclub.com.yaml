@@ -1206,6 +1206,10 @@ boba:
 - ttl: 300
   type: CNAME
   value: hackclub.github.io.
+congressional-showcase: #CAN
+- ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 shop.boba:
 - ttl: 300
   type: CNAME
