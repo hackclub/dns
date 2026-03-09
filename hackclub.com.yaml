@@ -194,6 +194,10 @@ archive-hq-local.selfhosted:
   ttl: 300
   type: CNAME
   value: 493d65b3-2040-4db2-af28-ea33c026beb5.cfargotunnel.com.
+control.identity.selfhosted:
+  ttl: 300
+  type: CNAME
+  value: static.20.176.78.5.clients.your-server.de.
 a.identity.selfhosted:
   ttl: 300
   type: CNAME
@@ -1198,6 +1202,10 @@ boba:
 - ttl: 300
   type: CNAME
   value: hackclub.github.io.
+congressional-showcase: #CAN
+- ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 shop.boba:
 - ttl: 300
   type: CNAME
@@ -2546,6 +2554,10 @@ gamebit:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+gamedev: # tongyu@hackclub.com U07DJMFAQQP
+- ttl: 300
+  type: CNAME
+  value: 954c30a6de8e4def.vercel-dns-016.com.
 gamelab:
 - ttl: 300
   type: CNAME
@@ -3363,6 +3375,10 @@ langjam:
   type: CNAME
   value: cname.vercel-dns.com.
 lapse: # ascpixi@hackclub.com U082DPCGPST
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
+api.lapse: # ascpixi@hackclub.com U082DPCGPST
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
