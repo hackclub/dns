@@ -2552,9 +2552,6 @@ gamebit:
   value: a.selfhosted.hackclub.com.
 gamedev: # tongyu@hackclub.com U07DJMFAQQP
 - ttl: 300
-  octodns:
-      cloudflare:
-        proxied: true
   type: CNAME
   value: 954c30a6de8e4def.vercel-dns-016.com.
 gamelab:
