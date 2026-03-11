@@ -3707,10 +3707,6 @@ minustwelve:
   ttl: 300
   type: CNAME
   value: hackclub.github.io.
-miracosta:
-  ttl: 300
-  type: CNAME
-  value: miracosta.netlify.app.
 mob-games:
   ttl: 300
   type: CNAME
@@ -3720,16 +3716,9 @@ moonbeam:
   type: CNAME
   value: cname.vercel-dns.com.
 moonshot:
-- octodns:
+  octodns:
     cloudflare:
-      proxied: false
-  ttl: 300
-  type: CNAME
-  value: a.selfhosted.hackclub.com.
-moonshot-testing:
-- octodns:
-    cloudflare:
-      proxied: false
+      proxied: true
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
@@ -3749,10 +3738,6 @@ game-server.morp: # @Olive, U07BN55GN3D
 - ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-mosaic: # U092UGQGHHP,U09B8FXUS78 for mosaic YSWS
-  ttl: 600
-  type: CNAME
-  value: mosaicysws.site.
 multiverse:
   ttl: 300
   type: CNAME
@@ -4468,10 +4453,6 @@ qxzidlw3degr5ejxptxl5755zlix7hwc._domainkey.staging.hcb: # HCB Staging SES DKIM
   ttl: 300
   type: CNAME
   value: qxzidlw3degr5ejxptxl5755zlix7hwc.dkim.amazonses.com.
-rahs:
-- ttl: 300
-  type: CNAME
-  value: rahs-hackclub.netlify.com.
 raincloud:
 - ttl: 300
   type: CNAME
@@ -4632,10 +4613,6 @@ rss:
 - ttl: 300
   type: CNAME
   value: 5e3aec56f7ee6698.vercel-dns-016.com.
-ru:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
 runshaw:
 - ttl: 300
   type: CNAME
@@ -4813,13 +4790,6 @@ shipwrecked:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-shipwrecked-staging:
-- octodns:
-    cloudflare:
-      proxied: true
-  ttl: 300
-  type: CNAME
-  value: a.selfhosted.hackclub.com.
 simmer:
   ttl: 300
   type: CNAME
@@ -4829,13 +4799,6 @@ badge.shipwrecked:
   type: CNAME
   value: mpkendall.github.io.
 count.shipwrecked:
-- octodns:
-    cloudflare:
-      proxied: true
-  ttl: 300
-  type: CNAME
-  value: a.selfhosted.hackclub.com.
-idea.shipwrecked:
 - octodns:
     cloudflare:
       proxied: true
