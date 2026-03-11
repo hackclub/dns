@@ -2582,6 +2582,10 @@ games:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+old.games: # augie@hackclub.com U07FCRNHS1J
+- ttl: 300
+  type: CNAME
+  value: 85fe02d11a27ceed.vercel-dns-016.com.
 gaynormccown:
 - ttl: 300
   type: NS
