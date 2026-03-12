@@ -5829,7 +5829,7 @@ takeout:
 - ttl: 300
   type: A
   value: 68.183.252.105
-take-two: # alexren
+take-two: # alexren@hackclub.com
 - octodns:
     cloudflare:
       proxied: true
