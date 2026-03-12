@@ -132,11 +132,11 @@ sideboard.limited.selfhosted:
   ttl: 300
   type: CNAME
   value: static.239.94.78.5.clients.your-server.de.
-coolify.tier3.infra.hackclub.com:
+coolify.tier3.infra:
   ttl: 300
   type: CNAME
   value: static.86.92.78.5.clients.your-server.de.
-sideboard.tier3.infra.hackclub.com:
+sideboard.tier3.infra:
   ttl: 300
   type: CNAME
   value: coolify.tier3.infra.hackclub.com.
