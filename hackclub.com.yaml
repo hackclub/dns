@@ -4553,6 +4553,13 @@ review: #dhamari@hackclub.com & alexvd@hackclub.com
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+'*.review':
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 review-factory-backend:
 - octodns:
     cloudflare:
