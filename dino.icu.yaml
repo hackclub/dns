@@ -139,6 +139,11 @@ baguette: # blog
   type: CNAME
   value: cname.vercel-dns.com.
 
+boxed: # by https://github.com/sadeshmukh
+  ttl: 600
+  type: CNAME
+  value: w2.halceon.dev.
+
 betterwork-ai: # by https://heramb0x1.github.io/betterwork-ai
   ttl: 600
   type: CNAME
