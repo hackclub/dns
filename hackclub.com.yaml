@@ -132,6 +132,14 @@ sideboard.limited.selfhosted:
   ttl: 300
   type: CNAME
   value: static.239.94.78.5.clients.your-server.de.
+coolify.tier3.infra:
+  ttl: 300
+  type: CNAME
+  value: static.86.92.78.5.clients.your-server.de.
+sideboard.tier3.infra:
+  ttl: 300
+  type: CNAME
+  value: coolify.tier3.infra.hackclub.com.
 a.limited.selfhosted:
   ttl: 300
   type: CNAME
@@ -917,6 +925,10 @@ terminalcraft:
   - ttl: 300
     type: CNAME
     value: cname.vercel-dns.com.
+syscall:
+  - ttl: 300
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 carnival:
   - ttl: 300
     type: CNAME
@@ -2989,10 +3001,10 @@ hc-repo:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-hctg: # arav@hackclub.com U01MPHKFZ7S
+hctg: # samuelf@hackclub.com U04G40QKAAD
   ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: 845665561e0f1d0c.vercel-dns-017.com.
 hear:
   ttl: 300
   type: CNAME
@@ -4534,6 +4546,13 @@ review: #dhamari@hackclub.com & alexvd@hackclub.com
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+'*.review':
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 review-factory-backend:
 - octodns:
     cloudflare:
@@ -5792,6 +5811,13 @@ takeout:
 - ttl: 300
   type: A
   value: 68.183.252.105
+take-two: # alexren@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 shipment-viewer:
 - octodns:
     cloudflare:

@@ -154,6 +154,11 @@ cad: # by https://github.com/leecheeyong/community-widgets
   type: CNAME
   value: cname.vercel-dns.com.
   
+camp: # jenin@hackclub.com 
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
+  
 canteen:
   ttl: 600
   type: CNAME
