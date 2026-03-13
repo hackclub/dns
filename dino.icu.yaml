@@ -892,3 +892,7 @@ willgob: # williamnumismatics@gmail.com
     type: CNAME
     value: cname.vercel-dns.com.
 
+copilot: # @Yasin U07F2TA4YVB yasin@flonga.org https://yasina74.github.io/copilot-ysws/
+  - ttl: 600
+    type: CNAME
+    value: yasina74.github.io.
