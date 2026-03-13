@@ -925,6 +925,10 @@ terminalcraft:
   - ttl: 300
     type: CNAME
     value: cname.vercel-dns.com.
+syscall:
+  - ttl: 300
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 carnival:
   - ttl: 300
     type: CNAME
