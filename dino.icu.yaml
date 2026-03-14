@@ -178,6 +178,11 @@ chess: # by https://github.com/leecheeyong/chinese-chess
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+
+cipher: # rupnil.mondal2+hackclub@gmail.com; Rupnil Codes, slack: U0A4UTULSLE
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
   
 click: # a URL shortener
   ttl: 600
@@ -892,11 +897,6 @@ fileserver: # will.kuntze@gmail.com Will Kuntze
     value: 174.112.38.43
 
 willgob: # williamnumismatics@gmail.com 
-  - ttl: 600
-    type: CNAME
-    value: cname.vercel-dns.com.
-
-cipher: # rupnil.mondal2+hackclub@gmail.com; Rupnil Codes, slack: U0A4UTULSLE
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
