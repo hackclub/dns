@@ -188,7 +188,12 @@ codingcrew: # by https://github.com/shim-sham
   ttl: 600 
   type: CNAME
   value: lustrous-ganache-dbb807.netlify.app. 
-  
+
+controlline: # Github: NoIwantyourcode slack: U0A269NG76F
+  ttl: 600
+  type: CNAME 
+  value: control-line.vercel.app.
+ 
 copilot: # @Yasin U07F2TA4YVB yasin@flonga.org https://yasina74.github.io/copilot-ysws/
   - ttl: 600
     type: CNAME
@@ -490,11 +495,6 @@ hacknote: # https://github.com/dispherical/hacknote
   ttl: 600
   type: CNAME
   value: david.hackclub.app.
-
-controlline: # Github: NoIwantyourcode slack: U0A269NG76F
-  ttl: 600
-  type: CNAME 
-  value: control-line.vercel.app.
 
 normie: # normie
   ttl: 600
