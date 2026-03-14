@@ -690,6 +690,11 @@ smtp: # hackclub free smtp service
     type: CNAME
     value: smtp.neon.hackclub.app.
 
+sparkle: #sparkle website - find @yehor or @zook for problems!
+  - ttl: 600
+    type: CNAME
+    value: sparkle-ysws.vercel.app
+
 spotify:
   - ttl: 600
     type: CNAME
