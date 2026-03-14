@@ -693,7 +693,7 @@ smtp: # hackclub free smtp service
 sparkle: #sparkle website - find @yehor or @zook for problems!
   - ttl: 600
     type: CNAME
-    value: sparkle-ysws.vercel.app
+    value: sparkle-ysws.vercel.app.
 
 spotify:
   - ttl: 600
