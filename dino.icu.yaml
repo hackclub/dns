@@ -690,6 +690,11 @@ smtp: # hackclub free smtp service
     type: CNAME
     value: smtp.neon.hackclub.app.
 
+sparkle: #tlyzachary0411@gmail.com U07DL91MFQT @zook
+  - ttl: 600
+    type: A
+    value: 216.198.79.1
+    
 spotify:
   - ttl: 600
     type: CNAME
