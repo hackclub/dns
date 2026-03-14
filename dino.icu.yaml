@@ -895,5 +895,7 @@ willgob: # williamnumismatics@gmail.com
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
-
-
+fr: #dwait.pandhi@gmail.com Dwait Pandhi
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
