@@ -168,6 +168,11 @@ canteen:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com. # vercel
+
+catalyst: # U09G5KPFTSL
+  - ttl: 600
+    type: CNAME
+    value: catalyst-one-gilt.vercel.app
   
 channels: # an API for getting slack channels and their IDs
   ttl: 600
