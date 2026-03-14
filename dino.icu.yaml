@@ -899,6 +899,6 @@ willgob: # williamnumismatics@gmail.com
 controlline: # Github: NoIwantyourcode slack: U0A269NG76F
   ttl: 600
   type: CNAME 
-  value: cname.vercel-dns.com.
+  value: control-line-noiwantyourcodes-projects.vercel.app.
 
 
