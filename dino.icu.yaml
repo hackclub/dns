@@ -491,6 +491,11 @@ hacknote: # https://github.com/dispherical/hacknote
   type: CNAME
   value: david.hackclub.app.
 
+controlline: # Github: NoIwantyourcode slack: U0A269NG76F
+  ttl: 600
+  type: CNAME 
+  value: control-line.vercel.app.
+
 normie: # normie
   ttl: 600
   type: CNAME
@@ -895,10 +900,5 @@ willgob: # williamnumismatics@gmail.com
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
-
-controlline: # Github: NoIwantyourcode slack: U0A269NG76F
-  ttl: 600
-  type: CNAME 
-  value: control-line.vercel.app.
 
 
