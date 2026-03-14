@@ -693,7 +693,11 @@ smtp: # hackclub free smtp service
 sparkle: #sparkle website - find @yehor or @zook for problems!
   - ttl: 600
     type: CNAME
-    value: sparkle-ysws.vercel.app.
+    value: 2fabfa6e940c62fc.vercel-dns-017.com.
+  - ttl: 600
+    type: TXT
+    value: vc-domain-verify=sparkle.hackclub.com,bb9eda991d480d3fd30d
+    
 
 spotify:
   - ttl: 600
