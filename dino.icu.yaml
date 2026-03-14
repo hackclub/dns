@@ -896,4 +896,7 @@ willgob: # williamnumismatics@gmail.com
     type: CNAME
     value: cname.vercel-dns.com.
 
-
+cipher: # rupnil.mondal2+hackclub@gmail.com; Rupnil Codes, slack: U0A4UTULSLE
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
