@@ -308,6 +308,11 @@ foodshuffle: #scrapyard seattle team foodshuffle project
   type: A
   value: 161.35.238.105
 
+fr: #dwait.pandhi@gmail.com Dwait Pandhi
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
+
 geta: # yoda - https://getadinoicu.yodacode.repl.co/dino.png - get a dino from hackclub/dinosaurs api
   ttl: 600
   type: CNAME
@@ -905,5 +910,3 @@ willgob: # williamnumismatics@gmail.com
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
-
-
