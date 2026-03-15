@@ -906,4 +906,7 @@ willgob: # williamnumismatics@gmail.com
     type: CNAME
     value: cname.vercel-dns.com.
 
-
+racked: # Jan Koch (jan.koch@hexagonical.ch or <@U087PR1B2HX> on the slack)
+  - ttl: 600
+    type: CNAME
+    value: hexagonical.xyz.
