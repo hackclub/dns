@@ -520,6 +520,11 @@ _github-pages-challenge-opott.opott:
   type: TXT
   value: e404870971850eac043d10def3932d
 
+onekey: # @maxstellar on slack, @maxstellar on github
+  ttl: 600
+  type: CNAME
+  value: maxstellar.github.io.
+
 opott:
   ttl: 600
   type: CNAME
