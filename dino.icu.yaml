@@ -149,6 +149,11 @@ betterwork-ai: # by https://heramb0x1.github.io/betterwork-ai
   type: CNAME
   value: cname.vercel-dns.com.
 
+bin: # bin-electrified-hc on Vercel
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
+
 bs: # by https://github.com/leecheeyong/BrawlBio
   ttl: 600
   type: CNAME
@@ -905,5 +910,4 @@ willgob: # williamnumismatics@gmail.com
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
-
 
