@@ -296,7 +296,7 @@ factorio: # factorio.dino.icu - Hack Club hacktorio server - Slack: #factorio
   type: A
   value: 168.119.243.45
 
-fanout:
+fanout: # Eternal on slack (Slack ID: U09H9PLB6E7)
   ttl: 600
   type: CNAME
   value: eofreternal.github.io.
