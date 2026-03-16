@@ -219,7 +219,7 @@ cslide:
   type: CNAME
   value: leecheeyong.github.io.
 
-darkroom: # https://github.com/Trulle1234/Darkroom/
+darkroom: # @Trulle123 (07904YUJ6A) on slack - https://github.com/Trulle1234/Darkroom/
   ttl: 600
   type: CNAME
   value: trulle1234.github.io.
