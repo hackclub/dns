@@ -487,6 +487,11 @@ motivation:
   type: CNAME
   value: maxwofford.github.io.
 
+monty: # contact via adelinmihai071@gmail.com
+  ttl: 600
+  type: CNAME
+  value: monty-ysws-kappa.vercel.app.
+
 niilas: # Niilas - repo: https://github.com/niilasoika/niilas.dino.icu
   ttl: 600
   type: CNAME
