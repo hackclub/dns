@@ -219,6 +219,11 @@ cslide:
   type: CNAME
   value: leecheeyong.github.io.
 
+darkroom: # https://github.com/Trulle1234/Darkroom/
+  ttl: 600
+  type: CNAME
+  value: trulle1234.github.io.
+
 dash: # vortex master record - https://vortex.skyfall.dev
   ttl: 60
   type: MX
