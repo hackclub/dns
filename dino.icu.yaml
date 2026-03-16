@@ -198,6 +198,12 @@ copilot: # @Yasin U07F2TA4YVB yasin@flonga.org https://yasina74.github.io/copilo
   - ttl: 600
     type: CNAME
     value: yasina74.github.io.
+    
+controlline: # Github: NoIwantyourcode slack: U0A269NG76F
+  ttl: 600
+  type: A 
+  value: 216.198.79.1
+  
 cr:
   ttl: 600
   type: CNAME
