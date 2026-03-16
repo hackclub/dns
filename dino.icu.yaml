@@ -134,6 +134,11 @@ aryanpatel: # by https://github.com/aryanpatel142006
   type: CNAME
   value: cname.vercel-dns.com. # vercel
 
+automake: # obagaming@gmail.com U0A1G9F445D
+  - ttl: 600
+    type: A
+    value: 216.198.79.1
+
 baguette: # blog
   ttl: 600
   type: CNAME
@@ -150,6 +155,11 @@ bs: # by https://github.com/leecheeyong/BrawlBio
   value: cname.vercel-dns.com.
   
 cad: # by https://github.com/leecheeyong/community-widgets
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
+  
+camp: # jenin@hackclub.com 
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
@@ -173,6 +183,11 @@ chess: # by https://github.com/leecheeyong/chinese-chess
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+
+cipher: # rupnil.mondal2+hackclub@gmail.com; Rupnil Codes, slack: U0A4UTULSLE
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
   
 click: # a URL shortener
   ttl: 600
@@ -183,7 +198,17 @@ codingcrew: # by https://github.com/shim-sham
   ttl: 600 
   type: CNAME
   value: lustrous-ganache-dbb807.netlify.app. 
-
+  
+copilot: # @Yasin U07F2TA4YVB yasin@flonga.org https://yasina74.github.io/copilot-ysws/
+  - ttl: 600
+    type: CNAME
+    value: yasina74.github.io.
+    
+controlline: # Github: NoIwantyourcode slack: U0A269NG76F
+  ttl: 600
+  type: A 
+  value: 216.198.79.1
+  
 cr:
   ttl: 600
   type: CNAME
@@ -681,6 +706,11 @@ smtp: # hackclub free smtp service
     type: CNAME
     value: smtp.neon.hackclub.app.
 
+sparkle: #tlyzachary0411@gmail.com U07DL91MFQT @zook
+  - ttl: 600
+    type: A
+    value: 216.198.79.1
+    
 spotify:
   - ttl: 600
     type: CNAME
@@ -886,4 +916,5 @@ willgob: # williamnumismatics@gmail.com
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+
 
