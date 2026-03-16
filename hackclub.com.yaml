@@ -2508,6 +2508,10 @@ fr:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+frankensite: #jared@hackclub.com
+- ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
 rw:
 - ttl: 300
   type: CNAME
