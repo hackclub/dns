@@ -295,6 +295,11 @@ factorio: # factorio.dino.icu - Hack Club hacktorio server - Slack: #factorio
   ttl: 600
   type: A
   value: 168.119.243.45
+
+fanout:
+  ttl: 600
+  type: CNAME
+  value: eofreternal.github.io.
   
 featuretracker:
   ttl: 600
