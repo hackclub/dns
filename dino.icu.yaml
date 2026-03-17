@@ -489,8 +489,8 @@ motivation:
 
 monty: # contact via adelinmihai071@gmail.com
   ttl: 600
-  type: CNAME
-  value: monty-ysws-kappa.vercel.app.
+  type: A
+  value: 216.198.79.1
 
 niilas: # Niilas - repo: https://github.com/niilasoika/niilas.dino.icu
   ttl: 600
