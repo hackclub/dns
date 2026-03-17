@@ -328,12 +328,7 @@ firepi:
 - ttl: 600
   type: A
   value: 69.8.95.218
-
-flightschool: # benvaccaro@Proton.me
-  - ttl: 600
-    type: A
-    value: 198.51.233.1
-
+  
 fokus: # https://github.com/leecheeyong/fokus
   ttl: 600
   type: CNAME
@@ -801,6 +796,11 @@ toonnongaeoy:
    type: CNAME
    value: storyhouseproduction.duckdns.org.
 
+uplink: # benvaccaro@Proton.me
+  - ttl: 600
+    type: A
+    value: 198.51.233.1
+    
 url: # A url shortener for anyone in hack club :D
  - ttl: 600
    type: CNAME
