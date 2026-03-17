@@ -941,3 +941,8 @@ willgob: # williamnumismatics@gmail.com
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+
+flightschool: # benvaccaro@Proton.me
+  - ttl: 600
+    type: A
+    value: 198.51.233.1
