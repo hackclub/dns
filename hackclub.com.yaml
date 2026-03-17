@@ -4192,6 +4192,13 @@ panorama:
   ttl: 300
   type: CNAME
   value: panorama-countdown.pages.dev.
+paradox: #dhamari@hackclub.com
+  - octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 parcel-pyxis:
 - octodns:
     cloudflare:
