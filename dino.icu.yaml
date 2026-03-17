@@ -324,6 +324,12 @@ firepi:
   type: A
   value: 69.8.95.218
 
+flightschool: # benvaccaro@Proton.me
+  - ttl: 600
+    type: A
+    value: 198.51.233.1
+
+
 fokus: # https://github.com/leecheeyong/fokus
   ttl: 600
   type: CNAME
@@ -942,7 +948,3 @@ willgob: # williamnumismatics@gmail.com
     type: CNAME
     value: cname.vercel-dns.com.
 
-flightschool: # benvaccaro@Proton.me
-  - ttl: 600
-    type: A
-    value: 198.51.233.1
