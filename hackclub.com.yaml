@@ -4193,7 +4193,7 @@ panorama:
   type: CNAME
   value: panorama-countdown.pages.dev.
 paradox: #dhamari@hackclub.com
-  - octodns:
+- octodns:
     cloudflare:
       proxied: true
   ttl: 300
