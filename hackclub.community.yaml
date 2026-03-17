@@ -116,6 +116,11 @@ rsvp: # U08PUHSMW4V
   - ttl: 600
     type: A
     value: 192.9.226.154
+# https://github.com/17sdheeraj/yswsrsvp
+rsvp.ysws: # U0828RTU7FE
+  - ttl: 300
+    type: CNAME
+    value: 17sdheeraj.github.io
 stats: # alimad.co.ltd@gmail.com U08LQFRBL6S
   - ttl: 300
     type: CNAME
