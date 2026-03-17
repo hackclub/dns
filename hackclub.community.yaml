@@ -120,7 +120,7 @@ rsvp: # U08PUHSMW4V
 rsvp.ysws: # U0828RTU7FE
   - ttl: 300
     type: CNAME
-    value: 17sdheeraj.github.io
+    value: 17sdheeraj.github.io.
 stats: # alimad.co.ltd@gmail.com U08LQFRBL6S
   - ttl: 300
     type: CNAME
