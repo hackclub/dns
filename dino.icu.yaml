@@ -775,6 +775,15 @@ story:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+
+strategize: # rez@proton.me U082KMLM7DW YSWS for 2026 internship submisions
+  ttl: 600
+  type: A
+  values:
+  - 185.199.108.153
+  - 185.199.109.153
+  - 185.199.110.153
+  - 185.199.111.153
   
 suryaansh:
 - ttl: 600
