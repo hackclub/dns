@@ -1576,10 +1576,6 @@ clubapi: #ivie@hackclub.com @Charmunk
 - ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-clubs: # jared@hackclub.com @jps @hya
-- ttl: 300
-  type: CNAME
-  value: 05fb403da2be67a7.vercel-dns-016.com.
 cockpit: # leafd@hackclub.com @lfd
 - octodns:
     cloudflare:
@@ -4192,6 +4188,10 @@ panorama:
   ttl: 300
   type: CNAME
   value: panorama-countdown.pages.dev.
+paradox: #dhamari@hackclub.com
+  ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
 parcel-pyxis:
 - octodns:
     cloudflare:
