@@ -384,7 +384,7 @@ hasd: # hasd school forum
   type: A
   value: 143.244.201.64
 
-hackxpansion: # https://github.com/KOEGlike/hackxpansion
+hackxpansion: # koeglike@proton.me
   ttl: 600
   type: CNAME
   value: koeglike.github.io.
