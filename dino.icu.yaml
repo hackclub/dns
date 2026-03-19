@@ -365,12 +365,9 @@ geta: # yoda - https://getadinoicu.yodacode.repl.co/dino.png - get a dino from h
   value: ef35bb48-f121-4f7f-91f6-93f601559c24.id.repl.co.
 
 goship: # BnaJns - U08R49H9VRV
-- octodns:
-    cloudflare:
-      proxied: true
   ttl: 600
   type: CNAME
-  value: 9668ee3a-6747-4432-b299-f6af338be047.cfargotunnel.com.
+  value: proxy.bnajns.dev.
   
 hackbox: # Aron - U0A3HLREX29
 - ttl: 600
