@@ -788,6 +788,11 @@ social:
   ttl: 600
   type: CNAME
   value: mastodon.hackclub.app.
+  
+solvable:
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
 
 smtp: # hackclub free smtp service
   - ttl: 600
