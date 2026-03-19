@@ -168,6 +168,11 @@ cad: # by https://github.com/leecheeyong/community-widgets
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+
+canvas:
+  ttl: 600
+  type: CNAME
+  value: canvas.dino.icu.
   
 camp: # jenin@hackclub.com 
   ttl: 600
