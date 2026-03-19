@@ -321,6 +321,11 @@ factorio: # factorio.dino.icu - Hack Club hacktorio server - Slack: #factorio
   type: A
   value: 168.119.243.45
 
+fallout-flight: # anscg@proton.me 
+  - ttl: 600
+    type: CNAME
+    value: falloutflight.anscg.net.
+
 fanout: # Eternal on slack (Slack ID: U09H9PLB6E7)
   ttl: 600
   type: CNAME
@@ -1013,8 +1018,3 @@ willgob: # williamnumismatics@gmail.com
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
-
-fallout-flight: # anscg@proton.me 
-  - ttl: 600
-    type: CNAME
-    value: falloutflight.anscg.net.
