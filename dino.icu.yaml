@@ -1013,3 +1013,8 @@ willgob: # williamnumismatics@gmail.com
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+
+fallout-flight: # anscg@proton.me 
+  - ttl: 600
+    type: CNAME
+    value: falloutflight.anscg.net.
