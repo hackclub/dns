@@ -169,10 +169,10 @@ cad: # by https://github.com/leecheeyong/community-widgets
   type: CNAME
   value: cname.vercel-dns.com.
 
-canvas:
+maya: # maya.l.hazarika@gmail.com U08SWBK3G64
   ttl: 600
   type: CNAME
-  value: canvas.dino.icu.
+  value: canvas-m.vercel.app.
   
 camp: # jenin@hackclub.com 
   ttl: 600
