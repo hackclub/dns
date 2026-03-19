@@ -374,6 +374,11 @@ hacktive: # Origamibooklover@gmail.com
     type: CNAME
     value: vrhshacktive.github.io.
 
+hackxpansion: # koeglike@proton.me
+  ttl: 600
+  type: CNAME
+  value: koeglike.github.io.
+
 hacktv:
   - ttl: 600
     type: CNAME
