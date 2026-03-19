@@ -328,7 +328,7 @@ firepi:
 - ttl: 600
   type: A
   value: 69.8.95.218
-  
+
 fokus: # https://github.com/leecheeyong/fokus
   ttl: 600
   type: CNAME
