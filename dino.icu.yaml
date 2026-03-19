@@ -321,10 +321,10 @@ factorio: # factorio.dino.icu - Hack Club hacktorio server - Slack: #factorio
   type: A
   value: 168.119.243.45
 
-fallout-flight: # anscg@proton.me 
+fallout-flight: # anson@hackclub.com 
   - ttl: 600
-    type: CNAME
-    value: falloutflight.anscg.net.
+    type: A
+    value: 96.9.228.153
 
 fanout: # Eternal on slack (Slack ID: U09H9PLB6E7)
   ttl: 600
