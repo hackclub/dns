@@ -559,6 +559,11 @@ numycode: # numycode@pyroforge.dev U0A6U9MEA5D
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # use this as an example for your own domain!
 
+orbit: # U08RU1GTXSP
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
+
 orpheus: # prophet orpheus's page (when making your page enter your github username or slack id here)
   ttl: 600 # the time to live of your domain; you don't need to change this
   type: CNAME # the type of record you're creating; you don't need to change this unless your hosting provider requires it
