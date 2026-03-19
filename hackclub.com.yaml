@@ -80,7 +80,7 @@ _dmarc.timedump:
 20251019203019pm._domainkey:
   ttl: 300
   type: TXT
-  value: k=rsa\;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCpvmb60zUfEHXWL+NV4L9mixZWNe/gU4MDxkzxpLovag/ub13NxZ3N83VKWojj6FeYLij5ehorizons+NGDsJQNb2KPXHQzYMX7jYrZYEOLu9laytBfcflCRNBhwICvNO09u2EApnO10JClgkV4nbv7dk2o/bRCl0AKZW6m/OWtNkaAIsExQIDAQAB.
+  value: k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCpvmb60zUfEHXWL+NV4L9mixZWNe/gU4MDxkzxpLovag/ub13NxZ3N83VKWojj6FeYLij5e+NGDsJQNb2KPXHQzYMX7jYrZYEOLu9laytBfcflCRNBhwICvNO09u2EApnO10JClgkV4nbv7dk2o/bRCl0AKZW6m/OWtNkaAIsExQIDAQAB
 20260315150242pm._domainkey.horizons: # U07BLJ1MBEE
   ttl: 300
   type: TXT
@@ -1576,10 +1576,6 @@ clubapi: #ivie@hackclub.com @Charmunk
 - ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-clubs: # jared@hackclub.com @jps @hya
-- ttl: 300
-  type: CNAME
-  value: 05fb403da2be67a7.vercel-dns-016.com.
 cockpit: # leafd@hackclub.com @lfd
 - octodns:
     cloudflare:
@@ -2508,6 +2504,10 @@ fr:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+frankensite: #jared@hackclub.com
+- ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
 rw:
 - ttl: 300
   type: CNAME
@@ -3253,6 +3253,10 @@ jain:
   type: A
   value: 185.199.108.153
 jackpot: # emmaborghi@hackclub.com U078DFX40A2
+  ttl: 300
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
+jackpotstaging: # emmaborghi@hackclub.com U078DFX40A2
   ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
@@ -4188,6 +4192,10 @@ panorama:
   ttl: 300
   type: CNAME
   value: panorama-countdown.pages.dev.
+paradox: #dhamari@hackclub.com
+  ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
 parcel-pyxis:
 - octodns:
     cloudflare:
@@ -4459,7 +4467,7 @@ puyallup:
 - ttl: 600
   type: TXT
   value: v=spf1 include:spf.improvmx.com ~all
-pxl: # olive@hackclub.com #U07BN55GN3D
+pxl: # euan@hackclub.com #U06T30DNB3L
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
@@ -4884,6 +4892,10 @@ sign:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+sign.events:
+  ttl: 300
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
 signature:
   ttl: 300
   type: CNAME

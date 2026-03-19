@@ -149,6 +149,16 @@ betterwork-ai: # by https://heramb0x1.github.io/betterwork-ai
   type: CNAME
   value: cname.vercel-dns.com.
 
+bin: # by U07FD57JN67 (adi // pizzalover125)
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
+
+boxed: # U08PUHSMW4V 
+  ttl: 600
+  type: CNAME
+  value: w2.halceon.dev.
+
 bs: # by https://github.com/leecheeyong/BrawlBio
   ttl: 600
   type: CNAME
@@ -168,6 +178,11 @@ canteen:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com. # vercel
+
+catalyst: # U09G5KPFTSL
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
   
 channels: # an API for getting slack channels and their IDs
   ttl: 600
@@ -198,6 +213,11 @@ codingcrew: # by https://github.com/shim-sham
   ttl: 600 
   type: CNAME
   value: lustrous-ganache-dbb807.netlify.app. 
+
+constrained: # funkeudo@outlook.com U0A03GWFP1V
+  - ttl: 600
+    type: A
+    value: 216.198.79.1
   
 copilot: # @Yasin U07F2TA4YVB yasin@flonga.org https://yasina74.github.io/copilot-ysws/
   - ttl: 600
@@ -218,6 +238,11 @@ cslide:
   ttl: 600
   type: CNAME
   value: leecheeyong.github.io.
+
+darkroom: # @Trulle123 (07904YUJ6A) on slack - https://github.com/Trulle1234/Darkroom/
+  ttl: 600
+  type: CNAME
+  value: trulle1234.github.io.
 
 dash: # vortex master record - https://vortex.skyfall.dev
   ttl: 60
@@ -295,6 +320,11 @@ factorio: # factorio.dino.icu - Hack Club hacktorio server - Slack: #factorio
   ttl: 600
   type: A
   value: 168.119.243.45
+
+fanout: # Eternal on slack (Slack ID: U09H9PLB6E7)
+  ttl: 600
+  type: CNAME
+  value: eofreternal.github.io.
   
 featuretracker:
   ttl: 600
@@ -319,10 +349,25 @@ foodshuffle: #scrapyard seattle team foodshuffle project
   type: A
   value: 161.35.238.105
 
+fr: #dwait.pandhi@gmail.com Dwait Pandhi
+  - ttl: 600
+    type: A
+    value: 216.198.79.1
+
 geta: # yoda - https://getadinoicu.yodacode.repl.co/dino.png - get a dino from hackclub/dinosaurs api
   ttl: 600
   type: CNAME
   value: ef35bb48-f121-4f7f-91f6-93f601559c24.id.repl.co.
+
+goship: # BnaJns - U08R49H9VRV
+  ttl: 600
+  type: CNAME
+  value: 9668ee3a-6747-4432-b299-f6af338be047.cfargotunnel.com.
+  
+hackbox: # Aron - U0A3HLREX29
+- ttl: 600
+  type: A
+  value: 216.198.79.1
 
 hacktive: # Origamibooklover@gmail.com
   - ttl: 600
@@ -524,6 +569,11 @@ numycode: # numycode@pyroforge.dev U0A6U9MEA5D
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # use this as an example for your own domain!
 
+orbit: # U08RU1GTXSP
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
+
 orpheus: # prophet orpheus's page (when making your page enter your github username or slack id here)
   ttl: 600 # the time to live of your domain; you don't need to change this
   type: CNAME # the type of record you're creating; you don't need to change this unless your hosting provider requires it
@@ -535,6 +585,11 @@ _github-pages-challenge-opott.opott:
   ttl: 600
   type: TXT
   value: e404870971850eac043d10def3932d
+
+onekey: # @maxstellar on slack [U07F6FMJ97U], @maxstellar on github
+  ttl: 600
+  type: CNAME
+  value: maxstellar.github.io.
 
 opott:
   ttl: 600
@@ -591,6 +646,11 @@ qr: # A hack club themed QR code generator
   type: CNAME
   value: felixgao.hackclub.app.
 
+reforge: # anantparikh014@gmail.com [U0A9V5E6945] | Reforge YSWS
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
+
 richit: # bhatrichit0@gmail.com U0A3VK4GFRN - It is my calendly website. just for fun
   - ttl: 600
     type: A
@@ -600,6 +660,11 @@ rr: # Rickroll with a single line of bash
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+
+rsvp: # https://github.com/17sdheeraj/yswsrsvp
+  ttl: 600
+  type: CNAME
+  value: 17sdheeraj.github.io.
 
 run:
   ttl: 600
@@ -680,6 +745,11 @@ shammah: # by https://github.com/Gijutsu-T
     type: CNAME
     value: cname.vercel-dns.com.
 
+shipathon: # christian U0938MZG8Q6
+  - ttl: 600
+    type: A
+    value: 216.198.79.1
+
 short: # short.dino.icu; by kunal botla (.com)
   ttl: 600
   type: CNAME
@@ -745,6 +815,15 @@ story:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+
+strategize: # rez@proton.me U082KMLM7DW YSWS for 2026 internship submisions
+  ttl: 600
+  type: A
+  values:
+  - 185.199.108.153
+  - 185.199.109.153
+  - 185.199.110.153
+  - 185.199.111.153
   
 suryaansh:
 - ttl: 600
@@ -766,6 +845,11 @@ toonnongaeoy:
    type: CNAME
    value: storyhouseproduction.duckdns.org.
 
+uplink: # benvaccaro@Proton.me
+  - ttl: 600
+    type: A
+    value: 198.51.233.1
+    
 url: # A url shortener for anyone in hack club :D
  - ttl: 600
    type: CNAME
@@ -921,5 +1005,3 @@ willgob: # williamnumismatics@gmail.com
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
-
-
