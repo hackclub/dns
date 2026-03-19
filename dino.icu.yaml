@@ -1025,3 +1025,8 @@ willgob: # williamnumismatics@gmail.com
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+  
+canvas:
+  ttl: 600
+  type: CNAME
+  value: mayalh22.github.io.
