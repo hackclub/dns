@@ -1,0 +1,22 @@
+name: 'Close stale PRs'
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+
+permissions:
+  pull-requests: write
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@v9
+        with:
+          stale-pr-message: 'This PR has been inactive for 7 days and will be closed in another 7 days if there is no activity. If you still need this PR merged, please address the requested changes.'
+          close-pr-message: 'This PR has been closed due to 14 days of inactivity. Feel free to reopen the PR or make a new one if it is still needed.'
+          days-before-pr-stale: 7
+          days-before-pr-close: 7
+          days-before-issue-stale: -1
+          days-before-issue-close: -1
+          stale-pr-label: 'stale'

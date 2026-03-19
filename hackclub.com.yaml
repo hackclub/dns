@@ -80,7 +80,11 @@ _dmarc.timedump:
 20251019203019pm._domainkey:
   ttl: 300
   type: TXT
-  value: k=rsa\;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCpvmb60zUfEHXWL+NV4L9mixZWNe/gU4MDxkzxpLovag/ub13NxZ3N83VKWojj6FeYLij5e+NGDsJQNb2KPXHQzYMX7jYrZYEOLu9laytBfcflCRNBhwICvNO09u2EApnO10JClgkV4nbv7dk2o/bRCl0AKZW6m/OWtNkaAIsExQIDAQAB.
+  value: k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCpvmb60zUfEHXWL+NV4L9mixZWNe/gU4MDxkzxpLovag/ub13NxZ3N83VKWojj6FeYLij5e+NGDsJQNb2KPXHQzYMX7jYrZYEOLu9laytBfcflCRNBhwICvNO09u2EApnO10JClgkV4nbv7dk2o/bRCl0AKZW6m/OWtNkaAIsExQIDAQAB
+20260315150242pm._domainkey.horizons: # U07BLJ1MBEE
+  ttl: 300
+  type: TXT
+  value: k=rsa\;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCYaHpuhAWYJoFR+3jCF26WQ6a2g6wFVnG7ivN3VAuub6N8axjZYBvILaWgcgpmrCqpuqoibPEzjIF+/00TvLsBDwPin3Chpo2g15PZdtDFYmZRnajkaaFK+pvqPeuWdQ9Gthz37o3F1Qfd5hFmb10zArQa7bpGLnBetD5TtQywyQIDAQAB
 2qdnwxx6mfbqzjwbtkigeofbcfs575pc._domainkey.hackatime:
   ttl: 300
   type: CNAME
@@ -1572,10 +1576,6 @@ clubapi: #ivie@hackclub.com @Charmunk
 - ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-clubs: # jared@hackclub.com @jps @hya
-- ttl: 300
-  type: CNAME
-  value: 05fb403da2be67a7.vercel-dns-016.com.
 cockpit: # leafd@hackclub.com @lfd
 - octodns:
     cloudflare:
@@ -2504,6 +2504,10 @@ fr:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+frankensite: #jared@hackclub.com
+- ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
 rw:
 - ttl: 300
   type: CNAME
@@ -2595,6 +2599,10 @@ games:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+old.games: # augie@hackclub.com U07FCRNHS1J
+- ttl: 300
+  type: CNAME
+  value: 85fe02d11a27ceed.vercel-dns-016.com.
 gaynormccown:
 - ttl: 300
   type: NS
@@ -3248,6 +3256,10 @@ jackpot: # emmaborghi@hackclub.com U078DFX40A2
   ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
+jackpotstaging: # emmaborghi@hackclub.com U078DFX40A2
+  ttl: 300
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
 jam:
 - ttl: 300
   type: CNAME
@@ -3564,6 +3576,10 @@ mail._domainkey:
 - ttl: 300
   type: TXT
   value: v=DKIM1\; h=sha256\; k=rsa\; s=email\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkosTUJx4I9YeDlbMvjDCmF030x/uaK1VRnaZDlnakDPsDHmHjkNv+neEh1Ai02I7WN0DGmMlNZmUuoLsRhBZDEJ3MDEnf4QtGdb3fw5g6l3mIQ27Gh87Q8/Q6RCdWDdzK2uz4hubZSqjXVQc4FiSJHY1qMh1UCZI4T3xuFBx6+l/KutRV6tUWdbXwt0g4SRJJeI0V8qe9EC+fpjSK1cNrDPMaU3s31xCdqOVfDrdJghRHVPDuBrlb1XFIxu+GlonAIdiEDM2LwHxESzJb7cR6lB9UBP05naqYKVjnuPup0+GY19WqtXtz8Ij5CDGAwEm85HJsIfYjJptuL6QYPzMUQIDAQAB
+mail.events: # leo@hackclub.com
+  ttl: 300
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
 mail.tilde:
 - ttl: 300
   type: MX
@@ -4176,6 +4192,10 @@ panorama:
   ttl: 300
   type: CNAME
   value: panorama-countdown.pages.dev.
+paradox: #dhamari@hackclub.com
+  ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
 parcel-pyxis:
 - octodns:
     cloudflare:
@@ -4367,6 +4387,10 @@ pm-bounces: # Priate Ship's Return Path verification (Postmark)
   ttl: 300
   type: CNAME
   value: pm.mtasv.net.
+pm-bounces.horizons: # U07BLJ1MBEE
+  ttl: 300
+  type: CNAME
+  value: pm.mtasv.net.
 prc:
 - ttl: 300
   type: A
@@ -4443,7 +4467,7 @@ puyallup:
 - ttl: 600
   type: TXT
   value: v=spf1 include:spf.improvmx.com ~all
-pxl: # olive@hackclub.com #U07BN55GN3D
+pxl: # euan@hackclub.com #U06T30DNB3L
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
@@ -4868,6 +4892,10 @@ sign:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+sign.events:
+  ttl: 300
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
 signature:
   ttl: 300
   type: CNAME
