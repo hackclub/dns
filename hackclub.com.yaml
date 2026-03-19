@@ -128,6 +128,10 @@ a.selfhosted:
   ttl: 300
   type: CNAME
   value: static.52.100.161.5.clients.your-server.de.
+ticketing.infra:
+  ttl: 300
+  type: CNAME
+  value: a.limited.selfhosted.hackclub.com.
 coolify.limited.selfhosted:
   ttl: 300
   type: CNAME
