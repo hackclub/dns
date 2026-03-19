@@ -148,7 +148,12 @@ betterwork-ai: # by https://heramb0x1.github.io/betterwork-ai
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
-  
+
+bin: # by U07FD57JN67 (adi // pizzalover125)
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
+
 boxed: # U08PUHSMW4V 
   ttl: 600
   type: CNAME
