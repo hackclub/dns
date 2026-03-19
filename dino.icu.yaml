@@ -788,7 +788,6 @@ social:
   ttl: 600
   type: CNAME
   value: mastodon.hackclub.app.
-  
 solvable:
   ttl: 600
   type: CNAME
