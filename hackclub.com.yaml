@@ -4892,6 +4892,10 @@ sign:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+sign.events:
+  ttl: 300
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
 signature:
   ttl: 300
   type: CNAME
