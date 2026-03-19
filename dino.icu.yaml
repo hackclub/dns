@@ -362,7 +362,7 @@ geta: # yoda - https://getadinoicu.yodacode.repl.co/dino.png - get a dino from h
 goship: # BnaJns - U08R49H9VRV
   ttl: 600
   type: CNAME
-  value: server.bnajns.dev.
+  value: 9668ee3a-6747-4432-b299-f6af338be047.cfargotunnel.com.
   
 hackbox: # Aron - U0A3HLREX29
 - ttl: 600
