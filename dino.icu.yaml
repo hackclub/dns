@@ -671,6 +671,11 @@ reforge: # anantparikh014@gmail.com [U0A9V5E6945] | Reforge YSWS
   type: CNAME
   value: cname.vercel-dns.com.
 
+render: # samuelessemail@gmail.com [U0A9V5E6945] | Render
+  ttl: 600
+  type: A
+  value: 216.198.79.1
+
 richit: # bhatrichit0@gmail.com U0A3VK4GFRN - It is my calendly website. just for fun
   - ttl: 600
     type: A
