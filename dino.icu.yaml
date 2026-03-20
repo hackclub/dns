@@ -169,6 +169,11 @@ cad: # by https://github.com/leecheeyong/community-widgets
   type: CNAME
   value: cname.vercel-dns.com.
   
+carto: # cyrils.li@icloud.com U07FXPUDYDC
+  ttl: 600
+  type: CNAME
+  value: cyrilsli.github.io.
+
 camp: # jenin@hackclub.com 
   ttl: 600
   type: CNAME
