@@ -4479,6 +4479,13 @@ pyramid:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+quarry: #jhamb.aarav@gmail.com #U07UK4S94KC
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 q6vh4lhupwotqenjf4s4ygzyhir3e5ii._domainkey:
   ttl: 300
   type: CNAME
