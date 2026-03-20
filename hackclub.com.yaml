@@ -2812,6 +2812,10 @@ hackcraft:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+lumen.hackcraft:
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 botfights.hackcraft: # christian on slack U0938MZG8Q6 event under felix
   ttl: 300
   type: CNAME
