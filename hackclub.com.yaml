@@ -4497,7 +4497,7 @@ qxzidlw3degr5ejxptxl5755zlix7hwc._domainkey.staging.hcb: # HCB Staging SES DKIM
 quarry: #jhamb.aarav@gmail.com #U07UK4S94KC or nathan@hackclub.com
 - octodns:
     cloudflare:
-    proxied: true
+      proxied: true
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
