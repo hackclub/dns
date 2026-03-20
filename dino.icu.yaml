@@ -52,6 +52,11 @@
 #   type: CNAME
 #   value: cname.vercel-dns.com.
 
+8-bit: # narangswarit02@gmail.com Swarit Narang // hellonearth311
+  - ttl: 600
+    type: A
+    value: 216.198.79.1
+
 ai:                       # Suprised no one took this yet!
  - ttl: 600               # + AI
    type: CNAME            # https://github.com/elijah629/web2050,
@@ -1064,8 +1069,4 @@ willgob: # williamnumismatics@gmail.com
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
-8-bit: # narangswarit02@gmail.com Swarit Narang // hellonearth311
-  - ttl: 600
-    type: A
-    value: 216.198.79.1
 
