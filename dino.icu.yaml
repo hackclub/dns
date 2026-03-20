@@ -643,6 +643,11 @@ periodic:
    ttl: 600
    type: CNAME
    value: leecheeyong.github.io.
+
+playground3D:
+   ttl: 600
+   type: CNAME
+   value: https://88username88.github.io/3Dplayground/
    
 piyush:
    ttl: 600
