@@ -635,6 +635,11 @@ osu: # nightfall/dainfloop: contact via slack @nightfall [U07KVMBHH4L]
     values: 
       - domain-verification=rana
 
+out-to-c: # out to c by @iris [U098P9DLUGJ]
+  ttl: 600
+  type: CNAME
+  value: ingobeans.github.io.
+
 overflow:
   ttl: 600
   type: CNAME
