@@ -2812,7 +2812,7 @@ hackcraft:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-lumen.hackcraft:
+lumen.hackcraft: # ascpixi@hackclub.com U082DPCGPST
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
