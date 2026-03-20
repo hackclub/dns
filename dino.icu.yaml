@@ -641,7 +641,6 @@ qr: # A hack club themed QR code generator
   type: CNAME
   value: felixgao.hackclub.app.
 
-
 racked: # Jan Koch (jan.koch@hexagonical.ch or <@U087PR1B2HX> on the slack)
   - ttl: 600
     type: CNAME
@@ -651,7 +650,6 @@ reforge: # anantparikh014@gmail.com [U0A9V5E6945] | Reforge YSWS
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
-
 
 richit: # bhatrichit0@gmail.com U0A3VK4GFRN - It is my calendly website. just for fun
   - ttl: 600
