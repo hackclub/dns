@@ -174,6 +174,11 @@ maya: # maya.l.hazarika@gmail.com U08SWBK3G64
   type: CNAME
   value: canvas-m.vercel.app.
   
+carto: # cyrils.li@icloud.com U07FXPUDYDC
+  ttl: 600
+  type: CNAME
+  value: cyrilsli.github.io.
+
 camp: # jenin@hackclub.com 
   ttl: 600
   type: CNAME
@@ -206,8 +211,8 @@ chess: # by https://github.com/leecheeyong/chinese-chess
 
 cipher: # rupnil.mondal2+hackclub@gmail.com; Rupnil Codes, slack: U0A4UTULSLE
   - ttl: 600
-    type: CNAME
-    value: cname.vercel-dns.com.
+    type: A
+    value: 216.198.79.1
   
 click: # a URL shortener
   ttl: 600
@@ -496,6 +501,11 @@ la: # Laker Turner's links page - @lxjv or @la / @laker in the slack
   ttl: 600 
   type: CNAME 
   value: laker.omg.lol.
+
+levelzero: # @arjav0703 (gh) - ysws website
+  ttl: 600
+  type: A
+  value: 216.198.79.1
   
 low-ping: # roblox low ping finder site thingy; by https://github.com/lem6ns
   ttl: 600
@@ -630,6 +640,11 @@ osu: # nightfall/dainfloop: contact via slack @nightfall [U07KVMBHH4L]
     values: 
       - domain-verification=rana
 
+out-to-c: # out to c by @iris [U098P9DLUGJ]
+  ttl: 600
+  type: CNAME
+  value: ingobeans.github.io.
+
 overflow:
   ttl: 600
   type: CNAME
@@ -671,10 +686,20 @@ qr: # A hack club themed QR code generator
   type: CNAME
   value: felixgao.hackclub.app.
 
+racked: # Jan Koch (jan.koch@hexagonical.ch or <@U087PR1B2HX> on the slack)
+  - ttl: 600
+    type: CNAME
+    value: hexagonical.xyz.
+
 reforge: # anantparikh014@gmail.com [U0A9V5E6945] | Reforge YSWS
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+
+render: # samuelessemail@gmail.com -  Render
+  ttl: 600
+  type: A
+  value: 216.198.79.1
 
 richit: # bhatrichit0@gmail.com U0A3VK4GFRN - It is my calendly website. just for fun
   - ttl: 600
@@ -873,6 +898,11 @@ toonnongaeoy:
  - ttl: 600
    type: CNAME
    value: storyhouseproduction.duckdns.org.
+
+typeline: # mihranrazaa@gmail.com
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 
 uplink: # benvaccaro@Proton.me
   - ttl: 600
