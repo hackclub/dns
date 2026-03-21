@@ -587,6 +587,16 @@ monty: # contact via adelinmihai071@gmail.com
   type: CNAME
   value: cname.vercel-dns.com.
 
+_github-pages-challenge-CattacoCattaco.mutate:
+  ttl: 600
+  type: TXT
+  value: 69b4c74ea3da3c12161efd2ce086fd
+
+mutate: # Pookstir U095D212WC8
+  - ttl: 600
+    type: CNAME
+    value: cattacocattaco.github.io.
+
 niilas: # Niilas - repo: https://github.com/niilasoika/niilas.dino.icu
   ttl: 600
   type: CNAME
