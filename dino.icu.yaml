@@ -62,7 +62,7 @@ ai:                       # Suprised no one took this yet!
    type: CNAME            # https://github.com/elijah629/web2050,
    value: e.hackclub.app. # > the internet except everything is and was vibe coded 
 
-airborne:
+airborne: # by U0807ADEC6L // @Manan
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
