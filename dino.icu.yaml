@@ -63,7 +63,7 @@ ai:                       # Suprised no one took this yet!
    value: e.hackclub.app. # > the internet except everything is and was vibe coded 
 
 
-   
+
 ajhalili2006: # by https://github.com/ajhalili2006 via https://github.com/andreijiroh-dev/website
   - ttl: 600
     type: A
@@ -148,7 +148,7 @@ automake: # obagaming@gmail.com U0A1G9F445D
 builders-club : # turtlesy1234@gmail.com (U0AM2DYC3FB)
  - ttl: 600
    type: CNAME # https://github.com/turg13r/builders-club
-   value: https://builders-club-henna.vercel.app/
+   value: builders-club-henna.vercel.app/
 
 baguette: # blog
   ttl: 600
