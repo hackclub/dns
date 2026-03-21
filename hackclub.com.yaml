@@ -4528,6 +4528,10 @@ recapsule: # tongyu@hackclub.com U07DJMFAQQP
   ttl: 300
   type: CNAME
   value: 62c32438c89e0c3f.vercel-dns-016.com.
+redream: # zachnoahstein@gmail.com U080Y31KUE7
+  ttl: 300
+  type: CNAME
+  value: re-dream.vercel.app
 redwood.scrapbook:
   ttl: 300
   type: CNAME
