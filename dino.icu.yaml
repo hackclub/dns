@@ -817,12 +817,8 @@ shipathon: # christian U0938MZG8Q6
 
 shipwreck: # kanak227 YSWS program
   ttl: 600
-  type: A
-  values:
-    - 185.199.108.153
-    - 185.199.109.153
-    - 185.199.110.153
-    - 185.199.111.153
+  type: CNAME
+  value: kanak227.github.io.
 
 short: # short.dino.icu; by kunal botla (.com)
   ttl: 600
