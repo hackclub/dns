@@ -815,6 +815,15 @@ shipathon: # christian U0938MZG8Q6
     type: A
     value: 216.198.79.1
 
+shipwreck: # kanak227 YSWS program
+  ttl: 600
+  type: A
+  values:
+    - 185.199.108.153
+    - 185.199.109.153
+    - 185.199.110.153
+    - 185.199.111.153
+
 short: # short.dino.icu; by kunal botla (.com)
   ttl: 600
   type: CNAME
