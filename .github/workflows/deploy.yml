@@ -6,6 +6,10 @@ on:
     branches:
       - main
 
+concurrency:
+  group: deploy-dns
+  cancel-in-progress: false
+
 jobs:
   octodns:
     runs-on: ubuntu-latest
