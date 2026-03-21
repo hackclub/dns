@@ -674,7 +674,7 @@ periodic:
 premier:
   ttl: 600
   type: CNAME
-  value: https://mntrushmore.github.io/Premiere.
+  value: mntrushmore.github.io.
    
 piyush:
    ttl: 600
