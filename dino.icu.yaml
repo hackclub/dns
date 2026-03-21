@@ -670,6 +670,11 @@ periodic:
    ttl: 600
    type: CNAME
    value: leecheeyong.github.io.
+
+premier:
+  ttl: 600
+  type: CNAME
+  value: https://mntrushmore.github.io/Premiere.
    
 piyush:
    ttl: 600
