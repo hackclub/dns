@@ -4498,13 +4498,13 @@ qxzidlw3degr5ejxptxl5755zlix7hwc._domainkey.staging.hcb: # HCB Staging SES DKIM
   ttl: 300
   type: CNAME
   value: qxzidlw3degr5ejxptxl5755zlix7hwc.dkim.amazonses.com.
-quarry: #jhamb.aarav@gmail.com #U07UK4S94KC or nathan@hackclub.com
+quarry: # nathan@hackclub.com U05EZRFKRV4
 - octodns:
     cloudflare:
       proxied: true
   ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: b.selfhosted.hackclub.com.
 raincloud:
 - ttl: 300
   type: CNAME
