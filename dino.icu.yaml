@@ -67,6 +67,7 @@ airborne: # by U0807ADEC6L // @Manan
     type: CNAME
     value: cname.vercel-dns.com.
 
+
 ajhalili2006: # by https://github.com/ajhalili2006 via https://github.com/andreijiroh-dev/website
   - ttl: 600
     type: A
@@ -147,6 +148,11 @@ automake: # obagaming@gmail.com U0A1G9F445D
   - ttl: 600
     type: A
     value: 216.198.79.1
+
+builders-club : # turtlesy1234@gmail.com (U0AM2DYC3FB)
+ - ttl: 600
+   type: CNAME # https://github.com/turg13r/builders-club
+   value: builders-club-henna.vercel.app/
 
 baguette: # blog
   ttl: 600
