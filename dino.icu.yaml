@@ -701,10 +701,10 @@ racked: # Jan Koch (jan.koch@hexagonical.ch or <@U087PR1B2HX> on the slack)
     type: CNAME
     value: hexagonical.xyz.
 
-redream: # zachnoahstein@gmail.com U080Y31KUE7
+re-dream: # zachnoahstein@gmail.com U080Y31KUE7
   ttl: 300
   type: CNAME
-  value: re-dream.vercel-dns.com.
+  value: cname.vercel-dns.com.
   
 reforge: # anantparikh014@gmail.com [U0A9V5E6945] | Reforge YSWS
   ttl: 600
