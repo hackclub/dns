@@ -850,6 +850,11 @@ sk: # sk.dino.icu unofficial hackclub sharkey instance
   type: CNAME
   value: vic.hackclub.app.
 
+spectrum: # U06FG6G6SNL
+  - ttl: 600
+    type: CNAME
+    value: spectrum.thetridentguy.com.
+
 # spend hq's money
 spend:
   - ttl: 600
