@@ -65,7 +65,7 @@ ai: # Suprised no one took this yet!
 airborne:
   - ttl: 600
     type: CNAME
-    value: airborne-five.vercel.app.
+    value: cname.vercel-dns.com.
 
 ajhalili2006: # by https://github.com/ajhalili2006 via https://github.com/andreijiroh-dev/website
   - ttl: 600
