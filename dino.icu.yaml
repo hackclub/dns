@@ -217,7 +217,7 @@ channle: # by https://github.com/cjdenio
 chatroom: #U0928R2L93R @blowupthenoobs I hope I did this right, lol
   - ttl: 600
     type: CNAME
-    value: chatroom-ysws.netlify.app
+    value: chatroom-ysws.netlify.app.
 
 chess: # by https://github.com/leecheeyong/chinese-chess
   ttl: 600
