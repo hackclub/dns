@@ -1080,7 +1080,7 @@ willgob: # williamnumismatics@gmail.com
     type: CNAME
     value: cname.vercel-dns.com.
 
-zoneout: # kilecraft90@gmail.com/@Kuzu in slack
+zoneout: # kilecraft90@gmail.com U08GCDHM0QZ
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
