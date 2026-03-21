@@ -214,7 +214,7 @@ channle: # by https://github.com/cjdenio
   type: CNAME
   value: channle.netlify.app.
 
-chatroom: #U0928R2L93R @blowupthenoobs I hope I did this right, lol
+chatroom: # U0928R2L93R
   - ttl: 600
     type: CNAME
     value: chatroom-ysws.netlify.app.
