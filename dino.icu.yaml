@@ -1017,6 +1017,11 @@ waffle:
     type: CNAME
     value: ewoudweb.netlify.app.
 
+wavelength: # U04DNS0LAM9
+  ttl: 600
+  type: A
+  value: 216.198.79.1
+
 weather:
   - ttl: 600
     type: CNAME
