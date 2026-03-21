@@ -1083,4 +1083,4 @@ willgob: # williamnumismatics@gmail.com
 zoneout: # kilecraft90@gmail.com/@Kuzu in slack
   - ttl: 600
     type: CNAME
-    value: https://zoneout-ysws.vercel.app/
+    value: cname.vercel-dns.com.
