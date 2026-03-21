@@ -1079,3 +1079,7 @@ willgob: # williamnumismatics@gmail.com
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+jugaad: # aryan17550@gmail.com U...
+  - ttl: 600
+    type: CNAME
+    value: aryan-git-byte.github.io.
