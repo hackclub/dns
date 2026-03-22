@@ -6038,3 +6038,12 @@ vote.daydream:
   ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
+ahmadsiddique: # me@ahmadsiddique.dev 
+  - ttl: 600
+    type: CNAME
+    value: fd9d319e568a4940.vercel-dns-017.com.
+    _vercel:
+    ttl: 600
+    type: TXT
+    values:
+      - vc-domain-verify=ahmadsiddique.hackclub.com,1588f5c8163aa64938e8
