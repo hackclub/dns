@@ -322,11 +322,6 @@ diafano: # cfanoulis/diafano-hackclub
   ttl: 600
   type: A
   value: 76.76.21.21
-
-discrete: # firestxrmx@gmail.com U091J3R7GAC
-  ttl: 600
-  type: CNAME
-  value: firestorm108.github.io.
   
 doruk: 
   ttl: 600 
@@ -432,7 +427,12 @@ hacktive: # Origamibooklover@gmail.com
   - ttl: 600
     type: CNAME
     value: vrhshacktive.github.io.
-
+    
+hackingturing: # github.com/daviportoizabel
+- ttl: 600
+  type: CNAME
+  value: https://daviportoizabel.github.io.
+  
 hackxpansion: # koeglike@proton.me
   ttl: 600
   type: CNAME
