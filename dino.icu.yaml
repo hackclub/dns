@@ -188,6 +188,11 @@ cad: # by https://github.com/leecheeyong/community-widgets
   type: CNAME
   value: cname.vercel-dns.com.
 
+calculate: # candyisakat@gmail.com U082PKSD15L
+  - ttl: 600
+    type: A
+    value: 216.198.79.1
+
 canvas: # maya.l.hazarika@gmail.com U08SWBK3G64
   ttl: 600
   type: CNAME
