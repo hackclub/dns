@@ -52,6 +52,11 @@
 #   type: CNAME
 #   value: cname.vercel-dns.com.
 
+  glitch: # Ahmed // Glitch the Internet YSWS - ahmedmfarouk125@gmail.com
+  - ttl: 600
+    type: CNAME
+    value: https://glitch-mu.vercel.app
+    
 8-bit: # narangswarit02@gmail.com Swarit Narang // hellonearth311
   - ttl: 600
     type: A
