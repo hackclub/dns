@@ -495,6 +495,11 @@ javier: # by https://github.com/J-cordz - my personal hack club scrapbook
    ttl: 600
    type: CNAME
    value: cname.vercel-dns.com.
+
+jugaad: # aryan17550@gmail.com
+  - ttl: 600
+    type: CNAME
+    value: aryan-git-byte.github.io.
    
 jzaleta: # Javi's twitter redirect
    ttl: 600
