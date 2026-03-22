@@ -431,7 +431,7 @@ hacktive: # Origamibooklover@gmail.com
 hackingturing: # github.com/daviportoizabel
 - ttl: 600
   type: CNAME
-  value: https://daviportoizabel.github.io.
+  value: daviportoizabel.github.io.
   
 hackxpansion: # koeglike@proton.me
   ttl: 600
