@@ -520,6 +520,21 @@ blog.kashyap: # by @kashsuks (U084D1T5ZV0) for blog site
   type: CNAME
   value: kashyapblog.netlify.app.
 
+_acme-challenge.knockoff: # mail@ketrax.ovh
+  - ttl: 600
+    type: CNAME
+    value: knockoff.dino.icu.3fc0d96452eae804.dcv.cloudflare.com.
+
+_cf-custom-hostname.knockoff: # mail@ketrax.ovh
+  - ttl: 600
+    type: TXT
+    value: 222225fa-6cfb-4e40-9cc9-23f1d83b8765
+
+knockoff: # mail@ketrax.ovh
+  - ttl: 600
+    type: CNAME
+    value: reflex.run.
+
 krish: # @krishstwt
    ttl: 600
    type: NS
