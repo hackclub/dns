@@ -46,10 +46,6 @@ slashz:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-hackai:
-  - ttl: 600
-    type: CNAME
-    value: https://hc-hack-ai.vercel.app/
 siliconplane:
 - octodns:
     cloudflare:
