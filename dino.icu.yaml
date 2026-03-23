@@ -530,6 +530,11 @@ blog.kashyap: # by @kashsuks (U084D1T5ZV0) for blog site
   type: CNAME
   value: kashyapblog.netlify.app.
 
+kludge: # keamlakk@gmail.com | aka U0AHYTJVCKW
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
+
 _acme-challenge.knockoff: # mail@ketrax.ovh
   - ttl: 600
     type: CNAME
