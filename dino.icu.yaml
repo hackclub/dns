@@ -300,6 +300,11 @@ dast: # by https://github.com/danielsebesta
   type: A
   value: 194.163.149.155
 
+deskbot: # by https://github.com/R-driste for https://github.com/R-driste/DeskBot and https://deskbotwebsite.vercel.app/
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
+
 dev-email:
 - ttl: 600
   type: MX
