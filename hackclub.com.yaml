@@ -2784,6 +2784,13 @@ hackatime:
   ttl: 300
   type: CNAME
   value: hackatime.limited.selfhosted.hackclub.com.
+beta.hackatime: # mahad@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: hackatime.limited.selfhosted.hackclub.com.
 hackatime-badge:
 - ttl: 300
   type: CNAME
