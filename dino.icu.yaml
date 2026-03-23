@@ -520,7 +520,7 @@ blog.kashyap: # by @kashsuks (U084D1T5ZV0) for blog site
   type: CNAME
   value: kashyapblog.netlify.app.
 
-kludge: # https://github.com/Keamlak08/kludge
+kludge: # keamlakk@gmail.com | aka U0AHYTJVCKW
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
@@ -641,6 +641,11 @@ mutate: # Pookstir U095D212WC8
     type: CNAME
     value: cattacocattaco.github.io.
 
+mysphere: # U081RF7D23D
+  ttl: 600
+  type: CNAME
+  value: mh-wah.github.io.
+  
 niilas: # Niilas - repo: https://github.com/niilasoika/niilas.dino.icu
   ttl: 600
   type: CNAME
