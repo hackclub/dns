@@ -3046,6 +3046,10 @@ hersey:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+heist:
+  - ttl: 300
+    type: CNAME
+    value: heist-chi-two.vercel.app.
 highway:
 - octodns:
     cloudflare:
