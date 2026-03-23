@@ -1146,6 +1146,10 @@ beat: #alexvd@hackclub.com
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+beest: #euan@hackclub.com
+  - ttl: 300
+    type: CNAME
+    value: b.selfhosted.hackclub.com.
 berkeley:
 - ttl: 300
   type: CNAME
