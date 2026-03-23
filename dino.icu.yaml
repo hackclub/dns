@@ -432,7 +432,7 @@ hacktive: # Origamibooklover@gmail.com
   - ttl: 600
     type: CNAME
     value: vrhshacktive.github.io.
-hackingturing: # davipizabel@gmail
+hackingturing: # davipizabel@gmail.com
 - ttl: 600
   type: CNAME
   value: daviportoizabel.github.io.
