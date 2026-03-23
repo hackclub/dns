@@ -4611,6 +4611,10 @@ remix:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+remixed: # ascpixi@hackclub.com U082DPCGPST
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 revoke: # nora@
   ttl: 300
   type: CNAME
