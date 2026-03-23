@@ -339,7 +339,7 @@ e: # drawing app - by https://github.com/sporeball
   value: sporeball.github.io.
   
 emojile: # wordle with slack emojis - https://github.com/yodalightsabr/emojile
-- ttl: 600
+  ttl: 600
   type: CNAME
   value: yodalightsabr.github.io.
 
