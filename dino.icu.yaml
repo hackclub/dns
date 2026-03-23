@@ -322,6 +322,11 @@ diafano: # cfanoulis/diafano-hackclub
   ttl: 600
   type: A
   value: 76.76.21.21
+
+  discrete: # firestxrmx@gmail.com U091J3R7GAC
+  ttl: 600
+  type: CNAME
+  value: firestorm108.github.io.
   
 doruk: 
   ttl: 600 
@@ -334,7 +339,7 @@ e: # drawing app - by https://github.com/sporeball
   value: sporeball.github.io.
   
 emojile: # wordle with slack emojis - https://github.com/yodalightsabr/emojile
-  ttl: 600
+- ttl: 600
   type: CNAME
   value: yodalightsabr.github.io.
 
