@@ -827,7 +827,7 @@ authly:
 forge:
 - ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a.selfhosted.hackclub.com.
 firehose:
 - ttl: 300
   type: CNAME
