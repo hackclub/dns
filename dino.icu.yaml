@@ -323,7 +323,7 @@ diafano: # cfanoulis/diafano-hackclub
   type: A
   value: 76.76.21.21
 
-  discrete: # firestxrmx@gmail.com U091J3R7GAC
+discrete: # firestxrmx@gmail.com U091J3R7GAC
   ttl: 600
   type: CNAME
   value: firestorm108.github.io.
