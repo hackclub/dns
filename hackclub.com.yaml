@@ -2101,6 +2101,10 @@ editor.sprig:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+ee:
+  ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
 el:
   ttl: 300
   type: CNAME
