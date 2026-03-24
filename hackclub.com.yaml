@@ -2585,7 +2585,7 @@ playlist.gaither:
 gamblorpheus: # amber / U054VC2KM9P
   ttl: 300
   type: CNAME
-  value: cooked.selfhosted.hackclub.com.
+  value: a.selfhosted.hackclub.com.
 gas:
   ttl: 300
   type: CNAME
