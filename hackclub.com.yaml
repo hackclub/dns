@@ -2582,6 +2582,10 @@ playlist.gaither:
   ttl: 300
   type: CNAME
   value: samuel.hackclub.app.
+gamblorpheus: # amber / U054VC2KM9P
+  ttl: 300
+  type: CNAME
+  value: cooked.selfhosted.hackclub.com.
 gas:
   ttl: 300
   type: CNAME
