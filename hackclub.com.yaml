@@ -3918,6 +3918,8 @@ newcanaanlib:
   value: cname.vercel-dns.com.
 news: # explanation - news is the user-facing domain, newspaper is for internal stuff (very confusing i know :pf:)
 - octodns:
+    cloudflare:
+      proxied: true
     lenient: true
   ttl: 600
   type: ALIAS
