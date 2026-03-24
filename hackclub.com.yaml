@@ -5483,9 +5483,6 @@ trailit: # U091DE0M4NB
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-  type: TXT
-  value: vc-domain-verify=trailit.hackclub.com,945360ddfae512ea887e
-  
 training: # leo@hackclub.com U07BLJ1MBEE
   ttl: 300
   type: CNAME
