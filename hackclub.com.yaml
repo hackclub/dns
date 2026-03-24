@@ -5480,9 +5480,12 @@ tracking:
   type: CNAME
   value: shiprocket.co.
 trailit: # U091DE0M4NB
+  octodns:
+    cloudflare:
+      proxied: true
   ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 6d37ca718128ed03.vercel-dns-016.com.
 training: # leo@hackclub.com U07BLJ1MBEE
   ttl: 300
   type: CNAME
