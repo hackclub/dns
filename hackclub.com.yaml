@@ -5482,7 +5482,7 @@ tracking:
 trailit: # U091DE0M4NB
   ttl: 300
   type: CNAME
-  value: b.selfhosted.hackclub.com.
+  value: cname.vercel-dns.com.
 training: # leo@hackclub.com U07BLJ1MBEE
   ttl: 300
   type: CNAME
