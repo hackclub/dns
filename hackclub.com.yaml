@@ -1220,8 +1220,8 @@ blueprint: # @Jay U08AA6HA82F
     cloudflare:
       proxied: true
   ttl: 300
-  type: CNAME
-  value: a.selfhosted.hackclub.com.
+  type: A
+  value: 5.161.100.52
 - ttl: 3600
   type: TXT
   values:
