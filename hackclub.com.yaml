@@ -1215,13 +1215,31 @@ blinky: # @CAN
 - ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-blueprint:
+blueprint: # @Jay U08AA6HA82F
 - octodns:
     cloudflare:
       proxied: true
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+- ttl: 3600
+  type: TXT
+  values:
+  - google-site-verification=ixQvxpdofpawHZyu3IOW_GsfiqYd8Qx-56J7UypZ09M
+  - v=spf1 include:_spf.google.com ~all
+- ttl: 3600
+  type: MX
+  values:
+  - exchange: aspmx.l.google.com.
+    preference: 1
+  - exchange: alt1.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt2.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt3.aspmx.l.google.com.
+    preference: 10
+  - exchange: alt4.aspmx.l.google.com.
+    preference: 10
 badge: # leo@hackclub.com U07BLJ1MBEE
 - octodns:
     cloudflare:
