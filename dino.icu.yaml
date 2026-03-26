@@ -653,7 +653,7 @@ midnight-status: #DragonSenseiGuy U09H4M0523Z : https://github.com/dragonSenseiG
 mindmaze: # ssamadmiryam@gmail.com
   ttl: 600
   type: CNAME
-  value: melsamad.github.io
+  value: melsamad.github.io.
 
 mindson: # by rajan
   ttl: 600
