@@ -258,6 +258,11 @@ codingcrew: # by https://github.com/shim-sham
   type: CNAME
   value: lustrous-ganache-dbb807.netlify.app. 
 
+commbadge:
+  ttl: 600
+  type: CNAME
+  value: miracl3max.duckdns.org.
+
 constrained: # funkeudo@outlook.com U0A03GWFP1V
   - ttl: 600
     type: A
