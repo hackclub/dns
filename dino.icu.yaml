@@ -258,7 +258,7 @@ codingcrew: # by https://github.com/shim-sham
   type: CNAME
   value: lustrous-ganache-dbb807.netlify.app. 
 
-commbadge:
+commbadge: # hpscigeek@gmail.com https://github.com/nerdwithcomputers slack: U04BG2HB5UK
   ttl: 600
   type: CNAME
   value: miracl3max.duckdns.org.
