@@ -1247,5 +1247,3 @@ zoneout: # kilecraft90@gmail.com U08GCDHM0QZ
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
-
-  
