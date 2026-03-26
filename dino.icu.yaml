@@ -650,6 +650,11 @@ midnight-status: #DragonSenseiGuy U09H4M0523Z : https://github.com/dragonSenseiG
   type: A
   value: 77.90.16.198
 
+mindmaze: # ssamadmiryam@gmail.com
+  ttl: 600
+  type: CNAME
+  value: melsamad.github.io
+
 mindson: # by rajan
   ttl: 600
   type: CNAME
@@ -1242,3 +1247,5 @@ zoneout: # kilecraft90@gmail.com U08GCDHM0QZ
   - ttl: 600
     type: CNAME
     value: cname.vercel-dns.com.
+
+  
