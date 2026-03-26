@@ -577,7 +577,6 @@ _vercel:
   - vc-domain-verify=poolesville.hackclub.com,d8099895eaea670eec60
   - vc-domain-verify=pomperaug.hackclub.com,115cd4582efb1a6a1d63
   - vc-domain-verify=puyallup.hackclub.com,ee486cad685cefa12fa6
-  - vc-domain-verify=raspapi.hackclub.com,9efbc48bf594bc9528cb
   - vc-domain-verify=reactive.hackclub.com,dcd146599f4ae3bc6822
   - vc-domain-verify=recapsule.hackclub.com,a58e0d535c6177f43804
   - vc-domain-verify=reflow.hackclub.com,cc069e8cdf1c55762e13
@@ -1216,13 +1215,31 @@ blinky: # @CAN
 - ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-blueprint:
+blueprint: # @Jay U08AA6HA82F
 - octodns:
     cloudflare:
       proxied: true
   ttl: 300
-  type: CNAME
-  value: a.selfhosted.hackclub.com.
+  type: A
+  value: 5.161.100.52
+- ttl: 3600
+  type: TXT
+  values:
+  - google-site-verification=ixQvxpdofpawHZyu3IOW_GsfiqYd8Qx-56J7UypZ09M
+  - v=spf1 include:_spf.google.com ~all
+- ttl: 3600
+  type: MX
+  values:
+  - exchange: aspmx.l.google.com.
+    preference: 1
+  - exchange: alt1.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt2.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt3.aspmx.l.google.com.
+    preference: 10
+  - exchange: alt4.aspmx.l.google.com.
+    preference: 10
 badge: # leo@hackclub.com U07BLJ1MBEE
 - octodns:
     cloudflare:
@@ -4544,10 +4561,10 @@ railway:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-raspapi:
+raspapi: # U08PUHSMW4V
 - ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a.selfhosted.hackclub.com.
 raspite:
 - ttl: 300
   type: CNAME
