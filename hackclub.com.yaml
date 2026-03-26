@@ -1055,7 +1055,7 @@ axiom: # tanjimkamal1@gmail.com U09ASUK57K8 # Axiom YSWS: #axiom on Slack
 az:
 - ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a05569dabb46ea5b.vercel-dns-016.com.
 b2b:
 - ttl: 300
   type: CNAME
@@ -1254,7 +1254,7 @@ badge.blueprint: # U06CRF4DLSU
 bn:
 - ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a05569dabb46ea5b.vercel-dns-016.com.
 boba:
 - ttl: 300
   type: CNAME
@@ -1954,7 +1954,7 @@ zv7a5yfkgcbmhnx6umera6dxpslsvykm._domainkey:
 de:
 - ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a05569dabb46ea5b.vercel-dns-016.com.
 dear-joe:
 - ttl: 300
   type: CNAME
@@ -2121,7 +2121,7 @@ editor.sprig:
 ee:
   ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a05569dabb46ea5b.vercel-dns-016.com.
 el:
   ttl: 300
   type: CNAME
