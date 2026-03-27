@@ -1055,7 +1055,7 @@ axiom: # tanjimkamal1@gmail.com U09ASUK57K8 # Axiom YSWS: #axiom on Slack
 az:
 - ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a05569dabb46ea5b.vercel-dns-016.com.
 b2b:
 - ttl: 300
   type: CNAME
@@ -1254,7 +1254,7 @@ badge.blueprint: # U06CRF4DLSU
 bn:
 - ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a05569dabb46ea5b.vercel-dns-016.com.
 boba:
 - ttl: 300
   type: CNAME
@@ -1954,7 +1954,7 @@ zv7a5yfkgcbmhnx6umera6dxpslsvykm._domainkey:
 de:
 - ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a05569dabb46ea5b.vercel-dns-016.com.
 dear-joe:
 - ttl: 300
   type: CNAME
@@ -2118,10 +2118,14 @@ editor.sprig:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+ee:
+  ttl: 300
+  type: CNAME
+  value: a05569dabb46ea5b.vercel-dns-016.com.
 el:
   ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a05569dabb46ea5b.vercel-dns-016.com.
 em4440: # SendGrid Sender Authentication (bank@hackclub.com)
   ttl: 300
   type: CNAME
@@ -2193,8 +2197,8 @@ eventmasterapi:
   value: reticulated-journey-r4a6es43tvz06y6xob26ki8j.herokudns.com.
 es:
 - ttl: 300
-  type: A
-  value: 76.76.21.21
+  type: CNAME
+  value: a05569dabb46ea5b.vercel-dns-016.com.
 epoch:
 - octodns:
     lenient: true
@@ -2336,7 +2340,7 @@ f5qsmeu4qwef4yvo2p6e4a4vrspzdqdc._domainkey:
 fa:
 - ttl: 1
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a05569dabb46ea5b.vercel-dns-016.com.
 fab:
 - ttl: 300
   type: CNAME
@@ -2531,7 +2535,7 @@ forms.phs:
 fr:
 - ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a05569dabb46ea5b.vercel-dns-016.com.
 frankensite: #jared@hackclub.com
 - ttl: 300
   type: CNAME
@@ -2539,7 +2543,7 @@ frankensite: #jared@hackclub.com
 rw:
 - ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a05569dabb46ea5b.vercel-dns-016.com.
 fraps:
 - ttl: 300
   type: CNAME
@@ -3095,7 +3099,7 @@ hillsdale:
 hi:
 - ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a05569dabb46ea5b.vercel-dns-016.com.
 hijack:
 - ttl: 300
   type: CNAME
@@ -3187,7 +3191,7 @@ icons:
 id:
 - ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a05569dabb46ea5b.vercel-dns-016.com.
 id.assemble:
   ttl: 300
   type: CNAME
@@ -3274,7 +3278,7 @@ island:
 it:
 - ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a05569dabb46ea5b.vercel-dns-016.com.
 italia:
   ttl: 300
   type: A
@@ -3286,7 +3290,7 @@ iter:
 ja:
 - ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a05569dabb46ea5b.vercel-dns-016.com.
 jagiellonbitbrewers:
 - ttl: 300
   type: CNAME
@@ -3445,7 +3449,7 @@ knit:
 kr:
   ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a05569dabb46ea5b.vercel-dns-016.com.
 ko:
   ttl: 300
   type: CNAME
@@ -3833,7 +3837,7 @@ music.assemble:
 ms:
 - ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a05569dabb46ea5b.vercel-dns-016.com.
 msft:
 - ttl: 300
   type: TXT
@@ -4216,7 +4220,7 @@ p2p:
 pa:
 - ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a05569dabb46ea5b.vercel-dns-016.com.
 pack:
   ttl: 300
   type: CNAME
@@ -4360,7 +4364,7 @@ pixeldust:
 pl:
   ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a05569dabb46ea5b.vercel-dns-016.com.
 place:
   ttl: 300
   type: A
@@ -5486,7 +5490,7 @@ toybox:
 tr:
   ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a05569dabb46ea5b.vercel-dns-016.com.
 trace: # aarav@fraud.land U07UK4S94KC
 - octodns:
     cloudflare:
@@ -5554,7 +5558,7 @@ uet:
 uk:
 - ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a05569dabb46ea5b.vercel-dns-016.com.
 undercity:
 - ttl: 300
   type: CNAME
@@ -5584,7 +5588,7 @@ uqq467l64nnf3dyo6omjcjmcc3dmdqlb._domainkey:
 ur:
 - ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a05569dabb46ea5b.vercel-dns-016.com.
 url75: # SendGrid Sender Authentication (bank@hackclub.com)
   ttl: 300
   type: CNAME
@@ -5637,7 +5641,7 @@ vh7v2gsayfsmxmllwaannilorrbs5jbp._domainkey:
 vi:
 - ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a05569dabb46ea5b.vercel-dns-016.com.
 vidisha:
 - ttl: 300
   type: CNAME
@@ -5859,7 +5863,7 @@ zguide:
 zh:
 - ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a05569dabb46ea5b.vercel-dns-016.com.
 zoo:
 - octodns:
     cloudflare:

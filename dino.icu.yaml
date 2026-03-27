@@ -655,6 +655,11 @@ midnight-status: #DragonSenseiGuy U09H4M0523Z : https://github.com/dragonSenseiG
   type: A
   value: 77.90.16.198
 
+mindmaze: # ssamadmiryam@gmail.com
+  ttl: 600
+  type: CNAME
+  value: melsamad.github.io.
+
 mindson: # by rajan
   ttl: 600
   type: CNAME
@@ -877,6 +882,11 @@ s:
 - ttl: 600
   type: TXT
   value: domain-verification=saif
+
+sabhya: # sabhya.aggarwal@icloud.com U0A83DB0TRN
+  - ttl: 600
+    type: A
+    value: 216.198.79.1
     
 saif:
   - ttl: 600
