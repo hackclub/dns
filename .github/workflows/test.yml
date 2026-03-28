@@ -38,25 +38,23 @@ jobs:
             let labels = [];
             if (context.eventName === 'pull_request_target') {
               labels = context.payload.pull_request.labels.map(l => l.name);
-            } else if (context.eventName === 'merge_group') {
-              // Grab PR from merge queue branch ref
-              const match = context.ref.match(/\/pr-(\d+)-/);
-              if (match) {
+            } else {
+              const mqMatch = context.ref.match(/\/pr-(\d+)-/);
+              if (mqMatch) {
                 const { data: pr } = await github.rest.pulls.get({
                   owner: context.repo.owner,
                   repo: context.repo.repo,
-                  pull_number: parseInt(match[1]),
+                  pull_number: parseInt(mqMatch[1]),
                 });
                 labels = pr.labels.map(l => l.name);
+              } else {
+                const pulls = await github.rest.repos.listPullRequestsAssociatedWithCommit({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  commit_sha: context.sha,
+                });
+                labels = pulls.data.flatMap(pr => pr.labels.map(l => l.name));
               }
-            } else {
-              // For push events, find associated PRs
-              const pulls = await github.rest.repos.listPullRequestsAssociatedWithCommit({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                commit_sha: context.sha,
-              });
-              labels = pulls.data.flatMap(pr => pr.labels.map(l => l.name));
             }
             if (labels.includes('--force')) {
               core.setOutput('force', '--force');
