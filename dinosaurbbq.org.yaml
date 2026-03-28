@@ -1,13 +1,13 @@
 ---
 "":
-  type: ALIAS
+- type: ALIAS
   value: maxwofford.github.io.
+aux:
+- type: A
+  value: 136.62.158.195
 www:
-  type: CNAME
+- type: CNAME
   value: maxwofford.github.io.
 wwww:
-  type: CNAME
+- type: CNAME
   value: exu3.github.io.
-aux:
-  type: A
-  value: 136.62.158.195
