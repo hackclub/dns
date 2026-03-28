@@ -59,6 +59,7 @@ mail:
   type: A
   value: 165.227.96.87
 shipwrecked:
+- ttl: 600
   type: CNAME
   value: a.selfhosted.hackclub.com.
 st:
