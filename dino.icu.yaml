@@ -353,6 +353,14 @@ e: # drawing app - by https://github.com/sporeball
   type: CNAME
   value: sporeball.github.io.
 
+elapsed: # U0A9B38F413
+- ttl: 600
+  type: A
+  value: 216.198.79.1
+  octodns:
+    cloudflare:
+      proxied: true
+
 emojile: # wordle with slack emojis - https://github.com/yodalightsabr/emojile
   ttl: 600
   type: CNAME

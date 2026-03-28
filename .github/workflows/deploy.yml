@@ -14,14 +14,36 @@ jobs:
   octodns:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 2
+
+      - uses: actions/setup-python@v6
         with:
           python-version: '3'
+
       - name: Install OctoDNS
         run: pip install 'octodns>=1.5.0' octodns-dnsimple octodns-cloudflare
+
+      - name: Check for --force label on merged PR
+        id: check-force
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const pulls = await github.rest.repos.listPullRequestsAssociatedWithCommit({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              commit_sha: context.sha,
+            });
+            const forceLabel = pulls.data.some(pr =>
+              pr.labels.some(label => label.name === '--force')
+            );
+            if (forceLabel) {
+              core.setOutput('force', '--force');
+            }
+
       - name: Sync w/ production DNS providers
-        run: ./bin/sync
+        run: ./bin/sync ${{ steps.check-force.outputs.force }}
         env:
           DNSIMPLE_ACCOUNT_NUMBER: ${{ secrets.DNSIMPLE_ACCOUNT_NUMBER }}
           DNSIMPLE_API_KEY: ${{ secrets.DNSIMPLE_API_KEY }}
