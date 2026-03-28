@@ -36,4 +36,17 @@ jobs:
         run: pip install natsort ruamel.yaml
 
       - name: Check sort order
+        id: sort-check
         run: python3 bin/sort-zones --check
+
+      - name: Comment on PR if unsorted
+        if: failure() && steps.sort-check.outcome == 'failure' && github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: '⚠️ Your DNS record is not sorted in alphabetical order! Please sort it accordingly so your PR can be merged.\n\nSub-sub domains (ex: `badge.shipwrecked.hackclub.com`) should be sorted in alphabetical order under their respective parent subdomain (ex: `shipwrecked.hackclub.com`).'
+            })
