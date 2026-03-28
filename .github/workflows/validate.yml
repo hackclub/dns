@@ -83,20 +83,3 @@ jobs:
               event: 'REQUEST_CHANGES',
               body: '⚠️ Your DNS record is not sorted in alphabetical order! Please sort it accordingly so your PR can be merged.\n\nSub-sub domains (ex: `badge.shipwrecked.hackclub.com`) should be sorted in alphabetical order under their respective parent subdomain (ex: `shipwrecked.hackclub.com`).'
             })
-  auto-approve:
-    runs-on: ubuntu-latest
-    needs: [json-yaml-validate, contact-info-check, sort-check]
-    if: github.event_name == 'pull_request' && success()
-    permissions:
-      pull-requests: write
-    steps:
-      - uses: actions/github-script@v7
-        with:
-          script: |
-            github.rest.pulls.createReview({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              pull_number: context.issue.number,
-              event: 'APPROVE',
-              body: '✅ All automated checks passed'
-            }) 
