@@ -1,0 +1,162 @@
+#!/usr/bin/env python3
+"""
+Check that DNS record entries have contact info (email or Slack ID) in their
+comments.  Only checks subdomain keys that were added or modified in the diff
+(determined by parsing the YAML, not raw line diffs).
+
+Usage:
+  bin/check-contact-info                    # diff against origin/main
+  bin/check-contact-info --base <ref>       # diff against a custom base ref
+"""
+
+import re
+import subprocess
+import sys
+from pathlib import Path
+
+from ruamel.yaml import YAML
+
+REPO_ROOT = Path(__file__).resolve().parent.parent
+_yaml = YAML()
+_yaml.preserve_quotes = True
+
+# Slack user/member IDs: U or W prefix + 8-12 uppercase alphanumerics
+SLACK_ID_RE = re.compile(r"\b[UW][A-Z0-9]{8,12}\b")
+# Loose email pattern
+EMAIL_RE = re.compile(r"[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+")
+# A YAML top-level key line (subdomain entry), possibly with a comment
+KEY_LINE_RE = re.compile(r'^([\'"]?[a-zA-Z0-9._-]*[\'"]?)\s*:')
+
+
+def get_changed_yaml_files(base: str) -> list[Path]:
+    """Return list of *.yaml zone files changed vs base."""
+    result = subprocess.run(
+        ["git", "diff", "--name-only", "--diff-filter=ACMR", base, "--", "*.yaml"],
+        capture_output=True, text=True, cwd=REPO_ROOT,
+    )
+    return [REPO_ROOT / f for f in result.stdout.strip().splitlines() if f]
+
+
+def load_yaml_at_ref(ref: str, filepath: Path) -> dict | None:
+    """Load a YAML file as it existed at a given git ref. Returns None if
+    the file didn't exist."""
+    rel = filepath.relative_to(REPO_ROOT)
+    result = subprocess.run(
+        ["git", "show", f"{ref}:{rel}"],
+        capture_output=True, text=True, cwd=REPO_ROOT,
+    )
+    if result.returncode != 0:
+        return None
+    from io import StringIO
+    return _yaml.load(StringIO(result.stdout)) or {}
+
+
+def load_yaml_current(filepath: Path) -> dict | None:
+    """Load a YAML file from the working tree."""
+    with open(filepath) as f:
+        return _yaml.load(f) or {}
+
+
+def find_changed_keys(old_data: dict, new_data: dict) -> set[str]:
+    """Return the set of top-level keys that were added or whose values changed."""
+    changed = set()
+    for key in new_data:
+        if key not in old_data or new_data[key] != old_data[key]:
+            changed.add(key)
+    return changed
+
+
+def has_contact_info(comment: str) -> bool:
+    """Return True if the comment contains an email or Slack user ID."""
+    return bool(SLACK_ID_RE.search(comment)) or bool(EMAIL_RE.search(comment))
+
+
+def find_key_line(lines: list[str], key: str) -> int | None:
+    """Find the 1-indexed line number where a top-level key is defined."""
+    # Build the exact strings we're looking for
+    targets = []
+    if key == "":
+        targets = ["'':", '"":', "'':"]
+    else:
+        targets = [f"{key}:", f"'{key}':", f'"{key}":']
+
+    for lineno, line in enumerate(lines, start=1):
+        stripped = line.strip()
+        # Must be a top-level key (not indented)
+        if line[0:1] in (" ", "\t"):
+            continue
+        for target in targets:
+            if stripped.startswith(target):
+                return lineno
+    return None
+
+
+def check_file(filepath: Path, changed_keys: set[str]) -> list[str]:
+    """Check a single YAML file for missing contact info on changed keys.
+    Returns list of error messages."""
+    errors = []
+    with open(filepath) as f:
+        lines = f.readlines()
+
+    for key in sorted(changed_keys):
+        # Skip the bare domain entry
+        if key == "":
+            continue
+
+        lineno = find_key_line(lines, key)
+        if lineno is None:
+            continue
+
+        line = lines[lineno - 1]
+        comment_part = ""
+        if "#" in line:
+            comment_part = line.split("#", 1)[1]
+
+        if not has_contact_info(comment_part):
+            errors.append(
+                f"  {filepath.name}:{lineno} — `{key}` is missing contact info "
+                f"(add an email or Slack ID as a comment, e.g. "
+                f"`{key}: # user@example.com U0123456789`)"
+            )
+
+    return errors
+
+
+def main():
+    base = "origin/main"
+    if "--base" in sys.argv:
+        idx = sys.argv.index("--base")
+        if idx + 1 < len(sys.argv):
+            base = sys.argv[idx + 1]
+
+    changed_files = get_changed_yaml_files(base)
+    if not changed_files:
+        print("No YAML zone files changed.")
+        sys.exit(0)
+
+    all_errors = []
+    for filepath in changed_files:
+        old_data = load_yaml_at_ref(base, filepath) or {}
+        new_data = load_yaml_current(filepath) or {}
+        changed_keys = find_changed_keys(old_data, new_data)
+        if changed_keys:
+            errors = check_file(filepath, changed_keys)
+            all_errors.extend(errors)
+
+    if all_errors:
+        print("❌ Missing contact info on the following DNS entries:\n")
+        for err in all_errors:
+            print(err)
+        print(
+            "\nPlease add an email address or Slack user ID as a comment on each "
+            "subdomain line.\n"
+            "Example: `mysite: # user@example.com U0123456789`"
+        )
+        sys.exit(1)
+    else:
+        print("✅ All changed DNS entries have contact info.")
+        sys.exit(0)
+
+
+if __name__ == "__main__":
+    main()
