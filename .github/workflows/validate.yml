@@ -15,10 +15,25 @@ jobs:
   json-yaml-validate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: json-yaml-validate
         id: json-yaml-validate
         uses: GrantBirki/json-yaml-validate@v2.7.1
         with:
           comment: "true"
+
+  sort-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3'
+
+      - name: Install dependencies
+        run: pip install natsort ruamel.yaml
+
+      - name: Check sort order
+        run: python3 bin/sort-zones --check

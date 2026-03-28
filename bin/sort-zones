@@ -1,0 +1,151 @@
+#!/usr/bin/env python3
+"""
+sorting script for dns records
+
+usage:
+bin/sort-zones             # sort all
+bin/sort-zones --check     # check only
+bin/sort-zones foo.yaml    # sort one file
+"""
+
+import io
+import sys
+from pathlib import Path
+
+from natsort import natsort_keygen
+from ruamel.yaml import YAML
+from ruamel.yaml.comments import CommentedMap
+
+_NATSORT_KEY = natsort_keygen()
+
+def KEYGEN(key):
+    if key is None:
+        s = "null"
+    elif isinstance(key, str) and key:
+        s = ".".join(reversed(key.split(".")))
+    else:
+        s = str(key)
+    return _NATSORT_KEY(s)
+
+
+REPO_ROOT = Path(__file__).resolve().parent.parent
+# Skip non-zone YAML files
+SKIP_DIRS = {"config", ".github"}
+
+
+def get():
+    return sorted(
+        p
+        for p in REPO_ROOT.glob("*.yaml")
+        if p.is_file()
+    )
+
+
+def sort(path, check_only=False):
+    yaml = YAML()
+    yaml.preserve_quotes = True
+    yaml.width = 4096
+    yaml.best_sequence_indent = 2
+    yaml.best_map_indent = 2
+    yaml.best_sequence_dash_offset = 0
+    yaml.explicit_start = None
+
+    with open(path) as f:
+        raw = f.read()
+
+    has_doc_start = raw.lstrip().startswith("---")
+
+    data = yaml.load(raw)
+
+    if data is None:
+        return True
+
+    preamble = ""
+    first_key_line = None
+    for i, line in enumerate(raw.splitlines()):
+        stripped = line.strip()
+        if stripped == "---" or stripped.startswith("#") or stripped == "":
+            continue
+        else:
+            first_key_line = i
+            break
+
+    if first_key_line:
+        preamble_lines = raw.splitlines()[:first_key_line]
+        if preamble_lines:
+            preamble = "\n".join(preamble_lines) + "\n"
+
+    keys = list(data.keys())
+    sorted_keys = sorted(keys, key=KEYGEN)
+
+    if keys == sorted_keys:
+        return True
+
+    if check_only:
+        for i, (got, expected) in enumerate(zip(keys, sorted_keys)):
+            if got != expected:
+                got_display = "''" if isinstance(got, str) and got == '' else ('null' if got is None else got)
+                exp_display = "''" if isinstance(expected, str) and expected == '' else ('null' if expected is None else expected)
+                print(f"  {path.name}: key {got_display} is out of order (expected {exp_display})")
+                break
+        return False
+
+    sorted_data = CommentedMap()
+
+    if hasattr(data, 'ca') and data.ca.comment:
+        sorted_data.ca.comment = data.ca.comment
+
+    for key in sorted_keys:
+        sorted_data[key] = data[key]
+        if key in data.ca.items:
+            sorted_data.ca.items[key] = data.ca.items[key]
+
+    yaml.explicit_start = False
+
+    buf = io.StringIO()
+    yaml.dump(sorted_data, buf)
+    sorted_yaml = buf.getvalue()
+
+    with open(path, "w") as f:
+        if preamble:
+            f.write(preamble)
+        elif has_doc_start:
+            f.write("---\n")
+        f.write(sorted_yaml)
+
+    return False
+
+
+def main():
+    check_only = "--check" in sys.argv
+    args = [a for a in sys.argv[1:] if not a.startswith("-")]
+
+    if args:
+        files = [Path(a).resolve() for a in args]
+    else:
+        files = get()
+
+    unsorted = []
+    for path in files:
+        was_sorted = sort(path, check_only=check_only)
+        if not was_sorted:
+            unsorted.append(path)
+
+    if check_only:
+        if unsorted:
+            print(f"\n{len(unsorted)} file(s) have keys out of order")
+            sys.exit(1)
+        else:
+            print("all files are in order")
+            sys.exit(0)
+    else:
+        if unsorted:
+            for p in unsorted:
+                print(f"sorted: {p.name}")
+            print(f"\n{len(unsorted)} file(s) sorted")
+        else:
+            print("all files were already in order")
+
+
+if __name__ == "__main__":
+    main()
