@@ -28,11 +28,23 @@ jobs:
 
       - name: Check for --force
         id: check-force
-        if: github.event_name == 'pull_request_target'
-        run: |
-          if echo '${{ toJson(github.event.pull_request.labels.*.name) }}' | grep -q '"--force"'; then
-            echo "force=--force" >> "$GITHUB_OUTPUT"
-          fi
+        uses: actions/github-script@v7
+        with:
+          script: |
+            let labels = [];
+            if (context.eventName === 'pull_request_target') {
+              labels = context.payload.pull_request.labels.map(l => l.name);
+            } else {
+              const pulls = await github.rest.repos.listPullRequestsAssociatedWithCommit({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                commit_sha: context.sha,
+              });
+              labels = pulls.data.flatMap(pr => pr.labels.map(l => l.name));
+            }
+            if (labels.includes('--force')) {
+              core.setOutput('force', '--force');
+            }
 
       - name: Do a dry run
         run: ./bin/dry-run ${{ steps.check-force.outputs.force }}
