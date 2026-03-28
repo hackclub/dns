@@ -31,7 +31,7 @@ KEY_LINE_RE = re.compile(r'^([\'"]?[a-zA-Z0-9._-]*[\'"]?)\s*:')
 def get_changed_yaml_files(base: str) -> list[Path]:
     """Return list of *.yaml zone files changed vs base."""
     result = subprocess.run(
-        ["git", "diff", "--name-only", "--diff-filter=ACMR", base, "--", "*.yaml"],
+        ["git", "diff", "--name-only", "--diff-filter=ACMR", base, "--", ":(top,glob)*.yaml"],
         capture_output=True, text=True, cwd=REPO_ROOT,
     )
     return [REPO_ROOT / f for f in result.stdout.strip().splitlines() if f]
