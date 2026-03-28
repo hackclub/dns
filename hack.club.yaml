@@ -1,88 +1,88 @@
 ---
 "":
-  - type: ALIAS
-    value: a.selfhosted.hackclub.com.
-  - type: MX
-    value:
-      exchange: a.selfhosted.hackclub.com.
-      preference: 10
-  - type: TXT
-    values:
-      - ahrefs-site-verification_047924a9a454abb4497f9a4389b610eeca5538ca8d46ab4288da0da0b8acc282
+- type: ALIAS
+  value: a.selfhosted.hackclub.com.
+- type: MX
+  value:
+    exchange: a.selfhosted.hackclub.com.
+    preference: 10
+- type: TXT
+  values:
+  - ahrefs-site-verification_047924a9a454abb4497f9a4389b610eeca5538ca8d46ab4288da0da0b8acc282
 aces: # U092CHMLB24
-  - ttl: 600
-    type: CNAME
-    value: a.selfhosted.hackclub.com.
+- ttl: 600
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 ahoy:
-  - type: CNAME
-    value: cname.vercel-dns.com.
+- type: CNAME
+  value: cname.vercel-dns.com.
 athena:
-  - type: CNAME
-    value: a.selfhosted.hackclub.com.
+- type: CNAME
+  value: a.selfhosted.hackclub.com.
 campfire:
-  - ttl: 600
-    type: CNAME
-    value: a.selfhosted.hackclub.com.
-construct: # U092CHMLB24
-  - ttl: 600
-    type: CNAME
-    value: a.selfhosted.hackclub.com.
-daydream:
-  - ttl: 600
-    type: CNAME
-    value: a.selfhosted.hackclub.com.
-flagship: # nora@/campfire flagship team
-  - ttl: 600
-    type: CNAME
-    value: a.selfhosted.hackclub.com.
-flavortown: # U092CHMLB24
-  - ttl: 600
-    type: CNAME
-    value: a.selfhosted.hackclub.com.
+- ttl: 600
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 hack.club:
-  - type: CNAME
-    value: cname.vercel-dns.com.
+- type: CNAME
+  value: cname.vercel-dns.com.
+construct: # U092CHMLB24
+- ttl: 600
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
+daydream:
+- ttl: 600
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
+flagship: # nora@/campfire flagship team
+- ttl: 600
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
+flavortown: # U092CHMLB24
+- ttl: 600
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 hctg: # U092CHMLB24
-  - ttl: 600
-    type: CNAME
-    value: a.selfhosted.hackclub.com.
-l:
-  - type: CNAME
-    value: a.selfhosted.hackclub.com.
+- ttl: 600
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 hss:
-  - type: CNAME
-    value: a.selfhosted.hackclub.com.
+- type: CNAME
+  value: a.selfhosted.hackclub.com.
+l:
+- type: CNAME
+  value: a.selfhosted.hackclub.com.
 mail:
-  - type: CNAME
-    value: a.selfhosted.hackclub.com.
+- type: CNAME
+  value: a.selfhosted.hackclub.com.
 moonshot:
-  - ttl: 600
-    type: CNAME
-    value: a.selfhosted.hackclub.com.
-p: # nora
-  - ttl: 600
-    type: CNAME
-    value: a.selfhosted.hackclub.com.
-shipwrecked:
-  - ttl: 600
-    type: CNAME
-    value: a.selfhosted.hackclub.com.
-ship:
-  - ttl: 600
-    type: CNAME
-    value: a.selfhosted.hackclub.com.
-sleepover: # U092CHMLB24
-  - ttl: 600
-    type: CNAME
-    value: a.selfhosted.hackclub.com.
-stasis: # alexp@hackclub.com
-  - ttl: 600
-    type: CNAME
-    value: b9385139e8ff984c.vercel-dns-016.com.
-summer:
-  - type: CNAME
-    value: a.selfhosted.hackclub.com.
+- ttl: 600
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 my:
-  - ttl: 600
-    type: CNAME
-    value: a.selfhosted.hackclub.com.
+- ttl: 600
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
+p: # nora
+- ttl: 600
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
+ship:
+- ttl: 600
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
+shipwrecked:
+- ttl: 600
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
+sleepover: # U092CHMLB24
+- ttl: 600
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
+stasis: # alexp@hackclub.com
+- ttl: 600
+  type: CNAME
+  value: b9385139e8ff984c.vercel-dns-016.com.
+summer:
+- type: CNAME
+  value: a.selfhosted.hackclub.com.
