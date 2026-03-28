@@ -32,7 +32,7 @@ jobs:
 
       - name: Check for --force
         id: check-force
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           script: |
             let labels = [];
