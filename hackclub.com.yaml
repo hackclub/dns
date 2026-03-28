@@ -5493,6 +5493,10 @@ swirl:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+sussy:
+- ttl: 300
+  type: CNAME
+  value: amogus.church.
 synthax:
 - ttl: 300
   type: CNAME
