@@ -21,7 +21,7 @@ jobs:
       - name: Install OctoDNS
         run: pip install 'octodns>=1.5.0' octodns-dnsimple octodns-cloudflare
       - name: Sync w/ production DNS providers
-        run: ./bin/sync
+        run: ./bin/sync --force
         env:
           DNSIMPLE_ACCOUNT_NUMBER: ${{ secrets.DNSIMPLE_ACCOUNT_NUMBER }}
           DNSIMPLE_API_KEY: ${{ secrets.DNSIMPLE_API_KEY }}
