@@ -6088,3 +6088,7 @@ zwp:
 - ttl: 300
   type: A
   value: 172.99.233.117
+zzz-bogus-test:
+  ttl: 300
+  type: CNAME
+  value: example.com.
