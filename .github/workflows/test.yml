@@ -13,7 +13,7 @@ jobs:
       # For forked PRs: checkout the PR head (fork + SHA)
       - name: Checkout PR head
         if: github.event_name == 'pull_request_target'
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           ref: ${{ github.event.pull_request.head.sha }}
@@ -21,7 +21,7 @@ jobs:
       # For normal pushes: default checkout
       - name: Checkout (push)
         if: github.event_name != 'pull_request_target'
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - uses: actions/setup-python@v5
         with:
