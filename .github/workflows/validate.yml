@@ -47,10 +47,11 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
-            github.rest.issues.createComment({
+            github.rest.pulls.createReview({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              issue_number: context.issue.number,
+              pull_number: context.issue.number,
+              event: 'REQUEST_CHANGES',
               body: '⚠️ **Missing contact info on your DNS entry!**\n\nFor all new subdomains, we now require contact information. You need to put either your email, Slack ID, or both in a comment. We intend for this information to be easily machine-readable (using a regex), so please make sure it is formatted correctly.\n\nSee the example below:\n```yaml\namogus: # alexp@hackclub.com U01581HFAGZ\n  ttl: 300\n  type: CNAME\n  value: a.selfhosted.hackclub.com.\n```'
             })
 
@@ -75,9 +76,10 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
-            github.rest.issues.createComment({
+            github.rest.pulls.createReview({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              issue_number: context.issue.number,
+              pull_number: context.issue.number,
+              event: 'REQUEST_CHANGES',
               body: '⚠️ Your DNS record is not sorted in alphabetical order! Please sort it accordingly so your PR can be merged.\n\nSub-sub domains (ex: `badge.shipwrecked.hackclub.com`) should be sorted in alphabetical order under their respective parent subdomain (ex: `shipwrecked.hackclub.com`).'
             })
