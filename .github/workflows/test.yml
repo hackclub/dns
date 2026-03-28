@@ -5,11 +5,15 @@ on: ['push', 'pull_request_target', 'merge_group']
 jobs:
   octodns:
     runs-on: ubuntu-latest
+    env:
+      DNSIMPLE_ACCOUNT_NUMBER: ${{ secrets.DNSIMPLE_ACCOUNT_NUMBER }}
+      DNSIMPLE_API_KEY: ${{ secrets.DNSIMPLE_API_KEY_READ_ONLY }}
+      CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN_READ_ONLY }}
     steps:
       # For forked PRs: checkout the PR head (fork + SHA)
       - name: Checkout PR head
         if: github.event_name == 'pull_request_target'
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           ref: ${{ github.event.pull_request.head.sha }}
@@ -17,9 +21,9 @@ jobs:
       # For normal pushes: default checkout
       - name: Checkout (push)
         if: github.event_name != 'pull_request_target'
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3'
 
@@ -28,15 +32,34 @@ jobs:
 
       - name: Check for --force
         id: check-force
-        if: github.event_name == 'pull_request_target'
-        run: |
-          if echo '${{ toJson(github.event.pull_request.labels.*.name) }}' | grep -q '"--force"'; then
-            echo "force=--force" >> "$GITHUB_OUTPUT"
-          fi
+        uses: actions/github-script@v8
+        with:
+          script: |
+            let labels = [];
+            if (context.eventName === 'pull_request_target') {
+              labels = context.payload.pull_request.labels.map(l => l.name);
+            } else {
+              const mqMatch = context.ref.match(/\/pr-(\d+)-/);
+              if (mqMatch) {
+                const { data: pr } = await github.rest.pulls.get({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  pull_number: parseInt(mqMatch[1]),
+                });
+                labels = pr.labels.map(l => l.name);
+              } else {
+                const pulls = await github.rest.repos.listPullRequestsAssociatedWithCommit({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  commit_sha: context.sha,
+                });
+                labels = pulls.data.flatMap(pr => pr.labels.map(l => l.name));
+              }
+            }
+            if (labels.includes('--force')) {
+              core.setOutput('force', '--force');
+            }
 
       - name: Do a dry run
+        if: env.DNSIMPLE_ACCOUNT_NUMBER != ''
         run: ./bin/dry-run ${{ steps.check-force.outputs.force }}
-        env:
-          DNSIMPLE_ACCOUNT_NUMBER: ${{ secrets.DNSIMPLE_ACCOUNT_NUMBER }}
-          DNSIMPLE_API_KEY: ${{ secrets.DNSIMPLE_API_KEY_READ_ONLY }}
-          CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN_READ_ONLY }}
