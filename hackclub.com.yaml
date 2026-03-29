@@ -1,7 +1,6 @@
 "":
-- ttl: 300
-  type: ALIAS
-  value: cname.vercel-dns.com.
+- type: A
+  value: 216.150.1.1
 - ttl: 300
   type: MX
   values:
@@ -6031,9 +6030,8 @@ wshackclub:
   type: A
   value: 35.158.87.123
 www:
-- ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: fdd973c84b10aa8e.vercel-dns-016.com.
 you-ship-we-clip:
 - octodns:
     cloudflare:
