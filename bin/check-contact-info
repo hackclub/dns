@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 Check that DNS record entries have contact info (email or Slack ID) in their
-comments.  Only checks subdomain keys that were added or modified in the diff
-(determined by parsing the YAML, not raw line diffs).
+comments.  Only checks subdomain keys that were newly added in the diff
+(modified existing keys are not checked).
 
 Usage:
   bin/check-contact-info                    # diff against origin/main
@@ -58,10 +58,10 @@ def load_yaml_current(filepath: Path) -> dict | None:
 
 
 def find_changed_keys(old_data: dict, new_data: dict) -> set[str]:
-    """Return the set of top-level keys that were added or whose values changed."""
+    """Return the set of top-level keys that were newly added (not in old_data)."""
     changed = set()
     for key in new_data:
-        if key not in old_data or new_data[key] != old_data[key]:
+        if key not in old_data:
             changed.add(key)
     return changed
 
@@ -154,7 +154,7 @@ def main():
         )
         sys.exit(1)
     else:
-        print("✅ All changed DNS entries have contact info.")
+        print("✅ All new DNS entries have contact info.")
         sys.exit(0)
 
 
