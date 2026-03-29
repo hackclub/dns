@@ -1464,6 +1464,10 @@ clubdash:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+clubsite: #jared@hackclub.com U07HEH4N8UV
+- ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
 clutter:
 - octodns:
     cloudflare:
