@@ -1,5 +1,5 @@
 ---
-"":
+"": # zach@hackclub.com U0266FRGP
 - type: ALIAS
   value: a.selfhosted.hackclub.com.
 - type: MX
@@ -11,7 +11,7 @@
   - v=spf1 include:mailgun.org ~all
   - google-site-verification=ntu4oLX1DPYni0Ti5N_gsW0jgkl7TY1pViqw7Kfcqn8
   - 1password-site-verification=QMNA42JBYBF7HLP6UYIJDMLDXQ     # 1pass domain breach report feature
-"*":
+"*": # zach@hackclub.com U0266FRGP
   type: CNAME
   value: proxyparty.hackclub.com.
 64xoc3uapdq42u63dw6epuciq4nau5nv._domainkey:
@@ -31,41 +31,18 @@ w4slhmfjwdthextblpgaxdgzj2y3kw6q._domainkey:
 _dmarc.hack.af:
   type: TXT
   value: "v=DMARC1\\; p=none\\; rua=mailto:team@hackclub.com\\; ruf=mailto:team@hackclub.com\\; fo=1\\; ri=86400"
-as:
+as: # ian@hackclub.com  U022XFD2TML
   type: CNAME
   value: cname.vercel-dns.com.
-assemble:
-  type: A
-  value: 165.227.96.87
-draw:
-  type: A
-  value: 165.227.96.87
-e:
+e: # caleb@deniosoftware.com U013B6CPV62
   type: CNAME
   value: cname.vercel-dns.com.
-email:
+email: # zach@hackclub.com U0266FRGP
   type: CNAME
   value: mailgun.org.
-epoch:
-  type: CNAME
-  value: floating-thicket-nco6m0ko94oi6hg7e2mf3akg.herokudns.com.
-grant:
-  type: CNAME
-  value: boiling-honeydew-mht7oh0h9dhkm6w06xuitk1w.herokudns.com.
-horizon:
-  type: A
-  value: 34.138.52.92
-mail:
+mail: # caleb@deniosoftware.com U013B6CPV62
   type: A
   value: 165.227.96.87
-shipwrecked:
-- ttl: 600
+shipwrecked: # dev@hackclub.com U0261EB1EG7
   type: CNAME
   value: a.selfhosted.hackclub.com.
-st:
-  type: CNAME
-  value: cname.vercel-dns.com.
-sy:
-  type: CNAME
-  value: cname.vercel-dns.com.
-
