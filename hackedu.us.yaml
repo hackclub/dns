@@ -1,7 +1,10 @@
 ---
-"":
-- type: ALIAS
-  value: a.selfhosted.hackclub.com.
+"": # echo@hackclub.com U080A3QP42C
+- type: A
+  value: 216.150.1.1
+  octodns:
+    cloudflare:
+      proxied: true
 - type: MX
   values:
   - exchange: ASPMX.L.GOOGLE.COM.
@@ -29,3 +32,6 @@ mesmtp._domainkey:
 donate:
 - type: CNAME
   value: a.selfhosted.hackclub.com.
+  octodns:
+    cloudflare:
+      proxied: true

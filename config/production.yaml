@@ -54,7 +54,7 @@ zones:
     sources:
       - config
     targets:
-      - dnsimple
+      - cloudflare-alt
   hack.af.:
     sources:
       - config
