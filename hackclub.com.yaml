@@ -2983,9 +2983,8 @@ _acme-challenge.hcb:
   - 43wfHzaTQm4QK6seBdZ2E-aQEyuMnqB_V7oY_7WGdjk
   - LA1XSttrtF1zLrOwC9oB-6Lfdb9YhO1yT2CUuSLkP-c
 blog.hcb: # HCB engineering/blog website
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a5f4edd87f53e433.vercel-dns-016.com.
 changelog.hcb:
   ttl: 300
   type: CNAME
