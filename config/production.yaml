@@ -64,7 +64,7 @@ zones:
     sources:
       - config
     targets:
-      - dnsimple
+      - cloudflare-alt
   dino.icu.:
     sources:
       - config
