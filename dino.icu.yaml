@@ -328,6 +328,11 @@ dev-email:
   values:
   - v=spf1 include:spf.improvmx.com ~all
 
+devlife: # https://github.com/amarieidavid26-byte  Email: amariei.david26@gmail.com
+- ttl: 600
+  type: A
+  value: 216.198.79.1
+
 dhs:
   ttl: 600
   type: CNAME
