@@ -125,7 +125,7 @@ zones:
     sources:
       - config
     targets:
-      - dnsimple
+      - cloudflare-alt
   hackclub.community.:
     sources:
       - config
