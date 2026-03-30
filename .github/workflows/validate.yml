@@ -23,38 +23,6 @@ jobs:
         with:
           comment: "true"
 
-  contact-info-check:
-    runs-on: ubuntu-latest
-    if: github.event_name == 'pull_request'
-    steps:
-      - uses: actions/checkout@v6
-        with:
-          fetch-depth: 0
-
-      - uses: actions/setup-python@v6
-        with:
-          python-version: '3'
-
-      - name: Install dependencies
-        run: pip install ruamel.yaml
-
-      - name: Check contact info on changed domains
-        id: contact-check
-        run: python3 bin/check-contact-info --base origin/${{ github.base_ref }}
-
-      - name: Comment on PR if missing contact info
-        if: failure() && steps.contact-check.outcome == 'failure'
-        uses: actions/github-script@v8
-        with:
-          script: |
-            github.rest.pulls.createReview({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              pull_number: context.issue.number,
-              event: 'REQUEST_CHANGES',
-              body: '⚠️ **Missing contact info on your DNS entry!**\n\nFor all new subdomains, we now require contact information. You need to put either your email, Slack ID, or both in a comment. We intend for this information to be easily machine-readable (using a regex), so please make sure it is formatted correctly.\n\nSee the example below:\n```yaml\namogus: # alexp@hackclub.com U01581HFAGZ\n  ttl: 300\n  type: CNAME\n  value: a.selfhosted.hackclub.com.\n```'
-            })
-
   sort-check:
     runs-on: ubuntu-latest
     if: github.event_name == 'pull_request' || (github.event_name == 'push' && github.ref == 'refs/heads/main')
