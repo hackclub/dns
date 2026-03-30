@@ -49,7 +49,7 @@ zones:
     sources:
       - config
     targets:
-      - dnsimple
+      - cloudflare-alt
   hackedu.us.:
     sources:
       - config
