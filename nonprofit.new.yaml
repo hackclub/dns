@@ -1,3 +1,6 @@
-"":
+"": # echo@hackclub.com U080A3QP42C
   type: A
-  value: 76.76.21.21
+  value: 216.150.1.1
+"www": # echo@hackclub.com U080A3QP42C
+  type: CNAME
+  value: f175a54ab7efff96.vercel-dns-016.com.

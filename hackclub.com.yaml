@@ -2705,7 +2705,7 @@ dash.hackathons:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-hackatime:
+hackatime: # mahad + msw (max@hackclub.com)
 - octodns:
     cloudflare:
       proxied: true
@@ -2733,6 +2733,13 @@ mx3gvrbbxdtyaywpifk3oi47vso6oi3w._domainkey.hackatime:
   type: CNAME
   value: mx3gvrbbxdtyaywpifk3oi47vso6oi3w.dkim.amazonses.com.
 beta.hackatime: # mahad@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: hackatime.limited.selfhosted.hackclub.com.
+debug.hackatime: # mahad + msw (max@hackclub.com)
 - octodns:
     cloudflare:
       proxied: true
@@ -3160,6 +3167,10 @@ horizons: # manitej@hackclub.com
   ttl: 300
   type: TXT
   value: k=rsa\;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCYaHpuhAWYJoFR+3jCF26WQ6a2g6wFVnG7ivN3VAuub6N8axjZYBvILaWgcgpmrCqpuqoibPEzjIF+/00TvLsBDwPin3Chpo2g15PZdtDFYmZRnajkaaFK+pvqPeuWdQ9Gthz37o3F1Qfd5hFmb10zArQa7bpGLnBetD5TtQywyQIDAQAB
+guides.horizons: # manitej@hackclub.com
+  ttl: 300
+  type: A
+  value: 5.161.244.66
 pm-bounces.horizons: # U07BLJ1MBEE
   ttl: 300
   type: CNAME
