@@ -1,17 +1,14 @@
 ---
 "":
-- ttl: 1
-  type: ALIAS
-  value: cname.vercel-dns.com.
-- ttl: 1
-  type: MX
+- type: A
+  value: 216.150.1.1
+- type: MX
   values:
   - exchange: mx1.improvmx.com.
     preference: 10
   - exchange: mx2.improvmx.com.
     preference: 20
-- ttl: 1
-  type: TXT
+- type: TXT
   values:
   - v=spf1 include:spf.improvmx.com ~all
 changelog:
@@ -19,33 +16,25 @@ changelog:
   type: CNAME
   value: headwayapp.co.
 curl:
-- ttl: 1
-  type: A
+- type: A
   value: 34.120.54.55
-- ttl: 1
-  type: AAAA
+- type: AAAA
   value: "2600:1901:0:6d85::"
 _acme-challenge.curl:
-  ttl: 1
   type: CNAME
   value: c82b414cd89d32fd90685ead._acme.deno.dev.
 gverify:
-  ttl: 600
   type: CNAME
   value: a.selfhosted.hackclub.com.
 internal:
-- ttl: 1
   type: A
   value: 138.197.18.43
 maps:
-- ttl: 1
   type: CNAME
   value: cname.vercel-dns.com.
 www:
-- ttl: 1
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a5f4edd87f53e433.vercel-dns-016.com.
 yellowpages:
-- ttl: 1
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 954fb501a17a43af.vercel-dns-016.com.
