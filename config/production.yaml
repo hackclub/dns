@@ -90,7 +90,7 @@ zones:
     sources:
       - config
     targets:
-      - dnsimple
+      - cloudflare-alt
   wackclub.com.:
     sources:
       - config
