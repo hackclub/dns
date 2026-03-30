@@ -115,7 +115,7 @@ zones:
     sources:
       - config
     targets:
-      - dnsimple
+      - cloudflare-alt
   aisafety.dance.:
     sources:
       - config
