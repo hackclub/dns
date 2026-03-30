@@ -2712,13 +2712,6 @@ hackatime: # mahad + msw (max@hackclub.com)
   ttl: 300
   type: CNAME
   value: hackatime.limited.selfhosted.hackclub.com.
-debug.hackatime: # mahad + msw (max@hackclub.com)
-- octodns:
-    cloudflare:
-      proxied: true
-  ttl: 300
-  type: CNAME
-  value: hackatime.limited.selfhosted.hackclub.com.
 hackatime-badge:
 - ttl: 300
   type: CNAME
@@ -2740,6 +2733,13 @@ mx3gvrbbxdtyaywpifk3oi47vso6oi3w._domainkey.hackatime:
   type: CNAME
   value: mx3gvrbbxdtyaywpifk3oi47vso6oi3w.dkim.amazonses.com.
 beta.hackatime: # mahad@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: hackatime.limited.selfhosted.hackclub.com.
+debug.hackatime: # mahad + msw (max@hackclub.com)
 - octodns:
     cloudflare:
       proxied: true
