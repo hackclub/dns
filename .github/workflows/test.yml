@@ -1,6 +1,10 @@
 name: test
 
-on: ['push', 'pull_request_target', 'merge_group']
+on:
+  push:
+  pull_request_target:
+    types: [opened, synchronize, labeled]
+  merge_group:
 
 jobs:
   octodns:
@@ -35,29 +39,48 @@ jobs:
         uses: actions/github-script@v8
         with:
           script: |
-            let labels = [];
+            let prNumber = null;
+
             if (context.eventName === 'pull_request_target') {
-              labels = context.payload.pull_request.labels.map(l => l.name);
-            } else {
+              prNumber = context.payload.pull_request.number;
+              core.info(`Event: pull_request_target, PR #${prNumber}`);
+            } else if (context.eventName === 'merge_group') {
               const mqMatch = context.ref.match(/\/pr-(\d+)-/);
               if (mqMatch) {
-                const { data: pr } = await github.rest.pulls.get({
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  pull_number: parseInt(mqMatch[1]),
-                });
-                labels = pr.labels.map(l => l.name);
+                prNumber = parseInt(mqMatch[1]);
+                core.info(`Event: merge_group, extracted PR #${prNumber} from ref ${context.ref}`);
               } else {
-                const pulls = await github.rest.repos.listPullRequestsAssociatedWithCommit({
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  commit_sha: context.sha,
-                });
-                labels = pulls.data.flatMap(pr => pr.labels.map(l => l.name));
+                core.info(`Event: merge_group, could not extract PR number from ref ${context.ref}`);
+              }
+            } else {
+              core.info(`Event: ${context.eventName}, ref: ${context.ref}, looking up PR by commit ${context.sha}`);
+              const pulls = await github.rest.repos.listPullRequestsAssociatedWithCommit({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                commit_sha: context.sha,
+              });
+              if (pulls.data.length > 0) {
+                prNumber = pulls.data[0].number;
+                core.info(`Found PR #${prNumber} associated with commit`);
+              } else {
+                core.info('No PR associated with this commit');
               }
             }
-            if (labels.includes('--force')) {
-              core.setOutput('force', '--force');
+
+            if (prNumber) {
+              const { data: pr } = await github.rest.pulls.get({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: prNumber,
+              });
+              const labels = pr.labels.map(l => l.name);
+              core.info(`PR #${prNumber} labels: ${JSON.stringify(labels)}`);
+              if (labels.includes('--force')) {
+                core.info('--force label found, enabling force mode');
+                core.setOutput('force', '--force');
+              } else {
+                core.info('--force label not found');
+              }
             }
 
       - name: Do a dry run
