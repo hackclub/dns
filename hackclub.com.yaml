@@ -2712,6 +2712,13 @@ hackatime:
   ttl: 300
   type: CNAME
   value: hackatime.limited.selfhosted.hackclub.com.
+debug.hackatime:
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: hackatime.limited.selfhosted.hackclub.com.
 hackatime-badge:
 - ttl: 300
   type: CNAME
