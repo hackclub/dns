@@ -5015,10 +5015,6 @@ hackatime.limited.selfhosted:
   ttl: 300
   type: A
   value: 65.108.2.38
-tinker: # clay@hackclub.com U05JNJZJ0BS
-  ttl: 300
-  type: CNAME
-  value: a.selfhosted.hackclub.com.
 sideboard.limited.selfhosted:
   ttl: 300
   type: CNAME
@@ -5705,6 +5701,10 @@ timeless:
   ttl: 300
   type: CNAME
   value: hackclub.github.io.
+tinker: # clay@hackclub.com U05JNJZJ0BS
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 tist:
 - ttl: 300
   type: A
