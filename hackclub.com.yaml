@@ -3496,6 +3496,10 @@ knit:
 ko:
   ttl: 300
   type: CNAME
+  value: cname.vercel-dns.com.  
+kolkata: # me@souptik.me U07E4196AMA
+  ttl: 300
+  type: CNAME
   value: cname.vercel-dns.com.
 kr:
   ttl: 300
