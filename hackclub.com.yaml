@@ -5015,6 +5015,10 @@ hackatime.limited.selfhosted:
   ttl: 300
   type: A
   value: 65.108.2.38
+tinker: # @CAN
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 sideboard.limited.selfhosted:
   ttl: 300
   type: CNAME
