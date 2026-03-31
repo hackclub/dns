@@ -5015,7 +5015,7 @@ hackatime.limited.selfhosted:
   ttl: 300
   type: A
   value: 65.108.2.38
-tinker: # @CAN
+tinker: # clay@hackclub.com U05JNJZJ0BS
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
