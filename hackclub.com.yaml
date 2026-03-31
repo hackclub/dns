@@ -589,10 +589,6 @@ angelhacksto:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-anti:
-  ttl: 300
-  type: CNAME
-  value: anti-hack.netlify.com.
 apacdirectory:
 - ttl: 300
   type: CNAME
