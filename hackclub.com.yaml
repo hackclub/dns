@@ -4481,10 +4481,6 @@ prototype: # IRL Hardware event / prototype@hackclub.com
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-pshs:
-- ttl: 300
-  type: CNAME
-  value: mattlawr.github.io.
 psn:
 - ttl: 300
   type: CNAME
