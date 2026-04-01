@@ -6031,14 +6031,12 @@ wootton:
 - ttl: 300
   type: CNAME
   value: woottonhack.netlify.com.
-workshop-cards:
-- ttl: 300
+workshop-cards: # echo@hackclub.com U080A3QP42C
   type: CNAME
-  value: cname.vercel-dns.com.
-workshops:
-- ttl: 300
+  value: 6450c7eb0fb4edf2.vercel-dns-016.com.
+workshops: # echo@hackclub.com U080A3QP42C
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 8a6afa20c5346b61.vercel-dns-016.com.
 wormhole:
 - octodns:
     cloudflare:
