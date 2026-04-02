@@ -2736,13 +2736,6 @@ debug2.hackatime: # mahad + msw + cskartikey (max@hackclub.com)
   ttl: 300
   type: CNAME
   value: hackatime.limited.selfhosted.hackclub.com.
-status.hackatime:
-- octodns:
-    cloudflare:
-      proxied: true
-  ttl: 300
-  type: CNAME
-  value: a.selfhosted.hackclub.com.
 hackatsst:
 - ttl: 300
   type: CNAME
