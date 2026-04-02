@@ -5405,6 +5405,9 @@ statis: # alexp@hackclub.com
 status:
   type: CNAME
   value: uptime.selfhosted.hackclub.com.
+  octodns:
+    cloudflare:
+      proxied: true
 stemegypt:
 - ttl: 300
   type: CNAME
