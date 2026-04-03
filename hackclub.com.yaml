@@ -1518,10 +1518,8 @@ conduct:
   values:
   - v=spf1 include:_spf.google.com ~all
   - google-site-verification=n09_T0NT7x7SVInETpDjjL2AhsTi0pW7jWceXy1cJjY
-- octodns:
-    lenient: true
-  type: CNAME
-  value: a.selfhosted.hackclub.com.
+- type: A
+  value: 5.161.100.52 # a.selfhosted.hackclub.com
 - ttl: 60
   type: MX
   values:
@@ -1621,10 +1619,8 @@ cornelius: #CAN
   type: CNAME
   value: a.selfhosted.hackclub.com.
 counterspell:
-- octodns:
-    lenient: true
-- type: CNAME
-  value: fb512b7e2f05bf6d.vercel-dns-016.com.
+- type: A
+  value: 216.150.1.1 # Vercel
 - ttl: 3600
   type: TXT
   values:
@@ -1735,10 +1731,8 @@ data: # U07BLJ1MBEE leo
   type: CNAME
   value: a.selfhosted.hackclub.com.
 daydream:
-- octodns:
-    lenient: true
-- type: CNAME
-  value: a.selfhosted.hackclub.com.
+- type: A
+  value: 5.161.100.52 # a.selfhosted.hackclub.com
 - type: TXT
   values:
   - google-site-verification=Bu5WZO3irOCbcJhWCTUrBN_JJfbuGNeEAp4j_itf6J8
@@ -2000,10 +1994,8 @@ epanomi:
 - type: TXT
   value: protonmail-verification=8ab28e976e0144dcaf43da3668d00393017dc702.
 epoch:
-- octodns:
-    lenient: true
-- type: CNAME
-  value: 8c0c5137bd6c166d.vercel-dns-016.com.
+- type: A
+  value: 216.150.1.1 # Vercel
 - type: TXT
   values:
   - google-site-verification=MKJ2KL_Yttoy9RS2qJoHmthoiPULC5ZqSJ6YMVr4ZlE
@@ -2028,10 +2020,8 @@ register.epoch:
   type: CNAME
   value: cname.vercel-dns.com.
 epochba:
-- octodns:
-    lenient: true
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: A
+  value: 216.150.1.1 # Vercel
 - type: TXT
   values:
   - google-site-verification=2979FUSGCz-WxnW6EukLx_N_Ay31YOyGBnvUSbwHcXc
@@ -3136,10 +3126,8 @@ pm-bounces.horizons: # U07BLJ1MBEE
   type: A
   value: 173.208.140.124
 howiemail:
-- octodns:
-    lenient: true
-  type: CNAME
-  value: a.selfhosted.hackclub.com.
+- type: A
+  value: 5.161.100.52 # a.selfhosted.hackclub.com
 - type: TXT
   values:
   - v=spf1 include:spf.howiemail.co ~all
