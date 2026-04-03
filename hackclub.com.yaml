@@ -3956,13 +3956,12 @@ ocsa:
     preference: 10
 - octodns:
     lenient: true
-  type: CNAME
-  value: cname.vercel-dns.com.
+  type: A
+  value: 216.150.1.1 # Vercel
 odyssey:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-
 offline: #dhamari@hackclub.com
 - octodns:
     cloudflare:
@@ -3970,7 +3969,6 @@ offline: #dhamari@hackclub.com
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-
 oly:
 - ttl: 300
   type: A
