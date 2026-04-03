@@ -1514,15 +1514,13 @@ conant:
   type: CNAME
   value: Conant-Hack-Club.github.io.
 conduct:
-- ttl: 60
-  type: TXT
+- type: TXT
   values:
   - v=spf1 include:_spf.google.com ~all
   - google-site-verification=n09_T0NT7x7SVInETpDjjL2AhsTi0pW7jWceXy1cJjY
 - octodns:
     lenient: true
-  ttl: 600
-  type: ALIAS
+  type: CNAME
   value: a.selfhosted.hackclub.com.
 - ttl: 60
   type: MX
@@ -1594,9 +1592,8 @@ contact-helper:
   type: CNAME
   value: cname.vercel-dns.com.
 contribute:
-- ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a24852c05886029b.vercel-dns-016.com.
 converge:
 - ttl: 300
   type: CNAME
@@ -1626,9 +1623,8 @@ cornelius: #CAN
 counterspell:
 - octodns:
     lenient: true
-  ttl: 300
-  type: ALIAS
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: fb512b7e2f05bf6d.vercel-dns-016.com.
 - ttl: 3600
   type: TXT
   values:
@@ -1664,17 +1660,14 @@ crates:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
 css:
-- ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: eadd3e0fa0446c3c.vercel-dns-016.com.
 css-starter:
-- ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 76b3c318aa347add.vercel-dns-016.com.
 ctf:
 - ttl: 300
   type: CNAME
@@ -1744,11 +1737,9 @@ data: # U07BLJ1MBEE leo
 daydream:
 - octodns:
     lenient: true
-  ttl: 600
-  type: ALIAS
+- type: CNAME
   value: a.selfhosted.hackclub.com.
-- ttl: 3600
-  type: TXT
+- type: TXT
   values:
   - google-site-verification=Bu5WZO3irOCbcJhWCTUrBN_JJfbuGNeEAp4j_itf6J8
   - v=spf1 include:_spf.google.com ~all
@@ -2004,19 +1995,16 @@ _amazonses.eomail:
 epanomi:
 - octodns:
     lenient: true
-  ttl: 600
-  type: ALIAS
+- type: CNAME
   value: epanomi-hack-club.github.io.
 - type: TXT
   value: protonmail-verification=8ab28e976e0144dcaf43da3668d00393017dc702.
 epoch:
 - octodns:
     lenient: true
-  ttl: 600
-  type: ALIAS
-  value: cname.vercel-dns.com.
-- ttl: 3600
-  type: TXT
+- type: CNAME
+  value: 8c0c5137bd6c166d.vercel-dns-016.com.
+- type: TXT
   values:
   - google-site-verification=MKJ2KL_Yttoy9RS2qJoHmthoiPULC5ZqSJ6YMVr4ZlE
   - v=spf1 include:_spf.google.com ~all
@@ -2042,16 +2030,13 @@ register.epoch:
 epochba:
 - octodns:
     lenient: true
-  ttl: 600
-  type: ALIAS
+  type: CNAME
   value: cname.vercel-dns.com.
-- ttl: 3600
-  type: TXT
+- type: TXT
   values:
   - google-site-verification=2979FUSGCz-WxnW6EukLx_N_Ay31YOyGBnvUSbwHcXc
   - v=spf1 include:_spf.google.com ~all
-- ttl: 600
-  type: MX
+- type: MX
   values:
   - exchange: aspmx.l.google.com.
     preference: 1
@@ -3153,15 +3138,12 @@ pm-bounces.horizons: # U07BLJ1MBEE
 howiemail:
 - octodns:
     lenient: true
-  ttl: 600
-  type: ALIAS
+  type: CNAME
   value: a.selfhosted.hackclub.com.
-- ttl: 3600
-  type: TXT
+- type: TXT
   values:
   - v=spf1 include:spf.howiemail.co ~all
-- ttl: 600
-  type: MX
+- type: MX
   values:
   - exchange: feedback-smtp.us-east-2.amazonses.com.
     preference: 10
@@ -3273,13 +3255,11 @@ iplace: # ascpixi@hackclub.com U082DPCGPST
   type: CNAME
   value: a.selfhosted.hackclub.com.
 irvine:
-- ttl: 3600
-  type: TXT
+- type: TXT
   values:
   - v=spf1 include:_spf.google.com ~all
   - google-site-verification=n9knjT30SgPd80zLKBD6M8fPFGIQUAO5OgfjDsPSrRM
-- ttl: 3600
-  type: MX
+- type: MX
   values:
   - exchange: aspmx.l.google.com.
     preference: 1
@@ -3293,9 +3273,8 @@ irvine:
     preference: 10
 - octodns:
     lenient: true
-  ttl: 600
-  type: ALIAS
-  value: cname.vercel-dns.com.
+  type: CNAME
+  value: 3d12bcc3c9ebe773.vercel-dns-016.com.
 isabelle:
 - ttl: 300
   type: CNAME
@@ -3936,11 +3915,9 @@ news: # explanation - news is the user-facing domain, newspaper is for internal 
     cloudflare:
       proxied: true
     lenient: true
-  ttl: 600
-  type: ALIAS
+  type: CNAME
   value: a.selfhosted.hackclub.com.
-- ttl: 3600
-  type: TXT
+- type: TXT
   values:
   - google-site-verification=Mc08Mplkv-e0eNBR0VW3ogoctBoozEETwZvrb-9prb0
 newspaper:
@@ -3983,13 +3960,11 @@ oasis:
   type: CNAME
   value: cname.vercel-dns.com.
 ocsa:
-- ttl: 3600
-  type: TXT
+- type: TXT
   values:
   - google-site-verification=tk_snQuv19iUwoOlsbKZv2Wwg5stfcusEm1Q8NxDiVA
   - v=spf1 include:_spf.google.com ~all
-- ttl: 3600
-  type: MX
+- type: MX
   values:
   - exchange: aspmx.l.google.com.
     preference: 1
@@ -4003,8 +3978,7 @@ ocsa:
     preference: 10
 - octodns:
     lenient: true
-  ttl: 600
-  type: ALIAS
+  type: CNAME
   value: cname.vercel-dns.com.
 odyssey:
 - ttl: 300
@@ -4276,18 +4250,15 @@ photos: # tom@daamen.uk  U078PH0GBEH
 phs:
 - octodns:
     lenient: true
-  ttl: 600
-  type: ALIAS
+  type: CNAME
   value: cname.vercel-dns.com.
-- ttl: 600
-  type: MX
+- type: MX
   values:
   - exchange: mx1.improvmx.com.
     preference: 1
   - exchange: mx2.improvmx.com.
     preference: 5
-- ttl: 600
-  type: TXT
+- type: TXT
   value: v=spf1 include:spf.improvmx.com ~all
 forms.phs:
 - ttl: 300
@@ -4477,18 +4448,15 @@ pullquests: # jared@hackclub.com / lynn@hackclub.com
 puyallup:
 - octodns:
     lenient: true
-  ttl: 600
-  type: ALIAS
+- type: CNAME
   value: cname.vercel-dns.com.
-- ttl: 600
-  type: MX
+- type: MX
   values:
   - exchange: mx1.improvmx.com.
     preference: 1
   - exchange: mx2.improvmx.com.
     preference: 5
-- ttl: 600
-  type: TXT
+- type: TXT
   value: v=spf1 include:spf.improvmx.com ~all
 _h323cs._tcp.px:
   ttl: 300
@@ -4849,11 +4817,9 @@ api.scraps: # nathan@hackclub.com
 scrapyard:
 - octodns:
     lenient: true
-  ttl: 60
-  type: ALIAS
-  value: cname.vercel-dns.com.
-- ttl: 60
-  type: MX
+- type: CNAME
+  value: 156f3e0325feaf9d.vercel-dns-016.com.
+- type: MX
   values:
   - exchange: aspmx.l.google.com.
     preference: 1
@@ -4865,18 +4831,15 @@ scrapyard:
     preference: 10
   - exchange: alt4.aspmx.l.google.com.
     preference: 10
-- ttl: 60
-  type: TXT
+- type: TXT
   values:
   - v=spf1 include:_spf.google.com ~all
   - google-site-verification=yZxQNIGF8LvRVUJ_LpekD1PTKCTFj2ECQZBA0OZXQus.
   - v=DMARC1\; p=none\; rua=mailto:dmarc_report@hackclub.com\; ruf=mailto:dmarc_report@hackclub.com\;fo=1
 _dmarc.scrapyard:
-  ttl: 300
   type: TXT
   value: v=DMARC1\; p=none\; rua=mailto:dmarc_report@hackclub.com\; ruf=mailto:dmarc_report@hackclub.com\;fo=1
 google._domainkey.scrapyard:
-  ttl: 300
   type: TXT
   value: v=DKIM1\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnLb/oPXGh2uktRUBxvfYh6vMdsRYXxyjgm9bYbSDryxBBm7FJbvdpPg5XqgONO0IiQC4HluQ9WgUo7g6GPNSh+yNuWRq5+5JGJjwAw9rPE2vdff31xZDFFCTDoqMlYRr5KvWC+wzSgGsCxSsTlaVnh2xYCZ22UYQ65yySlbBzE+mLotgtjvdF9hUTROLtepRErLVQOto5EGHtPjBJE8SwcgBRyvM0dLurOHBYur/QNcsmfEZpwi+rdrKQ8oSZho2OPXp55FIZ+yDR14y7joYuWgxEm6YEk9Sre2kMiHkLD3PP+/tyspVTZ3DAaq9CozcdILBvSZ2fcwqic9juL4DsQIDAQAB
 scriptingnest:
@@ -4897,7 +4860,6 @@ search: # U059VC0UDEU
   type: CNAME
   value: b.selfhosted.hackclub.com.
 security:
-  ttl: 300
   type: CNAME
   value: fc3ebadf0856acf4.vercel-dns-017.com.
 self-portrait:
@@ -5293,9 +5255,8 @@ spark:
     preference: 10
 - octodns:
     lenient: true
-  ttl: 600
-  type: ALIAS
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: 3b49cfa38fc6de56.vercel-dns-016.com.
 mailchannels._domainkey.spark:
   ttl: 300
   type: TXT
@@ -5454,8 +5415,7 @@ summer:
     cloudflare:
       proxied: true
     lenient: true
-  ttl: 300
-  type: ALIAS
+- type: CNAME
   value: a.selfhosted.hackclub.com.
 - ttl: 600
   type: TXT
@@ -5587,18 +5547,15 @@ terminalcraft:
 tfss:
 - octodns:
     lenient: true
-  ttl: 600
-  type: ALIAS
-  value: cname.vercel-dns.com.
-- ttl: 600
-  type: MX
+- type: CNAME
+  value: 34572224d0cbe88c.vercel-dns-016.com.
+- type: MX
   values:
   - exchange: mx1.improvmx.com.
     preference: 10
   - exchange: mx2.improvmx.com.
     preference: 20
-- ttl: 600
-  type: TXT
+- type: TXT
   values:
   - v=spf1 include:spf.improvmx.com ~all
 thai:
