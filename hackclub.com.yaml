@@ -5510,10 +5510,8 @@ terminalcraft:
   type: CNAME
   value: cname.vercel-dns.com.
 tfss:
-- octodns:
-    lenient: true
-- type: CNAME
-  value: 34572224d0cbe88c.vercel-dns-016.com.
+- type: A
+  value: 216.150.1.1 # Vercel
 - type: MX
   values:
   - exchange: mx1.improvmx.com.
