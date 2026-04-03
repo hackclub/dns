@@ -3906,25 +3906,22 @@ newspaper:
   type: CNAME
   value: a.selfhosted.hackclub.com.
 nigeria:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: f9405218404d4a35.vercel-dns-016.com.
 nioflb:
 - ttl: 300
   type: A
   value: 190.106.131.222
 nlcs:
-- ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 95f775779f538acb.vercel-dns-016.com.
 nmit:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 notebook:
-- ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 8f3ceaaead769d5d.vercel-dns-016.com.
 numberwang:
   ttl: 300
   type: CNAME
@@ -4143,17 +4140,15 @@ pa:
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
 pack:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 6ac58e3a94296079.vercel-dns-016.com.
 packages:
   ttl: 300
   type: CNAME
   value: secret-zebra-lydr194iy8x0x4n4rmzcii3r.herokudns.com.
 page:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 2197c133e656fa85.vercel-dns-016.com.
 pagering: # hey@gideon.sh U09D42Q0ARJ
   ttl: 300
   type: CNAME
@@ -4193,9 +4188,8 @@ portal.parthenon:
   type: CNAME
   value: a.selfhosted.hackclub.com. #POC = Reem reem@hackclub.com
 passport:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 60edb94de5050d99.vercel-dns-016.com.
 pathfinder:
   ttl: 300
   type: CNAME
@@ -4375,9 +4369,8 @@ _github-challenge-Hackclub-PRC.prc:
   type: TXT
   value: 26e02b51f5
 printboard:
-- ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: c296f4754a30c049.vercel-dns-016.com.
 printlegion:
 - octodns:
     cloudflare:
@@ -4513,9 +4506,8 @@ raspapi: # U08PUHSMW4V
   type: CNAME
   value: a.selfhosted.hackclub.com.
 raspite:
-- ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: e840e2fa1b4b2f59.vercel-dns-016.com.
 rawr:
 - ttl: 300
   type: CNAME
@@ -5644,9 +5636,8 @@ tonic:
   type: CNAME
   value: a.selfhosted.hackclub.com.
 toolbox:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 8f3ceaaead769d5d.vercel-dns-016.com.
 toolsmith:
   octodns:
     cloudflare:
