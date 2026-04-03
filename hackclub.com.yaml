@@ -3236,6 +3236,8 @@ iplace: # ascpixi@hackclub.com U082DPCGPST
   type: CNAME
   value: a.selfhosted.hackclub.com.
 irvine:
+- type: A
+  value: 216.150.1.1 # Vercel
 - type: TXT
   values:
   - v=spf1 include:_spf.google.com ~all
@@ -3252,10 +3254,6 @@ irvine:
     preference: 10
   - exchange: alt4.aspmx.l.google.com.
     preference: 10
-- octodns:
-    lenient: true
-  type: CNAME
-  value: 3d12bcc3c9ebe773.vercel-dns-016.com.
 isabelle:
 - ttl: 300
   type: CNAME
