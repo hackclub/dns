@@ -3893,9 +3893,8 @@ news: # explanation - news is the user-facing domain, newspaper is for internal 
 - octodns:
     cloudflare:
       proxied: true
-    lenient: true
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: 5.161.100.52 # a.selfhosted.hackclub.com
 - type: TXT
   values:
   - google-site-verification=Mc08Mplkv-e0eNBR0VW3ogoctBoozEETwZvrb-9prb0
