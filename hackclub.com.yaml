@@ -4787,10 +4787,8 @@ api.scraps: # nathan@hackclub.com
   type: CNAME
   value: a.selfhosted.hackclub.com.
 scrapyard:
-- octodns:
-    lenient: true
-- type: CNAME
-  value: 156f3e0325feaf9d.vercel-dns-016.com.
+- type: A
+  value: 216.150.1.1 # Vercel
 - type: MX
   values:
   - exchange: aspmx.l.google.com.
