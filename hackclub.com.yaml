@@ -4224,7 +4224,7 @@ photos: # tom@daamen.uk  U078PH0GBEH
   type: A
   value: 77.90.16.198
 phs:
-- type: CNAME
+- type: A
   value: 216.150.1.1 # Vercel
 - type: MX
   values:
