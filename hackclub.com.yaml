@@ -4420,10 +4420,8 @@ pullquests: # jared@hackclub.com / lynn@hackclub.com
   type: CNAME
   value: 28f4f262437958ca.vercel-dns-016.com.
 puyallup:
-- octodns:
-    lenient: true
-- type: CNAME
-  value: cname.vercel-dns.com.
+- type: A
+  value: 216.150.1.1 # Vercel
 - type: MX
   values:
   - exchange: mx1.improvmx.com.
