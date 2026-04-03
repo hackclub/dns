@@ -5205,13 +5205,13 @@ old.spaces: # ivie@hackclub.com @Charmunk
   type: CNAME
   value: a.selfhosted.hackclub.com.
 spark:
-- ttl: 3600
-  type: TXT
+- type: A
+  value: 216.150.1.1 # Vercel
+- type: TXT
   values:
   - google-site-verification=tfR_HodAOAG-fVR_kaKvsE2gEz8MIqidrd-NMM2XxmQ
   - v=spf1 include:_spf.google.com ~all
-- ttl: 3600
-  type: MX
+- type: MX
   values:
   - exchange: aspmx.l.google.com.
     preference: 1
@@ -5223,10 +5223,6 @@ spark:
     preference: 10
   - exchange: alt4.aspmx.l.google.com.
     preference: 10
-- octodns:
-    lenient: true
-- type: CNAME
-  value: 3b49cfa38fc6de56.vercel-dns-016.com.
 mailchannels._domainkey.spark:
   ttl: 300
   type: TXT
