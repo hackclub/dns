@@ -5380,9 +5380,8 @@ summer:
 - octodns:
     cloudflare:
       proxied: true
-    lenient: true
-- type: CNAME
-  value: a.selfhosted.hackclub.com.
+  type: A
+  value: 5.161.100.52 # a.selfhosted.hackclub.com
 - ttl: 600
   type: TXT
   values:
