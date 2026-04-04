@@ -38,6 +38,8 @@
   - MS=ms66267035
   - facebook-domain-verification=z5cyjpqj1fvx5315wk3ahnkx4ohi6r
   - anthropic-domain-verification-hkth5m=hheIAy80WjbR1ZRaKVlWYZ0Z6   # alex@hackclub.com / gary@hackclub.com
+- type: CAA
+  value: '0 issue "pki.goog"'
 44.74:
 - ttl: 300
   type: CNAME
