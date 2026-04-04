@@ -1857,6 +1857,7 @@ docs: # leo@hackclub.com U07BLJ1MBEE
 - octodns:
     cloudflare:
       proxied: false
+    lenient: true
   ttl: 300
   type: ALIAS
   value: 4fc2e0847f-hosting.gitbook.io.
