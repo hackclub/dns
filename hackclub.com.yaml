@@ -1854,6 +1854,9 @@ dockerize:
   type: CNAME
   value: 80028c660ac02181.vercel-dns-017.com.
 docs: # leo@hackclub.com U07BLJ1MBEE
+- octodns:
+    cloudflare:
+      proxied: true
   ttl: 300
   type: CNAME
   value: 4fc2e0847f-hosting.gitbook.io.
