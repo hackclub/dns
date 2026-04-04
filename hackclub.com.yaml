@@ -1849,6 +1849,10 @@ disconnect:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+docs:
+  ttl: 300
+  type: CNAME
+  value: 4fc2e0847f-hosting.gitbook.io.
 dockerize:
 - ttl: 300
   type: CNAME
