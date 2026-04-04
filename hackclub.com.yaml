@@ -3226,7 +3226,7 @@ intercom-files: #alexd@hackclub.com U02CWS020SD
 outbound.intercom: #alexd@hackclub.com U02CWS020SD
 - ttl: 300
   type: CNAME
-  value: rp.hack-club-89976b4c824d.intercom-mail.com.
+  value: rp.hcb-4a1937117a59.intercom-mail.com.
 interns: #leo@hackclub.com U07BLJ1MBEE
   type: CNAME
   value: a.selfhosted.hackclub.com.
