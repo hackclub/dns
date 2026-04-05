@@ -446,6 +446,11 @@ fr: #dwait.pandhi@gmail.com Dwait Pandhi
   type: A
   value: 216.198.79.1
 
+framebuf: #funkeudo@outlook.com / U0A03GWFP1V
+- ttl: 600
+  type: A
+  value: 216.198.79.1
+
 fullhouse: #niko@nikoo.dev U08SF8MVC82
 - ttl: 600
   type: A
