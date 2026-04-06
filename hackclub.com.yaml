@@ -213,10 +213,16 @@ sgd2._domainkey: # SendGrid Sender Authentication (bank@hackclub.com)
   type: CNAME
   value: sgd2.domainkey.u14148987.wl238.sendgrid.net.
 strong1._domainkey:
+- octodns:
+    cloudflare:
+      proxied: false
   ttl: 300
   type: CNAME
   value: strong1._domainkey.helpscout.net.
 strong2._domainkey:
+- octodns:
+    cloudflare:
+      proxied: false
   ttl: 300
   type: CNAME
   value: strong2._domainkey.helpscout.net.
