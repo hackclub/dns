@@ -6012,7 +6012,7 @@ zwp:
 - ttl: 300
   type: A
   value: 172.99.233.117
-fr.hackclub.com:
+fr:
   - ttl: 300
     type: CNAME
     value: a05569dabb46ea5b.vercel-dns-016.com.
