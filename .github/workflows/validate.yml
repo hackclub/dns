@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - main
-  pull_request:
+  pull_request_target:
   merge_group:
   workflow_dispatch:
 
@@ -16,6 +16,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
 
       - name: json-yaml-validate
         id: json-yaml-validate
@@ -25,9 +27,11 @@ jobs:
 
   sort-check:
     runs-on: ubuntu-latest
-    if: github.event_name == 'pull_request' || (github.event_name == 'push' && github.ref == 'refs/heads/main')
+    if: github.event_name == 'pull_request_target' || (github.event_name == 'push' && github.ref == 'refs/heads/main')
     steps:
       - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
 
       - uses: actions/setup-python@v6
         with:
@@ -41,7 +45,7 @@ jobs:
         run: python3 bin/sort-zones --check
 
       - name: Comment on PR if unsorted
-        if: failure() && steps.sort-check.outcome == 'failure' && github.event_name == 'pull_request'
+        if: failure() && steps.sort-check.outcome == 'failure' && github.event_name == 'pull_request_target'
         uses: actions/github-script@v8
         with:
           script: |
