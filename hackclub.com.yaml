@@ -2375,7 +2375,7 @@ forms:
   ttl: 300
   type: CNAME
   value: domains.fillout.com.
-fr:
+fr: #axel@athenox.dev
 - ttl: 300
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
@@ -6021,7 +6021,3 @@ zwp:
 - ttl: 300
   type: A
   value: 172.99.233.117
-fr:
-  - ttl: 300
-    type: CNAME
-    value: a05569dabb46ea5b.vercel-dns-016.com.
