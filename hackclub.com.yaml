@@ -213,10 +213,16 @@ sgd2._domainkey: # SendGrid Sender Authentication (bank@hackclub.com)
   type: CNAME
   value: sgd2.domainkey.u14148987.wl238.sendgrid.net.
 strong1._domainkey:
+- octodns:
+    cloudflare:
+      proxied: false
   ttl: 300
   type: CNAME
   value: strong1._domainkey.helpscout.net.
 strong2._domainkey:
+- octodns:
+    cloudflare:
+      proxied: false
   ttl: 300
   type: CNAME
   value: strong2._domainkey.helpscout.net.
@@ -3233,7 +3239,10 @@ intercom-files: #alexd@hackclub.com U02CWS020SD
   type: CNAME
   value: hack-club-89976b4c824d.intercom-mail.com.
 outbound.intercom: #alexd@hackclub.com U02CWS020SD
-- ttl: 300
+- octodns:
+    cloudflare:
+      proxied: false
+  ttl: 300
   type: CNAME
   value: rp.hcb-4a1937117a59.intercom-mail.com.
 interns: #leo@hackclub.com U07BLJ1MBEE
