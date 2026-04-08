@@ -5924,6 +5924,12 @@ whs:
 - ttl: 300
   type: CNAME
   value: whs-hackclub.netlify.com.
+wiki: # eps@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
 windmill:
 - octodns:
     cloudflare:
