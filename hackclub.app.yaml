@@ -36,6 +36,9 @@ nest2024._domainkey:
 _psl:
 - type: TXT
   value: https://github.com/publicsuffix/list/pull/2579
+dashboard:
+- type: CNAME
+  value: hackclub.app.
 guides:
 - type: CNAME
   value: secure.hackclub.app.
