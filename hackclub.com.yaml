@@ -4718,7 +4718,7 @@ rss:
 runshaw:
 - ttl: 300
   type: CNAME
-  value: dragon863.hackclub.app.
+  value: danielb.hackclub.app.
 rw:
 - ttl: 300
   type: CNAME
