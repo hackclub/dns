@@ -29,7 +29,7 @@ jobs:
 
       - name: Comment on PR if missing contact info
         if: failure() && steps.contact-check.outcome == 'failure'
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         with:
           script: |
             github.rest.pulls.createReview({

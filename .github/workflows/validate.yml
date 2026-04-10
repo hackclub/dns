@@ -46,7 +46,7 @@ jobs:
 
       - name: Comment on PR if unsorted
         if: failure() && steps.sort-check.outcome == 'failure' && github.event_name == 'pull_request_target'
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         with:
           script: |
             github.rest.pulls.createReview({

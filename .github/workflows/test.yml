@@ -38,7 +38,7 @@ jobs:
 
       - name: Check for --force
         id: check-force
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         with:
           script: |
             let prNumber = null;

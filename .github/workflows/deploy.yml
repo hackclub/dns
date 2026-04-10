@@ -27,7 +27,7 @@ jobs:
 
       - name: Check for --force label on merged PR
         id: check-force
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         with:
           script: |
             const pulls = await github.rest.repos.listPullRequestsAssociatedWithCommit({
