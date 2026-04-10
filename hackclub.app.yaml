@@ -69,7 +69,7 @@ pbx:
 scrapyard:
 - type: CNAME
   value: cname.vercel-dns.com.
-status:
+status: # me@cyteon.dev
 - type: A
   value: 45.8.201.70
 summit:
