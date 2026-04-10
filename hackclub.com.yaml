@@ -531,6 +531,10 @@ ama-machine:
 - ttl: 300
   type: CNAME
   value: rugged-pheasant-1rx4ei5ejoumyp4fxpq3s8rs.herokudns.com.
+ambassador:
+- ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 amigo: # nathan@hackclub.com
 - ttl: 300
   type: CNAME
