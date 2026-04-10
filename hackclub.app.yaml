@@ -72,3 +72,6 @@ scrapyard:
 summit:
 - type: CNAME
   value: cname.vercel-dns.com.
+status:
+- type: A
+  value: 45.8.201.70
