@@ -4292,10 +4292,6 @@ pl:
   ttl: 300
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
-place:
-  ttl: 300
-  type: A
-  value: 96.126.108.99
 playphone:
   ttl: 300
   type: A
