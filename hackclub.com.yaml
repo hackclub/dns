@@ -3882,6 +3882,10 @@ hctg.nephthys: # mish@hackclub.com U073M5L9U13 & arav@hackclub.com U01MPHKFZ7S
   ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
+help.nephthys: # mish@hackclub.com U073M5L9U13 & vidutran17@gmail.com U07F6FMJ97U
+  ttl: 300
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
 identity.nephthys: # amber / U054VC2KM9P
   ttl: 300
   type: CNAME
