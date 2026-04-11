@@ -53,6 +53,10 @@ siliconplane:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+help:
+- ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
 ihs:
 - ttl: 300
   type: CNAME
