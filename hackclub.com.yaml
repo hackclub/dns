@@ -535,6 +535,10 @@ ambassador: # leo@hackclub.com U07BLJ1MBEE
 - ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+ambassadors: # leo@hackclub.com U07BLJ1MBEE
+- ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 amigo: # nathan@hackclub.com
 - ttl: 300
   type: CNAME
