@@ -4,6 +4,7 @@ providers:
     class: octodns.provider.yaml.YamlProvider
     directory: ./
     enforce_order: False
+    default_ttl: 600
   dnsimple:
     class: octodns_dnsimple.DnsimpleProvider
     token: env/DNSIMPLE_API_KEY
@@ -43,17 +44,17 @@ zones:
     sources:
       - config
     targets:
-      - dnsimple
+      - cloudflare-alt
   hackclub.io.:
     sources:
       - config
     targets:
-      - dnsimple
+      - cloudflare-alt
   hackedu.us.:
     sources:
       - config
     targets:
-      - dnsimple
+      - cloudflare-alt
   hack.af.:
     sources:
       - config
@@ -63,7 +64,7 @@ zones:
     sources:
       - config
     targets:
-      - dnsimple
+      - cloudflare-alt
   dino.icu.:
     sources:
       - config
@@ -89,7 +90,7 @@ zones:
     sources:
       - config
     targets:
-      - dnsimple
+      - cloudflare-alt
   wackclub.com.:
     sources:
       - config
@@ -114,7 +115,7 @@ zones:
     sources:
       - config
     targets:
-      - dnsimple
+      - cloudflare-alt
   aisafety.dance.:
     sources:
       - config
@@ -124,7 +125,7 @@ zones:
     sources:
       - config
     targets:
-      - dnsimple
+      - cloudflare-alt
   hackclub.community.:
     sources:
       - config

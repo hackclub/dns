@@ -12,9 +12,9 @@ This repository is used for managing Hack Club's DNS configuration through [Octo
 
 ```yaml
 SUBDOMAIN_NAME: # email@example.com U012AB345CD
-  - ttl: 600
-    type: CNAME
+  - type: CNAME
     value: SOURCE_DOMAIN_OR_IP.
+    ttl: 600 # OPTIONAL (defaults to 600)
 ```
 
 3. Replace `SUBDOMAIN_NAME` with the name of the sub-domain. So if the name was `hello` then the subdomain would be `hello.hackclub.com`.

@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - main
-  pull_request:
+  pull_request_target:
   merge_group:
   workflow_dispatch:
 
@@ -15,10 +15,44 @@ jobs:
   json-yaml-validate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
 
       - name: json-yaml-validate
         id: json-yaml-validate
-        uses: GrantBirki/json-yaml-validate@v2.7.1
+        uses: GrantBirki/json-yaml-validate@v4.0.0
         with:
           comment: "true"
+
+  sort-check:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request_target' || (github.event_name == 'push' && github.ref == 'refs/heads/main')
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3'
+
+      - name: Install dependencies
+        run: pip install natsort ruamel.yaml
+
+      - name: Check sort order
+        id: sort-check
+        run: python3 bin/sort-zones --check
+
+      - name: Comment on PR if unsorted
+        if: failure() && steps.sort-check.outcome == 'failure' && github.event_name == 'pull_request_target'
+        uses: actions/github-script@v9
+        with:
+          script: |
+            github.rest.pulls.createReview({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.issue.number,
+              event: 'REQUEST_CHANGES',
+              body: '⚠️ Your DNS record is not sorted in alphabetical order! Please sort it accordingly so your PR can be merged.\n\nSub-sub domains (ex: `badge.shipwrecked.hackclub.com`) should be sorted in alphabetical order under their respective parent subdomain (ex: `shipwrecked.hackclub.com`).'
+            })

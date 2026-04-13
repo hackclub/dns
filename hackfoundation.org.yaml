@@ -1,7 +1,7 @@
 ---
-'':
+'': # zach@hackclub.com U0266FRGP
   type: A
-  value: 76.76.21.21
-the:
+  value: 216.150.1.1
+the: # zach@hackclub.com U0266FRGP
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: b87a9ce0fca6c4b7.vercel-dns-016.com.
