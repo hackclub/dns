@@ -5038,7 +5038,7 @@ count.shipwrecked:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-shipyard:
+shipyard:  # bisherk.almasri@gmail.com U097SRZ6DU7
   - type: CNAME
   value: 0053c02d8c565067.vercel-dns-017.com.
 shop:
