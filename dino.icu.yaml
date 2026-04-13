@@ -153,6 +153,11 @@ baguette: # blog
   type: CNAME
   value: cname.vercel-dns.com.
 
+bedtime: # dristiroy@gmail.com U08R7L3E859
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
+
 betterwork-ai: # by https://heramb0x1.github.io/betterwork-ai
   ttl: 600
   type: CNAME
