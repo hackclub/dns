@@ -895,7 +895,6 @@ axiom: # tanjimkamal1@gmail.com U09ASUK57K8 # Axiom YSWS: #axiom on Slack
   type: CNAME
   value: 8bfbc5e47c699b10.vercel-dns-016.com.
 az:
-- ttl: 300
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
 b2b:
@@ -1113,7 +1112,6 @@ badge.blueprint: # U06CRF4DLSU
   type: CNAME
   value: mpkendall.github.io.
 bn:
-- ttl: 300
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
 boba:
@@ -1789,7 +1787,6 @@ daysofservice:
   type: CNAME
   value: cname.vercel-dns.com.
 de:
-- ttl: 300
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
 dear-joe:
@@ -1942,11 +1939,9 @@ editor:
   type: CNAME
   value: cname.vercel-dns.com.
 ee:
-  ttl: 300
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
 el:
-  ttl: 300
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
 em4440: # SendGrid Sender Authentication (bank@hackclub.com)
@@ -2115,7 +2110,6 @@ register.epochvt:
   type: CNAME
   value: cname.vercel-dns.com.
 es:
-- ttl: 300
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
 essays:
@@ -2185,7 +2179,6 @@ extensify:
   type: CNAME
   value: a.selfhosted.hackclub.com.
 fa:
-- ttl: 1
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
 fab:
@@ -2385,7 +2378,6 @@ forms:
   type: CNAME
   value: domains.fillout.com.
 fr:
-- ttl: 300
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
 frankensite: #jared@hackclub.com
@@ -2436,11 +2428,9 @@ fudge:
     cloudflare:
       proxied: true
 fulfillment: #jenin@hackclub.com @jenin
-- ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 fusering:
-- ttl: 300
   type: CNAME
   value: 71b1e2defbc1af44.vercel-dns-017.com.
 gaither:
@@ -2464,29 +2454,18 @@ gamebit:
   type: CNAME
   value: a.selfhosted.hackclub.com.
 gamedev: # tongyu@hackclub.com U07DJMFAQQP
-- ttl: 300
   type: CNAME
   value: 954c30a6de8e4def.vercel-dns-016.com.
-gamelab:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
-www.gamelab:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
 games:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 954c30a6de8e4def.vercel-dns-016.com.
 old.games: # augie@hackclub.com U07FCRNHS1J
 - ttl: 300
   type: CNAME
   value: 85fe02d11a27ceed.vercel-dns-016.com.
 gas:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 153c5cb71915c27b.vercel-dns-016.com.
 gas.gas.gas:
   ttl: 300
   type: A
@@ -2521,7 +2500,6 @@ _github-challenge-GaynorMcCown.gaynormccown:
   type: TXT
   value: 03c11eee8f
 gemini:
-- ttl: 300
   type: CNAME
   value: eb419f3dcb10b323.vercel-dns-016.com.
 geochat:
@@ -2578,21 +2556,18 @@ globalcovid:
   type: CNAME
   value: globalcovid.netlify.com.
 golden:
-- ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 57cd2901f886bca3.vercel-dns-016.com.
 gotchi:
   ttl: 300
   type: A
   value: 140.82.60.70
 gps:
-- ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: c0eaa1ae589a28b9.vercel-dns-016.com.
 gr:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a05569dabb46ea5b.vercel-dns-016.com.
 grass:
 - octodns:
     cloudflare:
@@ -3062,7 +3037,6 @@ hersey:
   type: CNAME
   value: cname.vercel-dns.com.
 hi:
-- ttl: 300
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
 high-seas:
@@ -3174,12 +3148,10 @@ ice:
 - ttl: 300
   type: CNAME
   value: hackclub.github.io.
-icons:
-  ttl: 300
+icons: # echo@hackclub.com U080A3QP42C
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 82dbb3f826260087.vercel-dns-016.com.
 id:
-- ttl: 300
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
 identity:
@@ -3301,7 +3273,6 @@ isthackers:
   type: CNAME
   value: isthackers.github.io.
 it:
-- ttl: 300
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
 italia:
@@ -3313,7 +3284,6 @@ iter:
   type: CNAME
   value: hackclubiter.github.io.
 ja:
-- ttl: 300
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
 jackpot: # emmaborghi@hackclub.com U078DFX40A2
@@ -3376,9 +3346,8 @@ journey:
   type: CNAME
   value: a.selfhosted.hackclub.com.
 jp:
-- ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a05569dabb46ea5b.vercel-dns-016.com.
 jpeg:
 - ttl: 300
   type: CNAME
@@ -3459,7 +3428,6 @@ ko:
   type: CNAME
   value: cname.vercel-dns.com.
 kr:
-  ttl: 300
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
 lambert:
@@ -3821,7 +3789,6 @@ game-server.morp: # @Olive, U07BN55GN3D
   type: CNAME
   value: a.selfhosted.hackclub.com.
 ms:
-- ttl: 300
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
 msft:
@@ -4174,7 +4141,6 @@ p2p:
   type: CNAME
   value: p2phackclub.github.io.
 pa:
-- ttl: 300
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
 pack:
@@ -4302,7 +4268,6 @@ pixeldust:
   type: CNAME
   value: cname.vercel-dns.com.
 pl:
-  ttl: 300
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
 playphone:
@@ -4729,7 +4694,6 @@ runshaw:
   type: CNAME
   value: danielb.hackclub.app.
 rw:
-- ttl: 300
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
 sa:
@@ -5545,9 +5509,8 @@ tfss:
   values:
   - v=spf1 include:spf.improvmx.com ~all
 thai:
-- ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a05569dabb46ea5b.vercel-dns-016.com.
 the-pier:
 - ttl: 300
   type: A
@@ -5560,10 +5523,9 @@ thehackmic:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-theme:
-- ttl: 300
+theme: # echo@hackclub.com U080A3QP42C
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: b148aa044d637133.vercel-dns-016.com.
 thing:
 - ttl: 300
   type: CNAME
@@ -5709,7 +5671,6 @@ toybox:
   type: CNAME
   value: d7ce54e48ab125e2.vercel-dns-016.com.
 tr:
-  ttl: 300
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
 trace: # aarav@fraud.land U07UK4S94KC
@@ -5762,7 +5723,6 @@ uet:
   type: CNAME
   value: cname.vercel-dns.com.
 uk:
-- ttl: 300
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
 undercity:
@@ -5785,7 +5745,6 @@ uptime:
   type: CNAME
   value: uptime.selfhosted.hackclub.com.
 ur:
-- ttl: 300
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
 url75: # SendGrid Sender Authentication (bank@hackclub.com)
@@ -5823,7 +5782,6 @@ india.verifications:
   type: CNAME
   value: cname.vercel-dns.com.
 vi:
-- ttl: 300
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
 vibes: # jared@hackclub.com / lynn@hackclub.com
@@ -6022,7 +5980,6 @@ zguide:
   type: CNAME
   value: hackclub.github.io.
 zh:
-- ttl: 300
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
 zoo:
