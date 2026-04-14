@@ -5278,19 +5278,13 @@ spp:
 - ttl: 300
   type: CNAME
   value: spphacks.netlify.com.
-sprig:
-- octodns:
-    cloudflare:
-      proxied: false
-  ttl: 300
+sprig: # jared@hackclub.com U07HEH4N8UV
   type: CNAME
-  value: a.selfhosted.hackclub.com.
-sprig-order:
-- ttl: 300
+  value: 763e4457b6bd8b0a.vercel-dns-016.com.
+sprig-order: # jared@hackclub.com U07HEH4N8UV
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 879a895177aed40f.vercel-dns-016.com.
 editor.sprig:
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 spud:
