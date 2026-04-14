@@ -1002,6 +1002,9 @@ berman:
 - ttl: 300
   type: CNAME
   value: bermanclub.pages.dev.
+beta: # echo@hackclub.com U080A3QP42C
+  type: CNAME
+  value: 6cdac7be6b2e933b.vercel-dns-016.com.
 better-airtable-mcp: # zach@hackclub.com
 - octodns:
     cloudflare:
