@@ -2678,6 +2678,10 @@ hackathons:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+help: #@coolcream U096RMRG03G
+ - ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com
 app-1.hackathons:
   ttl: 300
   type: A
