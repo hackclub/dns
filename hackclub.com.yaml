@@ -3378,14 +3378,14 @@ juice:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-jus-study: #adlerauge818+hackclub@gmail.com under euan@hackclub.com
-- ttl: 300
-  type: CNAME
-  value: b.selfhosted.hackclub.com.
 jumpstart: #estella@hackclub.com
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+jus-study: #adlerauge818+hackclub@gmail.com under euan@hackclub.com
+- ttl: 300
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
 daydream.jumpstart:
 - ttl: 300
   type: CNAME
