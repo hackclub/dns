@@ -2234,6 +2234,9 @@ firehose:
 - ttl: 300
   type: CNAME
   value: cylindrical-rose-bklwrtred01ytycfprxq1lvm.herokudns.com.
+first: # @dhamari
+  type: CNAME
+  value: hackclub.github.io.
 fix: # jared@hackclub.com / lynn@hackclub.com
   type: CNAME
   value: 8d1bf7125214998b.vercel-dns-016.com.
