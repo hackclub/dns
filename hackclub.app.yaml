@@ -3,7 +3,7 @@
 - type: A
   value: 37.27.51.33
 - type: AAAA
-  value: 2a01:4f9:c01e:236::1
+  value: 2a01:4f9:3081:399c::215
   # - type: MX
   #   values:
   #     - exchange: mail.hackclub.app.
