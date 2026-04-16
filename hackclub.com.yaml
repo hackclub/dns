@@ -312,7 +312,6 @@ _vercel:
   - vc-domain-verify=fhs.hackclub.com,46936764d6774efee2b5
   - vc-domain-verify=foodie.hackclub.com,0215d38601a347a45686
   - vc-domain-verify=forms.phs.hackclub.com,25e08effb0de721c762e
-  - vc-domain-verify=fraud.hackclub.com,e3e5b184c19552f5c475
   - vc-domain-verify=fudge.hackclub.com,6141b368441cbcf96cb4
   - vc-domain-verify=fusering.hackclub.com,b3bcae34deb4b6c261c1
   - vc-domain-verify=flavourless.hackclub.com,a39ba57d4d6087d032ee
@@ -2413,12 +2412,10 @@ fraser:
   - 185.199.109.153
   - 185.199.110.153
   - 185.199.111.153
-fraud: # echo - echo@hackclub.com
-- ttl: 300
+fraud: # echo@hackclub.com U080A3QP42C
   type: CNAME
   value: 4ba1d516ffa9aa93.vercel-dns-017.com.
 '*.fraud':  # neon - neon@hackclub.com
-- ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 fremont:
