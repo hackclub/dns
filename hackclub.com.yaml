@@ -4324,10 +4324,10 @@ _github-challenge-Orpheuspod.podcast:
 - ttl: 300
   type: TXT
   value: b2e369c8f1
-podium: # sebastian@hackclub.com U07UBCSSQH3
+podium: # angad@hackclub.com U075RTSLDQ8
   ttl: 300
   type: CNAME
-  value: ingress.lfdl.ink.
+  value: 10ae0126a099de2e.vercel-dns-016.com.
 podium-backend: # angad@hackclub.com U075RTSLDQ8
   ttl: 300
   type: CNAME
