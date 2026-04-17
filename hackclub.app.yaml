@@ -38,6 +38,18 @@
 _dmarc:
 - type: CNAME
   value: dmarcroot.purelymail.com.
+nest2024._domainkey:
+- type: TXT
+  value: v=DKIM1\; h=sha256\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAty0gSU619f5L+iykm4FezEwL7zqYqaMV7bcTw31z417DZ2zmV17nPqmJEKmnwNu7H0wxbDOJQdxacTexlmTQS+SMnDhPzkeR72bJC6iXfWvhknwfnuoHeTSszHSrywpSIQ5qNybrGQKMv2pn+FZAQh38j/I2bjVwsAyqfQgj8h4KD5GilUtue9BRvaYnfH9y0JyIesDmsVjkiSGOp2wf4B81tPO9QuS+2aiHkyXsEyMzWuCEux0MXHcalLKDMqQkawcJrgRuBgUFXfqsowFq2WgpAi8Fb7ngxHO+h65nPV3I0rk9i+LsyJ+S30C2uI/vLjd2aN7+4q/gSM75QdsfXwIDAQAB
+purelymail1._domainkey:
+- type: CNAME
+  value: key1.dkimroot.purelymail.com.
+purelymail2._domainkey:
+- type: CNAME
+  value: key2.dkimroot.purelymail.com.
+purelymail3._domainkey:
+- type: CNAME
+  value: key3.dkimroot.purelymail.com.
 _psl:
 - type: TXT
   value: https://github.com/publicsuffix/list/pull/2579
@@ -65,24 +77,12 @@ mail:
 minio:
 - type: AAAA
   value: 2a01:4f9:3081:399c::19
-nest2024._domainkey:
-- type: TXT
-  value: v=DKIM1\; h=sha256\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAty0gSU619f5L+iykm4FezEwL7zqYqaMV7bcTw31z417DZ2zmV17nPqmJEKmnwNu7H0wxbDOJQdxacTexlmTQS+SMnDhPzkeR72bJC6iXfWvhknwfnuoHeTSszHSrywpSIQ5qNybrGQKMv2pn+FZAQh38j/I2bjVwsAyqfQgj8h4KD5GilUtue9BRvaYnfH9y0JyIesDmsVjkiSGOp2wf4B81tPO9QuS+2aiHkyXsEyMzWuCEux0MXHcalLKDMqQkawcJrgRuBgUFXfqsowFq2WgpAi8Fb7ngxHO+h65nPV3I0rk9i+LsyJ+S30C2uI/vLjd2aN7+4q/gSM75QdsfXwIDAQAB
 old:
 - type: A
   value: 37.27.51.34
 pbx:
 - type: AAAA
   value: 2a01:4f9:3081:399c:be24:11ff:fef0:3b81
-purelymail1._domainkey:
-- type: CNAME
-  value: key1.dkimroot.purelymail.com.
-purelymail2._domainkey:
-- type: CNAME
-  value: key2.dkimroot.purelymail.com.
-purelymail3._domainkey:
-- type: CNAME
-  value: key3.dkimroot.purelymail.com.
 scrapyard:
 - type: CNAME
   value: cname.vercel-dns.com.
