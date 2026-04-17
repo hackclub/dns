@@ -4,52 +4,40 @@
   value: 37.27.51.33
 - type: AAAA
   value: 2a01:4f9:3081:399c::215
-- type: TXT
-  value: "v=spf1 include:_spf.purelymail.com ~all"
-- type: MX
-  values:
-    - exchange: mailserver.purelymail.com.
-      priority: 50
 - type: CAA
   values:
     - flags: 0
       tag: issue
-      value: "zerossl.com"
+      value: "letsencrypt.org"
     - flags: 0
       tag: issue
       value: "sectigo.com"
     - flags: 0
       tag: issue
-      value: "letsencrypt.org"
+      value: "zerossl.com"
     - flags: 0
       tag: issuewild
-      value: "zerossl.com"
+      value: "letsencrypt.org"
     - flags: 0
       tag: issuewild
       value: "sectigo.com"
     - flags: 0
       tag: issuewild
-      value: "letsencrypt.org"
+      value: "zerossl.com"
+- type: MX
+  values:
+    - exchange: mailserver.purelymail.com.
+      priority: 50
 - type: TXT
-  value: purelymail_ownership_proof=d3fc6fe8cd24325b5241a309de306f959e7d3f660648619f5dc55d982f90bb5e31c106c4c07c0924f61632dad224e04d7e05ce23fcc9b6b9c680bf2f23fd30be
+  values:
+    - "v=spf1 include:_spf.purelymail.com ~all"
+    - purelymail_ownership_proof=d3fc6fe8cd24325b5241a309de306f959e7d3f660648619f5dc55d982f90bb5e31c106c4c07c0924f61632dad224e04d7e05ce23fcc9b6b9c680bf2f23fd30be
 "*":
 - type: CNAME
   value: hackclub.app.
 _dmarc:
 - type: CNAME
   value: dmarcroot.purelymail.com.
-purelymail1._domainkey:
-- type: TXT
-  value: key1.dkimroot.purelymail.com.
-purelymail2._domainkey:
-- type: TXT
-  value: key2.dkimroot.purelymail.com.
-purelymail3._domainkey:
-- type: TXT
-  value: key3.dkimroot.purelymail.com.
-nest2024._domainkey:
-- type: TXT
-  value: v=DKIM1\; h=sha256\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAty0gSU619f5L+iykm4FezEwL7zqYqaMV7bcTw31z417DZ2zmV17nPqmJEKmnwNu7H0wxbDOJQdxacTexlmTQS+SMnDhPzkeR72bJC6iXfWvhknwfnuoHeTSszHSrywpSIQ5qNybrGQKMv2pn+FZAQh38j/I2bjVwsAyqfQgj8h4KD5GilUtue9BRvaYnfH9y0JyIesDmsVjkiSGOp2wf4B81tPO9QuS+2aiHkyXsEyMzWuCEux0MXHcalLKDMqQkawcJrgRuBgUFXfqsowFq2WgpAi8Fb7ngxHO+h65nPV3I0rk9i+LsyJ+S30C2uI/vLjd2aN7+4q/gSM75QdsfXwIDAQAB
 _psl:
 - type: TXT
   value: https://github.com/publicsuffix/list/pull/2579
@@ -77,16 +65,29 @@ mail:
 minio:
 - type: AAAA
   value: 2a01:4f9:3081:399c::19
+nest2024._domainkey:
+- type: TXT
+  value: v=DKIM1\; h=sha256\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAty0gSU619f5L+iykm4FezEwL7zqYqaMV7bcTw31z417DZ2zmV17nPqmJEKmnwNu7H0wxbDOJQdxacTexlmTQS+SMnDhPzkeR72bJC6iXfWvhknwfnuoHeTSszHSrywpSIQ5qNybrGQKMv2pn+FZAQh38j/I2bjVwsAyqfQgj8h4KD5GilUtue9BRvaYnfH9y0JyIesDmsVjkiSGOp2wf4B81tPO9QuS+2aiHkyXsEyMzWuCEux0MXHcalLKDMqQkawcJrgRuBgUFXfqsowFq2WgpAi8Fb7ngxHO+h65nPV3I0rk9i+LsyJ+S30C2uI/vLjd2aN7+4q/gSM75QdsfXwIDAQAB
 old:
 - type: A
   value: 37.27.51.34
 pbx:
 - type: AAAA
   value: 2a01:4f9:3081:399c:be24:11ff:fef0:3b81
+purelymail1._domainkey:
+- type: CNAME
+  value: key1.dkimroot.purelymail.com.
+purelymail2._domainkey:
+- type: CNAME
+  value: key2.dkimroot.purelymail.com.
+purelymail3._domainkey:
+- type: CNAME
+  value: key3.dkimroot.purelymail.com.
 scrapyard:
 - type: CNAME
   value: cname.vercel-dns.com.
-status: # me@cyteon.dev
+# me@cyteon.dev
+status:
 - type: A
   value: 45.8.201.70
 summit:
