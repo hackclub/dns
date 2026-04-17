@@ -4,55 +4,52 @@
   value: 37.27.51.33
 - type: AAAA
   value: 2a01:4f9:3081:399c::215
-  # - type: MX
-  #   values:
-  #     - exchange: mail.hackclub.app.
-  #       priority: 10
-  # - type: TXT
-  #   value: "v=spf1 mx ~all"
-  # - type: SSHFP
-  #   values:
-  #     - algorithm: 1
-  #       fingerprint_type: 2
-  #       fingerprint: "f4b3549745cadae2269e001286f0b99ff11d4ff0ee6b33a8300ad9f9737fd4bb"
-  #     - algorithm: 3
-  #       fingerprint_type: 2
-  #       fingerprint: "0bcf6826ec576c2a5f170b81642d94302cdc87440a2de9da02248dba2655a09c"
-  #     - algorithm: 4
-  #       fingerprint_type: 2
-  #       fingerprint: "1cca6a8a1967644ac3bb9c21b1ff0f6e160f4a35067fe28afbece19927c3003a"
 - type: CAA
   values:
     - flags: 0
       tag: issue
-      value: "zerossl.com"
+      value: "letsencrypt.org"
     - flags: 0
       tag: issue
       value: "sectigo.com"
     - flags: 0
       tag: issue
-      value: "letsencrypt.org"
+      value: "zerossl.com"
     - flags: 0
       tag: issuewild
-      value: "zerossl.com"
+      value: "letsencrypt.org"
     - flags: 0
       tag: issuewild
       value: "sectigo.com"
     - flags: 0
       tag: issuewild
-      value: "letsencrypt.org"
+      value: "zerossl.com"
+- type: MX
+  values:
+    - exchange: mailserver.purelymail.com.
+      priority: 50
+- type: TXT
+  values:
+    - "v=spf1 include:_spf.purelymail.com ~all"
+    - purelymail_ownership_proof=d3fc6fe8cd24325b5241a309de306f959e7d3f660648619f5dc55d982f90bb5e31c106c4c07c0924f61632dad224e04d7e05ce23fcc9b6b9c680bf2f23fd30be
 "*":
 - type: CNAME
   value: hackclub.app.
 _dmarc:
-- type: TXT
-  value: v=DMARC1\; p=quarantine\; rua=mailto:dmarc@hackclub.app\; ruf=mailto:dmarc@hackclub.app\; sp=none\; pct=100\; aspf=r
-default._domainkey:
-- type: TXT
-  value: v=DKIM1\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA17VSzPTBHOoJZakJwP61rT45jUBXrwUOxyZ1cAJdcHTNZDqxAxK6BzGM0TlpUW2eY8mMSXqiqS6fGSOkJOVnJT4TR4lXP+bK9rQW758q2nbArbGVEO8R8vsaeaGUBPHxwlNdtnvmtBqgTjNLl4KZ5hmyHjtAbFovb8QlgEHOW8/itt9ayHOocD6fZwb0fqZUCCVjQsrJ3TLa5CcTiQVuzV25ZoUOY64M95ZpUiT2lkQBqIcdsNl9FSZ4Cn1u88MHR/sgC/VX9JcWMeviIfNmlSDkFEH6ciht65iMWLoS6jqEQEg0v8G/5tdc3kAYFQoeOOACqCdk7qpRwmgNrB7A5QIDAQAB
+- type: CNAME
+  value: dmarcroot.purelymail.com.
 nest2024._domainkey:
 - type: TXT
   value: v=DKIM1\; h=sha256\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAty0gSU619f5L+iykm4FezEwL7zqYqaMV7bcTw31z417DZ2zmV17nPqmJEKmnwNu7H0wxbDOJQdxacTexlmTQS+SMnDhPzkeR72bJC6iXfWvhknwfnuoHeTSszHSrywpSIQ5qNybrGQKMv2pn+FZAQh38j/I2bjVwsAyqfQgj8h4KD5GilUtue9BRvaYnfH9y0JyIesDmsVjkiSGOp2wf4B81tPO9QuS+2aiHkyXsEyMzWuCEux0MXHcalLKDMqQkawcJrgRuBgUFXfqsowFq2WgpAi8Fb7ngxHO+h65nPV3I0rk9i+LsyJ+S30C2uI/vLjd2aN7+4q/gSM75QdsfXwIDAQAB
+purelymail1._domainkey: # admins@hackclub.app
+- type: CNAME
+  value: key1.dkimroot.purelymail.com.
+purelymail2._domainkey: # admins@hackclub.app
+- type: CNAME
+  value: key2.dkimroot.purelymail.com.
+purelymail3._domainkey: # admins@hackclub.app
+- type: CNAME
+  value: key3.dkimroot.purelymail.com.
 _psl:
 - type: TXT
   value: https://github.com/publicsuffix/list/pull/2579
