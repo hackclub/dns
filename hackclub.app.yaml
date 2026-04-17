@@ -86,8 +86,7 @@ purelymail3._domainkey:
 scrapyard:
 - type: CNAME
   value: cname.vercel-dns.com.
-# me@cyteon.dev
-status:
+status: # me@cyteon.dev
 - type: A
   value: 45.8.201.70
 summit:
