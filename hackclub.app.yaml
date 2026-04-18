@@ -56,6 +56,9 @@ _psl:
 dashboard:
 - type: CNAME
   value: hackclub.app.
+export: # admins@hackclub.app
+- type: A
+  value: 37.27.51.33
 guides:
 - type: CNAME
   value: secure.hackclub.app.
