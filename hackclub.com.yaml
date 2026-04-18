@@ -2537,14 +2537,6 @@ giftbox: # tongyu@hackclub.com U07DJMFAQQP
   ttl: 300
   type: CNAME
   value: 4711668836b198ab.vercel-dns-016.com.
-gita:
-- ttl: 300
-  type: A
-  value: 165.232.189.107
-www.gita:
-- ttl: 300
-  type: A
-  value: 165.232.189.107
 github-oauth:
 - octodns:
     cloudflare:
