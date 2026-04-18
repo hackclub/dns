@@ -527,10 +527,6 @@ alumni: #alexvd@hackclub.com
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-ama-machine:
-- ttl: 300
-  type: CNAME
-  value: rugged-pheasant-1rx4ei5ejoumyp4fxpq3s8rs.herokudns.com.
 ambassador: # leo@hackclub.com U07BLJ1MBEE
 - ttl: 300
   type: CNAME
@@ -591,10 +587,6 @@ apex:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-api:
-  ttl: 300
-  type: CNAME
-  value: api.hackclub.com.herokudns.com.
 api2:
   ttl: 300
   type: CNAME
@@ -629,10 +621,6 @@ arcade-wrapped:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-arcadius:
-- ttl: 1
-  type: CNAME
-  value: asymmetrical-trout-5k9xmc0r8d2c6cggv0pxu70c.herokudns.com.
 archive:
 - octodns:
     cloudflare:
@@ -927,10 +915,6 @@ bank-bloggers:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-bank-docs:
-  ttl: 300
-  type: CNAME
-  value: evolutionary-heron-qlwebnpw35gb7ovyf9z3xqwy.herokudns.com.
 bank-og:
 - ttl: 300
   type: CNAME
@@ -963,10 +947,6 @@ help.bank:
   ttl: 300
   type: CNAME
   value: hcb-proxy.servers.hackclub.com.
-bankalias:
-  ttl: 300
-  type: CNAME
-  value: murmuring-elder-5g88luw02jjyxn9vfm4kgqgj.herokudns.com.
 barracoders:
 - ttl: 300
   type: CNAME
@@ -1347,10 +1327,6 @@ catlin:
 - ttl: 300
   type: CNAME
   value: catlin.netlify.app.
-cca:
-- ttl: 300
-  type: CNAME
-  value: reticulated-taiga-qmd1uv2l14p5opobi3fwksqv.herokudns.com.
 cccs:
   ttl: 300
   type: CNAME
@@ -1427,10 +1403,6 @@ challenger: # U08RWM5U4L9
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-chapters:
-  ttl: 300
-  type: CNAME
-  value: comparative-echidna-7grmrhvb3l980vdmg6f0vuu7.herokudns.com.
 charon:
   ttl: 300
   type: CNAME
@@ -1700,18 +1672,10 @@ ctrl-alt-tec:
 - ttl: 300
   type: CNAME
   value: ctrl-alt-tec.github.io.
-api.ctrl-alt-tec:
-- ttl: 300
-  type: CNAME
-  value: larval-kiwi-v6dahm6je7ohxt5mek02on49.herokudns.com.
 blog.ctrl-alt-tec:
 - ttl: 300
   type: CNAME
   value: ctrl-alt-tec.github.io.
-ctrl-api:
-- ttl: 300
-  type: CNAME
-  value: closed-puma-neh5ig3j9cyt871mvx2rewaw.herokudns.com.
 ctrlalttec:
 - ttl: 300
   type: TXT
@@ -2124,10 +2088,6 @@ euan: # jenin@hackclub.com; POC=dhamari
 - ttl: 600
   type: CNAME
   value: a.selfhosted.hackclub.com.
-eventmasterapi:
-  ttl: 300
-  type: CNAME
-  value: reticulated-journey-r4a6es43tvz06y6xob26ki8j.herokudns.com.
 events: # leo@hackclub.com
 - octodns:
     lenient: true
@@ -2223,10 +2183,6 @@ finder:
   ttl: 300
   type: CNAME
   value: finder.netlify.com.
-firehose:
-- ttl: 300
-  type: CNAME
-  value: cylindrical-rose-bklwrtred01ytycfprxq1lvm.herokudns.com.
 first: # @dhamari
   type: CNAME
   value: hackclub.github.io.
@@ -2511,10 +2467,6 @@ geochat:
   ttl: 300
   type: CNAME
   value: geochat.netlify.com.
-geochat-api:
-  ttl: 300
-  type: CNAME
-  value: geochat-api.hackclub.com.herokudns.com.
 geocoder:
   ttl: 300
   type: CNAME
@@ -2590,10 +2542,6 @@ grub:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-ref.guide:
-  ttl: 300
-  type: CNAME
-  value: symmetrical-potatoe-xe9q1l2s6ikk2wmjs2c7obnj.herokudns.com.
 guides: # reem@hackclub.com U06U80G86H1
   ttl: 300
   type: CNAME
@@ -2748,10 +2696,6 @@ hackfinger:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-hackhour:
-  ttl: 300
-  type: CNAME
-  value: evolutionary-meadow-v0odnp3h34mtsm07dz1jqkww.herokudns.com.
 hackinux:
   ttl: 300
   type: CNAME
@@ -2768,10 +2712,6 @@ hacksaber:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-hackstone:
-  ttl: 300
-  type: CNAME
-  value: shielded-ant-u9v36m3z1919rhc6dmr2perb.herokudns.com.
 hackstore:
   ttl: 300
   type: CNAME
@@ -3205,10 +3145,6 @@ inkling:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-innkeeper:
-  ttl: 300
-  type: CNAME
-  value: computational-wildfowl-4zkl40wjjsepa2w7iivn026m.herokudns.com.
 intercom-files: #alexd@hackclub.com U02CWS020SD
 - octodns:
     cloudflare:
@@ -3495,10 +3431,6 @@ lhscc:
 - ttl: 300
   type: A
   value: 174.86.1.223
-librarian:
-- ttl: 300
-  type: CNAME
-  value: triangular-echidna-0a5axtm1u7or2rralmviurao.herokudns.com.
 libre:
 - ttl: 300
   type: NS
@@ -3570,10 +3502,6 @@ mail: # nora@
   ttl: 300
   type: CNAME
   value: a.limited.selfhosted.hackclub.com.
-mail-services:
-  ttl: 300
-  type: CNAME
-  value: tapered-cliffs-y85zzxrnmb9w87456z5vvlpy.herokudns.com.
 pic._domainkey.mail:
   ttl: 300
   type: TXT
@@ -4153,10 +4081,6 @@ pa:
 pack:
   type: CNAME
   value: 6ac58e3a94296079.vercel-dns-016.com.
-packages:
-  ttl: 300
-  type: CNAME
-  value: secret-zebra-lydr194iy8x0x4n4rmzcii3r.herokudns.com.
 page:
   type: CNAME
   value: 2197c133e656fa85.vercel-dns-016.com.
@@ -4719,10 +4643,6 @@ saleh:
   - ns3.he.net.
   - ns4.he.net.
   - ns5.he.net.
-santa:
-  ttl: 300
-  type: CNAME
-  value: ancient-pinchusion-nm14orueibm39fhm2ntl24qj.herokudns.com.
 saycheese:
   ttl: 300
   type: CNAME
@@ -5073,10 +4993,6 @@ simmer:
   ttl: 300
   type: CNAME
   value: 852ee4e4c4f50fbd.vercel-dns-017.com.
-sinerider-api:
-  ttl: 300
-  type: CNAME
-  value: cryptic-tomato-5n1dz55o84lxbrq373a976bu.herokudns.com.
 sinerider-leaderboard:
   ttl: 300
   type: CNAME
@@ -5101,10 +5017,6 @@ sketchglow:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-skn:
-  ttl: 300
-  type: CNAME
-  value: solid-onion-63apxaanqedcag7x8576dhle.herokudns.com.
 _github-challenge-HackClubSKNCOE.skn:
 - ttl: 300
   type: TXT
@@ -5743,10 +5655,6 @@ underground:
 - ttl: 300
   type: CNAME
   value: carrotsoups.github.io.
-university:
-- ttl: 300
-  type: CNAME
-  value: developmental-garbanzo-kw68e5tap3bg721c9c295nux.herokudns.com.
 uptime:
 - octodns:
     cloudflare:
