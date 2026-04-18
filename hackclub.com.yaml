@@ -2555,10 +2555,6 @@ globalcovid:
 golden:
   type: CNAME
   value: 57cd2901f886bca3.vercel-dns-016.com.
-gotchi:
-  ttl: 300
-  type: A
-  value: 140.82.60.70
 gps:
   type: CNAME
   value: c0eaa1ae589a28b9.vercel-dns-016.com.
