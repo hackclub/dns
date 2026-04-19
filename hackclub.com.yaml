@@ -5127,6 +5127,10 @@ stardance: #kartikey@hackclub.com
   octodns:
     cloudflare:
       proxied: true
+- type: MX
+  values:
+  - exchange: mx.sendgrid.net.
+    preference: 10
 57277233.stardance: # kartikey@hackclub.com
 - ttl: 300
   type: CNAME
