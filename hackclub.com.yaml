@@ -4992,6 +4992,13 @@ sleepover: #celeste@hackclub.com @thegrammarpolice
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+portal.sleepover: #celeste@hackclub.com @thegrammarpolice
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 slorp: # U07BLJ1MBEE
 - octodns:
     cloudflare:
