@@ -5127,6 +5127,30 @@ stardance: #kartikey@hackclub.com
   octodns:
     cloudflare:
       proxied: true
+57277233.stardance: # kartikey@hackclub.com
+- ttl: 300
+  type: CNAME
+  value: sendgrid.net.
+_dmarc.stardance: # kartikey@hackclub.com
+- ttl: 300
+  type: TXT
+  value: v=DMARC1\; p=quarantine\; rua=mailto:6192c543e0e61@ag.dmarcly.com\; ruf=mailto:6192c543e0e61@fo.dmarcly.com\; fo=1\;
+s1._domainkey.stardance: # kartikey@hackclub.com
+- ttl: 300
+  type: CNAME
+  value: s1.domainkey.u57277233.wl234.sendgrid.net.
+s2._domainkey.stardance: # kartikey@hackclub.com
+- ttl: 300
+  type: CNAME
+  value: s2.domainkey.u57277233.wl234.sendgrid.net.
+em9599.stardance: # kartikey@hackclub.com
+- ttl: 300
+  type: CNAME
+  value: u57277233.wl234.sendgrid.net.
+url1054.stardance: # kartikey@hackclub.com
+- ttl: 300
+  type: CNAME
+  value: sendgrid.net.
 stasis: # @Jay U08AA6HA82F
 - ttl: 3600
   type: A
