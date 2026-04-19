@@ -2828,13 +2828,9 @@ changelog.hcb:
   ttl: 300
   type: CNAME
   value: headwayapp.co.
-graph.hcb:
-- octodns:
-    cloudflare:
-      proxied: true
-  ttl: 300
+graph.hcb: # echo@hackclub.com U080A3QP42C
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: a393a61874975956.vercel-dns-016.com.
 help.hcb: #alex@hackclub.com, gary@hackclub.com
   ttl: 300
   type: CNAME
