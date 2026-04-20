@@ -91,11 +91,6 @@ zones:
       - config
     targets:
       - cloudflare-alt
-  wackclub.com.:
-    sources:
-      - config
-    targets:
-      - dnsimple
   bank.engineering.:
     sources:
       - config
