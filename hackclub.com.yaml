@@ -3442,7 +3442,7 @@ lyla: # U054VC2KM9P / U06EMBJH71S / U06UYA5GMB5 (amber/lou/jeremy)
 macondo: # nathan@hackclub.com
   ttl: 300
   type: CNAME
-  value: id4mt4glsynz41ifbnu9cysl.a.selfhosted.hackclub.com.
+  value: a.selfhosted.hackclub.com.
 magazine: # acon@hackclub.com U04KEK4TS72
 - ttl: 600
   type: CNAME
