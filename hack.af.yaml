@@ -31,6 +31,9 @@ w4slhmfjwdthextblpgaxdgzj2y3kw6q._domainkey:
 _dmarc.hack.af:
   type: TXT
   value: "v=DMARC1\\; p=none\\; rua=mailto:team@hackclub.com\\; ruf=mailto:team@hackclub.com\\; fo=1\\; ri=86400"
+app: # echo@hackclub.com U080A3QP42C
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 as: # ian@hackclub.com  U022XFD2TML
   type: CNAME
   value: cname.vercel-dns.com.
