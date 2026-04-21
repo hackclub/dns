@@ -4094,14 +4094,6 @@ photos: # tom@daamen.uk  U078PH0GBEH
 phs:
 - type: A
   value: 216.150.1.1 # Vercel
-- type: MX
-  values:
-  - exchange: mx1.improvmx.com.
-    preference: 1
-  - exchange: mx2.improvmx.com.
-    preference: 5
-- type: TXT
-  value: v=spf1 include:spf.improvmx.com ~all
 forms.phs:
 - ttl: 300
   type: CNAME
@@ -4284,14 +4276,6 @@ pullquests: # jared@hackclub.com / lynn@hackclub.com
 puyallup:
 - type: A
   value: 216.150.1.1 # Vercel
-- type: MX
-  values:
-  - exchange: mx1.improvmx.com.
-    preference: 1
-  - exchange: mx2.improvmx.com.
-    preference: 5
-- type: TXT
-  value: v=spf1 include:spf.improvmx.com ~all
 _h323cs._tcp.px:
   ttl: 300
   type: SRV
