@@ -5616,10 +5616,9 @@ submit.v2:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-v3:
-- ttl: 300
+v3: # echo@hackclub.com U080A3QP42C
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: fdd973c84b10aa8e.vercel-dns-016.com.
 vault:
 - ttl: 300
   type: CNAME
