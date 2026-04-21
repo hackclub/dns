@@ -1,9 +1,9 @@
 ---
 "":
 - type: A
-  value: 37.27.51.33
+  value: 65.108.74.29
 - type: AAAA
-  value: 2a01:4f9:3081:399c::215
+  value: 2a01:4f9:6b:4a05::360
 - type: CAA
   values:
     - flags: 0
@@ -58,7 +58,7 @@ dashboard:
   value: hackclub.app.
 export: # admins@hackclub.app
 - type: A
-  value: 37.27.51.33
+  value: 65.108.74.29
 guides:
 - type: CNAME
   value: secure.hackclub.app.
@@ -80,9 +80,6 @@ mail:
 minio:
 - type: AAAA
   value: 2a01:4f9:3081:399c::19
-old:
-- type: A
-  value: 37.27.51.34
 pbx:
 - type: AAAA
   value: 2a01:4f9:3081:399c:be24:11ff:fef0:3b81
