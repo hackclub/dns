@@ -8,6 +8,10 @@ on:
     types: [opened, synchronize, labeled]
   merge_group:
 
+permissions:
+  contents: read
+  pull-requests: read
+
 jobs:
   octodns:
     runs-on: ubuntu-latest
