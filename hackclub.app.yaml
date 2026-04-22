@@ -83,12 +83,6 @@ minio:
 pbx:
 - type: AAAA
   value: 2a01:4f9:3081:399c:be24:11ff:fef0:3b81
-scrapyard:
-- type: CNAME
-  value: cname.vercel-dns.com.
 status: # me@cyteon.dev
 - type: A
   value: 45.8.201.70
-summit:
-- type: CNAME
-  value: cname.vercel-dns.com.
