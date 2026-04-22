@@ -953,10 +953,10 @@ sabhya: # sabhya.aggarwal@icloud.com U0A83DB0TRN
 sahas: # U09QBEKG4S0
 - ttl: 600
   type: A
-  value: 37.27.51.33
+  value: 65.108.74.29
 - ttl: 600
   type: AAAA
-  value: 2a01:4f9:3081:399c::215
+  value: 2a01:4f9:6b:4a05::360
 - ttl: 600
   type: TXT
   value: domain-verification=sahas
