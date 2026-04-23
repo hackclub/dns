@@ -45,10 +45,10 @@ hss: # nora@hackclub.com U06QK6AG3RD
 l: # U04CBLNSVH6
   type: CNAME
   value: a.selfhosted.hackclub.com.
-mail: # nora@hackclub.com U06QK6AG3RD
+macondo: # nathan@hackclub.com U05EZRFKRV4
   type: CNAME
   value: a.selfhosted.hackclub.com.
-macondo: # nathan@hackclub.com U05EZRFKRV4
+mail: # nora@hackclub.com U06QK6AG3RD
   type: CNAME
   value: a.selfhosted.hackclub.com.
 moonshot: # graham@hackclub.com U04QH1TTMBP
