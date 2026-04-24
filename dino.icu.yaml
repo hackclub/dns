@@ -809,8 +809,8 @@ orpheus: # prophet orpheus's page (when making your page enter your github usern
 
 osu: # nightfall/dainfloop: contact via slack @nightfall [U07KVMBHH4L]
 - ttl: 300
-  type: CNAME
-  value: rana.hackclub.app.
+  type: A
+  value: 65.108.74.29
 
 - ttl: 600
   type: TXT
