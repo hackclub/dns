@@ -3946,7 +3946,7 @@ orpheusodyssey:
 orpheuspico:
 - ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: cname.vercel-dns.com.
 osca:
 - ttl: 300
   type: CNAME
