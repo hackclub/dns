@@ -2586,6 +2586,10 @@ beta.hackatime: # mahad@hackclub.com
   ttl: 300
   type: CNAME
   value: hackatime.limited.selfhosted.hackclub.com.
+db.hackatime: # mahad@hackclub.com
+  ttl: 300
+  type: CNAME
+  value: hackatime.limited.selfhosted.hackclub.com.
 hackatsst:
 - ttl: 300
   type: CNAME
