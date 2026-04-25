@@ -5854,3 +5854,8 @@ zwp:
 - ttl: 300
   type: A
   value: 172.99.233.117
+
+SUBDOMAIN_NAME: heet06.hackclub.com
+  - type: CNAME
+    value: heet06.vercel.app
+    ttl: 600 # OPTIONAL (defaults to 600)
