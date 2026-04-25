@@ -3480,7 +3480,7 @@ mangu:
 - ttl: 300
   type: CNAME
   value: mangu.pages.dev.
-manifest:
+manifest: #manitej@hackclub.com
 - ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
