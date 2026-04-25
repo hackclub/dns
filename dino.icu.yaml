@@ -1291,6 +1291,9 @@ you-ship-we-vote:
 - ttl: 600
   type: A
   value: 209.112.91.50
+yourname: # 2013301@apps.nsd.org U0A0QDBALF2
+  - type: CNAME
+    value: dns.vercel.app.
 
 backend.you-ship-we-vote:
 - ttl: 600
