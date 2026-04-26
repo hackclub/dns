@@ -5855,7 +5855,7 @@ zwp:
   type: A
   value: 172.99.233.117
 
-SUBDOMAIN_NAME: heet06
+SUBDOMAIN_NAME: heet06.hackclub.com # radadiyaheet@gmail.com
   - type: CNAME
     value: 48fd8d5cae8881e2.vercel-dns-017.com.
     ttl: 600 # OPTIONAL (defaults to 600)
