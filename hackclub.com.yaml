@@ -5857,5 +5857,11 @@ zwp:
 
 SUBDOMAIN_NAME: heet06.hackclub.com
   - type: CNAME
-    value: heet06.vercel.app
+    value: 48fd8d5cae8881e2.vercel-dns-017.com.
     ttl: 600 # OPTIONAL (defaults to 600)
+
+_vercel:
+  ttl: 600
+  type: TXT
+  values:
+    - vc-domain-verify=heet06.hackclub.com,12028e5a32624c9a8878
