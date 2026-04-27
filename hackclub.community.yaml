@@ -112,10 +112,6 @@ labs: # theawesomeaj.dev@gmail.com U092329JX89
 - ttl: 600
   type: CNAME
   value: 7b512cdc191b476c.vercel-dns-017.com.
-_vercel.labs: # theawesomeaj.dev@gmail.com U092329JX89
-- ttl: 600
-  type: TXT
-  value: vc-domain-verify=labs.hackclub.community,26555f7a32c65e2aef34
 n8n: # U07AGEVSTD2
 - ttl: 600
   type: CNAME
