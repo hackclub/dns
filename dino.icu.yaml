@@ -566,7 +566,7 @@ innohacks: #efe
 jacob: # Jacob N // @Jacob // U0AEYDUCLKF
   ttl: 600
   type: CNAME
-  value: jacob-personal-website.pages.dev
+  value: jacob-personal-website.pages.dev.
 
 japroz: # Japroz Saini
   ttl: 600
