@@ -563,6 +563,11 @@ innohacks: #efe
   type: CNAME
   value: cname.vercel-dns.com.
 
+jacob: # Jacob N // @Jacob 
+  ttl: 600
+  type: CNAME
+  value: jacob-personal-website.pages.dev
+
 japroz: # Japroz Saini
   ttl: 600
   type: CNAME
