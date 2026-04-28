@@ -2590,6 +2590,20 @@ db.hackatime: # mahad@hackclub.com
   ttl: 300
   type: CNAME
   value: hackatime.limited.selfhosted.hackclub.com.
+signoz.hackatime: # mahad@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: hackatime.limited.selfhosted.hackclub.com.
+otel-collector: # mahad + msw (max@hackclub.com)
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: hackatime.limited.selfhosted.hackclub.com.
 hackatsst:
 - ttl: 300
   type: CNAME
