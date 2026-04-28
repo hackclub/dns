@@ -603,6 +603,10 @@ arcade-wrapped:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+arcana: #manitej@hackclub.com
+- ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 archive:
 - octodns:
     cloudflare:
