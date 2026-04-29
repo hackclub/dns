@@ -1696,7 +1696,7 @@ crates:
 crux: # taran@events.hackclub.com
 - ttl: 300
   type: CNAME
-  value: 8f10ff364485c907.vercel-dns-017.com
+  value: 8f10ff364485c907.vercel-dns-017.com.
 css:
   type: CNAME
   value: eadd3e0fa0446c3c.vercel-dns-016.com.
