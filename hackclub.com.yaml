@@ -1210,6 +1210,10 @@ calendar:
   ttl: 300
   type: CNAME
   value: ghs.googlehosted.com.
+camp: # jenin@hackclub.com // U0926UASBJ7 
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 camp-apply:
   ttl: 300
   type: CNAME
