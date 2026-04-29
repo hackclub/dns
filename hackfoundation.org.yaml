@@ -1,16 +1,16 @@
 ---
 '': # zach@hackclub.com U0266FRGP
-  - type: A
-    value: 216.150.1.1
-  - type: TXT
-    values:
-    - v=spf1 -all
-'*._domainkey':
-  type: TXT
-  value: v=DKIM1\; p=
+- type: A
+  value: 216.150.1.1
+- type: TXT
+  values:
+  - v=spf1 -all
 _dmarc: # zach@hackclub.com U0266FRGP
   type: TXT
   value: v=DMARC1\; p=reject\; sp=reject\; adkim=s\; aspf=s\;
+'*._domainkey':
+  type: TXT
+  value: v=DKIM1\; p=
 the: # zach@hackclub.com U0266FRGP
   type: CNAME
   value: b87a9ce0fca6c4b7.vercel-dns-016.com.
