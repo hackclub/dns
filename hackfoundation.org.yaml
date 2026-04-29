@@ -8,7 +8,7 @@
 '*._domainkey':
   type: TXT
   value: v=DKIM1\; p=
-_dmarc:
+_dmarc: # zach@hackclub.com U0266FRGP
   type: TXT
   value: v=DMARC1\; p=reject\; sp=reject\; adkim=s\; aspf=s\;
 the: # zach@hackclub.com U0266FRGP
