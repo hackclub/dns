@@ -5407,6 +5407,12 @@ url1054.stardance: # kartikey@hackclub.com
 - ttl: 300
   type: CNAME
   value: sendgrid.net.
+stack: # emmaborghi@hackclub.com U078DFX40A2
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
 stasis: # @Jay U08AA6HA82F
 - ttl: 3600
   type: A
