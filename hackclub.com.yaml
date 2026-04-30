@@ -5373,6 +5373,12 @@ sshchat:
 - ttl: 300
   type: A
   value: 150.136.142.44
+stack: # emmaborghi@hackclub.com U078DFX40A2
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
 stardance: #kartikey@hackclub.com
 - type: A
   value: 5.161.197.219
