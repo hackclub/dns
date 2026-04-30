@@ -5429,6 +5429,12 @@ stasis: # @Jay U08AA6HA82F
   values:
   - google-site-verification=vA4LKdKdGqrSKrEToVWGkpJGZLvStp817KuTrgof-7Q
   - v=spf1 include:_spf.google.com ~all
+stack: # emmaborghi@hackclub.com U078DFX40A2
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
 stasis-staging: # alexp@hackclub.com
 - octodns:
     cloudflare:
