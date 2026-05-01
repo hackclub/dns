@@ -2415,7 +2415,7 @@ fraud: # echo@hackclub.com U080A3QP42C
     cloudflare:
       proxied: true
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: b.selfhosted.hackclub.com.
 fremont:
 - ttl: 300
   type: CNAME
@@ -3375,13 +3375,6 @@ jobs: # nora@hackclub.com U06QK6AG3RD
 - octodns:
     cloudflare:
       proxied: true
-  type: CNAME
-  value: a.selfhosted.hackclub.com.
-joe:
-- octodns:
-    cloudflare:
-      proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 journey:
