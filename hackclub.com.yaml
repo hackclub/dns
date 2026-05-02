@@ -3952,6 +3952,12 @@ stasis.nephthys: # amber / U054VC2KM9P & alexp@hackclub.com
 summer.nephthys: # amber@hackclub.com U054VC2KM9P
   type: CNAME
   value: a.selfhosted.hackclub.com.
+nest: # admins@hackclub.app
+- type: CNAME
+  value: hackclub.app.
+"*.nest":  # admins@hackclub.app
+- type: CNAME
+  value: hackclub.app.
 nestm:
   ttl: 300
   type: CNAME
