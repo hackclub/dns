@@ -1965,9 +1965,6 @@ elapsed: # U0A9B38F413
   ttl: 300
   type: CNAME
   value: 91e515501c1f1d5b.vercel-dns-017.com.
-  octodns:
-    cloudflare:
-      proxied: true
 em4440: # SendGrid Sender Authentication (bank@hackclub.com)
   ttl: 300
   type: CNAME
