@@ -299,6 +299,7 @@ _vercel:
   - vc-domain-verify=dockerize.hackclub.com,b5bf22725664baf9b20c
   - vc-domain-verify=dsc.hackclub.com,151b54b3f4af4d093d8d
   - vc-domain-verify=ecolint.hackclub.com,2ce5d27d136e89567e39
+  - vc-domain-verify=elapsed.hackclub.com,e3fdd21d6b94618f10b2
   - vc-domain-verify=enclosure.hackclub.com,9eba18ebb384f40d5504
   - vc-domain-verify=epochba.hackclub.com,705735e32a03c39fdd26
   - vc-domain-verify=epochvt.hackclub.com,089353b4de0bf145067d
@@ -1960,6 +1961,13 @@ ee:
 el:
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
+elapsed: # U0A9B38F413
+- ttl: 300
+  type: CNAME
+  value: 91e515501c1f1d5b.vercel-dns-017.com.
+- octodns:
+    cloudflare:
+      proxied: true
 em4440: # SendGrid Sender Authentication (bank@hackclub.com)
   ttl: 300
   type: CNAME
