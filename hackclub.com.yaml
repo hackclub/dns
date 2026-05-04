@@ -1839,26 +1839,26 @@ devzat:
 - ttl: 300
   type: A
   value: 150.136.142.44
-dinobags: # amber@hackclub.com U054VC2KM9P
+dinobags: # amber / U054VC2KM9P
 - type: A
   value: 168.119.213.56 # b server
 - type: MX
   values:
   - exchange: mx.sendgrid.net.
     preference: 10
-_dmarc.dinobags: # amber@hackclub.com U054VC2KM9P
+_dmarc.dinobags: # amber / U054VC2KM9P
 - ttl: 300
   type: TXT
   value: v=DMARC1\; p=quarantine\; rua=mailto:6192c543e0e61@ag.dmarcly.com\; ruf=mailto:6192c543e0e61@fo.dmarcly.com\; fo=1\;
-s1._domainkey.dinobags: # amber@hackclub.com U054VC2KM9P
+s1._domainkey.dinobags: # amber / U054VC2KM9P
 - ttl: 300
   type: CNAME
   value: s1.domainkey.u57277233.wl234.sendgrid.net.
-s2._domainkey.dinobags: # amber@hackclub.com U054VC2KM9P
+s2._domainkey.dinobags: # amber / U054VC2KM9P
 - ttl: 300
   type: CNAME
   value: s2.domainkey.u57277233.wl234.sendgrid.net.
-em9932.dinobags: # amber@hackclub.com U054VC2KM9P
+em9932.dinobags: # amber / U054VC2KM9P
 - ttl: 300
   type: CNAME
   value: u57277233.wl234.sendgrid.net.
@@ -2290,49 +2290,49 @@ flavortown: # kartikey@hackclub.com U05F4B48GBF
   values:
   - exchange: mx.sendgrid.net.
     preference: 10
-57277233.flavortown: # amber@hackclub.com U054VC2KM9P
+57277233.flavortown: # amber / U054VC2KM9P
 - ttl: 300
   type: CNAME
   value: sendgrid.net.
-_dmarc.flavortown: # amber@hackclub.com U054VC2KM9P
+_dmarc.flavortown: # amber / U054VC2KM9P
 - ttl: 300
   type: TXT
   value: v=DMARC1\; p=quarantine\; rua=mailto:6192c543e0e61@ag.dmarcly.com\; ruf=mailto:6192c543e0e61@fo.dmarcly.com\; fo=1\;
-s1._domainkey.flavortown: # amber@hackclub.com U054VC2KM9P
+s1._domainkey.flavortown: # amber / U054VC2KM9P
 - ttl: 300
   type: CNAME
   value: s1.domainkey.u57277233.wl234.sendgrid.net.
-s2._domainkey.flavortown: # amber@hackclub.com U054VC2KM9P
+s2._domainkey.flavortown: # amber / U054VC2KM9P
 - ttl: 300
   type: CNAME
   value: s2.domainkey.u57277233.wl234.sendgrid.net.
-em4826.flavortown: # amber@hackclub.com U054VC2KM9P
+em4826.flavortown: # amber / U054VC2KM9P
 - ttl: 300
   type: CNAME
   value: u57277233.wl234.sendgrid.net.
-m.flavortown: # amber@hackclub.com U054VC2KM9P
+m.flavortown: # amber / U054VC2KM9P
 - ttl: 300
   type: MX
   values:
   - exchange: mx.sendgrid.net.
     preference: 10
-_dmarc.m.flavortown: # amber@hackclub.com U054VC2KM9P
+_dmarc.m.flavortown: # amber / U054VC2KM9P
 - ttl: 300
   type: TXT
   value: v=DMARC1\; p=quarantine\; rua=mailto:6192c543e0e61@ag.dmarcly.com\; ruf=mailto:6192c543e0e61@fo.dmarcly.com\; fo=1\;
-s1._domainkey.m.flavortown: # amber@hackclub.com U054VC2KM9P
+s1._domainkey.m.flavortown: # amber / U054VC2KM9P
 - ttl: 300
   type: CNAME
   value: s1.domainkey.u57277233.wl234.sendgrid.net.
-s2._domainkey.m.flavortown: # amber@hackclub.com U054VC2KM9P
+s2._domainkey.m.flavortown: # amber / U054VC2KM9P
 - ttl: 300
   type: CNAME
   value: s2.domainkey.u57277233.wl234.sendgrid.net.
-em7749.m.flavortown: # amber@hackclub.com U054VC2KM9P
+em7749.m.flavortown: # amber / U054VC2KM9P
 - ttl: 300
   type: CNAME
   value: u57277233.wl234.sendgrid.net.
-url3649.flavortown: # amber@hackclub.com U054VC2KM9P
+url3649.flavortown: # amber / U054VC2KM9P
 - ttl: 300
   type: CNAME
   value: sendgrid.net.
@@ -2461,7 +2461,7 @@ playlist.gaither:
   ttl: 300
   type: CNAME
   value: samuel.hackclub.app.
-gamblorpheus: # amber@hackclub.com U054VC2KM9P
+gamblorpheus: # amber / U054VC2KM9P
   type: CNAME
   value: a.selfhosted.hackclub.com.
 game: # arav@hackclub.com U01MPHKFZ7S
@@ -3921,7 +3921,7 @@ nepal:
   ttl: 300
   type: CNAME
   value: dikshantpandey-dev.github.io.
-nephthys: # amber@hackclub.com U054VC2KM9P
+nephthys: # amber / U054VC2KM9P
   type: CNAME
   value: a.selfhosted.hackclub.com.
 construct.nephthys: # mish@hackclub.com U073M5L9U13
@@ -3939,7 +3939,7 @@ hctg.nephthys: # mish@hackclub.com U073M5L9U13 & arav@hackclub.com U01MPHKFZ7S
 help.nephthys: # mish@hackclub.com U073M5L9U13 & vidutran17@gmail.com U07F6FMJ97U
   type: CNAME
   value: b.selfhosted.hackclub.com.
-identity.nephthys: # amber@hackclub.com U054VC2KM9P
+identity.nephthys: # amber / U054VC2KM9P
   type: CNAME
   value: a.selfhosted.hackclub.com.
 jumpstart.nephthys: # mish@hackclub.com U073M5L9U13
@@ -3954,7 +3954,7 @@ midnight.nephthys: # amber / U054VC2KM9P & leo / U07BLJ1MBEE
 stasis.nephthys: # amber / U054VC2KM9P & alexp@hackclub.com
   type: CNAME
   value: b.selfhosted.hackclub.com.
-summer.nephthys: # amber@hackclub.com U054VC2KM9P
+summer.nephthys: # amber / U054VC2KM9P
   type: CNAME
   value: a.selfhosted.hackclub.com.
 nest: # admins@hackclub.app
