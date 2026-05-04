@@ -3924,7 +3924,7 @@ nepal:
 nephthys: # amber@hackclub.com U054VC2KM9P
   type: CNAME
   value: a.selfhosted.hackclub.com.
-beest.nephthys: # amber U054VC2KM9P / euan U06T30DNB3L
+beest.nephthys: # amber / U054VC2KM9P & euan / U06T30DNB3L
   type: CNAME
   value: b.selfhosted.hackclub.com.
 construct.nephthys: # mish@hackclub.com U073M5L9U13
