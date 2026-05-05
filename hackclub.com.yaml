@@ -2223,7 +2223,7 @@ fallout: # samliu@hackclub.com
     cloudflare:
       proxied: true
   type: CNAME
-  value: b.selfhosted.hackclub.com.
+  value: a.selfhosted.hackclub.com.
 fanpage:
 - octodns:
     cloudflare:
