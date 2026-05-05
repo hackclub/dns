@@ -4116,6 +4116,9 @@ opensauce: # zach@hackclub.com
   ttl: 300
   type: CNAME
   value: a.limited.selfhosted.hackclub.com.
+opensauce2026: # alexren@hackclub.com
+  type: CNAME
+  value: 68b1465d7a634413.vercel-dns-016.com.
 opensauce-leaderboard: # zach@hackclub.com
 - octodns:
     cloudflare:
@@ -4123,10 +4126,6 @@ opensauce-leaderboard: # zach@hackclub.com
   ttl: 300
   type: CNAME
   value: a.limited.selfhosted.hackclub.com.
-opensauce2026: #alexren@hackclub.com
-  - ttl: 300
-    type: CNAME
-    value: cname.vercel-dns.com.
 orchard: #tongyu@hackclub.com U07DJMFAQQP
 - octodns:
     cloudflare:
