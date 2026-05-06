@@ -3848,13 +3848,9 @@ intro.moonbeam:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-moonshot:
-  octodns:
-    cloudflare:
-      proxied: true
-  ttl: 300
+moonshot: # U078DFX40A2
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: 43b58a0d93f8e1dc.vercel-dns-016.com.
 morp: # @Olive, U07BN55GN3D
 - octodns:
     cloudflare:
