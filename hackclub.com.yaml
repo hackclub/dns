@@ -970,6 +970,12 @@ bbss:
 - ttl: 300
   type: CNAME
   value: bbsshackclub.netlify.app.
+beast: #euan@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
 beat: #alexvd@hackclub.com
 - octodns:
     cloudflare:
