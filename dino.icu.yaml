@@ -806,6 +806,16 @@ mindson: # by rajan
   type: CNAME
   value: mindson.netlify.app.
 
+misskey: #hackisskey | korange753@gmail.com U091Q2MS3T9
+- ttl: 600
+  type: ALIAS
+  value: hackclub.app.
+  octodns:
+    lenient: true # I want to use ALIAS records to allow for future record additions, but OctoDNS only allows ALIAS records for the root directory by default, hence the current configuration.
+- ttl: 600
+  type: TXT
+  value: domain-verification=korange # for Nest
+
 monty: # contact via adelinmihai071@gmail.com
   ttl: 600
   type: CNAME
