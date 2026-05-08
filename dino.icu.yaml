@@ -80,10 +80,6 @@ _acme-challenge.ajhalili2006: # ajhalili2006@andreijiroh.dev https://gitlab.com/
 # Alumni Society (https://github.com/hackclub-alumni/meta/issues/1)
 # Records are primarily managed by @ajhalili2006 (U07CAPBB9B5), although other alums
 # can manage them by coordinating at #alums channel or https://github.com/hackclub-alumni/meta.
-# Note that we have moved to hackclub.community, although we keep GH/GL Pages
-# domain verification record below to prevent domain takeovers if we do wildcard
-# CNAME records at *.alumni.dino.icu in future, alongside some email domain alias setup
-# for Uberspace.
 alumni: # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumni/meta
   # GitLab Pages - https://gitlab.com/hackclub-community/alumni/website
 - ttl: 600
@@ -114,14 +110,6 @@ _atproto.alumni: # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumn
 - ttl: 600
   type: TXT
   value: "did=did:plc:yi5ewii4xerodl6ljn3fwga6"
-_gh-hackclub-alumni-o.alumni: # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumni/meta
-- ttl: 600
-  type: TXT
-  value: "73477a0c9e"
-blog.alumni: # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumni/meta
-- ttl: 600
-  type: CNAME
-  value: 731fb7077db63b1d.vercel-dns-016.com.
 uberspace1._domainkey.alumni: # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumni/meta
 - octodns:
     cloudflare:
@@ -136,6 +124,10 @@ uberspace2._domainkey.alumni: # andreijiroh@alumni.dino.icu https://github.com/h
   ttl: 600
   type: CNAME
   value: dkim2.uberspace.de.
+_gh-hackclub-alumni-o.alumni: # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumni/meta
+- ttl: 600
+  type: TXT
+  value: "73477a0c9e"
 _github-pages-challenge-hackclub-alumni.alumni: # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumni/meta
 - ttl: 600
   type: TXT
@@ -144,6 +136,10 @@ _gitlab-pages-verification-code.alumni: # andreijiroh@alumni.dino.icu https://gi
 - ttl: 600
   type: TXT
   value: "gitlab-pages-verification-code=398259d364b40425aee99d9b0a6bec8d"
+blog.alumni: # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumni/meta
+- ttl: 600
+  type: CNAME
+  value: 731fb7077db63b1d.vercel-dns-016.com.
 
 amina: # by https://github.com/amino47
   ttl: 600
@@ -625,9 +621,9 @@ icons: # yoda - https://github.com/yodalightsabr/icons-dino-icu - a CDN for @hac
   value: 76.76.21.21
 
 inherit: # contact at mtthsschrbr@proton.me or @mtthsschrbr on slack
-  - ttl: 600
-    type: CNAME
-    value: cname.vercel-dns.com.
+- ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
 
 _dmarc.inherit: # contact at mtthsschrbr@proton.me or @mtthsschrbr on slack
   ttl: 3600
@@ -640,14 +636,14 @@ resend._domainkey.inherit: # contact at mtthsschrbr@proton.me or @mtthsschrbr on
   value: "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDlFn8+Ep0RP8e791QcpRDe8I8vHHt378umytGa4/+UJAS+tfC8VeQqMohtrwzo3bW5emTeGqcsNrJKOE5FZW6zvam5xgtQ6WTZd/wwXXImVz403m1hpD84gYTZkeQ4zKojeMLz373og767Q7GxJSjCTH7IiPy+fRKotinpMn6FnwIDAQAB"
 
 send.inherit: # contact at mtthsschrbr@proton.me or @mtthsschrbr on slack
-  - ttl: 3600
-    type: MX
-    values:
-      - priority: 10
-        value: feedback-smtp.eu-west-1.amazonses.com.
-  - ttl: 3600
-    type: TXT
-    value: "v=spf1 include:amazonses.com ~all"
+- ttl: 3600
+  type: MX
+  values:
+  - priority: 10
+    value: feedback-smtp.eu-west-1.amazonses.com.
+- ttl: 3600
+  type: TXT
+  value: "v=spf1 include:amazonses.com ~all"
 
 innohacks: #efe
   ttl: 600
