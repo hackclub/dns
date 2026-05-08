@@ -22,15 +22,6 @@ emoji: # alimad.co.ltd@gmail.com U08LQFRBL6S
 - ttl: 300
   type: CNAME
   value: emojiout.netlify.app.
-hceps: # andreijiroh@alumni.hackclub.community U07CAPBB9B5
-- ttl: 300
-  type: CNAME
-  value: hackclub-community.github.io.
-# https://tangled.org/recaptime.dev/knot-docker-nest
-knot: # ajhalili2006@crew.recaptime.dev U07CAPBB9B5
-- ttl: 300
-  type: CNAME
-  value: proxyparty.recaptime.dev.
 labs: # theawesomeaj.dev@gmail.com U092329JX89
 - ttl: 600
   type: CNAME
