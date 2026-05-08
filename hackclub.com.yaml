@@ -4686,7 +4686,7 @@ review-factory-backend:
       proxied: true
   ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: b.selfhosted.hackclub.com.
 '*.review':
 - octodns:
     cloudflare:
