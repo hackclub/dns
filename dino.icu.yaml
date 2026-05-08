@@ -67,12 +67,12 @@ airborne: # by U0807ADEC6L // @Manan
   type: CNAME
   value: cname.vercel-dns.com.
 
-ajhalili2006: # by https://github.com/ajhalili2006 via https://github.com/andreijiroh-dev/website
+ajhalili2006: # ajhalili2006@andreijiroh.dev https://gitlab.com/andreijiroh-dev/launchpad
 - ttl: 600
   type: A
     # https://github.com/andreijiroh-dev/api-servers/tree/main/apps/redirector, hosted on Deno Deploy
   value: 69.67.170.170
-_acme-challenge.ajhalili2006:
+_acme-challenge.ajhalili2006: # ajhalili2006@andreijiroh.dev https://gitlab.com/andreijiroh-dev/launchpad
 - ttl: 600
   type: CNAME
   value: 3a1ea03c191e234288b279704763e052._acme.deno.net.
@@ -80,11 +80,7 @@ _acme-challenge.ajhalili2006:
 # Alumni Society (https://github.com/hackclub-alumni/meta/issues/1)
 # Records are primarily managed by @ajhalili2006 (U07CAPBB9B5), although other alums
 # can manage them by coordinating at #alums channel or https://github.com/hackclub-alumni/meta.
-# Note that we have moved to hackclub.community, although we keep GH/GL Pages
-# domain verification record below to prevent domain takeovers if we do wildcard
-# CNAME records at *.alumni.dino.icu in future, alongside some email domain alias setup
-# for Uberspace.
-alumni: # U07CAPBB9B5 andreijiroh@alumni.hackclub.community https://github.com/hackclub-alumni/meta
+alumni: # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumni/meta
   # GitLab Pages - https://gitlab.com/hackclub-community/alumni/website
 - ttl: 600
   type: A
@@ -108,46 +104,54 @@ alumni: # U07CAPBB9B5 andreijiroh@alumni.hackclub.community https://github.com/h
   ttl: 600
   type: TXT
   values:
-  - "uberspace-mail-rK2Mjse6RH"   # verification challenge
+  - "uberspace-mail-kPUHau2GGz"   # verification challenge
   - "v=spf1 include:spf.uberspace.de ~all"   # SPF records
-_atproto.alumni: # U07CAPBB9B5 andreijiroh@alumni.hackclub.community https://github.com/hackclub-alumni/meta
+_atproto.alumni: # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumni/meta
 - ttl: 600
   type: TXT
   value: "did=did:plc:yi5ewii4xerodl6ljn3fwga6"
-uberspace1._domainkey.alumni: # U07CAPBB9B5 andreijiroh@alumni.hackclub.community https://github.com/hackclub-alumni/meta
+uberspace1._domainkey.alumni: # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumni/meta
 - octodns:
     cloudflare:
       comment: "U8 mailbox - ajhalili@janus.uberspace.de"
   ttl: 600
   type: CNAME
   value: dkim1.uberspace.de.
-uberspace2._domainkey.alumni: # U07CAPBB9B5 andreijiroh@alumni.hackclub.community https://github.com/hackclub-alumni/meta
+uberspace2._domainkey.alumni: # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumni/meta
 - octodns:
     cloudflare:
       comment: "U8 mailbox - ajhalili@janus.uberspace.de"
   ttl: 600
   type: CNAME
   value: dkim2.uberspace.de.
-_github-pages-challenge-hackclub-alumni.alumni: # U07CAPBB9B5 andreijiroh@alumni.hackclub.community https://github.com/hackclub-alumni/meta
+_gh-hackclub-alumni-o.alumni: # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumni/meta
+- ttl: 600
+  type: TXT
+  value: "73477a0c9e"
+_github-pages-challenge-hackclub-alumni.alumni: # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumni/meta
 - ttl: 600
   type: TXT
   value: "3777bf5f9b6076520d8bbcebb90d45"
-_gitlab-pages-verification-code.alumni: # U07CAPBB9B5 andreijiroh@alumni.hackclub.community https://github.com/hackclub-alumni/meta
+_gitlab-pages-verification-code.alumni: # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumni/meta
 - ttl: 600
   type: TXT
   value: "gitlab-pages-verification-code=398259d364b40425aee99d9b0a6bec8d"
+blog.alumni: # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumni/meta
+- ttl: 600
+  type: CNAME
+  value: 731fb7077db63b1d.vercel-dns-016.com.
 
 amina: # by https://github.com/amino47
   ttl: 600
   type: CNAME
   value: amino47.github.io.
 
-andreijiroh: # by https://github.com/ajhalili2006, but uses his first name as subdomain instead of github username
+andreijiroh: # ajhalili2006@andreijiroh.dev https://gitlab.com/andreijiroh-dev/launchpad
 - ttl: 600
   type: A
     # https://github.com/andreijiroh-dev/api-servers/tree/main/apps/redirector, hosted on Deno Deploy
   value: 69.67.170.170
-_acme-challenge.andreijiroh:
+_acme-challenge.andreijiroh: # ajhalili2006@andreijiroh.dev https://gitlab.com/andreijiroh-dev/launchpad
 - ttl: 600
   type: CNAME
   value: abd77e2d22191e54d5f6c8ad24fcfd97._acme.deno.net.
@@ -237,16 +241,16 @@ bs: # by https://github.com/leecheeyong/BrawlBio
   type: CNAME
   value: cname.vercel-dns.com.
 
-# Hack Club Community PDS default handle suffix base - https://github.com/hackclub-community/atproto-pds
-bsky: # U07CAPBB9B5 andreijiroh@alumni.hackclub.community https://github.com/hackclub-alumni/meta
+# Default handle suffix base for @recaptime.dev's PDS service
+# See https://gitlab.com/recaptime-dev/hosted-services/atproto-pds for details
+bsky: # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumni/meta
 - ttl: 600
   type: CNAME
-  value: ajhalili2006.hackclub.app.
-# Hack Club Community PDS default handle suffix - https://github.com/hackclub-community/atproto-pds
-"*.bsky": # U07CAPBB9B5 andreijiroh@alumni.hackclub.community https://github.com/hackclub-alumni/meta
+  value: proxyparty.recaptime.dev.
+"*.bsky": # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumni/meta
 - ttl: 300
   type: CNAME
-  value: ajhalili2006.hackclub.app.
+  value: proxyparty.recaptime.dev.
 
 builders-club: #turtlesy1234@gmail.com U0AM2DYC3FB
 - ttl: 600
@@ -617,9 +621,9 @@ icons: # yoda - https://github.com/yodalightsabr/icons-dino-icu - a CDN for @hac
   value: 76.76.21.21
 
 inherit: # contact at mtthsschrbr@proton.me or @mtthsschrbr on slack
-  - ttl: 600
-    type: CNAME
-    value: cname.vercel-dns.com.
+- ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
 
 _dmarc.inherit: # contact at mtthsschrbr@proton.me or @mtthsschrbr on slack
   ttl: 3600
@@ -632,14 +636,14 @@ resend._domainkey.inherit: # contact at mtthsschrbr@proton.me or @mtthsschrbr on
   value: "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDlFn8+Ep0RP8e791QcpRDe8I8vHHt378umytGa4/+UJAS+tfC8VeQqMohtrwzo3bW5emTeGqcsNrJKOE5FZW6zvam5xgtQ6WTZd/wwXXImVz403m1hpD84gYTZkeQ4zKojeMLz373og767Q7GxJSjCTH7IiPy+fRKotinpMn6FnwIDAQAB"
 
 send.inherit: # contact at mtthsschrbr@proton.me or @mtthsschrbr on slack
-  - ttl: 3600
-    type: MX
-    values:
-      - priority: 10
-        value: feedback-smtp.eu-west-1.amazonses.com.
-  - ttl: 3600
-    type: TXT
-    value: "v=spf1 include:amazonses.com ~all"
+- ttl: 3600
+  type: MX
+  values:
+  - priority: 10
+    value: feedback-smtp.eu-west-1.amazonses.com.
+- ttl: 3600
+  type: TXT
+  value: "v=spf1 include:amazonses.com ~all"
 
 innohacks: #efe
   ttl: 600
