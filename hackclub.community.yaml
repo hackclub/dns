@@ -100,12 +100,12 @@ aus: # benjamin.graetz@henleyhs.sa.edu.au U0828CN2BL4
 bsky: # U07CAPBB9B5 andreijiroh@alumni.hackclub.community https://github.com/hackclub-alumni/meta
 - ttl: 600
   type: CNAME
-  value: ajhalili2006.hackclub.app.
+  value: pds.hackclub.community.
 # Hack Club Community PDS default handle suffix - https://github.com/hackclub-community/atproto-pds
 "*.bsky": # U07CAPBB9B5 andreijiroh@alumni.hackclub.community https://github.com/hackclub-alumni/meta
 - ttl: 300
   type: CNAME
-  value: ajhalili2006.hackclub.app.
+  value: pds.hackclub.community.
 create-mc: # grayson@vantilborg.ca U092DA495UY # This is for a create minecraft server, see channel C0AD3QV5C5D
 - ttl: 600
   type: A
@@ -138,11 +138,8 @@ n8n: # U07AGEVSTD2
 # Hack Club Community PDS server - https://github.com/hackclub-community/atproto-pds
 pds: # U07CAPBB9B5 andreijiroh@alumni.hackclub.community https://github.com/hackclub-alumni/meta
 - ttl: 600
-  type: AAAA
-  value: 2a01:4f9:3081:399c::358
-  octodns:
-    cloudflare:
-      proxied: true
+  type: A
+  value: 20.193.145.115
 # https://github.com/hackclub-community/rsvp
 rsvp: # U08PUHSMW4V
 - ttl: 600
