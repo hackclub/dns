@@ -347,7 +347,10 @@ corechat: # aradforsure@gmaul.com U0AJN9LJDGS
   ttl: 600
   type: CNAME
   value: aradjpy.github.io.
-
+cq: # @ruben (U0AHNB20WDD) on slack, ruben@scstudios.tech https://github.com/code2344/contact-website
+  ttl: 600
+  type: A
+  value: 216.198.79.1
 cr:
   ttl: 600
   type: CNAME
