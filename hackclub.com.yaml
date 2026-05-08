@@ -2188,7 +2188,7 @@ mail.events: # leo@hackclub.com
 sign.events:
   octodns:
     cloudflare:
-      proxied: true
+      proxied: false
   type: CNAME
   value: b.selfhosted.hackclub.com.
 evergreen:
