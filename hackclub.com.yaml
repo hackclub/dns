@@ -4212,6 +4212,12 @@ badges.overglade: #tongyu@hackclub.com U07DJMFAQQP
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+owo: # nathan@hackclub.com U05EZRFKRV4
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 ows: #outernet-web-services
 - ttl: 300
   type: NS
@@ -5893,6 +5899,12 @@ url75: # SendGrid Sender Authentication (bank@hackclub.com)
   ttl: 300
   type: CNAME
   value: sendgrid.net.
+uwu: # nathan@hackclub.com U05EZRFKRV4
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 v2:
 - ttl: 300
   type: CNAME
