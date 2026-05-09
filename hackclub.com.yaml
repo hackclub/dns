@@ -3629,7 +3629,7 @@ macondo: # nathan@hackclub.com
     cloudflare:
       proxied: true
   type: CNAME
-  value: ingress.lfdl.ink.
+  value: a.selfhosted.hackclub.com.
 magazine: # acon@hackclub.com U04KEK4TS72
 - ttl: 600
   type: CNAME
