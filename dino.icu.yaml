@@ -655,6 +655,11 @@ jacob: # Jacob N // @Jacob // U0AEYDUCLKF
   type: CNAME
   value: jacob-personal-website.pages.dev.
 
+jamesite: # Jame on slack // JamesFerris447@gmail.com // U09K59BPM2M
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
+
 japroz: # Japroz Saini
   ttl: 600
   type: CNAME
