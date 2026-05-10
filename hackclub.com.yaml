@@ -5700,10 +5700,6 @@ thorn:
 - ttl: 300
   type: CNAME
   value: thornhack.root.omg.lol.
-tickets:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
 tile:
 - octodns:
     cloudflare:
