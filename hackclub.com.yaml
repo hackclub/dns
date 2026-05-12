@@ -1914,10 +1914,9 @@ downscale: # augie@hackclub.com
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
-draw-dino:
-  ttl: 300
+draw-dino: # josias@hackclub.com U01PJ08PR7S & hc+dns@matmanna.dev U07VA44DNBA
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: b.selfhosted.hackclub.com
 drive:
   ttl: 300
   type: CNAME
@@ -1964,6 +1963,9 @@ editor:
 ee:
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
+eggsploit: # jared@hackclub.com / lynn@hackclub.com
+  type: CNAME
+  value: 51f114b2e08afbd6.vercel-dns-016.com.
 el:
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
