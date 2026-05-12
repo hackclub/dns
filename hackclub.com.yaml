@@ -3059,9 +3059,8 @@ hear:
   type: CNAME
   value: cname.vercel-dns.com.
 heist:
-- ttl: 300
   type: CNAME
-  value: heist.iunstable0.com.
+  value: b.selfhosted.hackclub.com.
 heist-api:
 - ttl: 300
   type: CNAME
