@@ -5823,12 +5823,8 @@ tr:
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
 trace: # aarav@fraud.land U07UK4S94KC
-- octodns:
-    cloudflare:
-      proxied: true
-  ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: 53547cd5ddd28c7e.vercel-dns-016.com.
 tracking:
   ttl: 300
   type: CNAME
