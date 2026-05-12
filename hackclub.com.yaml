@@ -2846,12 +2846,6 @@ hackyholidays:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-halloween: # @Charmunk and @jenin; POC=dhamari
-- octodns:
-    cloudflare:
-      proxied: true
-  type: CNAME
-  value: a.selfhosted.hackclub.com.
 halo:
   ttl: 300
   type: CNAME
