@@ -3249,8 +3249,8 @@ a.db.tier2.infra:
   value: house.n.tier2.infra.hackclub.com.
 a.ingress.tier2.infra:
   ttl: 300
-  type: CNAME
-  value: foreman.n.tier2.infra.hackclub.com.
+  type: A
+  value: 46.225.195.181
 foreman.n.tier2.infra:
   ttl: 300
   type: A
