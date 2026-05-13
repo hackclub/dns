@@ -4022,7 +4022,7 @@ nexus: #manitej@hackclub.com
       proxied: true
   ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: b.selfhosted.hackclub.com.
 nigeria:
   type: CNAME
   value: f9405218404d4a35.vercel-dns-016.com.
