@@ -3240,10 +3240,20 @@ orchard.infra:
   ttl: 300
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+ticketing.infra:
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.limited.selfhosted.hackclub.com.
 a.ingress.tier2.infra:
   ttl: 300
   type: CNAME
   value: foreman.n.tier2.infra.hackclub.com.
+foreman.n.tier2.infra:
+  ttl: 300
+  type: A
+  value: 159.69.70.233
 house.n.tier2.infra:
   ttl: 300
   type: A
@@ -3252,16 +3262,6 @@ wilson.n.tier2.infra:
   ttl: 300
   type: A
   value: 142.132.131.244
-foreman.n.tier2.infra:
-  ttl: 300
-  type: A
-  value: 159.69.70.233
-ticketing.infra:
-  octodns:
-    cloudflare:
-      proxied: true
-  type: CNAME
-  value: a.limited.selfhosted.hackclub.com.
 coolify.tier3.infra:
   ttl: 300
   type: CNAME
