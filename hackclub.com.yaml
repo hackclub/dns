@@ -2429,9 +2429,6 @@ fraud: # echo@hackclub.com U080A3QP42C
       proxied: true
   type: CNAME
   value: b.selfhosted.hackclub.com.
-joe.fraud: # echo@hackclub.com U080A3QP42C
-  type: CNAME
-  value: 55a48a5698e9fc28.vercel-dns-016.com.
 fremont:
 - ttl: 300
   type: CNAME
