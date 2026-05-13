@@ -3246,15 +3246,15 @@ ticketing.infra:
       proxied: true
   type: CNAME
   value: a.limited.selfhosted.hackclub.com.
+a.db.tier2.infra:
+  ttl: 300
+  type: CNAME
+  value: house.n.tier2.infra.hackclub.com.
 a.ingress.tier2.infra:
   ttl: 300
   type: CNAME
   value: foreman.n.tier2.infra.hackclub.com.
 a.pub.tier2.infra:
-  ttl: 300
-  type: CNAME
-  value: house.n.tier2.infra.hackclub.com.
-a.db.tier2.infra:
   ttl: 300
   type: CNAME
   value: house.n.tier2.infra.hackclub.com.
