@@ -495,7 +495,7 @@ featuretracker:
   type: CNAME
   value: cloudwaddie.hackclub.app.
 
-felix: # jacob.navaratne@outlook.com | Jacob Navaratne | @Jacob on Slack! 
+felix: # jacob.navaratne@outlook.com | Jacob Navaratne | @Jacob on Slack!
   ttl: 600
   type: CNAME
   value: smartsparkcoding.github.io.
