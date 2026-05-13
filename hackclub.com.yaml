@@ -4129,10 +4129,6 @@ verify.onboard:
 - ttl: 300
   type: CNAME
   value: ysws.limeskey.com.
-legacy.verify.onboard:
-- ttl: 300
-  type: CNAME
-  value: legacy.verify.onboard.limeskey.com.
 oneditor:
 - ttl: 300
   type: CNAME
