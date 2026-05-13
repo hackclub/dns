@@ -4330,9 +4330,8 @@ photos: # tom@daamen.uk  U078PH0GBEH
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
-  type: A
-  value: 77.90.16.198
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
 phs:
 - type: A
   value: 216.150.1.1 # Vercel
