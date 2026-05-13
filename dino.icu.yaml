@@ -855,6 +855,11 @@ mysphere: # U081RF7D23D
   type: CNAME
   value: mh-wah.github.io.
 
+nido: # NiDo U0B1G7KL7H8 mwnjele@gmail.com
+  ttl: 600
+  type: A
+  value: 122.175.46.196
+
 niilas: # Niilas - repo: https://github.com/niilasoika/niilas.dino.icu
   ttl: 600
   type: CNAME
