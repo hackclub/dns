@@ -3271,6 +3271,10 @@ a.pub.tier2.infra:
   ttl: 300
   type: CNAME
   value: house.n.tier2.infra.hackclub.com.
+_acme-challenge.a.pub.tier2.infra:
+  ttl: 300
+  type: CNAME
+  value: 4cdbebe9-1ead-47c7-8c25-71777b150533.acme.tier2.infra.hackclub.dev.
 coolify.tier3.infra:
   ttl: 300
   type: CNAME
