@@ -3247,6 +3247,10 @@ a.db.tier2.infra:
   ttl: 300
   type: CNAME
   value: house.n.tier2.infra.hackclub.com.
+_acme-challenge.a.db.tier2.infra:
+  ttl: 300
+  type: CNAME
+  value: 4cba0c3b-990d-43cc-b47b-fa79d0da8dee.acme.tier2.infra.hackclub.dev.
 a.ingress.tier2.infra:
   ttl: 300
   type: A
