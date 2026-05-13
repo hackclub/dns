@@ -3991,7 +3991,7 @@ newspaper:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-nexus:
+nexus: #manitej@hackclub.com
 - octodns:
     cloudflare:
       proxied: true
