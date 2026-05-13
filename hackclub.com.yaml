@@ -3254,10 +3254,6 @@ a.ingress.tier2.infra:
   ttl: 300
   type: CNAME
   value: foreman.n.tier2.infra.hackclub.com.
-a.pub.tier2.infra:
-  ttl: 300
-  type: CNAME
-  value: house.n.tier2.infra.hackclub.com.
 foreman.n.tier2.infra:
   ttl: 300
   type: A
@@ -3270,6 +3266,10 @@ wilson.n.tier2.infra:
   ttl: 300
   type: A
   value: 142.132.131.244
+a.pub.tier2.infra:
+  ttl: 300
+  type: CNAME
+  value: house.n.tier2.infra.hackclub.com.
 coolify.tier3.infra:
   ttl: 300
   type: CNAME
