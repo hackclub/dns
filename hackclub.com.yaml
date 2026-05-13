@@ -3236,6 +3236,26 @@ infinity:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+orchard.infra:
+  ttl: 300
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
+a.ingress.tier2.infra:
+  ttl: 300
+  type: CNAME
+  value: foreman.n.tier2.infra.hackclub.com.
+house.n.tier2.infra:
+  ttl: 300
+  type: A
+  value: 142.132.212.33
+wilson.n.tier2.infra:
+  ttl: 300
+  type: A
+  value: 142.132.131.244
+foreman.n.tier2.infra:
+  ttl: 300
+  type: A
+  value: 159.69.70.233
 ticketing.infra:
   octodns:
     cloudflare:
