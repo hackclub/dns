@@ -4011,6 +4011,13 @@ newspaper:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+nexus: #manitej@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 nigeria:
   type: CNAME
   value: f9405218404d4a35.vercel-dns-016.com.
