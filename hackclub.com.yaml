@@ -5444,13 +5444,6 @@ stardance: #kartikey@hackclub.com
   type: CNAME
   value: sendgrid.net.
 
-beta.stardance: #kartikey@hackclub.com
- - type: A
-   value: 5.161.197.219
-   octodns:
-    cloudflare:
-      proxied: true
-
 _dmarc.stardance: # kartikey@hackclub.com
 - ttl: 300
   type: TXT
@@ -5471,6 +5464,14 @@ url1054.stardance: # kartikey@hackclub.com
 - ttl: 300
   type: CNAME
   value: sendgrid.net.
+
+beta.stardance: #kartikey@hackclub.com
+ - type: A
+   value: 5.161.197.219
+   octodns:
+    cloudflare:
+      proxied: true
+      
 stasis: # @Jay U08AA6HA82F
 - ttl: 3600
   type: A
