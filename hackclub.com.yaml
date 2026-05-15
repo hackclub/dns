@@ -5438,15 +5438,15 @@ stardance: #kartikey@hackclub.com
   values:
   - exchange: mx.sendgrid.net.
     preference: 10
-_dmarc.stardance: # kartikey@hackclub.com
-- ttl: 300
-  type: TXT
-  value: v=DMARC1\; p=quarantine\; rua=mailto:6192c543e0e61@ag.dmarcly.com\; ruf=mailto:6192c543e0e61@fo.dmarcly.com\; fo=1\;
-
 57277233.stardance: # kartikey@hackclub.com
 - ttl: 300
   type: CNAME
   value: sendgrid.net.
+
+_dmarc.stardance: # kartikey@hackclub.com
+- ttl: 300
+  type: TXT
+  value: v=DMARC1\; p=quarantine\; rua=mailto:6192c543e0e61@ag.dmarcly.com\; ruf=mailto:6192c543e0e61@fo.dmarcly.com\; fo=1\;
 
 beta.stardance: #kartikey@hackclub.com
 - type: A
