@@ -5439,6 +5439,11 @@ stardance: #kartikey@hackclub.com
   - exchange: mx.sendgrid.net.
     preference: 10
 
+57277233.stardance: # kartikey@hackclub.com
+- ttl: 300
+  type: CNAME
+  value: sendgrid.net.
+
 beta.stardance: #kartikey@hackclub.com
  - type: A
    value: 5.161.197.219
@@ -5446,10 +5451,6 @@ beta.stardance: #kartikey@hackclub.com
     cloudflare:
       proxied: true
 
-57277233.stardance: # kartikey@hackclub.com
-- ttl: 300
-  type: CNAME
-  value: sendgrid.net.
 _dmarc.stardance: # kartikey@hackclub.com
 - ttl: 300
   type: TXT
