@@ -4145,7 +4145,7 @@ oneditor:
 op:
 - ttl: 300
   type: CNAME
-  value: optsa.club.
+  value: opstem.github.io.
 opensauce: # zach@hackclub.com
 - octodns:
     cloudflare:
