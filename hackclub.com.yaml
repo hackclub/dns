@@ -396,10 +396,7 @@ _vercel:
   - vc-domain-verify=woof.hackclub.com,576b3b21721743d2f9f9
 accelerate: # alexvd@hackclub.com U0823F39GV8
   type: CNAME
-  value: a.selfhosted.hackclub.com.
-  octodns:
-    cloudflare:
-      proxied: true
+  value: 3fcc401d15602ca0.vercel-dns-016.com.
 metabase.accelerate: # alexvd@hackclub.com U0823F39GV8
   type: CNAME
   value: a.selfhosted.hackclub.com.
