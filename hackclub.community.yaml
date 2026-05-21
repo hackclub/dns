@@ -5,7 +5,14 @@ _vercel:
   values:
   - vc-domain-verify=stargazing.hackclub.community,6c036f41dd5fb04c3d06
   - vc-domain-verify=labs.hackclub.community,26555f7a32c65e2aef34
-
+constellation: # me@theutkarsh8939.dev U0AM8ASHEG6 #This is for constellation.theutkarsh8939.dev
+- ttl: 600
+  type: TXT
+  value: _vercel.hackclub.community
+constellation: # me@theutkarsh8939.dev U0AM8ASHEG6 #This is for constellation.theutkarsh8939.dev
+- ttl: 600
+  type: A
+  value: 216.198.79.1
 aus: # benjamin.graetz@henleyhs.sa.edu.au U0828CN2BL4
 - ttl: 600
   type: A
