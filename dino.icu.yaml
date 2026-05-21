@@ -430,6 +430,11 @@ doruk:
   type: CNAME
   value: itsimpeccable.github.io.
 
+dustandink: # prajwalsr28.9.08+dns@gmail.com
+- ttl: 600
+  type: A
+  value: 10.60.1.95
+
 e: # drawing app - by https://github.com/sporeball
   ttl: 600
   type: CNAME
