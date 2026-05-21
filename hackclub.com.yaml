@@ -6181,3 +6181,11 @@ zwp:
 - ttl: 300
   type: A
   value: 172.99.233.117
+shaswat:
+  - type: CNAME
+    value: a2538273019fdb6f.vercel-dns-017.com
+
+_vercel.shaswat:
+  - type: TXT
+    value: 'vc-domain-verify=shaswat.hackclub.com,ba714a70d6eed318a873'
+    ttl: 600
