@@ -446,7 +446,7 @@ aesthetic:
 ai: # mahad@hackclub.com U059VC0UDEU
 - octodns:
     cloudflare:
-      proxied: false
+      proxied: true
   ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
@@ -2677,7 +2677,7 @@ dash.hackathons:
 hackatime: # mahad + msw (max@hackclub.com)
 - octodns:
     cloudflare:
-      proxied: false # cf issues
+      proxied: true
   ttl: 300
   type: CNAME
   value: hackatime.limited.selfhosted.hackclub.com.
