@@ -1430,5 +1430,6 @@ zoneout: # kilecraft90@gmail.com U08GCDHM0QZ
   value: cname.vercel-dns.com.
 
 shaswat: # shaswatkumar9868@gmail.com U09E9GMP2TX
-  - type: A
+  - ttl: 600
+    type: A
     value: 216.198.79.1
