@@ -11,7 +11,7 @@ aus: # benjamin.graetz@henleyhs.sa.edu.au U0828CN2BL4
 - ttl: 600
   type: A
   value: 35.158.87.123
-  constellation: # me@theutkarsh8939.dev U0AM8ASHEG6 #This is for constellation.theutkarsh8939.dev
+constellation: # me@theutkarsh8939.dev U0AM8ASHEG6 #This is for constellation.theutkarsh8939.dev
 - ttl: 600
   type: CNAME
   value: c7eccdb1ac008571.vercel-dns-017.com.
