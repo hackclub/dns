@@ -1000,7 +1000,7 @@ beta: # echo@hackclub.com U080A3QP42C
 better-airtable-mcp: # zach@hackclub.com
 - octodns:
     cloudflare:
-      proxied: true
+      proxied: false
   ttl: 300
   type: CNAME
   value: a.limited.selfhosted.hackclub.com.
