@@ -964,6 +964,11 @@ periodic:
   type: CNAME
   value: leecheeyong.github.io.
 
+phoenix: # bpxwing@gmail.com U0A4VPSV70E
+  ttl: 600
+  type: CNAME
+  value: phoenix099575.github.io.
+
 piyush:
   ttl: 600
   type: CNAME
