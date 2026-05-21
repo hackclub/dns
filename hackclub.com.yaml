@@ -3624,7 +3624,7 @@ lonestar:
 lookout: # samliu@hackclub.com
 - octodns:
     cloudflare:
-      proxied: true
+      proxied: false
   type: CNAME
   value: b.selfhosted.hackclub.com.
 loopy: # max@hackclub.com
