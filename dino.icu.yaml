@@ -326,14 +326,15 @@ codingcrew: # by https://github.com/shim-sham
   ttl: 600
   type: CNAME
   value: lustrous-ganache-dbb807.netlify.app.
-constellation: # me@theutkarsh8939.dev U0AM8ASHEG6 
-- ttl: 600
-  type: A
-  value: 216.198.79.1
+
 commbadge: # hpscigeek@gmail.com https://github.com/nerdwithcomputers slack: U04BG2HB5UK
   ttl: 600
   type: CNAME
   value: miracl3max.duckdns.org.
+constellation: # me@theutkarsh8939.dev U0AM8ASHEG6 
+- ttl: 600
+  type: A
+  value: 216.198.79.1
 
 constrained: # funkeudo@outlook.com U0A03GWFP1V
 - ttl: 600
