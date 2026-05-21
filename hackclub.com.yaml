@@ -2555,13 +2555,6 @@ giftbox: # tongyu@hackclub.com U07DJMFAQQP
   ttl: 300
   type: CNAME
   value: 4711668836b198ab.vercel-dns-016.com.
-github-oauth:
-- octodns:
-    cloudflare:
-      proxied: true
-  ttl: 300
-  type: CNAME
-  value: a.selfhosted.hackclub.com.
 glenny:
 - ttl: 300
   type: CNAME
