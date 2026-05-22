@@ -1035,6 +1035,10 @@ bisv:
 - ttl: 300
   type: CNAME
   value: pkalavath.github.io.
+big-brother: # @msw max@hackclub.com
+  ttl: 300
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 bitstream:
   ttl: 300
   type: CNAME
@@ -4404,6 +4408,10 @@ plis:
   ttl: 300
   type: CNAME
   value: plis-hackclub.netlify.app.
+plausible: # @msw max@hackclub.com
+  ttl: 300
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 plunge:
 - ttl: 300
   type: CNAME
