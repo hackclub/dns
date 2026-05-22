@@ -2141,6 +2141,9 @@ register.epochvt:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+equinox:
+  type: CNAME
+  value: 550665f898bd5d35.vercel-dns-017.com.
 es:
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
