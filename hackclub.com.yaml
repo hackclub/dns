@@ -1000,7 +1000,7 @@ beta: # echo@hackclub.com U080A3QP42C
 better-airtable-mcp: # zach@hackclub.com
 - octodns:
     cloudflare:
-      proxied: true
+      proxied: false
   ttl: 300
   type: CNAME
   value: a.limited.selfhosted.hackclub.com.
@@ -2472,6 +2472,9 @@ game: # arav@hackclub.com U01MPHKFZ7S
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
+platform.game: # ascpixi@hackclub.com U082DPCGPST
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
 gamebit:
   octodns:
     cloudflare:
@@ -2965,6 +2968,7 @@ _acme-challenge.hcb:
   - udwnR4OUPvvTZ__-z9Ekz9s_wKDfNs4RIFj7hXb7Yf0
   - 43wfHzaTQm4QK6seBdZ2E-aQEyuMnqB_V7oY_7WGdjk
   - LA1XSttrtF1zLrOwC9oB-6Lfdb9YhO1yT2CUuSLkP-c
+  - G7IRVAYKWiS8GlEu8ksVAeni_adYRfsQKyLJBOF5fEY
 blog.hcb: # HCB engineering/blog website
   type: CNAME
   value: a5f4edd87f53e433.vercel-dns-016.com.
