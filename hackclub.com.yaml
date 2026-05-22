@@ -1016,6 +1016,10 @@ bewacky:
 - ttl: 300
   type: TXT
   value: google-site-verification=_AfYSUQq4dxxSKw--f3ebARfekOtG3w3jIRdky4ry_g
+big-brother: # @msw max@hackclub.com
+  ttl: 300
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 bio:
 - ttl: 300
   type: CNAME
@@ -1035,10 +1039,6 @@ bisv:
 - ttl: 300
   type: CNAME
   value: pkalavath.github.io.
-big-brother: # @msw max@hackclub.com
-  ttl: 300
-  type: CNAME
-  value: a.ingress.tier2.infra.hackclub.com.
 bitstream:
   ttl: 300
   type: CNAME
@@ -4396,6 +4396,10 @@ pixeldust:
 pl:
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
+plausible: # @msw max@hackclub.com
+  ttl: 300
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 playphone:
   ttl: 300
   type: A
@@ -4408,10 +4412,6 @@ plis:
   ttl: 300
   type: CNAME
   value: plis-hackclub.netlify.app.
-plausible: # @msw max@hackclub.com
-  ttl: 300
-  type: CNAME
-  value: a.ingress.tier2.infra.hackclub.com.
 plunge:
 - ttl: 300
   type: CNAME
