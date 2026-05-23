@@ -2481,6 +2481,9 @@ game: # arav@hackclub.com U01MPHKFZ7S
   type: CNAME
   value: a.selfhosted.hackclub.com.
 platform.game: # ascpixi@hackclub.com U082DPCGPST
+  octodns:
+    cloudflare:
+      proxied: false
   type: CNAME
   value: b.selfhosted.hackclub.com.
 gamebit:
