@@ -1,0 +1,67 @@
+name: dry-run
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, labeled]
+
+permissions:
+  contents: read
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Collect changed zone files
+        id: collect
+        env:
+          BASE_REF: ${{ github.base_ref }}
+        run: |
+          set -euo pipefail
+
+          mkdir -p dry-run-payload/zones
+
+          # Only top-level *.yaml zone files (no path separators).
+          mapfile -t changed < <(
+            git diff --name-only --diff-filter=ACMR \
+              "origin/${BASE_REF}"...HEAD -- '*.yaml' \
+              | grep -Ev '/' || true
+          )
+
+          if [ "${#changed[@]}" -eq 0 ]; then
+            echo "No top-level zone YAML files changed."
+            echo "found=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          for f in "${changed[@]}"; do
+            # Sanity: defense in depth — reject anything that isn't a
+            # bare zone filename so the consumer can't be tricked into
+            # writing outside the repo root.
+            case "$f" in
+              */*|.*|*..*|"")
+                echo "Refusing suspicious filename: $f" >&2
+                exit 1 ;;
+            esac
+            cp -- "$f" "dry-run-payload/zones/$f"
+          done
+
+          printf '%s\n' "${changed[@]}" > dry-run-payload/zones.list
+          echo "found=true" >> "$GITHUB_OUTPUT"
+
+      - name: Save PR metadata
+        if: steps.collect.outputs.found == 'true'
+        env:
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: printf '%s\n' "$PR_NUMBER" > dry-run-payload/pr_number
+
+      - name: Upload dry-run payload
+        if: steps.collect.outputs.found == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: dry-run-payload
+          retention-days: 1
+          path: dry-run-payload/
