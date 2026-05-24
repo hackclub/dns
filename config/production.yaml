@@ -79,7 +79,7 @@ zones:
     sources:
       - config
     targets:
-      - dnsimple
+      - cloudflare
   hackclub.app.:
     lenient: true
     sources:
