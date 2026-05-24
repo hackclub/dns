@@ -287,7 +287,6 @@ _vercel:
   - vc-domain-verify=botfights.hackcraft.hackclub.com,0a512bcbd28db8e3d5bc
   - vc-domain-verify=branch.hackclub.com,21874c5af09f455c2cc0
   - vc-domain-verify=bunker.apocalypse.hackclub.com,75a61be6a0e63f44d7c1
-  - vc-domain-verify=butwal.hackclub.com,a925a860bf09fa56faa2
   - vc-domain-verify=capsule.hackclub.com,2095a0d425ab70e65ae2
   - vc-domain-verify=celestial.hackclub.com,712c9345didfd5e0b4ee
   - vc-domain-verify=codecafe.hackclub.com,7626bb39bfb56e9ea791
@@ -1211,10 +1210,6 @@ bunbougu:
 - ttl: 300
   type: CNAME
   value: applepieeeeee.github.io.
-butwal:
-- ttl: 300
-  type: CNAME
-  value: 30afd38e920ad4c7.vercel-dns-017.com.
 byte:
 - ttl: 300
   type: CNAME
