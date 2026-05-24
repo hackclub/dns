@@ -1211,10 +1211,6 @@ bunbougu:
 - ttl: 300
   type: CNAME
   value: applepieeeeee.github.io.
-busan:
-- ttl: 300
-  type: CNAME
-  value: hackclub-busan.netlify.app.
 butwal:
 - ttl: 300
   type: CNAME
