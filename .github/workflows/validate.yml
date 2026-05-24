@@ -20,7 +20,7 @@ jobs:
       - name: json-yaml-validate
         id: json-yaml-validate
         continue-on-error: true
-        uses: GrantBirki/json-yaml-validate@v4.0.0
+        uses: GrantBirki/json-yaml-validate@v5.0.0
         with:
           comment: "false"
 
