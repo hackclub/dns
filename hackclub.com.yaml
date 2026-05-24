@@ -276,6 +276,7 @@ _vercel:
   - vc-domain-verify=arena.hackclub.com,18d51eef05279bd5822f
   - vc-domain-verify=arcade-wrapped.hackclub.com,8266e50fd74e5c046773
   - vc-domain-verify=ascend.hackclub.com,5c143e010cb754d62113
+  - vc-domain-verify=ascension.hackclub.com,ff1dd7a1d7c07b66df1c
   - vc-domain-verify=asiet.hackclub.com,2975ee268d07e199efdc
   - vc-domain-verify=awest.hackclub.com,e6d12d504df9bbb88908
   - vc-domain-verify=backend.arena.hackclub.com,079b94be7b001fa4e775
@@ -684,7 +685,7 @@ ascend:
   value: cname.vercel-dns.com.
 ascension: # joysu2008@gmail.com U09G78T3MM2
   - type: CNAME
-    value: ascension.grassier.tech.
+    value: cname.vercel-dns.com.
 asia-summit:
 - ttl: 300
   type: CNAME
