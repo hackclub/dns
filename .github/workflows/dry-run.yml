@@ -1,0 +1,84 @@
+name: dry-run
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened, labeled]
+  merge_group:
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  dry-run:
+    runs-on: ubuntu-latest
+    env:
+      DNSIMPLE_ACCOUNT_NUMBER: ${{ secrets.DNSIMPLE_ACCOUNT_NUMBER }}
+      DNSIMPLE_API_KEY: ${{ secrets.DNSIMPLE_API_KEY_READ_ONLY }}
+      CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN_READ_ONLY }}
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Overlay PR zone YAML files (data only)
+        if: github.event_name == 'pull_request_target'
+        env:
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          set -euo pipefail
+          git fetch --no-tags origin "pull/${PR_NUMBER}/head:pr-head"
+
+          # Only top-level *.yaml files (zone files). Excludes anything in
+          # subdirectories so .github/, bin/, config/ are never touched.
+          mapfile -t changed < <(
+            git diff --name-only --diff-filter=ACMR HEAD..pr-head -- '*.yaml' \
+              | grep -Ev '/' || true
+          )
+
+          if [ "${#changed[@]}" -eq 0 ]; then
+            echo "No top-level zone YAML files changed; nothing to overlay."
+            exit 0
+          fi
+
+          printf 'Overlaying zone file: %s\n' "${changed[@]}"
+          git checkout pr-head -- "${changed[@]}"
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3"
+
+      - name: Install OctoDNS
+        run: pip install 'octodns>=1.5.0' octodns-cloudflare octodns-dnsimple
+
+      - name: Check for --force label
+        id: check-force
+        uses: actions/github-script@v9
+        with:
+          script: |
+            let prNumber = null;
+
+            if (context.eventName === 'pull_request_target') {
+              prNumber = context.payload.pull_request.number;
+            } else if (context.eventName === 'merge_group') {
+              const m = context.ref.match(/\/pr-(\d+)-/);
+              if (m) prNumber = parseInt(m[1], 10);
+            }
+
+            if (!prNumber) {
+              core.info('No PR number; skipping --force check');
+              return;
+            }
+
+            const { data: pr } = await github.rest.pulls.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: prNumber,
+            });
+            const labels = pr.labels.map((l) => l.name);
+            core.info(`PR #${prNumber} labels: ${JSON.stringify(labels)}`);
+            if (labels.includes('--force')) {
+              core.setOutput('force', '--force');
+            }
+
+      - name: Do a dry run
+        if: env.DNSIMPLE_ACCOUNT_NUMBER != ''
+        run: ./bin/dry-run ${{ steps.check-force.outputs.force }}
