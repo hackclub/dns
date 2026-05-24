@@ -682,6 +682,9 @@ ascend:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+ascension: # joysu2008@gmail.com U09G78T3MM2
+  - type: CNAME
+    value: ascension.grassier.tech.
 asia-summit:
 - ttl: 300
   type: CNAME
