@@ -3479,10 +3479,6 @@ jv:
 - ttl: 300
   type: CNAME
   value: awesome-carson-c7b5e3.netlify.com.
-jvv:
-- ttl: 300
-  type: CNAME
-  value: hackjvv.github.io.
 keepsake:
 - ttl: 300
   type: CNAME
