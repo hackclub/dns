@@ -31,7 +31,7 @@ internal:
   value: 138.197.18.43
 maps:
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: f5e7996f6a74bcc1.vercel-dns-016.com.
 www:
   type: CNAME
   value: a5f4edd87f53e433.vercel-dns-016.com.
