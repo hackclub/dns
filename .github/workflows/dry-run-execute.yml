@@ -9,6 +9,7 @@ permissions:
   contents: read
   actions: read
   pull-requests: read
+  checks: write
 
 jobs:
   dry-run:
@@ -129,5 +130,62 @@ jobs:
         run: pip install 'octodns>=1.5.0' octodns-cloudflare octodns-dnsimple
 
       - name: Do a dry run
+        id: dryrun
         if: steps.overlay.outputs.overlaid == 'true' && env.DNSIMPLE_ACCOUNT_NUMBER != ''
+        continue-on-error: true
         run: ./bin/dry-run ${{ steps.force.outputs.flag }}
+
+      - name: Report dry-run status
+        if: always() && steps.check.outputs.found == 'true'
+        uses: actions/github-script@v9
+        env:
+          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+          OVERLAID: ${{ steps.overlay.outputs.overlaid }}
+          DRYRUN_OUTCOME: ${{ steps.dryrun.outcome }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        with:
+          script: |
+            const sha = process.env.HEAD_SHA;
+            if (!/^[0-9a-f]{40}$/.test(sha)) {
+              core.setFailed(`Refusing to post check on suspicious SHA: ${sha}`);
+              return;
+            }
+
+            const overlaid = process.env.OVERLAID === 'true';
+            const outcome = process.env.DRYRUN_OUTCOME;
+            const runUrl = process.env.RUN_URL;
+
+            let conclusion = 'neutral';
+            let title = 'Dry-run not executed';
+
+            if (!overlaid) {
+              conclusion = 'success';
+              title = 'No zone files changed — nothing to validate';
+            } else if (outcome === 'success') {
+              conclusion = 'success';
+              title = 'octodns plan completed successfully';
+            } else if (outcome === 'failure') {
+              conclusion = 'failure';
+              title = 'octodns plan failed — see Details';
+            } else {
+              conclusion = 'neutral';
+              title = 'Dry-run skipped (no API credentials available)';
+            }
+
+            await github.rest.checks.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              name: 'dry-run',
+              head_sha: sha,
+              status: 'completed',
+              conclusion,
+              details_url: runUrl,
+              output: {
+                title,
+                summary: `[View full octodns plan logs](${runUrl}).`,
+              },
+            });
+
+      - name: Fail the workflow if dry-run failed
+        if: steps.dryrun.outcome == 'failure'
+        run: exit 1
