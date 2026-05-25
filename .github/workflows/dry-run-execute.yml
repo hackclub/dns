@@ -9,7 +9,7 @@ permissions:
   contents: read
   actions: read
   pull-requests: read
-  checks: write
+  statuses: write
 
 jobs:
   dry-run:
@@ -147,7 +147,7 @@ jobs:
           script: |
             const sha = process.env.HEAD_SHA;
             if (!/^[0-9a-f]{40}$/.test(sha)) {
-              core.setFailed(`Refusing to post check on suspicious SHA: ${sha}`);
+              core.setFailed(`Refusing to post status on suspicious SHA: ${sha}`);
               return;
             }
 
@@ -155,35 +155,31 @@ jobs:
             const outcome = process.env.DRYRUN_OUTCOME;
             const runUrl = process.env.RUN_URL;
 
-            let conclusion = 'neutral';
-            let title = 'Dry-run not executed';
+            let state = 'success';
+            let description = 'Dry-run not executed';
 
             if (!overlaid) {
-              conclusion = 'success';
-              title = 'No zone files changed — nothing to validate';
+              state = 'success';
+              description = 'No zone files changed — nothing to validate';
             } else if (outcome === 'success') {
-              conclusion = 'success';
-              title = 'octodns plan completed successfully';
+              state = 'success';
+              description = 'octodns plan completed successfully';
             } else if (outcome === 'failure') {
-              conclusion = 'failure';
-              title = 'octodns plan failed — see Details';
+              state = 'failure';
+              description = 'octodns plan failed — see Details';
             } else {
-              conclusion = 'neutral';
-              title = 'Dry-run skipped (no API credentials available)';
+              state = 'success';
+              description = 'Dry-run skipped (no API credentials available)';
             }
 
-            await github.rest.checks.create({
+            await github.rest.repos.createCommitStatus({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              name: 'dry-run',
-              head_sha: sha,
-              status: 'completed',
-              conclusion,
-              details_url: runUrl,
-              output: {
-                title,
-                summary: `[View full octodns plan logs](${runUrl}).`,
-              },
+              sha,
+              state,
+              context: 'dry-run',
+              description,
+              target_url: runUrl,
             });
 
       - name: Fail the workflow if dry-run failed
