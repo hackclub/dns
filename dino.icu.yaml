@@ -322,7 +322,7 @@ click: # a URL shortener
   type: CNAME
   value: cname.vercel-dns.com.
 
-codingcrew: # by https://github.com/shim-sham
+codingcrew: # by http://github.com/shim-sham
   ttl: 600
   type: CNAME
   value: lustrous-ganache-dbb807.netlify.app.
@@ -1167,6 +1167,10 @@ solvable: # GitHub: Randomcoder323, codingme313@gmail.com
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+
+soundpulse: # Github: GamerFuryAction, matei.ruginosu@gmail.com
+  -type: CNAME
+  -value: soundpulse.vercel.app.
 
 sparkle: #tlyzachary0411@gmail.com U07DL91MFQT @zook
 - ttl: 600
