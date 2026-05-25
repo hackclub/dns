@@ -3475,12 +3475,6 @@ v2.jumpstart: #estella@hackclub.com
 - ttl: 300
   type: CNAME
   value: themagicfrog.github.io.
-jus-study: #adlerauge818+hackclub@gmail.com under euan@hackclub.com
-- octodns:
-    cloudflare:
-      proxied: true
-  type: CNAME
-  value: b.selfhosted.hackclub.com.
 jv:
 - ttl: 300
   type: CNAME
