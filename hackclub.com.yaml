@@ -3480,7 +3480,8 @@ jv:
   type: CNAME
   value: awesome-carson-c7b5e3.netlify.com.
 keepsake:
-  value: 474482a022f366c4.vercel-dns-016.com
+  type: CNAME
+  value: 474482a022f366c4.vercel-dns-016.com.
 kerala:
 - ttl: 300
   type: CNAME
