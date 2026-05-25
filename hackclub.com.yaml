@@ -3491,34 +3491,27 @@ _github-pages-challenge-kerala-hackclub.kerala:
   type: TXT
   value: f39cf4bf21f2e8087c97294b2944e4
 kiit:
-- ttl: 300
   type: CNAME
   value: alpha-9h3.pages.dev.
 kjcmt:
-  ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 kmea:
-- ttl: 300
   type: A
   value: 185.199.111.153
 knit:
-- ttl: 300
   type: CNAME
   value: hackclubknit.netlify.app.
 ko:
-  ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 kr:
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
 lambert:
-- ttl: 300
   type: CNAME
   value: lambert-hackclub.vercel.app.
 langjam:
-  ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 lapse: # ascpixi@hackclub.com U082DPCGPST
@@ -3546,19 +3539,15 @@ api.staging.lapse: # ascpixi@hackclub.com U082DPCGPST
   type: CNAME
   value: a.selfhosted.hackclub.com.
 largo: # largo.hackclub.com
-  ttl: 300
   type: CNAME
   value: lhscoding.github.io.
 lasa:
-- ttl: 300
   type: CNAME
   value: hackclublasa.github.io.
 laslomas:
-- ttl: 300
   type: CNAME
   value: mystifying-torvalds-f8e697.netlify.com.
 leaderboard:
-  ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 leaders: #@Charmunk / ivie@hackclub.com
@@ -3568,27 +3557,21 @@ leaders: #@Charmunk / ivie@hackclub.com
   type: CNAME
   value: a.selfhosted.hackclub.com.
 guide.leaders: # lynn@hackclub.com U07ULNFPQ4T (for clubs)
-  ttl: 300
   type: CNAME
   value: 9de93ecf1b2dc035.vercel-dns-016.com.
 leap:
-- ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 leap-manual:
-- ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 lghs:
-- ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 lhscc:
-- ttl: 300
   type: A
   value: 174.86.1.223
 libre:
-- ttl: 300
   type: NS
   values:
   - ns1.he.net.
@@ -3597,27 +3580,21 @@ libre:
   - ns4.he.net.
   - ns5.he.net.
 links: # leo@hackclub.com U07BLJ1MBEE
-- ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 linkscape:
-- ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 list:
-- ttl: 300
   type: TXT
   value: google-site-verification=dy5FQ7euw6ZutiApm5ZdCTUgWn9CL3uhfJWHfD3TxLk
 lockin:
-- ttl: 300
   type: A
   value: 5.161.100.52
 signalling.lockin:
-- ttl: 300
   type: A
   value: 5.161.100.52
 lonestar:
-- ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 lookout: # samliu@hackclub.com
@@ -3639,11 +3616,9 @@ smtp.loopy: # max@hackclub.com
   type: CNAME
   value: a.limited.selfhosted.hackclub.com.
 low-skies:
-- ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: c2a23e8ec99f6916.vercel-dns-016.com.
 luna:
-- ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 lyla: # U054VC2KM9P / U06EMBJH71S / U06UYA5GMB5 (amber/lou/jeremy)
@@ -3659,7 +3634,6 @@ macondo: # nathan@hackclub.com
   type: CNAME
   value: a.selfhosted.hackclub.com.
 magazine: # acon@hackclub.com U04KEK4TS72
-- ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
 mail: # nora@hackclub.com U06QK6AG3RD
@@ -3669,34 +3643,27 @@ mail: # nora@hackclub.com U06QK6AG3RD
   type: CNAME
   value: a.limited.selfhosted.hackclub.com.
 pic._domainkey.mail:
-  ttl: 300
   type: TXT
   value: k=rsa
 email.mail:
-  ttl: 300
   type: CNAME
   value: mailgun.org.
 testing.mail:
-- ttl: 300
-  type: MX
+- type: MX
   values:
   - exchange: mxa.mailgun.org.
     preference: 10
   - exchange: mxb.mailgun.org.
     preference: 10
-- ttl: 300
-  type: TXT
+- type: TXT
   value: v=spf1 include:mailgun.org ~all
 mailo._domainkey.testing.mail:
-  ttl: 300
   type: TXT
   value: k=rsa
 malagon:
-- ttl: 300
   type: CNAME
   value: hackclubmalagon.netlify.app.
 mangu:
-- ttl: 300
   type: CNAME
   value: mangu.pages.dev.
 manifest: #manitej@hackclub.com
@@ -3706,42 +3673,33 @@ manifest: #manitej@hackclub.com
   type: CNAME
   value: a.selfhosted.hackclub.com.
 manifesto:
-- ttl: 300
   type: CNAME
   value: a45c6884820232b2.vercel-dns-016.com.
 manor:
-- ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: f61dcda8ea43ee0c.vercel-dns-016.com.
 maps:
-- ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: f5e7996f6a74bcc1.vercel-dns-016.com.
 markdown:
-- ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: c02a5eb37aa5d3c3.vercel-dns-016.com.
 market:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 mason:
-- ttl: 300
   type: CNAME
   value: mason-hack-club.netlify.com.
 matchups:
-- ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 maxday:
-  ttl: 300
   type: CNAME
   value: maxday-prod.netlify.com.
 mayhem: #augie@hackclub.com U07FCRNHS1J
-- ttl: 300
   type: CNAME
   value: 10c0b549a5d8fbfc.vercel-dns-017.com.
 mc: # alexp@hackclub.com
@@ -3848,40 +3806,32 @@ midi:
   type: CNAME
   value: a.selfhosted.hackclub.com.
 midnight:
-  ttl: 300
   type: A
   value: 5.161.244.66
 milkyway:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 milton:
-  ttl: 300
   type: CNAME
   value: miltonhackclub.pages.dev.
 minicraft:
-  ttl: 300
   type: CNAME
   value: minicraft-dvk.pages.dev.
 minustwelve:
-  ttl: 300
   type: CNAME
   value: hackclub.github.io.
 mob-games:
-  ttl: 300
   type: CNAME
   value: d906b8f58a045a63e82061d953776462.ipv4.tcpshield.com.
 moonbeam:
-- ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 411d1103d9e82130.vercel-dns-016.com.
 intro.moonbeam:
-- ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 8383d3776ee900c9.vercel-dns-016.com.
 moonshot: # U078DFX40A2
   type: CNAME
   value: 43b58a0d93f8e1dc.vercel-dns-016.com.
@@ -3907,33 +3857,26 @@ ms:
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
 msft:
-- ttl: 300
   type: TXT
   value: "MS=ms62939426"
 multiverse:
-  ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 mumble:
-- ttl: 300
   type: A
   value: 173.208.140.124
 muse:
-- ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 78958f059c43551f.vercel-dns-016.com.
 nairobi:
-- ttl: 300
   type: CNAME
   value: hackclubnairobi.codeberg.page.
 ncssm:
-- ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 neighborhood:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 13684c4a1c0eb7ab.vercel-dns-016.com.
 express.neighborhood:
   octodns:
     cloudflare:
@@ -3941,14 +3884,9 @@ express.neighborhood:
   type: CNAME
   value: a.selfhosted.hackclub.com.
 neohack:
-  octodns:
-    cloudflare:
-      proxied: true
-  ttl: 300
   type: CNAME
   value: 10f7be41618be21d.vercel-dns-016.com.
 nepal:
-  ttl: 300
   type: CNAME
   value: dikshantpandey-dev.github.io.
 nephthys: # amber / U054VC2KM9P
