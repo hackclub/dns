@@ -1519,6 +1519,13 @@ codethetech:
 - ttl: 300
   type: CNAME
   value: codethetech.github.io.
+codex: # alexren@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 coeur: # olive@hackclub.com @Olive @Ghost of L87 (Lynn)
   octodns:
     cloudflare:
