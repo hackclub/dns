@@ -3488,7 +3488,11 @@ jv:
   value: awesome-carson-c7b5e3.netlify.com.
 keepsake:
   type: CNAME
-  value: 474482a022f366c4.vercel-dns-016.com.
+  value: 474482a022f366c4.vercel-dns-016.$com.
+keeb: #U05JNJZJ0BS
+- ttl: 300
+  type: CNAME 
+  value: a.selfhosted.hackclub.com.
 kerala:
 - ttl: 300
   type: CNAME
