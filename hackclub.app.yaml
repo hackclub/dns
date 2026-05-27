@@ -59,6 +59,9 @@ dashboard:
 export: # admins@hackclub.app
 - type: A
   value: 65.108.74.29
+game1:
+- type: A
+  value: 65.108.74.28
 logs:
 - type: A
   value: 65.21.241.32
