@@ -236,6 +236,11 @@ breakout: #by U0823J6HMTP https://github.com/CsibiCsabi
   type: CNAME
   value: break-out-nine.vercel.app.
 
+browser-sound-garden: #by GamerFuryAction https://github.com/GamerFuryAction email:matei.ruginosu@gmail.com
+  ttl: 600
+  type: CNAME
+  value: browsersoundgarden.hackclub.com.
+
 bs: # by https://github.com/leecheeyong/BrawlBio
   ttl: 600
   type: CNAME
