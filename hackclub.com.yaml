@@ -4160,27 +4160,12 @@ outernetwebservices:
   - ns3.he.net.
   - ns4.he.net.
   - ns5.he.net.
-overflow-hidden:
-  octodns:
-    cloudflare:
-      proxied: true
-  ttl: 300
+overflow-hidden: # @Olive, U07BN55GN3D
   type: CNAME
   value: feae0968189bef7f.vercel-dns-016.com.
-overglade: #tongyu@hackclub.com U07DJMFAQQP
-- octodns:
-    cloudflare:
-      proxied: true
-  ttl: 300
+overglade: # tongyu@hackclub.com U07DJMFAQQP
   type: CNAME
-  value: a.selfhosted.hackclub.com.
-badges.overglade: #tongyu@hackclub.com U07DJMFAQQP
-- octodns:
-    cloudflare:
-      proxied: true
-  ttl: 300
-  type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: 8f9915d7ba514d29.vercel-dns-016.com.
 owo: # nathan@hackclub.com U05EZRFKRV4
   octodns:
     cloudflare:
