@@ -30,6 +30,9 @@ construct: # U092CHMLB24
 daydream: # dev@hackclub.com U0261EB1EG7
   type: CNAME
   value: a.selfhosted.hackclub.com.
+fallout: # samliu@hackclub.com
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
 flagship: # nora@/campfire flagship team
   type: CNAME
   value: a.selfhosted.hackclub.com.
@@ -53,7 +56,7 @@ moonshot: # graham@hackclub.com U04QH1TTMBP
   value: a.selfhosted.hackclub.com.
 p: # nora@hackclub.com U06QK6AG3RD
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: a.ingress.tier2.infra.hackclub.com.
 ship: # dev@hackclub.com U0261EB1EG7
   type: CNAME
   value: a.selfhosted.hackclub.com.

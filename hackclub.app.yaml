@@ -36,8 +36,8 @@
 - type: CNAME
   value: hackclub.app.
 _dmarc:
-- type: TXT
-  value: v=DMARC1\; p=reject\; rua=mailto:dmarc@hackclub.app
+- type: TXT  
+  value: "v=DMARC1; p=reject; pct=100; rua=mailto:re+kezq99w5cqr@dmarc.postmarkapp.com; sp=none; aspf=r; "
 nest2024._domainkey:
 - type: TXT
   value: v=DKIM1\; h=sha256\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAty0gSU619f5L+iykm4FezEwL7zqYqaMV7bcTw31z417DZ2zmV17nPqmJEKmnwNu7H0wxbDOJQdxacTexlmTQS+SMnDhPzkeR72bJC6iXfWvhknwfnuoHeTSszHSrywpSIQ5qNybrGQKMv2pn+FZAQh38j/I2bjVwsAyqfQgj8h4KD5GilUtue9BRvaYnfH9y0JyIesDmsVjkiSGOp2wf4B81tPO9QuS+2aiHkyXsEyMzWuCEux0MXHcalLKDMqQkawcJrgRuBgUFXfqsowFq2WgpAi8Fb7ngxHO+h65nPV3I0rk9i+LsyJ+S30C2uI/vLjd2aN7+4q/gSM75QdsfXwIDAQAB
@@ -59,6 +59,9 @@ dashboard:
 export: # admins@hackclub.app
 - type: A
   value: 65.108.74.29
+game1: # admins@hackclub.app
+- type: A
+  value: 65.108.74.28
 logs:
 - type: A
   value: 65.21.241.32
@@ -69,4 +72,4 @@ pbx:
   value: 2a01:4f9:3081:399c:be24:11ff:fef0:3b81
 status: # me@cyteon.dev
 - type: A
-  value: 45.8.201.70
+  value: 65.21.241.32

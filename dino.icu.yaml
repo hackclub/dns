@@ -67,42 +67,95 @@ airborne: # by U0807ADEC6L // @Manan
   type: CNAME
   value: cname.vercel-dns.com.
 
-ajhalili2006: # by https://github.com/ajhalili2006 via https://github.com/andreijiroh-dev/website
+ajhalili2006: # ajhalili2006@andreijiroh.dev https://gitlab.com/andreijiroh-dev/launchpad
 - ttl: 600
   type: A
     # https://github.com/andreijiroh-dev/api-servers/tree/main/apps/redirector, hosted on Deno Deploy
   value: 69.67.170.170
-_acme-challenge.ajhalili2006:
+_acme-challenge.ajhalili2006: # ajhalili2006@andreijiroh.dev https://gitlab.com/andreijiroh-dev/launchpad
 - ttl: 600
   type: CNAME
   value: 3a1ea03c191e234288b279704763e052._acme.deno.net.
 
-_github-pages-challenge-hackclub-alumni.alumni:
+# Alumni Society (https://github.com/hackclub-alumni/meta/issues/1)
+# Records are primarily managed by @ajhalili2006 (U07CAPBB9B5), although other alums
+# can manage them by coordinating at #alums channel or https://github.com/hackclub-alumni/meta.
+alumni: # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumni/meta
+  # GitLab Pages - https://gitlab.com/hackclub-community/alumni/website
+- ttl: 600
+  type: A
+  value: 35.185.44.232
+- ttl: 600
+  type: AAAA
+  value: "2600:1901:0:7b8a::"
+  # Community mailbox for alums, currently managed by @ajhalili2006 on Uberspace [NOT PLANNED FOR SSO STUFF]
+  # If you are an alum, you can request one via Slack DMs or at https://gitlab.com/hackclub-community/alumni/meta/-/issues.
+- octodns:
+    cloudflare:
+      comment: "U8 mailbox - ajhalili@janus.uberspace.de"
+  ttl: 600
+  type: MX
+  values:
+  - exchange: in-mx.uberspace.de.
+    preference: 10
+- octodns:
+    cloudflare:
+      comment: "U8 mailbox - ajhalili@janus.uberspace.de"
+  ttl: 600
+  type: TXT
+  values:
+  - "uberspace-mail-kPUHau2GGz"   # verification challenge
+  - "v=spf1 include:spf.uberspace.de ~all"   # SPF records
+_atproto.alumni: # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumni/meta
+- ttl: 600
+  type: TXT
+  value: "did=did:plc:yi5ewii4xerodl6ljn3fwga6"
+uberspace1._domainkey.alumni: # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumni/meta
+- octodns:
+    cloudflare:
+      comment: "U8 mailbox - ajhalili@janus.uberspace.de"
+  ttl: 600
+  type: CNAME
+  value: dkim1.uberspace.de.
+uberspace2._domainkey.alumni: # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumni/meta
+- octodns:
+    cloudflare:
+      comment: "U8 mailbox - ajhalili@janus.uberspace.de"
+  ttl: 600
+  type: CNAME
+  value: dkim2.uberspace.de.
+_gh-hackclub-alumni-o.alumni: # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumni/meta
+- ttl: 600
+  type: TXT
+  value: "73477a0c9e"
+_github-pages-challenge-hackclub-alumni.alumni: # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumni/meta
 - ttl: 600
   type: TXT
   value: "3777bf5f9b6076520d8bbcebb90d45"
+_gitlab-pages-verification-code.alumni: # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumni/meta
+- ttl: 600
+  type: TXT
+  value: "gitlab-pages-verification-code=398259d364b40425aee99d9b0a6bec8d"
+blog.alumni: # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumni/meta
+- ttl: 600
+  type: CNAME
+  value: 731fb7077db63b1d.vercel-dns-016.com.
 
 amina: # by https://github.com/amino47
   ttl: 600
   type: CNAME
   value: amino47.github.io.
 
-andreijiroh: # by https://github.com/ajhalili2006, but uses his first name as subdomain instead of github username
+andreijiroh: # ajhalili2006@andreijiroh.dev https://gitlab.com/andreijiroh-dev/launchpad
 - ttl: 600
   type: A
     # https://github.com/andreijiroh-dev/api-servers/tree/main/apps/redirector, hosted on Deno Deploy
   value: 69.67.170.170
-_acme-challenge.andreijiroh:
+_acme-challenge.andreijiroh: # ajhalili2006@andreijiroh.dev https://gitlab.com/andreijiroh-dev/launchpad
 - ttl: 600
   type: CNAME
   value: abd77e2d22191e54d5f6c8ad24fcfd97._acme.deno.net.
 
-# Alumni Society (https://github.com/hackclub-alumni/meta/issues/1)
-# Records are primarily managed by @ajhalili2006 (U07CAPBB9B5), although other alums
-# can manage them by coordinating at #alums channel or https://github.com/hackclub-alumni/meta.
-# Note that we have moved to hackclub.community, although we keep GH Pages
-# domain verification record below to prevent domain takeovers if we do wildcard
-# CNAME records at *.alumni.dino.icu in future.
 andrew: # by https://github.com/anddddrew
   ttl: 600
   type: CNAME
@@ -137,6 +190,11 @@ aryanpatel: # by https://github.com/aryanpatel142006
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com. # vercel
+
+asclub: # Jacob N // @Jacob // U0AEYDUCLKF // jacob.navaratne@outlook.com
+  - type: CNAME
+    value: mini-jacob.hackclub.app.
+    ttl: 600
 
 automake: # obagaming@gmail.com U0A1G9F445D
 - ttl: 600
@@ -187,6 +245,17 @@ bs: # by https://github.com/leecheeyong/BrawlBio
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+
+# Default handle suffix base for @recaptime.dev's PDS service
+# See https://gitlab.com/recaptime-dev/hosted-services/atproto-pds for details
+bsky: # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumni/meta
+- ttl: 600
+  type: CNAME
+  value: proxyparty.recaptime.dev.
+"*.bsky": # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumni/meta
+- ttl: 300
+  type: CNAME
+  value: proxyparty.recaptime.dev.
 
 builders-club: #turtlesy1234@gmail.com U0AM2DYC3FB
 - ttl: 600
@@ -287,7 +356,10 @@ corechat: # aradforsure@gmaul.com U0AJN9LJDGS
   ttl: 600
   type: CNAME
   value: aradjpy.github.io.
-
+cq: # @ruben (U0AHNB20WDD) on slack, ruben@scstudios.tech https://github.com/code2344/contact-website
+  ttl: 600
+  type: A
+  value: 216.198.79.1
 cr:
   ttl: 600
   type: CNAME
@@ -554,9 +626,9 @@ icons: # yoda - https://github.com/yodalightsabr/icons-dino-icu - a CDN for @hac
   value: 76.76.21.21
 
 inherit: # contact at mtthsschrbr@proton.me or @mtthsschrbr on slack
-  - ttl: 600
-    type: CNAME
-    value: cname.vercel-dns.com.
+- ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
 
 _dmarc.inherit: # contact at mtthsschrbr@proton.me or @mtthsschrbr on slack
   ttl: 3600
@@ -569,14 +641,14 @@ resend._domainkey.inherit: # contact at mtthsschrbr@proton.me or @mtthsschrbr on
   value: "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDlFn8+Ep0RP8e791QcpRDe8I8vHHt378umytGa4/+UJAS+tfC8VeQqMohtrwzo3bW5emTeGqcsNrJKOE5FZW6zvam5xgtQ6WTZd/wwXXImVz403m1hpD84gYTZkeQ4zKojeMLz373og767Q7GxJSjCTH7IiPy+fRKotinpMn6FnwIDAQAB"
 
 send.inherit: # contact at mtthsschrbr@proton.me or @mtthsschrbr on slack
-  - ttl: 3600
-    type: MX
-    values:
-      - priority: 10
-        value: feedback-smtp.eu-west-1.amazonses.com.
-  - ttl: 3600
-    type: TXT
-    value: "v=spf1 include:amazonses.com ~all"
+- ttl: 3600
+  type: MX
+  values:
+  - priority: 10
+    value: feedback-smtp.eu-west-1.amazonses.com.
+- ttl: 3600
+  type: TXT
+  value: "v=spf1 include:amazonses.com ~all"
 
 innohacks: #efe
   ttl: 600
@@ -587,6 +659,11 @@ jacob: # Jacob N // @Jacob // U0AEYDUCLKF
   ttl: 600
   type: CNAME
   value: jacob-personal-website.pages.dev.
+
+jamesite: # Jame on slack // JamesFerris447@gmail.com // U09K59BPM2M
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
 
 japroz: # Japroz Saini
   ttl: 600
@@ -743,6 +820,16 @@ mindson: # by rajan
   type: CNAME
   value: mindson.netlify.app.
 
+misskey: #hackisskey | korange753@gmail.com U091Q2MS3T9
+- ttl: 600
+  type: ALIAS
+  value: hackclub.app.
+  octodns:
+    lenient: true # I want to use ALIAS records to allow for future record additions, but OctoDNS only allows ALIAS records for the root directory by default, hence the current configuration.
+- ttl: 600
+  type: TXT
+  value: domain-verification=korange # for Nest
+
 monty: # contact via adelinmihai071@gmail.com
   ttl: 600
   type: CNAME
@@ -772,6 +859,11 @@ mysphere: # U081RF7D23D
   ttl: 600
   type: CNAME
   value: mh-wah.github.io.
+
+nido: # NiDo U0B1G7KL7H8 mwnjele@gmail.com
+  ttl: 600
+  type: A
+  value: 122.175.46.196
 
 niilas: # Niilas - repo: https://github.com/niilasoika/niilas.dino.icu
   ttl: 600
