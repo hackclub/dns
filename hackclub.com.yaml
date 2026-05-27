@@ -1519,7 +1519,7 @@ codethetech:
 - ttl: 300
   type: CNAME
   value: codethetech.github.io.
-codex: #alexren@hackclub.com
+codex: # alexren@hackclub.com
 - octodns:
     cloudflare:
       proxied: true
