@@ -3922,6 +3922,9 @@ lynx.nephthys: # Nathan U05EZRFKRV4 & Santi U08PD2ZB3DL
 midnight.nephthys: # amber / U054VC2KM9P & leo / U07BLJ1MBEE
   type: CNAME
   value: a.selfhosted.hackclub.com.
+stardance.nephthys: # mish@hackclub.com / U073M5L9U13
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
 stasis.nephthys: # amber / U054VC2KM9P & alexp@hackclub.com
   type: CNAME
   value: b.selfhosted.hackclub.com.
