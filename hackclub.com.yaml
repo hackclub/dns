@@ -3131,7 +3131,7 @@ horizon:
 horizons: # manitej@hackclub.com
 - ttl: 300
   type: A
-  value: 5.161.244.66
+  value: a.ingress.tier2.infra.hackclub.com.
 - ttl: 3600
   type: TXT
   values:
