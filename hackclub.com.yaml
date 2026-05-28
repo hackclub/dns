@@ -3130,8 +3130,8 @@ horizon:
   value: cname.vercel-dns.com.
 horizons: # manitej@hackclub.com
 - ttl: 300
-  type: CNAME
-  value: a.ingress.tier2.infra.hackclub.com.
+  type: A
+  value: 46.225.195.181
 - ttl: 3600
   type: TXT
   values:
