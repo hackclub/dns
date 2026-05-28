@@ -4595,6 +4595,10 @@ remixed: # ascpixi@hackclub.com U082DPCGPST
 renaissance-24:
   type: CNAME
   value: 1bdc13681dff9b21.vercel-dns-016.com.
+remy: # remymoreau12@icloud.com
+  type: CNAME
+  value: squeakycleanfreshie-cloud.github.io.
+  ttl: 600
 resolution: # dhamari@hackclub.com // jenin@hackclub.com
 - octodns:
     cloudflare:
