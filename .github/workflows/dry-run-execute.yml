@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   dry-run:
-    if: github.event.workflow_run.event == 'pull_request' && github.event.workflow_run.conclusion == 'success'
+    if: (github.event.workflow_run.event == 'pull_request' || github.event.workflow_run.event == 'merge_group') && github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     env:
       DNSIMPLE_ACCOUNT_NUMBER: ${{ secrets.DNSIMPLE_ACCOUNT_NUMBER }}
@@ -104,6 +104,11 @@ jobs:
           script: |
             const fs = require('fs');
             const raw = fs.readFileSync('dry-run-payload/pr_number', 'utf8').trim();
+            // 0 is a sentinel written for merge_group runs (no PR context).
+            if (raw === '0') {
+              core.info('No PR context (merge_group run); skipping --force label lookup.');
+              return;
+            }
             if (!/^[1-9][0-9]*$/.test(raw)) {
               core.warning(`Ignoring invalid PR number in payload: ${raw}`);
               return;
