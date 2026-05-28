@@ -1,0 +1,192 @@
+name: dry-run-execute
+
+on:
+  workflow_run:
+    workflows: [dry-run]
+    types: [completed]
+
+permissions:
+  contents: read
+  actions: read
+  pull-requests: read
+  statuses: write
+
+jobs:
+  dry-run:
+    if: (github.event.workflow_run.event == 'pull_request' || github.event.workflow_run.event == 'merge_group') && github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    env:
+      DNSIMPLE_ACCOUNT_NUMBER: ${{ secrets.DNSIMPLE_ACCOUNT_NUMBER }}
+      DNSIMPLE_API_KEY: ${{ secrets.DNSIMPLE_API_KEY_READ_ONLY }}
+      CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN_READ_ONLY }}
+    steps:
+      - name: Checkout base repo (trusted)
+        uses: actions/checkout@v6
+
+      - name: Check for dry-run payload
+        id: check
+        uses: actions/github-script@v9
+        with:
+          script: |
+            const { data } = await github.rest.actions.listWorkflowRunArtifacts({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              run_id: context.payload.workflow_run.id,
+            });
+            const has = data.artifacts.some(
+              (a) => a.name === 'dry-run-payload' && !a.expired,
+            );
+            core.setOutput('found', has ? 'true' : 'false');
+
+      - name: Download dry-run payload
+        if: steps.check.outputs.found == 'true'
+        uses: actions/download-artifact@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          run-id: ${{ github.event.workflow_run.id }}
+          name: dry-run-payload
+          path: dry-run-payload
+
+      - name: Validate and overlay zone files
+        id: overlay
+        if: steps.check.outputs.found == 'true'
+        run: |
+          set -euo pipefail
+
+          PAYLOAD=dry-run-payload
+          ZONES_DIR="$PAYLOAD/zones"
+          LIST_FILE="$PAYLOAD/zones.list"
+
+          if [ ! -d "$ZONES_DIR" ] || [ ! -f "$LIST_FILE" ]; then
+            echo "Payload missing expected files; skipping dry-run." >&2
+            echo "overlaid=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          # Validate the list: each entry must be a bare *.yaml filename
+          # matching a safe charset; no paths, no traversal, no hidden.
+          # Reject overlong lists as a sanity check.
+          line_count=$(wc -l < "$LIST_FILE")
+          if [ "$line_count" -gt 200 ]; then
+            echo "Refusing oversized zones.list ($line_count entries)" >&2
+            exit 1
+          fi
+
+          while IFS= read -r f; do
+            [ -z "$f" ] && continue
+
+            if ! printf '%s' "$f" | grep -Eq '^[a-zA-Z0-9][a-zA-Z0-9._-]*\.yaml$'; then
+              echo "Refusing invalid zone filename: $f" >&2
+              exit 1
+            fi
+
+            src="$ZONES_DIR/$f"
+            if [ ! -f "$src" ]; then
+              echo "Listed file missing from payload: $f" >&2
+              exit 1
+            fi
+
+            # Defense in depth: ensure file parses as YAML before we let
+            # octodns touch it. Uses the system Python on the runner.
+            python3 -c "import sys, yaml; yaml.safe_load(open(sys.argv[1]))" "$src"
+
+            cp -- "$src" "./$f"
+            echo "Overlaid $f"
+          done < "$LIST_FILE"
+
+          echo "overlaid=true" >> "$GITHUB_OUTPUT"
+
+      - name: Resolve PR --force label
+        id: force
+        if: steps.overlay.outputs.overlaid == 'true'
+        uses: actions/github-script@v9
+        with:
+          script: |
+            const fs = require('fs');
+            const raw = fs.readFileSync('dry-run-payload/pr_number', 'utf8').trim();
+            // 0 is a sentinel written for merge_group runs (no PR context).
+            if (raw === '0') {
+              core.info('No PR context (merge_group run); skipping --force label lookup.');
+              return;
+            }
+            if (!/^[1-9][0-9]*$/.test(raw)) {
+              core.warning(`Ignoring invalid PR number in payload: ${raw}`);
+              return;
+            }
+            const prNumber = Number(raw);
+            const { data: pr } = await github.rest.pulls.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: prNumber,
+            });
+            const labels = pr.labels.map((l) => l.name);
+            core.info(`PR #${prNumber} labels: ${JSON.stringify(labels)}`);
+            if (labels.includes('--force')) {
+              core.setOutput('flag', '--force');
+            }
+
+      - uses: actions/setup-python@v6
+        if: steps.overlay.outputs.overlaid == 'true'
+        with:
+          python-version: "3"
+
+      - name: Install OctoDNS
+        if: steps.overlay.outputs.overlaid == 'true'
+        run: pip install 'octodns>=1.5.0' octodns-cloudflare octodns-dnsimple
+
+      - name: Do a dry run
+        id: dryrun
+        if: steps.overlay.outputs.overlaid == 'true' && env.DNSIMPLE_ACCOUNT_NUMBER != ''
+        continue-on-error: true
+        run: ./bin/dry-run ${{ steps.force.outputs.flag }}
+
+      - name: Report dry-run status
+        if: always() && steps.check.outputs.found == 'true'
+        uses: actions/github-script@v9
+        env:
+          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+          OVERLAID: ${{ steps.overlay.outputs.overlaid }}
+          DRYRUN_OUTCOME: ${{ steps.dryrun.outcome }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        with:
+          script: |
+            const sha = process.env.HEAD_SHA;
+            if (!/^[0-9a-f]{40}$/.test(sha)) {
+              core.setFailed(`Refusing to post status on suspicious SHA: ${sha}`);
+              return;
+            }
+
+            const overlaid = process.env.OVERLAID === 'true';
+            const outcome = process.env.DRYRUN_OUTCOME;
+            const runUrl = process.env.RUN_URL;
+
+            let state = 'success';
+            let description = 'Dry-run not executed';
+
+            if (!overlaid) {
+              state = 'success';
+              description = 'No zone files changed — nothing to validate';
+            } else if (outcome === 'success') {
+              state = 'success';
+              description = 'octodns plan completed successfully';
+            } else if (outcome === 'failure') {
+              state = 'failure';
+              description = 'octodns plan failed — see Details';
+            } else {
+              state = 'success';
+              description = 'Dry-run skipped (no API credentials available)';
+            }
+
+            await github.rest.repos.createCommitStatus({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              sha,
+              state,
+              context: 'dry-run',
+              description,
+              target_url: runUrl,
+            });
+
+      - name: Fail the workflow if dry-run failed
+        if: steps.dryrun.outcome == 'failure'
+        run: exit 1

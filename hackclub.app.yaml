@@ -59,6 +59,9 @@ dashboard:
 export: # admins@hackclub.app
 - type: A
   value: 65.108.74.29
+game1: # admins@hackclub.app
+- type: A
+  value: 65.108.74.28
 logs:
 - type: A
   value: 65.21.241.32
@@ -69,4 +72,4 @@ pbx:
   value: 2a01:4f9:3081:399c:be24:11ff:fef0:3b81
 status: # me@cyteon.dev
 - type: A
-  value: 45.8.201.70
+  value: 65.21.241.32

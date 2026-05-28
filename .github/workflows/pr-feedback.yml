@@ -1,0 +1,105 @@
+name: pr-feedback
+
+on:
+  workflow_run:
+    workflows:
+      - json-yaml-validate
+      - contact-check
+    types:
+      - completed
+
+permissions:
+  actions: read
+  contents: read
+  pull-requests: write
+
+jobs:
+  comment:
+    if: github.event.workflow_run.event == 'pull_request' && github.event.workflow_run.conclusion == 'failure'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Find PR feedback metadata
+        id: feedback
+        uses: actions/github-script@v9
+        with:
+          script: |
+            const { data } = await github.rest.actions.listWorkflowRunArtifacts({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              run_id: context.payload.workflow_run.id,
+            });
+
+            const hasFeedback = data.artifacts.some((artifact) => (
+              artifact.name.startsWith('pr-feedback-') && !artifact.expired
+            ));
+
+            core.setOutput('found', hasFeedback ? 'true' : 'false');
+
+      - name: Download PR feedback metadata
+        if: steps.feedback.outputs.found == 'true'
+        uses: actions/download-artifact@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          run-id: ${{ github.event.workflow_run.id }}
+          pattern: pr-feedback-*
+          path: pr-feedback
+
+      - name: Request PR changes
+        if: steps.feedback.outputs.found == 'true'
+        uses: actions/github-script@v9
+        with:
+          script: |
+            const fs = require('fs');
+            const path = require('path');
+
+            const messages = {
+              'json-yaml-validate': '⚠️ Your DNS record has invalid JSON or YAML syntax. Please check the workflow logs for the exact parser error and fix the formatting before this PR can be merged.',
+              'sort-check': '⚠️ Your DNS record is not sorted in alphabetical order! Please sort it accordingly so your PR can be merged.\n\nSub-sub domains (ex: `badge.shipwrecked.hackclub.com`) should be sorted in alphabetical order under their respective parent subdomain (ex: `shipwrecked.hackclub.com`).',
+              'contact-check': '⚠️ **Missing contact info on your DNS entry!**\n\nFor all new subdomains, we now require contact information. You need to put either your email, Slack ID, or both in a comment. We intend for this information to be easily machine-readable (using a regex), so please make sure it is formatted correctly.\n\nSee the example below:\n```yaml\namogus: # alexp@hackclub.com U01581HFAGZ\n  ttl: 300\n  type: CNAME\n  value: a.selfhosted.hackclub.com.\n```',
+            };
+
+            function findFeedbackDirs(dir) {
+              const entries = fs.readdirSync(dir, { withFileTypes: true });
+              const hasPrNumber = entries.some((entry) => entry.isFile() && entry.name === 'pr_number');
+              const hasType = entries.some((entry) => entry.isFile() && entry.name === 'type');
+              const nestedDirs = entries
+                .filter((entry) => entry.isDirectory())
+                .flatMap((entry) => findFeedbackDirs(path.join(dir, entry.name)));
+
+              return hasPrNumber && hasType ? [dir, ...nestedDirs] : nestedDirs;
+            }
+
+            const feedbackDirs = findFeedbackDirs('pr-feedback');
+
+            const findings = new Map();
+            for (const dir of feedbackDirs) {
+              const prNumberPath = path.join(dir, 'pr_number');
+              const typePath = path.join(dir, 'type');
+              if (!fs.existsSync(prNumberPath) || !fs.existsSync(typePath)) {
+                continue;
+              }
+
+              const prNumber = fs.readFileSync(prNumberPath, 'utf8').trim();
+              const type = fs.readFileSync(typePath, 'utf8').trim();
+
+              if (!/^[1-9][0-9]*$/.test(prNumber) || !Object.hasOwn(messages, type)) {
+                core.warning(`Ignoring invalid PR feedback metadata in ${dir}`);
+                continue;
+              }
+
+              if (!findings.has(prNumber)) {
+                findings.set(prNumber, new Set());
+              }
+              findings.get(prNumber).add(type);
+            }
+
+            for (const [prNumber, types] of findings) {
+              const body = [...types].map((type) => messages[type]).join('\n\n---\n\n');
+              await github.rest.pulls.createReview({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: Number(prNumber),
+                event: 'REQUEST_CHANGES',
+                body,
+              });
+            }
