@@ -3485,7 +3485,7 @@ keeb: #U05JNJZJ0BS
   value: a.selfhosted.hackclub.com.
 keepsake:
   type: CNAME
-  value: 474482a022f366c4.vercel-dns-016.$com.
+  value: 474482a022f366c4.vercel-dns-016.com.
 kerala:
 - ttl: 300
   type: CNAME
