@@ -4306,6 +4306,10 @@ pixeldust:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+test: # U07UBCSSQH3 seb@hackclub.com
+  ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
 pl:
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
