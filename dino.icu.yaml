@@ -191,6 +191,11 @@ aryanpatel: # by https://github.com/aryanpatel142006
   type: CNAME
   value: cname.vercel-dns.com. # vercel
 
+asclub: # Jacob N // @Jacob // U0AEYDUCLKF // jacob.navaratne@outlook.com
+  - type: CNAME
+    value: mini-jacob.hackclub.app.
+    ttl: 600
+
 automake: # obagaming@gmail.com U0A1G9F445D
 - ttl: 600
   type: A

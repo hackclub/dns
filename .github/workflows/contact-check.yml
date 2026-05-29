@@ -1,11 +1,11 @@
 name: contact-check
 
 on:
-  pull_request_target:
+  pull_request:
 
 permissions:
   contents: read
-  pull-requests: write
+  pull-requests: read
 
 jobs:
   contact-check:
@@ -14,7 +14,6 @@ jobs:
       - uses: actions/checkout@v6
         with:
           fetch-depth: 0
-          ref: ${{ github.event.pull_request.head.sha }}
 
       - uses: actions/setup-python@v6
         with:
@@ -25,17 +24,28 @@ jobs:
 
       - name: Check contact info on changed domains
         id: contact-check
+        continue-on-error: true
         run: python3 bin/check-contact-info --base origin/${{ github.base_ref }}
 
-      - name: Comment on PR if missing contact info
-        if: failure() && steps.contact-check.outcome == 'failure'
-        uses: actions/github-script@v9
+      - name: Write PR feedback metadata
+        if: steps.contact-check.outcome == 'failure'
+        env:
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          mkdir -p .github/pr-feedback/contact-check
+          printf '%s\n' "$PR_NUMBER" > .github/pr-feedback/contact-check/pr_number
+          printf '%s\n' "contact-check" > .github/pr-feedback/contact-check/type
+
+      - name: Upload PR feedback metadata
+        if: steps.contact-check.outcome == 'failure'
+        uses: actions/upload-artifact@v4
         with:
-          script: |
-            github.rest.pulls.createReview({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              pull_number: context.issue.number,
-              event: 'REQUEST_CHANGES',
-              body: '⚠️ **Missing contact info on your DNS entry!**\n\nFor all new subdomains, we now require contact information. You need to put either your email, Slack ID, or both in a comment. We intend for this information to be easily machine-readable (using a regex), so please make sure it is formatted correctly.\n\nSee the example below:\n```yaml\namogus: # alexp@hackclub.com U01581HFAGZ\n  ttl: 300\n  type: CNAME\n  value: a.selfhosted.hackclub.com.\n```'
-            })
+          name: pr-feedback-contact-check
+          retention-days: 1
+          path: |
+            .github/pr-feedback/contact-check/pr_number
+            .github/pr-feedback/contact-check/type
+
+      - name: Fail if contact check failed
+        if: steps.contact-check.outcome == 'failure'
+        run: exit 1
