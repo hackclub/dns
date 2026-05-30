@@ -1519,6 +1519,13 @@ codethetech:
 - ttl: 300
   type: CNAME
   value: codethetech.github.io.
+codex: # alexren@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 coeur: # olive@hackclub.com @Olive @Ghost of L87 (Lynn)
   octodns:
     cloudflare:
@@ -2232,6 +2239,12 @@ fallout: # samliu@hackclub.com
       proxied: true
   type: CNAME
   value: ingress.lfdl.ink.
+lets.fallout: # samliu@hackclub.com
+  octodns:
+    cloudflare: # do not proxy
+      proxied: false
+  type: A
+  value: 47.242.207.224
 fanpage:
 - octodns:
     cloudflare:
@@ -2564,13 +2577,6 @@ giftbox: # tongyu@hackclub.com U07DJMFAQQP
   ttl: 300
   type: CNAME
   value: 4711668836b198ab.vercel-dns-016.com.
-github-oauth:
-- octodns:
-    cloudflare:
-      proxied: true
-  ttl: 300
-  type: CNAME
-  value: a.selfhosted.hackclub.com.
 glenny:
 - ttl: 300
   type: CNAME
@@ -3131,7 +3137,7 @@ horizon:
 horizons: # manitej@hackclub.com
 - ttl: 300
   type: A
-  value: 5.161.244.66
+  value: 46.225.195.181
 - ttl: 3600
   type: TXT
   values:
@@ -3479,6 +3485,10 @@ jv:
 - ttl: 300
   type: CNAME
   value: awesome-carson-c7b5e3.netlify.com.
+keeb: #U05JNJZJ0BS
+- ttl: 300
+  type: CNAME 
+  value: a.selfhosted.hackclub.com.
 keepsake:
   type: CNAME
   value: 474482a022f366c4.vercel-dns-016.com.
@@ -3922,6 +3932,9 @@ lynx.nephthys: # Nathan U05EZRFKRV4 & Santi U08PD2ZB3DL
 midnight.nephthys: # amber / U054VC2KM9P & leo / U07BLJ1MBEE
   type: CNAME
   value: a.selfhosted.hackclub.com.
+stardance.nephthys: # mish@hackclub.com / U073M5L9U13
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
 stasis.nephthys: # amber / U054VC2KM9P & alexp@hackclub.com
   type: CNAME
   value: b.selfhosted.hackclub.com.
@@ -4079,7 +4092,7 @@ oneditor:
 op:
 - ttl: 300
   type: CNAME
-  value: optsa.club.
+  value: opstem.github.io.
 opensauce: # zach@hackclub.com
 - octodns:
     cloudflare:
