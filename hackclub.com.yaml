@@ -5147,7 +5147,7 @@ smhs:
   value: zephyril.github.io.
 snake: # U07EB2Y76DP
   - type: CNAME
-    value: yousnakewesnake.pages.dev.
+    value: yousnakewesnake.netlify.app.
     ttl: 600
 socktalk:
 - octodns:
