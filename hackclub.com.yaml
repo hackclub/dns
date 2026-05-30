@@ -5145,6 +5145,10 @@ smelt:
 smhs:
   type: CNAME
   value: zephyril.github.io.
+snake: # U07EB2Y76DP
+  - type: CNAME
+    value: yousnakewesnake.pages.dev.
+    ttl: 600
 socktalk:
 - octodns:
     cloudflare:
