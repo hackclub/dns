@@ -9,10 +9,11 @@ permissions:
   contents: read
   actions: read
   pull-requests: read
+  statuses: write
 
 jobs:
   dry-run:
-    if: github.event.workflow_run.event == 'pull_request' && github.event.workflow_run.conclusion == 'success'
+    if: (github.event.workflow_run.event == 'pull_request' || github.event.workflow_run.event == 'merge_group') && github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     env:
       DNSIMPLE_ACCOUNT_NUMBER: ${{ secrets.DNSIMPLE_ACCOUNT_NUMBER }}
@@ -103,6 +104,11 @@ jobs:
           script: |
             const fs = require('fs');
             const raw = fs.readFileSync('dry-run-payload/pr_number', 'utf8').trim();
+            // 0 is a sentinel written for merge_group runs (no PR context).
+            if (raw === '0') {
+              core.info('No PR context (merge_group run); skipping --force label lookup.');
+              return;
+            }
             if (!/^[1-9][0-9]*$/.test(raw)) {
               core.warning(`Ignoring invalid PR number in payload: ${raw}`);
               return;
@@ -129,5 +135,58 @@ jobs:
         run: pip install 'octodns>=1.5.0' octodns-cloudflare octodns-dnsimple
 
       - name: Do a dry run
+        id: dryrun
         if: steps.overlay.outputs.overlaid == 'true' && env.DNSIMPLE_ACCOUNT_NUMBER != ''
+        continue-on-error: true
         run: ./bin/dry-run ${{ steps.force.outputs.flag }}
+
+      - name: Report dry-run status
+        if: always() && steps.check.outputs.found == 'true'
+        uses: actions/github-script@v9
+        env:
+          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+          OVERLAID: ${{ steps.overlay.outputs.overlaid }}
+          DRYRUN_OUTCOME: ${{ steps.dryrun.outcome }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        with:
+          script: |
+            const sha = process.env.HEAD_SHA;
+            if (!/^[0-9a-f]{40}$/.test(sha)) {
+              core.setFailed(`Refusing to post status on suspicious SHA: ${sha}`);
+              return;
+            }
+
+            const overlaid = process.env.OVERLAID === 'true';
+            const outcome = process.env.DRYRUN_OUTCOME;
+            const runUrl = process.env.RUN_URL;
+
+            let state = 'success';
+            let description = 'Dry-run not executed';
+
+            if (!overlaid) {
+              state = 'success';
+              description = 'No zone files changed — nothing to validate';
+            } else if (outcome === 'success') {
+              state = 'success';
+              description = 'octodns plan completed successfully';
+            } else if (outcome === 'failure') {
+              state = 'failure';
+              description = 'octodns plan failed — see Details';
+            } else {
+              state = 'success';
+              description = 'Dry-run skipped (no API credentials available)';
+            }
+
+            await github.rest.repos.createCommitStatus({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              sha,
+              state,
+              context: 'dry-run',
+              description,
+              target_url: runUrl,
+            });
+
+      - name: Fail the workflow if dry-run failed
+        if: steps.dryrun.outcome == 'failure'
+        run: exit 1

@@ -3,6 +3,7 @@ name: dry-run
 on:
   pull_request:
     types: [opened, synchronize, reopened, labeled]
+  merge_group:
 
 permissions:
   contents: read
@@ -18,16 +19,25 @@ jobs:
       - name: Collect changed zone files
         id: collect
         env:
+          # github.base_ref is set for pull_request events; for merge_group
+          # events we read the merge_group base_sha from the event payload.
           BASE_REF: ${{ github.base_ref }}
+          EVENT_NAME: ${{ github.event_name }}
         run: |
           set -euo pipefail
 
           mkdir -p dry-run-payload/zones
 
+          if [ "$EVENT_NAME" = "merge_group" ]; then
+            DIFF_BASE="$(jq -r '.merge_group.base_sha' "$GITHUB_EVENT_PATH")"
+          else
+            DIFF_BASE="origin/${BASE_REF}"
+          fi
+
           # Only top-level *.yaml zone files (no path separators).
           mapfile -t changed < <(
             git diff --name-only --diff-filter=ACMR \
-              "origin/${BASE_REF}"...HEAD -- '*.yaml' \
+              "${DIFF_BASE}"...HEAD -- '*.yaml' \
               | grep -Ev '/' || true
           )
 
@@ -55,7 +65,7 @@ jobs:
       - name: Save PR metadata
         if: steps.collect.outputs.found == 'true'
         env:
-          PR_NUMBER: ${{ github.event.pull_request.number }}
+          PR_NUMBER: ${{ github.event.pull_request.number || '0' }}
         run: printf '%s\n' "$PR_NUMBER" > dry-run-payload/pr_number
 
       - name: Upload dry-run payload
