@@ -2303,7 +2303,7 @@ flavorless: # nathan@hackclub.com U05EZRFKRV4
   value: 21f81c9203897824.vercel-dns-016.com.
 flavortown: # kartikey@hackclub.com U05F4B48GBF
 - type: A
-  value: 46.225.195.181
+  value: 5.161.197.219
   octodns:
     cloudflare:
       proxied: true
