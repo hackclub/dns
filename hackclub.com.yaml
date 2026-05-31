@@ -395,6 +395,10 @@ _vercel:
   - vc-domain-verify=wonderland-launch.hackclub.com,2a724b908654f2912e48
   - vc-domain-verify=wonderland.hackclub.com,0c2e35e271cd0c23752d
   - vc-domain-verify=woof.hackclub.com,576b3b21721743d2f9f9
+_visual-studio-marketplace-hackatime: # U07VC9705D4
+  ttl: 300
+  type: TXT
+  value: 729d4142-7fd4-491e-9046-43c46cb4fa66
 accelerate: # alexvd@hackclub.com U0823F39GV8
   type: CNAME
   value: 3fcc401d15602ca0.vercel-dns-016.com.
