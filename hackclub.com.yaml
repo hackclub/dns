@@ -2243,6 +2243,9 @@ fallout: # samliu@hackclub.com
       proxied: true
   type: CNAME
   value: ingress.lfdl.ink.
+lab.fallout: # enigmaticprojectorpheus@proton.me
+    type: A
+    value: 158.220.92.237
 lets.fallout: # samliu@hackclub.com
   octodns:
     cloudflare: # do not proxy
