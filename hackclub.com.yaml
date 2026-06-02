@@ -5285,6 +5285,9 @@ beta.stardance: #kartikey@hackclub.com
 em9599.stardance: # kartikey@hackclub.com
   type: CNAME
   value: u57277233.wl234.sendgrid.net.
+raffle.stardance: # kartikey@hackclub.com
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 url1054.stardance: # kartikey@hackclub.com
   type: CNAME
   value: sendgrid.net.
