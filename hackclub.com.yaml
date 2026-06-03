@@ -4171,6 +4171,10 @@ outernet:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+outpost:
+- ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
 register.outernet:
   ttl: 300
   type: CNAME
