@@ -4171,7 +4171,7 @@ outernet:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-outpost:
+outpost: # acon@hackclub.com U04KEK4TS72
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
