@@ -4261,6 +4261,12 @@ portal.parthenon:
 passport:
   type: CNAME
   value: 60edb94de5050d99.vercel-dns-016.com.
+patch: #leo@hackclub.com U07BLJ1MBEE
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 pathfinder:
   ttl: 300
   type: CNAME
