@@ -4054,6 +4054,12 @@ offline: # dhamari@hackclub.com U08RWM5U4L9
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+offtrack: # emmaborghi@hackclub.com U078DFX40A2
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
 oly:
 - ttl: 300
   type: A
