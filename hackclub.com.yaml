@@ -4184,6 +4184,13 @@ outernetwebservices:
   - ns3.he.net.
   - ns4.he.net.
   - ns5.he.net.
+outpost: # @alexren@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 overflow-hidden: # @Olive, U07BN55GN3D
   type: CNAME
   value: feae0968189bef7f.vercel-dns-016.com.
