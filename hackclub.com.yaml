@@ -5346,6 +5346,12 @@ raffle.stardance: # kartikey@hackclub.com
   octodns:
     cloudflare:
       proxied: true
+staging.stardance: # kartikey@hackclub.com
+  type: A
+  value: 5.161.197.219
+  octodns:
+    cloudflare:
+      proxied: true
 url1054.stardance: # kartikey@hackclub.com
   type: CNAME
   value: sendgrid.net.
