@@ -1129,9 +1129,9 @@ resend._domainkey.scout:
 send.scout:
 - ttl: 600
   type: MX
+  priority: 10
   values:
   - feedback-smtp.us-east-1.amazonses.com
-send.scout:
 - ttl: 600
   type: TXT
   values:
