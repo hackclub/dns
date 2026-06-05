@@ -1129,9 +1129,9 @@ resend._domainkey.scout: # configuring resend domains for scout - or contact U07
 send.scout: # allowing for sending emails for scout - i need to pass the contact check but you can still contact me at ethanzhou100@gmail.com
 - ttl: 600
   type: MX
-  priority: 10
   values:
-  - feedback-smtp.us-east-1.amazonses.com
+  - exchange: feedback-smtp.us-east-1.amazonses.com
+    preference: 10
 - ttl: 600
   type: TXT
   values:
