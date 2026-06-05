@@ -5337,7 +5337,7 @@ stastis: # alexp@hackclub.com
   value: b9385139e8ff984c.vercel-dns-016.com.
 statehigh:
   type: CNAME
-  value: schacks.netlify.com.
+  value: vc-domain-verify=statehigh.hackclub.com,c20c28a27bef4c7d50a7.
 statis: # alexp@hackclub.com
   type: CNAME
   value: vc-domain-verify=statehigh.hackclub.com,c20c28a27bef4c7d50a7.
