@@ -5299,8 +5299,11 @@ em9599.stardance: # kartikey@hackclub.com
   type: CNAME
   value: u57277233.wl234.sendgrid.net.
 raffle.stardance: # kartikey@hackclub.com
-  type: CNAME
-  value: a.selfhosted.hackclub.com.
+  type: A
+  value: 5.161.197.219
+  octodns:
+    cloudflare:
+      proxied: true
 url1054.stardance: # kartikey@hackclub.com
   type: CNAME
   value: sendgrid.net.
