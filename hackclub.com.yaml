@@ -455,6 +455,10 @@ ai: # mahad@hackclub.com U059VC0UDEU
   ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
+alchemize: # mahasankarshant@gmail.com U096RMRG03G
+- ttl: 300
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
 docs.ai: # mahad@hackclub.com U059VC0UDEU
 - ttl: 300
   type: CNAME
