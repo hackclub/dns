@@ -271,6 +271,7 @@ _vercel:
   ttl: 300
   type: TXT
   values:
+  - vc-domain-verify=statehigh.hackclub.com,c20c28a27bef4c7d50a7
   - vc-domain-verify=1or0.hackclub.com,6342724060dadeb82eb3
   - vc-domain-verify=alopb.hackclub.com,c1c84ab0dda83595505e
   - vc-domain-verify=arena.hackclub.com,18d51eef05279bd5822f
