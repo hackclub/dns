@@ -1121,21 +1121,6 @@ scout: # a silly frc scouting app - contact ethanzhou100@gmail.com
 - ttl: 600
   type: A
   value: 216.198.79.1
-resend._domainkey.scout: # configuring resend domains for scout - or contact U07H6M18G01 on slack
-- ttl: 600
-  type: TXT
-  values:
-  - p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDHwxltb1B9L1v7MVYMAPVnPBSj1Sc7sRKbticKk4Pjf3KrFpsg5m/N3WPcqgj2lRWwj5EPX5bkHY9Zt++fv+yXv2oZakTka7SPcbJ7981ShWB50BRb/soxt3UKJkHfv7SLDhPsJDgeR047mAf2YOqDokqwYhxaYDR0GBrpyN+llwIDAQAB
-send.scout: # allowing for sending emails for scout - i need to pass the contact check but you can still contact me at ethanzhou100@gmail.com
-- ttl: 600
-  type: MX
-  values:
-  - exchange: feedback-smtp.us-east-1.amazonses.com
-    preference: 10
-- ttl: 600
-  type: TXT
-  values:
-  - v=spf1 include:amazonses.com ~all
 
 sdheeraj: # https://github.com/17sdheeraj/17sdheeraj.github.io
   ttl: 600
