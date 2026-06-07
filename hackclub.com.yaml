@@ -5049,6 +5049,12 @@ shush:
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
+shutter: # maxtran@hackclub.com U07F6FMJ97U
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 sidequests:
   octodns:
     cloudflare:
