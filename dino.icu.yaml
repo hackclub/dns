@@ -551,7 +551,7 @@ geta: # yoda - https://getadinoicu.yodacode.repl.co/dino.png - get a dino from h
 goship: # BnaJns - U08R49H9VRV
   ttl: 600
   type: CNAME
-  value: proxy.bnajns.dev.
+  value: goship.bnajns.hackclub.app.
 
 hackai: # coolcream - U096RMRG03G
 - ttl: 600
