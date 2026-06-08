@@ -5686,7 +5686,7 @@ trailit: # U091DE0M4NB
 training: # leo@hackclub.com U07BLJ1MBEE
   ttl: 300
   type: CNAME
-  value: lms-tqz-baa.l.frappe.cloud.
+  value: a.selfhosted.hackclub.com.
 trickortrace:
 - ttl: 300
   type: CNAME
