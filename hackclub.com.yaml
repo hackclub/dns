@@ -3264,9 +3264,9 @@ infinity:
   type: CNAME
   value: a.selfhosted.hackclub.com.
   insertCoin: # gblackburn088@gmail.com
-  - type: CNAME
-    value: selfhosted.hackclub.com/.
-    ttl: 600 
+    ttl: 300 
+    type: CNAME
+    value: a.selfhosted.hackclub.com/.
 orchard.infra:
   ttl: 300
   type: CNAME
