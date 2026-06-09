@@ -3984,7 +3984,7 @@ newcanaanlib:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-news: # explanation - news is the user-facing domain, newspaper is for internal stuff (very confusing i know :pf:)
+news: # eps@hackclub.com U09Q8MLTE58 & hc+dns@matmanna.dev U07VA44DNBA;
 - octodns:
     cloudflare:
       proxied: true
@@ -3993,6 +3993,12 @@ news: # explanation - news is the user-facing domain, newspaper is for internal 
 - type: TXT
   values:
   - google-site-verification=Mc08Mplkv-e0eNBR0VW3ogoctBoozEETwZvrb-9prb0
+newsroom: # eps@hackclub.com U09Q8MLTE58 & hc+dns@matmanna.dev U07VA44DNBA;
+- octodns:
+    cloudflare:
+      proxied: true
+  type: A
+  value: 5.161.100.52 # a.selfhosted.hackclub.com
 newspaper:
 - octodns:
     cloudflare:
