@@ -4207,7 +4207,7 @@ outernetwebservices:
 outpost: # @alexren@hackclub.com
   ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a.selfhosted.hackclub.com.
 overflow-hidden: # @Olive, U07BN55GN3D
   type: CNAME
   value: feae0968189bef7f.vercel-dns-016.com.
