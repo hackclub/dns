@@ -476,6 +476,10 @@ airlock: # manitej@hackclub.com
   ttl: 300
   type: A
   value: 178.156.142.136
+alchemize: # mahasankarshant@gmail.com U096RMRG03G
+- ttl: 300
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
 alexandria:
 - ttl: 300
   type: CNAME
@@ -655,6 +659,12 @@ backend.arena:
   ttl: 300
   type: CNAME
   value: fd39bf74a906c3be.vercel-dns-017.com.
+ari: # nathan@hackclub.com
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 armed:
 - octodns:
     cloudflare:
@@ -3317,6 +3327,10 @@ inkling:
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
+insertCoin: # gblackburn088@gmail.com
+  ttl: 300 
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 intercom-files: #alexd@hackclub.com U02CWS020SD
 - octodns:
     cloudflare:
@@ -4191,9 +4205,6 @@ outernetwebservices:
   - ns4.he.net.
   - ns5.he.net.
 outpost: # @alexren@hackclub.com
-- octodns:
-    cloudflare:
-      proxied: true
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
@@ -4274,6 +4285,12 @@ portal.parthenon:
 passport:
   type: CNAME
   value: 60edb94de5050d99.vercel-dns-016.com.
+patch: #leo@hackclub.com U07BLJ1MBEE
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 pathfinder:
   ttl: 300
   type: CNAME
@@ -5679,7 +5696,7 @@ trailit: # U091DE0M4NB
 training: # leo@hackclub.com U07BLJ1MBEE
   ttl: 300
   type: CNAME
-  value: lms-tqz-baa.l.frappe.cloud.
+  value: a.selfhosted.hackclub.com.
 trickortrace:
 - ttl: 300
   type: CNAME
