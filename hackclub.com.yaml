@@ -3993,12 +3993,6 @@ news: # eps@hackclub.com U09Q8MLTE58 & hc+dns@matmanna.dev U07VA44DNBA;
 - type: TXT
   values:
   - google-site-verification=Mc08Mplkv-e0eNBR0VW3ogoctBoozEETwZvrb-9prb0
-newsroom: # eps@hackclub.com U09Q8MLTE58 & hc+dns@matmanna.dev U07VA44DNBA;
-- octodns:
-    cloudflare:
-      proxied: true
-  type: A
-  value: 5.161.100.52 # a.selfhosted.hackclub.com
 newspaper:
 - octodns:
     cloudflare:
@@ -4006,6 +4000,12 @@ newspaper:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+newsroom: # eps@hackclub.com U09Q8MLTE58 & hc+dns@matmanna.dev U07VA44DNBA;
+- octodns:
+    cloudflare:
+      proxied: true
+  type: A
+  value: 5.161.100.52 # a.selfhosted.hackclub.com
 nexus: #manitej@hackclub.com
 - octodns:
     cloudflare:
