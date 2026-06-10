@@ -191,6 +191,11 @@ aryanpatel: # by https://github.com/aryanpatel142006
   type: CNAME
   value: cname.vercel-dns.com. # vercel
 
+asclub: # Jacob N // @Jacob // U0AEYDUCLKF // jacob.navaratne@outlook.com
+  - type: CNAME
+    value: mini-jacob.hackclub.app.
+    ttl: 600
+
 automake: # obagaming@gmail.com U0A1G9F445D
 - ttl: 600
   type: A
@@ -495,6 +500,11 @@ featuretracker:
   type: CNAME
   value: cloudwaddie.hackclub.app.
 
+felix: # jacob.navaratne@outlook.com | Jacob Navaratne | @Jacob on Slack!
+  ttl: 600
+  type: CNAME
+  value: smartsparkcoding.github.io.
+
 fileserver: # will.kuntze@gmail.com Will Kuntze
 - ttl: 600
   type: A
@@ -653,7 +663,7 @@ innohacks: #efe
 jacob: # Jacob N // @Jacob // U0AEYDUCLKF
   ttl: 600
   type: CNAME
-  value: jacob-personal-website.pages.dev.
+  value: smartsparkcoding.github.io.
 
 jamesite: # Jame on slack // JamesFerris447@gmail.com // U09K59BPM2M
   ttl: 600
@@ -1148,6 +1158,11 @@ sk: # sk.dino.icu unofficial hackclub sharkey instance
   ttl: 600
   type: CNAME
   value: vic.hackclub.app.
+
+slackassistant: # nightfall U07KVMBHH4L
+- ttl: 600
+  type: CNAME
+  value: rana.hackclub.app.
 
 smtp: # hackclub free smtp service
 - ttl: 600
