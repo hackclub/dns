@@ -1413,7 +1413,13 @@ yc: # turbofan-gag-swung@duck.com
   ttl: 600
   type: NS
   value: ns.yc.hn.
+# ... entri huruf X ...
 
+yosia:
+- ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
+    
 you-ship-we-vote:
 - ttl: 600
   type: A
