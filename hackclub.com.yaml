@@ -4303,6 +4303,13 @@ pathfinder:
   ttl: 300
   type: CNAME
   value: meghanam4.github.io.
+payload: # @Floppy U084UQFF0LC | POC: dhamari@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: A
+  value: 65.108.205.36
 penumbra: # ascpixi@hackclub.com U082DPCGPST
   ttl: 300
   type: CNAME
