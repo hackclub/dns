@@ -5450,15 +5450,15 @@ summer:
     preference: 10
   - exchange: aspmx4.googlemail.com.
     preference: 10
-lb.summer:
-  type: A
-  value: 45.8.201.37
 summer-camp: # jenin@hackclub.com // U0926UASBJ7
   octodns:
     cloudflare:
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+lb.summer:
+  type: A
+  value: 45.8.201.37
 summit:
   type: CNAME
   value: b0215d46951fd2c5.vercel-dns-016.com.
