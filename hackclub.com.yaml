@@ -1162,6 +1162,10 @@ brasil:
   ttl: 300
   type: CNAME
   value: hack-club-brasil.netlify.app.
+bridge: # seb@hackclub.com U07UBCSSQH3
+  ttl: 300
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 bridgeportohio:
   ttl: 300
   type: TXT
