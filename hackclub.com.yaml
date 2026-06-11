@@ -1271,12 +1271,12 @@ calendar:
   ttl: 300
   type: CNAME
   value: ghs.googlehosted.com.
-camp: # jenin@hackclub.com // U0926UASBJ7 
+camp: # jenin@hackclub.com // U0926UASBJ7
   octodns:
     cloudflare:
       proxied: true
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: a.ingress.tier2.infra.hackclub.com.
 camp-apply:
   ttl: 300
   type: CNAME
@@ -5450,6 +5450,12 @@ summer:
     preference: 10
   - exchange: aspmx4.googlemail.com.
     preference: 10
+summer-camp: # jenin@hackclub.com // U0926UASBJ7
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 lb.summer:
   type: A
   value: 45.8.201.37
