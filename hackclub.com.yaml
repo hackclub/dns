@@ -1239,6 +1239,12 @@ byteclub:
 cabbache:
   type: CNAME
   value: cabbache.ddnsking.com.
+cachet: # max@hackclub.com / U09UQ385LSG
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 cad:
 - ttl: 300
   type: CNAME
