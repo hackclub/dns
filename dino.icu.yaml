@@ -1409,6 +1409,11 @@ www: # redirect to bare domain
   type: CNAME
   value: cname.vercel-dns.com.
 
+yahri-staging: # anson@hackclub.com
+- ttl: 600
+  type: A
+  value: 96.9.228.153
+
 yates:
 - ttl: 600
   type: CNAME
