@@ -1162,6 +1162,10 @@ brasil:
   ttl: 300
   type: CNAME
   value: hack-club-brasil.netlify.app.
+bridge: # seb@hackclub.com U07UBCSSQH3
+  ttl: 300
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 bridgeportohio:
   ttl: 300
   type: TXT
@@ -1235,6 +1239,12 @@ byteclub:
 cabbache:
   type: CNAME
   value: cabbache.ddnsking.com.
+cachet: # max@hackclub.com / U09UQ385LSG
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 cad:
 - ttl: 300
   type: CNAME
@@ -1267,12 +1277,12 @@ calendar:
   ttl: 300
   type: CNAME
   value: ghs.googlehosted.com.
-camp: # jenin@hackclub.com // U0926UASBJ7 
+camp: # jenin@hackclub.com // U0926UASBJ7
   octodns:
     cloudflare:
       proxied: true
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: a.ingress.tier2.infra.hackclub.com.
 camp-apply:
   ttl: 300
   type: CNAME
@@ -3816,6 +3826,10 @@ metabase:
   ttl: 300
   type: CNAME
   value: a.limited.selfhosted.hackclub.com.
+metroship: #parkerwildey@cvsdvt.org or tritiumlabs346@gmail.com
+- ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 mfa:
   octodns:
     cloudflare:
@@ -4126,6 +4140,10 @@ oneditor:
 - ttl: 300
   type: CNAME
   value: oneditor.netlify.app.
+onekey: # maxtran@hackclub.com U07F6FMJ97U
+- ttl: 300
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 op:
 - ttl: 300
   type: CNAME
@@ -4301,6 +4319,13 @@ pathfinder:
   ttl: 300
   type: CNAME
   value: meghanam4.github.io.
+payload: # @Floppy U084UQFF0LC | POC: dhamari@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: A
+  value: 65.108.205.36
 penumbra: # ascpixi@hackclub.com U082DPCGPST
   ttl: 300
   type: CNAME
@@ -5437,6 +5462,12 @@ summer:
     preference: 10
   - exchange: aspmx4.googlemail.com.
     preference: 10
+summer-camp: # jenin@hackclub.com // U0926UASBJ7
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 lb.summer:
   type: A
   value: 45.8.201.37
