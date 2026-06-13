@@ -5931,7 +5931,7 @@ windmill:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-wisp:
+wisp: # mgoldbergspar@gmail.com U08TCSANHDX
 - ttl: 300
   type: CNAME
   value: rxs0o9.k.hackclub.dev.
