@@ -4309,7 +4309,7 @@ payload: # @Floppy U084UQFF0LC | POC: dhamari@hackclub.com
       proxied: true
   ttl: 300
   type: A
-  value: 65.108.205.36
+  value: 138.201.55.62
 penumbra: # ascpixi@hackclub.com U082DPCGPST
   ttl: 300
   type: CNAME
