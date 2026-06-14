@@ -50,6 +50,9 @@ purelymail2._domainkey: # admins@hackclub.app
 purelymail3._domainkey: # admins@hackclub.app
 - type: CNAME
   value: key3.dkimroot.purelymail.com.
+sanjaybinayak._domainkey:
+- type: CNAME
+  value: sanjaybinayak.hackclub.app.
 _psl:
 - type: TXT
   value: https://github.com/publicsuffix/list/pull/2579
