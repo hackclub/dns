@@ -3941,6 +3941,9 @@ nepal:
 nephthys: # amber / U054VC2KM9P
   type: CNAME
   value: a.selfhosted.hackclub.com.
+alchemize.nephthys: # aoishikkhan@gmail.com / @aoishik(U0A5NKH93BJ)
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
 beest.nephthys: # amber / U054VC2KM9P & euan / U06T30DNB3L
   type: CNAME
   value: b.selfhosted.hackclub.com.
