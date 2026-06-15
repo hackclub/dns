@@ -29,7 +29,7 @@ labs: # theawesomeaj.dev@gmail.com U092329JX89
 n8n: # U07AGEVSTD2
 - ttl: 600
   type: CNAME
-  value: felix1.hackclub.app.
+  value: felix.hackclub.app.
 # https://github.com/hackclub-community/rsvp
 rsvp: # U08PUHSMW4V
 - ttl: 600
