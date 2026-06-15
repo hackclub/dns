@@ -1106,7 +1106,7 @@ sayhan: # portfolio and other apps?
 - ttl: 600
   type: CNAME
   value: sayhan.hackclub.app.
-
+  
 scales: # (yet another?) currency slack bot (with some web UI) :D
   ttl: 600
   type: A
@@ -1126,7 +1126,12 @@ sequoia: # vortex slave record - https://vortex.skyfall.dev
   ttl: 60
   type: A
   value: 152.67.157.1
-
+  
+sghc: #ŠG hack club chapter
+  ttl: 600 #contact at github.com/z0b1 or bozidar@z0b1.tech
+  type: A
+  value: 216.198.79.1
+  
 shadow: # shadow.dino.icu - contact @justhypex on discord for issues/enquiries
 - ttl: 600
   type: MX
