@@ -3604,6 +3604,9 @@ leaders: #@Charmunk / ivie@hackclub.com
 guide.leaders: # lynn@hackclub.com U07ULNFPQ4T (for clubs)
   type: CNAME
   value: 9de93ecf1b2dc035.vercel-dns-016.com.
+verify.leaders: # lynn@hackclub.com U07ULNFPQ4T (for clubs)
+  type: CNAME
+  value: 8a4be8d5435e6116.vercel-dns-016.com.
 leap:
   type: CNAME
   value: cname.vercel-dns.com.
