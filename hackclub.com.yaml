@@ -5505,16 +5505,16 @@ take-two: # alexren@hackclub.com
 takeout:
   type: A
   value: 68.183.252.105
+tapetotape:
+  type: CNAME
+  value: 8cc815f6e6b19d11.vercel-dns-016.com.
+  ttl: 300
 tarot:
 - octodns:
     cloudflare:
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
-tapetotape:
-  type: CNAME
-  value: 8cc815f6e6b19d11.vercel-dns-016.com.
-  ttl: 300
 tbilisi:
   type: CNAME
   value: tbilisihc.github.io.
