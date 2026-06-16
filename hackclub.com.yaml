@@ -3025,10 +3025,7 @@ help.hcb: #alex@hackclub.com, gary@hackclub.com
 ingress.hcb:
 - ttl: 300
   type: A
-  value: 5.161.32.67
-- ttl: 1
-  type: AAAA
-  value: 2a01:4ff:f1:2d2::1
+  value: 5.161.93.193
 amdozjy23iquzlcpjvctd3usceggvkih._domainkey.staging.hcb: # HCB Staging SES DKIM
 - octodns:
     cloudflare:
@@ -3604,6 +3601,9 @@ leaders: #@Charmunk / ivie@hackclub.com
 guide.leaders: # lynn@hackclub.com U07ULNFPQ4T (for clubs)
   type: CNAME
   value: 9de93ecf1b2dc035.vercel-dns-016.com.
+verify.leaders: # lynn@hackclub.com U07ULNFPQ4T (for clubs)
+  type: CNAME
+  value: 8a4be8d5435e6116.vercel-dns-016.com.
 leap:
   type: CNAME
   value: cname.vercel-dns.com.
@@ -4267,6 +4267,10 @@ pagering: # hey@gideon.sh U09D42Q0ARJ
   ttl: 300
   type: CNAME
   value: 5105b9b8d814fbc1.vercel-dns-017.com.
+palatine: # foxmoss@mediaology.com
+- ttl: 300
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com
 pancakes: #niko@nikoo.dev
   octodns:
     cloudflare:
@@ -4678,10 +4682,7 @@ renaissance-24:
   type: CNAME
   value: 1bdc13681dff9b21.vercel-dns-016.com.
 resolution: # dhamari@hackclub.com // jenin@hackclub.com
-- octodns:
-    cloudflare:
-      proxied: true
-  type: A
+- type: A
   value: 216.150.1.1 # Vercel
 - ttl: 3600
   type: TXT
@@ -5501,6 +5502,14 @@ take-two: # alexren@hackclub.com
 takeout:
   type: A
   value: 68.183.252.105
+tapetotape: # arcadewise@hackclub.com
+  type: CNAME
+  value: 8cc815f6e6b19d11.vercel-dns-016.com.
+  ttl: 300
+studio.tapetotape: # arcadewise@hackclub.com
+  type: CNAME
+  value: e92ba57616c78987.vercel-dns-016.com.
+  ttl: 300
 tarot:
 - octodns:
     cloudflare:
