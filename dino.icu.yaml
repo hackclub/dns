@@ -435,6 +435,11 @@ doruk:
   type: CNAME
   value: itsimpeccable.github.io.
 
+doseguard: # U0B8LTW45QV https://github.com/darshnerd/DoseGuard
+  ttl: 600
+  type: AAAA
+  value: 2a01:4f9:3081:399c::732
+
 e: # drawing app - by https://github.com/sporeball
   ttl: 600
   type: CNAME
