@@ -4529,7 +4529,7 @@ project: # dhyan@hackclub.com U0824G9PTFE
 prologue: #U0943NG73PA julia@hackclub.com
   ttl: 300
   type: CNAME
-  value: prologue-e4ez8810l.hackclub.dev
+  value: prologue-e4ez8810l.hackclub.dev.
 proton:
   ttl: 300
   type: CNAME
