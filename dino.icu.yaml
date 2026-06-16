@@ -440,6 +440,11 @@ doruk:
   type: CNAME
   value: itsimpeccable.github.io.
 
+doseguard: # U0B8LTW45QV https://github.com/darshnerd/DoseGuard
+  ttl: 600
+  type: AAAA
+  value: 2a01:4f9:3081:399c::732
+
 e: # drawing app - by https://github.com/sporeball
   ttl: 600
   type: CNAME
@@ -1111,7 +1116,7 @@ sayhan: # portfolio and other apps?
 - ttl: 600
   type: CNAME
   value: sayhan.hackclub.app.
-
+  
 scales: # (yet another?) currency slack bot (with some web UI) :D
   ttl: 600
   type: A
@@ -1131,7 +1136,12 @@ sequoia: # vortex slave record - https://vortex.skyfall.dev
   ttl: 60
   type: A
   value: 152.67.157.1
-
+  
+sghc: # yu4tmb@gmail.com U0A457UDE74
+  ttl: 600
+  type: A
+  value: 216.198.79.1
+  
 shadow: # shadow.dino.icu - contact @justhypex on discord for issues/enquiries
 - ttl: 600
   type: MX
@@ -1163,6 +1173,11 @@ sk: # sk.dino.icu unofficial hackclub sharkey instance
   ttl: 600
   type: CNAME
   value: vic.hackclub.app.
+
+slackassistant: # nightfall U07KVMBHH4L
+- ttl: 600
+  type: CNAME
+  value: rana.hackclub.app.
 
 smtp: # hackclub free smtp service
 - ttl: 600
@@ -1408,6 +1423,11 @@ www: # redirect to bare domain
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+
+yahri-staging: # anson@hackclub.com
+- ttl: 600
+  type: A
+  value: 96.9.228.153
 
 yates:
 - ttl: 600
