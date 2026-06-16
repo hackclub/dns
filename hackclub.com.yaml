@@ -4330,7 +4330,7 @@ payload: # @Floppy U084UQFF0LC | POC: dhamari@hackclub.com
 pendant: # nick@hackclub.com U06FMCCDS1K
   ttl: 300
   type: CNAME
-  value: pendant-ysws.hackclub.dev
+  value: pendant-ysws.hackclub.dev.
 penumbra: # ascpixi@hackclub.com U082DPCGPST
   ttl: 300
   type: CNAME
