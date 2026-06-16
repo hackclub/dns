@@ -1467,6 +1467,10 @@ docs.charon:
   ttl: 300
   type: CNAME
   value: hackclub.github.io.
+chipless: #U08EUSU38VC liam@hackclub.com
+- ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
 christinaday2020:
 - ttl: 300
   type: CNAME
