@@ -3025,7 +3025,7 @@ help.hcb: #alex@hackclub.com, gary@hackclub.com
 ingress.hcb:
 - ttl: 300
   type: A
-  value: 5.161.32.67
+  value: 5.161.93.193
 - ttl: 1
   type: AAAA
   value: 2a01:4ff:f1:2d2::1
