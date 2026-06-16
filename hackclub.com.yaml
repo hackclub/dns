@@ -3953,10 +3953,6 @@ nepal:
 nephthys: # amber / U054VC2KM9P
   type: CNAME
   value: a.selfhosted.hackclub.com.
-noodles: # U08QMC72ZST kaylee@hackclub.com
-  ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
 alchemize.nephthys: # aoishikkhan@gmail.com / @aoishik(U0A5NKH93BJ)
   type: CNAME
   value: b.selfhosted.hackclub.com.
@@ -4052,6 +4048,10 @@ nlcs:
   value: 95f775779f538acb.vercel-dns-016.com.
 nmit:
 - ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
+noodles: # U08QMC72ZST kaylee@hackclub.com
+  ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 notebook:
