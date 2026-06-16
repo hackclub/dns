@@ -4054,6 +4054,10 @@ nmit:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+noodles: # U08QMC72ZST kaylee@hackclub.com
+  ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
 notebook:
   type: CNAME
   value: 8f3ceaaead769d5d.vercel-dns-016.com.
