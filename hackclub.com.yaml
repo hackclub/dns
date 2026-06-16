@@ -1395,10 +1395,6 @@ more.cchs:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-movingday: # U083W5CCFDG joaquin@hackclub.com
-  ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
 ccn:
 - ttl: 300
   type: MX
@@ -3918,6 +3914,10 @@ game-server.morp: # @Olive, U07BN55GN3D
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
+movingday: # U083W5CCFDG joaquin@hackclub.com
+  ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
 ms:
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
