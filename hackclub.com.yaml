@@ -1467,6 +1467,10 @@ docs.charon:
   ttl: 300
   type: CNAME
   value: hackclub.github.io.
+chipless: #U08EUSU38VC liam@hackclub.com
+- ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
 christinaday2020:
 - ttl: 300
   type: CNAME
@@ -2428,6 +2432,14 @@ forge:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+forge-cdn: # aarav@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
+  
 format:
   octodns:
     cloudflare:
@@ -4526,6 +4538,10 @@ project: # dhyan@hackclub.com U0824G9PTFE
   ttl: 600
   type: CNAME
   value: a.selfhosted.hackclub.com.
+prologue: #U0943NG73PA julia@hackclub.com
+  ttl: 300
+  type: CNAME
+  value: prologue-e4ez8810l.hackclub.dev.
 proton:
   ttl: 300
   type: CNAME
