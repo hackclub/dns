@@ -5,11 +5,16 @@ _vercel:
   values:
   - vc-domain-verify=stargazing.hackclub.community,6c036f41dd5fb04c3d06
   - vc-domain-verify=labs.hackclub.community,26555f7a32c65e2aef34
+  - vc-domain-verify=constellation.hackclub.community,61fd33893539f1f3e772
 
 aus: # benjamin.graetz@henleyhs.sa.edu.au U0828CN2BL4
 - ttl: 600
   type: A
   value: 35.158.87.123
+constellation: # me@theutkarsh8939.dev U0AM8ASHEG6 #This is for constellation.theutkarsh8939.dev
+- ttl: 600
+  type: CNAME
+  value: c7eccdb1ac008571.vercel-dns-017.com.
 create-mc: # grayson@vantilborg.ca U092DA495UY # This is for a create minecraft server, see channel C0AD3QV5C5D
 - ttl: 600
   type: A
@@ -29,7 +34,7 @@ labs: # theawesomeaj.dev@gmail.com U092329JX89
 n8n: # U07AGEVSTD2
 - ttl: 600
   type: CNAME
-  value: felix1.hackclub.app.
+  value: felix.hackclub.app.
 # https://github.com/hackclub-community/rsvp
 rsvp: # U08PUHSMW4V
 - ttl: 600
