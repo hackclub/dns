@@ -5506,6 +5506,10 @@ tapetotape: # arcadewise@hackclub.com
   type: CNAME
   value: 8cc815f6e6b19d11.vercel-dns-016.com.
   ttl: 300
+studio.tapetotape: # arcadewise@hackclub.com
+  type: CNAME
+  value: e92ba57616c78987.vercel-dns-016.com.
+  ttl: 300
 tarot:
 - octodns:
     cloudflare:
