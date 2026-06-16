@@ -2432,6 +2432,14 @@ forge:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+forge-cdn: # aarav@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
+  
 format:
   octodns:
     cloudflare:
