@@ -3112,6 +3112,10 @@ helm:
 help: # U096RMRG03G -- for #help channel in slack
   type: CNAME
   value: 262fbe4a85815191.vercel-dns-016.com.
+helvitica:
+- ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
 hermes:
   ttl: 300
   type: CNAME
