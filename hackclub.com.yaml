@@ -2001,6 +2001,10 @@ elapsed: # U0A9B38F413
   ttl: 300
   type: CNAME
   value: 91e515501c1f1d5b.vercel-dns-017.com.
+elyra: # Owner - vinayaktiwari307@gmail.com - Official Website of Elyra Club
+  ttl: 300
+  type: CNAME
+  value: elyra-club.vinayaktiwari307.workers.dev.
 em4440: # SendGrid Sender Authentication (bank@hackclub.com)
   ttl: 300
   type: CNAME
