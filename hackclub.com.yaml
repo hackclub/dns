@@ -1158,7 +1158,7 @@ bounce:
 boxbay: # U083W5CCFDG joaquin@hackclub.com
   ttl: 300
   type: CNAME
-  value: a.ingress.tier2.infra.hackclub.com
+  value: a.ingress.tier2.infra.hackclub.com.
 branch:
 - ttl: 300
   type: CNAME
