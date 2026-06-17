@@ -395,6 +395,7 @@ _vercel:
   - vc-domain-verify=wonderland-launch.hackclub.com,2a724b908654f2912e48
   - vc-domain-verify=wonderland.hackclub.com,0c2e35e271cd0c23752d
   - vc-domain-verify=woof.hackclub.com,576b3b21721743d2f9f9
+  - vc-domain-verify=calculate.hackclub.com,2b76d639c0c04dc6b191
 _visual-studio-marketplace-hackatime: # U07VC9705D4
   ttl: 300
   type: TXT
@@ -1273,6 +1274,10 @@ hq.cal: # leo@hackclub.com U07BLJ1MBEE
       proxied: true
   type: CNAME
   value: b.selfhosted.hackclub.com.
+calculate: # candyisakat@gmail.com U082PKSD15L
+  - ttl: 600
+    type: CNAME
+    value: 084f9b3358c26923.vercel-dns-017.com.
 calendar:
   ttl: 300
   type: CNAME
@@ -1467,6 +1472,10 @@ docs.charon:
   ttl: 300
   type: CNAME
   value: hackclub.github.io.
+chipless: #U08EUSU38VC liam@hackclub.com
+- ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
 christinaday2020:
 - ttl: 300
   type: CNAME
@@ -2428,6 +2437,14 @@ forge:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+forge-cdn: # aarav@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
+  
 format:
   octodns:
     cloudflare:
@@ -3100,6 +3117,10 @@ helm:
 help: # U096RMRG03G -- for #help channel in slack
   type: CNAME
   value: 262fbe4a85815191.vercel-dns-016.com.
+helvitica: # maxhurley@hackclub.com or U078ZJHUKFW
+- ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
 hermes:
   ttl: 300
   type: CNAME
@@ -3902,6 +3923,10 @@ game-server.morp: # @Olive, U07BN55GN3D
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
+movingday: # U083W5CCFDG joaquin@hackclub.com
+  ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
 ms:
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
@@ -4001,7 +4026,7 @@ newcanaanlib:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-news: # explanation - news is the user-facing domain, newspaper is for internal stuff (very confusing i know :pf:)
+news: # eps@hackclub.com U09Q8MLTE58 & hc+dns@matmanna.dev U07VA44DNBA;
 - octodns:
     cloudflare:
       proxied: true
@@ -4017,6 +4042,12 @@ newspaper:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+newsroom: # eps@hackclub.com U09Q8MLTE58 & hc+dns@matmanna.dev U07VA44DNBA;
+- octodns:
+    cloudflare:
+      proxied: true
+  type: A
+  value: 5.161.100.52 # a.selfhosted.hackclub.com
 nexus: #manitej@hackclub.com
 - octodns:
     cloudflare:
@@ -4036,6 +4067,10 @@ nlcs:
   value: 95f775779f538acb.vercel-dns-016.com.
 nmit:
 - ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
+noodles: # U08QMC72ZST kaylee@hackclub.com
+  ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 notebook:
@@ -4327,6 +4362,10 @@ payload: # @Floppy U084UQFF0LC | POC: dhamari@hackclub.com
   ttl: 300
   type: A
   value: 138.201.55.62
+pendant: # nick@hackclub.com U06FMCCDS1K
+  ttl: 300
+  type: CNAME
+  value: pendant-ysws.hackclub.dev.
 penumbra: # ascpixi@hackclub.com U082DPCGPST
   ttl: 300
   type: CNAME
@@ -4526,6 +4565,10 @@ project: # dhyan@hackclub.com U0824G9PTFE
   ttl: 600
   type: CNAME
   value: a.selfhosted.hackclub.com.
+prologue: #U0943NG73PA julia@hackclub.com
+  ttl: 300
+  type: CNAME
+  value: prologue-e4ez8810l.hackclub.dev.
 proton:
   ttl: 300
   type: CNAME
@@ -4901,6 +4944,9 @@ _dmarc.scrapyard:
 google._domainkey.scrapyard:
   type: TXT
   value: v=DKIM1\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnLb/oPXGh2uktRUBxvfYh6vMdsRYXxyjgm9bYbSDryxBBm7FJbvdpPg5XqgONO0IiQC4HluQ9WgUo7g6GPNSh+yNuWRq5+5JGJjwAw9rPE2vdff31xZDFFCTDoqMlYRr5KvWC+wzSgGsCxSsTlaVnh2xYCZ22UYQ65yySlbBzE+mLotgtjvdF9hUTROLtepRErLVQOto5EGHtPjBJE8SwcgBRyvM0dLurOHBYur/QNcsmfEZpwi+rdrKQ8oSZho2OPXp55FIZ+yDR14y7joYuWgxEm6YEk9Sre2kMiHkLD3PP+/tyspVTZ3DAaq9CozcdILBvSZ2fcwqic9juL4DsQIDAQAB
+scribble: # jenny@hackclub.com
+  type: CNAME
+  value: 9d60e337fda4fbaa.vercel-dns-016.com.
 scriptingnest:
 - type: TXT
   value: domain-verification=yousseftech
