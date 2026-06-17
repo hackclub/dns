@@ -395,6 +395,7 @@ _vercel:
   - vc-domain-verify=wonderland-launch.hackclub.com,2a724b908654f2912e48
   - vc-domain-verify=wonderland.hackclub.com,0c2e35e271cd0c23752d
   - vc-domain-verify=woof.hackclub.com,576b3b21721743d2f9f9
+  - vc-domain-verify=calculate.hackclub.com,2b76d639c0c04dc6b191
 _visual-studio-marketplace-hackatime: # U07VC9705D4
   ttl: 300
   type: TXT
@@ -1273,6 +1274,10 @@ hq.cal: # leo@hackclub.com U07BLJ1MBEE
       proxied: true
   type: CNAME
   value: b.selfhosted.hackclub.com.
+calculate: # candyisakat@gmail.com U082PKSD15L
+  - ttl: 600
+    type: CNAME
+    value: 084f9b3358c26923.vercel-dns-017.com.
 calendar:
   ttl: 300
   type: CNAME
