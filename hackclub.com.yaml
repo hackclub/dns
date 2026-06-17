@@ -3702,7 +3702,7 @@ macondo: # nathan@hackclub.com
     cloudflare:
       proxied: true
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: a.ingress.tier2.infra.hackclub.com.
 magazine: # acon@hackclub.com U04KEK4TS72
   type: CNAME
   value: cname.vercel-dns.com.
