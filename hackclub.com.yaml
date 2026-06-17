@@ -3466,6 +3466,9 @@ jain:
 jam: # echo@hackclub.com U080A3QP42C
   type: CNAME
   value: c29c4353cecbad19.vercel-dns-016.com.
+jamegam: # augie@hackclub.com U07FCRNHS1J
+  type: CNAME
+  value: 9f5a4fca2b7269b9.vercel-dns-016.com.
 jams: # echo@hackclub.com U080A3QP42C
   type: CNAME
   value: c29c4353cecbad19.vercel-dns-016.com.
