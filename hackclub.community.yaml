@@ -5,7 +5,7 @@ _vercel:
   values:
   - vc-domain-verify=stargazing.hackclub.community,6c036f41dd5fb04c3d06
   - vc-domain-verify=labs.hackclub.community,26555f7a32c65e2aef34
-  - vc-domain-verify=constellation.hackclub.community,61fd33893539f1f3e772
+  - vc-domain-verify=constellation.hackclub.community,d59e474d127c8d4dfd58
 
 aus: # benjamin.graetz@henleyhs.sa.edu.au U0828CN2BL4
 - ttl: 600
