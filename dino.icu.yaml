@@ -632,7 +632,7 @@ hg: # HSL - U08004V1Z7T - helioleles@comcast.net - +1 (215) 410-5236
   type: CNAME
   value: him.hackclub.app
 
-hgcontent:
+hgcontent: # HSL - U08004V1Z7T - helioleles@comcast.net - +1 (215) 410-5236
 - ttl: 600
   type: CNAME
   value: him.hackclub.app
