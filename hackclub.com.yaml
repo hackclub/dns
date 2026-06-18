@@ -370,7 +370,7 @@ _vercel:
   - vc-domain-verify=roulette.hackclub.com,a48c51e6a432477b2386
   - vc-domain-verify=saleh.hackclub.com,cdcc382c0ddbefe586b1
   - vc-domain-verify=smelt.hackclub.com,e984b2fd8b23c434da2f
-  - vc-domain-verify=security.hackclub.com,b005370fba78b1b3b932
+  - vc-domain-verify=security.hackclub.com,69921726ca0e131bb17f
   - vc-domain-verify=share.hackclub.com,8d59dacc58f46585b195
   - vc-domain-verify=simmer.hackclub.com,19a5cdf65fc7aedb7ccb
   - vc-domain-verify=southhighhack.hackclub.com,8cf484f7551780f58ae9
@@ -4967,9 +4967,9 @@ search: # U059VC0UDEU
       proxied: true
   type: CNAME
   value: b.selfhosted.hackclub.com.
-security:
+security: # parth@hackclub.com U092CHMLB24
   type: CNAME
-  value: fc3ebadf0856acf4.vercel-dns-017.com.
+  value: 7a9237159e4766f7.vercel-dns-016.com.
 self-portrait:
 - octodns:
     cloudflare:
