@@ -1449,6 +1449,11 @@ yc: # turbofan-gag-swung@duck.com
   type: NS
   value: ns.yc.hn.
 
+yosia: # yosiadamanik703@gmail.com
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
+
 you-ship-we-vote:
 - ttl: 600
   type: A
