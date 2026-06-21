@@ -627,6 +627,16 @@ heramb:
   type: CNAME
   value: cname.vercel-dns.com.
 
+hg: # HSL - U08004V1Z7T - helioleles@comcast.net - +1 (215) 410-5236
+- ttl: 600
+  type: CNAME
+  value: him.hackclub.app.
+
+hgcontent: # HSL - U08004V1Z7T - helioleles@comcast.net - +1 (215) 410-5236
+- ttl: 600
+  type: CNAME
+  value: him.hackclub.app.
+
 hi: # doruk.dino.icu email address
 - ttl: 600
   type: TXT
