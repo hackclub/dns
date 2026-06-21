@@ -2,10 +2,10 @@
 
 # want to make a website and host it on a cool domain? look no further! follow the steps below to get started:
 
-#  1. make a website, any website! https://workshops.hackclub.com/personal_website/
-#  2. fork hackclub/dns and edit this file, adding your DNS record
-#  3. open a pull request and someone will review
-#  4. then, share what you made in #ship; its on the world wide web!
+#   1. make a website, any website! https://workshops.hackclub.com/personal_website/
+#   2. fork hackclub/dns and edit this file, adding your DNS record
+#   3. open a pull request and someone will review
+#   4. then, share what you made in #ship; its on the world wide web!
 
 # check out https://orpheus.dino.icu for an example. happy hacking!
 
@@ -24,7 +24,8 @@
 
 ---
 '': # the bare domain
-- type: ALIAS
+- ttl: 600
+  type: ALIAS
   value: proxyparty.hackclub.com.
 - ttl: 600
   type: MX
@@ -57,10 +58,10 @@
   type: A
   value: 216.198.79.1
 
-ai:                       # Suprised no one took this yet!
-- ttl: 600                # + AI
-  type: CNAME             # https://github.com/elijah629/web2050,
-  value: e.hackclub.app.  # > the internet except everything is and was vibe coded 
+ai:                        # Suprised no one took this yet!
+- ttl: 600                 # + AI
+  type: CNAME              # https://github.com/elijah629/web2050,
+  value: e.hackclub.app.   # > the internet except everything is and was vibe coded 
 
 airborne: # by U0807ADEC6L // @Manan
 - ttl: 600
@@ -971,8 +972,7 @@ osu: # nightfall/dainfloop: contact via slack @nightfall [U07KVMBHH4L]
 
 - ttl: 600
   type: TXT
-  values:
-  - domain-verification=rana
+  value: domain-verification=rana
 
 out-to-c: # out to c by @iris [U098P9DLUGJ]
   ttl: 600
@@ -1055,7 +1055,7 @@ reforge: # anantparikh014@gmail.com [U0A9V5E6945] | Reforge YSWS
   value: cname.vercel-dns.com.
 
 render: # samuelessemail@gmail.com -  Render
-  ttl: 600
+- ttl: 600
   type: A
   value: 216.198.79.1
 
@@ -1485,6 +1485,11 @@ proxy.you-ship-we-vote:
   value: 209.112.91.50
 
 zoneout: # kilecraft90@gmail.com U08GCDHM0QZ
+- ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
+
+ziademad-ai-eng: # myfreelancinglife777@gmail.com U0A57CQPJHF
 - ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
