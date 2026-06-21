@@ -1474,12 +1474,14 @@ proxy.you-ship-we-vote:
   type: A
   value: 209.112.91.50
 
+ziademad-ai-eng:
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
+
 zoneout: # kilecraft90@gmail.com U08GCDHM0QZ
 - ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
 
-ziademad-ai-eng: # ziad.1024087@stemoctober.moe.edu.eg
-  ttl: 600
-  type: CNAME
-  value: cname.vercel-dns.com.
+
