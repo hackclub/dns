@@ -2,6 +2,7 @@ name: contact-check
 
 on:
   pull_request:
+  merge_group:
 
 permissions:
   contents: read
@@ -38,7 +39,7 @@ jobs:
 
       - name: Upload PR feedback metadata
         if: steps.contact-check.outcome == 'failure'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: pr-feedback-contact-check
           retention-days: 1

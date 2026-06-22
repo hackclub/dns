@@ -40,7 +40,7 @@ jobs:
 
       - name: Download dry-run payload
         if: steps.check.outputs.found == 'true'
-        uses: actions/download-artifact@v6
+        uses: actions/download-artifact@v8
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           run-id: ${{ github.event.workflow_run.id }}
@@ -141,7 +141,7 @@ jobs:
         run: ./bin/dry-run ${{ steps.force.outputs.flag }}
 
       - name: Report dry-run status
-        if: always() && steps.check.outputs.found == 'true'
+        if: always()
         uses: actions/github-script@v9
         env:
           HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
