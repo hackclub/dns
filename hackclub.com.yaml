@@ -3046,7 +3046,7 @@ graph.hcb: # echo@hackclub.com U080A3QP42C
 help.hcb: #alex@hackclub.com, gary@hackclub.com
 - octodns:
     cloudflare:
-      proxied: false
+      proxied: true
   ttl: 300
   type: CNAME
   value: custom.intercom.help.
