@@ -633,6 +633,9 @@ arcade-wrapped:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+arcadai: # jared@hackclub.com / lynn@hackclub.com
+  type: CNAME
+  value: 29b87a62834320fb.vercel-dns-016.com.
 arcana: #manitej@hackclub.com
 - octodns:
     cloudflare:
