@@ -396,6 +396,7 @@ _vercel:
   - vc-domain-verify=wonderland.hackclub.com,0c2e35e271cd0c23752d
   - vc-domain-verify=woof.hackclub.com,576b3b21721743d2f9f9
   - vc-domain-verify=calculate.hackclub.com,2b76d639c0c04dc6b191
+  - vc-domain-verify=premiere.hackclub.com,8abf79e779dd433fe3d4
 _visual-studio-marketplace-hackatime: # U07VC9705D4
   ttl: 300
   type: TXT
@@ -4543,6 +4544,9 @@ _github-challenge-Hackclub-PRC.prc:
 - ttl: 300
   type: TXT
   value: 26e02b51f5
+premiere: #shurui@hackclub.com U082ZLXSU10
+  type: CNAME
+  value: e9c7e1b2984ed566.vercel-dns-017.com.
 printboard:
   type: CNAME
   value: c296f4754a30c049.vercel-dns-016.com.
