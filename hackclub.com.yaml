@@ -629,6 +629,9 @@ appzap:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+arcadai: # jared@hackclub.com / lynn@hackclub.com
+  type: CNAME
+  value: 29b87a62834320fb.vercel-dns-016.com.
 arcade-wrapped:
 - ttl: 300
   type: CNAME
