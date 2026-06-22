@@ -4317,10 +4317,6 @@ pagering: # hey@gideon.sh U09D42Q0ARJ
   ttl: 300
   type: CNAME
   value: 5105b9b8d814fbc1.vercel-dns-017.com.
-palatine: # foxmoss@mediaology.com
-- ttl: 300
-  type: CNAME
-  value: a.ingress.tier2.infra.hackclub.com
 pancakes: #niko@nikoo.dev
   octodns:
     cloudflare:
@@ -4679,6 +4675,10 @@ quarry: # nathan@hackclub.com U05EZRFKRV4
   ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
+radish: # foxmoss@mediaology.com
+- ttl: 300
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 _github-challenge-rahs-hackclub.rahs:
 - ttl: 300
   type: TXT
