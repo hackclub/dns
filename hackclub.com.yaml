@@ -5995,6 +5995,10 @@ wggs:
 - ttl: 300
   type: CNAME
   value: luna5379.github.io.
+whereisjaredisaacmanrightnowatthis-moment: # willsbuilds@hackclub.com
+- type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
+  ttl: 300 
 whs:
 - ttl: 300
   type: CNAME
