@@ -2305,6 +2305,12 @@ fhs:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+fillout-ysws-nps: # zach@hackclub.com
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.limited.selfhosted.hackclub.com.
 finalist:
 - octodns:
     cloudflare:
