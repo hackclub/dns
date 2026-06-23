@@ -5137,6 +5137,14 @@ shipyard: # bisherk.almasri@gmail.com U097SRZ6DU7
 shop: # rushil@hackclub.com U020X4GCWSF
   type: CNAME
   value: 97dea6b524a9cffd.vercel-dns-016.com.
+- type: TXT
+  value: resend._domainkey.shop
+- type: MX
+  value: send.shop
+- type: TXT
+  value: send.shop
+- type: MX
+  value: shop
 showcase:
   type: CNAME
   value: onboard-7w9.pages.dev.
