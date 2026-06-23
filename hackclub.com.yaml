@@ -5134,25 +5134,9 @@ shipyard: # bisherk.almasri@gmail.com U097SRZ6DU7
       proxied: true
   type: CNAME
   value: b.selfhosted.hackclub.com.
-shop:
-- ttl: 300
-  type: TXT
-  values:
-  - google-site-verification=l3Bbo36E5uS61KvlS_kvx-iqN_h1DN1LAks2DssJDwM
-  - v=spf1 include:_spf.google.com ~all
-- ttl: 300
-  type: MX
-  values:
-  - exchange: aspmx.l.google.com.
-    preference: 1
-  - exchange: alt1.aspmx.l.google.com.
-    preference: 5
-  - exchange: alt2.aspmx.l.google.com.
-    preference: 5
-  - exchange: aspmx2.googlemail.com.
-    preference: 10
-  - exchange: aspmx3.googlemail.com.
-    preference: 10
+shop: # rushil@hackclub.com U020X4GCWSF
+  type: CNAME
+  value: 97dea6b524a9cffd.vercel-dns-016.com.
 showcase:
   type: CNAME
   value: onboard-7w9.pages.dev.
