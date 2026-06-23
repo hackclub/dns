@@ -2064,7 +2064,7 @@ endpointer:
 - ttl: 300
   type: CNAME
   value: 793ca34752d16877.vercel-dns-016.com.
-entropy:
+entropy: # arcadewise@hackclub.com
 - ttl: 300
   type: CNAME
   value: efdb005facf9b68c.vercel-dns-016.com.
