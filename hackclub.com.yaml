@@ -3349,8 +3349,8 @@ wilson.n.tier2.infra:
   value: 142.132.131.244
 a.pub.tier2.infra:
   ttl: 300
-  type: CNAME
-  value: house.n.tier2.infra.hackclub.com.
+  type: A
+  value: 46.225.195.182
 _acme-challenge.a.pub.tier2.infra:
   ttl: 300
   type: CNAME
