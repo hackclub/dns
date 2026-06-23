@@ -5137,20 +5137,20 @@ shipyard: # bisherk.almasri@gmail.com U097SRZ6DU7
 shop: # rushil@hackclub.com U020X4GCWSF
   type: CNAME
   value: 97dea6b524a9cffd.vercel-dns-016.com.
-shop_resend_dkim:
+shop_resend_dkim: # rushil@hackclub.com U020X4GCWSF
   type: TXT
   name: resend._domainkey.shop
   value: "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCmYkN6ad2aBNLlQCAzGEnRqvAsL/DxU6ifHiXyXDifkdI74I9noGWHJFg/X51tEZUWVnqBjev2wwI+UsIHqiqTPFVP/TsuBM9qDFCZicJHMG3GHiy2YhuIjOiTp6vBsAWEILyTWD86H92RTCc/4aNwN3RZaPaaDXNr5BZo92sygQIDAQAB"
-shop_send_mx:
+shop_send_mx: # rushil@hackclub.com U020X4GCWSF
   type: MX
   name: send.shop
   value: feedback-smtp.us-east-1.amazonses.com.
   priority: 10
-shop_send_spf:
+shop_send_spf: # rushil@hackclub.com U020X4GCWSF
   type: TXT
   name: send.shop
   value: "v=spf1 include:amazonses.com ~all"
-shop_inbound_mx:
+shop_inbound_mx: # rushil@hackclub.com U020X4GCWSF
   type: MX
   name: shop
   value: inbound-smtp.us-east-1.amazonaws.com.
