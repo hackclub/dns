@@ -2617,9 +2617,14 @@ _github-challenge-GaynorMcCown.gaynormccown:
 - ttl: 300
   type: TXT
   value: 03c11eee8f
+
 gemini:
   type: CNAME
   value: eb419f3dcb10b323.vercel-dns-016.com.
+genesis: # U083W5CCFDG joaquin@hackclub.com
+  ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
 geochat:
   ttl: 300
   type: CNAME
