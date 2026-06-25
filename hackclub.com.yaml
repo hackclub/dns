@@ -1238,6 +1238,12 @@ unleash.buildboard: #dhamari@hackclub.com
       proxied: true
   type: CNAME
   value: unleash-k8wgsws4sco8gcoscksow0o4.a.selfhosted.hackclub.com.
+builders-club: # soonk@hacklub.com
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 bulc:
 - ttl: 300
   type: CNAME
