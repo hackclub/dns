@@ -1441,6 +1441,10 @@ cdn: # nora@hackclub.com U06QK6AG3RD
       proxied: true
   type: CNAME
   value: a.limited.selfhosted.hackclub.com.
+cdn-tools: # zach@hackclub.com
+  ttl: 300
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 cec:
 - ttl: 300
   type: CNAME
