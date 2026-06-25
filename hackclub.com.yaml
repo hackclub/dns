@@ -1140,11 +1140,11 @@ boba:
 - ttl: 300
   type: CNAME
   value: hackclub.github.io.
-.boba:
+shop.boba:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-work.boba: # U020X4GCWSF
+workshop.boba: # U020X4GCWSF
 - ttl: 300
   type: CNAME
   value: f3bee60fd737044f.vercel-dns-016.com.
@@ -5135,26 +5135,20 @@ shipyard: # bisherk.almasri@gmail.com U097SRZ6DU7
   type: CNAME
   value: b.selfhosted.hackclub.com.
 shop: # rushil@hackclub.com U020X4GCWSF
-  type: CNAME
+- type: CNAME
   value: 97dea6b524a9cffd.vercel-dns-016.com.
-shop_resend_dkim: # rushil@hackclub.com U020X4GCWSF
-  type: TXT
-  name: resend._domainkey.shop
-  value: "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCmYkN6ad2aBNLlQCAzGEnRqvAsL/DxU6ifHiXyXDifkdI74I9noGWHJFg/X51tEZUWVnqBjev2wwI+UsIHqiqTPFVP/TsuBM9qDFCZicJHMG3GHiy2YhuIjOiTp6vBsAWEILyTWD86H92RTCc/4aNwN3RZaPaaDXNr5BZo92sygQIDAQAB"
-shop_send_mx: # rushil@hackclub.com U020X4GCWSF
-  type: MX
-  name: send.shop
-  value: feedback-smtp.us-east-1.amazonses.com.
-  priority: 10
-shop_send_spf: # rushil@hackclub.com U020X4GCWSF
-  type: TXT
-  name: send.shop
-  value: "v=spf1 include:amazonses.com ~all"
-shop_inbound_mx: # rushil@hackclub.com U020X4GCWSF
-  type: MX
-  name: shop
+- type: MX
   value: inbound-smtp.us-east-1.amazonaws.com.
   priority: 10
+resend._domainkey.shop: # rushil@hackclub.com U020X4GCWSF
+  type: TXT
+  value: "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCmYkN6ad2aBNLlQCAzGEnRqvAsL/DxU6ifHiXyXDifkdI74I9noGWHJFg/X51tEZUWVnqBjev2wwI+UsIHqiqTPFVP/TsuBM9qDFCZicJHMG3GHiy2YhuIjOiTp6vBsAWEILyTWD86H92RTCc/4aNwN3RZaPaaDXNr5BZo92sygQIDAQAB"
+send.shop: # rushil@hackclub.com U020X4GCWSF
+- type: MX
+  value: feedback-smtp.us-east-1.amazonses.com.
+  priority: 10
+- type: TXT
+  value: "v=spf1 include:amazonses.com ~all"
 showcase:
   type: CNAME
   value: onboard-7w9.pages.dev.
