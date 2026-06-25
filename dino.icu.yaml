@@ -1024,6 +1024,11 @@ print:
   type: CNAME
   value: cname.vercel-dns.com.
 
+pv0: # slack ID: U0AUTFQQUQP
+  ttl: 600
+  type: CNAME
+  value: aeroplaneehheh.github.io.
+
 qr: # A hack club themed QR code generator
   ttl: 600
   type: CNAME
