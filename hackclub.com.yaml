@@ -5596,6 +5596,10 @@ syscall:
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
+tailor: # U08QMC72ZSZT kaylee@hackclub.com
+  type: CNAME
+  value: 077dcc934b616aac.vercel-dns-016.com.
+  ttl: 300
 take-two: # alexren@hackclub.com
 - octodns:
     cloudflare:
