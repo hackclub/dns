@@ -1237,6 +1237,12 @@ unleash.buildboard: #dhamari@hackclub.com
       proxied: true
   type: CNAME
   value: unleash-k8wgsws4sco8gcoscksow0o4.a.selfhosted.hackclub.com.
+builders-club: # soonk@hacklub.com
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 bulc:
 - ttl: 300
   type: CNAME
@@ -1440,6 +1446,10 @@ cdn: # nora@hackclub.com U06QK6AG3RD
       proxied: true
   type: CNAME
   value: a.limited.selfhosted.hackclub.com.
+cdn-tools: # zach@hackclub.com
+  ttl: 300
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 cec:
 - ttl: 300
   type: CNAME
@@ -2641,10 +2651,6 @@ gh-proxy:
   ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
-gharbiya: # gh.hackclub@gmail.com U0666VATMT5
-- ttl: 300
-  type: CNAME
-  value: stemgharbiya.github.io.
 giftbox: # tongyu@hackclub.com U07DJMFAQQP
   octodns:
     cloudflare:
@@ -2930,6 +2936,12 @@ hackyholidays:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+haj4ever: # Rupnil Codes (rupnil.mondal2+hackclub@gmail.com; slack: U0A4UTULSLE) & Flux3tor (tusharsinha199@gmail.com)
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 halo:
   ttl: 300
   type: CNAME
@@ -5153,6 +5165,16 @@ shipyard: # bisherk.almasri@gmail.com U097SRZ6DU7
 shop: # rushil@hackclub.com U020X4GCWSF
   type: CNAME
   value: 97dea6b524a9cffd.vercel-dns-016.com.
+resend._domainkey.shop: # rushil@hackclub.com U020X4GCWSF
+  type: TXT
+  value: "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCmYkN6ad2aBNLlQCAzGEnRqvAsL/DxU6ifHiXyXDifkdI74I9noGWHJFg/X51tEZUWVnqBjev2wwI+UsIHqiqTPFVP/TsuBM9qDFCZicJHMG3GHiy2YhuIjOiTp6vBsAWEILyTWD86H92RTCc/4aNwN3RZaPaaDXNr5BZo92sygQIDAQAB"
+send.shop: # rushil@hackclub.com U020X4GCWSF
+- type: MX
+  value:
+    exchange: feedback-smtp.us-east-1.amazonses.com.
+    preference: 10
+- type: TXT
+  value: "v=spf1 include:amazonses.com ~all"
 showcase:
   type: CNAME
   value: onboard-7w9.pages.dev.
@@ -5569,6 +5591,10 @@ syscall:
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
+tailor: # U08QMC72ZSZT kaylee@hackclub.com
+  type: CNAME
+  value: 077dcc934b616aac.vercel-dns-016.com.
+  ttl: 300
 take-two: # alexren@hackclub.com
 - octodns:
     cloudflare:
