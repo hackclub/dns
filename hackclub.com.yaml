@@ -2552,10 +2552,6 @@ fulfillment: #jenin@hackclub.com @jenin
 fusering:
   type: CNAME
   value: 71b1e2defbc1af44.vercel-dns-017.com.
-haj4ever: # Rupnil Codes & Flux3tor
-  ttl: 600
-  type: A
-  value: 216.198.79.1
 gaither:
   ttl: 300
   type: CNAME
@@ -2945,6 +2941,10 @@ hackyholidays:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+haj4ever: # Rupnil Codes & Flux3tor
+  ttl: 600
+  type: A
+  value: 216.198.79.1
 halo:
   ttl: 300
   type: CNAME
