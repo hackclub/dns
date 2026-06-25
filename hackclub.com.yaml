@@ -327,7 +327,6 @@ _vercel:
   - vc-domain-verify=hacktheoctober.hackclub.com,398820f3528f76722590
   - vc-domain-verify=hacky-holidays.hackclub.com,c8f8c52c1790e239650e
   - vc-domain-verify=hackyholidays.hackclub.com,dcb0e995448d8cfaae37
-  - vc-domain-verify=haj4ever.hackclub.com,f17a3f9681c7ebc7921a
   - vc-domain-verify=help.hackclub.com,5c26183fb32ab25273ed
   - vc-domain-verify=hersey.hackclub.com,cc9535e7b0f931982d6e
   - vc-domain-verify=ihs.hackclub.com,21e13c0c6af87766f6f5
@@ -2943,9 +2942,11 @@ hackyholidays:
   type: CNAME
   value: cname.vercel-dns.com.
 haj4ever: # Rupnil Codes (rupnil.mondal2+hackclub@gmail.com; slack: U0A4UTULSLE) & Flux3tor (tusharsinha199@gmail.com)
-  ttl: 600
-  type: A
-  value: 216.198.79.1
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 halo:
   ttl: 300
   type: CNAME
