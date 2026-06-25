@@ -1083,6 +1083,10 @@ blackbox:
 blair:
   type: CNAME
   value: cname.vercel-dns.com.
+blare: #U08EUSU38VC liam@hackclub.com
+- ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
 blinky: # @CAN
 - octodns:
     cloudflare:
@@ -1172,6 +1176,10 @@ brasil:
   ttl: 300
   type: CNAME
   value: hack-club-brasil.netlify.app.
+breadboard: # tanishq@hackclub.comU08R4Q9H8EB
+  ttl: 300
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 bridge: # seb@hackclub.com U07UBCSSQH3
   ttl: 300
   type: CNAME
@@ -1230,6 +1238,12 @@ unleash.buildboard: #dhamari@hackclub.com
       proxied: true
   type: CNAME
   value: unleash-k8wgsws4sco8gcoscksow0o4.a.selfhosted.hackclub.com.
+builders-club: # soonk@hacklub.com
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 bulc:
 - ttl: 300
   type: CNAME
@@ -1433,6 +1447,10 @@ cdn: # nora@hackclub.com U06QK6AG3RD
       proxied: true
   type: CNAME
   value: a.limited.selfhosted.hackclub.com.
+cdn-tools: # zach@hackclub.com
+  ttl: 300
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 cec:
 - ttl: 300
   type: CNAME
@@ -2064,6 +2082,10 @@ endpointer:
 - ttl: 300
   type: CNAME
   value: 793ca34752d16877.vercel-dns-016.com.
+entropy: # arcadewise@hackclub.com
+- ttl: 300
+  type: CNAME
+  value: efdb005facf9b68c.vercel-dns-016.com.
 envelope: # for loops.so spf & dmarc
 - ttl: 300
   type: MX
@@ -2605,9 +2627,14 @@ _github-challenge-GaynorMcCown.gaynormccown:
 - ttl: 300
   type: TXT
   value: 03c11eee8f
+
 gemini:
   type: CNAME
   value: eb419f3dcb10b323.vercel-dns-016.com.
+genesis: # U083W5CCFDG joaquin@hackclub.com
+  ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
 geochat:
   ttl: 300
   type: CNAME
@@ -2914,6 +2941,10 @@ hackyholidays:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+haj4ever: # Rupnil Codes (rupnil.mondal2+hackclub@gmail.com; slack: U0A4UTULSLE) & Flux3tor (tusharsinha199@gmail.com)
+  ttl: 600
+  type: A
+  value: 216.198.79.1
 halo:
   ttl: 300
   type: CNAME
