@@ -1522,14 +1522,14 @@ cken:
 - ttl: 300
   type: A
   value: 52.191.165.18
-bag.client:
-  ttl: 300
-  type: A
-  value: 34.49.72.119
 clam: # mihir@hackclub.com U0BC86VAYT0
   - type: A
     value: 141.148.195.78
     ttl: 600
+bag.client:
+  ttl: 300
+  type: A
+  value: 34.49.72.119
 clubapi: #ivie@hackclub.com @Charmunk
 - octodns:
     cloudflare:
