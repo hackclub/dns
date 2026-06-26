@@ -3567,7 +3567,7 @@ jpeg:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-js2photo:
+js2photo: # antonio@hackclub.com U0BCQD74Y03
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
