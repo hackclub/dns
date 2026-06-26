@@ -5573,7 +5573,7 @@ summit:
 suncatcher: # U0943NG73PA julia@hackclub.com
   ttl: 300
   type: CNAME
-  value: suncatcher.hackclub.dev.
+  value: suncatcher-6owl6r1ft.hackclub.dev.
 super-cdn-bot:
 - octodns:
     cloudflare:
