@@ -1308,6 +1308,10 @@ tabbed: # stolen_username on slack | U0AD4996D1U | rudranshgoel01@gmail.com
   type: A
   value: 216.198.79.1
 
+teenapi: # thenetaji@proton.me
+  - type: CNAME
+    value: teentitans.hackclub.app.
+
 tejas: # by tej
   ttl: 600
   type: CNAME
