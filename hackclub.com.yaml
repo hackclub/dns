@@ -3574,6 +3574,10 @@ js-slash-z:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+js2photo:
+- ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
 jua:
 - ttl: 300
   type: CNAME
