@@ -1027,7 +1027,7 @@ print:
 pv0: # slack ID: U0AUTFQQUQP
   ttl: 600
   type: CNAME
-  value: aeroplaneehheh.github.io.
+  value: phntsmgr-v0.pages.dev.
 
 qr: # A hack club themed QR code generator
   ttl: 600
