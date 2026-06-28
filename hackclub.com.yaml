@@ -4544,6 +4544,10 @@ mathesar.podium-backend: # angad@hackclub.com U075RTSLDQ8
       proxied: true
   type: CNAME
   value: b.selfhosted.hackclub.com.
+polaris: #adishree@horizons.hackclub.com U07DEBE2RUL
+- ttl: 300
+  type: CNAME
+  value: horizonspolaris.netlify.app.
 polaroid:
   ttl: 300
   type: CNAME
@@ -4552,10 +4556,6 @@ polygon: # zaidayan456@gmail.com U083VVA9M0W
   ttl: 600
   type: CNAME
   value: 1f2e326ff0beb553.vercel-dns-017.vercel-dns.com.
-polaris: #adishree@horizons.hackclub.com U07DEBE2RUL
-- ttl: 300
-  type: CNAME
-  value: horizonspolaris.netlify.app.
 pomperaug:
   ttl: 300
   type: CNAME
