@@ -5874,6 +5874,18 @@ trickortrace:
 - ttl: 300
   type: CNAME
   value: onboard-7w9.pages.dev.
+treasure: # pkd2210@gmail.com U091DE0M4NB
+- ttl: 300
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
+treasure-hunt: # pkd2210@gmail.com U091DE0M4NB
+- ttl: 300
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
+treasurehunt: # pkd2210@gmail.com U091DE0M4NB
+- ttl: 300
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 ts:
 - octodns:
     cloudflare:
