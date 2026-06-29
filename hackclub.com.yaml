@@ -306,7 +306,7 @@ _vercel:
   - vc-domain-verify=epochvt.hackclub.com,089353b4de0bf145067d
   - vc-domain-verify=equinox.hackclub.com,28977cc177201abd7318
   - vc-domain-verify=evergreen.hackclub.com,4464d82393ad62c6bc0b
-  - vc-domain-verify=fhs.hackclub.com,46936764d6774efee2b5
+  - vc-domain-verify=fhs.hackclub.com,d7bc96ee2d49140e4829
   - vc-domain-verify=foodie.hackclub.com,0215d38601a347a45686
   - vc-domain-verify=forms.phs.hackclub.com,25e08effb0de721c762e
   - vc-domain-verify=fudge.hackclub.com,6141b368441cbcf96cb4
