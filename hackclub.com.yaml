@@ -3097,7 +3097,7 @@ help.hcb: #alex@hackclub.com, gary@hackclub.com
   ttl: 300
   type: CNAME
   value: custom.intercom.help.
-grants.help.hcb:
+grants.help.hcb: #alex@hackclub.com, gary@hackclub.com
 - octodns:
     cloudflare:
       proxied: true
