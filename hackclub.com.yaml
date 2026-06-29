@@ -4011,9 +4011,6 @@ mumble:
 muse:
   type: CNAME
   value: 78958f059c43551f.vercel-dns-016.com.
-nairobi:
-  type: CNAME
-  value: hackclubnairobi.codeberg.page.
 ncssm:
   type: CNAME
   value: cname.vercel-dns.com.
