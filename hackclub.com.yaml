@@ -1021,13 +1021,13 @@ berman:
 beta: # echo@hackclub.com U080A3QP42C
   type: CNAME
   value: 6cdac7be6b2e933b.vercel-dns-016.com.
-better-airtable-mcp: # zach@hackclub.com
+better-airtable-mcp: # augie@hackclub.com U07FCRNHS1J
 - octodns:
     cloudflare:
       proxied: false
   ttl: 300
   type: CNAME
-  value: a.limited.selfhosted.hackclub.com.
+  value: 400j0g.k.hackclub.dev.
 better-brightdata-mcp:
 - octodns:
     cloudflare:
