@@ -1027,7 +1027,7 @@ better-airtable-mcp: # augie@hackclub.com U07FCRNHS1J
       proxied: false
   ttl: 300
   type: CNAME
-  value: 400j0g.k.hackclub.dev.
+  value: better-airtable-mcp.k.hackclub.dev.
 better-brightdata-mcp:
 - octodns:
     cloudflare:
