@@ -483,6 +483,9 @@ alchemize: # mahasankarshant@gmail.com U096RMRG03G
 - ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
+notifications.alchemize:  # aoishikkhan@gmail.com U0A5NKH93BJ & POC: josias@hackclub.com U01PJ08PR7S
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
 alexandria:
 - ttl: 300
   type: CNAME
