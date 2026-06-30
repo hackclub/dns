@@ -5597,6 +5597,9 @@ lb.summer:
 summit:
   type: CNAME
   value: b0215d46951fd2c5.vercel-dns-016.com.
+sunbeam: # reem@hackclub.com
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 suncatcher: # U0943NG73PA julia@hackclub.com
   ttl: 300
   type: CNAME
