@@ -44,3 +44,7 @@ stats: # alimad.co.ltd@gmail.com U08LQFRBL6S
 - ttl: 300
   type: CNAME
   value: Alimadcorp.github.io.
+hacksteal: # wangz9096z@gmail.com U08EGTXVCFR
+- type: CNAME
+  value: hs.gnahiak2.dev
+  ttl: 600
