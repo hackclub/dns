@@ -1314,6 +1314,12 @@ camp: # jenin@hackclub.com // U0926UASBJ7
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+dash.camp: # jenin@hackclub.com // U0926UASBJ7
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 camp-apply:
   ttl: 300
   type: CNAME
