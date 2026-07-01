@@ -5870,10 +5870,6 @@ training: # leo@hackclub.com U07BLJ1MBEE
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-trickortrace:
-- ttl: 300
-  type: CNAME
-  value: onboard-7w9.pages.dev.
 treasure: # pkd2210@gmail.com U091DE0M4NB
 - ttl: 300
   type: CNAME
@@ -5886,6 +5882,10 @@ treasurehunt: # pkd2210@gmail.com U091DE0M4NB
 - ttl: 300
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+trickortrace:
+- ttl: 300
+  type: CNAME
+  value: onboard-7w9.pages.dev.
 ts:
 - octodns:
     cloudflare:
