@@ -5899,6 +5899,10 @@ ts:
   ttl: 300
   type: CNAME
   value: 718b4f579eabecaa.vercel-dns-016.com.
+turfwars: # mihir@hackclub.com
+- ttl: 300
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 turner:
 - ttl: 300
   type: CNAME
