@@ -306,7 +306,7 @@ _vercel:
   - vc-domain-verify=epochvt.hackclub.com,089353b4de0bf145067d
   - vc-domain-verify=equinox.hackclub.com,28977cc177201abd7318
   - vc-domain-verify=evergreen.hackclub.com,4464d82393ad62c6bc0b
-  - vc-domain-verify=fhs.hackclub.com,46936764d6774efee2b5
+  - vc-domain-verify=fhs.hackclub.com,d7bc96ee2d49140e4829
   - vc-domain-verify=foodie.hackclub.com,0215d38601a347a45686
   - vc-domain-verify=forms.phs.hackclub.com,25e08effb0de721c762e
   - vc-domain-verify=fudge.hackclub.com,6141b368441cbcf96cb4
@@ -481,6 +481,9 @@ airlock: # manitej@hackclub.com
   value: 178.156.142.136
 alchemize: # mahasankarshant@gmail.com U096RMRG03G
 - ttl: 300
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
+notifications.alchemize:  # aoishikkhan@gmail.com U0A5NKH93BJ & POC: josias@hackclub.com U01PJ08PR7S
   type: CNAME
   value: b.selfhosted.hackclub.com.
 alexandria:
@@ -1021,13 +1024,13 @@ berman:
 beta: # echo@hackclub.com U080A3QP42C
   type: CNAME
   value: 6cdac7be6b2e933b.vercel-dns-016.com.
-better-airtable-mcp: # zach@hackclub.com
+better-airtable-mcp: # augie@hackclub.com U07FCRNHS1J
 - octodns:
     cloudflare:
       proxied: false
   ttl: 300
   type: CNAME
-  value: a.limited.selfhosted.hackclub.com.
+  value: 400j0g.k.hackclub.dev.
 better-brightdata-mcp:
 - octodns:
     cloudflare:
@@ -2320,9 +2323,9 @@ lab.fallout: # enigmaticprojectorpheus@proton.me
 lets.fallout: # samliu@hackclub.com
   octodns:
     cloudflare: # do not proxy
-      proxied: false
-  type: A
-  value: 47.242.207.224
+      proxied: true
+  type: CNAME
+  value: ingress.lfdl.ink.
 fanpage:
 - octodns:
     cloudflare:
@@ -5594,6 +5597,9 @@ lb.summer:
 summit:
   type: CNAME
   value: b0215d46951fd2c5.vercel-dns-016.com.
+sunbeam: # reem@hackclub.com
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 suncatcher: # U0943NG73PA julia@hackclub.com
   ttl: 300
   type: CNAME
