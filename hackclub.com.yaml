@@ -4282,6 +4282,9 @@ opensauce-leaderboard: # zach@hackclub.com
   type: CNAME
   value: a.limited.selfhosted.hackclub.com.
 ops: # leo@hackclub.com U07BLJ1MBEE
+- octodns:
+    cloudflare:
+      proxied: false
   ttl: 300
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
