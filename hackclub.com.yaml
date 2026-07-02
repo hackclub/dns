@@ -5927,6 +5927,10 @@ turnover:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+twist: # barnav / U08RVF1BAN4
+- ttl: 300
+  type: CNAME
+  value: 5ed07fd5316ed1ea.vercel-dns-016.com.
 typeface: # jenny@hackclub.com
   type: CNAME
   value: c602e955eeaa4e36.vercel-dns-016.com.
