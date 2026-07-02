@@ -2051,6 +2051,10 @@ elapsed: # U0A9B38F413
   ttl: 300
   type: CNAME
   value: 91e515501c1f1d5b.vercel-dns-017.com.
+ellipse: #U078JCFHQ3D lola@hackclub.com
+  ttl: 300
+  type: CNAME
+  value: bc51e0dc2ab550ee.vercel-dns-016.com.
 em4440: # SendGrid Sender Authentication (bank@hackclub.com)
   ttl: 300
   type: CNAME
@@ -6218,4 +6222,4 @@ zwp:
 - ttl: 300
   type: A
   value: 172.99.233.117
-  
+
