@@ -5729,6 +5729,10 @@ thing:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+thingondesk: # antonio@hackclub.com U0BCQD74Y03
+  ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
 thorn:
 - ttl: 300
   type: CNAME
