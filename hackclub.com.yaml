@@ -2229,7 +2229,7 @@ register.epochvt:
 ellipse: #U078JCFHQ3D lola@hackclub.com
   ttl: 300
   type: CNAME
-  value: ellipse-ysws.hackclub.dev
+  value: bc51e0dc2ab550ee.vercel-dns-016.com.
 equinox: #louisa@hackclub.com
   type: CNAME
   value: 550665f898bd5d35.vercel-dns-017.com.
