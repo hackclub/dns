@@ -4740,6 +4740,10 @@ radish: # foxmoss@mediaology.com
 - ttl: 300
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+rageclick: #U087BHR98AX
+- ttl: 300
+  type: CNAME
+  value: 4966170f9274fcab.vercel-dns-016.com.
 _github-challenge-rahs-hackclub.rahs:
 - ttl: 300
   type: TXT
@@ -6206,3 +6210,4 @@ zwp:
 - ttl: 300
   type: A
   value: 172.99.233.117
+  
