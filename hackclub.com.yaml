@@ -4744,6 +4744,10 @@ _github-challenge-rahs-hackclub.rahs:
 - ttl: 300
   type: TXT
   value: f43a54836a
+rageclick: #U087BHR98AX
+- ttl: 300
+  type: CNAME
+  value: 4966170f9274fcab.vercel-dns-016.com.
 railway:
 - octodns:
     cloudflare:
@@ -4761,12 +4765,6 @@ raspapi: # U08PUHSMW4V
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
-
-rageclick: #U087BHR98AX
-- ttl: 300
-  type: CNAME
-  value: 4966170f9274fcab.vercel-dns-016.com.
-
 raspite:
   type: CNAME
   value: e840e2fa1b4b2f59.vercel-dns-016.com.
