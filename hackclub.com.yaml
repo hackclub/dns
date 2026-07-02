@@ -4122,6 +4122,10 @@ opensauce-leaderboard: # zach@hackclub.com
   ttl: 300
   type: CNAME
   value: a.limited.selfhosted.hackclub.com.
+ops: # leo@hackclub.com U07BLJ1MBEE
+  ttl: 300
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 orchard: #tongyu@hackclub.com U07DJMFAQQP
 - octodns:
     cloudflare:
