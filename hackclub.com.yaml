@@ -2226,6 +2226,10 @@ register.epochvt:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+ellipse: #U078JCFHQ3D lola@hackclub.com
+  ttl: 300
+  type: CNAME
+  value: ellipse-ysws.hackclub.dev
 equinox: #louisa@hackclub.com
   type: CNAME
   value: 550665f898bd5d35.vercel-dns-017.com.
@@ -6210,4 +6214,4 @@ zwp:
 - ttl: 300
   type: A
   value: 172.99.233.117
-  
+
