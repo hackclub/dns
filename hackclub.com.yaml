@@ -4094,9 +4094,6 @@ nest: # admins@hackclub.app
 "*.nest":  # admins@hackclub.app
 - type: CNAME
   value: hackclub.app.
-twist: # barnav / U08RVF1BAN4
-  type: CNAME
-  value: 5ed07fd5316ed1ea.vercel-dns-016.com.
 nestm:
   ttl: 300
   type: CNAME
@@ -4167,6 +4164,10 @@ nust:
 - ttl: 300
   type: CNAME
   value: nusthackclub.netlify.app.
+twist: # barnav / U08RVF1BAN4
+- ttl: 300
+  type: CNAME
+  value: 5ed07fd5316ed1ea.vercel-dns-016.com.
 oasis:
 - ttl: 300
   type: CNAME
