@@ -2229,6 +2229,7 @@ q6vh4lhupwotqenjf4s4ygzyhir3e5ii._domainkey.epochvt:
 register.epochvt:
   ttl: 300
   type: CNAME
+  value: cname.vercel-dns.com.
 equinox: #louisa@hackclub.com
   type: CNAME
   value: 550665f898bd5d35.vercel-dns-017.com.
