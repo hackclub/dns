@@ -2337,6 +2337,10 @@ fett: # jared@hackclub.com U07HEH4N8UV
 - ttl: 300
   type: CNAME
   value: bc88611c121f3104.vercel-dns-016.com.
+feud: # emme@hackclub.com U0BELFW91AN
+- ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
 fhs:
 - ttl: 300
   type: CNAME
