@@ -870,6 +870,11 @@ monty: # contact via adelinmihai071@gmail.com
   type: CNAME
   value: cname.vercel-dns.com.
 
+molecule: # by https://github.com/RasmusStenlund
+  ttl: 600
+  type: CNAME
+  value: rasmusstenlund.github.io/Mole-Cule/
+
 motivation:
   ttl: 600
   type: CNAME
