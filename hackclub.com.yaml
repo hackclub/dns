@@ -360,7 +360,6 @@ _vercel:
   - vc-domain-verify=poolesville.hackclub.com,d8099895eaea670eec60
   - vc-domain-verify=pomperaug.hackclub.com,115cd4582efb1a6a1d63
   - vc-domain-verify=puyallup.hackclub.com,ee486cad685cefa12fa6
-  - vc-domain-verify=reactive.hackclub.com,dcd146599f4ae3bc6822
   - vc-domain-verify=recapsule.hackclub.com,a58e0d535c6177f43804
   - vc-domain-verify=reflow.hackclub.com,cc069e8cdf1c55762e13
   - vc-domain-verify=register.epochvt.hackclub.com,8e89fd1c0e1dd7045bd5
@@ -1199,7 +1198,7 @@ browserbuddy:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-bubble: # jared@hackclub.com U07HEH4N8UV 
+bubble: # jared@hackclub.com U07HEH4N8UV
 - ttl: 300
   type: CNAME
   value: bc88611c121f3104.vercel-dns-016.com.
@@ -2341,7 +2340,7 @@ fanpage:
   ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-fett: # jared@hackclub.com U07HEH4N8UV 
+fett: # jared@hackclub.com U07HEH4N8UV
 - ttl: 300
   type: CNAME
   value: bc88611c121f3104.vercel-dns-016.com.
@@ -2507,7 +2506,7 @@ forge-cdn: # aarav@hackclub.com
   ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
-  
+
 format:
   octodns:
     cloudflare:
@@ -3436,7 +3435,7 @@ inkling:
   type: CNAME
   value: a.selfhosted.hackclub.com.
 insertCoin: # gblackburn088@gmail.com
-  ttl: 300 
+  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 intercom-files: #alexd@hackclub.com U02CWS020SD
@@ -3631,7 +3630,7 @@ jv:
   value: awesome-carson-c7b5e3.netlify.com.
 keeb: #U05JNJZJ0BS
 - ttl: 300
-  type: CNAME 
+  type: CNAME
   value: a.selfhosted.hackclub.com.
 keepsake:
   type: CNAME
@@ -4793,9 +4792,9 @@ raspite:
 rawr:
   type: CNAME
   value: hackclub.github.io.
-reactive:
+reactive: #@Arjav ~ U081ZC7ES30
   type: CNAME
-  value: c5165cd264885445.vercel-dns-017.com.
+  value: a.ingress.tier2.infra.hackclub.com.
 readme: # eps@hackclub.com
   type: CNAME
   value: cname.vercel-dns.com.
@@ -5553,7 +5552,7 @@ stemegypt:
 crm.stemegypt:
   type: CNAME
   value: stemegypt-crm.42web.io.
-stickers: #euan@hackclub.com U06T30DNB3L 
+stickers: #euan@hackclub.com U06T30DNB3L
 - octodns:
     cloudflare:
       proxied: true
@@ -6060,7 +6059,7 @@ wacky: #euan@hackclub.com @U06T30DNB3L
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-waffles: # jps@hackclub.com  
+waffles: # jps@hackclub.com
 - ttl: 300
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
@@ -6118,7 +6117,7 @@ wggs:
 whereisjaredisaacmanrightnowatthis-moment: # willsbuilds@hackclub.com
 - type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
-  ttl: 300 
+  ttl: 300
 whimsy: # katiesue@hackclub.com
   - type: CNAME
     value: ad97879918161518.vercel-dns-017.com.
@@ -6236,4 +6235,3 @@ zwp:
 - ttl: 300
   type: A
   value: 172.99.233.117
-
