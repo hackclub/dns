@@ -1982,6 +1982,10 @@ doomscrolling:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+doppel: # jolly@hackclub.com U08CJCZ2Z9S & katiesue@hackclub.com U06SQJ508LF
+  ttl: 300
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 dorman:
   ttl: 300
   type: CNAME
