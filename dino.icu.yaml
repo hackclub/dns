@@ -166,6 +166,11 @@ ansh:
   type: CNAME
   value: ansh3108.github.io.
 
+aoishik: # By https://github.com/aoishik aoishikkhan@gmail.com @aoishik(U0A5NKH93BJ)
+- ttl: 600
+  type: CNAME
+  value: aoishik.github.io.
+
 arjav: #by https://github.com/arjav0703
 - ttl: 600
   type: A
