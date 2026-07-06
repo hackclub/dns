@@ -868,7 +868,7 @@ misskey: #hackisskey | korange753@gmail.com U091Q2MS3T9
 molecule: # by https://github.com/RasmusStenlund
   ttl: 600
   type: CNAME
-  value: rasmusstenlund.github.io/Mole-Cule/
+  value: rasmusstenlund.github.io
 
 monty: # contact via adelinmihai071@gmail.com
   ttl: 600
