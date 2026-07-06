@@ -1,12 +1,12 @@
 name: contact-check
 
 on:
-  pull_request:
+  pull_request_target:
   merge_group:
 
 permissions:
   contents: read
-  pull-requests: read
+  pull-requests: write
 
 jobs:
   contact-check:
@@ -15,38 +15,37 @@ jobs:
       - uses: actions/checkout@v7
         with:
           fetch-depth: 0
+          ref: ${{ github.event.pull_request.head.sha }}
 
       - uses: actions/setup-python@v6
         with:
-          python-version: '3'
+          python-version: "3"
 
       - name: Install dependencies
         run: pip install ruamel.yaml
 
       - name: Check contact info on changed domains
         id: contact-check
-        continue-on-error: true
-        run: python3 bin/check-contact-info --base origin/${{ github.base_ref }}
-
-      - name: Write PR feedback metadata
-        if: steps.contact-check.outcome == 'failure'
         env:
-          PR_NUMBER: ${{ github.event.pull_request.number }}
+          EVENT_NAME: ${{ github.event_name }}
+          BASE_REF: ${{ github.base_ref }}
+          MERGE_BASE_SHA: ${{ github.event.merge_group.base_sha }}
         run: |
-          mkdir -p .github/pr-feedback/contact-check
-          printf '%s\n' "$PR_NUMBER" > .github/pr-feedback/contact-check/pr_number
-          printf '%s\n' "contact-check" > .github/pr-feedback/contact-check/type
+          if [ "$EVENT_NAME" = "merge_group" ]; then
+            python3 bin/check-contact-info --base "$MERGE_BASE_SHA"
+          else
+            python3 bin/check-contact-info --base "origin/$BASE_REF"
+          fi
 
-      - name: Upload PR feedback metadata
-        if: steps.contact-check.outcome == 'failure'
-        uses: actions/upload-artifact@v7
+      - name: Comment on PR if missing contact info
+        if: failure() && steps.contact-check.outcome == 'failure' && github.event_name == 'pull_request_target'
+        uses: actions/github-script@v9
         with:
-          name: pr-feedback-contact-check
-          retention-days: 1
-          path: |
-            .github/pr-feedback/contact-check/pr_number
-            .github/pr-feedback/contact-check/type
-
-      - name: Fail if contact check failed
-        if: steps.contact-check.outcome == 'failure'
-        run: exit 1
+          script: |
+            github.rest.pulls.createReview({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.issue.number,
+              event: 'REQUEST_CHANGES',
+              body: '⚠️ **Missing contact info on your DNS entry!**\n\nFor all new subdomains, we now require contact information. You need to put either your email, Slack ID, or both in a comment. We intend for this information to be easily machine-readable (using a regex), so please make sure it is formatted correctly.\n\nSee the example below:\n```yaml\namogus: # alexp@hackclub.com U01581HFAGZ\n  ttl: 300\n  type: CNAME\n  value: a.selfhosted.hackclub.com.\n```'
+            })
