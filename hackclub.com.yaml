@@ -2607,12 +2607,9 @@ platform.game: # ascpixi@hackclub.com U082DPCGPST
       proxied: false
   type: CNAME
   value: b.selfhosted.hackclub.com.
-gamebit:
-  octodns:
-    cloudflare:
-      proxied: true
+gamebit: # augie@hackclub.com U07FCRNHS1J
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: 5d45dbfec0025afa.vercel-dns-016.com.
 gamedev: # tongyu@hackclub.com U07DJMFAQQP
   type: CNAME
   value: 954c30a6de8e4def.vercel-dns-016.com.
