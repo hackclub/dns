@@ -5571,6 +5571,9 @@ status: # echo@hackclub.com U080A3QP42C
 steelyard: # mattsoh@hackclub.com U07DPHQCCCS
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+steelyard-local:
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 stemegypt:
   type: CNAME
   value: cname.vercel-dns.com.
