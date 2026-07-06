@@ -21,7 +21,7 @@ jobs:
       CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN_READ_ONLY }}
     steps:
       - name: Checkout base repo (trusted)
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Check for dry-run payload
         id: check
