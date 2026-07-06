@@ -445,9 +445,6 @@ adastra:
 - ttl: 300
   type: TXT
   value: bit.ly/adastrahacks
-aegis: # echo@hackclub.com U080A3QP42C
-  type: CNAME
-  value: f39eb094b39a82a0.vercel-dns-016.com.
 aesthetic:
   type: CNAME
   value: 2046a0f486026442.vercel-dns-016.com.
