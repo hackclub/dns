@@ -706,8 +706,8 @@ ascend:
   type: CNAME
   value: cname.vercel-dns.com.
 ascension: # joysu2008@gmail.com U09G78T3MM2
-  - type: CNAME
-    value: cname.vercel-dns.com.
+- type: CNAME
+  value: cname.vercel-dns.com.
 asia-summit:
 - ttl: 300
   type: CNAME
@@ -1301,9 +1301,9 @@ hq.cal: # leo@hackclub.com U07BLJ1MBEE
   type: CNAME
   value: b.selfhosted.hackclub.com.
 calculate: # candyisakat@gmail.com U082PKSD15L
-  - ttl: 600
-    type: CNAME
-    value: 084f9b3358c26923.vercel-dns-017.com.
+- ttl: 600
+  type: CNAME
+  value: 084f9b3358c26923.vercel-dns-017.com.
 calendar:
   ttl: 300
   type: CNAME
@@ -1318,6 +1318,12 @@ camp-apply:
   ttl: 300
   type: CNAME
   value: hackcamp-apply.netlify.com.
+dash.camp: # jenin@hackclub.com // U0926UASBJ7
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 campfire: # leafd@hackclub.com
 - octodns:
     lenient: true
@@ -1527,9 +1533,9 @@ cken:
   type: A
   value: 52.191.165.18
 clam: # mihir@hackclub.com U0BC86VAYT0
-  - type: A
-    value: 141.148.195.78
-    ttl: 600
+- type: A
+  value: 141.148.195.78
+  ttl: 600
 bag.client:
   ttl: 300
   type: A
@@ -2326,8 +2332,8 @@ fallout: # samliu@hackclub.com
   type: CNAME
   value: ingress.lfdl.ink.
 lab.fallout: # enigmaticprojectorpheus@proton.me
-    type: A
-    value: 158.220.92.237
+  type: A
+  value: 158.220.92.237
 lets.fallout: # samliu@hackclub.com anson@hackclub.com
   octodns:
     cloudflare:
@@ -2507,7 +2513,7 @@ forge-cdn: # aarav@hackclub.com
   ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
-  
+
 format:
   octodns:
     cloudflare:
@@ -3436,7 +3442,7 @@ inkling:
   type: CNAME
   value: a.selfhosted.hackclub.com.
 insertCoin: # gblackburn088@gmail.com
-  ttl: 300 
+  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 intercom-files: #alexd@hackclub.com U02CWS020SD
@@ -3631,7 +3637,7 @@ jv:
   value: awesome-carson-c7b5e3.netlify.com.
 keeb: #U05JNJZJ0BS
 - ttl: 300
-  type: CNAME 
+  type: CNAME
   value: a.selfhosted.hackclub.com.
 keepsake:
   type: CNAME
@@ -5361,9 +5367,9 @@ smhs:
   type: CNAME
   value: zephyril.github.io.
 snake: # U07EB2Y76DP
-  - type: CNAME
-    value: yousnakewesnake.netlify.app.
-    ttl: 600
+- type: CNAME
+  value: yousnakewesnake.netlify.app.
+  ttl: 600
 socktalk:
 - octodns:
     cloudflare:
@@ -6118,11 +6124,11 @@ wggs:
 whereisjaredisaacmanrightnowatthis-moment: # willsbuilds@hackclub.com
 - type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
-  ttl: 300 
+  ttl: 300
 whimsy: # katiesue@hackclub.com
-  - type: CNAME
-    value: ad97879918161518.vercel-dns-017.com.
-    ttl: 600
+- type: CNAME
+  value: ad97879918161518.vercel-dns-017.com.
+  ttl: 600
 whs:
 - ttl: 300
   type: CNAME
