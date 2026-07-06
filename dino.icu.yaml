@@ -166,6 +166,11 @@ ansh:
   type: CNAME
   value: ansh3108.github.io.
 
+aoishik: # By https://github.com/aoishik aoishikkhan@gmail.com @aoishik(U0A5NKH93BJ)
+- ttl: 600
+  type: CNAME
+  value: aoishik.github.io.
+
 arjav: #by https://github.com/arjav0703
 - ttl: 600
   type: A
@@ -192,9 +197,9 @@ aryanpatel: # by https://github.com/aryanpatel142006
   value: cname.vercel-dns.com. # vercel
 
 asclub: # Jacob N // @Jacob // U0AEYDUCLKF // jacob.navaratne@outlook.com
-  - type: CNAME
-    value: mini-jacob.hackclub.app.
-    ttl: 600
+- type: CNAME
+  value: mini-jacob.hackclub.app.
+  ttl: 600
 
 automake: # obagaming@gmail.com U0A1G9F445D
 - ttl: 600
@@ -865,6 +870,11 @@ misskey: #hackisskey | korange753@gmail.com U091Q2MS3T9
   type: TXT
   value: domain-verification=korange # for Nest
 
+molecule: # by https://github.com/RasmusStenlund
+  ttl: 600
+  type: CNAME
+  value: rasmusstenlund.github.io
+
 monty: # contact via adelinmihai071@gmail.com
   ttl: 600
   type: CNAME
@@ -1141,7 +1151,7 @@ sayhan: # portfolio and other apps?
 - ttl: 600
   type: CNAME
   value: sayhan.hackclub.app.
-  
+
 scales: # (yet another?) currency slack bot (with some web UI) :D
   ttl: 600
   type: A
@@ -1161,12 +1171,12 @@ sequoia: # vortex slave record - https://vortex.skyfall.dev
   ttl: 60
   type: A
   value: 152.67.157.1
-  
+
 sghc: # yu4tmb@gmail.com U0A457UDE74
   ttl: 600
   type: A
   value: 216.198.79.1
-  
+
 shadow: # shadow.dino.icu - contact @justhypex on discord for issues/enquiries
 - ttl: 600
   type: MX
@@ -1307,6 +1317,10 @@ tabbed: # stolen_username on slack | U0AD4996D1U | rudranshgoel01@gmail.com
 - ttl: 600
   type: A
   value: 216.198.79.1
+
+teenapi: # thenetaji@proton.me
+- type: CNAME
+  value: teentitans.hackclub.app.
 
 tejas: # by tej
   ttl: 600
@@ -1465,9 +1479,9 @@ yc: # turbofan-gag-swung@duck.com
   value: ns.yc.hn.
 
 yosia: # yosiadamanik703@gmail.com
-  - ttl: 600
-    type: CNAME
-    value: cname.vercel-dns.com.
+- ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
 
 you-ship-we-vote:
 - ttl: 600
@@ -1488,6 +1502,11 @@ proxy.you-ship-we-vote:
 - ttl: 600
   type: A
   value: 209.112.91.50
+
+ziademad-ai-eng: # myfreelancinglife777@gmail.com U0A57CQPJHF
+- ttl: 600
+  type: A
+  value: 216.198.79.1
 
 zoneout: # kilecraft90@gmail.com U08GCDHM0QZ
 - ttl: 600
