@@ -3300,6 +3300,10 @@ pm-bounces.horizons: # U07BLJ1MBEE
   ttl: 300
   type: CNAME
   value: pm.mtasv.net.
+tickets.horizons: #U056J6JURFF, sofia@hackclub.com
+  ttl: 300
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 '*.hosted':
   ttl: 300
   type: A
