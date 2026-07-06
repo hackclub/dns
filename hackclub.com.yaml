@@ -1409,6 +1409,10 @@ carnival-staging:
 cascade:
   type: CNAME
   value: 2ece7ab0ecc306c7.vercel-dns-016.com.
+catgirl: # foxmoss@hackclub.com
+- ttl: 300
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 catlin:
 - ttl: 300
   type: CNAME
