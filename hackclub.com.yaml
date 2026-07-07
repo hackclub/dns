@@ -589,7 +589,7 @@ angelhacksto:
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-anvil:
+anvil: # ascpixi@hackclub.com U082DPCGPST
 - ttl: 300
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
