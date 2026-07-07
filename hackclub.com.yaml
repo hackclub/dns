@@ -590,7 +590,10 @@ angelhacksto:
   type: CNAME
   value: cname.vercel-dns.com.
 anvil: # ascpixi@hackclub.com U082DPCGPST
-- ttl: 300
+  octodns:
+    cloudflare:
+      proxied: true
+  ttl: 300
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 apacdirectory:
