@@ -6279,4 +6279,7 @@ zwp:
 - ttl: 300
   type: A
   value: 172.99.233.117
-
+waypoint:
+- ttl: 300
+  type: CNAME
+  value: waypoint.loganpeterson.org.
