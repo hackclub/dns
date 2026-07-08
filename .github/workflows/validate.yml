@@ -3,55 +3,37 @@ on:
   push:
     branches:
       - main
-  pull_request:
+  pull_request_target:
   merge_group:
   workflow_dispatch:
 
 permissions:
   contents: read
-  pull-requests: read
+  pull-requests: write
 
 jobs:
   json-yaml-validate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+          allow-unsafe-pr-checkout: true
 
       - name: json-yaml-validate
         id: json-yaml-validate
-        continue-on-error: true
         uses: GrantBirki/json-yaml-validate@v5.0.0
         with:
-          comment: "false"
-
-      - name: Write PR feedback metadata
-        if: github.event_name == 'pull_request' && steps.json-yaml-validate.outcome == 'failure'
-        env:
-          PR_NUMBER: ${{ github.event.pull_request.number }}
-        run: |
-          mkdir -p .github/pr-feedback/json-yaml-validate
-          printf '%s\n' "$PR_NUMBER" > .github/pr-feedback/json-yaml-validate/pr_number
-          printf '%s\n' "json-yaml-validate" > .github/pr-feedback/json-yaml-validate/type
-
-      - name: Upload PR feedback metadata
-        if: github.event_name == 'pull_request' && steps.json-yaml-validate.outcome == 'failure'
-        uses: actions/upload-artifact@v7
-        with:
-          name: pr-feedback-json-yaml-validate
-          retention-days: 1
-          path: |
-            .github/pr-feedback/json-yaml-validate/pr_number
-            .github/pr-feedback/json-yaml-validate/type
-
-      - name: Fail if validation failed
-        if: steps.json-yaml-validate.outcome == 'failure'
-        run: exit 1
+          comment: "true"
 
   sort-check:
     runs-on: ubuntu-latest
-    if: github.event_name == 'pull_request' || (github.event_name == 'push' && github.ref == 'refs/heads/main')
+    if: github.event_name == 'pull_request_target' || (github.event_name == 'push' && github.ref == 'refs/heads/main')
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+          allow-unsafe-pr-checkout: true
 
       - uses: actions/setup-python@v6
         with:
@@ -62,28 +44,17 @@ jobs:
 
       - name: Check sort order
         id: sort-check
-        continue-on-error: true
         run: python3 bin/sort-zones --check
 
-      - name: Write PR feedback metadata
-        if: github.event_name == 'pull_request' && steps.sort-check.outcome == 'failure'
-        env:
-          PR_NUMBER: ${{ github.event.pull_request.number }}
-        run: |
-          mkdir -p .github/pr-feedback/sort-check
-          printf '%s\n' "$PR_NUMBER" > .github/pr-feedback/sort-check/pr_number
-          printf '%s\n' "sort-check" > .github/pr-feedback/sort-check/type
-
-      - name: Upload PR feedback metadata
-        if: github.event_name == 'pull_request' && steps.sort-check.outcome == 'failure'
-        uses: actions/upload-artifact@v7
+      - name: Comment on PR if unsorted
+        if: failure() && steps.sort-check.outcome == 'failure' && github.event_name == 'pull_request_target'
+        uses: actions/github-script@v9
         with:
-          name: pr-feedback-sort-check
-          retention-days: 1
-          path: |
-            .github/pr-feedback/sort-check/pr_number
-            .github/pr-feedback/sort-check/type
-
-      - name: Fail if sort check failed
-        if: steps.sort-check.outcome == 'failure'
-        run: exit 1
+          script: |
+            github.rest.pulls.createReview({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.issue.number,
+              event: 'REQUEST_CHANGES',
+              body: '⚠️ Your DNS record is not sorted in alphabetical order! Please sort it accordingly so your PR can be merged.\n\nSub-sub domains (ex: `badge.shipwrecked.hackclub.com`) should be sorted in alphabetical order under their respective parent subdomain (ex: `shipwrecked.hackclub.com`).'
+            })
