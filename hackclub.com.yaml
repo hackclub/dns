@@ -6223,6 +6223,10 @@ wormhole:
   ttl: 300
   type: CNAME
   value: tggocccwo0oogs4wk8swgwkg.a.selfhosted.hackclub.com.
+waypoint: # contactloganpeterson@gmail.com U079WLY0HLY
+- ttl: 300
+  type: CNAME
+  value: waypoint.loganpeterson.org.
 wshackclub:
 - ttl: 300
   type: A
@@ -6279,7 +6283,3 @@ zwp:
 - ttl: 300
   type: A
   value: 172.99.233.117
-waypoint:
-- ttl: 300
-  type: CNAME
-  value: waypoint.loganpeterson.org.
