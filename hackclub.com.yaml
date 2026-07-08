@@ -875,7 +875,7 @@ attend: # leo@hackclub.com
       proxied: true
   ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: a.ingress.tier2.infra.hackclub.com.
 aurora:
   type: CNAME
   value: 3dda976f1961c3e4.vercel-dns-016.com.
