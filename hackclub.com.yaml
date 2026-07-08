@@ -2787,6 +2787,10 @@ hackaccino:
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+hackachu: # lola@hackclub.com
+  ttl: 600
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 hackapet:
 - ttl: 300
   type: CNAME
