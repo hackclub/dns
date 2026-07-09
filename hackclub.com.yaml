@@ -43,6 +43,10 @@
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+99: # jeremy@hackclub.com U06UYA5GMB5
+- ttl: 300
+  type: CNAME
+  value: 8f031bee70d56e7e.vercel-dns-016.com.
 72f724f0383247cd44371eb3cf8102a1:
   ttl: 300
   type: CNAME
