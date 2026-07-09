@@ -43,14 +43,14 @@
 - ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-99: # jeremy@hackclub.com U06UYA5GMB5
-- ttl: 300
-  type: CNAME
-  value: 8f031bee70d56e7e.vercel-dns-016.com.
 72f724f0383247cd44371eb3cf8102a1:
   ttl: 300
   type: CNAME
   value: verify.bing.com.
+99: # jeremy@hackclub.com U06UYA5GMB5
+- ttl: 300
+  type: CNAME
+  value: 8f031bee70d56e7e.vercel-dns-016.com.
 2020-summer: # echo@hackclub.com U080A3QP42C
   type: CNAME
   value: d1a0b01afc6cee8c.vercel-dns-016.com.
