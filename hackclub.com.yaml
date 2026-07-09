@@ -6134,9 +6134,8 @@ waveform: # echo@hackclub.com U080A3QP42C
   type: CNAME
   value: a252d1919bee0034.vercel-dns-016.com.
 waypoint: # contactloganpeterson@gmail.com U079WLY0HLY
-- ttl: 300
   type: CNAME
-  value: waypoint.loganpeterson.org.
+  value: cb3b0faa6f4c04a7.vercel-dns-016.com.
 webdev: # lynn@hackclub.com U07ULNFPQ4T
   type: CNAME
   value: 7d8a0b8aac5ada06.vercel-dns-016.com.
