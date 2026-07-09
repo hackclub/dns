@@ -482,7 +482,7 @@ alchemize: # mahasankarshant@gmail.com U096RMRG03G
   value: b.selfhosted.hackclub.com.
 notifications.alchemize:  # aoishikkhan@gmail.com U0A5NKH93BJ & POC: josias@hackclub.com U01PJ08PR7S
   type: CNAME
-  value: b.selfhosted.hackclub.com.
+  value: a.ingress.tier2.infra.hackclub.com.
 alexandria:
 - ttl: 300
   type: CNAME
@@ -4087,7 +4087,7 @@ nephthys: # amber / U054VC2KM9P
   value: a.selfhosted.hackclub.com.
 alchemize.nephthys: # aoishikkhan@gmail.com / @aoishik(U0A5NKH93BJ)
   type: CNAME
-  value: b.selfhosted.hackclub.com.
+  value: a.ingress.tier2.infra.hackclub.com.
 beest.nephthys: # amber / U054VC2KM9P & euan / U06T30DNB3L
   type: CNAME
   value: b.selfhosted.hackclub.com.
