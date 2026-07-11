@@ -4186,9 +4186,8 @@ rawr:
   type: CNAME
   value: hackclub.github.io.
 re-dream: # skylarmaestein@gmail.com U080Y31KUE7
-  - type: CNAME
-    value: 756265f0c9d699f3.vercel-dns-017.com.
-    ttl: 600
+- type: CNAME
+  value: 756265f0c9d699f3.vercel-dns-017.com.
 reactive: # jared@hackclub.com / lynn@hackclub.com
   type: CNAME
   value: ea4ceae47f9926c5.vercel-dns-016.com.
@@ -5115,6 +5114,9 @@ telecom:
 telemetry:
   type: A
   value: 5.161.83.132
+telescreen: # echo@hackclub.com U080A3QP42C
+  type: CNAME
+  value: ba32d3e933e777cb.vercel-dns-013.com.
 ten-days-of-code:
   type: CNAME
   value: cname.vercel-dns.com.
