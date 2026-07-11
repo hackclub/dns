@@ -4185,6 +4185,10 @@ raspite:
 rawr:
   type: CNAME
   value: hackclub.github.io.
+re-dream: # skylarmaestein@gmail.com U080Y31KUE7
+  - type: CNAME
+    value: 756265f0c9d699f3.vercel-dns-017.com.
+    ttl: 600
 reactive: # jared@hackclub.com / lynn@hackclub.com
   type: CNAME
   value: ea4ceae47f9926c5.vercel-dns-016.com.
