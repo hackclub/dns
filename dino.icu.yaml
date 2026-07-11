@@ -166,6 +166,11 @@ ansh:
   type: CNAME
   value: ansh3108.github.io.
 
+aoishik: # By https://github.com/aoishik aoishikkhan@gmail.com @aoishik(U0A5NKH93BJ)
+- ttl: 600
+  type: CNAME
+  value: aoishik.github.io.
+
 arjav: #by https://github.com/arjav0703
 - ttl: 600
   type: A
@@ -192,9 +197,9 @@ aryanpatel: # by https://github.com/aryanpatel142006
   value: cname.vercel-dns.com. # vercel
 
 asclub: # Jacob N // @Jacob // U0AEYDUCLKF // jacob.navaratne@outlook.com
-  - type: CNAME
-    value: mini-jacob.hackclub.app.
-    ttl: 600
+- type: CNAME
+  value: mini-jacob.hackclub.app.
+  ttl: 600
 
 automake: # obagaming@gmail.com U0A1G9F445D
 - ttl: 600
@@ -337,6 +342,11 @@ commbadge: # hpscigeek@gmail.com https://github.com/nerdwithcomputers slack: U04
   type: CNAME
   value: miracl3max.duckdns.org.
 
+constellation: # me@theutkarsh8939.dev U0AM8ASHEG6 
+- ttl: 600
+  type: A
+  value: 216.198.79.1
+
 constrained: # funkeudo@outlook.com U0A03GWFP1V
 - ttl: 600
   type: A
@@ -435,6 +445,11 @@ doruk:
   type: CNAME
   value: itsimpeccable.github.io.
 
+doseguard: # U0B8LTW45QV https://github.com/darshnerd/DoseGuard
+  ttl: 600
+  type: AAAA
+  value: 2a01:4f9:3081:399c::732
+
 e: # drawing app - by https://github.com/sporeball
   ttl: 600
   type: CNAME
@@ -457,6 +472,16 @@ elapsed: # U0A9B38F413
   octodns:
     cloudflare:
       proxied: true
+
+elyraclub: # vinayaktiwari307@gmail.com
+- ttl: 600
+  type: A
+  value: 216.198.79.1
+
+www.elyraclub: # vinayaktiwari307@gmail.com
+- ttl: 600
+  type: CNAME
+  value: bd87f6ad6e9810ac.vercel-dns-017.com.
 
 emojile: # wordle with slack emojis - https://github.com/yodalightsabr/emojile
   ttl: 600
@@ -499,6 +524,11 @@ featuretracker:
   ttl: 600
   type: CNAME
   value: cloudwaddie.hackclub.app.
+
+felix: # jacob.navaratne@outlook.com | Jacob Navaratne | @Jacob on Slack!
+  ttl: 600
+  type: CNAME
+  value: smartsparkcoding.github.io.
 
 fileserver: # will.kuntze@gmail.com Will Kuntze
 - ttl: 600
@@ -546,7 +576,7 @@ geta: # yoda - https://getadinoicu.yodacode.repl.co/dino.png - get a dino from h
 goship: # BnaJns - U08R49H9VRV
   ttl: 600
   type: CNAME
-  value: proxy.bnajns.dev.
+  value: goship.bnajns.hackclub.app.
 
 hackai: # coolcream - U096RMRG03G
 - ttl: 600
@@ -601,6 +631,16 @@ heramb:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+
+hg: # HSL - U08004V1Z7T - helioleles@comcast.net - +1 (215) 410-5236
+- ttl: 600
+  type: CNAME
+  value: him.hackclub.app.
+
+hgcontent: # HSL - U08004V1Z7T - helioleles@comcast.net - +1 (215) 410-5236
+- ttl: 600
+  type: CNAME
+  value: him.hackclub.app.
 
 hi: # doruk.dino.icu email address
 - ttl: 600
@@ -658,7 +698,7 @@ innohacks: #efe
 jacob: # Jacob N // @Jacob // U0AEYDUCLKF
   ttl: 600
   type: CNAME
-  value: jacob-personal-website.pages.dev.
+  value: smartsparkcoding.github.io.
 
 jamesite: # Jame on slack // JamesFerris447@gmail.com // U09K59BPM2M
   ttl: 600
@@ -830,6 +870,11 @@ misskey: #hackisskey | korange753@gmail.com U091Q2MS3T9
   type: TXT
   value: domain-verification=korange # for Nest
 
+molecule: # by https://github.com/RasmusStenlund
+  ttl: 600
+  type: CNAME
+  value: rasmusstenlund.github.io
+
 monty: # contact via adelinmihai071@gmail.com
   ttl: 600
   type: CNAME
@@ -989,6 +1034,11 @@ print:
   type: CNAME
   value: cname.vercel-dns.com.
 
+pv0: # slack ID: U0AUTFQQUQP
+  ttl: 600
+  type: CNAME
+  value: phntsmgr-v0.pages.dev.
+
 qr: # A hack club themed QR code generator
   ttl: 600
   type: CNAME
@@ -1122,6 +1172,11 @@ sequoia: # vortex slave record - https://vortex.skyfall.dev
   type: A
   value: 152.67.157.1
 
+sghc: # yu4tmb@gmail.com U0A457UDE74
+  ttl: 600
+  type: A
+  value: 216.198.79.1
+
 shadow: # shadow.dino.icu - contact @justhypex on discord for issues/enquiries
 - ttl: 600
   type: MX
@@ -1153,6 +1208,11 @@ sk: # sk.dino.icu unofficial hackclub sharkey instance
   ttl: 600
   type: CNAME
   value: vic.hackclub.app.
+
+slackassistant: # nightfall U07KVMBHH4L
+- ttl: 600
+  type: CNAME
+  value: rana.hackclub.app.
 
 smtp: # hackclub free smtp service
 - ttl: 600
@@ -1257,6 +1317,10 @@ tabbed: # stolen_username on slack | U0AD4996D1U | rudranshgoel01@gmail.com
 - ttl: 600
   type: A
   value: 216.198.79.1
+
+teenapi: # thenetaji@proton.me
+- type: CNAME
+  value: teentitans.hackclub.app.
 
 tejas: # by tej
   ttl: 600
@@ -1399,6 +1463,11 @@ www: # redirect to bare domain
   type: CNAME
   value: cname.vercel-dns.com.
 
+yahri-staging: # anson@hackclub.com
+- ttl: 600
+  type: A
+  value: 96.9.228.153
+
 yates:
 - ttl: 600
   type: CNAME
@@ -1408,6 +1477,11 @@ yc: # turbofan-gag-swung@duck.com
   ttl: 600
   type: NS
   value: ns.yc.hn.
+
+yosia: # yosiadamanik703@gmail.com
+- ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
 
 you-ship-we-vote:
 - ttl: 600
@@ -1428,6 +1502,11 @@ proxy.you-ship-we-vote:
 - ttl: 600
   type: A
   value: 209.112.91.50
+
+ziademad-ai-eng: # myfreelancinglife777@gmail.com U0A57CQPJHF
+- ttl: 600
+  type: A
+  value: 216.198.79.1
 
 zoneout: # kilecraft90@gmail.com U08GCDHM0QZ
 - ttl: 600
