@@ -4896,6 +4896,10 @@ rust.resolution: # mahad@hackclub.com U059VC0UDEU
       proxied: true
   type: CNAME
   value: b.selfhosted.hackclub.com.
+re-dream: # skylarmaestein@gmail.com U080Y31KUE7
+  - type: CNAME
+    value: 756265f0c9d699f3.vercel-dns-017.com.
+    ttl: 600
 retrospect: # nora@hackclub.com U06QK6AG3RD
   type: CNAME
   value: da5ef63dbcc35c40.vercel-dns-016.com.
