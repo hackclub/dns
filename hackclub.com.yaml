@@ -4153,11 +4153,8 @@ newcanaanlib:
   type: CNAME
   value: cname.vercel-dns.com.
 news: # eps@hackclub.com U09Q8MLTE58 & hc+dns@matmanna.dev U07VA44DNBA;
-- octodns:
-    cloudflare:
-      proxied: true
-  type: A
-  value: 5.161.100.52 # a.selfhosted.hackclub.com
+- type: A
+  value: 76.76.21.21
 - type: TXT
   values:
   - google-site-verification=Mc08Mplkv-e0eNBR0VW3ogoctBoozEETwZvrb-9prb0
