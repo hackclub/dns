@@ -5403,6 +5403,12 @@ vote.visioneer:
 vmc:
 - type: A
   value: 45.61.162.143
+vote: # manitej@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 wacky: #euan@hackclub.com @U06T30DNB3L
 - type: CNAME
   value: 580f738934aca539.vercel-dns-016.com.
