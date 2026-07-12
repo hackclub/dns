@@ -5313,6 +5313,9 @@ twist: # barnav / U08RVF1BAN4
 typeface: # jenny@hackclub.com
   type: CNAME
   value: c602e955eeaa4e36.vercel-dns-016.com.
+ucat: # echo@hackclub.com U080A3QP42C & U0A5PLKMB25
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 uet:
 - type: CNAME
   value: 5637f2843e643c1a.vercel-dns-016.com.
