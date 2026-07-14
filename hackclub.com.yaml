@@ -1733,6 +1733,9 @@ dsc:
 dseu:
 - type: CNAME
   value: 5637f2843e643c1a.vercel-dns-016.com.
+duck: # U07E6TW9DL0 dani@hackclub.com
+- type: CNAME
+  value: cname.vercel-dns.com.
 duk:
   type: CNAME
   value: 5637f2843e643c1a.vercel-dns-016.com.
