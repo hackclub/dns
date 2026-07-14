@@ -351,7 +351,7 @@ _vercel:
   - vc-domain-verify=calculate.hackclub.com,2b76d639c0c04dc6b191
   - vc-domain-verify=premiere.hackclub.com,8abf79e779dd433fe3d4
   - vc-domain-verify=whimsy.hackclub.com,712b4c3c244883005c42
-  - vc-domain-verify=re-dream.hackclub.com,cad73296a406276443b8
+  - vc-domain-verify=re-dream.hackclub.com,e11e0d5ca60198a6cf01
 _visual-studio-marketplace-hackatime: # U07VC9705D4
   type: TXT
   value: 729d4142-7fd4-491e-9046-43c46cb4fa66
@@ -4174,9 +4174,9 @@ raspite:
 rawr:
   type: CNAME
   value: hackclub.github.io.
-re-dream: # skylarmaestein@gmail.com U080Y31KUE7
+re-dream: # skylarmaestein@gmail.com U080Y31KUE7 & jolly@hackclub.com U08CJCZ2Z9S
 - type: CNAME
-  value: 756265f0c9d699f3.vercel-dns-017.com.
+  value: 5b08eaf797dbfb65.vercel-dns-013.com.
 reactive: # jared@hackclub.com / lynn@hackclub.com
   type: CNAME
   value: ea4ceae47f9926c5.vercel-dns-016.com.
