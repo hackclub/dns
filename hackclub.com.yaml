@@ -1,8 +1,7 @@
 "":
 - type: A
   value: 216.150.1.1
-- ttl: 300
-  type: MX
+- type: MX
   values:
   - exchange: aspmx.l.google.com.
     preference: 1
@@ -14,8 +13,7 @@
     preference: 10
   - exchange: aspmx3.googlemail.com.
     preference: 10
-- ttl: 300
-  type: TXT
+- type: TXT
   values:
   - ALIAS for hackclub.com.herokudns.com
   - google-site-verification=U8tZZVtnG2hU2CIde1FeMzGJM7d9yYUfuCKYwWVYeGo
@@ -37,238 +35,194 @@
   - apple-domain-verification=Kq0tydhcBoM2dHTX   # gary@hackclub.com (Apple Business Manager)
   - MS=ms66267035
   - facebook-domain-verification=z5cyjpqj1fvx5315wk3ahnkx4ohi6r
+  - facebook-domain-verification=n1zcixmsek4ujgvgkxd65dlhien1lk
   - anthropic-domain-verification-hkth5m=hheIAy80WjbR1ZRaKVlWYZ0Z6   # alex@hackclub.com / gary@hackclub.com
 44.74:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: 8e42daa9edbe9df1.vercel-dns-016.com.
 72f724f0383247cd44371eb3cf8102a1:
-  ttl: 300
   type: CNAME
   value: verify.bing.com.
+99: # jeremy@hackclub.com U06UYA5GMB5
+- type: CNAME
+  value: 8f031bee70d56e7e.vercel-dns-016.com.
 2020-summer: # echo@hackclub.com U080A3QP42C
   type: CNAME
   value: d1a0b01afc6cee8c.vercel-dns-016.com.
 '14148987': # SendGrid Sender Authentication (bank@hackclub.com)
-  ttl: 300
   type: CNAME
   value: sendgrid.net.
 _acme-challenge:
-  ttl: 300
   type: TXT
   values:
   - 6YrKPNzkrSk8A_AuvE9RgmmY5IDpGP1iN2zdOpukc4U
   - -KZE5QB63MXUQJpbA2QXzC7x9J9iW05YPX1NS4U29N8
 _amazonses:
-  ttl: 300
   type: TXT
   values:
   - uHICDD8seqgxLogZH5xjm7JIYkoBQEpxrmw2m2GEL4U=
   - bFbUGS4kBPpGcOFE9EjoMKUC2NX80TkfI6r7zv65CWk=
   - JXvGphwpFIMhw/sZUreoxanihgG6+WWPjAKsFw+695s=
 _atproto:
-  ttl: 300
   type: TXT
   value: did=did:plc:5rvcaxx64aqyguao6dbuscbz
 _dmarc:
-  ttl: 300
   type: TXT
   value: v=DMARC1\; p=quarantine\; rua=mailto:6192c543e0e61@ag.dmarcly.com\; ruf=mailto:6192c543e0e61@fo.dmarcly.com\; fo=1\;
 22cp7ldrht2mqurkrnbk3gidbfif4thx._domainkey:
-  ttl: 300
   type: CNAME
   value: 22cp7ldrht2mqurkrnbk3gidbfif4thx.dkim.amazonses.com.
 65nnw42onodxiiqs6vt2y24prjkd66zj._domainkey:
-  ttl: 300
   type: CNAME
   value: 65nnw42onodxiiqs6vt2y24prjkd66zj.dkim.amazonses.com.
 20230913174421pm._domainkey:
-  ttl: 300
   type: TXT
   value: k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCbYfun+ZMwXJGRqp41sG/OXWPgbQd6Ewf/ccOBCvigm9LSarnT1QCUizzc+ZqBfSc4UTlJJx2hyhWYN6zFHibSndOBmY3y09uKuv7S4v3usfhpVVJZw9BOQLL4N9uIysrzLhVOfCpXiIIQQHn/a277SA8klIDfVcZkxdkyBRQDlQIDAQAB
 20251019203019pm._domainkey:
-  ttl: 300
   type: TXT
   value: k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCpvmb60zUfEHXWL+NV4L9mixZWNe/gU4MDxkzxpLovag/ub13NxZ3N83VKWojj6FeYLij5e+NGDsJQNb2KPXHQzYMX7jYrZYEOLu9laytBfcflCRNBhwICvNO09u2EApnO10JClgkV4nbv7dk2o/bRCl0AKZW6m/OWtNkaAIsExQIDAQAB
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
-  ttl: 300
   type: CNAME
   value: a5fj644skxexxgvvraqrag5ngcaovcny.dkim.amazonses.com.
 ai33r7fqmoefihzcm3c5yksogilyhsfv._domainkey:
-  ttl: 300
   type: CNAME
   value: ai33r7fqmoefihzcm3c5yksogilyhsfv.dkim.amazonses.com.
 aqok45oupsvrr7elmqtdcvqtbn77ac4y._domainkey:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: aqok45oupsvrr7elmqtdcvqtbn77ac4y.dkim.howiemail.co.
 ats46zapgxv2a6g7kemi55qs7diofwme._domainkey:
-  ttl: 300
   type: CNAME
   value: ats46zapgxv2a6g7kemi55qs7diofwme.dkim.amazonses.com.
 b7zvtelc2k757b2pyx7bfr5gigqwni64._domainkey:
 - octodns:
     cloudflare:
       proxied: false
-  ttl: 300
   type: CNAME
   value: b7zvtelc2k757b2pyx7bfr5gigqwni64.dkim.custom-email-domain.stripe.com.
 bqogdt6xkltngfg62lq7jo5dk33zerss._domainkey:
 - octodns:
     cloudflare:
       proxied: false
-  ttl: 300
   type: CNAME
   value: bqogdt6xkltngfg62lq7jo5dk33zerss.dkim.custom-email-domain.stripe.com.
 ddze3tkuawtlnbviwym44yhrjczhqzxw._domainkey:
-  ttl: 300
   type: CNAME
   value: ddze3tkuawtlnbviwym44yhrjczhqzxw.dkim.amazonses.com.
 dfw4j5coownesaecgmwfxhszrauwxzlk._domainkey:
 - octodns:
     cloudflare:
       proxied: false
-  ttl: 300
   type: CNAME
   value: dfw4j5coownesaecgmwfxhszrauwxzlk.dkim.custom-email-domain.stripe.com.
 f5qsmeu4qwef4yvo2p6e4a4vrspzdqdc._domainkey:
-  ttl: 300
   type: CNAME
   value: f5qsmeu4qwef4yvo2p6e4a4vrspzdqdc.dkim.amazonses.com.
 fnt._domainkey:
-- ttl: 300
-  type: TXT
+- type: TXT
   value: k=rsa\; t=s\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/fiPa2lnB4fmnX5hy+o1ZMnWPvVnR/jxucy2no2F3sNkMljgGXeHD7l8qxhh9ZbuIDtJwrDjgJHJ8KqbZ7reMHBNlr14C4TVhEQCDoLznMPyqcTSJ6kXcX2yz5OOUMqrprMlpVv7xz5tc7eZBrdvH5mxoFnIfG7uPOxJHAWWacQIDAQAB
 google._domainkey:
-  ttl: 300
   type: TXT
   value: v=DKIM1\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAm24gOXYmuCx1b3faIwxeRtzaloKPCKVMHmTGIXeQWRlUpvAWfjhdPGQIclYHcJV6eO85eXiKTzpxiyKKbbMk/5gaZCt7RLLes0y7rscX13jNB8uVQcUJsf99Ve5CPCWueNhK2ZXp9C74dkX5dNqeoO1iUnoFgfI4ioKKGn0Vk6GZxHrFjSSycQCYSuf6+azYUksnR+lNsfiJH6fnnLzcDXiur/26l0VB9p3/8KctPsZYty0BgW+c9FntD3TkbEdH3vlDPSRLwZ9wVGs+M2mpmPOM0eEfWqjW4wOZNc7hjmZlhImVR+7A3UytWvdlbRDcSmW5pWw4Tp1/1KmBbXtteQIDAQAB
 hsqb5f7fwbzachritpekj4hc43east5o._domainkey:
-  ttl: 300
   type: CNAME
   value: hsqb5f7fwbzachritpekj4hc43east5o.dkim.amazonses.com.
 intercom._domainkey: #alexd@hackclub.com U02CWS020SD
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: 19da80c5-8fbd-4d19-af1c-4ad757de4c30.dkim.intercom.io.
 jg2ygmrfby4vhxve3cozh4yz3xc2ul5y._domainkey:
 - octodns:
     cloudflare:
       proxied: false
-  ttl: 300
   type: CNAME
   value: jg2ygmrfby4vhxve3cozh4yz3xc2ul5y.dkim.custom-email-domain.stripe.com.
 kf2tzvncx46ahlhuev6kusbvg5hmymau._domainkey:
-  ttl: 300
   type: CNAME
   value: kf2tzvncx46ahlhuev6kusbvg5hmymau.dkim.amazonses.com.
 lxqekzzkeh32evz7auo5klcbsas5ccbs._domainkey: # for loops.so dkim
 - octodns:
     cloudflare:
       proxied: false
-  ttl: 300
   type: CNAME
   value: lxqekzzkeh32evz7auo5klcbsas5ccbs.dkim.amazonses.com.
 m73ztewzt6jv32f4lj6wk3vlkceswf3f._domainkey: # for loops.so dkim
 - octodns:
     cloudflare:
       proxied: false
-  ttl: 300
   type: CNAME
   value: m73ztewzt6jv32f4lj6wk3vlkceswf3f.dkim.amazonses.com.
 mail._domainkey:
-- ttl: 300
-  type: TXT
+- type: TXT
   value: v=DKIM1\; h=sha256\; k=rsa\; s=email\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkosTUJx4I9YeDlbMvjDCmF030x/uaK1VRnaZDlnakDPsDHmHjkNv+neEh1Ai02I7WN0DGmMlNZmUuoLsRhBZDEJ3MDEnf4QtGdb3fw5g6l3mIQ27Gh87Q8/Q6RCdWDdzK2uz4hubZSqjXVQc4FiSJHY1qMh1UCZI4T3xuFBx6+l/KutRV6tUWdbXwt0g4SRJJeI0V8qe9EC+fpjSK1cNrDPMaU3s31xCdqOVfDrdJghRHVPDuBrlb1XFIxu+GlonAIdiEDM2LwHxESzJb7cR6lB9UBP05naqYKVjnuPup0+GY19WqtXtz8Ij5CDGAwEm85HJsIfYjJptuL6QYPzMUQIDAQAB
 mx._domainkey:
-  ttl: 300
   type: TXT
   value: k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC2ne6b1zFQ+JeHfdYOZmfXdPh9oxE8jJ4VYhHKelLyefiYMPC8TUqL/iYy4meTTUcVskryzK6pMB6tIh3+JhgyxacK+dapNcTTd8LOkI0G3d5JX4+5aq99YHi71KGpVREedJeFjnPeNMEBtrRc5Jsb6HFHFxNtH270fchVO+hgRwIDAQAB
 piobfpwf42smbkxcysnrx7qe5es6f5tp._domainkey:
-  ttl: 300
   type: CNAME
   value: piobfpwf42smbkxcysnrx7qe5es6f5tp.dkim.amazonses.com.
 q6vh4lhupwotqenjf4s4ygzyhir3e5ii._domainkey:
-  ttl: 300
   type: CNAME
   value: q6vh4lhupwotqenjf4s4ygzyhir3e5ii.dkim.amazonses.com.
 rqoazhlw7bryffgn2xduhdtqqkp6envv._domainkey:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: rqoazhlw7bryffgn2xduhdtqqkp6envv.dkim.howiemail.co.
 s1._domainkey:
-  ttl: 300
   type: CNAME
   value: s1.domainkey.u9906371.wl122.sendgrid.net.
 s2._domainkey:
-  ttl: 300
   type: CNAME
   value: s2.domainkey.u9906371.wl122.sendgrid.net.
 sgd._domainkey: # SendGrid Sender Authentication (bank@hackclub.com)
-  ttl: 300
   type: CNAME
   value: sgd.domainkey.u14148987.wl238.sendgrid.net.
 sgd2._domainkey: # SendGrid Sender Authentication (bank@hackclub.com)
-  ttl: 300
   type: CNAME
   value: sgd2.domainkey.u14148987.wl238.sendgrid.net.
 strong1._domainkey:
 - octodns:
     cloudflare:
       proxied: false
-  ttl: 300
   type: CNAME
   value: strong1._domainkey.helpscout.net.
 strong2._domainkey:
 - octodns:
     cloudflare:
       proxied: false
-  ttl: 300
   type: CNAME
   value: strong2._domainkey.helpscout.net.
 uqq467l64nnf3dyo6omjcjmcc3dmdqlb._domainkey:
 - octodns:
     cloudflare:
       proxied: false
-  ttl: 300
   type: CNAME
   value: uqq467l64nnf3dyo6omjcjmcc3dmdqlb.dkim.custom-email-domain.stripe.com.
 vh7v2gsayfsmxmllwaannilorrbs5jbp._domainkey:
 - octodns:
     cloudflare:
       proxied: false
-  ttl: 300
   type: CNAME
   value: vh7v2gsayfsmxmllwaannilorrbs5jbp.dkim.custom-email-domain.stripe.com.
 vn6m35np2nwaqdbm4l2potsno5qfnfz3._domainkey: # for loops.so dkim
 - octodns:
     cloudflare:
       proxied: false
-  ttl: 300
   type: CNAME
   value: vn6m35np2nwaqdbm4l2potsno5qfnfz3.dkim.amazonses.com.
 yjggqrfhy2bwdn736r2lneu5a4quk4m6._domainkey:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: yjggqrfhy2bwdn736r2lneu5a4quk4m6.dkim.howiemail.co.
 zv7a5yfkgcbmhnx6umera6dxpslsvykm._domainkey:
-  ttl: 300
   type: CNAME
   value: zv7a5yfkgcbmhnx6umera6dxpslsvykm.dkim.amazonses.com.
 _gh-arsenobetaine-o:
-- ttl: 300
-  type: TXT
+- type: TXT
   value: cea65ff579
 _github-challenge-hackclub:
-- ttl: 300
-  type: TXT
+- type: TXT
   value: 3bb54b8627
 _now:
-  ttl: 300
   type: TXT
   value: BsKpsJpMuE
 _vercel:
-  ttl: 300
   type: TXT
   values:
   - vc-domain-verify=1or0.hackclub.com,6342724060dadeb82eb3
@@ -276,6 +230,7 @@ _vercel:
   - vc-domain-verify=arena.hackclub.com,18d51eef05279bd5822f
   - vc-domain-verify=arcade-wrapped.hackclub.com,8266e50fd74e5c046773
   - vc-domain-verify=ascend.hackclub.com,5c143e010cb754d62113
+  - vc-domain-verify=ascension.hackclub.com,ff1dd7a1d7c07b66df1c
   - vc-domain-verify=asiet.hackclub.com,2975ee268d07e199efdc
   - vc-domain-verify=awest.hackclub.com,e6d12d504df9bbb88908
   - vc-domain-verify=backend.arena.hackclub.com,079b94be7b001fa4e775
@@ -286,7 +241,6 @@ _vercel:
   - vc-domain-verify=botfights.hackcraft.hackclub.com,0a512bcbd28db8e3d5bc
   - vc-domain-verify=branch.hackclub.com,21874c5af09f455c2cc0
   - vc-domain-verify=bunker.apocalypse.hackclub.com,75a61be6a0e63f44d7c1
-  - vc-domain-verify=butwal.hackclub.com,a925a860bf09fa56faa2
   - vc-domain-verify=capsule.hackclub.com,2095a0d425ab70e65ae2
   - vc-domain-verify=celestial.hackclub.com,712c9345didfd5e0b4ee
   - vc-domain-verify=codecafe.hackclub.com,7626bb39bfb56e9ea791
@@ -303,8 +257,9 @@ _vercel:
   - vc-domain-verify=enclosure.hackclub.com,9eba18ebb384f40d5504
   - vc-domain-verify=epochba.hackclub.com,705735e32a03c39fdd26
   - vc-domain-verify=epochvt.hackclub.com,089353b4de0bf145067d
+  - vc-domain-verify=equinox.hackclub.com,28977cc177201abd7318
   - vc-domain-verify=evergreen.hackclub.com,4464d82393ad62c6bc0b
-  - vc-domain-verify=fhs.hackclub.com,46936764d6774efee2b5
+  - vc-domain-verify=fhs.hackclub.com,d7bc96ee2d49140e4829
   - vc-domain-verify=foodie.hackclub.com,0215d38601a347a45686
   - vc-domain-verify=forms.phs.hackclub.com,25e08effb0de721c762e
   - vc-domain-verify=fudge.hackclub.com,6141b368441cbcf96cb4
@@ -358,7 +313,7 @@ _vercel:
   - vc-domain-verify=poolesville.hackclub.com,d8099895eaea670eec60
   - vc-domain-verify=pomperaug.hackclub.com,115cd4582efb1a6a1d63
   - vc-domain-verify=puyallup.hackclub.com,ee486cad685cefa12fa6
-  - vc-domain-verify=reactive.hackclub.com,dcd146599f4ae3bc6822
+  - vc-domain-verify=reactive.hackclub.com,4517de9b0495e69c92de
   - vc-domain-verify=recapsule.hackclub.com,a58e0d535c6177f43804
   - vc-domain-verify=reflow.hackclub.com,cc069e8cdf1c55762e13
   - vc-domain-verify=register.epochvt.hackclub.com,8e89fd1c0e1dd7045bd5
@@ -369,7 +324,7 @@ _vercel:
   - vc-domain-verify=roulette.hackclub.com,a48c51e6a432477b2386
   - vc-domain-verify=saleh.hackclub.com,cdcc382c0ddbefe586b1
   - vc-domain-verify=smelt.hackclub.com,e984b2fd8b23c434da2f
-  - vc-domain-verify=security.hackclub.com,b005370fba78b1b3b932
+  - vc-domain-verify=security.hackclub.com,69921726ca0e131bb17f
   - vc-domain-verify=share.hackclub.com,8d59dacc58f46585b195
   - vc-domain-verify=simmer.hackclub.com,19a5cdf65fc7aedb7ccb
   - vc-domain-verify=southhighhack.hackclub.com,8cf484f7551780f58ae9
@@ -389,11 +344,17 @@ _vercel:
   - vc-domain-verify=vidisha.hackclub.com,865c18c50e3614795dfc
   - vc-domain-verify=visioneer.hackclub.com,b1bec26133a3a1d74d62
   - vc-domain-verify=vote.visioneer.hackclub.com,eacfb41e3088190eecbf
-  - vc-domain-verify=waffles.hackclub.com,cd0782b9e3c6dbac5af2
   - vc-domain-verify=waveband.hackclub.com,11dbb017182f655585ef
   - vc-domain-verify=wonderland-launch.hackclub.com,2a724b908654f2912e48
   - vc-domain-verify=wonderland.hackclub.com,0c2e35e271cd0c23752d
   - vc-domain-verify=woof.hackclub.com,576b3b21721743d2f9f9
+  - vc-domain-verify=calculate.hackclub.com,2b76d639c0c04dc6b191
+  - vc-domain-verify=premiere.hackclub.com,8abf79e779dd433fe3d4
+  - vc-domain-verify=whimsy.hackclub.com,712b4c3c244883005c42
+  - vc-domain-verify=re-dream.hackclub.com,e11e0d5ca60198a6cf01
+_visual-studio-marketplace-hackatime: # U07VC9705D4
+  type: TXT
+  value: 729d4142-7fd4-491e-9046-43c46cb4fa66
 accelerate: # alexvd@hackclub.com U0823F39GV8
   type: CNAME
   value: 3fcc401d15602ca0.vercel-dns-016.com.
@@ -434,12 +395,8 @@ _gh-ACT-Hack-Club-o.act:
   type: TXT
   value: 346a2cce9c
 adastra:
-- ttl: 300
-  type: TXT
+- type: TXT
   value: bit.ly/adastrahacks
-aegis: # echo@hackclub.com U080A3QP42C
-  type: CNAME
-  value: f39eb094b39a82a0.vercel-dns-016.com.
 aesthetic:
   type: CNAME
   value: 2046a0f486026442.vercel-dns-016.com.
@@ -447,16 +404,13 @@ ai: # mahad@hackclub.com U059VC0UDEU
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
 docs.ai: # mahad@hackclub.com U059VC0UDEU
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: 0398d53533e1257d.vercel-dns-016.com.
 status.ai: # mahad@hackclub.com U059VC0UDEU
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: iq0ikevj.up.railway.app.
 airbridge:
   octodns:
@@ -468,12 +422,16 @@ airlock: # manitej@hackclub.com
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: A
   value: 178.156.142.136
-alexandria:
-- ttl: 300
+alchemize: # mahasankarshant@gmail.com U096RMRG03G
+- type: CNAME
+  value: b.selfhosted.hackclub.com.
+notifications.alchemize:  # aoishikkhan@gmail.com U0A5NKH93BJ & POC: josias@hackclub.com U01PJ08PR7S
   type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
+alexandria:
+- type: CNAME
   value: 12ahmedashraf.github.io.
 alley:
 - octodns:
@@ -482,26 +440,20 @@ alley:
   type: CNAME
   value: a.selfhosted.hackclub.com.
 aloha:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: epic-mcnulty-0ed53c.netlify.app.
 alopb:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.vercel-dns.com.
 _github-challenge-ALOPB-Hack-Club-org.alopb:
-- ttl: 300
-  type: TXT
+- type: TXT
   value: 8c323c2c39
 alpharetta:
-- ttl: 300
-  type: A
+- type: A
   value: 104.248.78.24
-- ttl: 300
-  type: TXT
+- type: TXT
   value: v=spf1 include:_spf.google.com ~all
-- ttl: 300
-  type: MX
+- type: MX
   values:
   - exchange: aspmx.l.google.com.
     preference: 1
@@ -514,9 +466,8 @@ alpharetta:
   - exchange: alt4.aspmx.l.google.com.
     preference: 10
 alpine:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: 7fda3a1f50ff7231.vercel-dns-016.com.
 ambassador: # leo@hackclub.com U07BLJ1MBEE
 - octodns:
     cloudflare:
@@ -542,85 +493,76 @@ amiigo: # nathan@hackclub.com
   type: CNAME
   value: a.selfhosted.hackclub.com.
 amity:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: b7b5adc9.hackclub.pages.dev.
 anansi:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: be1d0f8f89b7f7e1.vercel-dns-016.com.
 anchor:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: 30a6ff8d9f3c328a.vercel-dns-016.com.
 angelhacks:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: 18cadf91c1eccd94.vercel-dns-016.com.
 angelhacks-toronto:
-  ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 angelhacks-yyz:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: ffa02a6c0ac70a16.vercel-dns-016.com.
 angelhacksba:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: 2fa68a7b23da480b.vercel-dns-016.com.
 angelhacksla:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: f170386832a71422.vercel-dns-016.com.
 angelhacksto:
-- ttl: 300
+- type: CNAME
+  value: ffa02a6c0ac70a16.vercel-dns-016.com.
+anvil: # ascpixi@hackclub.com U082DPCGPST
+  octodns:
+    cloudflare:
+      proxied: true
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a.ingress.tier2.infra.hackclub.com.
 apacdirectory:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: d504d7ff43570fc2.vercel-dns-016.com.
 apex:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: c005983048958125.vercel-dns-016.com.
 api2:
   octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.limited.selfhosted.hackclub.com.
 apocalypse:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: aa060dd312321f2d.vercel-dns-016.com.
 bunker.apocalypse:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.vercel-dns.com.
 app:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 apply:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 8166b11b0711c97f.vercel-dns-016.com.
 appzap:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-arcade-wrapped:
-- ttl: 300
+arcadai: # jared@hackclub.com / lynn@hackclub.com
   type: CNAME
+  value: 29b87a62834320fb.vercel-dns-016.com.
+arcade-wrapped:
+- type: CNAME
   value: cname.vercel-dns.com.
 arcana: #manitej@hackclub.com
 - octodns:
@@ -632,76 +574,60 @@ archive:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: 493d65b3-2040-4db2-af28-ea33c026beb5.cfargotunnel.com.
 are-we-there-yet: # owned by @msw (max@hackclub.com)
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.identity.selfhosted.hackclub.com.
 arena:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: 9036d1a8d9157543.vercel-dns-017.com.
 backend.arena:
-  ttl: 300
   type: CNAME
   value: fd39bf74a906c3be.vercel-dns-017.com.
+ari: # nathan@hackclub.com
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
+webhooks.ari: # nathan@hackclub.com
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 armed:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-arsenic:
-- ttl: 300
-  type: CNAME
-  value: arsenic-club.github.io.
-_gh-arsenobetaine-o.arsenic:
-- ttl: 300
-  type: TXT
-  value: 1f595876ef
-_github-pages-challenge-arsenic-club.arsenic:
-- ttl: 300
-  type: TXT
-  value: e46c397c5bd751389a024480dbb07b
-link.arsenic:
-- ttl: 300
-  type: CNAME
-  value: cname.short.io.
-aryan:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
 ascend:
-- ttl: 300
-  type: CNAME
+- type: CNAME
+  value: cname.vercel-dns.com.
+ascension: # joysu2008@gmail.com U09G78T3MM2
+- type: CNAME
   value: cname.vercel-dns.com.
 asia-summit:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: b03bd931b824779d.vercel-dns-016.com.
 asiaconf:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: b03bd931b824779d.vercel-dns-016.com.
 asiasummit:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: b03bd931b824779d.vercel-dns-016.com.
 asiet:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: 29c7cdfcbcdf0161.vercel-dns-017.com.
 asmgame:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: A
   values:
   - 185.199.108.153
@@ -709,147 +635,118 @@ asmgame:
   - 185.199.110.153
   - 185.199.111.153
 assemble:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: ff46b6088ab1950d.vercel-dns-016.com.
 assemble-images:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: d2s86edbprw1zc.cloudfront.net.
 _65244219885cf4f9a5b8765b58e0807a.assemble-images:
 - octodns:
     cloudflare:
       proxied: false
-  ttl: 300
   type: CNAME
   value: _062a94fad0c28f72c88b05c7724484ce.wsqgzrdths.acm-validations.aws.
 feed.assemble:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: 9c24c501d118fe1a.vercel-dns-016.com.
 id.assemble:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: af42b3ea633dbd9c.vercel-dns-016.com.
 api.id.assemble:
-  ttl: 300
   type: A
   value: 173.255.212.205
 mail.assemble:
-- ttl: 300
-  type: TXT
+- type: TXT
   value: v=spf1 include:mailgun.org ~all
 smtp._domainkey.mail.assemble:
-- ttl: 300
-  type: TXT
+- type: TXT
   value: k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDEEhn+RqVZ0JyEzyjhXDPbqNr3yEUBAY1etOwaHxKCzRbJarGsbjtuyDhMaK7fqJOOqrUDyCfb2M14WtyqydYNKSw3qQpgHAmLsK5TPftGhnJxZSah2fPlLEqPH1UW/GhRRq0MP4k/J+/FUf7C7CKBlHt9qbvtRrp3V964xGUgzwIDAQAB
 music.assemble:
-- ttl: 300
-  type: A
+- type: A
   value: 192.9.235.142
 preflight.assemble:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: f10d2fbccdff8ad4.vercel-dns-016.com.
 register.assemble:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 49ac53df65c15b11.vercel-dns-016.com.
 scrapbook.assemble:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: 898a81e2c5eed0c1.vercel-dns-016.com.
 ticketing.assemble:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: f10d2fbccdff8ad4.vercel-dns-016.com.
 ticketing-dev.assemble:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: f10d2fbccdff8ad4.vercel-dns-016.com.
 assets:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: fe3f1381c9138a70.vercel-dns-016.com.
 _496c10c564509e5030203691afc939ff.assets:
 - octodns:
     cloudflare:
       proxied: false
-  ttl: 300
   type: CNAME
   value: _41e1bb1944485ecaba9d0990915cded3.nhqijqilxf.acm-validations.aws.
 astra:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: astra2-ops.github.io.
 asw:
-- ttl: 300
-  type: A
+- type: A
   value: 67.217.241.159
-- ttl: 300
-  type: TXT
+- type: TXT
   value: google-site-verification=d_K6jzYREeilfewHLzAj968pU2v_z1ZBY1aNrXSt_Pg
 asylum:
-  ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 athena:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 award.athena:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 awards.athena:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 express.athena:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 oscillart.athena:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: celesteroselli.github.io.
 tribute.athena:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 attend: # leo@hackclub.com
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: a.ingress.tier2.infra.hackclub.com.
 aurora:
   type: CNAME
   value: 3dda976f1961c3e4.vercel-dns-016.com.
 austin:
-  ttl: 300
   type: CNAME
   value: edge.redirect.pizza.
 australia:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: fa84e69b8d26cf77.vercel-dns-016.com.
 auth: # nora@hackclub.com U06QK6AG3RD
 - octodns:
     cloudflare:
@@ -857,27 +754,22 @@ auth: # nora@hackclub.com U06QK6AG3RD
   type: CNAME
   value: a.identity.selfhosted.hackclub.com.
 authly:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: dandililacs.github.io.
 av:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: avhc.netlify.com.
 award:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 awards:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: 5a4b2a500b2c5de5.vercel-dns-016.com.
 awest:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.vercel-dns.com.
 axiom: # tanjimkamal1@gmail.com U09ASUK57K8
   type: CNAME
@@ -886,20 +778,17 @@ az:
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
 b2b:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: nitishsai9.github.io.
 badge: # leo@hackclub.com U07BLJ1MBEE
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 bag:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: c1d487f11a10ad5d.vercel-dns-016.com.
 bag-api:
   octodns:
     cloudflare:
@@ -907,29 +796,23 @@ bag-api:
   type: CNAME
   value: bag-api.a.selfhosted.hackclub.com.
 bakebuild:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 55f396d5620fbcb8.vercel-dns-016.com.
 bank:
-  ttl: 300
   type: CNAME
   value: 11cecfc3c082c480.vercel-dns-016.com.
 bank-bloggers:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: db29e9c055927060.vercel-dns-016.com.
 bank-og:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: ddc41b9500cc3d6f.vercel-dns-016.com.
 bank-parse:
-  ttl: 300
   type: MX
   value:
     exchange: mx.sendgrid.net.
     preference: 10
 bank-receipts:
-  ttl: 300
   type: MX
   value:
     exchange: mx.sendgrid.net.
@@ -941,31 +824,25 @@ bank-shields:
   type: CNAME
   value: a.selfhosted.hackclub.com.
 bank-wrapped:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: e66c762c37f73884.vercel-dns-016.com.
 changelog.bank:
-  ttl: 300
   type: CNAME
   value: hcb-proxy.servers.hackclub.com.
 help.bank:
-  ttl: 300
   type: CNAME
   value: hcb-proxy.servers.hackclub.com.
 barracoders:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: barracoders.netlify.app.
 bauble: #alexvd@hackclub.com
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 bbss:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: bbsshackclub.netlify.app.
 beast: #euan@hackclub.com
 - octodns:
@@ -977,7 +854,6 @@ beat: #alexvd@hackclub.com
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 beest: #euan@hackclub.com
@@ -987,63 +863,54 @@ beest: #euan@hackclub.com
   type: CNAME
   value: b.selfhosted.hackclub.com.
 berkeley:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: berkeleyhackclub.github.io.
 berman:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: bermanclub.pages.dev.
 beta: # echo@hackclub.com U080A3QP42C
   type: CNAME
   value: 6cdac7be6b2e933b.vercel-dns-016.com.
-better-airtable-mcp: # zach@hackclub.com
+better-airtable-mcp: # augie@hackclub.com U07FCRNHS1J
 - octodns:
     cloudflare:
       proxied: false
-  ttl: 300
   type: CNAME
-  value: a.limited.selfhosted.hackclub.com.
+  value: 400j0g.k.hackclub.dev.
 better-brightdata-mcp:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
 bewacky:
-- ttl: 300
-  type: TXT
+- type: TXT
   value: google-site-verification=_AfYSUQq4dxxSKw--f3ebARfekOtG3w3jIRdky4ry_g
+big-brother: # @msw max@hackclub.com
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 bio:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: e8be12da5210c6dc.vercel-dns-016.com.
 birthday:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.vercel-dns.com.
 birthday-cards:
   type: CNAME
   value: e4c96ee8cb8a840b.vercel-dns-016.com.
 birthdays:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.vercel-dns.com.
 bisv:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: pkalavath.github.io.
 bitstream:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: ab6cf902bfa9dac8.vercel-dns-016.com.
 editor.bitstream:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 6b3e5520515c05d6.vercel-dns-016.com.
 bkbiet:
-  ttl: 300
   type: CNAME
   value: bkbiethackclub.netlify.com.
 blackbox:
@@ -1055,6 +922,9 @@ blackbox:
 blair:
   type: CNAME
   value: cname.vercel-dns.com.
+blare: #U08EUSU38VC liam@hackclub.com
+- type: CNAME
+  value: 0ccb2c845a82c668.vercel-dns-016.com.
 blinky: # @CAN
 - octodns:
     cloudflare:
@@ -1062,25 +932,21 @@ blinky: # @CAN
   type: CNAME
   value: a.selfhosted.hackclub.com.
 blossom:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: 057c6998a924c2b8.vercel-dns-016.com.
 blot:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 bls:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: v-iinh.github.io.
 blueprint: # @Jay U08AA6HA82F
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: A
   value: 5.161.100.52
 - ttl: 3600
@@ -1109,65 +975,60 @@ bn:
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
 boba:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: hackclub.github.io.
 shop.boba:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: ea0805f0bfd345eb.vercel-dns-016.com.
 workshop.boba: # U020X4GCWSF
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: f3bee60fd737044f.vercel-dns-016.com.
 boot: #beanoantenucci@gmail.com U08U12MNF97
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: 8a20a1df3704dab0.vercel-dns-017.com.
 boreal:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: f0e3a8697d89f815.vercel-dns-016.com.
 bounce:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: custom-email-domain.stripe.com.
-branch:
-- ttl: 300
+boxbay: # U083W5CCFDG joaquin@hackclub.com
   type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
+branch:
+- type: CNAME
   value: 7f6ac627cb1e65e3.vercel-dns-017.com.
 brasil:
-  ttl: 300
   type: CNAME
   value: hack-club-brasil.netlify.app.
+breadboard: # tanishq@hackclub.comU08R4Q9H8EB
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
+bridge: # seb@hackclub.com U07UBCSSQH3
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 bridgeportohio:
-  ttl: 300
   type: TXT
   value: google-site-verification=LyMzKLL_ipFXkYsFq72ycj_fTyHa9A_KY6_-JdmhQxM
 www.bridgeportohio:
-  ttl: 300
   type: CNAME
   value: ghs.googlehosted.com.
 browserbuddy:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: 6ba8f4ef62be7911.vercel-dns-016.com.
 bubble: # jared@hackclub.com U07HEH4N8UV 
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: bc88611c121f3104.vercel-dns-016.com.
 bucky:
 - octodns:
     cloudflare:
       proxied: false
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 bugs:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 buildboard: #alexvd@hackclub.com && dhamari@hackclub.com
@@ -1194,37 +1055,36 @@ unleash.buildboard: #dhamari@hackclub.com
       proxied: true
   type: CNAME
   value: unleash-k8wgsws4sco8gcoscksow0o4.a.selfhosted.hackclub.com.
+builders-club: # soonk@hacklub.com
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 bulc:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: 5637f2843e643c1a.vercel-dns-016.com.
 bunbougu:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: applepieeeeee.github.io.
-busan:
-- ttl: 300
-  type: CNAME
-  value: hackclub-busan.netlify.app.
-butwal:
-- ttl: 300
-  type: CNAME
-  value: 30afd38e920ad4c7.vercel-dns-017.com.
 byte:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: byteclub.netlify.app.
 byteclub:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: 5637f2843e643c1a.vercel-dns-016.com.
 cabbache:
   type: CNAME
   value: cabbache.ddnsking.com.
-cad:
-- ttl: 300
+cachet: # max@hackclub.com / U09UQ385LSG
+  octodns:
+    cloudflare:
+      proxied: true
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a.ingress.tier2.infra.hackclub.com.
+cad:
+- type: CNAME
+  value: 88dfb11d048291c8.vercel-dns-016.com.
 caffeinecrash:
   octodns:
     cloudflare:
@@ -1249,20 +1109,28 @@ hq.cal: # leo@hackclub.com U07BLJ1MBEE
       proxied: true
   type: CNAME
   value: b.selfhosted.hackclub.com.
+calculate: # candyisakat@gmail.com U082PKSD15L
+- ttl: 600
+  type: CNAME
+  value: 084f9b3358c26923.vercel-dns-017.com.
 calendar:
-  ttl: 300
   type: CNAME
   value: ghs.googlehosted.com.
-camp: # jenin@hackclub.com // U0926UASBJ7 
+camp: # jenin@hackclub.com // U0926UASBJ7
   octodns:
     cloudflare:
       proxied: true
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: a.ingress.tier2.infra.hackclub.com.
 camp-apply:
-  ttl: 300
   type: CNAME
   value: hackcamp-apply.netlify.com.
+dash.camp: # jenin@hackclub.com // U0926UASBJ7
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 campfire: # leafd@hackclub.com
 - octodns:
     lenient: true
@@ -1293,48 +1161,37 @@ campfire-flagship: # augie@hackclub.com
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: 8e80d9e700d71a77.vercel-dns-016.com.
 acrvg6z4frlb4a3cofgibi6hcvtlnfp6._domainkey.campfire:
-  ttl: 300
   type: CNAME
   value: acrvg6z4frlb4a3cofgibi6hcvtlnfp6.dkim.amazonses.com.
 i5sinlqus3u2e5opzvqbdel3habdi7sk._domainkey.campfire:
-  ttl: 300
   type: CNAME
   value: i5sinlqus3u2e5opzvqbdel3habdi7sk.dkim.amazonses.com.
 mlcztkphxy4lhwqwg3tvwchoqgwr3pxx._domainkey.campfire:
-  ttl: 300
   type: CNAME
   value: mlcztkphxy4lhwqwg3tvwchoqgwr3pxx.dkim.amazonses.com.
 flagship.campfire: # augie@hackclub.com
-  ttl: 300
   type: CNAME
   value: 8e80d9e700d71a77.vercel-dns-016.com.
 portal.flagship.campfire: # leo@hackclub.com U07BLJ1MBEE
-  ttl: 300
   type: CNAME
   value: 8e80d9e700d71a77.vercel-dns-016.com.
 overdrive.campfire: # leafd@hackclub.com
-  ttl: 300
   type: CNAME
   value: 178c80c8381b842c.vercel-dns-016.com.
 storyboard.campfire:  # leafd@hackclub.com
-  ttl: 300
   type: CNAME
   value: bde32d57691aa97e.vercel-dns-016.com.
 training.campfire: # U022XFD2TML
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: 623fdbd4a63253ef.vercel-dns-016.com.
 tutorial.campfire: # deven@hackclub.com
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: 23f9766d334e905c.vercel-dns-016.com.
 capsule:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.vercel-dns.com.
 carnival:
 - octodns:
@@ -1351,29 +1208,26 @@ carnival-staging:
 cascade:
   type: CNAME
   value: 2ece7ab0ecc306c7.vercel-dns-016.com.
+catgirl: # foxmoss@hackclub.com
+- type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 catlin:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: catlin.netlify.app.
 cccs:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a7e5de3b1ac8621c.vercel-dns-016.com.
 cchs:
-  ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 holiday2022.cchs:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.vercel-dns.com.
 more.cchs:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.vercel-dns.com.
 ccn:
-- ttl: 300
-  type: MX
+- type: MX
   values:
   - exchange: aspmx.l.google.com.
     preference: 1
@@ -1386,8 +1240,7 @@ ccn:
   - exchange: alt4.aspmx.l.google.com.
     preference: 10
 ccshc:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cmshc.github.io.
 cdn: # nora@hackclub.com U06QK6AG3RD
 - octodns:
@@ -1395,42 +1248,37 @@ cdn: # nora@hackclub.com U06QK6AG3RD
       proxied: true
   type: CNAME
   value: a.limited.selfhosted.hackclub.com.
-cec:
-- ttl: 300
+cdn-tools: # zach@hackclub.com
   type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
+cec:
+- type: CNAME
   value: clphscec.web.app.
 cecclphs:
-- ttl: 300
-  type: TXT
+- type: TXT
   value: google-site-verification=_c3oOWsKBUxlmaanXeqC1tBTLNZGflwsEMQQiuP-EUM
 ceiling: # tongyu@hackclub.com U07DJMFAQQP
-- ttl: 300
-  octodns:
+- octodns:
     cloudflare:
       proxied: true
   type: CNAME
   value: 32fc8a9e82d43fef.vercel-dns-016.com.
 celestial:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.vercel-dns.com.
 cgc:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: hackclubcgc.netlify.app.
 cghs:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cghs-hackclub.github.io.
 _github-pages-challenge-cghs-hackclub.cghs:
-- ttl: 300
-  type: TXT
+- type: TXT
   value: a1704fb19aca2f4b785803f2f2edb8
 challenger: # U08RWM5U4L9
   octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 charon:
@@ -1440,31 +1288,31 @@ charon:
   type: CNAME
   value: a.selfhosted.hackclub.com.
 docs.charon:
-  ttl: 300
   type: CNAME
   value: hackclub.github.io.
+chipless: #U08EUSU38VC liam@hackclub.com
+- type: CNAME
+  value: 98cee3ead75bbbf7.vercel-dns-016.com.
 christinaday2020:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: hackclub.github.io.
 churchill:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: hackclub-ej5rl3bqj.now.sh.
 cider:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: f20283bce785ff90.vercel-dns-016.com.
 cinema:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: dandililacs.github.io.
 cken:
-- ttl: 300
-  type: A
+- type: A
   value: 52.191.165.18
+clam: # mihir@hackclub.com U0BC86VAYT0
+- type: A
+  value: 141.148.195.78
+  ttl: 600
 bag.client:
-  ttl: 300
   type: A
   value: 34.49.72.119
 clubapi: #ivie@hackclub.com @Charmunk
@@ -1477,18 +1325,21 @@ clubdash:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-clubsite: #jared@hackclub.com U07HEH4N8UV
-- ttl: 300
+clubs: # dhyan@hackclub.com // U0824G9PTFE
+- octodns:
+    cloudflare:
+      proxied: true
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a.ingress.tier2.infra.hackclub.com.
+clubsite: #jared@hackclub.com U07HEH4N8UV
+- type: CNAME
+  value: a4c912838eb0ecb4.vercel-dns-016.com.
 clutter:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 cmd-k:
@@ -1498,16 +1349,13 @@ cockpit: # leafd@hackclub.com @lfd
 - octodns:
     cloudflare:
       proxied: false
-  ttl: 300
   type: A
   value: 5.161.244.66
 codeabit:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: codeabitkw.github.io.
 codecafe:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.vercel-dns.com.
 codequest:
   octodns:
@@ -1516,30 +1364,31 @@ codequest:
   type: CNAME
   value: a.selfhosted.hackclub.com.
 codethetech:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: codethetech.github.io.
+codex: # alexren@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 coeur: # olive@hackclub.com @Olive @Ghost of L87 (Lynn)
   octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: 24bb8e539241bbef.vercel-dns-016.com.
 coins:
-- ttl: 300
-  type: A
+- type: A
   value: 173.208.140.124
 comms:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 conant:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: Conant-Hack-Club.github.io.
 conduct:
 - type: TXT
@@ -1562,43 +1411,35 @@ conduct:
   - exchange: alt4.aspmx.l.google.com.
     preference: 10
 conduct-test:
-- ttl: 300
-  type: MX
+- type: MX
   values:
   - exchange: inbound-smtp.us-east-1.amazonaws.com.
     preference: 10
-- ttl: 300
-  type: TXT
+- type: TXT
   value: v=spf1 include:amazonses.com ~all
 _amazonses.conduct-test:
-  ttl: 300
   type: TXT
   values:
   - HksJ0gd1gWz4VAeLw/ZnKRgJKR1ndUIlF8E7BMXioI8=
 ckag6kd47cfmvkhvvyy4licplz3nlev2._domainkey.conduct-test:
-  ttl: 300
   type: CNAME
   value: ckag6kd47cfmvkhvvyy4licplz3nlev2.dkim.amazonses.com.
 gyfaieadefoity2i3m2aif6evdmlll2j._domainkey.conduct-test:
-  ttl: 300
   type: CNAME
   value: gyfaieadefoity2i3m2aif6evdmlll2j.dkim.amazonses.com.
 v47vtmhk3bv6ue4o2tspk6lfbbqs374u._domainkey.conduct-test:
-  ttl: 300
   type: CNAME
   value: v47vtmhk3bv6ue4o2tspk6lfbbqs374u.dkim.amazonses.com.
 congress:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 congressional:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 congressional-showcase: #CAN
@@ -1620,32 +1461,27 @@ construct: # U07H3E1CW7J
   type: CNAME
   value: a.selfhosted.hackclub.com.
 contact-helper:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.vercel-dns.com.
 contribute:
   type: CNAME
   value: a24852c05886029b.vercel-dns-016.com.
 converge:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: 8df02671b8ee6675.vercel-dns-016.com.
-convert:
+convert: # @msw max@hackclub.com — migrated to Orchard
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: a.ingress.tier2.infra.hackclub.com.
 convert-backend:
-- ttl: 300
-  type: A
+- type: A
   value: 104.36.86.12
 coolify-conductor:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 cornelius: #CAN
@@ -1677,12 +1513,10 @@ counterspell:
   - exchange: alt4.aspmx.l.google.com.
     preference: 10
 coxmill:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: modest-swanson-0a9aa6.netlify.app.
 craft:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: craft-ept.pages.dev.
 craftr:
 - octodns:
@@ -1706,27 +1540,21 @@ css-starter:
   type: CNAME
   value: 76b3c318aa347add.vercel-dns-016.com.
 ctf:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: zealous-booth-dc1397.netlify.app.
 portal.ctf:
-  ttl: 300
   type: A
   value: 167.99.110.64
 ctrl-alt-tec:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: ctrl-alt-tec.github.io.
 blog.ctrl-alt-tec:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: ctrl-alt-tec.github.io.
 ctrlalttec:
-- ttl: 300
-  type: TXT
+- type: TXT
   value: v=spf1 include:_spf.google.com ~all
-- ttl: 300
-  type: MX
+- type: MX
   values:
   - exchange: aspmx.l.google.com.
     preference: 1
@@ -1739,21 +1567,18 @@ ctrlalttec:
   - exchange: alt4.aspmx.l.google.com.
     preference: 10
 customizer:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: jasonappah.github.io.
 dashboard:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 data: # U07BLJ1MBEE leo
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 daydream:
@@ -1783,7 +1608,6 @@ checkin.daydream:
   type: CNAME
   value: a.selfhosted.hackclub.com.
 help.daydream:
-  ttl: 300
   type: CNAME
   value: 5a32724a08a44e30c47bb5717b4a1986.freshdesk.com.
 itch.daydream:
@@ -1796,37 +1620,30 @@ vote.daydream:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
 daysofservice:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 84733497b6deb720.vercel-dns-016.com.
 de:
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
 dear-joe:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: f888ad30fdf5a183.vercel-dns-016.com.
 descend:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.vercel-dns.com.
 dessert:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.vercel-dns.com.
 devhacks:
-- ttl: 300
-  type: TXT
+- type: TXT
   values:
   - v=spf1 include:_spf.google.com ~all
   - google-site-verification=6kNb9Tf56I4fGzIVUN9lFs_yg7HtJ-qMCd5lZeLrJvI
   - google-site-verification=zqMYOQZ_242uBdQe_7FEwpMnV08ngyIn9VCqy8CCf3o
-- ttl: 300
-  type: MX
+- type: MX
   values:
   - exchange: aspmx.l.google.com.
     preference: 1
@@ -1839,8 +1656,7 @@ devhacks:
   - exchange: aspmx3.googlemail.com.
     preference: 10
 devzat:
-- ttl: 300
-  type: A
+- type: A
   value: 150.136.142.44
 dinobags: # amber / U054VC2KM9P
 - type: A
@@ -1850,42 +1666,34 @@ dinobags: # amber / U054VC2KM9P
   - exchange: mx.sendgrid.net.
     preference: 10
 _dmarc.dinobags: # amber / U054VC2KM9P
-- ttl: 300
-  type: TXT
+- type: TXT
   value: v=DMARC1\; p=quarantine\; rua=mailto:6192c543e0e61@ag.dmarcly.com\; ruf=mailto:6192c543e0e61@fo.dmarcly.com\; fo=1\;
 s1._domainkey.dinobags: # amber / U054VC2KM9P
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: s1.domainkey.u57277233.wl234.sendgrid.net.
 s2._domainkey.dinobags: # amber / U054VC2KM9P
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: s2.domainkey.u57277233.wl234.sendgrid.net.
 em9932.dinobags: # amber / U054VC2KM9P
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: u57277233.wl234.sendgrid.net.
 dinoexplorer:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: internetramen.github.io.
 disconnect:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 dockerize:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: 80028c660ac02181.vercel-dns-017.com.
 docs: # leo@hackclub.com U07BLJ1MBEE
 - octodns:
     cloudflare:
       proxied: false
     lenient: true
-  ttl: 300
   type: ALIAS
   value: 4fc2e0847f-hosting.gitbook.io.
 - type: CAA
@@ -1894,15 +1702,15 @@ docs: # leo@hackclub.com U07BLJ1MBEE
     tag: issue
     value: pki.goog
 donbosco:
-  ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 doomscrolling:
-- ttl: 300
+- type: CNAME
+  value: 0757646c060c7881.vercel-dns-016.com.
+doppel: # jolly@hackclub.com U08CJCZ2Z9S & katiesue@hackclub.com U06SQJ508LF
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a.ingress.tier2.infra.hackclub.com.
 dorman:
-  ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 downscale: # augie@hackclub.com
@@ -1915,48 +1723,38 @@ draw-dino: # josias@hackclub.com U01PJ08PR7S & hc+dns@matmanna.dev U07VA44DNBA
   type: CNAME
   value: b.selfhosted.hackclub.com
 drive:
-  ttl: 300
   type: CNAME
   value: ghs.googlehosted.com.
 dsc:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.vercel-dns.com.
 dseu:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: 5637f2843e643c1a.vercel-dns-016.com.
 duk:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 5637f2843e643c1a.vercel-dns-016.com.
 dummies:
   octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 dv:
-  ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 earlybird:
-  ttl: 300
   type: CNAME
   value: early-bird-hackclub.netlify.com.
 easel:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 46c19d5618208b3e.vercel-dns-016.com.
 ecolint:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.vercel-dns.com.
 editor:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: bf3649f1e8067e71.vercel-dns-016.com.
 ee:
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
@@ -1967,15 +1765,15 @@ el:
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
 elapsed: # U0A9B38F413
-  ttl: 300
   type: CNAME
   value: 91e515501c1f1d5b.vercel-dns-017.com.
+ellipse: #U078JCFHQ3D lola@hackclub.com
+  type: CNAME
+  value: bc51e0dc2ab550ee.vercel-dns-016.com.
 em4440: # SendGrid Sender Authentication (bank@hackclub.com)
-  ttl: 300
   type: CNAME
   value: u14148987.wl238.sendgrid.net.
 em6326:
-  ttl: 300
   type: CNAME
   value: u9906371.wl122.sendgrid.net.
 email-tools: # owned by zach latta (zach@hackclub.com)
@@ -1985,7 +1783,6 @@ email-tools: # owned by zach latta (zach@hackclub.com)
   type: CNAME
   value: a.limited.selfhosted.hackclub.com.
 ember:
-  ttl: 300
   type: CNAME
   value: 775a47043c4456c9.vercel-dns-016.com.
 emerge:
@@ -1995,14 +1792,12 @@ emerge:
   type: CNAME
   value: a.selfhosted.hackclub.com.
 emporium:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: 27cbbde38306f198.vercel-dns-016.com.
 enclosure: #U082UPTRQU8
   octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: 1fbf4c79a7c97461.vercel-dns-016.com.
 encrypted-share: # zach@hackclub.com
@@ -2012,33 +1807,29 @@ encrypted-share: # zach@hackclub.com
   type: CNAME
   value: a.limited.selfhosted.hackclub.com.
 endpointer:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: 793ca34752d16877.vercel-dns-016.com.
+entropy: # arcadewise@hackclub.com
+- type: CNAME
+  value: efdb005facf9b68c.vercel-dns-016.com.
 envelope: # for loops.so spf & dmarc
-- ttl: 300
-  type: MX
+- type: MX
   values:
   - exchange: feedback-smtp.us-east-1.amazonses.com.
     preference: 1
-- ttl: 300
-  type: TXT
+- type: TXT
   values:
   - v=spf1 include:amazonses.com ~all
 eolink:
-  ttl: 300
   type: CNAME
   value: r.eu-west-1.awstrack.me.
 _amazonses.eolink:
-  ttl: 300
   type: TXT
   value: Qj803CVcEZ4b2gkiCMipcGEtiqoJaZ8SuRAjrVBSXGw=
 eomail:
-  ttl: 300
   type: CNAME
   value: custom.eomail2.com.
 _amazonses.eomail:
-  ttl: 300
   type: TXT
   value: zvhU+nmwbPu8akoL5EfwI/w1nXiQLhs/3XiBG4HcCDc=
 epoch:
@@ -2064,9 +1855,8 @@ epoch:
   - exchange: aspmx4.googlemail.com.
     preference: 10
 register.epoch:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 3eb5f7c5c3e9b5cb.vercel-dns-016.com.
 epochba:
 - type: A
   value: 216.150.1.1 # Vercel
@@ -2089,17 +1879,14 @@ epochba:
   - exchange: aspmx4.googlemail.com.
     preference: 10
 mailchannels._domainkey.epochba:
-  ttl: 300
   type: TXT
   value: v=DKIM1\;p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1TbZQHVO955sdVfRbgBgo4BWVmc5D/X8o2h4l7RvcRrcrp9c0YfFc+mstp3dW0bWg0ufnRUfmq0kYpx4mG0+RvSv0/we18WqLhQAaTNmA3joa+0HV9dpFKhKJk+jbU4kGcynJ9mKR/fAwYODZSTmE4lBbGZkB7EC/eaHjBxiGUCsCy2PV/sc1DkxvglnBqNcys3orZ9JmeCKuDNvwnIql9cc89zlZksDZjrsh47zbm+gBlySMhuoD9oo/kebGPJzDohnXSHUKFAEJQUFJ6Gt65Fzv+QRrdm2vvxqOscLxO6dlk/FNl4JuY9DRlr4McmyTZUDzKaMNhKwmBPySyBYkQIDAQAB
 epochvt:
-- ttl: 300
-  type: TXT
+- type: TXT
   values:
   - google-site-verification=HWyFXVqbWiBhhXmtelBsNqKWG7NpamSuE1Pm5xJ79U4
   - v=spf1 include:_spf.google.com include:amazonses.com ~all
-- ttl: 300
-  type: MX
+- type: MX
   values:
   - exchange: aspmx.l.google.com.
     preference: 1
@@ -2114,31 +1901,24 @@ epochvt:
   - exchange: aspmx4.googlemail.com.
     preference: 10
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey.epochvt:
-  ttl: 300
   type: CNAME
   value: a5fj644skxexxgvvraqrag5ngcaovcny.dkim.amazonses.com.
 ddze3tkuawtlnbviwym44yhrjczhqzxw._domainkey.epochvt:
-  ttl: 300
   type: CNAME
   value: ddze3tkuawtlnbviwym44yhrjczhqzxw.dkim.amazonses.com.
 google._domainkey.epochvt:
-  ttl: 300
   type: TXT
   value: v=DKIM1\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAm24gOXYmuCx1b3faIwxeRtzaloKPCKVMHmTGIXeQWRlUpvAWfjhdPGQIclYHcJV6eO85eXiKTzpxiyKKbbMk/5gaZCt7RLLes0y7rscX13jNB8uVQcUJsf99Ve5CPCWueNhK2ZXp9C74dkX5dNqeoO1iUnoFgfI4ioKKGn0Vk6GZxHrFjSSycQCYSuf6+azYUksnR+lNsfiJH6fnnLzcDXiur/26l0VB9p3/8KctPsZYty0BgW+c9FntD3TkbEdH3vlDPSRLwZ9wVGs+M2mpmPOM0eEfWqjW4wOZNc7hjmZlhImVR+7A3UytWvdlbRDcSmW5pWw4Tp1/1KmBbXtteQIDAQAB
 kf2tzvncx46ahlhuev6kusbvg5hmymau._domainkey.epochvt:
-  ttl: 300
   type: CNAME
   value: kf2tzvncx46ahlhuev6kusbvg5hmymau.dkim.amazonses.com.
 piobfpwf42smbkxcysnrx7qe5es6f5tp._domainkey.epochvt:
-  ttl: 300
   type: CNAME
   value: piobfpwf42smbkxcysnrx7qe5es6f5tp.dkim.amazonses.com.
 q6vh4lhupwotqenjf4s4ygzyhir3e5ii._domainkey.epochvt:
-  ttl: 300
   type: CNAME
   value: q6vh4lhupwotqenjf4s4ygzyhir3e5ii.dkim.amazonses.com.
 register.epochvt:
-  ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 equinox: #louisa@hackclub.com
@@ -2148,7 +1928,6 @@ es:
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
 essays:
-  ttl: 300
   type: CNAME
   value: hackclub.github.io.
 euan: # jenin@hackclub.com; POC=dhamari
@@ -2160,7 +1939,6 @@ euan: # jenin@hackclub.com; POC=dhamari
 events: # leo@hackclub.com
 - octodns:
     lenient: true
-  ttl: 300
   type: A
   value: 76.76.21.21
 - ttl: 3600
@@ -2194,36 +1972,30 @@ sign.events:
   type: CNAME
   value: b.selfhosted.hackclub.com.
 evergreen:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.vercel-dns.com.
 evoking:
-  ttl: 300
   type: CNAME
   value: evokinghc.netlify.app.
 explorpheus:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 extensify:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 fa:
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
 fab:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.vercel-dns.com.
 editor.fab:
-  ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 fallout: # samliu@hackclub.com
@@ -2232,30 +2004,46 @@ fallout: # samliu@hackclub.com
       proxied: true
   type: CNAME
   value: ingress.lfdl.ink.
+lab.fallout: # enigmaticprojectorpheus@proton.me
+  octodns:
+    cloudflare:
+      proxied: true
+  type: A
+  value: 158.220.92.237
+lets.fallout: # samliu@hackclub.com anson@hackclub.com
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 fanpage:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 fett: # jared@hackclub.com U07HEH4N8UV 
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: bc88611c121f3104.vercel-dns-016.com.
+feud: # emme@hackclub.com U0BELFW91AN
+- type: CNAME
+  value: 173aa21d0ffd2063.vercel-dns-016.com.
 fhs:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.vercel-dns.com.
+fillout-ysws-nps: # zach@hackclub.com
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.limited.selfhosted.hackclub.com.
 finalist:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 finder:
-  ttl: 300
   type: CNAME
   value: finder.netlify.com.
 first: # dhamari@hackclub.com U08RWM5U4L9
@@ -2271,26 +2059,23 @@ fizzy: # zach@hackclub.com
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.limited.selfhosted.hackclub.com.
 flagship: # samliu@hackclub.com
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 flagvote:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 95e66337bccbb841.vercel-dns-016.com.
 flavorless: # nathan@hackclub.com U05EZRFKRV4
   type: CNAME
   value: 21f81c9203897824.vercel-dns-016.com.
 flavortown: # kartikey@hackclub.com U05F4B48GBF
 - type: A
-  value: 5.161.197.219
+  value: 46.225.195.181
   octodns:
     cloudflare:
       proxied: true
@@ -2299,50 +2084,39 @@ flavortown: # kartikey@hackclub.com U05F4B48GBF
   - exchange: mx.sendgrid.net.
     preference: 10
 57277233.flavortown: # amber / U054VC2KM9P
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: sendgrid.net.
 _dmarc.flavortown: # amber / U054VC2KM9P
-- ttl: 300
-  type: TXT
+- type: TXT
   value: v=DMARC1\; p=quarantine\; rua=mailto:6192c543e0e61@ag.dmarcly.com\; ruf=mailto:6192c543e0e61@fo.dmarcly.com\; fo=1\;
 s1._domainkey.flavortown: # amber / U054VC2KM9P
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: s1.domainkey.u57277233.wl234.sendgrid.net.
 s2._domainkey.flavortown: # amber / U054VC2KM9P
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: s2.domainkey.u57277233.wl234.sendgrid.net.
 em4826.flavortown: # amber / U054VC2KM9P
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: u57277233.wl234.sendgrid.net.
 m.flavortown: # amber / U054VC2KM9P
-- ttl: 300
-  type: MX
+- type: MX
   values:
   - exchange: mx.sendgrid.net.
     preference: 10
 _dmarc.m.flavortown: # amber / U054VC2KM9P
-- ttl: 300
-  type: TXT
+- type: TXT
   value: v=DMARC1\; p=quarantine\; rua=mailto:6192c543e0e61@ag.dmarcly.com\; ruf=mailto:6192c543e0e61@fo.dmarcly.com\; fo=1\;
 s1._domainkey.m.flavortown: # amber / U054VC2KM9P
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: s1.domainkey.u57277233.wl234.sendgrid.net.
 s2._domainkey.m.flavortown: # amber / U054VC2KM9P
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: s2.domainkey.u57277233.wl234.sendgrid.net.
 em7749.m.flavortown: # amber / U054VC2KM9P
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: u57277233.wl234.sendgrid.net.
 url3649.flavortown: # amber / U054VC2KM9P
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: sendgrid.net.
 flavourless: # nathan@hackclub.com U05EZRFKRV4
   type: CNAME
@@ -2351,13 +2125,11 @@ flavourtown: # euan@hackclub.com U06T30DNB3L
   type: A
   value: 5.161.197.219
 flhs:
-- ttl: 300
-  type: TXT
+- type: TXT
   values:
   - google-site-verification=A0xGWjiH86GFIwp3kKdwRVCrkc9pCL-su9GGrtYOuGw
   - v=spf1 include:_spf.google.com ~all
-- ttl: 300
-  type: MX
+- type: MX
   values:
   - exchange: aspmx.l.google.com.
     preference: 1
@@ -2370,24 +2142,27 @@ flhs:
   - exchange: alt4.aspmx.l.google.com.
     preference: 10
 flourish:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: reemlifa.github.io.
 foodie:
-  ttl: 300 # narangswarit02@gmail.com POC: ascpixi
   type: CNAME
   value: 4ac2db95a894d00c.vercel-dns-017.com.
 for-reviewers:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: souptik-samanta.github.io.
 forge:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+forge-cdn: # aarav@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
+
 format:
   octodns:
     cloudflare:
@@ -2395,25 +2170,21 @@ format:
   type: CNAME
   value: b.selfhosted.hackclub.com.
 forms:
-  ttl: 300
   type: CNAME
   value: domains.fillout.com.
 fr:
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
 frankensite: #jared@hackclub.com
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: a467c349296635f0.vercel-dns-016.com.
 fraps:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: 7c608a720471ced6.vercel-dns-016.com.
 fraser:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: A
   values:
   - 185.199.108.153
@@ -2430,20 +2201,16 @@ fraud: # echo@hackclub.com U080A3QP42C
   type: CNAME
   value: b.selfhosted.hackclub.com.
 fremont:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: www.fhsprogramming.com.
 front-mail:
-- ttl: 300
-  type: TXT
+- type: TXT
   value: v=spf1 include:sendgrid.net ~all
-- ttl: 300
-  type: MX
+- type: MX
   values:
   - exchange: mx.sendgrid.net.
     preference: 1
 fudge:
-  ttl: 300
   type: CNAME
   value: e6bb05e736c5c4f7.vercel-dns-016.com.
   octodns:
@@ -2459,11 +2226,9 @@ fusering:
   type: CNAME
   value: 71b1e2defbc1af44.vercel-dns-017.com.
 gaither:
-  ttl: 300
   type: CNAME
   value: gaither-hack-club.github.io.
 playlist.gaither:
-  ttl: 300
   type: CNAME
   value: samuel.hackclub.app.
 gamblorpheus: # amber / U054VC2KM9P
@@ -2476,14 +2241,14 @@ game: # arav@hackclub.com U01MPHKFZ7S
   type: CNAME
   value: a.selfhosted.hackclub.com.
 platform.game: # ascpixi@hackclub.com U082DPCGPST
-  type: CNAME
-  value: b.selfhosted.hackclub.com.
-gamebit:
   octodns:
     cloudflare:
-      proxied: true
+      proxied: false
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: b.selfhosted.hackclub.com.
+gamebit: # augie@hackclub.com U07FCRNHS1J
+  type: CNAME
+  value: 5d45dbfec0025afa.vercel-dns-016.com.
 gamedev: # tongyu@hackclub.com U07DJMFAQQP
   type: CNAME
   value: 954c30a6de8e4def.vercel-dns-016.com.
@@ -2491,30 +2256,25 @@ games:
   type: CNAME
   value: 954c30a6de8e4def.vercel-dns-016.com.
 old.games: # augie@hackclub.com U07FCRNHS1J
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: 85fe02d11a27ceed.vercel-dns-016.com.
 gas:
   type: CNAME
   value: 153c5cb71915c27b.vercel-dns-016.com.
 gas.gas.gas:
-  ttl: 300
   type: A
   value: 45.79.179.212
 gaynormccown:
-- ttl: 300
-  type: NS
+- type: NS
   values:
   - ns1.he.net.
   - ns2.he.net.
   - ns3.he.net.
   - ns4.he.net.
   - ns5.he.net.
-- ttl: 300
-  type: TXT
+- type: TXT
   value: google-site-verification=TcGeIFRxxqhW-iuc52dgngRerfT_can9PuSbUN9zClw
-- ttl: 300
-  type: MX
+- type: MX
   values:
   - exchange: aspmx.l.google.com.
     preference: 1
@@ -2527,14 +2287,16 @@ gaynormccown:
   - exchange: alt4.aspmx.l.google.com.
     preference: 10
 _github-challenge-GaynorMcCown.gaynormccown:
-- ttl: 300
-  type: TXT
+- type: TXT
   value: 03c11eee8f
+
 gemini:
   type: CNAME
   value: eb419f3dcb10b323.vercel-dns-016.com.
+genesis: # U083W5CCFDG joaquin@hackclub.com
+  type: CNAME
+  value: ce0074f055b29c12.vercel-dns-016.com.
 geochat:
-  ttl: 300
   type: CNAME
   value: geochat.netlify.com.
 geocoder:
@@ -2547,33 +2309,18 @@ gh-proxy:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
-gharbiya: # gh.hackclub@gmail.com U0666VATMT5
-- ttl: 300
-  type: CNAME
-  value: stemgharbiya.github.io.
 giftbox: # tongyu@hackclub.com U07DJMFAQQP
   octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: 4711668836b198ab.vercel-dns-016.com.
-github-oauth:
-- octodns:
-    cloudflare:
-      proxied: true
-  ttl: 300
-  type: CNAME
-  value: a.selfhosted.hackclub.com.
 glenny:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: bobbedbob.github.io.
 globalcovid:
-  ttl: 300
   type: CNAME
   value: globalcovid.netlify.com.
 golden:
@@ -2589,25 +2336,21 @@ grass:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a628f92777bc527b.vercel-dns-016.com.
 grounded:
   octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: be04b33af5b8d582.vercel-dns-016.com.
 groundplane:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 groups:
-  ttl: 300
   type: CNAME
   value: ghs.googlehosted.com.
 grub:
@@ -2623,55 +2366,46 @@ guides: # reem@hackclub.com U06U80G86H1
   type: CNAME
   value: a.selfhosted.hackclub.com.
 gwas:
-  ttl: 300
   type: CNAME
   value: competent-yonath-7f9d16.netlify.app.
 '*.haas':
-- ttl: 300
-  type: A
+- type: A
   value: 45.55.45.5
-- ttl: 300
-  type: AAAA
+- type: AAAA
   value: 2604:a880:800:10::636:5001
 _acme-challenge.haas:
-  ttl: 300
   type: TXT
   values:
   - WeFHw1rO8PfGWEGAEh9CnfvOhokXXYgK-PD0kbI6RS0
 _github-challenge-hack-as-a-service.haas:
-  ttl: 300
   type: TXT
   value: dc63dbf87b
 status.haas:
-  ttl: 300
   type: A
   value: 34.138.52.92
 hackaccino:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 7c608a720471ced6.vercel-dns-016.com.
+hackachu: # lola@hackclub.com
+  ttl: 600
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 hackapet:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: bc34bb24a2d5be24.vercel-dns-016.com.
 hackarest:
-- ttl: 300
-  type: A
+- type: A
   value: 86.124.168.69
 hackaruto:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: hackaruto.netlify.app.
 hackathon:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.vercel-dns.com.
 hackathons:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: 4f4247fba98f6cdd.vercel-dns-016.com.
 app-1.hackathons:
-  ttl: 300
   type: A
   value: 5.161.229.50
 dash.hackathons:
@@ -2684,34 +2418,27 @@ hackatime: # mahad + msw (max@hackclub.com)
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: hackatime.limited.selfhosted.hackclub.com.
 hackatime-badge:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.vercel-dns.com.
 _dmarc.hackatime:
-  ttl: 300
   type: TXT
   value: v=DMARC1\; p=none # extra lenient while setting up dmarc
 2qdnwxx6mfbqzjwbtkigeofbcfs575pc._domainkey.hackatime:
-  ttl: 300
   type: CNAME
   value: 2qdnwxx6mfbqzjwbtkigeofbcfs575pc.dkim.amazonses.com.
 6oadcgmwgj62jw7hbbunf47rakuy5dgi._domainkey.hackatime:
-  ttl: 300
   type: CNAME
   value: 6oadcgmwgj62jw7hbbunf47rakuy5dgi.dkim.amazonses.com.
 mx3gvrbbxdtyaywpifk3oi47vso6oi3w._domainkey.hackatime:
-  ttl: 300
   type: CNAME
   value: mx3gvrbbxdtyaywpifk3oi47vso6oi3w.dkim.amazonses.com.
 beta.hackatime: # mahad@hackclub.com
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: hackatime.limited.selfhosted.hackclub.com.
 db.hackatime: # mahad@hackclub.com
@@ -2724,26 +2451,21 @@ otel-collector.hackatime: # mahad@hackclub.com
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: hackatime.limited.selfhosted.hackclub.com.
 signoz.hackatime: # mahad@hackclub.com
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: hackatime.limited.selfhosted.hackclub.com.
 hackatsst:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.vercel-dns.com.
 hackaway:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: starlit-cascaron-ab17de.netlify.app.
 hackbeats:
-  ttl: 300
   type: CNAME
   value: csb-yzetpt.vercel.app.
 hackberry:
@@ -2753,23 +2475,18 @@ hackberry:
   type: CNAME
   value: a.selfhosted.hackclub.com.
 hackbox:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 2d6e6b5e4e98c590.vercel-dns-016.com.
 hackcraft:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 77d1240fc50c2ff8.vercel-dns-016.com.
 botfights.hackcraft: # christian on slack U0938MZG8Q6 event under felix
-  ttl: 300
   type: CNAME
   value: 8726bb0e95fb84f0.vercel-dns-017.com.
 server.botfights.hackcraft: #christian on slack U0938MZG8Q6 event under felix
-  ttl: 300
   type: A
   value: 92.222.100.10
 _minecraft._tcp.server.botfights.hackcraft: #  christian on slack U0938MZG8Q6 event under felix
-  ttl: 300
   type: SRV
   value:
     port: 25575
@@ -2783,27 +2500,21 @@ lumen.hackcraft: # ascpixi@hackclub.com U082DPCGPST
   type: CNAME
   value: a.selfhosted.hackclub.com.
 hackducky: #add hackducky
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: 6be30c9fb60ab816.vercel-dns-017.com.
 hackerabad:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: hackerabad.netlify.app.
 hackerspacein:
-  ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 hackfinger:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 7332f90b6af8c8fe.vercel-dns-016.com.
 hackinux:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: d817d467138208c3.vercel-dns-016.com.
 hacklet:
-  ttl: 300
   type: CNAME
   value: a871e4abe6e8b5cf.vercel-dns-017.com.
 hackpad:
@@ -2819,11 +2530,9 @@ hacksaber:
   type: CNAME
   value: a.selfhosted.hackclub.com.
 hackstore:
-  ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 hacktheoctober:
-  ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 hacktks:
@@ -2831,58 +2540,51 @@ hacktks:
   type: CNAME
   value: cname.vercel-dns.com.
 hackvault: # benjamin.graetz@henleyhs.sa.edu.au U0828CN2BL4
-  ttl: 300
   type: CNAME
   value: bennygaming635.github.io.
 _github-pages-challenge-BennyGaming635.hackvault: # benjamin.graetz@henleyhs.sa.edu.au U0828CN2BL4
-- ttl: 300
-  type: TXT
+- type: TXT
   value: eb7c4c7569c1ef4036422ac45273f2
 hacky-holidays:
-  ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 hackyholidays:
-  ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+haj4ever: # Rupnil Codes (rupnil.mondal2+hackclub@gmail.com; slack: U0A4UTULSLE) & Flux3tor (tusharsinha199@gmail.com)
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 halo:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: c408328a709a38b2.vercel-dns-016.com.
 ham:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 6032fcb3b7fa2a29.vercel-dns-016.com.
 hardware:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 harvest:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: aaeba5893cef3800.vercel-dns-016.com.
 haunted:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 8f79124013efc00d.vercel-dns-016.com.
 hauntedhouse:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: d64ebfcb61b7398c.vercel-dns-016.com.
 hauntedto:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: dcd923bb12754ab3.vercel-dns-016.com.
 haxidraw:
-  ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 editor.haxidraw:
-  ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 haxmas: # ivie@hackclub.com, dhamari@hackclub.com
@@ -2895,12 +2597,10 @@ hc-repo:
   octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 hcarc:
-- ttl: 300
-  type: MX
+- type: MX
   values:
   - exchange: ASPMX.L.GOOGLE.COM.
     preference: 1
@@ -2912,28 +2612,22 @@ hcarc:
     preference: 10
   - exchange: ALT4.ASPMX.L.GOOGLE.COM.
     preference: 10
-- ttl: 300
-  type: A
+- type: A
   value: 76.76.21.21
-- ttl: 300
-  type: TXT
+- type: TXT
   values:
   - google-site-verification=xzGbA1OB1AnLPBHMOjrh5qPFZIwXXe-1_ci2GuomAjY
   - v=spf1 include:_spf.google.com -all
 _dmarc.hcarc:
-  ttl: 300
   type: TXT
   value: v=DMARC1\; p=quarantine\;
 key1._domainkey.hcarc:
-  ttl: 300
   type: CNAME
   value: key1.hcarc.hackclub.com._domainkey.migadu.com.
 key2._domainkey.hcarc:
-  ttl: 300
   type: CNAME
   value: key2.hcarc.hackclub.com._domainkey.migadu.com.
 key3._domainkey.hcarc:
-  ttl: 300
   type: CNAME
   value: key3.hcarc.hackclub.com._domainkey.migadu.com.
 hcb:
@@ -2952,16 +2646,13 @@ hcb:
   - google-gws-recovery-domain-verification=49632973
   - yandex-verification=befd33a8f4f21226
 hcb-og:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: ddc41b9500cc3d6f.vercel-dns-016.com.
 _acme-challenge.hcb-test:
-  ttl: 300
   type: TXT
   values:
   - fz1rT4GLzW6a_MNUApgmKL-9VF90xSjTMQg5ZWmgmvw
 _acme-challenge.hcb:
-  ttl: 300
   type: TXT
   values:
   - G8mlLCACopWDnpCSUrM2tcu_rNMpmv3S4va2zTqzWis
@@ -2976,58 +2667,56 @@ blog.hcb: # HCB engineering/blog website
   type: CNAME
   value: a5f4edd87f53e433.vercel-dns-016.com.
 changelog.hcb:
-  ttl: 300
   type: CNAME
   value: headwayapp.co.
 graph.hcb: # echo@hackclub.com U080A3QP42C
   type: CNAME
   value: a393a61874975956.vercel-dns-016.com.
 help.hcb: #alex@hackclub.com, gary@hackclub.com
-  ttl: 300
+- octodns:
+    cloudflare:
+      proxied: true
   type: CNAME
-  value: us.intercomhelpcenter.com.
+  value: custom.intercom.help.
+grants.help.hcb: #alex@hackclub.com, gary@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: custom.intercom.help.
 ingress.hcb:
-- ttl: 300
-  type: A
+- type: A
   value: 5.161.32.67
-- ttl: 1
-  type: AAAA
+- type: AAAA
   value: 2a01:4ff:f1:2d2::1
 amdozjy23iquzlcpjvctd3usceggvkih._domainkey.staging.hcb: # HCB Staging SES DKIM
 - octodns:
     cloudflare:
       proxied: false
-  ttl: 300
   type: CNAME
   value: amdozjy23iquzlcpjvctd3usceggvkih.dkim.amazonses.com.
 qxzidlw3degr5ejxptxl5755zlix7hwc._domainkey.staging.hcb: # HCB Staging SES DKIM
 - octodns:
     cloudflare:
       proxied: false
-  ttl: 300
   type: CNAME
   value: qxzidlw3degr5ejxptxl5755zlix7hwc.dkim.amazonses.com.
 vcejoqk3ugmcla3kub7bfcyn2ktbimhv._domainkey.staging.hcb: # HCB Staging SES DKIM
 - octodns:
     cloudflare:
       proxied: false
-  ttl: 300
   type: CNAME
   value: vcejoqk3ugmcla3kub7bfcyn2ktbimhv.dkim.amazonses.com.
 status.hcb:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.appsignal-status.com.
 transfers.hcb:
-  ttl: 300
   type: TXT
   value: google-site-verification=ozdU6t74W_kUOxJEc1QOQxvU-GkWq7XimWhOmuUW2ic
 ui3.hcb: # gary@hackclub.com
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: 11cecfc3c082c480.vercel-dns-016.com.
 _acme-challenge.ui3.hcb:
-  ttl: 300
   type: TXT
   values:
   - LLPZLAlde42GwtLytAaEQSW__bIemx5nVPJIBgIDPHg
@@ -3035,66 +2724,57 @@ hcer-public-github-data:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 hcpcxc:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 hctg: # samuelf@hackclub.com U04G40QKAAD
-  ttl: 300
   type: CNAME
   value: 845665561e0f1d0c.vercel-dns-017.com.
 hear:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 02f002109495908d.vercel-dns-016.com.
 heist:
   type: CNAME
   value: b.selfhosted.hackclub.com.
 heist-api:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: heist-api.iunstable0.com.
 helm:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: helm-bgh.pages.dev.
 help: # U096RMRG03G -- for #help channel in slack
   type: CNAME
   value: 262fbe4a85815191.vercel-dns-016.com.
+helvetica: # maxhurley@hackclub.com or U078ZJHUKFW
+- type: CNAME
+  value: e4344067818d06d7.vercel-dns-016.com.
 hermes:
-  ttl: 300
   type: CNAME
   value: meghanam4.github.io.
 hersey:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.vercel-dns.com.
 hi:
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
 high-seas:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: 992022aa5b4ad559.vercel-dns-016.com.
 highseas:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: 992022aa5b4ad559.vercel-dns-016.com.
 highseas-donate:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: 992022aa5b4ad559.vercel-dns-016.com.
 highway:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
 hijack:
@@ -3104,15 +2784,12 @@ hijack:
   type: CNAME
   value: a.selfhosted.hackclub.com.
 hillsdale:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: hhshacks.github.io.
 hiring:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: animate-pheasant-b68leqv9y7xrz13060wscb8c.herokudns.com.
 hivemind:
-  ttl: 300
   type: CNAME
   value: hackclub.github.io.
 homelab: # manitej@hackclub.com
@@ -3122,13 +2799,11 @@ homelab: # manitej@hackclub.com
   type: CNAME
   value: a.selfhosted.hackclub.com.
 horizon:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 84055516a4e35820.vercel-dns-016.com.
 horizons: # manitej@hackclub.com
-- ttl: 300
-  type: A
-  value: 5.161.244.66
+- type: A
+  value: 46.225.195.181
 - ttl: 3600
   type: TXT
   values:
@@ -3148,19 +2823,18 @@ horizons: # manitej@hackclub.com
   - exchange: alt4.aspmx.l.google.com.
     preference: 10
 20260315150242pm._domainkey.horizons: # U07BLJ1MBEE
-  ttl: 300
   type: TXT
   value: k=rsa\;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCYaHpuhAWYJoFR+3jCF26WQ6a2g6wFVnG7ivN3VAuub6N8axjZYBvILaWgcgpmrCqpuqoibPEzjIF+/00TvLsBDwPin3Chpo2g15PZdtDFYmZRnajkaaFK+pvqPeuWdQ9Gthz37o3F1Qfd5hFmb10zArQa7bpGLnBetD5TtQywyQIDAQAB
 guides.horizons: # manitej@hackclub.com
-  ttl: 300
   type: A
   value: 5.161.244.66
 pm-bounces.horizons: # U07BLJ1MBEE
-  ttl: 300
   type: CNAME
   value: pm.mtasv.net.
+tickets.horizons: #U056J6JURFF, sofia@hackclub.com
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 '*.hosted':
-  ttl: 300
   type: A
   value: 173.208.140.124
 howiemail:
@@ -3177,19 +2851,16 @@ hsi:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 ia:
-  ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 iaw:
   type: CNAME
   value: iawhackclub.netlify.com.
 ice:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: hackclub.github.io.
 icons: # echo@hackclub.com U080A3QP42C
   type: CNAME
@@ -3201,23 +2872,18 @@ identity:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.identity.selfhosted.hackclub.com.
 docs.identity:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.vercel-dns.com.
 ihs:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.vercel-dns.com.
 illumination:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: 0b4e7cc575f0aff2.vercel-dns-017.com.
 imperial:
-  ttl: 300
   type: CNAME
   value: ihs-hacklab.github.io.
 improving:
@@ -3227,18 +2893,15 @@ improving:
   type: CNAME
   value: a.selfhosted.hackclub.com.
 infill:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 317c390577e92012.vercel-dns-016.com.
 infinity:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 orchard.infra:
-  ttl: 300
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 ticketing.infra:
@@ -3248,47 +2911,39 @@ ticketing.infra:
   type: CNAME
   value: a.limited.selfhosted.hackclub.com.
 a.db.tier2.infra:
-  ttl: 300
   type: CNAME
   value: house.n.tier2.infra.hackclub.com.
+'*.a.db.tier2.infra':
+  type: A
+  value: 46.225.195.182
 _acme-challenge.a.db.tier2.infra:
-  ttl: 300
   type: CNAME
   value: 4cba0c3b-990d-43cc-b47b-fa79d0da8dee.acme.tier2.infra.hackclub.dev.
 a.ingress.tier2.infra:
-  ttl: 300
   type: A
   value: 46.225.195.181
 foreman.n.tier2.infra:
-  ttl: 300
   type: A
   value: 159.69.70.233
 house.n.tier2.infra:
-  ttl: 300
   type: A
   value: 142.132.212.33
 wilson.n.tier2.infra:
-  ttl: 300
   type: A
   value: 142.132.131.244
 a.pub.tier2.infra:
-  ttl: 300
-  type: CNAME
-  value: house.n.tier2.infra.hackclub.com.
+  type: A
+  value: 46.225.195.182
 _acme-challenge.a.pub.tier2.infra:
-  ttl: 300
   type: CNAME
   value: 4cdbebe9-1ead-47c7-8c25-71777b150533.acme.tier2.infra.hackclub.dev.
 registry.tier2.infra: # seb@hackclub.com U07UBCSSQH3
-  ttl: 300
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 coolify.tier3.infra:
-  ttl: 300
   type: CNAME
   value: static.86.92.78.5.clients.your-server.de.
 sideboard.tier3.infra:
-  ttl: 300
   type: CNAME
   value: coolify.tier3.infra.hackclub.com.
 inkling:
@@ -3297,18 +2952,19 @@ inkling:
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
+insertCoin: # gblackburn088@gmail.com
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 intercom-files: #alexd@hackclub.com U02CWS020SD
 - octodns:
     cloudflare:
       proxied: false
-  ttl: 300
   type: CNAME
   value: hack-club-89976b4c824d.intercom-mail.com.
 outbound.intercom: #alexd@hackclub.com U02CWS020SD
 - octodns:
     cloudflare:
       proxied: false
-  ttl: 300
   type: CNAME
   value: rp.hcb-4a1937117a59.intercom-mail.com.
 interns: #leo@hackclub.com U07BLJ1MBEE
@@ -3318,12 +2974,10 @@ interns: #leo@hackclub.com U07BLJ1MBEE
   type: CNAME
   value: a.selfhosted.hackclub.com.
 intranet:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: intranet-72n.pages.dev.
 ip:
-- ttl: 300
-  type: A
+- type: A
   value: 5.161.100.52
 iplace: # ascpixi@hackclub.com U082DPCGPST
 - octodns:
@@ -3360,18 +3014,15 @@ island:
   type: CNAME
   value: a.selfhosted.hackclub.com.
 isthackers:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: isthackers.github.io.
 it:
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
 italia:
-  ttl: 300
   type: A
   value: 185.151.30.185
 iter:
-  ttl: 300
   type: CNAME
   value: hackclubiter.github.io.
 ja:
@@ -3390,25 +3041,24 @@ jackpotstaging: # emmaborghi@hackclub.com U078DFX40A2
   type: CNAME
   value: b.selfhosted.hackclub.com.
 jagiellonbitbrewers:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: jagiellon-bitbrewers.github.io.
 jain:
-  ttl: 300
   type: A
   value: 185.199.108.153
 jam: # echo@hackclub.com U080A3QP42C
   type: CNAME
   value: c29c4353cecbad19.vercel-dns-016.com.
+jamegam: # augie@hackclub.com U07FCRNHS1J
+  type: CNAME
+  value: 9f5a4fca2b7269b9.vercel-dns-016.com.
 jams: # echo@hackclub.com U080A3QP42C
   type: CNAME
   value: c29c4353cecbad19.vercel-dns-016.com.
 jank:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: e5d47d2892b2bea7.vercel-dns-016.com.
 jchs:
-  ttl: 300
   type: CNAME
   value: zealous-perlman-e5eef6.netlify.app.
 jenin-mail: #jenin@hackclub.com
@@ -3418,8 +3068,7 @@ jenin-mail: #jenin@hackclub.com
   type: CNAME
   value: a.selfhosted.hackclub.com.
 jet:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: 93403cee35b42da2.vercel-dns-016.com.
 jobs: # nora@hackclub.com U06QK6AG3RD
 - octodns:
@@ -3427,108 +3076,87 @@ jobs: # nora@hackclub.com U06QK6AG3RD
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
+jolly: # jolly@hackclub.com U08CJCZ2Z9S
+- type: CNAME
+  value: 07b89999ac9f4966.vercel-dns-016.com.
 journey:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 jp:
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
 jpeg:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.vercel-dns.com.
+js2photo: # antonio@hackclub.com U0BCQD74Y03
+- type: CNAME
+  value: f95c9dcc64191877.vercel-dns-016.com.
 js-slash-z:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 jua:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.vercel-dns.com.
 juice:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: 9c6eb1727b6a9124.vercel-dns-016.com.
 jumpstart: #estella@hackclub.com
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.vercel-dns.com.
 daydream.jumpstart:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: themagicfrog.github.io.
 v1.jumpstart:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: themagicfrog.github.io.
 v2.jumpstart: #estella@hackclub.com
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: themagicfrog.github.io.
-jus-study: #adlerauge818+hackclub@gmail.com under euan@hackclub.com
-- octodns:
-    cloudflare:
-      proxied: true
-  type: CNAME
-  value: b.selfhosted.hackclub.com.
 jv:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: awesome-carson-c7b5e3.netlify.com.
-jvv:
-- ttl: 300
-  type: CNAME
-  value: hackjvv.github.io.
+keeb: #U05JNJZJ0BS
+- type: CNAME
+  value: a.selfhosted.hackclub.com.
 keepsake:
-- ttl: 300
   type: CNAME
-  value: tongyu.hackclub.app.
+  value: 474482a022f366c4.vercel-dns-016.com.
 kerala:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: kerala-hackclub.github.io.
 _github-pages-challenge-kerala-hackclub.kerala:
-- ttl: 300
-  type: TXT
+- type: TXT
   value: f39cf4bf21f2e8087c97294b2944e4
 kiit:
-- ttl: 300
   type: CNAME
   value: alpha-9h3.pages.dev.
 kjcmt:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 5637f2843e643c1a.vercel-dns-016.com.
 kmea:
-- ttl: 300
   type: A
   value: 185.199.111.153
 knit:
-- ttl: 300
   type: CNAME
   value: hackclubknit.netlify.app.
 ko:
-  ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 kr:
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
 lambert:
-- ttl: 300
   type: CNAME
   value: lambert-hackclub.vercel.app.
 langjam:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: e92be0877a23dde7.vercel-dns-016.com.
 lapse: # ascpixi@hackclub.com U082DPCGPST
   octodns:
     cloudflare:
@@ -3554,21 +3182,17 @@ api.staging.lapse: # ascpixi@hackclub.com U082DPCGPST
   type: CNAME
   value: a.selfhosted.hackclub.com.
 largo: # largo.hackclub.com
-  ttl: 300
   type: CNAME
   value: lhscoding.github.io.
 lasa:
-- ttl: 300
   type: CNAME
   value: hackclublasa.github.io.
 laslomas:
-- ttl: 300
   type: CNAME
   value: mystifying-torvalds-f8e697.netlify.com.
 leaderboard:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: d504d7ff43570fc2.vercel-dns-016.com.
 leaders: #@Charmunk / ivie@hackclub.com
   octodns:
     cloudflare:
@@ -3576,27 +3200,24 @@ leaders: #@Charmunk / ivie@hackclub.com
   type: CNAME
   value: a.selfhosted.hackclub.com.
 guide.leaders: # lynn@hackclub.com U07ULNFPQ4T (for clubs)
-  ttl: 300
   type: CNAME
   value: 9de93ecf1b2dc035.vercel-dns-016.com.
+verify.leaders: # lynn@hackclub.com U07ULNFPQ4T (for clubs)
+  type: CNAME
+  value: 8a4be8d5435e6116.vercel-dns-016.com.
 leap:
-- ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 72005a8e12e2ec76.vercel-dns-016.com.
 leap-manual:
-- ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 578b642302902d47.vercel-dns-016.com.
 lghs:
-- ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 lhscc:
-- ttl: 300
   type: A
   value: 174.86.1.223
 libre:
-- ttl: 300
   type: NS
   values:
   - ns1.he.net.
@@ -3605,29 +3226,26 @@ libre:
   - ns4.he.net.
   - ns5.he.net.
 links: # leo@hackclub.com U07BLJ1MBEE
-- ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: e8be12da5210c6dc.vercel-dns-016.com.
 linkscape:
-- ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
+liquidate: # U083W5CCFDG joaquin@hackclub.com
+  type: CNAME
+  value: a.selfhosted.hackclub.com
 list:
-- ttl: 300
   type: TXT
   value: google-site-verification=dy5FQ7euw6ZutiApm5ZdCTUgWn9CL3uhfJWHfD3TxLk
 lockin:
-- ttl: 300
   type: A
   value: 5.161.100.52
 signalling.lockin:
-- ttl: 300
   type: A
   value: 5.161.100.52
 lonestar:
-- ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 421ee9e7c0d8497a.vercel-dns-016.com.
 lookout: # samliu@hackclub.com
 - octodns:
     cloudflare:
@@ -3647,11 +3265,9 @@ smtp.loopy: # max@hackclub.com
   type: CNAME
   value: a.limited.selfhosted.hackclub.com.
 low-skies:
-- ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: c2a23e8ec99f6916.vercel-dns-016.com.
 luna:
-- ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 lyla: # U054VC2KM9P / U06EMBJH71S / U06UYA5GMB5 (amber/lou/jeremy)
@@ -3665,11 +3281,10 @@ macondo: # nathan@hackclub.com
     cloudflare:
       proxied: true
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: a.ingress.tier2.infra.hackclub.com.
 magazine: # acon@hackclub.com U04KEK4TS72
-- ttl: 600
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: ca2b97ac338b55c8.vercel-dns-016.com.
 mail: # nora@hackclub.com U06QK6AG3RD
 - octodns:
     cloudflare:
@@ -3677,34 +3292,27 @@ mail: # nora@hackclub.com U06QK6AG3RD
   type: CNAME
   value: a.limited.selfhosted.hackclub.com.
 pic._domainkey.mail:
-  ttl: 300
   type: TXT
   value: k=rsa
 email.mail:
-  ttl: 300
   type: CNAME
   value: mailgun.org.
 testing.mail:
-- ttl: 300
-  type: MX
+- type: MX
   values:
   - exchange: mxa.mailgun.org.
     preference: 10
   - exchange: mxb.mailgun.org.
     preference: 10
-- ttl: 300
-  type: TXT
+- type: TXT
   value: v=spf1 include:mailgun.org ~all
 mailo._domainkey.testing.mail:
-  ttl: 300
   type: TXT
   value: k=rsa
 malagon:
-- ttl: 300
   type: CNAME
   value: hackclubmalagon.netlify.app.
 mangu:
-- ttl: 300
   type: CNAME
   value: mangu.pages.dev.
 manifest: #manitej@hackclub.com
@@ -3714,42 +3322,33 @@ manifest: #manitej@hackclub.com
   type: CNAME
   value: a.selfhosted.hackclub.com.
 manifesto:
-- ttl: 300
   type: CNAME
   value: a45c6884820232b2.vercel-dns-016.com.
 manor:
-- ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: f61dcda8ea43ee0c.vercel-dns-016.com.
 maps:
-- ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: f5e7996f6a74bcc1.vercel-dns-016.com.
 markdown:
-- ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: c02a5eb37aa5d3c3.vercel-dns-016.com.
 market:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 mason:
-- ttl: 300
   type: CNAME
   value: mason-hack-club.netlify.com.
 matchups:
-- ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 maxday:
-  ttl: 300
   type: CNAME
   value: maxday-prod.netlify.com.
 mayhem: #augie@hackclub.com U07FCRNHS1J
-- ttl: 300
   type: CNAME
   value: 10c0b549a5d8fbfc.vercel-dns-017.com.
 mc: # alexp@hackclub.com
@@ -3774,20 +3373,16 @@ wings.mc: # alexp@hackclub.com
   type: AAAA
   value: 2a01:4f8:1c0c:7cb3::1
 _gh-hackclubmchs-o.mchs:
-- ttl: 300
-  type: TXT
+- type: TXT
   value: 564d413bdf
 _github-pages-challenge-hackclubmchs.mchs:
-- ttl: 300
-  type: TXT
+- type: TXT
   value: 7758abbb60ddb92f7bca19e65bca60
 mcneil:
-- ttl: 300
-  type: A
+- type: A
   value: 70.123.47.120
 mea:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: meahackclub.netlify.app.
 media-fellowship: # zach@hackclub.com
   type: CNAME
@@ -3796,12 +3391,10 @@ media-fellowship: # zach@hackclub.com
     cloudflare:
       proxied: true
 meet:
-- ttl: 300
-  type: A
+- type: A
   value: 3.80.199.115
 meetings:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: meetings.hackclub.dev.
 melodymuffler:
   octodns:
@@ -3810,27 +3403,26 @@ melodymuffler:
   type: CNAME
   value: a.selfhosted.hackclub.com.
 meltdown:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.vercel-dns.com.
 meow: # alexvd@hackclub.com U0823F39GV8
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: 4462283c77020fde.vercel-dns-016.com.
 merivalja:
-  ttl: 300
   type: CNAME
   value: merivalja.github.io.
 metabase:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.limited.selfhosted.hackclub.com.
+metroship: #parkerwildey@cvsdvt.org or tritiumlabs346@gmail.com
+- type: CNAME
+  value: a.selfhosted.hackclub.com.
 mfa:
   octodns:
     cloudflare:
@@ -3838,15 +3430,12 @@ mfa:
   type: CNAME
   value: a.selfhosted.hackclub.com.
 mhs:
-  ttl: 300
   type: CNAME
   value: mhs-hack-club.vercel.app.
 middleman:
-  ttl: 300
   type: CNAME
   value: middleman-hackclub.fly.dev.
 _acme-challenge.middleman:
-  ttl: 300
   type: TXT
   value: middleman.hackclub.com.3gzn0m.flydns.net.
 midi:
@@ -3856,40 +3445,32 @@ midi:
   type: CNAME
   value: a.selfhosted.hackclub.com.
 midnight:
-  ttl: 300
   type: A
   value: 5.161.244.66
 milkyway:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 milton:
-  ttl: 300
   type: CNAME
   value: miltonhackclub.pages.dev.
 minicraft:
-  ttl: 300
   type: CNAME
   value: minicraft-dvk.pages.dev.
 minustwelve:
-  ttl: 300
   type: CNAME
   value: hackclub.github.io.
 mob-games:
-  ttl: 300
   type: CNAME
   value: d906b8f58a045a63e82061d953776462.ipv4.tcpshield.com.
 moonbeam:
-- ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 411d1103d9e82130.vercel-dns-016.com.
 intro.moonbeam:
-- ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 8383d3776ee900c9.vercel-dns-016.com.
 moonshot: # U078DFX40A2
   type: CNAME
   value: 43b58a0d93f8e1dc.vercel-dns-016.com.
@@ -3911,37 +3492,30 @@ game-server.morp: # @Olive, U07BN55GN3D
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
+movingday: # U083W5CCFDG joaquin@hackclub.com
+  type: CNAME
+  value: 221d61ec6ba25f97.vercel-dns-016.com.
 ms:
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
 msft:
-- ttl: 300
   type: TXT
   value: "MS=ms62939426"
 multiverse:
-  ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 mumble:
-- ttl: 300
   type: A
   value: 173.208.140.124
 muse:
-- ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
-nairobi:
-- ttl: 300
-  type: CNAME
-  value: hackclubnairobi.codeberg.page.
+  value: 78958f059c43551f.vercel-dns-016.com.
 ncssm:
-- ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 neighborhood:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 13684c4a1c0eb7ab.vercel-dns-016.com.
 express.neighborhood:
   octodns:
     cloudflare:
@@ -3949,19 +3523,17 @@ express.neighborhood:
   type: CNAME
   value: a.selfhosted.hackclub.com.
 neohack:
-  octodns:
-    cloudflare:
-      proxied: true
-  ttl: 300
   type: CNAME
   value: 10f7be41618be21d.vercel-dns-016.com.
 nepal:
-  ttl: 300
   type: CNAME
   value: dikshantpandey-dev.github.io.
 nephthys: # amber / U054VC2KM9P
   type: CNAME
   value: a.selfhosted.hackclub.com.
+alchemize.nephthys: # aoishikkhan@gmail.com / @aoishik(U0A5NKH93BJ)
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 beest.nephthys: # amber / U054VC2KM9P & euan / U06T30DNB3L
   type: CNAME
   value: b.selfhosted.hackclub.com.
@@ -3992,6 +3564,9 @@ lynx.nephthys: # Nathan U05EZRFKRV4 & Santi U08PD2ZB3DL
 midnight.nephthys: # amber / U054VC2KM9P & leo / U07BLJ1MBEE
   type: CNAME
   value: a.selfhosted.hackclub.com.
+stardance.nephthys: # mish@hackclub.com / U073M5L9U13
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
 stasis.nephthys: # amber / U054VC2KM9P & alexp@hackclub.com
   type: CNAME
   value: b.selfhosted.hackclub.com.
@@ -4005,23 +3580,17 @@ nest: # admins@hackclub.app
 - type: CNAME
   value: hackclub.app.
 nestm:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 898dacf1cb90052f.vercel-dns-016.com.
 newcanaan:
-  ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 newcanaanlib:
-  ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
-news: # explanation - news is the user-facing domain, newspaper is for internal stuff (very confusing i know :pf:)
-- octodns:
-    cloudflare:
-      proxied: true
-  type: A
-  value: 5.161.100.52 # a.selfhosted.hackclub.com
+news: # eps@hackclub.com U09Q8MLTE58 & hc+dns@matmanna.dev U07VA44DNBA;
+- type: A
+  value: 216.150.1.1
 - type: TXT
   values:
   - google-site-verification=Mc08Mplkv-e0eNBR0VW3ogoctBoozEETwZvrb-9prb0
@@ -4029,45 +3598,47 @@ newspaper:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+newsroom: # eps@hackclub.com U09Q8MLTE58 & hc+dns@matmanna.dev U07VA44DNBA;
+- octodns:
+    cloudflare:
+      proxied: true
+  type: A
+  value: 5.161.100.52 # a.selfhosted.hackclub.com
 nexus: #manitej@hackclub.com
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
 nigeria:
   type: CNAME
   value: f9405218404d4a35.vercel-dns-016.com.
 nioflb:
-- ttl: 300
-  type: A
+- type: A
   value: 190.106.131.222
 nlcs:
   type: CNAME
   value: 95f775779f538acb.vercel-dns-016.com.
 nmit:
-- ttl: 300
+- type: CNAME
+  value: 5637f2843e643c1a.vercel-dns-016.com.
+noodles: # U08QMC72ZST kaylee@hackclub.com
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 39cf2a3c383084c3.vercel-dns-016.com.
 notebook:
   type: CNAME
   value: 8f3ceaaead769d5d.vercel-dns-016.com.
 numberwang:
-  ttl: 300
   type: CNAME
   value: impactdns.techby.org.
 nust:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: nusthackclub.netlify.app.
 oasis:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: 3dae4611b7205eb1.vercel-dns-016.com.
 ocsa:
 - type: TXT
   values:
@@ -4090,71 +3661,66 @@ ocsa:
   type: A
   value: 216.150.1.1 # Vercel
 odyssey:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.vercel-dns.com.
 offline: # dhamari@hackclub.com U08RWM5U4L9
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+offtrack: # emmaborghi@hackclub.com U078DFX40A2
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: b.selfhosted.hackclub.com.
 oly:
-- ttl: 300
-  type: A
+- type: A
   value: 75.2.60.5
-- ttl: 300
-  type: TXT
+- type: TXT
   values:
   - v=spf1 include:spf.improvmx.com ~all
-- ttl: 300
-  type: MX
+- type: MX
   values:
   - exchange: mx1.improvmx.com.
     preference: 10
   - exchange: mx2.improvmx.com.
     preference: 20
 olympics:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: e65532a7e0d6bba4.vercel-dns-016.com.
 onboard:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: 90d828ce4ca4f930.vercel-dns-016.com.
 onboard-stats:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 api.onboard:
-  ttl: 300
   type: CNAME
   value: api.onboard.limeskey.com.
 live.onboard:
-- ttl: 300
-  type: A
+- type: A
   value: 188.40.116.216
 verify.onboard:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: ysws.limeskey.com.
 oneditor:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: oneditor.netlify.app.
+onekey: # maxtran@hackclub.com U07F6FMJ97U
+- type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 op:
-- ttl: 300
-  type: CNAME
-  value: optsa.club.
+- type: CNAME
+  value: opstem.github.io.
 opensauce: # zach@hackclub.com
 - octodns:
     cloudflare:
       proxied: false
-  ttl: 300
   type: CNAME
   value: a.limited.selfhosted.hackclub.com.
 opensauce2026: # alexren@hackclub.com
@@ -4164,93 +3730,73 @@ opensauce-leaderboard: # zach@hackclub.com
 - octodns:
     cloudflare:
       proxied: false
-  ttl: 300
   type: CNAME
   value: a.limited.selfhosted.hackclub.com.
+ops: # leo@hackclub.com U07BLJ1MBEE
+- octodns:
+    cloudflare:
+      proxied: false
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 orchard: #tongyu@hackclub.com U07DJMFAQQP
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 organizer:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: 6f53d30fd60c2623.vercel-dns-016.com.
 orpheus-engine:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: warehouse.selfhosted.hackclub.com.
 orpheushacks: # Harrison Katz automatically wins for adding the DNS entry - thats how it works, right?
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: 2f89c690cf78cd8b.vercel-dns-016.com.
 orpheusodyssey:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: 1b3djzn4.up.railway.app.
 orpheuspico:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: 9dbd6e68981e4fde.vercel-dns-016.com.
 osca:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: osca-hack-club.github.io.
 _github-pages-challenge-OSCA-Hack-Club.osca:
-- ttl: 300
-  type: TXT
+- type: TXT
   value: 05f02f6fc6cce92877573361810958
 osiris: # fraud detection :D // hi@skyfall.dev
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.vercel-dns.com.
 outerlan:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: hackclub.github.io.
 outernet:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: 8095999612dcaa34.vercel-dns-016.com.
 register.outernet:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 7d1106a9a6550629.vercel-dns-016.com.
 outernetwebservices:
-- ttl: 300
-  type: NS
+- type: NS
   values:
   - ns1.he.net.
   - ns2.he.net.
   - ns3.he.net.
   - ns4.he.net.
   - ns5.he.net.
-overflow-hidden:
-  octodns:
-    cloudflare:
-      proxied: true
-  ttl: 300
+outpost: # @alexren@hackclub.com
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
+overflow-hidden: # @Olive, U07BN55GN3D
   type: CNAME
   value: feae0968189bef7f.vercel-dns-016.com.
-overglade: #tongyu@hackclub.com U07DJMFAQQP
-- octodns:
-    cloudflare:
-      proxied: true
-  ttl: 300
+overglade: # tongyu@hackclub.com U07DJMFAQQP
   type: CNAME
-  value: a.selfhosted.hackclub.com.
-badges.overglade: #tongyu@hackclub.com U07DJMFAQQP
-- octodns:
-    cloudflare:
-      proxied: true
-  ttl: 300
-  type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: 8f9915d7ba514d29.vercel-dns-016.com.
 owo: # nathan@hackclub.com U05EZRFKRV4
   octodns:
     cloudflare:
@@ -4258,8 +3804,7 @@ owo: # nathan@hackclub.com U05EZRFKRV4
   type: CNAME
   value: a.selfhosted.hackclub.com.
 ows: #outernet-web-services
-- ttl: 300
-  type: NS
+- type: NS
   values:
   - ns1.he.net.
   - ns2.he.net.
@@ -4267,7 +3812,6 @@ ows: #outernet-web-services
   - ns4.he.net.
   - ns5.he.net.
 p2p:
-  ttl: 300
   type: CNAME
   value: p2phackclub.github.io.
 pa:
@@ -4280,7 +3824,6 @@ page:
   type: CNAME
   value: 2197c133e656fa85.vercel-dns-016.com.
 pagering: # hey@gideon.sh U09D42Q0ARJ
-  ttl: 300
   type: CNAME
   value: 5105b9b8d814fbc1.vercel-dns-017.com.
 pancakes: #niko@nikoo.dev
@@ -4290,21 +3833,18 @@ pancakes: #niko@nikoo.dev
   type: CNAME
   value: a.selfhosted.hackclub.com.
 panorama:
-  ttl: 300
   type: CNAME
   value: panorama-countdown.pages.dev.
 paradox: # dhamari@hackclub.com U08RWM5U4L9
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
 parcel-pyxis:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 parthenon: # annabel@hackclub.com U078J6H1XL3
@@ -4322,25 +3862,35 @@ portal.parthenon:
 passport:
   type: CNAME
   value: 60edb94de5050d99.vercel-dns-016.com.
+patch: #leo@hackclub.com U07BLJ1MBEE
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 pathfinder:
-  ttl: 300
   type: CNAME
   value: meghanam4.github.io.
+payload: # @Floppy U084UQFF0LC | POC: dhamari@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: A
+  value: 138.201.55.62
+pendant: # nick@hackclub.com U06FMCCDS1K
+  type: CNAME
+  value: pendant-ysws.hackclub.dev.
 penumbra: # ascpixi@hackclub.com U082DPCGPST
-  ttl: 300
   type: CNAME
   value: hackclub.github.io.
 pfp:
-- ttl: 300
-  type: A
+- type: A
   value: 77.90.16.198
 philanthropy:
-  ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 philippines:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.vercel-dns.com.
 photos: # tom@daamen.uk  U078PH0GBEH
 - octodns:
@@ -4352,8 +3902,7 @@ phs:
 - type: A
   value: 216.150.1.1 # Vercel
 forms.phs:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.vercel-dns.com.
 picoducky: # U079HV9PTC7 ; POC=olive
 - octodns:
@@ -4362,37 +3911,33 @@ picoducky: # U079HV9PTC7 ; POC=olive
   type: CNAME
   value: a.selfhosted.hackclub.com.
 pier:
-- ttl: 300
-  type: A
+- type: A
   value: 178.156.170.71
 dev.pier:
-- ttl: 300
-  type: A
+- type: A
   value: 178.156.170.71
 jitsi.pier:
-- ttl: 300
-  type: A
+- type: A
   value: 178.156.170.71
 pinecone:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 pinetree:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: tensixxx.github.io.
 pixeldust:
-  ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 pl:
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
+plausible: # @msw max@hackclub.com
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 playphone:
-  ttl: 300
   type: A
   values:
   - 185.199.108.153
@@ -4400,29 +3945,23 @@ playphone:
   - 185.199.110.153
   - 185.199.111.153
 plis:
-  ttl: 300
   type: CNAME
   value: plis-hackclub.netlify.app.
 plunge:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: dandililacs.github.io.
 pm-bounces: # Priate Ship's Return Path verification (Postmark)
-  ttl: 300
   type: CNAME
   value: pm.mtasv.net.
 podcast:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 5cb36fac6eb4dd86.vercel-dns-016.com.
 _github-challenge-Orpheuspod.podcast:
-- ttl: 300
-  type: TXT
+- type: TXT
   value: b2e369c8f1
 podium: # angad@hackclub.com U075RTSLDQ8
-  ttl: 300
   type: CNAME
-  value: 10ae0126a099de2e.vercel-dns-016.com.
+  value: ingress.lfdl.ink.
 podium-backend: # angad@hackclub.com U075RTSLDQ8
   octodns:
     cloudflare:
@@ -4435,8 +3974,10 @@ mathesar.podium-backend: # angad@hackclub.com U075RTSLDQ8
       proxied: true
   type: CNAME
   value: b.selfhosted.hackclub.com.
+polaris: #adishree@horizons.hackclub.com U07DEBE2RUL
+- type: CNAME
+  value: horizonspolaris.netlify.app.
 polaroid:
-  ttl: 300
   type: CNAME
   value: polaroid.iunstable0.com.
 polygon: # zaidayan456@gmail.com U083VVA9M0W
@@ -4444,39 +3985,34 @@ polygon: # zaidayan456@gmail.com U083VVA9M0W
   type: CNAME
   value: 1f2e326ff0beb553.vercel-dns-017.vercel-dns.com.
 pomperaug:
-  ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 portal:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: ingress.lfdl.ink.
 portalvr:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+portputer: # lola@hackclub.com
+- type: CNAME
+  value: 18c5a97b962d72ed.vercel-dns-013.com.
 postal:
-  ttl: 300
   type: CNAME
   value: postal.servers.hackclub.com.
 posthog:
-  ttl: 300
   type: A
   value: 45.79.174.48
 prc:
-- ttl: 300
-  type: A
+- type: A
   value: 104.198.14.52
-- ttl: 300
-  type: TXT
+- type: TXT
   values:
   - v=spf1 include:_spf.google.com ~all
   - google-site-verification=ZGebQ9CxwNSuLb1foBdmD2DBlh8exTH9aVgSJDAAk4A
-- ttl: 300
-  type: MX
+- type: MX
   values:
   - exchange: aspmx.l.google.com.
     preference: 1
@@ -4489,9 +4025,11 @@ prc:
   - exchange: alt4.aspmx.l.google.com.
     preference: 10
 _github-challenge-Hackclub-PRC.prc:
-- ttl: 300
-  type: TXT
+- type: TXT
   value: 26e02b51f5
+premiere: #shurui@hackclub.com U082ZLXSU10
+  type: CNAME
+  value: e9c7e1b2984ed566.vercel-dns-017.com.
 printboard:
   type: CNAME
   value: c296f4754a30c049.vercel-dns-016.com.
@@ -4499,7 +4037,6 @@ printlegion:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 professorbloom:
@@ -4520,24 +4057,23 @@ project: # dhyan@hackclub.com U0824G9PTFE
       proxied: true
   ttl: 600
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: a.ingress.tier2.infra.hackclub.com.
+prologue: #U0943NG73PA julia@hackclub.com
+  type: CNAME
+  value: prologue-e4ez8810l.hackclub.dev.
 proton:
-  ttl: 300
   type: CNAME
   value: pxldevv.github.io.
 prototype: # IRL Hardware event / prototype@hackclub.com
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 psn:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: psnhackclub.netlify.app.
 server.psn:
-  ttl: 300
   type: A
   value: 20.207.195.6
 pullquests: # jared@hackclub.com / lynn@hackclub.com
@@ -4547,7 +4083,6 @@ puyallup:
 - type: A
   value: 216.150.1.1 # Vercel
 _h323cs._tcp.px:
-  ttl: 300
   type: SRV
   values:
   - port: 1720
@@ -4559,7 +4094,6 @@ _h323cs._tcp.px:
     target: loke2.vp.vc.
     weight: 100
 _sip._tcp.px:
-  ttl: 300
   type: SRV
   values:
   - port: 5060
@@ -4571,7 +4105,6 @@ _sip._tcp.px:
     target: ygg2.vp.vc.
     weight: 100
 _sips._tcp.px:
-  ttl: 300
   type: SRV
   values:
   - port: 5061
@@ -4583,7 +4116,6 @@ _sips._tcp.px:
     target: ygg2.vp.vc.
     weight: 100
 _sip._udp.px:
-  ttl: 300
   type: SRV
   values:
   - port: 5060
@@ -4610,23 +4142,25 @@ quarry: # nathan@hackclub.com U05EZRFKRV4
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
+radish: # foxmoss@mediaology.com
+- type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
+rageclick: #U087BHR98AX
+- type: CNAME
+  value: 4966170f9274fcab.vercel-dns-016.com.
 _github-challenge-rahs-hackclub.rahs:
-- ttl: 300
-  type: TXT
+- type: TXT
   value: f43a54836a
 railway:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 raincloud:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.vercel-dns.com.
 raspapi: # U08PUHSMW4V
 - octodns:
@@ -4638,18 +4172,18 @@ raspite:
   type: CNAME
   value: e840e2fa1b4b2f59.vercel-dns-016.com.
 rawr:
-- ttl: 300
   type: CNAME
   value: hackclub.github.io.
-reactive:
-- ttl: 300
+re-dream: # skylarmaestein@gmail.com U080Y31KUE7 & jolly@hackclub.com U08CJCZ2Z9S
+- type: CNAME
+  value: 5b08eaf797dbfb65.vercel-dns-013.com.
+reactive: # jared@hackclub.com / lynn@hackclub.com
   type: CNAME
-  value: c5165cd264885445.vercel-dns-017.com.
+  value: ea4ceae47f9926c5.vercel-dns-016.com.
 readme: # eps@hackclub.com
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 869e772d0dee6ce2.vercel-dns-016.com.
 reality:
-- ttl: 300
   type: CNAME
   value: 282ab20b3c2de7dd.vercel-dns-016.com.
 reboot: # emmaborghi@hackclub.com U078DFX40A2
@@ -4659,10 +4193,6 @@ reboot: # emmaborghi@hackclub.com U078DFX40A2
   type: CNAME
   value: a.selfhosted.hackclub.com.
 recapsule: # tongyu@hackclub.com U07DJMFAQQP
-- octodns:
-    cloudflare:
-      proxied: true
-  ttl: 300
   type: CNAME
   value: 62c32438c89e0c3f.vercel-dns-016.com.
 reflow:
@@ -4681,14 +4211,10 @@ remixed: # ascpixi@hackclub.com U082DPCGPST
   type: CNAME
   value: a.selfhosted.hackclub.com.
 renaissance-24:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 1bdc13681dff9b21.vercel-dns-016.com.
 resolution: # dhamari@hackclub.com // jenin@hackclub.com
-- octodns:
-    cloudflare:
-      proxied: true
-  type: A
+- type: A
   value: 216.150.1.1 # Vercel
 - ttl: 3600
   type: TXT
@@ -4728,14 +4254,12 @@ review-factory-backend: # @Angad - U075RTSLDQ8
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
 '*.review':
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 ai.review: # nullskulls@proton.me U092F9A8VMY
@@ -4748,7 +4272,6 @@ us.review: # dhamari@hackclub.com U08RWM5U4L9
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 revoke: # nora@hackclub.com U06QK6AG3RD
@@ -4758,31 +4281,24 @@ revoke: # nora@hackclub.com U06QK6AG3RD
   type: CNAME
   value: a.limited.selfhosted.hackclub.com.
 rewind:
-  ttl: 300
   type: CNAME
   value: e80e9a41e224e406.vercel-dns-017.com.
 rework: # mgoldbergspar@gmail.com U08TCSANHDX
-- ttl: 600
   type: CNAME
   value: 665462bc664a8a93.vercel-dns-016.com.
 riceathon:
-- ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 1fe8ce5ecab1c74e.vercel-dns-016.com.
 riverbend:
-- ttl: 300
   type: CNAME
   value: yousefhaggy.github.io.
 riverside:
-- ttl: 300
   type: CNAME
   value: aahannadas.github.io.
 ro:
-  ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 rooted: # christian on slack U0938MZG8Q6 poc is euan
-- ttl: 300
   type: CNAME
   value: 0a2695bb00ff8d9b.vercel-dns-017.com.
 api.rooted: #U0938MZG8Q6
@@ -4798,46 +4314,37 @@ rosetta: # nathan@hackclub.com
   type: CNAME
   value: b.selfhosted.hackclub.com.
 roulette:
-  octodns:
-    cloudflare:
-      proxied: true
-  ttl: 300
   type: CNAME
   value: 4462cee93ccd9807.vercel-dns-016.com.
 rpg:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-
 rr:
-- ttl: 300
   type: CNAME
   value: rr-cs-club.github.io.
 rrhs:
-- ttl: 300
   type: CNAME
   value: rrhs-hack-club.netlify.app.
 rss:
-- ttl: 300
   type: CNAME
   value: 5e3aec56f7ee6698.vercel-dns-016.com.
+ru: # developer.vladislav.smirnov@gmail.com U092K4W1ZB2
+  type: CNAME
+  value: a05569dabb46ea5b.vercel-dns-016.com.
 runshaw:
-- ttl: 300
   type: CNAME
   value: danielb.hackclub.app.
 rw:
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
 sa:
-  ttl: 300
   type: CNAME
   value: hc-sa.netlify.app.
 saleh:
-- ttl: 300
-  type: NS
+- type: NS
   values:
   - ns1.he.net.
   - ns2.he.net.
@@ -4845,25 +4352,20 @@ saleh:
   - ns4.he.net.
   - ns5.he.net.
 saycheese:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: cb1874b4a3a974f3.vercel-dns-016.com.
 schedule:
-- ttl: 300
   type: CNAME
   value: calendso-production-f2a4.up.railway.app.
 scholarship:
-  ttl: 300
   type: CNAME
   value: scholarship-hackclub.netlify.com.
 school-toolbox:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 1312087e8f69cad9.vercel-dns-016.com.
 school-toolkit:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 1312087e8f69cad9.vercel-dns-016.com.
 science: # mahad@hackclub.com U059VC0UDEU
 - octodns:
     cloudflare:
@@ -4874,27 +4376,15 @@ scrapbook:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 embed.scrapbook:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: e60521d22decaf31.vercel-dns-016.com.
 network.scrapbook:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
-redwood.scrapbook:
-  ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
-v2.scrapbook:
-  ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+  value: ddcc5d3ca6fa339d.vercel-dns-016.com.
 scrapbooks:
-- ttl: 300
   type: CNAME
   value: keen-brahmagupta-b1f934.netlify.app.
 scrappy:
@@ -4903,18 +4393,18 @@ scrappy:
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
-scraps: # nathan@hackclub.com
+scraps: # nathan@hackclub.com // iamalive
   octodns:
     cloudflare:
       proxied: true
   type: CNAME
-  value: a.selfhosted.hackclub.com.
-api.scraps: # nathan@hackclub.com
+  value: a.ingress.tier2.infra.hackclub.com.
+api.scraps: # nathan@hackclub.com // iamalive 
   octodns:
     cloudflare:
       proxied: true
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: a.ingress.tier2.infra.hackclub.com.
 scrapyard:
 - type: A
   value: 216.150.1.1 # Vercel
@@ -4941,137 +4431,110 @@ _dmarc.scrapyard:
 google._domainkey.scrapyard:
   type: TXT
   value: v=DKIM1\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnLb/oPXGh2uktRUBxvfYh6vMdsRYXxyjgm9bYbSDryxBBm7FJbvdpPg5XqgONO0IiQC4HluQ9WgUo7g6GPNSh+yNuWRq5+5JGJjwAw9rPE2vdff31xZDFFCTDoqMlYRr5KvWC+wzSgGsCxSsTlaVnh2xYCZ22UYQ65yySlbBzE+mLotgtjvdF9hUTROLtepRErLVQOto5EGHtPjBJE8SwcgBRyvM0dLurOHBYur/QNcsmfEZpwi+rdrKQ8oSZho2OPXp55FIZ+yDR14y7joYuWgxEm6YEk9Sre2kMiHkLD3PP+/tyspVTZ3DAaq9CozcdILBvSZ2fcwqic9juL4DsQIDAQAB
+scribble: # jenny@hackclub.com
+  type: CNAME
+  value: 9d60e337fda4fbaa.vercel-dns-016.com.
 scriptingnest:
-- ttl: 300
-  type: TXT
+- type: TXT
   value: domain-verification=yousseftech
-- ttl: 300
-  type: A
+- type: A
   value: 37.27.51.34
-- ttl: 300
-  type: AAAA
+- type: AAAA
   value: 2a01:4f9:3081:399c::4
 search: # U059VC0UDEU
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
-security:
+security: # parth@hackclub.com U092CHMLB24
   type: CNAME
-  value: fc3ebadf0856acf4.vercel-dns-017.com.
+  value: 7a9237159e4766f7.vercel-dns-016.com.
 self-portrait:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 a.selfhosted:
-  ttl: 300
   type: CNAME
   value: static.52.100.161.5.clients.your-server.de.
 '*.a.selfhosted':
-  ttl: 300
   type: CNAME
   value: static.52.100.161.5.clients.your-server.de.
 archive-hq-local.selfhosted:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: 493d65b3-2040-4db2-af28-ea33c026beb5.cfargotunnel.com.
 '*.archive-hq-local.selfhosted':
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: 493d65b3-2040-4db2-af28-ea33c026beb5.cfargotunnel.com.
 b.selfhosted:
-  ttl: 300
   type: CNAME
   value: static.56.213.119.168.clients.your-server.de.
 '*.b.selfhosted':
-  ttl: 300
   type: CNAME
   value: static.56.213.119.168.clients.your-server.de.
 cooked.selfhosted:
-  ttl: 300
   type: CNAME
   value: static.219.197.161.5.clients.your-server.de.
 '*.cooked.selfhosted':
-  ttl: 300
   type: CNAME
   value: static.219.197.161.5.clients.your-server.de.
 hackatime.selfhosted:
-  ttl: 300
   type: CNAME
   value: static.27.205.161.5.clients.your-server.de.
 '*.hackatime.selfhosted':
-  ttl: 300
   type: CNAME
   value: static.27.205.161.5.clients.your-server.de.
 a.identity.selfhosted:
-  ttl: 300
   type: CNAME
   value: static.205.141.156.178.clients.your-server.de.
 '*.a.identity.selfhosted':
-  ttl: 300
   type: CNAME
   value: static.205.141.156.178.clients.your-server.de.
 control.identity.selfhosted:
-  ttl: 300
   type: CNAME
   value: static.20.176.78.5.clients.your-server.de.
 a.limited.selfhosted:
-  ttl: 300
   type: CNAME
   value: static.115.195.156.178.clients.your-server.de.
 '*.a.limited.selfhosted':
-  ttl: 300
   type: CNAME
   value: static.115.195.156.178.clients.your-server.de.
 b.limited.selfhosted:
-  ttl: 300
   type: CNAME
   value: static.234.231.21.65.clients.your-server.de.
 '*.b.limited.selfhosted':
-  ttl: 300
   type: CNAME
   value: static.234.231.21.65.clients.your-server.de.
 coolify.limited.selfhosted:
-  ttl: 300
   type: CNAME
   value: static.239.94.78.5.clients.your-server.de.
 hackatime.limited.selfhosted:
-  ttl: 300
   type: A
   value: 65.108.2.38
 '*.hackatime.limited.selfhosted':
-  ttl: 300
   type: A
   value: 65.108.2.38
 sideboard.limited.selfhosted:
-  ttl: 300
   type: CNAME
   value: static.239.94.78.5.clients.your-server.de.
 warehouse.limited.selfhosted:
-  ttl: 300
   type: CNAME
   value: static.42.11.21.65.clients.your-server.de.
 '*.warehouse.limited.selfhosted':
-  ttl: 300
   type: CNAME
   value: static.42.11.21.65.clients.your-server.de.
 uptime.selfhosted:
-  ttl: 300
   type: CNAME
   value: static.114.137.78.5.clients.your-server.de.
 '*.uptime.selfhosted':
-  ttl: 300
   type: CNAME
   value: static.114.137.78.5.clients.your-server.de.
 warehouse.selfhosted: # zach@hackclub.com - this is deprecated, but an alias for old references so they don't break
@@ -5081,66 +4544,51 @@ warehouse.selfhosted: # zach@hackclub.com - this is deprecated, but an alias for
   type: CNAME
   value: warehouse.limited.selfhosted.hackclub.com.
 dedicated.servers:
-- ttl: 300
   type: A
   value: 173.208.140.122
 hcb-proxy.servers:
-  ttl: 300
   type: A
   value: 45.79.179.212
 postal.servers:
-  ttl: 300
   type: A
   value: 23.92.24.6
 shallow-learning:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 share: # @KaiPereira - kaipereira2020@gmail.com
-- octodns:
-    cloudflare:
-      proxied: true
-  ttl: 300
   type: CNAME
   value: e46d17fe6a578731.vercel-dns-016.com.
 shiba:
-- ttl: 300
   type: CNAME
   value: f34017b678602b1e.vercel-dns-016.com.
 shipment-viewer:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 ships: # neon+dnsships@hackclub.com  U07L45W79E1
-- ttl: 300
   type: A
   value: 5.161.100.52
 api.ships: # neon+dnsships@hackclub.com  U07L45W79E1
-- ttl: 300
   type: A
   value: 5.161.100.52
 shipwrecked:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 badge.shipwrecked:
-- ttl: 300
   type: CNAME
   value: mpkendall.github.io.
 count.shipwrecked:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 shipyard: # bisherk.almasri@gmail.com U097SRZ6DU7
@@ -5149,27 +4597,20 @@ shipyard: # bisherk.almasri@gmail.com U097SRZ6DU7
       proxied: true
   type: CNAME
   value: b.selfhosted.hackclub.com.
-shop:
-- ttl: 300
+shop: # rushil@hackclub.com U020X4GCWSF
+  type: CNAME
+  value: 97dea6b524a9cffd.vercel-dns-016.com.
+resend._domainkey.shop: # rushil@hackclub.com U020X4GCWSF
   type: TXT
-  values:
-  - google-site-verification=l3Bbo36E5uS61KvlS_kvx-iqN_h1DN1LAks2DssJDwM
-  - v=spf1 include:_spf.google.com ~all
-- ttl: 300
-  type: MX
-  values:
-  - exchange: aspmx.l.google.com.
-    preference: 1
-  - exchange: alt1.aspmx.l.google.com.
-    preference: 5
-  - exchange: alt2.aspmx.l.google.com.
-    preference: 5
-  - exchange: aspmx2.googlemail.com.
+  value: "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCmYkN6ad2aBNLlQCAzGEnRqvAsL/DxU6ifHiXyXDifkdI74I9noGWHJFg/X51tEZUWVnqBjev2wwI+UsIHqiqTPFVP/TsuBM9qDFCZicJHMG3GHiy2YhuIjOiTp6vBsAWEILyTWD86H92RTCc/4aNwN3RZaPaaDXNr5BZo92sygQIDAQAB"
+send.shop: # rushil@hackclub.com U020X4GCWSF
+- type: MX
+  value:
+    exchange: feedback-smtp.us-east-1.amazonses.com.
     preference: 10
-  - exchange: aspmx3.googlemail.com.
-    preference: 10
+- type: TXT
+  value: "v=spf1 include:amazonses.com ~all"
 showcase:
-  ttl: 300
   type: CNAME
   value: onboard-7w9.pages.dev.
 shush:
@@ -5191,9 +4632,8 @@ siege:
   type: CNAME
   value: a.selfhosted.hackclub.com.
 sign:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: e7790f414ff198c9.vercel-dns-016.com.
 signature:
   octodns:
     cloudflare:
@@ -5204,31 +4644,24 @@ siliconplane:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 simmer:
-  ttl: 300
   type: CNAME
   value: 852ee4e4c4f50fbd.vercel-dns-017.com.
 sinerider-leaderboard:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 7fe1af12ff7c4a03.vercel-dns-016.com.
 sinerider-scoring:
-  ttl: 300
   type: A
   value: 159.89.212.59
 singgasana:
-  ttl: 300
   type: CNAME
   value: singgasana.netlify.app.
 sji:
-  ttl: 300
   type: CNAME
   value: sji-hack-club.github.io.
 skcet:
-  ttl: 300
   type: CNAME
   value: wonderful-goldwasser-b6b01d.netlify.app.
 sketchglow:
@@ -5238,17 +4671,14 @@ sketchglow:
   type: CNAME
   value: a.selfhosted.hackclub.com.
 _github-challenge-HackClubSKNCOE.skn:
-- ttl: 300
   type: TXT
   value: b50f4fc353
 skyrim:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 7f350f6fd42596e1.vercel-dns-016.com.
 skyscrapper:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 84055516a4e35820.vercel-dns-016.com.
 slack: # eps@hackclub.com
   octodns:
     cloudflare:
@@ -5262,9 +4692,8 @@ slack-gateway:
   type: CNAME
   value: a.selfhosted.hackclub.com.
 slack-id:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: d7004db01096445f.vercel-dns-016.com.
 slash-z:
   octodns:
     cloudflare:
@@ -5275,77 +4704,73 @@ slashz:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 sleepover: #celeste@hackclub.com @thegrammarpolice
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 portal.sleepover: #celeste@hackclub.com @thegrammarpolice
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 slorp: # U07BLJ1MBEE
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 slushies:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 smchs:
-- ttl: 300
   type: CNAME
   value: smchs-hack-club.github.io.
 smelt:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: 4f03f3e1fce70e87.vercel-dns-016.com.
 smhs:
-- ttl: 300
   type: CNAME
   value: zephyril.github.io.
+snake: # U07EB2Y76DP
+- type: CNAME
+  value: yousnakewesnake.netlify.app.
+  ttl: 600
+soaked: # jenin@hackclub.com // U0926UASBJ7
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 socktalk:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 solder:
-- ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 3fd7bd52a0986477.vercel-dns-016.com.
 solstice:
-- ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 5f080132a453ceca.vercel-dns-016.com.
 som-mail-system:
-- ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: b9dd0ffc9d4870b8.vercel-dns-016.com.
 southhighhack:
-- ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 spaces: # ivie@hackclub.com @Charmunk
-- ttl: 300
   type: A
   value: 65.108.71.92
 old.spaces: # ivie@hackclub.com @Charmunk
@@ -5374,29 +4799,21 @@ spark:
   - exchange: alt4.aspmx.l.google.com.
     preference: 10
 mailchannels._domainkey.spark:
-  ttl: 300
   type: TXT
   value: v=DKIM1\;p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5jcI9ttx1aRdbhJF0ROKEIXHQoEQihY3XvdTo0ZOCO7a0/2yNHEjjneq6LozMni5ZcoyOQYP7i1CsGZ89pRn00Fhne0obQMC7wv6oth06wSTbZxv6F2N2eoEIQbxsu3BIRdxX2CzGjgU/8AtzjkRV7alibmDIC1EFRb63TvjRevUEDlkgwTmFlIYRZtLmTBwLhgN2Q32ecXYsC3ciPKLZM7eGKfe+G67hUZmFdKJbqy5sy0URp0Y60z+gIvcasRewC4X3Zw87dbOLyOWqB3PpYM23avXFhPbbMrKZi5X2i6X+AO4/ItVFf9kL2vrmoBsuCWdW/yJ1lZ8RcbEMgwW7wIDAQAB
 _mailchannels.spark:
-  ttl: 300
   type: TXT
   value: v=mc1 cfid=mliu.workers.dev cfid=maggiel.workers.dev
 spatula: # @Angad - U075RTSLDQ8
-- octodns:
-    cloudflare:
-      proxied: true
-  ttl: 300
   type: CNAME
   value: d4244bfd827d3c54.vercel-dns-016.com.
 spotcheck:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 spp:
-- ttl: 300
   type: CNAME
   value: spphacks.netlify.com.
 sprig: # jared@hackclub.com U07HEH4N8UV
@@ -5415,15 +4832,12 @@ spud:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 squeak:
-  ttl: 300
   type: CNAME
   value: 9fb4466fee649078.vercel-dns-017.com.
 sshchat:
-- ttl: 300
   type: A
   value: 150.136.142.44
 stack: # emmaborghi@hackclub.com U078DFX40A2
@@ -5443,25 +4857,17 @@ stardance: #kartikey@hackclub.com
   - exchange: mx.sendgrid.net.
     preference: 10
 57277233.stardance: # kartikey@hackclub.com
-- ttl: 300
   type: CNAME
   value: sendgrid.net.
-
 _dmarc.stardance: # kartikey@hackclub.com
-- ttl: 300
   type: TXT
   value: v=DMARC1\; p=quarantine\; rua=mailto:6192c543e0e61@ag.dmarcly.com\; ruf=mailto:6192c543e0e61@fo.dmarcly.com\; fo=1\;
-
 s1._domainkey.stardance: # kartikey@hackclub.com
-- ttl: 300
   type: CNAME
   value: s1.domainkey.u57277233.wl234.sendgrid.net.
-
 s2._domainkey.stardance: # kartikey@hackclub.com
-- ttl: 300
   type: CNAME
   value: s2.domainkey.u57277233.wl234.sendgrid.net.
-
 beta.stardance: #kartikey@hackclub.com
 - type: A
   value: 5.161.197.219
@@ -5469,13 +4875,21 @@ beta.stardance: #kartikey@hackclub.com
     cloudflare:
       proxied: true
 em9599.stardance: # kartikey@hackclub.com
-- ttl: 300
   type: CNAME
   value: u57277233.wl234.sendgrid.net.
-
-
+raffle.stardance: # kartikey@hackclub.com
+  type: A
+  value: 5.161.197.219
+  octodns:
+    cloudflare:
+      proxied: true
+staging.stardance: # kartikey@hackclub.com
+  type: A
+  value: 5.161.197.219
+  octodns:
+    cloudflare:
+      proxied: true
 url1054.stardance: # kartikey@hackclub.com
-- ttl: 300
   type: CNAME
   value: sendgrid.net.
 stasis: # @Jay U08AA6HA82F
@@ -5507,15 +4921,12 @@ stasis-staging: # alexp@hackclub.com
   type: CNAME
   value: a.selfhosted.hackclub.com.
 stastis: # alexp@hackclub.com
-- ttl: 300
   type: CNAME
   value: b9385139e8ff984c.vercel-dns-016.com.
 statehigh:
-- ttl: 300
   type: CNAME
   value: schacks.netlify.com.
 statis: # alexp@hackclub.com
-- ttl: 300
   type: CNAME
   value: b9385139e8ff984c.vercel-dns-016.com.
 status: # echo@hackclub.com U080A3QP42C
@@ -5524,12 +4935,16 @@ status: # echo@hackclub.com U080A3QP42C
   octodns:
     cloudflare:
       proxied: true
+steelyard: # mattsoh@hackclub.com U07DPHQCCCS
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
+steelyard-local: # mattsoh@hackclub.com U07DPHQCCCS
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 stemegypt:
-- ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 crm.stemegypt:
-- ttl: 300
   type: CNAME
   value: stemegypt-crm.42web.io.
 stickers: #euan@hackclub.com U06T30DNB3L 
@@ -5542,22 +4957,12 @@ storyboard:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
-straya:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
-streaks:
-- ttl: 300
-  type: CNAME
-  value: adoring-brown-d90455.netlify.app.
 submit:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 docs.submit:
@@ -5570,11 +4975,9 @@ staging.submit:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 suceava:
-- ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 summer:
@@ -5583,13 +4986,11 @@ summer:
       proxied: true
   type: A
   value: 5.161.100.52 # a.selfhosted.hackclub.com
-- ttl: 600
-  type: TXT
+- type: TXT
   values:
   - google-site-verification=zx9NMOA8WwJ7FlmnASICBEvNzpAMhWSgX2Api6ROjAk
   - v=spf1 include:_spf.google.com ~all
-- ttl: 600
-  type: MX
+- type: MX
   values:
   - exchange: aspmx.l.google.com.
     preference: 1
@@ -5603,31 +5004,37 @@ summer:
     preference: 10
   - exchange: aspmx4.googlemail.com.
     preference: 10
+summer-camp: # jenin@hackclub.com // U0926UASBJ7
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 lb.summer:
-- ttl: 300
   type: A
   value: 45.8.201.37
 summit:
-- ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: b0215d46951fd2c5.vercel-dns-016.com.
+sunbeam: # reem@hackclub.com
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
+suncatcher: # U0943NG73PA julia@hackclub.com
+  type: CNAME
+  value: suncatcher-6owl6r1ft.hackclub.dev.
 super-cdn-bot:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 swirl: # dhyan@hackclub.com / U0824G9PTFE
-- ttl: 300
   type: CNAME
   value: hackclub.github.io.
 synthax:
-- ttl: 300
   type: CNAME
   value: qwel-exe.github.io.
 syria:
-- ttl: 300
   type: CNAME
   value: hackclub-syria.github.io.
 syscall:
@@ -5636,82 +5043,75 @@ syscall:
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
-tag:
-- ttl: 300
+tailor: # U08QMC72ZSZT kaylee@hackclub.com
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 077dcc934b616aac.vercel-dns-016.com.
 take-two: # alexren@hackclub.com
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 takeout:
-- ttl: 300
   type: A
   value: 68.183.252.105
+tapetotape: # arcadewise@hackclub.com
+  type: CNAME
+  value: 8cc815f6e6b19d11.vercel-dns-016.com.
+studio.tapetotape: # arcadewise@hackclub.com
+  type: CNAME
+  value: e92ba57616c78987.vercel-dns-016.com.
 tarot:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 tbilisi:
-- ttl: 300
   type: CNAME
   value: tbilisihc.github.io.
 _github-pages-challenge-tbilisihc.tbilisi:
-- ttl: 300
   type: TXT
   value: 352ce0458af34bcb3ac0d2f8c7920d
 tbp:
-- ttl: 300
   type: NS
   values:
   - ns1.digitalocean.com.
   - ns2.digitalocean.com.
   - ns3.digitalocean.com.
 te:
-- ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 teach:
-- ttl: 300
   type: CNAME
   value: hackclub.github.io.
 teachyourmachine:
-- ttl: 300
   type: CNAME
   value: reemlifa.github.io.
 teenhack:
-- ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 teenverse:
-- ttl: 300
   type: CNAME
   value: teenverse.github.io.
 telecom:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 telemetry:
-- ttl: 300
   type: A
   value: 5.161.83.132
+telescreen: # echo@hackclub.com U080A3QP42C
+  type: CNAME
+  value: ba32d3e933e777cb.vercel-dns-013.com.
 ten-days-of-code:
-- ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 terminalcraft:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: 21a914e9b89646d3.vercel-dns-016.com.
 tfss:
 - type: A
   value: 216.150.1.1 # Vercel
@@ -5728,60 +5128,51 @@ thai:
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
 the-pier:
-- ttl: 300
-  type: A
+- type: A
   value: 178.156.170.71
 jitsi.the-pier:
-- ttl: 300
-  type: A
+- type: A
   value: 178.156.170.71
 thehackmic:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: c82d664638608f42.vercel-dns-016.com.
 theme: # echo@hackclub.com U080A3QP42C
   type: CNAME
   value: b148aa044d637133.vercel-dns-016.com.
 thing:
-- ttl: 300
+- type: CNAME
+  value: f0288890d87e18f9.vercel-dns-016.com.
+thingondesk: # antonio@hackclub.com U0BCQD74Y03
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 687a73f22eda9df7.vercel-dns-016.com.
 thorn:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: thornhack.root.omg.lol.
 tile:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 timedump:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 _dmarc.timedump:
-  ttl: 300
   type: TXT
   value: v=DMARC1\; p=none # extra lenient while setting up dmarc
 2adksa7hr3i3ca2rj47jym72toiq6gi6._domainkey.timedump: # timedump.hackclub.com dkim
-  ttl: 300
   type: CNAME
   value: 2adksa7hr3i3ca2rj47jym72toiq6gi6.dkim.amazonses.com.
 5afxyqg5oa33pfpifwmw3gbruphezlbb._domainkey.timedump: # timedump.hackclub.com dkim
-  ttl: 300
   type: CNAME
   value: 5afxyqg5oa33pfpifwmw3gbruphezlbb.dkim.amazonses.com.
 nf3m6e2ow5ronraohfd2y4z5lejghjti._domainkey.timedump: # timedump.hackclub.com dkim
-  ttl: 300
   type: CNAME
   value: nf3m6e2ow5ronraohfd2y4z5lejghjti.dkim.amazonses.com.
 timeless:
-  ttl: 300
   type: CNAME
   value: hackclub.github.io.
 tinker: # clay@hackclub.com U05JNJZJ0BS
@@ -5791,16 +5182,13 @@ tinker: # clay@hackclub.com U05JNJZJ0BS
   type: CNAME
   value: a.selfhosted.hackclub.com.
 tist:
-- ttl: 300
-  type: A
+- type: A
   value: 104.198.14.52
-- ttl: 300
-  type: TXT
+- type: TXT
   values:
   - v=spf1 include:_spf.google.com ~all
   - google-site-verification=RXAYNylPkJjovWdmpddTpvXzCojzqI4C0JdEjlYtd9U
-- ttl: 300
-  type: MX
+- type: MX
   values:
   - exchange: aspmx.l.google.com.
     preference: 1
@@ -5813,15 +5201,12 @@ tist:
   - exchange: alt4.aspmx.l.google.com.
     preference: 10
 _github-challenge-HackClub-TIST.tist:
-- ttl: 300
-  type: TXT
+- type: TXT
   value: a642a04930
 www.tist:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: tist.hackclub.com.
 tlap:
-  ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 tonic:
@@ -5837,32 +5222,27 @@ toolsmith:
   octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: 0092c4795f899abe.vercel-dns-016.com.
 toppings:
-  ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 toriel:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 touch:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a628f92777bc527b.vercel-dns-016.com.
 touch-grass:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a628f92777bc527b.vercel-dns-016.com.
 toybox:
@@ -5875,70 +5255,78 @@ trace: # aarav@fraud.land U07UK4S94KC
   type: CNAME
   value: 53547cd5ddd28c7e.vercel-dns-016.com.
 tracking:
-  ttl: 300
   type: CNAME
   value: shiprocket.co.
 trail:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: 39b620737820d3b6.vercel-dns-016.com.
 trailit: # U091DE0M4NB
   octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: 6d37ca718128ed03.vercel-dns-016.com.
 training: # leo@hackclub.com U07BLJ1MBEE
-  ttl: 300
   type: CNAME
-  value: lms-tqz-baa.l.frappe.cloud.
+  value: a.selfhosted.hackclub.com.
+treasure: # pkd2210@gmail.com U091DE0M4NB
+- type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
+treasure-hunt: # pkd2210@gmail.com U091DE0M4NB
+- type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
+treasurehunt: # pkd2210@gmail.com U091DE0M4NB
+- type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 trickortrace:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: onboard-7w9.pages.dev.
 ts:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: 718b4f579eabecaa.vercel-dns-016.com.
+turfwars: # mihir@hackclub.com
+- type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 turner:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.vercel-dns.com.
 turnover:
-- ttl: 300
+- type: CNAME
+  value: 22f4f50b2688160c.vercel-dns-016.com.
+twist: # barnav / U08RVF1BAN4
+- type: CNAME
+  value: 5ed07fd5316ed1ea.vercel-dns-016.com.
+typeface: # jenny@hackclub.com
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: c602e955eeaa4e36.vercel-dns-016.com.
+ucat: # echo@hackclub.com U080A3QP42C & U0A5PLKMB25
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 uet:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: 5637f2843e643c1a.vercel-dns-016.com.
 uk:
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
 undercity:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: 79f8138b4bd40c5d.vercel-dns-016.com.
 underground:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: carrotsoups.github.io.
 uptime:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: uptime.selfhosted.hackclub.com.
 ur:
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
 url75: # SendGrid Sender Authentication (bank@hackclub.com)
-  ttl: 300
   type: CNAME
   value: sendgrid.net.
 uwu: # nathan@hackclub.com U05EZRFKRV4
@@ -5948,34 +5336,29 @@ uwu: # nathan@hackclub.com U05EZRFKRV4
   type: CNAME
   value: a.selfhosted.hackclub.com.
 v2:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.vercel-dns.com.
 submit.v2:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 v3: # echo@hackclub.com U080A3QP42C
   type: CNAME
   value: fdd973c84b10aa8e.vercel-dns-016.com.
 vault:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.vercel-dns.com.
 veil:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 india.verifications:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: bbd7d5a21981de37.vercel-dns-016.com.
 vi:
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
@@ -5983,73 +5366,68 @@ vibes: # jared@hackclub.com / lynn@hackclub.com
   type: CNAME
   value: b18296b83a87e452.vercel-dns-016.com.
 vidisha:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.vercel-dns.com.
 _gh-HackClub-Vidisha-o.vidisha:
-- ttl: 300
-  type: TXT
+- type: TXT
   value: 1e6022fcc5
 vikingsdev:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: vikingsdev.github.io.
 visas: # leo@hackclub.com U07BLJ1MBEE
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 vision:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 visioneer:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.vercel-dns.com.
 vote.visioneer:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.vercel-dns.com.
 vmc:
-- ttl: 300
-  type: A
+- type: A
   value: 45.61.162.143
+vote: # manitej@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 wacky: #euan@hackclub.com @U06T30DNB3L
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
-waffles:
-- ttl: 300
-  type: CNAME
-  value: 4a3dcf8792973840.vercel-dns-017.com.
+- type: CNAME
+  value: 580f738934aca539.vercel-dns-016.com.
+waffles: # jps@hackclub.com  
+- type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 waka:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 _F078EA6DF6FD4C8A6D3381BE47D91754.waka:
-  ttl: 300
   type: CNAME
   value: 8EE742E1BCF3D22634864F0615C0968A.F16F6610A3E159E6CB0B97DEF4D873F5.f555p5dtQ5lto55IiRM5.sectigo.com.
 warsaw:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: warsaw.hackclub.pl.
 waveband:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.vercel-dns.com.
 waveform: # echo@hackclub.com U080A3QP42C
   type: CNAME
   value: a252d1919bee0034.vercel-dns-016.com.
+waypoint: # contactloganpeterson@gmail.com U079WLY0HLY
+  type: CNAME
+  value: cb3b0faa6f4c04a7.vercel-dns-016.com.
 webdev: # lynn@hackclub.com U07ULNFPQ4T
   type: CNAME
   value: 7d8a0b8aac5ada06.vercel-dns-016.com.
@@ -6060,28 +5438,29 @@ webring: # mahad@hackclub.com U059VC0UDEU
   type: CNAME
   value: c2344de079d02c17.vercel-dns-016.com.
 webstergroves:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: shootmessaging.netlify.app.
 webventure:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: ansh3108.github.io.
 wesley:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: wesleyhackclub.github.io.
 westborough:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: whs-hackclub.netlify.com.
 wggs:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: luna5379.github.io.
+whereisjaredisaacmanrightnowatthis-moment: # willsbuilds@hackclub.com
+- type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
+whimsy: # katiesue@hackclub.com
+- type: CNAME
+  value: ad97879918161518.vercel-dns-017.com.
+  ttl: 600
 whs:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: whs-hackclub.netlify.com.
 wiki: # eps@hackclub.com
 - octodns:
@@ -6093,31 +5472,28 @@ windmill:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
+wisp: # mgoldbergspar@gmail.com U08TCSANHDX
+- type: CNAME
+  value: rxs0o9.k.hackclub.dev.
 wl:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: wlhackclub.github.io.
 wonderland:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.vercel-dns.com.
 wonderland-launch:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: cname.vercel-dns.com.
 woof: #alexvd@hackclub.com
-  ttl: 300
   type: CNAME
   value: 9b3edc9eb353600f.vercel-dns-016.com.
   octodns:
     cloudflare:
       proxied: true
 wootton:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: woottonhack.netlify.com.
 workshop-cards: # echo@hackclub.com U080A3QP42C
   type: CNAME
@@ -6129,12 +5505,10 @@ wormhole:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: tggocccwo0oogs4wk8swgwkg.a.selfhosted.hackclub.com.
 wshackclub:
-- ttl: 300
-  type: A
+- type: A
   value: 35.158.87.123
 www:
   type: CNAME
@@ -6143,36 +5517,28 @@ you-ship-we-clip:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 your-first-ship:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: af91962c946ec99c.vercel-dns-016.com.
 ysws:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: hackclub.github.io.
 zachday:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: zachday.netlify.com.
 zachday23:
-- ttl: 300
-  type: A
+- type: A
   value: 150.136.142.44
 zephyr:
-- ttl: 300
-  type: CNAME
-  value: cname.vercel-dns.com.
+- type: CNAME
+  value: a8184c0f9860ff11.vercel-dns-016.com.
 hub.zephyr:
-  ttl: 300
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: 36d5191ca2f7185c.vercel-dns-016.com.
 zguide:
-- ttl: 300
-  type: CNAME
+- type: CNAME
   value: hackclub.github.io.
 zh:
   type: CNAME
@@ -6181,10 +5547,8 @@ zoo:
 - octodns:
     cloudflare:
       proxied: true
-  ttl: 300
   type: CNAME
   value: a.selfhosted.hackclub.com.
 zwp:
-- ttl: 300
-  type: A
+- type: A
   value: 172.99.233.117

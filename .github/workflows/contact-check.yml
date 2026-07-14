@@ -2,6 +2,7 @@ name: contact-check
 
 on:
   pull_request_target:
+  merge_group:
 
 permissions:
   contents: read
@@ -11,24 +12,34 @@ jobs:
   contact-check:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 0
           ref: ${{ github.event.pull_request.head.sha }}
+          allow-unsafe-pr-checkout: true
 
       - uses: actions/setup-python@v6
         with:
-          python-version: '3'
+          python-version: "3"
 
       - name: Install dependencies
         run: pip install ruamel.yaml
 
       - name: Check contact info on changed domains
         id: contact-check
-        run: python3 bin/check-contact-info --base origin/${{ github.base_ref }}
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          BASE_REF: ${{ github.base_ref }}
+          MERGE_BASE_SHA: ${{ github.event.merge_group.base_sha }}
+        run: |
+          if [ "$EVENT_NAME" = "merge_group" ]; then
+            python3 bin/check-contact-info --base "$MERGE_BASE_SHA"
+          else
+            python3 bin/check-contact-info --base "origin/$BASE_REF"
+          fi
 
       - name: Comment on PR if missing contact info
-        if: failure() && steps.contact-check.outcome == 'failure'
+        if: failure() && steps.contact-check.outcome == 'failure' && github.event_name == 'pull_request_target'
         uses: actions/github-script@v9
         with:
           script: |
