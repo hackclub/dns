@@ -606,21 +606,6 @@ armed:
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
-arsenic:
-- type: CNAME
-  value: arsenic-club.github.io.
-_gh-arsenobetaine-o.arsenic:
-- type: TXT
-  value: 1f595876ef
-_github-pages-challenge-arsenic-club.arsenic:
-- type: TXT
-  value: e46c397c5bd751389a024480dbb07b
-link.arsenic:
-- type: CNAME
-  value: cname.short.io.
-aryan:
-- type: CNAME
-  value: cname.vercel-dns.com.
 ascend:
 - type: CNAME
   value: cname.vercel-dns.com.
