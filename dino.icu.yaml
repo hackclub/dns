@@ -1167,6 +1167,11 @@ scavenger: # U076W5GKC48
   type: CNAME
   value: nate-greco.github.io.
 
+schemabuilder: # hackclub-dns@fabian.ternismail.de U0B8JTZDTKQ
+  - ttl: 18000
+    type: A
+    value: 77.90.15.2 # vweb01.eu
+
 sdheeraj: # https://github.com/17sdheeraj/17sdheeraj.github.io
   ttl: 600
   type: CNAME
