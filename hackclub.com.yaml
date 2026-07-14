@@ -4407,18 +4407,18 @@ scrappy:
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
-scraps: # nathan@hackclub.com
+scraps: # nathan@hackclub.com // iamalive
   octodns:
     cloudflare:
       proxied: true
   type: CNAME
-  value: a.selfhosted.hackclub.com.
-api.scraps: # nathan@hackclub.com
+  value: a.ingress.tier2.infra.hackclub.com.
+api.scraps: # nathan@hackclub.com // iamalive 
   octodns:
     cloudflare:
       proxied: true
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: a.ingress.tier2.infra.hackclub.com.
 scrapyard:
 - type: A
   value: 216.150.1.1 # Vercel
