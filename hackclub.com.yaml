@@ -4012,7 +4012,7 @@ portalvr:
   value: a.selfhosted.hackclub.com.
 portputer: # lola@hackclub.com
 - type: CNAME
-  value: portputer-4q3oq922h.hackclub.dev.
+  value: 18c5a97b962d72ed.vercel-dns-013.com.
 postal:
   type: CNAME
   value: postal.servers.hackclub.com.
