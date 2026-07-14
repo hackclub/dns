@@ -352,6 +352,8 @@ _vercel:
   - vc-domain-verify=premiere.hackclub.com,8abf79e779dd433fe3d4
   - vc-domain-verify=whimsy.hackclub.com,712b4c3c244883005c42
   - vc-domain-verify=re-dream.hackclub.com,e11e0d5ca60198a6cf01
+  - vc-domain-verify=flickr.hackclub.com,3b44a9f210c4c7d6e72c
+
 _visual-studio-marketplace-hackatime: # U07VC9705D4
   type: TXT
   value: 729d4142-7fd4-491e-9046-43c46cb4fa66
@@ -2144,6 +2146,9 @@ flhs:
 flourish:
 - type: CNAME
   value: reemlifa.github.io.
+flickr: #louisa@hackclub.com / U06EMBJH71S
+  type: CNAME
+  value: 2832212b0b592fec.vercel-dns-017.com.
 foodie:
   type: CNAME
   value: 4ac2db95a894d00c.vercel-dns-017.com.
