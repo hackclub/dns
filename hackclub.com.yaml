@@ -40,6 +40,9 @@
 44.74:
 - type: CNAME
   value: 8e42daa9edbe9df1.vercel-dns-016.com.
+67: # meghana@hackclub.com U06P62WGWAV
+  type: CNAME
+  value: 011deaf9e530ac38.vercel-dns-013.com.
 72f724f0383247cd44371eb3cf8102a1:
   type: CNAME
   value: verify.bing.com.
