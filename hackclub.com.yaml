@@ -378,6 +378,15 @@ account: # nora@hackclub.com U06QK6AG3RD
   octodns:
     cloudflare:
       proxied: true
+six7: # meghana@hackclub.com U06P62WGWAV
+  type: CNAME
+  value: meghanam4.github.io
+67: # meghana@hackclub.com U06P62WGWAV
+  type: CNAME
+  value: meghanam4.github.io
+sixseven: # meghana@hackclub.com U06P62WGWAV
+  type: CNAME
+  value: meghanam4.github.io
 aces: # jenin@hackclub.com U0926UASBJ7
   octodns:
     cloudflare:
