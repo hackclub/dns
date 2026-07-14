@@ -1985,6 +1985,12 @@ evergreen:
 evoking:
   type: CNAME
   value: evokinghc.netlify.app.
+
+example: # dnseditor-test@3kh0.net
+- ttl: 600
+  type: A
+  value: 1.1.1.1
+
 explorpheus:
 - octodns:
     cloudflare:
