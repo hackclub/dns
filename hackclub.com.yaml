@@ -4010,6 +4010,9 @@ portalvr:
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
+portputer: # lola@hackclub.com
+- type: CNAME
+  value: portputer-4q3oq922h.hackclub.dev.
 postal:
   type: CNAME
   value: postal.servers.hackclub.com.
