@@ -351,6 +351,7 @@ _vercel:
   - vc-domain-verify=calculate.hackclub.com,2b76d639c0c04dc6b191
   - vc-domain-verify=premiere.hackclub.com,8abf79e779dd433fe3d4
   - vc-domain-verify=whimsy.hackclub.com,712b4c3c244883005c42
+  - vc-domain-verify=re-dream.hackclub.com,cad73296a406276443b8
 _visual-studio-marketplace-hackatime: # U07VC9705D4
   type: TXT
   value: 729d4142-7fd4-491e-9046-43c46cb4fa66
