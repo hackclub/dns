@@ -2143,12 +2143,12 @@ flhs:
     preference: 10
   - exchange: alt4.aspmx.l.google.com.
     preference: 10
-flourish:
-- type: CNAME
-  value: reemlifa.github.io.
 flickr: #louisa@hackclub.com / U06EMBJH71S
   type: CNAME
   value: 2832212b0b592fec.vercel-dns-017.com.
+flourish:
+- type: CNAME
+  value: reemlifa.github.io.
 foodie:
   type: CNAME
   value: 4ac2db95a894d00c.vercel-dns-017.com.
