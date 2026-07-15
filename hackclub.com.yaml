@@ -1310,6 +1310,9 @@ cider:
 cinema:
 - type: CNAME
   value: dandililacs.github.io.
+circazine: # lola@hackclub.com
+- type: CNAME
+  value: 6f4dc5f527711f20.vercel-dns-013.com.
 cken:
 - type: A
   value: 52.191.165.18
