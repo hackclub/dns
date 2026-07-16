@@ -4469,6 +4469,12 @@ search: # U059VC0UDEU
 security: # parth@hackclub.com U092CHMLB24
   type: CNAME
   value: 7a9237159e4766f7.vercel-dns-016.com.
+self-portrait:
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 send.bash: # rushil@hackclub.com U020X4GCWSF
 - type: MX
   value:
@@ -4476,12 +4482,6 @@ send.bash: # rushil@hackclub.com U020X4GCWSF
     preference: 10
 - type: TXT
   value: "v=spf1 include:amazonses.com ~all"
-self-portrait:
-- octodns:
-    cloudflare:
-      proxied: true
-  type: CNAME
-  value: a.selfhosted.hackclub.com.
 a.selfhosted:
   type: CNAME
   value: static.52.100.161.5.clients.your-server.de.
