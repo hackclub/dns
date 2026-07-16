@@ -978,6 +978,19 @@ badge.blueprint: # U06CRF4DLSU
 - ttl: 600
   type: CNAME
   value: mpkendall.github.io.
+bash: # rushil@hackclub.com U020X4GCWSF
+  type: CNAME
+  value: 1e0993da91f1fd93.vercel-dns-013.com.
+resend._domainkey.bash: # rushil@hackclub.com U020X4GCWSF
+  type: TXT
+  value: "1e0993da91f1fd93.vercel-dns-013.com."
+send.bash: # rushil@hackclub.com U020X4GCWSF
+- type: MX
+  value:
+    exchange: feedback-smtp.us-east-1.amazonses.com.
+    preference: 10
+- type: TXT
+  value: "v=spf1 include:amazonses.com ~all"
 bn:
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
