@@ -842,6 +842,19 @@ help.bank:
 barracoders:
 - type: CNAME
   value: barracoders.netlify.app.
+bash: # rushil@hackclub.com U020X4GCWSF
+  type: CNAME
+  value: 1e0993da91f1fd93.vercel-dns-013.com.
+resend._domainkey.bash: # rushil@hackclub.com U020X4GCWSF
+  type: TXT
+  value: "1e0993da91f1fd93.vercel-dns-013.com."
+send.bash: # rushil@hackclub.com U020X4GCWSF
+- type: MX
+  value:
+    exchange: feedback-smtp.us-east-1.amazonses.com.
+    preference: 10
+- type: TXT
+  value: "v=spf1 include:amazonses.com ~all"
 bauble: #alexvd@hackclub.com
 - octodns:
     cloudflare:
@@ -978,9 +991,6 @@ badge.blueprint: # U06CRF4DLSU
 - ttl: 600
   type: CNAME
   value: mpkendall.github.io.
-bash: # rushil@hackclub.com U020X4GCWSF
-  type: CNAME
-  value: 1e0993da91f1fd93.vercel-dns-013.com.
 bn:
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
@@ -1040,7 +1050,7 @@ bugs:
     cloudflare:
       proxied: true
   type: CNAME
-  value: a.lfhosted.hackclub.com.
+  value: a.selfhosted.hackclub.com.
 buildboard: #alexvd@hackclub.com && dhamari@hackclub.com
 - octodns:
     cloudflare:
@@ -4229,9 +4239,6 @@ remixed: # ascpixi@hackclub.com U082DPCGPST
 renaissance-24:
   type: CNAME
   value: 1bdc13681dff9b21.vercel-dns-016.com.
-resend._domainkey.bash: # rushil@hackclub.com U020X4GCWSF
-  type: TXT
-  value: "1e0993da91f1fd93.vercel-dns-013.com."
 resolution: # dhamari@hackclub.com // jenin@hackclub.com
 - type: A
   value: 216.150.1.1 # Vercel
@@ -4475,13 +4482,6 @@ self-portrait:
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
-send.bash: # rushil@hackclub.com U020X4GCWSF
-- type: MX
-  value:
-    exchange: feedback-smtp.us-east-1.amazonses.com.
-    preference: 10
-- type: TXT
-  value: "v=spf1 include:amazonses.com ~all"
 a.selfhosted:
   type: CNAME
   value: static.52.100.161.5.clients.your-server.de.
