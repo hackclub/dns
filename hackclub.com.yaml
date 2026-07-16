@@ -357,6 +357,7 @@ _vercel:
   - vc-domain-verify=whimsy.hackclub.com,712b4c3c244883005c42
   - vc-domain-verify=re-dream.hackclub.com,e11e0d5ca60198a6cf01
   - vc-domain-verify=flickr.hackclub.com,3b44a9f210c4c7d6e72c
+  - vc-domain-verify=pulsewidth.hackclub.com,b8160f071751810729d5
 
 _visual-studio-marketplace-hackatime: # U07VC9705D4
   type: TXT
@@ -4094,6 +4095,9 @@ server.psn:
 pullquests: # jared@hackclub.com / lynn@hackclub.com
   type: CNAME
   value: 28f4f262437958ca.vercel-dns-016.com.
+pulsewidth: # @lou / louisa@hackclub.com
+  type: CNAME
+  value: 0308f3558260946d.vercel-dns-017.com.
 puyallup:
 - type: A
   value: 216.150.1.1 # Vercel
