@@ -665,7 +665,7 @@ dev.hkgi: # HKGI test instance
   type: CNAME
   value: garden.devcara.com.
 
-hypothesis: # https://github.com/RasmusStenlund
+hypothesis: # rasmus.stenlund@gmail.com
   ttl: 600
   type: CNAME
   value: https://rasmusstenlund.github.io/Hypothesis/
