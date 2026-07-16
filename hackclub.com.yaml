@@ -847,7 +847,7 @@ bash: # rushil@hackclub.com U020X4GCWSF
   value: 1e0993da91f1fd93.vercel-dns-013.com.
 resend._domainkey.bash: # rushil@hackclub.com U020X4GCWSF
   type: TXT
-  value: "1e0993da91f1fd93.vercel-dns-013.com."
+  value: "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDkoRoimH6L/m+ibmddlbIXH/3OjrkK3PJEK0aCFSumRF4Otb3WhGJVVCwQOcvl14zthqP0tcUmM6CMmfOYsdvaWE+hnhaxGChNmWdUJqdqu+vYpkxahdVbz0nHe4bMt79XxjGtB/TwYK9BCnc0XOkW1jTQfZrMWINZ/hhGaFrhcwIDAQAB"
 send.bash: # rushil@hackclub.com U020X4GCWSF
 - type: MX
   value:
