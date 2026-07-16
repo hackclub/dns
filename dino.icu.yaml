@@ -665,6 +665,11 @@ dev.hkgi: # HKGI test instance
   type: CNAME
   value: garden.devcara.com.
 
+hypothesis: # rasmus.stenlund@gmail.com
+  ttl: 600
+  type: CNAME
+  value: rasmusstenlund.github.io
+
 icons: # yoda - https://github.com/yodalightsabr/icons-dino-icu - a CDN for @hackclub/icons
   ttl: 600
   type: A
