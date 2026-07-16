@@ -5481,6 +5481,9 @@ whimsy: # katiesue@hackclub.com
 whs:
 - type: CNAME
   value: whs-hackclub.netlify.com.
+widget: # barnav@hackclub.com
+- type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 wiki: # eps@hackclub.com
 - octodns:
     cloudflare:
