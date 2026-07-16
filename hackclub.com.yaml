@@ -606,7 +606,7 @@ webhooks.ari: # nathan@hackclub.com
     cloudflare:
       proxied: true
   type: CNAME
-  value: a.ingress.tier2.infra.hackclub.com.
+  value: a.selfhosted.hackclub.com.
 armed:
 - octodns:
     cloudflare:
