@@ -1943,12 +1943,6 @@ es:
 essays:
   type: CNAME
   value: hackclub.github.io.
-euan: # jenin@hackclub.com; POC=dhamari
-- octodns:
-    cloudflare:
-      proxied: true
-  type: CNAME
-  value: a.selfhosted.hackclub.com.
 events: # leo@hackclub.com
 - octodns:
     lenient: true
@@ -5487,6 +5481,9 @@ whimsy: # katiesue@hackclub.com
 whs:
 - type: CNAME
   value: whs-hackclub.netlify.com.
+widget: # barnav@hackclub.com
+- type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 wiki: # eps@hackclub.com
 - octodns:
     cloudflare:
