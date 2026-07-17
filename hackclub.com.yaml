@@ -1709,6 +1709,9 @@ disconnect:
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
+dns: # echo@hackclub.com
+- type: CNAME
+  value: cname.vercel-dns.com.
 dockerize:
 - type: CNAME
   value: 80028c660ac02181.vercel-dns-017.com.
