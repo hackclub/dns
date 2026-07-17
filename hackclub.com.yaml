@@ -4799,6 +4799,9 @@ solder:
 solstice:
   type: CNAME
   value: 5f080132a453ceca.vercel-dns-016.com.
+solvable: # jared@hackclub.com / lynn@hackclub.com
+  type: CNAME
+  value: 010509292833ed16.vercel-dns-013.com.
 som-mail-system:
   type: CNAME
   value: b9dd0ffc9d4870b8.vercel-dns-016.com.
