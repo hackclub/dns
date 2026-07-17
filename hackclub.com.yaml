@@ -2223,6 +2223,9 @@ fraud: # echo@hackclub.com U080A3QP42C
       proxied: true
   type: CNAME
   value: b.selfhosted.hackclub.com.
+fraudtest: # echo@hackclub.com
+- type: CNAME
+  value: a.selfhosted.hackclub.com.
 fremont:
 - type: CNAME
   value: www.fhsprogramming.com.
