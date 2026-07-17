@@ -3243,6 +3243,9 @@ lghs:
 lhscc:
   type: A
   value: 174.86.1.223
+library: # koy@camerini.me U0ALZQ9FP9P
+   type: CNAME
+   value: https://by-koy.github.io/library-ysws/.
 libre:
   type: NS
   values:
