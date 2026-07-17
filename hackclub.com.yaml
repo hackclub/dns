@@ -5144,6 +5144,9 @@ ten-days-of-code:
 terminalcraft:
 - type: CNAME
   value: 21a914e9b89646d3.vercel-dns-016.com.
+testing: # echo@hackclub.com
+- type: CNAME
+  value: example.com.
 tfss:
 - type: A
   value: 216.150.1.1 # Vercel
