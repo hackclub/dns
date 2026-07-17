@@ -1527,3 +1527,8 @@ zoneout: # kilecraft90@gmail.com U08GCDHM0QZ
 - ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+
+mkv: # drew@drewfitzgerald.co.nz U0AA0EU3G3V
+  - type: CNAME
+    value: mkv.wchouses.co.nz.
+    ttl: 600 # OPTIONAL (defaults to 600)
