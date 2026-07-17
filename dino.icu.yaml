@@ -812,7 +812,7 @@ levelzero: # @arjav0703 (gh) - ysws website
   
 library: # koy@camerini.me U0ALZQ9FP9P
 - type: CNAME
-  value: https://by-koy.github.io/library-ysws.
+  value: by-koy.github.io/library-ysws.
 
 lkmw:
   ttl: 600
