@@ -3080,6 +3080,9 @@ jobs: # nora@hackclub.com U06QK6AG3RD
 jolly: # jolly@hackclub.com U08CJCZ2Z9S
 - type: CNAME
   value: 07b89999ac9f4966.vercel-dns-016.com.
+jolly-testing: # jolly@hackclub.com
+- type: CNAME
+  value: example.com.
 journey:
 - octodns:
     cloudflare:
