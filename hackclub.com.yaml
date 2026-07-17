@@ -1328,6 +1328,27 @@ clubdash:
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
+clubs: # dhyan@hackclub.com // U0824G9PTFE
+- octodns:
+    lenient: true
+    cloudflare:
+      proxied: true
+  type: ALIAS
+  value: a.ingress.tier2.infra.hackclub.com.
+- type: MX
+  value:
+    exchange: inbound-smtp.us-east-1.amazonaws.com.
+    preference: 10
+resend._domainkey.clubs: # dhyan@hackclub.com // U0824G9PTFE
+  type: TXT
+  value: "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC7NaUrPsTNbDNJjkzvoItciTUCgN+JF6SnvCejjyGGuM6skFCbUeeXyCcHE8lNEfcAUdexEoSlGYGGUxvgyOHb10zEm+tezjIaN3s22+LXBCZqPfzyOVBBoeahRqMEn49jnV3Z+zPW5ki4YM0sCmAWvcW8KXhixaOujcO6yhHcxwIDAQAB"
+send.clubs: # dhyan@hackclub.com // U0824G9PTFE
+- type: MX
+  value:
+    exchange: feedback-smtp.us-east-1.amazonses.com.
+    preference: 10
+- type: TXT
+  value: "v=spf1 include:amazonses.com ~all"
 clubsite: #jared@hackclub.com U07HEH4N8UV
 - type: CNAME
   value: a4c912838eb0ecb4.vercel-dns-016.com.
