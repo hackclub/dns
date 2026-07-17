@@ -5333,6 +5333,12 @@ undercity:
 underground:
 - type: CNAME
   value: carrotsoups.github.io.
+unfold: # jenin@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 uptime:
 - octodns:
     cloudflare:
