@@ -880,6 +880,11 @@ misskey: #hackisskey | korange753@gmail.com U091Q2MS3T9
   type: TXT
   value: domain-verification=korange # for Nest
 
+mkv: # drew@drewfitzgerald.co.nz U0AA0EU3G3V
+  - type: CNAME
+    value: mkv.wchouses.co.nz.
+    ttl: 600 # OPTIONAL (defaults to 600)
+
 molecule: # by https://github.com/RasmusStenlund
   ttl: 600
   type: CNAME
