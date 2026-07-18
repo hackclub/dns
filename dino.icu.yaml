@@ -816,7 +816,7 @@ library: # koy@camerini.me U0ALZQ9FP9P
 
 libreassistant: # mostlime@outlook.com
 - type: CNAME
-  value: libreassistant.mostlime.hackclub.app.
+  value: mostlime.hackclub.app.
 lkmw:
   ttl: 600
   type: CNAME
