@@ -2389,6 +2389,9 @@ hackachu: # lola@hackclub.com
   ttl: 600
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+hackanomous: # Hackanomous YSWS: Organiser: Jacob @Jacob jacob@navaratne.uk U0AEYDUCLKF | Sponsor: @Jenny jenny@hackclub.com
+- type: CNAME
+  value: a5977a86edc7c2cc.vercel-dns-017.com.
 hackapet:
 - type: CNAME
   value: bc34bb24a2d5be24.vercel-dns-016.com.
@@ -2716,11 +2719,6 @@ _acme-challenge.ui3.hcb:
   type: TXT
   values:
   - LLPZLAlde42GwtLytAaEQSW__bIemx5nVPJIBgIDPHg
-  
-hackanomous: # Hackanomous YSWS: Organiser: Jacob @Jacob jacob@navaratne.uk U0AEYDUCLKF | Sponsor: @Jenny jenny@hackclub.com
-- type: CNAME
-  value: a5977a86edc7c2cc.vercel-dns-017.com.
-
 hcer-public-github-data:
 - octodns:
     cloudflare:
