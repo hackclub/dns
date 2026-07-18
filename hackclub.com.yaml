@@ -336,6 +336,7 @@ _vercel:
   - vc-domain-verify=whimsy.hackclub.com,712b4c3c244883005c42
   - vc-domain-verify=flickr.hackclub.com,3b44a9f210c4c7d6e72c
   - vc-domain-verify=pulsewidth.hackclub.com,b8160f071751810729d5
+  - vc-domain-verify=hackanomous.hackclub.com,e7fb70d46a5f45049558
 
 _visual-studio-marketplace-hackatime: # U07VC9705D4
   type: TXT
@@ -2715,6 +2716,11 @@ _acme-challenge.ui3.hcb:
   type: TXT
   values:
   - LLPZLAlde42GwtLytAaEQSW__bIemx5nVPJIBgIDPHg
+  
+hackanomous: # Hackanomous YSWS: Organiser: Jacob @Jacob jacob@navaratne.uk U0AEYDUCLKF | Sponsor: @Jenny jenny@hackclub.com
+- type: CNAME
+  value: a5977a86edc7c2cc.vercel-dns-017.com.
+
 hcer-public-github-data:
 - octodns:
     cloudflare:
