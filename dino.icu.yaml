@@ -814,6 +814,9 @@ library: # koy@camerini.me U0ALZQ9FP9P
 - type: CNAME
   value: library-ysws.vercel.app.
 
+libreassistant: # mostlime@outlook.com
+- type: CNAME
+  value: libreassistant.mostlime.hackclub.app.
 lkmw:
   ttl: 600
   type: CNAME
