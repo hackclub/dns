@@ -4614,6 +4614,12 @@ send.shop: # rushil@hackclub.com U020X4GCWSF
 showcase:
   type: CNAME
   value: onboard-7w9.pages.dev.
+shroud: # dracula@conduct.hackclub.com U0A5PLKMB25
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 shush:
   octodns:
     cloudflare:
