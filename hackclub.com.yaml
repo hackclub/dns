@@ -4332,9 +4332,9 @@ rrhs:
 rss:
   type: CNAME
   value: 5e3aec56f7ee6698.vercel-dns-016.com.
-ru: # developer.vladislav.smirnov@gmail.com U092K4W1ZB2
-  type: CNAME
-  value: a05569dabb46ea5b.vercel-dns-016.com.
+ru: # echo@hackclub.com
+- type: CNAME
+  value: cname.vercel-dns.com.
 runshaw:
   type: CNAME
   value: danielb.hackclub.app.
