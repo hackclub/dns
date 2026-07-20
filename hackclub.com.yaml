@@ -1981,9 +1981,6 @@ extensify:
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
-fa:
-  type: CNAME
-  value: a05569dabb46ea5b.vercel-dns-016.com.
 fab:
 - type: CNAME
   value: cname.vercel-dns.com.
