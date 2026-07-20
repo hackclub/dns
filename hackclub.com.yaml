@@ -304,7 +304,6 @@ _vercel: #
   - "vc-domain-verify=poolesville.hackclub.com,d8099895eaea670eec60"
   - "vc-domain-verify=pomperaug.hackclub.com,115cd4582efb1a6a1d63"
   - "vc-domain-verify=puyallup.hackclub.com,ee486cad685cefa12fa6"
-  - "vc-domain-verify=reactive.hackclub.com,4517de9b0495e69c92de"
   - "vc-domain-verify=reflow.hackclub.com,cc069e8cdf1c55762e13"
   - "vc-domain-verify=register.epochvt.hackclub.com,8e89fd1c0e1dd7045bd5"
   - "vc-domain-verify=rewind.hackclub.com,1cd9a3a9a2ca7ef0b939"
