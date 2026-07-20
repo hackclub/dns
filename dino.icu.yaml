@@ -362,6 +362,9 @@ controlline: # Github: NoIwantyourcode slack: U0A269NG76F
   type: A
   value: 216.198.79.1
 
+convert3d: # U0B7SMP7PU6
+- type: CNAME
+  value: planema4.hackclub.app.
 copilot: # @Yasin U07F2TA4YVB yasin@flonga.org https://yasina74.github.io/copilot-ysws/
 - ttl: 600
   type: CNAME
@@ -814,6 +817,9 @@ library: # koy@camerini.me U0ALZQ9FP9P
 - type: CNAME
   value: library-ysws.vercel.app.
 
+libreassistant: # mostlime@outlook.com
+- type: CNAME
+  value: mostlime.hackclub.app.
 lkmw:
   ttl: 600
   type: CNAME
