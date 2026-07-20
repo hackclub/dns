@@ -5378,9 +5378,6 @@ veil:
 india.verifications:
 - type: CNAME
   value: bbd7d5a21981de37.vercel-dns-016.com.
-vi:
-  type: CNAME
-  value: a05569dabb46ea5b.vercel-dns-016.com.
 vibes: # jared@hackclub.com / lynn@hackclub.com
   type: CNAME
   value: b18296b83a87e452.vercel-dns-016.com.
