@@ -5252,9 +5252,6 @@ touch-grass:
 toybox:
   type: CNAME
   value: d7ce54e48ab125e2.vercel-dns-016.com.
-tr:
-  type: CNAME
-  value: a05569dabb46ea5b.vercel-dns-016.com.
 trace: # aarav@fraud.land U07UK4S94KC
   type: CNAME
   value: 53547cd5ddd28c7e.vercel-dns-016.com.
