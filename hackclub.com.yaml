@@ -1470,13 +1470,13 @@ convert: # @msw max@hackclub.com — migrated to Orchard
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+convert-backend:
+- type: A
+  value: 104.36.86.12
   convert3d: # f35lightninghasvtol@gmail.com
 - ttl: 600
   type: CNAME
   value: planema4.hackclub.app.
-convert-backend:
-- type: A
-  value: 104.36.86.12
 coolify-conductor:
 - octodns:
     cloudflare:
