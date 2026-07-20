@@ -3017,9 +3017,6 @@ island:
 isthackers:
 - type: CNAME
   value: isthackers.github.io.
-it:
-  type: CNAME
-  value: a05569dabb46ea5b.vercel-dns-016.com.
 italia:
   type: A
   value: 185.151.30.185
