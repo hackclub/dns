@@ -5119,6 +5119,9 @@ ten-days-of-code:
 terminalcraft:
 - type: CNAME
   value: 21a914e9b89646d3.vercel-dns-016.com.
+test-for-rowan: # ascpixi@ascpixi.dev
+- type: CNAME
+  value: a.selfhosted.hackclub.com.
 tfss:
 - type: A
   value: 216.150.1.1 # Vercel
