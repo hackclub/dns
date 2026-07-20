@@ -1473,6 +1473,10 @@ convert: # @msw max@hackclub.com — migrated to Orchard
 convert-backend:
 - type: A
   value: 104.36.86.12
+convert3d: # U0B7SMP7PU6
+- ttl: 600
+  type: CNAME
+  value: planema4.hackclub.app.
 coolify-conductor:
 - octodns:
     cloudflare:
