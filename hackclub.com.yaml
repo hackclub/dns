@@ -322,7 +322,6 @@ _vercel: #
   - "vc-domain-verify=toolsmith.hackclub.com,59d39defb05a336e28ad"
   - "vc-domain-verify=toppings.hackclub.com,f82287f84e90ea2099f8"
   - "vc-domain-verify=trailit.hackclub.com,945360ddfae512ea887e"
-  - "vc-domain-verify=ts.hackclub.com,173e884ba6e0b2830330"
   - "vc-domain-verify=vidisha.hackclub.com,865c18c50e3614795dfc"
   - "vc-domain-verify=visioneer.hackclub.com,b1bec26133a3a1d74d62"
   - "vc-domain-verify=vote.visioneer.hackclub.com,eacfb41e3088190eecbf"
