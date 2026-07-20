@@ -1759,9 +1759,6 @@ ee:
 eggsploit: # jared@hackclub.com / lynn@hackclub.com
   type: CNAME
   value: 51f114b2e08afbd6.vercel-dns-016.com.
-el:
-  type: CNAME
-  value: a05569dabb46ea5b.vercel-dns-016.com.
 elapsed: # U0A9B38F413
   type: CNAME
   value: 91e515501c1f1d5b.vercel-dns-017.com.
