@@ -3487,9 +3487,6 @@ game-server.morp: # @Olive, U07BN55GN3D
 movingday: # U083W5CCFDG joaquin@hackclub.com
   type: CNAME
   value: 221d61ec6ba25f97.vercel-dns-016.com.
-ms:
-  type: CNAME
-  value: a05569dabb46ea5b.vercel-dns-016.com.
 msft:
   type: TXT
   value: "MS=ms62939426"
