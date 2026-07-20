@@ -4344,9 +4344,6 @@ ru: # echo@hackclub.com
 runshaw:
   type: CNAME
   value: danielb.hackclub.app.
-rw:
-  type: CNAME
-  value: a05569dabb46ea5b.vercel-dns-016.com.
 sa:
   type: CNAME
   value: hc-sa.netlify.app.
