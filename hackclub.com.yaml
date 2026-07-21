@@ -5356,9 +5356,6 @@ uptime:
       proxied: true
   type: CNAME
   value: uptime.selfhosted.hackclub.com.
-ur:
-  type: CNAME
-  value: a05569dabb46ea5b.vercel-dns-016.com.
 url75: # SendGrid Sender Authentication (bank@hackclub.com)
   type: CNAME
   value: sendgrid.net.
