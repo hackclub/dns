@@ -965,9 +965,6 @@ badge.blueprint: # U06CRF4DLSU
 - ttl: 600
   type: CNAME
   value: mpkendall.github.io.
-bn:
-  type: CNAME
-  value: a05569dabb46ea5b.vercel-dns-016.com.
 boba:
 - type: CNAME
   value: hackclub.github.io.
