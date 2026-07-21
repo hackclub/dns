@@ -3088,9 +3088,6 @@ journey:
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
-jp:
-  type: CNAME
-  value: a05569dabb46ea5b.vercel-dns-016.com.
 jpeg:
 - type: CNAME
   value: cname.vercel-dns.com.
