@@ -3151,9 +3151,6 @@ knit:
 ko:
   type: CNAME
   value: cname.vercel-dns.com.
-kr:
-  type: CNAME
-  value: a05569dabb46ea5b.vercel-dns-016.com.
 lambert:
   type: CNAME
   value: lambert-hackclub.vercel.app.
