@@ -3817,9 +3817,6 @@ ows: #outernet-web-services
 p2p:
   type: CNAME
   value: p2phackclub.github.io.
-pa:
-  type: CNAME
-  value: a05569dabb46ea5b.vercel-dns-016.com.
 pack:
   type: CNAME
   value: 6ac58e3a94296079.vercel-dns-016.com.
