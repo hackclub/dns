@@ -5148,9 +5148,6 @@ tfss:
 - type: TXT
   values:
   - v=spf1 include:spf.improvmx.com ~all
-thai:
-  type: CNAME
-  value: a05569dabb46ea5b.vercel-dns-016.com.
 the-pier:
 - type: A
   value: 178.156.170.71
