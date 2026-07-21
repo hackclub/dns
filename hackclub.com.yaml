@@ -3937,9 +3937,6 @@ pinetree:
 pixeldust:
   type: CNAME
   value: cname.vercel-dns.com.
-pl:
-  type: CNAME
-  value: a05569dabb46ea5b.vercel-dns-016.com.
 plausible: # @msw max@hackclub.com
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
