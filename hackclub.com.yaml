@@ -1551,9 +1551,6 @@ css-starter:
 ctf:
 - type: CNAME
   value: zealous-booth-dc1397.netlify.app.
-portal.ctf:
-  type: A
-  value: 167.99.110.64
 ctrl-alt-tec:
 - type: CNAME
   value: ctrl-alt-tec.github.io.
