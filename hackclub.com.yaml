@@ -871,12 +871,12 @@ better-airtable-mcp: # augie@hackclub.com U07FCRNHS1J
       proxied: false
   type: CNAME
   value: 400j0g.k.hackclub.dev.
-better-brightdata-mcp:
+better-brightdata-mcp: # max@hackclub.com / U09UQ385LSG
 - octodns:
     cloudflare:
       proxied: true
   type: CNAME
-  value: b.selfhosted.hackclub.com.
+  value: a.ingress.tier2.infra.hackclub.com.
 bewacky:
 - type: TXT
   value: google-site-verification=_AfYSUQq4dxxSKw--f3ebARfekOtG3w3jIRdky4ry_g
