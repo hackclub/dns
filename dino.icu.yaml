@@ -423,6 +423,21 @@ dev-email:
   values:
   - v=spf1 include:spf.improvmx.com ~all
 
+hcai.devansh: # devansh.awat@gmail.com https://github.com/Devansh-awat
+- ttl: 600
+  type: A
+  value: 140.245.203.110
+
+kyto.devansh: # devansh.awat@gmail.com https://github.com/Devansh-awat
+- ttl: 600
+  type: A
+  value: 140.245.203.110
+
+stardance.devansh: # devansh.awat@gmail.com https://github.com/Devansh-awat
+- ttl: 600
+  type: A
+  value: 140.245.203.110
+
 devlife: # https://github.com/amarieidavid26-byte  Email: amariei.david26@gmail.com
 - ttl: 600
   type: A
