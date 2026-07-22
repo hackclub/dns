@@ -2759,9 +2759,6 @@ hermes:
 hersey:
 - type: CNAME
   value: cname.vercel-dns.com.
-hi:
-  type: CNAME
-  value: a05569dabb46ea5b.vercel-dns-016.com.
 high-seas:
 - type: CNAME
   value: 992022aa5b4ad559.vercel-dns-016.com.
