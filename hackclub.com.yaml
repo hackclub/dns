@@ -2551,6 +2551,9 @@ _github-pages-challenge-BennyGaming635.hackvault: # benjamin.graetz@henleyhs.sa.
 hacky-holidays:
   type: CNAME
   value: cname.vercel-dns.com.
+hackyeah: # jenny@hackclub.com
+- type: CNAME
+  value: cname.vercel-dns.com.
 hackyholidays:
   type: CNAME
   value: cname.vercel-dns.com.
