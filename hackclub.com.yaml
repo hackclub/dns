@@ -2552,8 +2552,8 @@ hacky-holidays:
   type: CNAME
   value: cname.vercel-dns.com.
 hackyeah: # jenny@hackclub.com
-- type: CNAME
-  value: cname.vercel-dns.com.
+- type: TXT
+  value: vc-domain-verify=hack-yeah.hackclub.com,027db4e4143c71fd675e;
 hackyholidays:
   type: CNAME
   value: cname.vercel-dns.com.
