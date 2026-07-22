@@ -5043,6 +5043,9 @@ summit:
 sunbeam: # reem@hackclub.com
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+sunboard: # lola@hackclub.com
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 suncatcher: # U0943NG73PA julia@hackclub.com
   type: CNAME
   value: suncatcher-6owl6r1ft.hackclub.dev.
