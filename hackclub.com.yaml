@@ -3019,6 +3019,12 @@ island:
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
+
+ispy: #U087BHR98AX
+ type: CNAME
+ value: db301b7944f5fff9.vercel-dns-013.com.
+ ttl: 300
+
 isthackers:
 - type: CNAME
   value: isthackers.github.io.
