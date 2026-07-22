@@ -2553,7 +2553,7 @@ hacky-holidays:
   value: cname.vercel-dns.com.
 hackyeah: # jenny@hackclub.com
 - type: CNAME
-  value: cname.vercel-dns.com.
+  value: cname.3ed10d6d3b65260a.vercel-dns-013.com.
 hackyholidays:
   type: CNAME
   value: cname.vercel-dns.com.
