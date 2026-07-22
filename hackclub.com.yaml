@@ -1548,9 +1548,6 @@ css:
 css-starter:
   type: CNAME
   value: 76b3c318aa347add.vercel-dns-016.com.
-ctf:
-- type: CNAME
-  value: zealous-booth-dc1397.netlify.app.
 portal.ctf:
   type: A
   value: 167.99.110.64
