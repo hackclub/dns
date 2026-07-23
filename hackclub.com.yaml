@@ -2006,7 +2006,7 @@ fallout: # U08PD2ZB3DL
     cloudflare:
       proxied: true
   type: CNAME
-  value: a.ingress.tier2.infra.hackclub.com.
+  value: a.selfhosted.hackclub.com.
 lab.fallout: # enigmaticprojectorpheus@proton.me
   octodns:
     cloudflare:
