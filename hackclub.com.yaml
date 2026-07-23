@@ -2001,12 +2001,12 @@ fab:
 editor.fab:
   type: CNAME
   value: cname.vercel-dns.com.
-fallout: # samliu@hackclub.com
-  octodns:
+fallout: # U08PD2ZB3DL
+- octodns:
     cloudflare:
       proxied: true
   type: CNAME
-  value: ingress.lfdl.ink.
+  value: a.selfhosted.hackclub.com.
 lab.fallout: # enigmaticprojectorpheus@proton.me
   octodns:
     cloudflare:
