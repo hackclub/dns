@@ -1387,6 +1387,11 @@ toonnongaeoy:
   type: CNAME
   value: storyhouseproduction.duckdns.org.
 
+twisted: # for the twisted ysws! (kavyanshkhaitan11@gmail.com, U0A7776A2MT)
+- ttl: 600
+  type: A
+  value: 38.19.201.74
+
 txt: # Noah, slack: U09482L7QP5
 - ttl: 600
   type: CNAME
