@@ -428,11 +428,6 @@ hcai.devansh: # devansh.awat@gmail.com https://github.com/Devansh-awat
   type: A
   value: 140.245.203.110
 
-kyto.devansh: # devansh.awat@gmail.com https://github.com/Devansh-awat
-- ttl: 600
-  type: A
-  value: 140.245.203.110
-
 stardance.devansh: # devansh.awat@gmail.com https://github.com/Devansh-awat
 - ttl: 600
   type: A
@@ -812,6 +807,11 @@ kunal: # kunal
   values:
   - ns1.vercel-dns.com.
   - ns2.vercel-dns.com.
+
+kyto: # devansh.awat@gmail.com https://github.com/Devansh-awat
+- ttl: 600
+  type: A
+  value: 140.245.203.110
 
 la: # Laker Turner's links page - @lxjv or @la / @laker in the slack
   ttl: 600
