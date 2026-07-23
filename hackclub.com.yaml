@@ -713,6 +713,12 @@ tribute.athena:
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
+atlantis: # mihir@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: A
+  value: 138.201.55.62
 attend: # leo@hackclub.com
 - octodns:
     cloudflare:
