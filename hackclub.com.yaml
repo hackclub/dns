@@ -3555,6 +3555,9 @@ fallout.nephthys: # samliu@hackclub.com
 flavortown.nephthys: # mish@hackclub.com U073M5L9U13
   type: CNAME
   value: a.selfhosted.hackclub.com.
+hcai.nephthys: # nirvaan@kakao.com U0AF7QR9J77
+- type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 hctg.nephthys: # mish@hackclub.com U073M5L9U13 & arav@hackclub.com U01MPHKFZ7S
   type: CNAME
   value: b.selfhosted.hackclub.com.
