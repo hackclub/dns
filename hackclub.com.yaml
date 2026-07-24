@@ -2566,6 +2566,9 @@ haj4ever: # Rupnil Codes (rupnil.mondal2+hackclub@gmail.com; slack: U0A4UTULSLE)
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+hall-of-fame: # mattsoh@hackclub.com U07DPHQCCCS
+- type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 halo:
   type: CNAME
   value: c408328a709a38b2.vercel-dns-016.com.
