@@ -5663,12 +5663,6 @@ widget: # barnav@hackclub.com
     cloudflare:
       proxied: true
   value: a.ingress.tier2.infra.hackclub.com.
-wiki: # eps@hackclub.com
-- octodns:
-    cloudflare:
-      proxied: true
-  type: CNAME
-  value: b.selfhosted.hackclub.com.
 windmill:
 - octodns:
     cloudflare:
