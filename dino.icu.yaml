@@ -688,11 +688,6 @@ icons: # yoda - https://github.com/yodalightsabr/icons-dino-icu - a CDN for @hac
   type: A
   value: 76.76.21.21
 
-idli: # jaykrishnatj@proton.me | Github: https://github.com/idli69
-  ttl: 600
-  type: A
-  value: 37.27.51.35
-
 inherit: # contact at mtthsschrbr@proton.me or @mtthsschrbr on slack
 - ttl: 600
   type: CNAME
