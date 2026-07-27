@@ -4898,6 +4898,12 @@ smelt:
 smhs:
   type: CNAME
   value: zephyril.github.io.
+smol: # arcadewise@hackclub.com
+  type: CNAME
+  value: cd6da731c111c254.vercel-dns-013.com.
+in-synch.smol: # arcadewise@hackclub.com
+  type: CNAME
+  value: 437c8892af4826a1.vercel-dns-013.com.
 snake: # U07EB2Y76DP
 - type: CNAME
   value: yousnakewesnake.netlify.app.
