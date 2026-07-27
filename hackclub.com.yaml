@@ -4969,6 +4969,9 @@ stays: # leo@hackclub.com
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 steelyard: # mattsoh@hackclub.com U07DPHQCCCS
+- octodns:
+    cloudflare:
+      proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 steelyard-local: # mattsoh@hackclub.com U07DPHQCCCS
