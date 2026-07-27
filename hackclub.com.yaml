@@ -1761,9 +1761,6 @@ dummies:
 dv:
   type: CNAME
   value: cname.vercel-dns.com.
-earlybird:
-  type: CNAME
-  value: early-bird-hackclub.netlify.com.
 easel:
   type: CNAME
   value: 46c19d5618208b3e.vercel-dns-016.com.
