@@ -2570,7 +2570,10 @@ haj4ever: # Rupnil Codes (rupnil.mondal2+hackclub@gmail.com; slack: U0A4UTULSLE)
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 hall-of-fame: # mattsoh@hackclub.com U07DPHQCCCS
-- type: CNAME
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 halo:
   type: CNAME
