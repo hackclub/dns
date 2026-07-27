@@ -1731,9 +1731,12 @@ downscale: # augie@hackclub.com
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
-draw-dino: # josias@hackclub.com U01PJ08PR7S & hc+dns@matmanna.dev U07VA44DNBA
+draw-dino: # mattsoh@hackclub.com U07DPHQCCCS
+- octodns:
+    cloudflare:
+      proxied: true
   type: CNAME
-  value: b.selfhosted.hackclub.com
+  value: a.ingress.tier2.infra.hackclub.com.
 drive:
   type: CNAME
   value: ghs.googlehosted.com.
