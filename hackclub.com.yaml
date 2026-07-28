@@ -5124,6 +5124,12 @@ stemegypt:
 crm.stemegypt:
   type: CNAME
   value: stemegypt-crm.42web.io.
+sterb: # antonio@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: cname.vercel-dns.com.
 stickers: #euan@hackclub.com U06T30DNB3L 
 - octodns:
     cloudflare:
