@@ -557,6 +557,9 @@ arcana: #manitej@hackclub.com
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
+archaeology: # jolly@hackclub.com
+- type: CNAME
+  value: 825698cacf5428be.vercel-dns-013.com.
 archive:
 - octodns:
     cloudflare:
