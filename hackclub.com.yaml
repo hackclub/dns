@@ -1088,6 +1088,12 @@ byte:
 byteclub:
 - type: CNAME
   value: 5637f2843e643c1a.vercel-dns-016.com.
+c-li: # brendan@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: breynard0.github.io.
 cabbache:
   type: CNAME
   value: cabbache.ddnsking.com.
