@@ -3151,12 +3151,12 @@ jenin-mail: #jenin@hackclub.com
 jet:
 - type: CNAME
   value: 93403cee35b42da2.vercel-dns-016.com.
-jobs: # nora@hackclub.com U06QK6AG3RD
+jobs: # echo@hackclub.com U080A3QP42C
 - octodns:
     cloudflare:
       proxied: true
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: a.ingress.tier2.infra.hackclub.com.
 jolly: # jolly@hackclub.com U08CJCZ2Z9S
 - type: CNAME
   value: 07b89999ac9f4966.vercel-dns-016.com.
