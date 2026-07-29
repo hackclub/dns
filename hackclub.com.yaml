@@ -1614,6 +1614,9 @@ ctrlalttec:
 customizer:
 - type: CNAME
   value: jasonappah.github.io.
+d0a9c612-6ccd-4237-829a-e6bcd4e17d4a: # alex@hackclub.com
+- type: TXT
+  value: intercom-domain-validation=505c66e9-9ab5-4ca0-9907-4dbe91b6a17c
 dashboard:
 - octodns:
     cloudflare:
