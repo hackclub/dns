@@ -3156,7 +3156,7 @@ jobs: # echo@hackclub.com U080A3QP42C
     cloudflare:
       proxied: true
   type: CNAME
-  value: a.ingress.tier2.infra.hackclub.com.
+  value: b.selfhosted.hackclub.com.
 jolly: # jolly@hackclub.com U08CJCZ2Z9S
 - type: CNAME
   value: 07b89999ac9f4966.vercel-dns-016.com.
