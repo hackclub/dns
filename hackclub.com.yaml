@@ -1564,6 +1564,9 @@ counterspell:
 coxmill:
 - type: CNAME
   value: modest-swanson-0a9aa6.netlify.app.
+cq: # arcadewise@hackclub.com
+- type: CNAME
+  value: cbfabf541db16446.vercel-dns-017.com.
 craft:
 - type: CNAME
   value: craft-ept.pages.dev.
@@ -1615,9 +1618,6 @@ ctrlalttec:
 customizer:
 - type: CNAME
   value: jasonappah.github.io.
-cq: # arcadewise@hackclub.com
-- type: CNAME
-  value: cbfabf541db16446.vercel-dns-017.com.
 dashboard:
 - octodns:
     cloudflare:
