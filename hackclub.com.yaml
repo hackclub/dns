@@ -1617,9 +1617,7 @@ customizer:
   value: jasonappah.github.io.
 cq: # arcadewise@hackclub.com
 - type: CNAME
-  value: cbfabf541db16446.vercel-dns-017.com
-- type: TXT
-  value: vc-domain-verify=cq.hackclub.com,f2ec7a71291c216be245
+  value: cbfabf541db16446.vercel-dns-017.com.
 dashboard:
 - octodns:
     cloudflare:
