@@ -3154,7 +3154,7 @@ jet:
 jobs: # echo@hackclub.com U080A3QP42C
 - octodns:
     cloudflare:
-      proxied: true
+      proxied: false
   type: CNAME
   value: b.selfhosted.hackclub.com.
 jolly: # jolly@hackclub.com U08CJCZ2Z9S
