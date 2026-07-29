@@ -249,6 +249,7 @@ _vercel: #
   - "vc-domain-verify=celestial.hackclub.com,712c9345didfd5e0b4ee"
   - "vc-domain-verify=codecafe.hackclub.com,7626bb39bfb56e9ea791"
   - "vc-domain-verify=contact-helper.hackclub.com,ecd049f45e2ad550fd89"
+  - "vc-domain-verify=cq.hackclub.com,f2ec7a71291c216be245"
   - "vc-domain-verify=descend.hackclub.com,766f399a5ac7216e01a1"
   - "vc-domain-verify=dessert.hackclub.com,8452d8879c3995b17783"
   - "vc-domain-verify=docs.identity.hackclub.com,ef5c12615db913aa8dee"
@@ -332,7 +333,6 @@ _vercel: #
   - "vc-domain-verify=whimsy.hackclub.com,712b4c3c244883005c42"
   - "vc-domain-verify=flickr.hackclub.com,3b44a9f210c4c7d6e72c"
   - "vc-domain-verify=pulsewidth.hackclub.com,b8160f071751810729d5"
-  - "vc-domain-verify=cq.hackclub.com,f2ec7a71291c216be245"
 
 _visual-studio-marketplace-hackatime: # U07VC9705D4
   type: TXT
