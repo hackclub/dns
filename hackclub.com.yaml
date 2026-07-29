@@ -5727,8 +5727,8 @@ wormhole:
   type: CNAME
   value: tggocccwo0oogs4wk8swgwkg.a.selfhosted.hackclub.com.
 wrangler: # nick@hackclub.com U06FMCCDS1K
-  type: CNAME
-  value: wrangler.hackclub.dev.
+- type: CNAME
+  value: cname.vercel-dns.com.
 wshackclub:
 - type: A
   value: 35.158.87.123
