@@ -5729,6 +5729,11 @@ wormhole:
 wrangler: # nick@hackclub.com U06FMCCDS1K
   type: CNAME
   value: wrangler.hackclub.dev.
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: http://wrangler.hackclub.dev/.
 wshackclub:
 - type: A
   value: 35.158.87.123
