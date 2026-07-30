@@ -4510,9 +4510,9 @@ saleh:
 saycheese:
   type: CNAME
   value: cb1874b4a3a974f3.vercel-dns-016.com.
-schedule:
+schedule: # lynn@hackclub.com
   type: CNAME
-  value: calendso-production-f2a4.up.railway.app.
+  value: a.ingress.tier2.infra.hackclub.com
 scholarship:
   type: CNAME
   value: scholarship-hackclub.netlify.com.
