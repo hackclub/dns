@@ -3597,6 +3597,9 @@ mumble:
 muse:
   type: CNAME
   value: 78958f059c43551f.vercel-dns-016.com.
+nairobi: # harshilpatel5914@gmail.com      U06QMV51479
+- type: CNAME
+  value: cname.vercel-dns.com.
 ncssm:
   type: CNAME
   value: cname.vercel-dns.com.
