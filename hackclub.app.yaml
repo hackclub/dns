@@ -70,6 +70,9 @@ logs:
 pbx:
 - type: AAAA
   value: 2a01:4f9:3081:399c:be24:11ff:fef0:3b81
+rsvp:
+  - type: CNAME
+    value: alexradu.hackclub.app.
 status: # me@cyteon.dev
 - type: A
   value: 65.21.241.32
