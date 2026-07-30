@@ -4075,6 +4075,9 @@ pinetree:
 pixeldust:
   type: CNAME
   value: cname.vercel-dns.com.
+platformer: # abtheinnovator@gmail.com
+- type: CNAME
+  value: cname.vercel-dns.com.da501004a0a5b728.vercel-dns-017.com.
 plausible: # @msw max@hackclub.com
   type: CNAME
   octodns:
