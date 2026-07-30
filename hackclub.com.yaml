@@ -590,6 +590,9 @@ webhooks.ari: # nathan@hackclub.com
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
+aria: # mihir@hackclub.com
+  type: CNAME
+  value: 5d1e98e4990600ac.vercel-dns-013.com.
 armed:
 - octodns:
     cloudflare:
