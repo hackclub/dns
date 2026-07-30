@@ -38,13 +38,9 @@
   - facebook-domain-verification=n1zcixmsek4ujgvgkxd65dlhien1lk
   - anthropic-domain-verification-hkth5m=hheIAy80WjbR1ZRaKVlWYZ0Z6   # alex@hackclub.com / gary@hackclub.com
   - openai-domain-verification=dv-q7BgA5BnEgzJJSueBRxwENjx # hcb@hackclub.com
-
-
 3am: # U087BHR98AX
   type: CNAME
   value: 01a4efb9c49ba517.vercel-dns-013.com.
-  ttl: 300
-
 44.74:
 - type: CNAME
   value: 8e42daa9edbe9df1.vercel-dns-016.com.
