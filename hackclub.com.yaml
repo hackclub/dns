@@ -1013,6 +1013,9 @@ boxbay: # U083W5CCFDG joaquin@hackclub.com
     cloudflare:
       proxied: true
   value: a.ingress.tier2.infra.hackclub.com.
+braize: # jenny@hackclub.com
+- type: CNAME
+  value: cname.vercel-dns.com.
 branch:
 - type: CNAME
   value: 7f6ac627cb1e65e3.vercel-dns-017.com.
