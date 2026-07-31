@@ -1471,6 +1471,11 @@ weather:
   type: CNAME
   value: weathersomewhere.netlify.app.
 
+whoami: # cloudglides@proton.me U0A2EKA9FAL
+- ttl: 600
+  type: A
+  value: 216.198.79.1
+
 wikibase: # wikibase for the Hack Club community, to be managed by @recaptime-dev team through @ajhalili2006
   ttl: 600
   type: CNAME
