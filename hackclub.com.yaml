@@ -1357,6 +1357,9 @@ clam: # mihir@hackclub.com U0BC86VAYT0
 bag.client:
   type: A
   value: 34.49.72.119
+cloud: # antonio@hackclub.com
+- type: CNAME
+  value: cname.vercel-dns.com.
 clubapi: #ivie@hackclub.com @Charmunk
 - octodns:
     cloudflare:
