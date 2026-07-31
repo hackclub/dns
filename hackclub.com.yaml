@@ -1569,6 +1569,9 @@ counterspell:
 coxmill:
 - type: CNAME
   value: modest-swanson-0a9aa6.netlify.app.
+cq: # ruben@scstudios.tech U0AHNB20WDD
+- type: CNAME
+  value: d6ef4380bc58fb9f.vercel-dns-013.com.
 craft:
 - type: CNAME
   value: craft-ept.pages.dev.
