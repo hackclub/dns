@@ -5533,6 +5533,9 @@ turnover:
 twist: # barnav / U08RVF1BAN4
 - type: CNAME
   value: 5ed07fd5316ed1ea.vercel-dns-016.com.
+twisted: # kavyansh / kavyanshkhaitan11@gmail.com / U0A7776A2MT
+- type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com
 typeface: # jenny@hackclub.com
   type: CNAME
   value: c602e955eeaa4e36.vercel-dns-016.com.
