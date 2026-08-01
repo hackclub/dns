@@ -365,6 +365,10 @@ controlline: # Github: NoIwantyourcode slack: U0A269NG76F
 convert3d: # U0B7SMP7PU6
 - type: CNAME
   value: planema4.hackclub.app.
+cookie: # cloudglides@proton.me U0A2EKA9FAL
+- ttl: 600
+  type: A
+  value: 216.198.79.1
 copilot: # @Yasin U07F2TA4YVB yasin@flonga.org https://yasina74.github.io/copilot-ysws/
 - ttl: 600
   type: CNAME
