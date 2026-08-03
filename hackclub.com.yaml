@@ -695,12 +695,12 @@ asw:
 asylum:
   type: CNAME
   value: cname.vercel-dns.com.
-athena:
+athena: # reem@hackclub.com — moved from Coolify to Orchard
 - octodns:
     cloudflare:
       proxied: true
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: a.ingress.tier2.infra.hackclub.com.
 award.athena:
 - octodns:
     cloudflare:
