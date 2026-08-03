@@ -2744,6 +2744,9 @@ blog.hcb: # HCB engineering/blog website
 changelog.hcb:
   type: CNAME
   value: headwayapp.co.
+docs.hcb: # alex@hackclub.com
+- type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 graph.hcb: # echo@hackclub.com U080A3QP42C
   type: CNAME
   value: a393a61874975956.vercel-dns-016.com.
