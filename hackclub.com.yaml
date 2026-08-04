@@ -2453,6 +2453,12 @@ _github-challenge-hack-as-a-service.haas:
 status.haas:
   type: A
   value: 34.138.52.92
+hack-club-videos-db: # zach@hackclub.com
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 hackaccino:
   type: CNAME
   value: 7c608a720471ced6.vercel-dns-016.com.
