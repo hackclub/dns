@@ -5044,6 +5044,9 @@ spud:
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
+squeak: # echo@hackclub.com
+- type: CNAME
+  value: 46a7cc7d36367365.vercel-dns-013.com.
 sshchat:
   type: A
   value: 150.136.142.44
