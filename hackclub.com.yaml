@@ -563,6 +563,9 @@ arcana: #manitej@hackclub.com
 archaeology: # jolly@hackclub.com
 - type: CNAME
   value: 825698cacf5428be.vercel-dns-013.com.
+archer: # antonio@hackclub.com
+- type: CNAME
+  value: d02df5e933d654a4.vercel-dns-013.com.
 archive:
 - octodns:
     cloudflare:
