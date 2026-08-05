@@ -1444,9 +1444,6 @@ coeur: # olive@hackclub.com @Olive @Ghost of L87 (Lynn)
 coins:
 - type: A
   value: 173.208.140.124
-archer.hackclub.com: # antonio@hackclub.com
-- type: CNAME
-  value: stern.hackclub.com.
 comms:
 - octodns:
     cloudflare:
