@@ -2106,6 +2106,8 @@ finalist:
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
+- type: CNAME
+  value: https://snowy-maple-12.k.hackclub.dev/.
 finder:
   type: CNAME
   value: finder.netlify.com.
