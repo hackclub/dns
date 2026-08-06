@@ -2300,6 +2300,9 @@ gaither:
 playlist.gaither:
   type: CNAME
   value: samuel.hackclub.app.
+gadget: # acon / U04KEK4TS72
+- type: CNAME
+  value: cname.vercel-dns.com.
 gamblorpheus: # amber / U054VC2KM9P
   type: CNAME
   octodns:
