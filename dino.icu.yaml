@@ -1017,6 +1017,16 @@ orbit: # U08RU1GTXSP
   type: CNAME
   value: cname.vercel-dns.com.
 
+origin: # bhardwajprasad16@gmail.com
+- ttl: 600
+  type: A
+  value: 216.198.79.1
+
+www.origin: # bhardwajprasad16@gmail.com
+- ttl: 600
+  type: CNAME
+  value: a848835d1f5fbd7b.vercel-dns-017.com.
+
 orpheus: # prophet orpheus's page (when making your page enter your github username or slack id here)
   ttl: 600 # the time to live of your domain; you don't need to change this
   type: CNAME # the type of record you're creating; you don't need to change this unless your hosting provider requires it
