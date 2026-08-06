@@ -59,6 +59,9 @@ dashboard:
 export: # admins@hackclub.app
 - type: A
   value: 65.108.74.29
+galaxybrain: # aaranysaini4@gmail.com U0B78MFGH9P
+- type: CNAME
+  value: galaxybrainapi.hackclub.app.
 game1: # admins@hackclub.app
 - type: A
   value: 65.108.74.28
