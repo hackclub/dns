@@ -230,13 +230,13 @@ betterwork-ai: # by https://heramb0x1.github.io/betterwork-ai
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
-  
-bhardwaj-prasad: # bhardwajprasad16@gmail.com
+
+bhardwaj: # bhardwajprasad16@gmail.com
   ttl: 600
   type: A
   value: 216.198.79.1
 
-bhardwaj: # bhardwajprasad16@gmail.com
+bhardwaj-prasad: # bhardwajprasad16@gmail.com
   ttl: 600
   type: A
   value: 216.198.79.1
