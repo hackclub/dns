@@ -4390,6 +4390,9 @@ redream: # skylarmaestein@gmail.com U080Y31KUE7 & jolly@hackclub.com U08CJCZ2Z9S
 reflow:
   type: CNAME
   value: 62a76b082e14e7d7.vercel-dns-017.com.
+refresher: # jenny@hackclub.com
+- type: CNAME
+  value: cname.vercel-dns.com.
 remix: # dhamari@hackclub.com U08RWM5U4L9
   octodns:
     cloudflare:
