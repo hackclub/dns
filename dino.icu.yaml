@@ -231,6 +231,26 @@ betterwork-ai: # by https://heramb0x1.github.io/betterwork-ai
   type: CNAME
   value: cname.vercel-dns.com.
 
+www.bhardwaj:
+  ttl: 600
+  type: CNAME
+  value: 24e0547b979a95bb.vercel-dns-017.com.
+
+www.bhardwaj-prasad:
+  ttl: 600
+  type: CNAME
+  value: 24e0547b979a95bb.vercel-dns-017.com.
+
+bhardwaj:
+  ttl: 600
+  type: A
+  value: 216.198.79.1
+
+bhardwaj-prasad:
+  ttl: 600
+  type: A
+  value: 216.198.79.1
+
 bin: # by U07FD57JN67 (adi // pizzalover125)
   ttl: 600
   type: CNAME
