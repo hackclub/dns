@@ -4968,6 +4968,9 @@ snake: # U07EB2Y76DP
 - type: CNAME
   value: yousnakewesnake.netlify.app.
   ttl: 600
+snowglobe: # lola@hackclub.com U078JCFHQ3D
+- type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 soaked: # jenin@hackclub.com // U0926UASBJ7
   octodns:
     cloudflare:
