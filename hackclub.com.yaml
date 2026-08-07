@@ -2291,6 +2291,9 @@ fusering:
 future: # antonio@hackclub.com
 - type: CNAME
   value: d4aa17e03f291215.vercel-dns-013.com.
+gadget: # acon / U04KEK4TS72
+- type: CNAME
+  value: cname.vercel-dns.com.
 gaither:
   type: CNAME
   value: gaither-hack-club.github.io.
