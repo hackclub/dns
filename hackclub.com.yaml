@@ -5677,9 +5677,6 @@ waka:
 _F078EA6DF6FD4C8A6D3381BE47D91754.waka:
   type: CNAME
   value: 8EE742E1BCF3D22634864F0615C0968A.F16F6610A3E159E6CB0B97DEF4D873F5.f555p5dtQ5lto55IiRM5.sectigo.com.
-warsaw:
-- type: CNAME
-  value: warsaw.hackclub.pl.
 waveband:
 - type: CNAME
   value: cname.vercel-dns.com.
