@@ -585,10 +585,7 @@ backend.arena:
   type: CNAME
   value: fd39bf74a906c3be.vercel-dns-017.com.
 ari: # nathan@hackclub.com
-  octodns:
-    cloudflare:
-      proxied: true
-  type: CNAME
+- type: CNAME
   value: a.selfhosted.hackclub.com.
 webhooks.ari: # nathan@hackclub.com
 - octodns:
