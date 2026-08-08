@@ -3353,7 +3353,7 @@ liquidate: # U083W5CCFDG joaquin@hackclub.com
   octodns:
     cloudflare:
       proxied: true
-  value: a.selfhosted.hackclub.com
+  value: a.selfhosted.hackclub.com.
 list:
   type: TXT
   value: google-site-verification=dy5FQ7euw6ZutiApm5ZdCTUgWn9CL3uhfJWHfD3TxLk
@@ -4548,7 +4548,7 @@ saycheese:
   value: cb1874b4a3a974f3.vercel-dns-016.com.
 schedule: # lynn@hackclub.com
   type: CNAME
-  value: a.ingress.tier2.infra.hackclub.com
+  value: a.ingress.tier2.infra.hackclub.com.
 scholarship:
   type: CNAME
   value: scholarship-hackclub.netlify.com.
