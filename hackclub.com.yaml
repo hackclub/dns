@@ -2641,12 +2641,9 @@ hackyeah: # jenny@hackclub.com
 hackyholidays:
   type: CNAME
   value: cname.vercel-dns.com.
-haj4ever: # Rupnil Codes (rupnil.mondal2+hackclub@gmail.com; slack: U0A4UTULSLE) & Flux3tor (tusharsinha199@gmail.com)
-  octodns:
-    cloudflare:
-      proxied: true
+haj4ever: # Flux3tor (tusharsinha199@gmail.com U0A6A0J7UE6) & Rupnil Codes (rupnil.mondal2+hackclub@gmail.com U0A4UTULSLE)
   type: CNAME
-  value: a.ingress.tier2.infra.hackclub.com.
+  value: haj4ever.pages.dev.
 hall-of-fame: # mattsoh@hackclub.com U07DPHQCCCS
 - octodns:
     cloudflare:
