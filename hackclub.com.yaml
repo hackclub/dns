@@ -1169,16 +1169,13 @@ campfire: # leafd@hackclub.com
     lenient: true
     cloudflare:
       proxied: true
-  ttl: 600
   type: A
   value: 5.161.244.66
-- ttl: 3600
-  type: TXT
+- type: TXT
   values:
   - google-site-verification=xis9BmP-gRLmEU4YC9opk7bCtkoAERLiA92Vafg4VkU
   - v=spf1 include:_spf.google.com ~all
-- ttl: 3600
-  type: MX
+- type: MX
   values:
   - exchange: aspmx.l.google.com.
     preference: 1
