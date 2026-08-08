@@ -1,4 +1,26 @@
 ---
+"": # echo@hackclub.com U080A3QP42C # Cloudflare Email Routing
+- octodns:
+    ignored: true
+  type: MX
+  values:
+  - exchange: route1.mx.cloudflare.net.
+    preference: 64
+  - exchange: route2.mx.cloudflare.net.
+    preference: 74
+  - exchange: route3.mx.cloudflare.net.
+    preference: 42
+- octodns:
+    ignored: true
+  type: TXT
+  value: v=spf1 include:_spf.mx.cloudflare.net ~all
+
+cf2024-1._domainkey: # echo@hackclub.com U080A3QP42C # Cloudflare Email Routing DKIM
+- octodns:
+    ignored: true
+  type: TXT
+  value: v=DKIM1\; h=sha256\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiweykoi+o48IOGuP7GR3X0MOExCUDY/BCRHoWBnh3rChl7WhdyCxW3jgq1daEjPPqoi7sJvdg5hEQVsgVRQP4DcnQDVjGMbASQtrY4WmB1VebF+RPJB2ECPsEDTpeiI5ZyUAwJaVX7r6bznU67g7LvFq35yIo4sdlmtZGV+i0H4cpYH9+3JJ78km4KXwaf9xUJCWF6nxeD+qG6Fyruw1Qlbds2r85U9dkNDVAS3gioCvELryh1TxKGiVTkg4wqHTyHfWsp7KD3WQHYJn0RyfJJu6YEmL77zonn7p2SRMvTMP3ZEXibnC9gz3nnhR6wcYL8Q7zXypKTMD58bTixDSJwIDAQAB
+
 _vercel:
 - ttl: 300
   type: TXT
