@@ -890,6 +890,9 @@ mail: # a page to share your email with orpheus
   type: CNAME
   value: cname.vercel-dns.com.
 
+mangrove: # evanxdsouza@gmail.com U0AHS9VLG0K
+- type: CNAME
+  value: evanxdsouza.hackclub.app.
 mats: # Contact via: mats@overmans.nl/lltool@overmans.nl/619401@olz.nl(only emergencies)
   ttl: 600
   type: CNAME
