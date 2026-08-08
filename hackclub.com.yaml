@@ -4163,6 +4163,9 @@ polaris: #adishree@horizons.hackclub.com U07DEBE2RUL
 polaroid:
   type: CNAME
   value: polaroid.iunstable0.com.
+pollyglot: # ahmdesmaill@proton.me U0AR9AQTN6M
+- type: CNAME
+  value: ahmdesmaill.hackclub.app.
 polygon: # zaidayan456@gmail.com U083VVA9M0W
   ttl: 600
   type: CNAME
