@@ -1169,7 +1169,7 @@ campfire: # leafd@hackclub.com
     lenient: true
     cloudflare:
       proxied: true
-- type: A
+  type: A
   value: 5.161.244.66
 - type: TXT
   values:
