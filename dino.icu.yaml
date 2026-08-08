@@ -1122,6 +1122,9 @@ qr: # A hack club themed QR code generator
   type: CNAME
   value: felixgao.hackclub.app.
 
+quotes: # ocoincs@gmail.com U091JJ2JF8E
+- type: CNAME
+  value: quotes.qwik.top.
 racked: # Jan Koch (jan.koch@hexagonical.ch or <@U087PR1B2HX> on the slack)
 - ttl: 600
   type: CNAME
