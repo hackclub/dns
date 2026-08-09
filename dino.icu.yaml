@@ -752,6 +752,21 @@ mail: # a page to share your email with orpheus
 mangrove: # evanxdsouza@gmail.com U0AHS9VLG0K
 - type: CNAME
   value: evanxdsouza.hackclub.app.
+data.mangrove: # evanxdsouza@gmail.com U0AHS9VLG0K
+- type: CNAME
+  value: evanxdsouza.hackclub.app.
+deployment.mangrove: # evanxdsouza@gmail.com U0AHS9VLG0K
+- type: CNAME
+  value: evanxdsouza.hackclub.app.
+ghost.deployment.mangrove: # evanxdsouza@gmail.com U0AHS9VLG0K
+- type: CNAME
+  value: evanxdsouza.hackclub.app.
+reverse.deployment.mangrove: # evanxdsouza@gmail.com U0AHS9VLG0K
+- type: CNAME
+  value: evanxdsouza.hackclub.app.
+forms.mangrove: # evanxdsouza@gmail.com U0AHS9VLG0K
+- type: CNAME
+  value: evanxdsouza.hackclub.app.
 mats: # Contact via: mats@overmans.nl/lltool@overmans.nl/619401@olz.nl(only emergencies)
   ttl: 600
   type: CNAME
