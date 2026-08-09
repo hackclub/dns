@@ -3565,9 +3565,9 @@ midi:
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
-midnight:
-  type: A
-  value: 5.161.244.66
+midnight: # echo@hackclub.com
+- type: CNAME
+  value: d96c50e1fa7e0907.vercel-dns-013.com.
 milkyway:
 - octodns:
     cloudflare:
