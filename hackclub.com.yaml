@@ -5279,7 +5279,10 @@ super-cdn-bot:
   type: CNAME
   value: a.selfhosted.hackclub.com.
 survive: # mihir@hackclub.com U05PRRU5GSJ
-- type: CNAME
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 swirl: # dhyan@hackclub.com / U0824G9PTFE
   type: CNAME
