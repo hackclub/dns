@@ -4122,7 +4122,10 @@ pixeldust:
   type: CNAME
   value: cname.vercel-dns.com.
 pixl: # barnav@hackclub.com U08RVF1BAN4
-- type: CNAME
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 plausible: # @msw max@hackclub.com
   type: CNAME
