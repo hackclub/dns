@@ -4127,6 +4127,9 @@ pixl: # barnav@hackclub.com U08RVF1BAN4
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+dash.pixl: # barnav@hackclub.com U08RVF1BAN4
+- type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 plausible: # @msw max@hackclub.com
   type: CNAME
   octodns:
