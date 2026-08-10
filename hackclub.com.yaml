@@ -3254,6 +3254,12 @@ _github-pages-challenge-kerala-hackclub.kerala:
 kiit:
   type: CNAME
   value: alpha-9h3.pages.dev.
+kintsugi: # aoishikkhan@gmail.com U0A5NKH93BJ POC: @plastuchino
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 kjcmt:
   type: CNAME
   value: 5637f2843e643c1a.vercel-dns-016.com.
@@ -3718,6 +3724,9 @@ jumpstart.nephthys: # mish@hackclub.com U073M5L9U13
     cloudflare:
       proxied: true
   value: b.selfhosted.hackclub.com.
+kintsugi.nephthys: # aoishikkhan@gmail.com U0A5NKH93BJ POC: @plastuchino
+- type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 lynx.nephthys: # Nathan U05EZRFKRV4 & Santi U08PD2ZB3DL
   type: CNAME
   octodns:
