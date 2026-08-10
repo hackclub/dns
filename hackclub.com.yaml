@@ -4121,6 +4121,9 @@ pinetree:
 pixeldust:
   type: CNAME
   value: cname.vercel-dns.com.
+pixl: # barnav@hackclub.com U08RVF1BAN4
+- type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 plausible: # @msw max@hackclub.com
   type: CNAME
   octodns:
