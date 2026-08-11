@@ -3084,7 +3084,7 @@ intercom-files: # alexd@hackclub.com U02CWS020SD
 outbound.intercom: #alexd@hackclub.com U02CWS020SD
 - octodns:
     cloudflare:
-      proxied: false
+      proxied: true
   type: CNAME
   value: rp.hcb-4a1937117a59.intercom-mail.com.
 interns: #leo@hackclub.com U07BLJ1MBEE
