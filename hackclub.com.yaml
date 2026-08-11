@@ -3031,9 +3031,9 @@ a.db.tier2.infra:
 '*.a.db.tier2.infra':
   type: A
   value: 46.225.195.182
-_acme-challenge.a.db.tier2.infra:
-  type: CNAME
-  value: 4cba0c3b-990d-43cc-b47b-fa79d0da8dee.acme.tier2.infra.hackclub.dev.
+_acme-challenge.a.db.tier2.infra: # seb@hackclub.com
+  type: TXT
+  value: idq4s6aNZYsv4UOdpmJSmgOIFkAGSHsYZ3fQOZQBSsk
 a.ingress.tier2.infra:
   type: A
   value: 46.225.195.181
