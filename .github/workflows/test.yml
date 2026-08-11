@@ -10,7 +10,7 @@ on:
 
 permissions:
   contents: read
-  pull-requests: read
+  pull-requests: write
 
 jobs:
   octodns:
@@ -92,4 +92,248 @@ jobs:
 
       - name: Do a dry run
         if: env.DNSIMPLE_ACCOUNT_NUMBER != ''
-        run: ./bin/dry-run ${{ steps.check-force.outputs.force }}
+        run: ./bin/dry-run ${{ steps.check-force.outputs.force }} 2>&1 | tee /tmp/dry-run-output.txt
+
+      - name: Flag unrelated DNS changes
+        if: always() && env.DNSIMPLE_ACCOUNT_NUMBER != '' && (github.event_name == 'pull_request_target' || github.event_name == 'merge_group')
+        continue-on-error: true
+        uses: actions/github-script@v9
+        with:
+          script: |
+            const fs = require('fs');
+
+            if (!fs.existsSync('/tmp/dry-run-output.txt')) {
+              core.info('no dry-run output found, skipping.');
+              return;
+            }
+            const output = fs.readFileSync('/tmp/dry-run-output.txt', 'utf8');
+            if (output.includes('No changes were planned')) {
+              core.info('no changes planned, nothing to check.');
+              return;
+            }
+
+            let prNumber = null;
+            if (context.eventName === 'pull_request_target') {
+              prNumber = context.payload.pull_request.number;
+            } else if (context.eventName === 'merge_group') {
+              const match = context.ref.match(/\/pr-(\d+)-/);
+              if (match) prNumber = parseInt(match[1]);
+            }
+            if (!prNumber) {
+              core.info('could not determine PR number, skipping.');
+              return;
+            }
+
+            const allFiles = [];
+            for (let page = 1; ; page++) {
+              const { data: files } = await github.rest.pulls.listFiles({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: prNumber,
+                per_page: 100,
+                page,
+              });
+              allFiles.push(...files);
+              if (files.length < 100) break;
+            }
+
+            const changedYamlFiles = allFiles.filter(f => /^[^/]+\.yaml$/.test(f.filename));
+            if (changedYamlFiles.length === 0) {
+              core.info('no zone YAML files changed, skipping....');
+              return;
+            }
+
+            function getTopLevelKeys(content) {
+              const keys = new Map();
+              let currentKey = null;
+              let currentLines = [];
+              for (const line of content.split('\n')) {
+                if (line.length > 0 && !/^[\s-]/.test(line)) {
+                  const m = line.match(/^("[^"]*"|'[^']*'|[^\s:]+)\s*:/);
+                  if (m) {
+                    if (currentKey !== null) keys.set(currentKey, currentLines.join('\n'));
+                    currentKey = m[1].replace(/^["']|["']$/g, '');
+                    currentLines = [line];
+                    continue;
+                  }
+                }
+                if (currentKey !== null) currentLines.push(line);
+              }
+              if (currentKey !== null) keys.set(currentKey, currentLines.join('\n'));
+              return keys;
+            }
+
+            const baseRef = context.eventName === 'pull_request_target'
+              ? context.payload.pull_request.base.sha
+              : 'main';
+
+            const changedSubdomains = new Map();
+
+            for (const file of changedYamlFiles) {
+              const zone = file.filename.replace(/\.yaml$/, '');
+              const subs = new Set();
+
+              if (file.status === 'removed') {
+                subs.add('*');
+                changedSubdomains.set(zone, subs);
+                continue;
+              }
+
+              const headContent = fs.readFileSync(file.filename, 'utf8');
+              const headKeys = getTopLevelKeys(headContent);
+
+              let baseContent = '';
+              if (file.status !== 'added') {
+                try {
+                  const { data } = await github.rest.repos.getContent({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    path: file.filename,
+                    ref: baseRef,
+                  });
+                  baseContent = Buffer.from(data.content, 'base64').toString('utf8');
+                } catch (e) {
+                  subs.add('*');
+                  changedSubdomains.set(zone, subs);
+                  continue;
+                }
+              }
+
+              const baseKeys = getTopLevelKeys(baseContent);
+
+              for (const [key, content] of headKeys) {
+                if (!baseKeys.has(key) || baseKeys.get(key) !== content) {
+                  subs.add(key);
+                }
+              }
+              for (const key of baseKeys.keys()) {
+                if (!headKeys.has(key)) subs.add(key);
+              }
+
+              changedSubdomains.set(zone, subs);
+            }
+
+            core.info('changed zones/subdomains:');
+            for (const [zone, subs] of changedSubdomains) {
+              core.info(`  ${zone}: ${[...subs].join(', ')}`);
+            }
+
+            let currentZone = null;
+            const plannedChanges = [];
+
+            for (const line of output.split('\n')) {
+              const zm = line.match(/^\*\s+([a-z0-9][a-z0-9._-]*[a-z]\.?)\s*$/);
+              if (zm && !line.includes('*****')) {
+                currentZone = zm[1].replace(/\.$/, '');
+                continue;
+              }
+              if (!currentZone) continue;
+
+              const cdm = line.match(/^\*\s+(Create|Delete)\s+<\w+\s+\w+\s+\d+,\s+([^,]+),/);
+              if (cdm) {
+                plannedChanges.push({
+                  zone: currentZone,
+                  action: cdm[1],
+                  fqdn: cdm[2].trim().replace(/\.$/, ''),
+                });
+                continue;
+              }
+
+              if (line.includes('->')) {
+                const um = line.match(/<\w+\s+\w+\s+\d+,\s+([^,]+),/);
+                if (um) {
+                  plannedChanges.push({
+                    zone: currentZone,
+                    action: 'Update',
+                    fqdn: um[1].trim().replace(/\.$/, ''),
+                  });
+                }
+              }
+            }
+
+            if (plannedChanges.length === 0) {
+              core.info('no record-level changes parsed from dry-run output.');
+              return;
+            }
+
+            const unrelated = [];
+            const seen = new Set();
+
+            for (const change of plannedChanges) {
+              const key = `${change.action}:${change.fqdn}`;
+              if (seen.has(key)) continue;
+              seen.add(key);
+
+              const subs = changedSubdomains.get(change.zone);
+
+              if (!subs) {
+                unrelated.push(change);
+                continue;
+              }
+              if (subs.has('*')) continue;
+
+              const subdomain = change.fqdn === change.zone
+                ? ''
+                : change.fqdn.replace(new RegExp('\\.' + change.zone.replace(/\./g, '\\.') + '$'), '');
+
+              if (!subs.has(subdomain)) {
+                unrelated.push({ ...change, subdomain });
+              }
+            }
+
+            if (unrelated.length === 0) {
+              core.info('all planned changes correspond to records in the diff :-)');
+              return;
+            }
+
+            const rows = unrelated.map(c =>
+              `| ${c.action} | \`${c.fqdn}\` | ${c.zone} |`
+            ).join('\n');
+
+            const changedList = [...changedSubdomains.entries()]
+              .map(([z, s]) => `\`${z}\` (${[...s].map(k => k === '' ? '_(root)_' : `\`${k}\``).join(', ')})`)
+              .join(', ');
+
+            const body = [
+              '## :rage1: hang on a minute! this dry run would change DNS records not in your diff!',
+              '',
+              `i think you modified records in: ${changedList}`,
+              '',
+              'but... the dry run **also** wants to touch these:',
+              '',
+              '| Action | Record | Zone |',
+              '|--------|--------|------|',
+              rows,
+              '',
+              'this usually means a YAML indentation or formatting error is causing records to be',
+              'reinterpreted. please double-check these changes carefully before merging!!',
+            ].join('\n');
+
+            const marker = '<!-- unrelated-dns-changes-flag -->';
+            const bodyWithMarker = body + '\n' + marker;
+
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: prNumber,
+              per_page: 100,
+            });
+            const existing = comments.find(c => c.body && c.body.includes(marker));
+
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: existing.id,
+                body: bodyWithMarker,
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: prNumber,
+                body: bodyWithMarker,
+              });
+            }
+
+            core.warning(`dry run would affect ${unrelated.length} record(s) not in the diff: ${unrelated.map(c => c.fqdn).join(', ')}`);
