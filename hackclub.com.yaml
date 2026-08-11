@@ -2558,6 +2558,12 @@ hackberry:
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
+hackbnb: # leo@hackclub.com U07BLJ1MBEE
+- octodns:
+    cloudflare:
+    proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 hackbox:
   type: CNAME
   value: 2d6e6b5e4e98c590.vercel-dns-016.com.
