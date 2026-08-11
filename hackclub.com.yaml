@@ -3078,12 +3078,9 @@ insertCoin: # gblackburn088@gmail.com
     cloudflare:
       proxied: true
   value: a.selfhosted.hackclub.com.
-intercom-files: #alexd@hackclub.com U02CWS020SD
-- octodns:
-    cloudflare:
-      proxied: false
-  type: CNAME
-  value: hack-club-89976b4c824d.intercom-mail.com.
+intercom-files: # alexd@hackclub.com U02CWS020SD
+- type: CNAME
+  value: hcb-4a1937117a59.intercom-mail.com.
 outbound.intercom: #alexd@hackclub.com U02CWS020SD
 - octodns:
     cloudflare:
