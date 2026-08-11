@@ -4146,6 +4146,9 @@ dash.pixl: # barnav@hackclub.com U08RVF1BAN4
 play.pixl: # barnav@hackclub.com U08RVF1BAN4
 - type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+server.pixl: # barnav@hackclub.com U08RVF1BAN4
+- type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 plausible: # @msw max@hackclub.com
   type: CNAME
   octodns:
