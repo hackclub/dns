@@ -59,9 +59,9 @@ emoji: # alimad.co.ltd@gmail.com U08LQFRBL6S
   type: CNAME
   value: emojiout.netlify.app.
 hacksteal: # wangz9096z@gmail.com U08EGTXVCFR
-- type: CNAME
+- ttl: 600
+  type: CNAME
   value: hs.gnahiak2.dev.
-  ttl: 600
 labs: # theawesomeaj.dev@gmail.com U092329JX89
 - ttl: 600
   type: CNAME
