@@ -5233,6 +5233,9 @@ crm.stemegypt:
 stern: # antonio@hackclub.com
 - type: CNAME
   value: cname.vercel-dns.com.
+sterndocs: # antonio@hackclub.com
+- type: CNAME
+  value: e09a01fe3fda68e9.vercel-dns-013.com.
 stickers: #euan@hackclub.com U06T30DNB3L 
 - octodns:
     cloudflare:
