@@ -2561,7 +2561,7 @@ hackberry:
 hackbnb: # leo@hackclub.com U07BLJ1MBEE
 - octodns:
     cloudflare:
-    proxied: true
+      proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 hackbox:
