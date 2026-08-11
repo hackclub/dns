@@ -3033,7 +3033,9 @@ a.db.tier2.infra:
   value: 46.225.195.182
 _acme-challenge.a.db.tier2.infra: # seb@hackclub.com
   type: TXT
-  value: idq4s6aNZYsv4UOdpmJSmgOIFkAGSHsYZ3fQOZQBSsk
+  values:
+  - idq4s6aNZYsv4UOdpmJSmgOIFkAGSHsYZ3fQOZQBSsk
+  - vzJvw4kfdT7qVq44QkQc_IDQdRYw28Tv-9jZ9UG0YGI
 a.ingress.tier2.infra:
   type: A
   value: 46.225.195.181
