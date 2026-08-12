@@ -3352,6 +3352,9 @@ leap:
 leap-manual:
   type: CNAME
   value: 578b642302902d47.vercel-dns-016.com.
+levelzero: # arjavjain0703@gmail.com U081ZC7ES30
+- type: CNAME
+  value: cname.vercel-dns.com.
 lghs:
   type: CNAME
   value: cname.vercel-dns.com.
