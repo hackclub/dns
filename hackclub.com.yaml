@@ -782,6 +782,9 @@ az:
 b2b:
 - type: CNAME
   value: nitishsai9.github.io.
+backtothefuture: # adithv08@gmail.com U083XGD4XFY
+- type: CNAME
+  value: atomtables.github.io.
 badge: # leo@hackclub.com U07BLJ1MBEE
 - octodns:
     cloudflare:
