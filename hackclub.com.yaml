@@ -1638,6 +1638,9 @@ cut: # sebh@hackclub.com
 d0a9c612-6ccd-4237-829a-e6bcd4e17d4a: # alex@hackclub.com
 - type: TXT
   value: intercom-domain-validation=505c66e9-9ab5-4ca0-9907-4dbe91b6a17c
+darkroom: # U07904YUJ6A
+- type: CNAME
+  value: 9ba6cf5aeda78bdd.vercel-dns-013.com.
 dashboard:
 - octodns:
     cloudflare:
