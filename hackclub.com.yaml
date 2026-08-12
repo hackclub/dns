@@ -3979,6 +3979,9 @@ _github-pages-challenge-OSCA-Hack-Club.osca:
 osiris: # fraud detection :D // hi@skyfall.dev
 - type: CNAME
   value: cname.vercel-dns.com.
+out-to-c: # U098P9DLUGJ
+- type: CNAME
+  value: out-to-c.hackclub.app.
 outerlan:
 - type: CNAME
   value: hackclub.github.io.
