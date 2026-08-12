@@ -335,6 +335,8 @@ _vercel: #
   - "vc-domain-verify=whimsy.hackclub.com,712b4c3c244883005c42"
   - "vc-domain-verify=flickr.hackclub.com,3b44a9f210c4c7d6e72c"
   - "vc-domain-verify=pulsewidth.hackclub.com,b8160f071751810729d5"
+- type: TXT
+  value: "vc-domain-verify=levelzero.hackclub.com,13c7a558faca12814c3c"
 
 _visual-studio-marketplace-hackatime: # U07VC9705D4
   type: TXT
