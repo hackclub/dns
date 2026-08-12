@@ -1340,6 +1340,10 @@ proxy.you-ship-we-vote:
 - ttl: 600
   type: A
   value: 209.112.91.50
+yuki-rins: # 19979598350@163.com
+- ttl: 600
+  type: CNAME
+  value: yukirins-021822.hackclub.app.
 ziademad-ai-eng: # myfreelancinglife777@gmail.com U0A57CQPJHF
 - ttl: 600
   type: A
