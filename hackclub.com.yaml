@@ -4992,6 +4992,9 @@ portal.sleepover: #celeste@hackclub.com @thegrammarpolice
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
+sleepy-time: # jenny@hackclub.com
+- type: CNAME
+  value: cname.vercel-dns.com.
 slorp: # U07BLJ1MBEE
 - octodns:
     cloudflare:
