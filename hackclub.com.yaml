@@ -2638,6 +2638,12 @@ hackvault: # benjamin.graetz@henleyhs.sa.edu.au U0828CN2BL4
 _github-pages-challenge-BennyGaming635.hackvault: # benjamin.graetz@henleyhs.sa.edu.au U0828CN2BL4
 - type: TXT
   value: eb7c4c7569c1ef4036422ac45273f2
+hackxpansion: # koeglike@proton.me
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 hacky-holidays:
   type: CNAME
   value: cname.vercel-dns.com.
