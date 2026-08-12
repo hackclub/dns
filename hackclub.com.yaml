@@ -1635,6 +1635,9 @@ cut: # sebh@hackclub.com
 d0a9c612-6ccd-4237-829a-e6bcd4e17d4a: # alex@hackclub.com
 - type: TXT
   value: intercom-domain-validation=505c66e9-9ab5-4ca0-9907-4dbe91b6a17c
+darkroom: # @Trulle123 (07904YUJ6A) on slack - https://github.com/Trulle1234/Darkroom/
+- type: CNAME
+- value: trulle1234.github.io.
 dashboard:
 - octodns:
     cloudflare:
