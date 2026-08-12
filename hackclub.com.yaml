@@ -4491,6 +4491,9 @@ rust.resolution: # mahad@hackclub.com U059VC0UDEU
       proxied: true
   type: CNAME
   value: b.selfhosted.hackclub.com.
+retrograde: # me@mannireis.com U08B60DCYG2
+- type: CNAME
+  value: maddy.hackclub.app.
 retrospect: # nora@hackclub.com U06QK6AG3RD
   type: CNAME
   value: da5ef63dbcc35c40.vercel-dns-016.com.
