@@ -5494,6 +5494,12 @@ thing:
 thingondesk: # antonio@hackclub.com U0BCQD74Y03
   type: CNAME
   value: 687a73f22eda9df7.vercel-dns-016.com.
+thirdspace: # louisa@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 thorn:
 - type: CNAME
   value: thornhack.root.omg.lol.
