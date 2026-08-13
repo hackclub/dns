@@ -1226,6 +1226,9 @@ vansh:
 - ttl: 600
   type: CNAME
   value: lowkeyvansh.github.io.
+vasudev: # vasudevonden@gmail.com
+- type: CNAME
+  value: Along-the-skies.github.io.
 vercel:
 - ttl: 600
   type: CNAME
