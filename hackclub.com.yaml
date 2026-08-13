@@ -3998,8 +3998,11 @@ osiris: # fraud detection :D // hi@skyfall.dev
 - type: CNAME
   value: cname.vercel-dns.com.
 out-to-c: # U098P9DLUGJ
-- type: CNAME
-  value: out-to-c.hackclub.app.
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 outerlan:
 - type: CNAME
   value: hackclub.github.io.
