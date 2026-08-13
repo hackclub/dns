@@ -2778,20 +2778,16 @@ key3._domainkey.hcarc:
   type: CNAME
   value: key3.hcarc.hackclub.com._domainkey.migadu.com.
 hcb:
-- octodns:
-    lenient: true
-  type: CNAME
-  value: ingress.hcb.hackclub.com.
-- octodns:
-    lenient: true
-  type: MX
+- type: A
+  value: 5.161.32.67
+- type: AAAA
+  value: 2a01:4ff:f1:2d2::1
+- type: MX
   ttl: 6000
   value:
     exchange: mx.sendgrid.net.
     preference: 10
-- octodns:
-    lenient: true
-  ttl: 3600
+- ttl: 3600
   type: TXT
   values:
   - google-gws-recovery-domain-verification=49632973
@@ -2842,11 +2838,6 @@ grants.help.hcb: #alex@hackclub.com, gary@hackclub.com
       proxied: true
   type: CNAME
   value: custom.intercom.help.
-ingress.hcb:
-- type: A
-  value: 5.161.32.67
-- type: AAAA
-  value: 2a01:4ff:f1:2d2::1
 notes.hcb: # alex@hackclub.com
 - type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
