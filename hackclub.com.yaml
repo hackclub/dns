@@ -2714,6 +2714,23 @@ hauntedhouse:
 hauntedto:
   type: CNAME
   value: dcd923bb12754ab3.vercel-dns-016.com.
+haven:
+- type: TXT
+  values:
+  - google-site-verification=B5n_Xh2zYddWNR_oQh5YixL4EAdYU7-54O6TmnjJ4MU
+  - v=spf1 include:_spf.google.com ~all
+- type: MX
+  values:
+  - exchange: ASPMX.L.GOOGLE.COM.
+    preference: 1
+  - exchange: ALT1.ASPMX.L.GOOGLE.COM.
+    preference: 5
+  - exchange: ALT2.ASPMX.L.GOOGLE.COM.
+    preference: 5
+  - exchange: ALT3.ASPMX.L.GOOGLE.COM.
+    preference: 10
+  - exchange: ALT4.ASPMX.L.GOOGLE.COM.
+    preference: 10
 haxidraw:
   type: CNAME
   value: cname.vercel-dns.com.
