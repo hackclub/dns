@@ -2398,6 +2398,9 @@ giftbox: # tongyu@hackclub.com U07DJMFAQQP
       proxied: true
   type: CNAME
   value: 4711668836b198ab.vercel-dns-016.com.
+glassrib: # maxhurley@hackclub.com U078ZJHUKFW
+- type: CNAME
+  value: cname.vercel-dns.com.
 glenny:
 - type: CNAME
   value: bobbedbob.github.io.
