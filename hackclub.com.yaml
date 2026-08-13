@@ -1383,7 +1383,7 @@ clubs: # dhyan@hackclub.com U0824G9PTFE
     lenient: true
     cloudflare:
       proxied: true
-  type: ALIAS
+  type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 - type: MX
   value:
@@ -1775,7 +1775,7 @@ docs: # leo@hackclub.com U07BLJ1MBEE
     cloudflare:
       proxied: false
     lenient: true
-  type: ALIAS
+  type: CNAME
   value: 4fc2e0847f-hosting.gitbook.io.
 - type: CAA
   values:
@@ -2753,7 +2753,7 @@ key3._domainkey.hcarc:
 hcb:
 - octodns:
     lenient: true
-  type: ALIAS
+  type: CNAME
   value: ingress.hcb.hackclub.com.
 - type: MX
   ttl: 6000
