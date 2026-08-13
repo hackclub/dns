@@ -2714,7 +2714,7 @@ hauntedhouse:
 hauntedto:
   type: CNAME
   value: dcd923bb12754ab3.vercel-dns-016.com.
-haven:
+haven:  # haven@hackclub.com
 - type: TXT
   values:
   - google-site-verification=B5n_Xh2zYddWNR_oQh5YixL4EAdYU7-54O6TmnjJ4MU
