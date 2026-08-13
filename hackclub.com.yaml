@@ -5392,6 +5392,9 @@ syscall:
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
+tabbed: # U09E9BJ3NKX ary
+  type: CNAME
+  value: 3328b548dde41d98.vercel-dns-013.com.
 tailor: # U08QMC72ZSZT kaylee@hackclub.com
   type: CNAME
   value: 077dcc934b616aac.vercel-dns-016.com.
