@@ -1385,7 +1385,9 @@ clubs: # dhyan@hackclub.com U0824G9PTFE
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
-- type: MX
+- octodns:
+    lenient: true
+  type: MX
   value:
     exchange: inbound-smtp.us-east-1.amazonaws.com.
     preference: 10
@@ -1777,7 +1779,9 @@ docs: # leo@hackclub.com U07BLJ1MBEE
     lenient: true
   type: CNAME
   value: 4fc2e0847f-hosting.gitbook.io.
-- type: CAA
+- octodns:
+    lenient: true
+  type: CAA
   values:
   - flags: 0
     tag: issue
@@ -2755,12 +2759,16 @@ hcb:
     lenient: true
   type: CNAME
   value: ingress.hcb.hackclub.com.
-- type: MX
+- octodns:
+    lenient: true
+  type: MX
   ttl: 6000
   value:
     exchange: mx.sendgrid.net.
     preference: 10
-- ttl: 3600
+- octodns:
+    lenient: true
+  ttl: 3600
   type: TXT
   values:
   - google-gws-recovery-domain-verification=49632973
