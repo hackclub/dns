@@ -1332,6 +1332,12 @@ charon:
 docs.charon:
   type: CNAME
   value: hackclub.github.io.
+checkbox: # brendan@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 chipless: #U08EUSU38VC liam@hackclub.com
 - type: CNAME
   value: 98cee3ead75bbbf7.vercel-dns-016.com.
