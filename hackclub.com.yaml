@@ -2782,9 +2782,9 @@ blog.hcb: # HCB engineering/blog website
   type: CNAME
   value: a5f4edd87f53e433.vercel-dns-016.com.
 _01ad2d3dbbc14b095751414180aeba2b.cdn.hcb: # U022XFD2TML
-- type: CNAME
+  type: CNAME
   value: _bd12548d73a1d6391ec391ca487e9162.jkddzztszm.acm-validations.aws.
-cdn.hcb:
+cdn.hcb: # U022XFD2TML
 - type: CAA
   value: amazon.com.
 changelog.hcb:
