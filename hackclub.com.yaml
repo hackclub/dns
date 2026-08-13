@@ -2416,7 +2416,7 @@ giftbox: # tongyu@hackclub.com U07DJMFAQQP
   value: 4711668836b198ab.vercel-dns-016.com.
 glassrib: # U083W5CCFDG joaquin@hackclub.com
   type: CNAME
-  value: a.ingress.tier2.infra.hackclub.com
+  value: a.ingress.tier2.infra.hackclub.com.
 glenny:
 - type: CNAME
   value: bobbedbob.github.io.
