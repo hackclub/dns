@@ -1632,6 +1632,12 @@ ctrlalttec:
     preference: 10
   - exchange: alt4.aspmx.l.google.com.
     preference: 10
+cubed: # brendan@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 customizer:
 - type: CNAME
   value: jasonappah.github.io.
