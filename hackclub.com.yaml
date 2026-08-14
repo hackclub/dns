@@ -740,6 +740,12 @@ attend: # leo@hackclub.com
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+staging.attend: # leo@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 aurora:
   type: CNAME
   value: 3dda976f1961c3e4.vercel-dns-016.com.
