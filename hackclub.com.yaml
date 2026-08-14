@@ -4649,7 +4649,7 @@ rss:
   value: 5e3aec56f7ee6698.vercel-dns-016.com.
 ru: # echo@hackclub.com
 - type: CNAME
-  value: cname.vercel-dns.com.
+  value: 6cdac7be6b2e933b.vercel-dns-016.com.
 runshaw:
   type: CNAME
   value: danielb.hackclub.app.
