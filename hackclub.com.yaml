@@ -1386,17 +1386,10 @@ clubdash:
   value: a.selfhosted.hackclub.com.
 clubs: # dhyan@hackclub.com U0824G9PTFE
 - octodns:
-    lenient: true
     cloudflare:
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
-- octodns:
-    lenient: true
-  type: MX
-  value:
-    exchange: inbound-smtp.us-east-1.amazonaws.com.
-    preference: 10
 resend._domainkey.clubs: # dhyan@hackclub.com U0824G9PTFE
   type: TXT
   value: "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC7NaUrPsTNbDNJjkzvoItciTUCgN+JF6SnvCejjyGGuM6skFCbUeeXyCcHE8lNEfcAUdexEoSlGYGGUxvgyOHb10zEm+tezjIaN3s22+LXBCZqPfzyOVBBoeahRqMEn49jnV3Z+zPW5ki4YM0sCmAWvcW8KXhixaOujcO6yhHcxwIDAQAB"
