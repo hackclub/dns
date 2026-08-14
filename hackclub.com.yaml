@@ -4556,7 +4556,7 @@ rust.resolution: # mahad@hackclub.com U059VC0UDEU
   value: b.selfhosted.hackclub.com.
 retrograde: # me@mannireis.com U08B60DCYG2
 - type: CNAME
-  value: maddy.hackclub.app.
+  value: 6b125ada5431c218.vercel-dns-013.com.
 retrospect: # nora@hackclub.com U06QK6AG3RD
   type: CNAME
   value: da5ef63dbcc35c40.vercel-dns-016.com.
