@@ -5338,12 +5338,6 @@ storyboard:
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
-storybook: # brendan@hackclub.com
-- octodns:
-    cloudflare:
-      proxied: true
-  type: CNAME
-  value: a.ingress.tier2.infra.hackclub.com.
 submit:
 - octodns:
     cloudflare:
