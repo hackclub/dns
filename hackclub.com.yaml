@@ -3673,6 +3673,9 @@ milkyway:
 milton:
   type: CNAME
   value: miltonhackclub.pages.dev.
+mini: # U081C6XT885 hackclub@sahana.dev
+- type: CNAME
+  value: 57930799cc563b60.vercel-dns-013.com.
 minicraft:
   type: CNAME
   value: minicraft-dvk.pages.dev.
