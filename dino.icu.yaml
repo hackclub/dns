@@ -867,12 +867,6 @@ null: # helioleles@comcast.net Helio Leles (OCI Instance)
 - ttl: 600
   type: A
   value: 129.146.39.117
-numycode: # numycode@pyroforge.dev U0A6U9MEA5D
-- ttl: 600
-  type: CNAME
-  value: numycode.github.io.
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# use this as an example for your own domain!
 offset: # for upcoming #offset ysws -> U0828RTU7FE
   ttl: 600
   type: CNAME
