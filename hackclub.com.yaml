@@ -895,9 +895,6 @@ berkeley:
 berman:
 - type: CNAME
   value: bermanclub.pages.dev.
-beta: # echo@hackclub.com U080A3QP42C
-  type: CNAME
-  value: 6cdac7be6b2e933b.vercel-dns-016.com.
 better-airtable-mcp: # augie@hackclub.com U07FCRNHS1J
 - octodns:
     cloudflare:
