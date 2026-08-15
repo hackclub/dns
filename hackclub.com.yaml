@@ -895,9 +895,6 @@ berkeley:
 berman:
 - type: CNAME
   value: bermanclub.pages.dev.
-beta: # echo@hackclub.com U080A3QP42C
-  type: CNAME
-  value: 6cdac7be6b2e933b.vercel-dns-016.com.
 better-airtable-mcp: # augie@hackclub.com U07FCRNHS1J
 - octodns:
     cloudflare:
@@ -1713,6 +1710,9 @@ vote.daydream:
 daysofservice:
   type: CNAME
   value: 84733497b6deb720.vercel-dns-016.com.
+de: # echo@hackclub.com
+- type: CNAME
+  value: 6cdac7be6b2e933b.vercel-dns-016.com.
 dear-joe:
 - type: CNAME
   value: f888ad30fdf5a183.vercel-dns-016.com.
@@ -2082,6 +2082,12 @@ fab:
 editor.fab:
   type: CNAME
   value: cname.vercel-dns.com.
+fairytale: # brendan@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 fallout: # samliu@hackclub.com
 - octodns:
     cloudflare:
@@ -4556,7 +4562,7 @@ rust.resolution: # mahad@hackclub.com U059VC0UDEU
   value: b.selfhosted.hackclub.com.
 retrograde: # me@mannireis.com U08B60DCYG2
 - type: CNAME
-  value: maddy.hackclub.app.
+  value: 6b125ada5431c218.vercel-dns-013.com.
 retrospect: # nora@hackclub.com U06QK6AG3RD
   type: CNAME
   value: da5ef63dbcc35c40.vercel-dns-016.com.
@@ -4649,7 +4655,7 @@ rss:
   value: 5e3aec56f7ee6698.vercel-dns-016.com.
 ru: # echo@hackclub.com
 - type: CNAME
-  value: cname.vercel-dns.com.
+  value: 6cdac7be6b2e933b.vercel-dns-016.com.
 runshaw:
   type: CNAME
   value: danielb.hackclub.app.
@@ -5055,6 +5061,12 @@ portal.sleepover: #celeste@hackclub.com @thegrammarpolice
 sleepy-time: # jenny@hackclub.com
 - type: CNAME
   value: 32647ca7673a8216.vercel-dns-017.com.
+slopdance: # smelly@gizzy.gay U08D3AY7BG8
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 slorp: # U07BLJ1MBEE
 - octodns:
     cloudflare:
