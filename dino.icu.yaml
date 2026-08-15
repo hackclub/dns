@@ -382,6 +382,10 @@ dev-email:
   type: TXT
   values:
   - v=spf1 include:spf.improvmx.com ~all
+coolify.devansh: # devansh.awat@gmail.com https://github.com/Devansh-awat
+- ttl: 600
+  type: A
+  value: 140.245.203.110
 hcai.devansh: # devansh.awat@gmail.com https://github.com/Devansh-awat
 - ttl: 600
   type: A
@@ -517,6 +521,10 @@ fullhouse: #niko@nikoo.dev U08SF8MVC82
 galaxybrain: # aaranysaini4@gmail.com U0B78MFGH9P
 - type: A
   value: 135.181.209.89
+get: # sabhya.aggarwal@icloud.com U0A83DB0TRN
+- ttl: 600
+  type: A
+  value: 216.198.79.1
 geta: # yoda - https://getadinoicu.yodacode.repl.co/dino.png - get a dino from hackclub/dinosaurs api
   ttl: 600
   type: CNAME
@@ -767,6 +775,9 @@ reverse.deployment.mangrove: # evanxdsouza@gmail.com U0AHS9VLG0K
 forms.mangrove: # evanxdsouza@gmail.com U0AHS9VLG0K
 - type: CNAME
   value: evanxdsouza.hackclub.app.
+ltc-gitea.mangrove: # evanxdsouza@gmail.com U0AHS9VLG0K
+- type: CNAME
+  value: evanxdsouza.hackclub.app.
 mats: # Contact via: mats@overmans.nl/lltool@overmans.nl/619401@olz.nl(only emergencies)
   ttl: 600
   type: CNAME
@@ -801,9 +812,9 @@ misskey: #hackisskey | korange753@gmail.com U091Q2MS3T9
   type: TXT
   value: domain-verification=korange # for Nest
 mkv: # drew@drewfitzgerald.co.nz U0AA0EU3G3V
-  - type: CNAME
-    value: mkv.wchouses.co.nz.
-    ttl: 600 # OPTIONAL (defaults to 600)
+- type: CNAME
+  value: mkv.wchouses.co.nz.
+  ttl: 600   # OPTIONAL (defaults to 600)
 molecule: # by https://github.com/RasmusStenlund
   ttl: 600
   type: CNAME
@@ -856,12 +867,6 @@ null: # helioleles@comcast.net Helio Leles (OCI Instance)
 - ttl: 600
   type: A
   value: 129.146.39.117
-numycode: # numycode@pyroforge.dev U0A6U9MEA5D
-- ttl: 600
-  type: CNAME
-  value: numycode.github.io.
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# use this as an example for your own domain!
 offset: # for upcoming #offset ysws -> U0828RTU7FE
   ttl: 600
   type: CNAME
@@ -1053,9 +1058,9 @@ scavenger: # U076W5GKC48
   type: CNAME
   value: nate-greco.github.io.
 schemabuilder: # hackclub-dns@fabian.ternismail.de U0B8JTZDTKQ
-  - ttl: 18000
-    type: A
-    value: 77.90.15.2 # vweb01.eu
+- ttl: 18000
+  type: A
+  value: 77.90.15.2   # vweb01.eu
 sdheeraj: # https://github.com/17sdheeraj/17sdheeraj.github.io
   ttl: 600
   type: CNAME
@@ -1114,6 +1119,10 @@ solvable: # GitHub: Randomcoder323, codingme313@gmail.com
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+soup3d: # sabhya.aggarwal.18.6@gmail.com U0A9K5RT3HS
+- ttl: 600
+  type: A
+  value: 216.198.79.1
 sparkle: #tlyzachary0411@gmail.com U07DL91MFQT @zook
 - ttl: 600
   type: A
@@ -1198,6 +1207,10 @@ throttleup: # Github: NoIwantyourcode slack: U0A269NG76F
   ttl: 600
   type: A
   value: 216.198.79.1
+timetable: # devansh.awat@gmail.com https://github.com/Devansh-awat
+- ttl: 600
+  type: A
+  value: 140.245.203.110
 toonnongaeoy:
 - ttl: 600
   type: CNAME
