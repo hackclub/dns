@@ -1451,12 +1451,6 @@ coeur: # olive@hackclub.com @Olive @Ghost of L87 (Lynn)
 coins:
 - type: A
   value: 173.208.140.124
-api.jumbotron: # lynn89sudo@gmail.com
-- octodns:
-    cloudflare:
-      proxied: true
-  type: CNAME
-  value: a.ingress.tier2.infra.hackclub.com.
 comms:
 - octodns:
     cloudflare:
@@ -3304,6 +3298,12 @@ juice:
 jumbotron: # lynn89sudo@gmail.com
 - type: CNAME
   value: cname.vercel-dns.com.
+api.jumbotron: # lynn89sudo@gmail.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 jumpstart: #estella@hackclub.com
 - type: CNAME
   value: cname.vercel-dns.com.
