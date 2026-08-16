@@ -5527,6 +5527,12 @@ ten-days-of-code:
 terminalcraft:
 - type: CNAME
   value: 21a914e9b89646d3.vercel-dns-016.com.
+test: # echo@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 tfss:
 - type: A
   value: 216.150.1.1 # Vercel
