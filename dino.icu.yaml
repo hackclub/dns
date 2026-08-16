@@ -386,6 +386,10 @@ coolify.devansh: # devansh.awat@gmail.com https://github.com/Devansh-awat
 - ttl: 600
   type: A
   value: 140.245.203.110
+"*.coolify.devansh": # devansh.awat@gmail.com https://github.com/Devansh-awat
+- ttl: 600
+  type: A
+  value: 140.245.203.110
 hcai.devansh: # devansh.awat@gmail.com https://github.com/Devansh-awat
 - ttl: 600
   type: A
