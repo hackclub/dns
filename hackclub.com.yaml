@@ -2730,6 +2730,11 @@ haven:  # haven@hackclub.com
     preference: 10
   - exchange: ALT4.ASPMX.L.GOOGLE.COM.
     preference: 10
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 haxidraw:
   type: CNAME
   value: cname.vercel-dns.com.
