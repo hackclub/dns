@@ -1443,10 +1443,7 @@ codex: # alexren@hackclub.com
   type: CNAME
   value: a.selfhosted.hackclub.com.
 coeur: # olive@hackclub.com @Olive @Ghost of L87 (Lynn)
-  octodns:
-    cloudflare:
-      proxied: true
-  type: CNAME
+- type: CNAME
   value: 24bb8e539241bbef.vercel-dns-016.com.
 coins:
 - type: A
