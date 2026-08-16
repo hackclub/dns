@@ -2733,7 +2733,7 @@ haven:  # haven@hackclub.com
 - octodns:
     cloudflare:
       proxied: true
-  type: CNAME
+  type: ALIAS
   value: a.ingress.tier2.infra.hackclub.com.
 haxidraw:
   type: CNAME
