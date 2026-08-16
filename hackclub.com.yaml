@@ -3298,6 +3298,12 @@ juice:
 jumbotron: # lynn89sudo@gmail.com
 - type: CNAME
   value: cname.vercel-dns.com.
+api.jumbotron: # lynn89sudo@gmail.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 jumpstart: #estella@hackclub.com
 - type: CNAME
   value: cname.vercel-dns.com.
