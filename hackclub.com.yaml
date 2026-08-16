@@ -1451,7 +1451,7 @@ coeur: # olive@hackclub.com @Olive @Ghost of L87 (Lynn)
 coins:
 - type: A
   value: 173.208.140.124
-api.jumbotron.hackclub.com: # lynn89sudo@gmail.com
+api.jumbotron: # lynn89sudo@gmail.com
 - octodns:
     cloudflare:
       proxied: true
