@@ -722,12 +722,9 @@ express.athena:
 oscillart.athena:
 - type: CNAME
   value: celesteroselli.github.io.
-tribute.athena:
-- octodns:
-    cloudflare:
-      proxied: true
-  type: CNAME
-  value: a.selfhosted.hackclub.com.
+tribute.athena: # U078J6H1XL3
+- type: CNAME
+  value: 52c33a4781d1fce9.vercel-dns-013.com.
 atlantis: # mihir@hackclub.com
 - octodns:
     cloudflare:
