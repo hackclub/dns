@@ -2714,11 +2714,15 @@ hauntedto:
   type: CNAME
   value: dcd923bb12754ab3.vercel-dns-016.com.
 haven:  # haven@hackclub.com
-- type: TXT
+- octodns:
+    lenient: true
+  type: TXT
   values:
   - google-site-verification=B5n_Xh2zYddWNR_oQh5YixL4EAdYU7-54O6TmnjJ4MU
   - v=spf1 include:_spf.google.com ~all
-- type: MX
+- octodns:
+    lenient: true
+  type: MX
   values:
   - exchange: ASPMX.L.GOOGLE.COM.
     preference: 1
@@ -2733,7 +2737,8 @@ haven:  # haven@hackclub.com
 - octodns:
     cloudflare:
       proxied: true
-  type: ALIAS
+    lenient: true
+  type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 haxidraw:
   type: CNAME
