@@ -1172,15 +1172,14 @@ dash.camp: # jenin@hackclub.com // U0926UASBJ7
   value: a.ingress.tier2.infra.hackclub.com.
 campfire: # leafd@hackclub.com
 - octodns:
-    lenient: true
     cloudflare:
       proxied: true
-  type: A
-  value: 5.161.244.66
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 - type: TXT
   values:
   - google-site-verification=xis9BmP-gRLmEU4YC9opk7bCtkoAERLiA92Vafg4VkU
-  - v=spf1 include:_spf.google.com ~all
+  - "v=spf1 include:_spf.google.com ~all"
 - type: MX
   values:
   - exchange: aspmx.l.google.com.
