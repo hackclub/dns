@@ -4198,7 +4198,7 @@ photos: # tom@daamen.uk  U078PH0GBEH
     cloudflare:
       proxied: true
   type: CNAME
-  value: b.selfhosted.hackclub.com.
+  value: cname.vercel-dns.com.
 phs:
 - type: A
   value: 216.150.1.1 # Vercel
