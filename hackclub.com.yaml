@@ -5708,6 +5708,9 @@ treasurehunt: # pkd2210@gmail.com U091DE0M4NB
     cloudflare:
       proxied: true
   value: a.ingress.tier2.infra.hackclub.com.
+trek: # sebh@hackclub.com
+- type: CNAME
+  value: 4cd60633d1987e58.vercel-dns-013.com.
 trickortrace:
 - type: CNAME
   value: onboard-7w9.pages.dev.
