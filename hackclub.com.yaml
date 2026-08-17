@@ -847,8 +847,6 @@ barracoders:
 - type: CNAME
   value: barracoders.netlify.app.
 bash: # rushil@hackclub.com U020X4GCWSF
-  type: CNAME
-  value: 1e0993da91f1fd93.vercel-dns-013.com.
 - type: CNAME
   value: boba-bash-platform.onrender.com.
 resend._domainkey.bash: # rushil@hackclub.com U020X4GCWSF
