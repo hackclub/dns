@@ -2230,6 +2230,12 @@ flickr: #louisa@hackclub.com / U06EMBJH71S
 flourish:
 - type: CNAME
   value: reemlifa.github.io.
+folktale: # brendan@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 foodie:
   type: CNAME
   value: 4ac2db95a894d00c.vercel-dns-017.com.
