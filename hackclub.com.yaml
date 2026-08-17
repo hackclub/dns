@@ -846,9 +846,6 @@ help.bank:
 barracoders:
 - type: CNAME
   value: barracoders.netlify.app.
-bash: # rushil@hackclub.com U020X4GCWSF
-- type: CNAME
-  value: boba-bash-platform.onrender.com.
 resend._domainkey.bash: # rushil@hackclub.com U020X4GCWSF
   type: TXT
   value: "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDkoRoimH6L/m+ibmddlbIXH/3OjrkK3PJEK0aCFSumRF4Otb3WhGJVVCwQOcvl14zthqP0tcUmM6CMmfOYsdvaWE+hnhaxGChNmWdUJqdqu+vYpkxahdVbz0nHe4bMt79XxjGtB/TwYK9BCnc0XOkW1jTQfZrMWINZ/hhGaFrhcwIDAQAB"
