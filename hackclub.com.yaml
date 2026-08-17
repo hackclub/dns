@@ -1299,10 +1299,7 @@ cecclphs:
 - type: TXT
   value: google-site-verification=_c3oOWsKBUxlmaanXeqC1tBTLNZGflwsEMQQiuP-EUM
 ceiling: # tongyu@hackclub.com U07DJMFAQQP
-- octodns:
-    cloudflare:
-      proxied: true
-  type: CNAME
+- type: CNAME
   value: 32fc8a9e82d43fef.vercel-dns-016.com.
 celestial:
 - type: CNAME
