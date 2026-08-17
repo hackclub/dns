@@ -4196,9 +4196,9 @@ philanthropy:
 philippines:
 - type: CNAME
   value: cname.vercel-dns.com.
-photos: # tom@daamen.uk  U078PH0GBEH
+photos: # tom@daamen.uk U078PH0GBEH
 - type: CNAME
-  value: cname.vercel-dns.com.
+  value: 6b1e660c03c871f3.vercel-dns-013.com.
 phs:
 - type: A
   value: 216.150.1.1 # Vercel
