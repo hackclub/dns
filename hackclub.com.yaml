@@ -5786,6 +5786,12 @@ uptime:
 url75: # SendGrid Sender Authentication (bank@hackclub.com)
   type: CNAME
   value: sendgrid.net.
+urspace: # selena@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 uwu: # U08PD2ZB3DL
 - type: CNAME
   value: cname.vercel-dns.com.
