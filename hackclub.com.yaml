@@ -3927,7 +3927,7 @@ notebook:
   value: 8f3ceaaead769d5d.vercel-dns-016.com.
 nothing: # amber / U054VC2KM9P
   type: CNAME
-  value: hackclub.github.io.
+  value: b.selfhosted.hackclub.com.
 numberwang:
   type: CNAME
   value: impactdns.techby.org.
