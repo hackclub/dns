@@ -4726,6 +4726,12 @@ network.scrapbook:
 scrapbooks:
   type: CNAME
   value: keen-brahmagupta-b1f934.netlify.app.
+scrape: # U07VC9705D4
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 scrappy:
   octodns:
     cloudflare:
