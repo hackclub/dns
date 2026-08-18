@@ -5995,7 +5995,7 @@ ysws:
   value: hackclub.github.io.
 ysws-true-spend: # zach@hackclub.com
 - type: CNAME
-  value: hackclub.github.io.
+  value: a.ingress.tier2.infra.hackclub.com.
 zachday:
 - type: CNAME
   value: zachday.netlify.com.
