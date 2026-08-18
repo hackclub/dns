@@ -4327,6 +4327,11 @@ postal:
 posthog:
   type: A
   value: 45.79.174.48
+powertools: # lewin@hackclub.com
+- type: A
+  value: 51.148.150.203
+- type: AAAA
+  value: 2a02:8012:477e:1::e
 prc:
 - type: A
   value: 104.198.14.52
