@@ -313,6 +313,9 @@ commbadge: # hpscigeek@gmail.com https://github.com/nerdwithcomputers slack: U04
   ttl: 600
   type: CNAME
   value: miracl3max.duckdns.org.
+connor: # connor321@protonmail.com
+- type: CNAME
+  value: connors-site-five.vercel.app.
 constellation: # me@theutkarsh8939.dev U0AM8ASHEG6
 - ttl: 600
   type: A
@@ -383,6 +386,10 @@ dev-email:
   values:
   - v=spf1 include:spf.improvmx.com ~all
 coolify.devansh: # devansh.awat@gmail.com https://github.com/Devansh-awat
+- ttl: 600
+  type: A
+  value: 140.245.203.110
+"*.coolify.devansh": # devansh.awat@gmail.com https://github.com/Devansh-awat
 - ttl: 600
   type: A
   value: 140.245.203.110
@@ -1240,8 +1247,8 @@ vansh:
   type: CNAME
   value: lowkeyvansh.github.io.
 vasudev: # vasudevonden@gmail.com
-- type: CNAME
-  value: Along-the-skies.github.io.
+- type: A
+  value: 135.181.209.89
 vercel:
 - ttl: 600
   type: CNAME
