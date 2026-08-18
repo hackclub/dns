@@ -5996,6 +5996,9 @@ your-first-ship:
 ysws:
 - type: CNAME
   value: hackclub.github.io.
+ysws-true-spend: # zach@hackclub.com
+- type: CNAME
+  value: hackclub.github.io.
 zachday:
 - type: CNAME
   value: zachday.netlify.com.
