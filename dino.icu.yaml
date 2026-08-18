@@ -1247,8 +1247,8 @@ vansh:
   type: CNAME
   value: lowkeyvansh.github.io.
 vasudev: # vasudevonden@gmail.com
-- type: TXT
-  value: domain-verification=vasudev
+- type: A
+  value: 135.181.209.89
 vercel:
 - ttl: 600
   type: CNAME
