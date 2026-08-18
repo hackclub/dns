@@ -39,9 +39,9 @@
   - anthropic-domain-verification-hkth5m=hheIAy80WjbR1ZRaKVlWYZ0Z6   # alex@hackclub.com / gary@hackclub.com
   - openai-domain-verification=dv-q7BgA5BnEgzJJSueBRxwENjx # hcb@hackclub.com
   - tiktok-developers-site-verification=RsJXRJ21U8eWrk0yPIt16nVmnLD8VBN3 # zach@hackclub.com
-3am: # U087BHR98AX
-  type: CNAME
-  value: 01a4efb9c49ba517.vercel-dns-013.com.
+'3am': # U087BHR98AX
+- type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 44.74:
 - type: CNAME
   value: 8e42daa9edbe9df1.vercel-dns-016.com.
