@@ -4324,6 +4324,12 @@ postal:
 posthog:
   type: A
   value: 45.79.174.48
+potluck: # fiona@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 powertools: # lewin@hackclub.com
 - type: A
   value: 51.148.150.203
