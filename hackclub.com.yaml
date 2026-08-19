@@ -1361,6 +1361,12 @@ cinema:
 circazine: # lola@hackclub.com
 - type: CNAME
   value: 6f4dc5f527711f20.vercel-dns-013.com.
+citadel-dev: # mattsoh@hackclub.com U07DPHQCCCS
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 cken:
 - type: A
   value: 52.191.165.18
