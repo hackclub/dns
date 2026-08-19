@@ -183,6 +183,9 @@ as: # Jacob N // @Jacob // U0AEYDUCLKF // jacob.navaratne@outlook.com
 - type: CNAME
   value: mini-jacob.hackclub.app.
   ttl: 600
+as-hosting: # jacob.navaratne@outlook.com / @Jacob on Slack
+- type: CNAME
+  value: mini-jacob.hackclub.app.
 asclub: # Jacob N // @Jacob // U0AEYDUCLKF // jacob.navaratne@outlook.com
 - type: CNAME
   value: mini-jacob.hackclub.app.
