@@ -4262,6 +4262,9 @@ play.pixl: # barnav@hackclub.com U08RVF1BAN4
 server.pixl: # barnav@hackclub.com U08RVF1BAN4
 - type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+plas: # sebh@hackclub.com
+- type: CNAME
+  value: 5616d45fd8a82176.vercel-dns-013.com.
 plausible: # @msw max@hackclub.com
   type: CNAME
   octodns:
