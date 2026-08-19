@@ -4351,6 +4351,11 @@ potluck: # fiona@hackclub.com
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 powertools: # lewin@hackclub.com
 - type: A
   value: 51.148.150.203
