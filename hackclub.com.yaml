@@ -3869,7 +3869,10 @@ summer.nephthys: # amber / U054VC2KM9P
       proxied: true
   value: a.selfhosted.hackclub.com.
 twisted.nephthys: # aoishikkhan@gmail.com U0A5NKH93BJ POC: @plastuchino
-- type: CNAME
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 nest: # admins@hackclub.app
 - type: CNAME
