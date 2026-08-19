@@ -3009,6 +3009,12 @@ tickets.horizons: #U056J6JURFF, sofia@hackclub.com
     cloudflare:
       proxied: true
   value: a.selfhosted.hackclub.com.
+horus: # me@lazyllama.xyz - U07F2QA059B
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 '*.hosted':
   type: A
   value: 173.208.140.124
