@@ -2052,12 +2052,18 @@ events: # leo@hackclub.com
     preference: 10
   - exchange: ALT4.ASPMX.L.GOOGLE.COM.
     preference: 10
+'20260820204628pm._domainkey.events': # leo@hackclub.com
+- type: TXT
+  value: k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCMK0SQEENzXpLorR9R8jEwYcI4U/fcBF2mFSi6LgYwufnkCFF4ENbx+D09h7tLcRtahveAlyr5B6+ZslP7+RZL7W1rdN6pclLf9Nc11875PsytSY1RJgYg+W80msGyF19AqBD8pm+znjX4ddbaWeakM7ypXZaI1oux74he1vmBXQIDAQAB
 mail.events: # leo@hackclub.com
   octodns:
     cloudflare:
       proxied: true
   type: CNAME
   value: b.selfhosted.hackclub.com.
+pm-bounces.events: # leo@hackclub.com
+- type: CNAME
+  value: pm.mtasv.net.
 sign.events:
   octodns:
     cloudflare:
