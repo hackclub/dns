@@ -3329,12 +3329,12 @@ api.jumbotron: # lynn89sudo@gmail.com
 jumpstart: #estella@hackclub.com U06UYA4AH6F
 - type: CNAME
   value: cname.vercel-dns.com.
-haven.jumpstart: # estella@hackclub.com U06UYA4AH6F
-  - type: CNAME
-    value: cname.vercel-dns.com.
 daydream.jumpstart: # estella@hackclub.com U06UYA4AH6F
 - type: CNAME
   value: themagicfrog.github.io.
+haven.jumpstart: # estella@hackclub.com U06UYA4AH6F
+  - type: CNAME
+    value: cname.vercel-dns.com.
 v1.jumpstart: # estella@hackclub.com U06UYA4AH6F
 - type: CNAME
   value: themagicfrog.github.io.
