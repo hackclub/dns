@@ -5610,6 +5610,9 @@ thirdspace: # louisa@hackclub.com
 thorn:
 - type: CNAME
   value: thornhack.root.omg.lol.
+throwback: # electricxangell@gmail.com
+- type: CNAME
+  value: cname.vercel-dns.com.
 tile:
 - octodns:
     cloudflare:
