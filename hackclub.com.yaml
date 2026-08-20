@@ -4568,6 +4568,9 @@ reboot: # emmaborghi@hackclub.com U078DFX40A2
 recapsule: # tongyu@hackclub.com U07DJMFAQQP
   type: CNAME
   value: 62c32438c89e0c3f.vercel-dns-016.com.
+recolabs: # devadibxr@gmail.com
+- type: CNAME
+  value: 8f3733c0c1f4f750.vercel-dns-017.com.
 redream: # skylarmaestein@gmail.com U080Y31KUE7 & jolly@hackclub.com U08CJCZ2Z9S
 - type: CNAME
   value: 5b08eaf797dbfb65.vercel-dns-013.com.
