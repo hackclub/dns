@@ -294,6 +294,7 @@ _vercel: #
   - "vc-domain-verify=jpeg.hackclub.com,d10d5875d555c029e35a"
   - "vc-domain-verify=jua.hackclub.com,f187c5e6c1e4e681fb22"
   - "vc-domain-verify=jumpstart.hackclub.com,cce8c237a49c81456ec3"
+  - "vc-domain-verify=haven.jumpstart.hackclub.com,3a422b6fb02141dcc5a0"
   - "vc-domain-verify=lambert.hackclub.com,3e5d64ff4f6d55af2248"
   - "vc-domain-verify=lghs.hackclub.com,f33560bd22273ee8df77"
   - "vc-domain-verify=linkscape.hackclub.com,c31824abf58faa7a0160"
@@ -3325,16 +3326,19 @@ api.jumbotron: # lynn89sudo@gmail.com
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
-jumpstart: #estella@hackclub.com
+jumpstart: #estella@hackclub.com U06UYA4AH6F
 - type: CNAME
   value: cname.vercel-dns.com.
-daydream.jumpstart:
+daydream.jumpstart: # estella@hackclub.com U06UYA4AH6F
 - type: CNAME
   value: themagicfrog.github.io.
-v1.jumpstart:
+haven.jumpstart: # estella@hackclub.com U06UYA4AH6F
+  - type: CNAME
+    value: cname.vercel-dns.com.
+v1.jumpstart: # estella@hackclub.com U06UYA4AH6F
 - type: CNAME
   value: themagicfrog.github.io.
-v2.jumpstart: #estella@hackclub.com
+v2.jumpstart: #estella@hackclub.com U06UYA4AH6F
 - type: CNAME
   value: themagicfrog.github.io.
 jv:
