@@ -2579,6 +2579,12 @@ db.hackatime: # mahad@hackclub.com
       proxied: true
   type: CNAME
   value: hackatime.limited.selfhosted.hackclub.com.
+metrics.hackatime: # mahad@hackclub.com U059VC0UDEU
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: hackatime.limited.selfhosted.hackclub.com.
 otel-collector.hackatime: # mahad@hackclub.com
 - octodns:
     cloudflare:
