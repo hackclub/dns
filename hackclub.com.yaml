@@ -5611,8 +5611,8 @@ thorn:
 - type: CNAME
   value: thornhack.root.omg.lol.
 throwback: # electricxangell@gmail.com
-- type: CNAME
-  value: cname.vercel-dns.com.
+- type: TXT
+  value: "vc-domain-verify=throwback.hackclub.com,5a7ead2476d82a8b4a48"
 tile:
 - octodns:
     cloudflare:
