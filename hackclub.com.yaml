@@ -6069,6 +6069,9 @@ zguide:
 zh:
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
+zoneout: # KuzuiYaridomi
+- type: CNAME
+  value: 7f2b72fee5af223c.vercel-dns-013.com.
 zoo:
 - octodns:
     cloudflare:
