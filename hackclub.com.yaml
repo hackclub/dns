@@ -2817,9 +2817,15 @@ key3._domainkey.hcarc:
   type: CNAME
   value: key3.hcarc.hackclub.com._domainkey.migadu.com.
 hcb:
-- type: A
+- octodns:
+    cloudflare:
+      proxied: true
+  type: A
   value: 5.161.32.67
-- type: AAAA
+- octodns:
+    cloudflare:
+      proxied: true
+  type: AAAA
   value: 2a01:4ff:f1:2d2::1
 - type: MX
   ttl: 6000
