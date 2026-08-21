@@ -1186,6 +1186,9 @@ subdomain: # Free subdomain generator.
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+suky: # balasmario12m@gmail.com
+- type: CNAME
+  value: cname.vercel-dns.com.
 sunshine: # kacper@hackclub.com
 - ttl: 600
   type: A
