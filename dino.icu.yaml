@@ -958,6 +958,9 @@ print:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+ptcg: # richarddiscord@duck.com
+- type: A
+  value: 130.61.17.229
 pv0: # slack ID: U0AUTFQQUQP
   ttl: 600
   type: CNAME
