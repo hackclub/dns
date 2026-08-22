@@ -3896,7 +3896,7 @@ summer.nephthys: # amber / U054VC2KM9P
     cloudflare:
       proxied: true
   value: a.selfhosted.hackclub.com.
-twisted.nephthys: # aoishikkhan@gmail.com U0A5NKH93BJ POC: @plastuchino
+twisted.nephthys: # aoishikkhan@gmail.com U0A5NKH93BJ POC: @heliodex
 - octodns:
     cloudflare:
       proxied: true
@@ -5798,10 +5798,10 @@ turnover:
 twist: # barnav / U08RVF1BAN4
 - type: CNAME
   value: 5ed07fd5316ed1ea.vercel-dns-016.com.
-twisted: # kavyansh / kavyanshkhaitan11@gmail.com / U0A7776A2MT
+twisted: # kavyansh / kavyanshkhaitan11@gmail.com / U0A7776A2MT POC: @heliodex
 - type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
-docs.twisted: # aoishikkhan@gmail.com U0A5NKH93BJ POC: @plastuchino
+docs.twisted: # aoishikkhan@gmail.com U0A5NKH93BJ POC: @heliodex
 - type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 typeface: # jenny@hackclub.com
