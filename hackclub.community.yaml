@@ -75,3 +75,6 @@ rsvp: # U08PUHSMW4V
 - ttl: 600
   type: A
   value: 192.9.226.154
+status: # evanxdsouza@gmail.com U0AHS9VLG0K
+- type: CNAME
+  value: evanxdsouza.hackclub.app.
