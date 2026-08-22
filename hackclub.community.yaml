@@ -1,4 +1,35 @@
 ---
+"": # echo@hackclub.com U080A3QP42C # Cloudflare Email Routing (CF-managed; do not apply via OctoDNS)
+# ignored skips normal plan diffs; cloudflare.auto-ttl matches live CF so
+# CloudflareProvider._extra_changes does not invent TTL/proxy Updates either.
+# Without auto-ttl, dry-run plans 3 fake updates and deploy dies with CF 1046.
+- octodns:
+    ignored: true
+    cloudflare:
+      auto-ttl: true
+  type: MX
+  values:
+  - exchange: route1.mx.cloudflare.net.
+    preference: 64
+  - exchange: route2.mx.cloudflare.net.
+    preference: 74
+  - exchange: route3.mx.cloudflare.net.
+    preference: 42
+- octodns:
+    ignored: true
+    cloudflare:
+      auto-ttl: true
+  type: TXT
+  value: v=spf1 include:_spf.mx.cloudflare.net ~all
+
+cf2024-1._domainkey: # echo@hackclub.com U080A3QP42C # Cloudflare Email Routing DKIM (CF-managed)
+- octodns:
+    ignored: true
+    cloudflare:
+      auto-ttl: true
+  type: TXT
+  value: v=DKIM1\; h=sha256\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiweykoi+o48IOGuP7GR3X0MOExCUDY/BCRHoWBnh3rChl7WhdyCxW3jgq1daEjPPqoi7sJvdg5hEQVsgVRQP4DcnQDVjGMbASQtrY4WmB1VebF+RPJB2ECPsEDTpeiI5ZyUAwJaVX7r6bznU67g7LvFq35yIo4sdlmtZGV+i0H4cpYH9+3JJ78km4KXwaf9xUJCWF6nxeD+qG6Fyruw1Qlbds2r85U9dkNDVAS3gioCvELryh1TxKGiVTkg4wqHTyHfWsp7KD3WQHYJn0RyfJJu6YEmL77zonn7p2SRMvTMP3ZEXibnC9gz3nnhR6wcYL8Q7zXypKTMD58bTixDSJwIDAQAB
+
 _vercel:
 - ttl: 300
   type: TXT
@@ -29,7 +60,7 @@ emoji: # alimad.co.ltd@gmail.com U08LQFRBL6S
   value: emojiout.netlify.app.
 hacksteal: # wangz9096z@gmail.com U08EGTXVCFR
 - type: CNAME
-  value: hs.gnahiak2.dev
+  value: hs.gnahiak2.dev.
   ttl: 600
 labs: # theawesomeaj.dev@gmail.com U092329JX89
 - ttl: 600
