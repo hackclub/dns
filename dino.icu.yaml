@@ -581,6 +581,11 @@ framebuf: #funkeudo@outlook.com / U0A03GWFP1V
   type: A
   value: 216.198.79.1
 
+frontier: # cloudglides@proton.me U0A2EKA9FAL
+- ttl: 600
+  type: CNAME
+  value: cloudglides.hackclub.app.
+
 fullhouse: #niko@nikoo.dev U08SF8MVC82
 - ttl: 600
   type: A
