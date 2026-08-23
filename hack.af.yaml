@@ -28,6 +28,9 @@ sgchkpvavjjoceumlu5bnfz2n3hy563y._domainkey:
 w4slhmfjwdthextblpgaxdgzj2y3kw6q._domainkey:
   type: CNAME
   value: w4slhmfjwdthextblpgaxdgzj2y3kw6q.dkim.amazonses.com.
+aditya: # adityadhar37@gmail.com U0A1XMKQU6S
+- type: CNAME
+  value: iloveaadiii.netlify.app.
 _dmarc.hack.af:
   type: TXT
   value: "v=DMARC1\\; p=none\\; rua=mailto:team@hackclub.com\\; ruf=mailto:team@hackclub.com\\; fo=1\\; ri=86400"
