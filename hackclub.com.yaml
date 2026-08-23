@@ -59,7 +59,7 @@
     cloudflare:
       proxied: true
   type: CNAME
-  value: a.ingress.tier2.infra.hackclub.com.
+  value: cname.vercel-dns.com.
 2020-summer: # echo@hackclub.com U080A3QP42C
   type: CNAME
   value: d1a0b01afc6cee8c.vercel-dns-016.com.
