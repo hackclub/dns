@@ -1105,8 +1105,8 @@ shammah: # by https://github.com/Gijutsu-T
   value: cname.vercel-dns.com.
 shanghai: # manjumusei@gmail.com U0AQMKK8A5U
 - ttl: 600
-  type: A
-  value: 135.181.209.89
+  type: CNAME
+  value: shanghaishadows.hackclub.app.
 shipathon: # christian U0938MZG8Q6
 - ttl: 600
   type: A
