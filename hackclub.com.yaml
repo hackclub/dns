@@ -4302,6 +4302,12 @@ plausible: # @msw max@hackclub.com
     cloudflare:
       proxied: true
   value: a.ingress.tier2.infra.hackclub.com.
+playhouse: # selena@hackclub.com U06U1CBK589
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 playphone:
   type: A
   values:
