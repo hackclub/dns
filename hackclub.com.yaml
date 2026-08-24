@@ -896,7 +896,7 @@ beest: #euan@hackclub.com
       proxied: true
   type: CNAME
   value: b.selfhosted.hackclub.com.
-bento: # freddie@hackclub.com
+bento: # freddie@hackclub.com, jared@hackclub.com
 - type: CNAME
   value: cname.vercel-dns.com.
 berkeley:
