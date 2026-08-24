@@ -1238,6 +1238,12 @@ training.campfire: # U022XFD2TML
 tutorial.campfire: # deven@hackclub.com
 - type: CNAME
   value: 23f9766d334e905c.vercel-dns-016.com.
+capitol: # maxhurley@hackclub.com U078ZJHUKFW
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 capsule:
 - type: CNAME
   value: cname.vercel-dns.com.
