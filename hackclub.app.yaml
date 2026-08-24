@@ -73,3 +73,22 @@ pbx:
 status: # me@cyteon.dev
 - type: A
   value: 65.21.241.32
+user: # admins@hackclub.app
+- type: MX
+  values:
+  - exchange: mx.user.hackclub.app.
+    preference: 10
+- type: TXT
+  value: "v=spf1 ip4:65.108.74.60 -all"
+_dmarc.user: # admins@hackclub.app
+- type: TXT
+  value: "v=DMARC1\\; p=none\\; rua=mailto:dmarc@hackclub.app"
+v1-ed25519-20260824._domainkey.user: # admins@hackclub.app
+- type: TXT
+  value: "v=DKIM1\\; k=ed25519\\; p=fP/SNBLnEkJWH/Kl2iqCXZhE4RFShqQYkeT3OknPmTc="
+v1-rsa-20260824._domainkey.user: # admins@hackclub.app
+- type: TXT
+  value: "v=DKIM1\\; k=rsa\\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA8l98XSOPcA9yLVBXqTA7pSi1LJRg5/tJoSchMaJwJPos89Zth2h8r1iMMtHgaqDj6cWFeyAoEMF2FCXl5PAXPMWd1smDfMefQlVa8Fd4m3IU4Tm+GuYq4iC80pBv2hnCLrx003eYDEjnLoTSpk7n/aNB88TofgqCemQ77jWngffmO0QIwWUrSZSrK3a///BM0vdpa+qcx2P7TvFShISK4sYa7BaPGbUY2AWbLJs7vLXQOrmVPsrl/gsH45xpMU49eGNqENke84nEFLWrxh+YXhkKfEtamqgpzSD1cbRHEiTs8iw0mP2dL1+djJB0FgXOgeEK1v6kVYwEoonRscC6XwIDAQAB"
+mx.user: # admins@hackclub.app
+- type: A
+  value: 65.108.74.60
