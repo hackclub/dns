@@ -898,7 +898,7 @@ beest: #euan@hackclub.com
   value: b.selfhosted.hackclub.com.
 bento: # freddie@hackclub.com, jared@hackclub.com
 - type: CNAME
-  value: cname.vercel-dns.com.
+  value: 23231db2cd6ee2af.vercel-dns-013.com.
 berkeley:
 - type: CNAME
   value: berkeleyhackclub.github.io.
