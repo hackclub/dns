@@ -416,9 +416,11 @@ airlock: # manitej@hackclub.com
   type: A
   value: 178.156.142.136
 alchemize: # mahasankarshant@gmail.com U096RMRG03G
-- type: CNAME
-  name: alchemize
-  value: a.ingress.tier2.infra.hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 notifications.alchemize:  # aoishikkhan@gmail.com U0A5NKH93BJ & POC: josias@hackclub.com U01PJ08PR7S
   type: CNAME
   octodns:
