@@ -682,9 +682,12 @@ ticketing.assemble:
 ticketing-dev.assemble:
   type: CNAME
   value: f10d2fbccdff8ad4.vercel-dns-016.com.
-assets:
+assets: # echo@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
   type: CNAME
-  value: fe3f1381c9138a70.vercel-dns-016.com.
+  value: a.ingress.tier2.infra.hackclub.com.
 _496c10c564509e5030203691afc939ff.assets:
 - octodns:
     cloudflare:
