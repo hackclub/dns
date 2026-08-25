@@ -1815,6 +1815,9 @@ docs: # leo@hackclub.com U07BLJ1MBEE
 donbosco:
   type: CNAME
   value: cname.vercel-dns.com.
+dongle: # sophia@hackclub.com U083PK90X4G
+- type: CNAME
+  value: 15b7c5b0f60302a4.vercel-dns-017.com.
 doomscrolling:
 - type: CNAME
   value: 0757646c060c7881.vercel-dns-016.com.
