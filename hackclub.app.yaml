@@ -38,9 +38,6 @@
 _dmarc:
 - type: TXT
   value: v=DMARC1\; p=reject\; pct=100\; rua=mailto:re+kezq99w5cqr@dmarc.postmarkapp.com\; sp=none\; aspf=r\;
-nest2024._domainkey:
-- type: TXT
-  value: v=DKIM1\; h=sha256\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAty0gSU619f5L+iykm4FezEwL7zqYqaMV7bcTw31z417DZ2zmV17nPqmJEKmnwNu7H0wxbDOJQdxacTexlmTQS+SMnDhPzkeR72bJC6iXfWvhknwfnuoHeTSszHSrywpSIQ5qNybrGQKMv2pn+FZAQh38j/I2bjVwsAyqfQgj8h4KD5GilUtue9BRvaYnfH9y0JyIesDmsVjkiSGOp2wf4B81tPO9QuS+2aiHkyXsEyMzWuCEux0MXHcalLKDMqQkawcJrgRuBgUFXfqsowFq2WgpAi8Fb7ngxHO+h65nPV3I0rk9i+LsyJ+S30C2uI/vLjd2aN7+4q/gSM75QdsfXwIDAQAB
 purelymail1._domainkey: # admins@hackclub.app
 - type: CNAME
   value: key1.dkimroot.purelymail.com.
@@ -82,7 +79,7 @@ user: # admins@hackclub.app
   value: "v=spf1 ip4:65.108.74.60 -all"
 _dmarc.user: # admins@hackclub.app
 - type: TXT
-  value: "v=DMARC1\\; p=none\\; rua=mailto:dmarc@hackclub.app"
+  value: "v=DMARC1\\; p=none\\; rua=mailto:dmarc@user.hackclub.app"
 v1-ed25519-20260824._domainkey.user: # admins@hackclub.app
 - type: TXT
   value: "v=DKIM1\\; k=ed25519\\; p=fP/SNBLnEkJWH/Kl2iqCXZhE4RFShqQYkeT3OknPmTc="
