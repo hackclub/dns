@@ -3526,6 +3526,9 @@ lookout: # samliu@hackclub.com
       proxied: true
   type: CNAME
   value: b.selfhosted.hackclub.com.
+apt.lookout: # anson@hackclub.com
+- type: CNAME
+  value: hackclub.github.io.
 loopy: # max@hackclub.com
 - octodns:
     cloudflare:
