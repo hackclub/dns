@@ -308,6 +308,9 @@ clayforge: # wilmerbailon007@gmail.com
 - ttl: 600
   type: A
   value: 135.181.209.89
+- ttl: 600
+  type: AAAA
+  value: 2a01:4f9:3a:276e::1607
 click: # a URL shortener
   ttl: 600
   type: CNAME
