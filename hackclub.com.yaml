@@ -2106,6 +2106,12 @@ fab:
 editor.fab:
   type: CNAME
   value: cname.vercel-dns.com.
+failover: # echo@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 fairytale: # brendan@hackclub.com
 - octodns:
     cloudflare:
