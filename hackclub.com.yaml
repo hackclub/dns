@@ -3081,8 +3081,11 @@ ice:
 - type: CNAME
   value: hackclub.github.io.
 icons: # echo@hackclub.com U080A3QP42C
+- octodns:
+    cloudflare:
+      proxied: true
   type: CNAME
-  value: 82dbb3f826260087.vercel-dns-016.com.
+  value: a.ingress.tier2.infra.hackclub.com.
 id:
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
