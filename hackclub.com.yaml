@@ -4348,9 +4348,9 @@ podcast:
 _github-challenge-Orpheuspod.podcast:
 - type: TXT
   value: b2e369c8f1
-podium: # angad@hackclub.com U075RTSLDQ8
-  type: CNAME
-  value: ingress.lfdl.ink.
+podium: # lola@hackclub.com - U078JCFHQ3D
+- type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 podium-backend: # angad@hackclub.com U075RTSLDQ8
   octodns:
     cloudflare:
