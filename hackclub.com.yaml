@@ -1729,8 +1729,11 @@ daysofservice:
   type: CNAME
   value: 84733497b6deb720.vercel-dns-016.com.
 de: # echo@hackclub.com
-- type: CNAME
-  value: 6cdac7be6b2e933b.vercel-dns-016.com.
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 dear-joe:
 - type: CNAME
   value: f888ad30fdf5a183.vercel-dns-016.com.
