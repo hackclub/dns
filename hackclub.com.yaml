@@ -3464,12 +3464,6 @@ laslomas:
 leaderboard:
   type: CNAME
   value: d504d7ff43570fc2.vercel-dns-016.com.
-leaders: #@Charmunk / ivie@hackclub.com
-  octodns:
-    cloudflare:
-      proxied: true
-  type: CNAME
-  value: a.selfhosted.hackclub.com.
 guide.leaders: # lynn@hackclub.com U07ULNFPQ4T (for clubs)
   type: CNAME
   value: 9de93ecf1b2dc035.vercel-dns-016.com.
