@@ -1926,6 +1926,9 @@ encrypted-share: # zach@hackclub.com
 endpointer:
 - type: CNAME
   value: 793ca34752d16877.vercel-dns-016.com.
+enpassant: # jeremy@hackclub.com U06UYA5GMB5
+- type: CNAME
+  value: 3f4b35c9165d49b3.vercel-dns-013.com.
 entropy: # arcadewise@hackclub.com
 - type: CNAME
   value: efdb005facf9b68c.vercel-dns-016.com.
