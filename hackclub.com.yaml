@@ -1734,6 +1734,11 @@ de: # echo@hackclub.com
 dear-joe:
 - type: CNAME
   value: f888ad30fdf5a183.vercel-dns-016.com.
+defector: # lewin@hackclub.com
+- type: A
+  value: 51.148.150.203
+- type: AAAA
+  value: 2a02:8012:477e:1::e
 descend:
 - type: CNAME
   value: cname.vercel-dns.com.
