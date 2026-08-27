@@ -3835,6 +3835,12 @@ alchemize.nephthys: # aoishikkhan@gmail.com / @aoishik(U0A5NKH93BJ)
     cloudflare:
       proxied: true
   value: a.ingress.tier2.infra.hackclub.com.
+atlantis.nephthys: # mihir@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 beest.nephthys: # amber / U054VC2KM9P & euan / U06T30DNB3L
   type: CNAME
   octodns:
