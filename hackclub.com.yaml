@@ -741,6 +741,12 @@ atlantis: # mihir@hackclub.com
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+atlantis.nephthys: # mihir@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 attend: # leo@hackclub.com
 - octodns:
     cloudflare:
