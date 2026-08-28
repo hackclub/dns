@@ -1263,6 +1263,9 @@ txt: # Noah, slack: U09482L7QP5
 - ttl: 600
   type: CNAME
   value: quickest-reena-kwirll-d812f3dc.koyeb.app.
+tyler: # tyleruploads@yahoo.com
+- type: CNAME
+  value: tyler-n.pages.dev.
 typeline: # mihranrazaa@gmail.com
 - ttl: 600
   type: CNAME
