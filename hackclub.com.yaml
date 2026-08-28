@@ -4600,6 +4600,9 @@ railway:
 raincloud:
 - type: CNAME
   value: cname.vercel-dns.com.
+ranked: # meghana@hackclub.com
+- type: CNAME
+  value: cname.vercel-dns.com.
 raspapi: # U08PUHSMW4V
 - octodns:
     cloudflare:
