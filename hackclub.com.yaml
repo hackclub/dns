@@ -3886,12 +3886,12 @@ hctg.nephthys: # mish@hackclub.com U073M5L9U13 & arav@hackclub.com U01MPHKFZ7S
     cloudflare:
       proxied: true
   value: b.selfhosted.hackclub.com.
-help.nephthys: # mish@hackclub.com U073M5L9U13 & vidutran17@gmail.com U07F6FMJ97U
-  type: CNAME
-  octodns:
+help.nephthys: # aoishikkhan@gmail.com U0A5NKH93BJ
+- octodns:
     cloudflare:
       proxied: true
-  value: b.selfhosted.hackclub.com.
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 identity.nephthys: # amber / U054VC2KM9P
   type: CNAME
   octodns:
