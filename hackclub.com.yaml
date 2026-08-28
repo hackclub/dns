@@ -908,6 +908,9 @@ berkeley:
 berman:
 - type: CNAME
   value: bermanclub.pages.dev.
+bestsellr: # jared@hackclub.com
+- type: CNAME
+  value: cname.vercel-dns.com.
 better-airtable-mcp: # augie@hackclub.com U07FCRNHS1J
 - octodns:
     cloudflare:
