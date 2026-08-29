@@ -5002,7 +5002,7 @@ b.selfhosted:
 '*.b.selfhosted':
   type: CNAME
   value: static.56.213.119.168.clients.your-server.de.
-sign.b.selfhosted: # docuwhale — moved off coolify to orchard
+sign.b.selfhosted: # leo@hackclub.com
   octodns:
     cloudflare:
       proxied: true
