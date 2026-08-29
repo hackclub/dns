@@ -876,7 +876,7 @@ mysphere: # U081RF7D23D
 nic-67: # Nic-67 root-67@lavache.com
   ttl: 600
   type: A
-  value: 37.111.4.19
+  value: 88.211.243.183
 nido: # NiDo U0B1G7KL7H8 mwnjele@gmail.com
   ttl: 600
   type: A
