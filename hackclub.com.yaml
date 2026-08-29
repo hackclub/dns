@@ -40,7 +40,10 @@
   - openai-domain-verification=dv-q7BgA5BnEgzJJSueBRxwENjx # hcb@hackclub.com
   - tiktok-developers-site-verification=RsJXRJ21U8eWrk0yPIt16nVmnLD8VBN3 # zach@hackclub.com
 '3am': # U087BHR98AX
-- type: CNAME
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 44.74:
 - type: CNAME
@@ -592,7 +595,10 @@ backend.arena:
   type: CNAME
   value: fd39bf74a906c3be.vercel-dns-017.com.
 ari: # nathan@hackclub.com
-- type: CNAME
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
   value: a.selfhosted.hackclub.com.
 webhooks.ari: # nathan@hackclub.com
 - octodns:
@@ -1486,7 +1492,10 @@ conduct:
   values:
   - v=spf1 include:_spf.google.com ~all
   - google-site-verification=n09_T0NT7x7SVInETpDjjL2AhsTi0pW7jWceXy1cJjY
-- type: A
+- octodns:
+    cloudflare:
+      proxied: true
+  type: A
   value: 5.161.100.52 # a.selfhosted.hackclub.com
 - ttl: 60
   type: MX
@@ -1688,7 +1697,10 @@ data: # U07BLJ1MBEE leo
   type: CNAME
   value: a.selfhosted.hackclub.com.
 daydream:
-- type: A
+- octodns:
+    cloudflare:
+      proxied: true
+  type: A
   value: 5.161.100.52 # a.selfhosted.hackclub.com
 - type: TXT
   values:
@@ -1770,7 +1782,10 @@ devzat:
 - type: A
   value: 150.136.142.44
 dinobags: # amber / U054VC2KM9P
-- type: A
+- octodns:
+    cloudflare:
+      proxied: true
+  type: A
   value: 168.119.213.56 # b server
 - type: MX
   values:
@@ -2256,6 +2271,9 @@ flavourless: # nathan@hackclub.com U05EZRFKRV4
   type: CNAME
   value: 21f81c9203897824.vercel-dns-016.com.
 flavourtown: # euan@hackclub.com U06T30DNB3L
+  octodns:
+    cloudflare:
+      proxied: true
   type: A
   value: 5.161.197.219
 flhs:
@@ -2470,6 +2488,9 @@ giftbox: # tongyu@hackclub.com U07DJMFAQQP
   type: CNAME
   value: 4711668836b198ab.vercel-dns-016.com.
 glassrib: # U083W5CCFDG joaquin@hackclub.com
+  octodns:
+    cloudflare:
+      proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 glenny:
@@ -2892,7 +2913,10 @@ changelog.hcb:
   type: CNAME
   value: headwayapp.co.
 docs.hcb: # alex@hackclub.com
-- type: CNAME
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 graph.hcb: # echo@hackclub.com U080A3QP42C
   type: CNAME
@@ -2910,7 +2934,10 @@ grants.help.hcb: #alex@hackclub.com, gary@hackclub.com
   type: CNAME
   value: custom.intercom.help.
 notes.hcb: # alex@hackclub.com
-- type: CNAME
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 amdozjy23iquzlcpjvctd3usceggvkih._domainkey.staging.hcb: # HCB Staging SES DKIM
 - octodns:
@@ -3025,7 +3052,10 @@ horizon:
   type: CNAME
   value: 84055516a4e35820.vercel-dns-016.com.
 horizons: # manitej@hackclub.com
-- type: A
+- octodns:
+    cloudflare:
+      proxied: true
+  type: A
   value: 46.225.195.181
 - ttl: 3600
   type: TXT
@@ -3049,6 +3079,9 @@ horizons: # manitej@hackclub.com
   type: TXT
   value: k=rsa\;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCYaHpuhAWYJoFR+3jCF26WQ6a2g6wFVnG7ivN3VAuub6N8axjZYBvILaWgcgpmrCqpuqoibPEzjIF+/00TvLsBDwPin3Chpo2g15PZdtDFYmZRnajkaaFK+pvqPeuWdQ9Gthz37o3F1Qfd5hFmb10zArQa7bpGLnBetD5TtQywyQIDAQAB
 guides.horizons: # manitej@hackclub.com
+  octodns:
+    cloudflare:
+      proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 pm-bounces.horizons: # U07BLJ1MBEE
@@ -3070,7 +3103,10 @@ horus: # me@lazyllama.xyz - U07F2QA059B
   type: A
   value: 173.208.140.124
 howiemail:
-- type: A
+- octodns:
+    cloudflare:
+      proxied: true
+  type: A
   value: 5.161.100.52 # a.selfhosted.hackclub.com
 - type: TXT
   values:
@@ -3229,7 +3265,10 @@ intranet:
 - type: CNAME
   value: intranet-72n.pages.dev.
 ip:
-- type: A
+- octodns:
+    cloudflare:
+      proxied: true
+  type: A
   value: 5.161.100.52
 iplace: # ascpixi@hackclub.com U082DPCGPST
 - octodns:
@@ -3520,9 +3559,15 @@ list:
   type: TXT
   value: google-site-verification=dy5FQ7euw6ZutiApm5ZdCTUgWn9CL3uhfJWHfD3TxLk
 lockin:
+  octodns:
+    cloudflare:
+      proxied: true
   type: A
   value: 5.161.100.52
 signalling.lockin:
+  octodns:
+    cloudflare:
+      proxied: true
   type: A
   value: 5.161.100.52
 lonestar:
@@ -4004,6 +4049,9 @@ notebook:
   type: CNAME
   value: 8f3ceaaead769d5d.vercel-dns-016.com.
 nothing: # amber / U054VC2KM9P
+  octodns:
+    cloudflare:
+      proxied: true
   type: CNAME
   value: b.selfhosted.hackclub.com.
 numberwang:
@@ -4320,13 +4368,22 @@ pixl: # barnav@hackclub.com U08RVF1BAN4
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 dash.pixl: # barnav@hackclub.com U08RVF1BAN4
-- type: CNAME
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 play.pixl: # barnav@hackclub.com U08RVF1BAN4
-- type: CNAME
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 server.pixl: # barnav@hackclub.com U08RVF1BAN4
-- type: CNAME
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 plas: # sebh@hackclub.com
 - type: CNAME
@@ -4472,7 +4529,10 @@ orchid.professorbloom: # U072PTA5BNG
   type: CNAME
   value: a.selfhosted.hackclub.com.
 programs: # brendan@hackclub.com
-- type: CNAME
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 project: # dhyan@hackclub.com U0824G9PTFE
   octodns:
@@ -4571,7 +4631,10 @@ pyramid:
   type: CNAME
   value: a.selfhosted.hackclub.com.
 pyterm: # brendan@hackclub.com
-- type: CNAME
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 quarry: # nathan@hackclub.com U05EZRFKRV4
 - octodns:
@@ -4805,6 +4868,9 @@ saycheese:
   type: CNAME
   value: cb1874b4a3a974f3.vercel-dns-016.com.
 schedule: # lynn@hackclub.com
+  octodns:
+    cloudflare:
+      proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 scholarship:
@@ -5027,9 +5093,15 @@ shipment-viewer:
   type: CNAME
   value: a.selfhosted.hackclub.com.
 ships: # neon+dnsships@hackclub.com  U07L45W79E1
+  octodns:
+    cloudflare:
+      proxied: true
   type: A
   value: 5.161.100.52
 api.ships: # neon+dnsships@hackclub.com  U07L45W79E1
+  octodns:
+    cloudflare:
+      proxied: true
   type: A
   value: 5.161.100.52
 shipwrecked:
@@ -5239,7 +5311,10 @@ snake: # U07EB2Y76DP
   value: yousnakewesnake.netlify.app.
   ttl: 600
 snowglobe: # lola@hackclub.com U078JCFHQ3D
-- type: CNAME
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 soaked: # jenin@hackclub.com // U0926UASBJ7
   octodns:
@@ -5391,10 +5466,16 @@ url1054.stardance: # kartikey@hackclub.com
   type: CNAME
   value: sendgrid.net.
 startgrant: # ivie@hackclub.com
-- type: CNAME
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 stasis: # @Jay U08AA6HA82F
-- ttl: 3600
+- octodns:
+    cloudflare:
+      proxied: true
+  ttl: 3600
   type: A
   value: 168.119.213.56
 - ttl: 3600
@@ -5861,7 +5942,10 @@ twist: # barnav / U08RVF1BAN4
 - type: CNAME
   value: 5ed07fd5316ed1ea.vercel-dns-016.com.
 twisted: # kavyansh / kavyanshkhaitan11@gmail.com / U0A7776A2MT POC: @heliodex
-- type: CNAME
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 docs.twisted: # aoishikkhan@gmail.com U0A5NKH93BJ POC: @heliodex
 - octodns:
@@ -6114,7 +6198,10 @@ ysws:
 - type: CNAME
   value: hackclub.github.io.
 ysws-true-spend: # zach@hackclub.com
-- type: CNAME
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 zachday:
 - type: CNAME
