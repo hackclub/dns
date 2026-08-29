@@ -5002,6 +5002,12 @@ b.selfhosted:
 '*.b.selfhosted':
   type: CNAME
   value: static.56.213.119.168.clients.your-server.de.
+sign.b.selfhosted: # leo@hackclub.com
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 cooked.selfhosted:
   type: CNAME
   value: static.219.197.161.5.clients.your-server.de.
