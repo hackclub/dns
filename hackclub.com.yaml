@@ -813,12 +813,12 @@ backtothefuture: # adithv08@gmail.com U083XGD4XFY
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
-badge: # leo@hackclub.com U07BLJ1MBEE
+badge: # leo@hackclub.com
 - octodns:
     cloudflare:
       proxied: true
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: a.ingress.tier2.infra.hackclub.com.
 bag:
   type: CNAME
   value: c1d487f11a10ad5d.vercel-dns-016.com.
