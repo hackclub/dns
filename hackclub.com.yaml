@@ -6058,12 +6058,12 @@ _gh-HackClub-Vidisha-o.vidisha:
 vikingsdev:
 - type: CNAME
   value: vikingsdev.github.io.
-visas: # leo@hackclub.com U07BLJ1MBEE
+visas: # leo@hackclub.com
 - octodns:
     cloudflare:
       proxied: true
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: a.ingress.tier2.infra.hackclub.com.
 vision:
 - octodns:
     cloudflare:
