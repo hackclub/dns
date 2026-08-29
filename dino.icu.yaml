@@ -873,6 +873,10 @@ mysphere: # U081RF7D23D
   ttl: 600
   type: CNAME
   value: mh-wah.github.io.
+nic-67: # Nic-67 root-67@lavache.com
+  ttl: 600
+  type: A
+  value: 37.111.4.19
 nido: # NiDo U0B1G7KL7H8 mwnjele@gmail.com
   ttl: 600
   type: A
