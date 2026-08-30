@@ -3955,12 +3955,6 @@ jumpstart.nephthys: # mish@hackclub.com U073M5L9U13
     cloudflare:
       proxied: true
   value: b.selfhosted.hackclub.com.
-kintsugi.nephthys: # aoishikkhan@gmail.com U0A5NKH93BJ POC: @plastuchino
-- octodns:
-    cloudflare:
-      proxied: true
-  type: CNAME
-  value: a.ingress.tier2.infra.hackclub.com.
 lynx.nephthys: # Nathan U05EZRFKRV4 & Santi U08PD2ZB3DL
   type: CNAME
   octodns:
