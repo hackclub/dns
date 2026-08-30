@@ -3457,12 +3457,6 @@ _github-pages-challenge-kerala-hackclub.kerala:
 kiit:
   type: CNAME
   value: alpha-9h3.pages.dev.
-kintsugi: # aoishikkhan@gmail.com U0A5NKH93BJ POC: @plastuchino
-- octodns:
-    cloudflare:
-      proxied: true
-  type: CNAME
-  value: a.ingress.tier2.infra.hackclub.com.
 kjcmt:
   type: CNAME
   value: 5637f2843e643c1a.vercel-dns-016.com.
