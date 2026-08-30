@@ -54,6 +54,9 @@
 - ttl: 600
   type: A
   value: 216.198.79.1
+aan: # yassinbs@yahoo.com
+- type: A
+  value: 216.198.79.1
 ai: # Suprised no one took this yet!
 - ttl: 600 # + AI
   type: CNAME # https://github.com/elijah629/web2050,
