@@ -1590,6 +1590,12 @@ coolify-conductor:
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
+coral: # aarav@hackclub.com U07UK4S94KC
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 cornelius: #CAN
 - octodns:
     cloudflare:
