@@ -2686,9 +2686,12 @@ hackbnb: # leo@hackclub.com U07BLJ1MBEE
 hackbox:
   type: CNAME
   value: 2d6e6b5e4e98c590.vercel-dns-016.com.
-hackcraft:
+hackcraft: # echo@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
   type: CNAME
-  value: 77d1240fc50c2ff8.vercel-dns-016.com.
+  value: a.ingress.tier2.infra.hackclub.com.
 botfights.hackcraft: # christian on slack U0938MZG8Q6 event under felix
   type: CNAME
   value: 8726bb0e95fb84f0.vercel-dns-017.com.
