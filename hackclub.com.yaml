@@ -3021,10 +3021,10 @@ heist-api:
 helm:
 - type: CNAME
   value: helm-bgh.pages.dev.
-unified.help: # ormie@normiecodes.dev U098F6EJ34J
+unified.help: # normie@normiecodes.dev U098F6EJ34J
 - type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
-uhsbot.help:
+uhsbot.help: # normie@normiecodes.dev U098F6EJ34J
 - type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 help: # U096RMRG03G -- for #help channel in slack
