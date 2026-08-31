@@ -2845,10 +2845,7 @@ haven:  # haven@hackclub.com
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 booking.haven: # haven@hackclub.com
-- octodns:
-    cloudflare:
-      proxied: true
-  type: CNAME
+- type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 haxidraw:
   type: CNAME
