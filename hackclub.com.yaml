@@ -3024,6 +3024,9 @@ helm:
 unified.help: # ormie@normiecodes.dev U098F6EJ34J
 - type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+uhsbot.help:
+- type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 help: # U096RMRG03G -- for #help channel in slack
   type: CNAME
   value: 262fbe4a85815191.vercel-dns-016.com.
