@@ -4340,6 +4340,12 @@ phs:
 forms.phs:
 - type: CNAME
   value: cname.vercel-dns.com.
+piata: # al3x.radu1@gmail.com U0AFWJX9CP2 ; POC=antonio@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 picoducky: # U079HV9PTC7 ; POC=olive
 - octodns:
     cloudflare:
