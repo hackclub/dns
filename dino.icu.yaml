@@ -1273,6 +1273,9 @@ txt: # Noah, slack: U09482L7QP5
 tyler: # tyleruploads@yahoo.com
 - type: CNAME
   value: tyler-n.pages.dev.
+search.tyler: # tyleruploads@yahoo.com
+- type: CNAME
+  value: tn-search.pages.dev.
 typeline: # mihranrazaa@gmail.com
 - ttl: 600
   type: CNAME
