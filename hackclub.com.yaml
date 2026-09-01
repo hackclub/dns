@@ -3585,6 +3585,9 @@ liquidate: # U083W5CCFDG joaquin@hackclub.com
 list:
   type: TXT
   value: google-site-verification=dy5FQ7euw6ZutiApm5ZdCTUgWn9CL3uhfJWHfD3TxLk
+live: # sebh@hackclub.com
+- type: CNAME
+  value: 9cc133e4c4e55057.vercel-dns-013.com.
 lockin:
   octodns:
     cloudflare:
