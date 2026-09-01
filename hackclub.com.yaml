@@ -3603,6 +3603,9 @@ signalling.lockin:
 lonestar:
   type: CNAME
   value: 421ee9e7c0d8497a.vercel-dns-016.com.
+lookalike: # johnny@hackclub.com
+- type: CNAME
+  value: cname.vercel-dns.com.
 lookingglass: # anson@hackclub.com
 - type: CNAME
   value: cname.vercel-dns.com.
