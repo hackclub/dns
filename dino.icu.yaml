@@ -901,6 +901,11 @@ null: # helioleles@comcast.net Helio Leles (OCI Instance)
 - ttl: 600
   type: A
   value: 129.146.39.117
+nploc1209: # nploc1209@gmail.com U0BFDHWUSPM
+- type: MX
+  values:
+  - exchange: mx01.mail.icloud.com.
+    preference: 10
 offset: # for upcoming #offset ysws -> U0828RTU7FE
   ttl: 600
   type: CNAME
