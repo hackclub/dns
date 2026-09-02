@@ -4058,9 +4058,6 @@ onekey: # maxtran@hackclub.com U07F6FMJ97U
     cloudflare:
       proxied: true
   value: a.ingress.tier2.infra.hackclub.com.
-op:
-- type: CNAME
-  value: opstem.github.io.
 opensauce: # zach@hackclub.com
 - octodns:
     cloudflare:
