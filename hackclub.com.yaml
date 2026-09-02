@@ -4476,9 +4476,6 @@ polygon: # zaidayan456@gmail.com U083VVA9M0W
   ttl: 600
   type: CNAME
   value: 1f2e326ff0beb553.vercel-dns-017.vercel-dns.com.
-pomperaug:
-  type: CNAME
-  value: cname.vercel-dns.com.
 portal:
 - type: CNAME
   value: ingress.lfdl.ink.
