@@ -5951,9 +5951,6 @@ turfwars: # mihir@hackclub.com
     cloudflare:
       proxied: true
   value: a.ingress.tier2.infra.hackclub.com.
-turner:
-- type: CNAME
-  value: cname.vercel-dns.com.
 turnover:
 - type: CNAME
   value: 22f4f50b2688160c.vercel-dns-016.com.
