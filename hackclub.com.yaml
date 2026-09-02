@@ -3518,9 +3518,6 @@ largo: # largo.hackclub.com
 lasa:
   type: CNAME
   value: hackclublasa.github.io.
-laslomas:
-  type: CNAME
-  value: mystifying-torvalds-f8e697.netlify.com.
 leaderboard:
   type: CNAME
   value: d504d7ff43570fc2.vercel-dns-016.com.
