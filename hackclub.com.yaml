@@ -1727,9 +1727,6 @@ daysofservice:
 de: # echo@hackclub.com
 - type: CNAME
   value: 6cdac7be6b2e933b.vercel-dns-016.com.
-dear-joe:
-- type: CNAME
-  value: f888ad30fdf5a183.vercel-dns-016.com.
 defector: # lewin@hackclub.com
 - type: A
   value: 51.148.150.203
