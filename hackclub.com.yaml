@@ -5627,9 +5627,6 @@ staging.submit:
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
-suceava:
-  type: CNAME
-  value: cname.vercel-dns.com.
 summer:
 - octodns:
     cloudflare:
