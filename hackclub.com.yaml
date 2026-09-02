@@ -4183,9 +4183,6 @@ opensauce: # zach@hackclub.com
       proxied: false
   type: CNAME
   value: a.limited.selfhosted.hackclub.com.
-opensauce2026: # alexren@hackclub.com
-  type: CNAME
-  value: 68b1465d7a634413.vercel-dns-016.com.
 opensauce-leaderboard: # zach@hackclub.com
 - octodns:
     cloudflare:
