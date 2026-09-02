@@ -5559,6 +5559,12 @@ stastis: # alexp@hackclub.com
 statehigh:
   type: CNAME
   value: schacks.netlify.com.
+static: # rudy@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 statis: # alexp@hackclub.com
   type: CNAME
   value: b9385139e8ff984c.vercel-dns-016.com.
