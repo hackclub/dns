@@ -319,7 +319,6 @@ _vercel: #
   - "vc-domain-verify=register.epochvt.hackclub.com,8e89fd1c0e1dd7045bd5"
   - "vc-domain-verify=rewind.hackclub.com,1cd9a3a9a2ca7ef0b939"
   - "vc-domain-verify=ro.hackclub.com,2f000cc1b00f1f78b361"
-  - "vc-domain-verify=rooted.hackclub.com,98ed9303d9dc11f1ca2f"
   - "vc-domain-verify=saleh.hackclub.com,cdcc382c0ddbefe586b1"
   - "vc-domain-verify=simmer.hackclub.com,19a5cdf65fc7aedb7ccb"
   - "vc-domain-verify=southhighhack.hackclub.com,8cf484f7551780f58ae9"
@@ -4701,15 +4700,6 @@ riverside:
 ro:
   type: CNAME
   value: cname.vercel-dns.com.
-rooted: # christian on slack U0938MZG8Q6 poc is euan
-  type: CNAME
-  value: 0a2695bb00ff8d9b.vercel-dns-017.com.
-api.rooted: #U0938MZG8Q6
-- octodns:
-    cloudflare:
-      proxied: true
-  type: CNAME
-  value: b.selfhosted.hackclub.com.
 rosetta: # nathan@hackclub.com
   octodns:
     cloudflare:
