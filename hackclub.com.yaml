@@ -4680,9 +4680,6 @@ railway:
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
-raincloud:
-- type: CNAME
-  value: cname.vercel-dns.com.
 ranked: # meghana@hackclub.com
 - type: CNAME
   value: a6d766a2716a5ed3.vercel-dns-013.com.
