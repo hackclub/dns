@@ -316,7 +316,6 @@ _vercel: #
   - "vc-domain-verify=pixeldust.hackclub.com,4cedb02dcdafd0343fc5"
   - "vc-domain-verify=polygon.hackclub.com,3b90aa8a647cf9852dd2"
   - "vc-domain-verify=poolesville.hackclub.com,d8099895eaea670eec60"
-  - "vc-domain-verify=pomperaug.hackclub.com,115cd4582efb1a6a1d63"
   - "vc-domain-verify=puyallup.hackclub.com,ee486cad685cefa12fa6"
   - "vc-domain-verify=reflow.hackclub.com,cc069e8cdf1c55762e13"
   - "vc-domain-verify=register.epochvt.hackclub.com,8e89fd1c0e1dd7045bd5"
