@@ -2516,9 +2516,6 @@ glassrib: # U083W5CCFDG joaquin@hackclub.com
 glenny:
 - type: CNAME
   value: bobbedbob.github.io.
-globalcovid:
-  type: CNAME
-  value: globalcovid.netlify.com.
 golden:
   type: CNAME
   value: 57cd2901f886bca3.vercel-dns-016.com.
