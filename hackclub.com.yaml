@@ -509,9 +509,6 @@ anchor:
 angelhacks:
 - type: CNAME
   value: 18cadf91c1eccd94.vercel-dns-016.com.
-angelhacks-toronto:
-  type: CNAME
-  value: cname.vercel-dns.com.
 angelhacks-yyz:
 - type: CNAME
   value: ffa02a6c0ac70a16.vercel-dns-016.com.
