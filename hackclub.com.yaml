@@ -6048,9 +6048,6 @@ valveprospectusbrendan: # brendan@hackclub.com
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
-vault:
-- type: CNAME
-  value: cname.vercel-dns.com.
 veil:
 - octodns:
     cloudflare:
