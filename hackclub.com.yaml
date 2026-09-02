@@ -2519,6 +2519,9 @@ glenny:
 golden:
   type: CNAME
   value: 57cd2901f886bca3.vercel-dns-016.com.
+gong: # electricxangell@gmail.com
+- type: CNAME
+  value: cname.vercel-dns.com.
 gps:
   type: CNAME
   value: c0eaa1ae589a28b9.vercel-dns-016.com.
