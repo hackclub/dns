@@ -3699,9 +3699,6 @@ manifesto:
 manor:
   type: CNAME
   value: f61dcda8ea43ee0c.vercel-dns-016.com.
-maps:
-  type: CNAME
-  value: f5e7996f6a74bcc1.vercel-dns-016.com.
 markdown:
   type: CNAME
   value: c02a5eb37aa5d3c3.vercel-dns-016.com.
