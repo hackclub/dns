@@ -3646,9 +3646,6 @@ _gh-hackclubmchs-o.mchs:
 _github-pages-challenge-hackclubmchs.mchs:
 - type: TXT
   value: 7758abbb60ddb92f7bca19e65bca60
-mcneil:
-- type: A
-  value: 70.123.47.120
 mea:
 - type: CNAME
   value: meahackclub.netlify.app.
