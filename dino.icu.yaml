@@ -541,7 +541,7 @@ fullhouse: #niko@nikoo.dev U08SF8MVC82
   value: 216.198.79.1
 galaxybrain: # aaranysaini4@gmail.com U0B78MFGH9P
 - type: A
-  value: 135.181.209.89
+  value: 216.198.79.1
 get: # sabhya.aggarwal@icloud.com U0A83DB0TRN
 - ttl: 600
   type: A
