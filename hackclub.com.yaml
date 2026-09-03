@@ -4039,11 +4039,11 @@ opensauce-leaderboard: # zach@hackclub.com
     type: CNAME
     value: a.limited.selfhosted.hackclub.com.
 ops: # leo@hackclub.com U07BLJ1MBEE
-  - octodns:
-      cloudflare:
-        proxied: false
-    type: CNAME
-    value: a.ingress.tier2.infra.hackclub.com.
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 orchard: #tongyu@hackclub.com U07DJMFAQQP
   - octodns:
       cloudflare:
