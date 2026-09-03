@@ -2511,21 +2511,6 @@ guides: # reem@hackclub.com U06U80G86H1
 gwas:
   type: CNAME
   value: competent-yonath-7f9d16.netlify.app.
-'*.haas':
-- type: A
-  value: 45.55.45.5
-- type: AAAA
-  value: 2604:a880:800:10::636:5001
-_acme-challenge.haas:
-  type: TXT
-  values:
-  - WeFHw1rO8PfGWEGAEh9CnfvOhokXXYgK-PD0kbI6RS0
-_github-challenge-hack-as-a-service.haas:
-  type: TXT
-  value: dc63dbf87b
-status.haas:
-  type: A
-  value: 34.138.52.92
 hack-club-videos-db: # zach@hackclub.com
   octodns:
     cloudflare:
