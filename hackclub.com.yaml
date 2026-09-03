@@ -2943,10 +2943,16 @@ help: # U096RMRG03G -- for #help channel in slack
   type: CNAME
   value: 262fbe4a85815191.vercel-dns-016.com.
 uhsbot.help: # normie@normiecodes.dev U098F6EJ34J
-- type: CNAME
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 unified.help: # normie@normiecodes.dev U098F6EJ34J
-- type: CNAME
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 helvetica: # maxhurley@hackclub.com or U078ZJHUKFW
 - type: CNAME
