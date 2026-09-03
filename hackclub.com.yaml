@@ -3578,6 +3578,9 @@ manor:
 markdown:
   type: CNAME
   value: c02a5eb37aa5d3c3.vercel-dns-016.com.
+market: # sophia@hackclub.com U083PK90X4G
+- type: CNAME
+  value: cname.vercel-dns.com.
 maxday:
   type: CNAME
   value: maxday-prod.netlify.com.
