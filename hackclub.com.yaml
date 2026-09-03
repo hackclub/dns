@@ -3949,9 +3949,6 @@ nexus: #manitej@hackclub.com
 nigeria:
   type: CNAME
   value: f9405218404d4a35.vercel-dns-016.com.
-nioflb:
-- type: A
-  value: 190.106.131.222
 nlcs:
   type: CNAME
   value: 95f775779f538acb.vercel-dns-016.com.
