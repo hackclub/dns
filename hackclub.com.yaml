@@ -4815,6 +4815,9 @@ scriptingnest:
     value: 37.27.51.34
   - type: AAAA
     value: 2a01:4f9:3081:399c::4
+sculpted: # davidp@hackclub.com
+- type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 search: # U059VC0UDEU
   - octodns:
       cloudflare:
