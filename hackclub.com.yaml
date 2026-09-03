@@ -3144,6 +3144,9 @@ _acme-challenge.a.db.tier2.infra: # seb@hackclub.com
   - idq4s6aNZYsv4UOdpmJSmgOIFkAGSHsYZ3fQOZQBSsk
   - vzJvw4kfdT7qVq44QkQc_IDQdRYw28Tv-9jZ9UG0YGI
 a.ingress.tier2.infra:
+  octodns:
+    cloudflare:
+      proxied: true
   type: A
   value: 46.225.195.181
 foreman.n.tier2.infra:
@@ -4056,7 +4059,7 @@ opensauce-leaderboard: # zach@hackclub.com
 ops: # leo@hackclub.com U07BLJ1MBEE
 - octodns:
     cloudflare:
-      proxied: false
+      proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 orchard: #tongyu@hackclub.com U07DJMFAQQP
