@@ -1107,9 +1107,6 @@ c-li: # brendan@hackclub.com
       proxied: true
   type: CNAME
   value: breynard0.github.io.
-cabbache:
-  type: CNAME
-  value: cabbache.ddnsking.com.
 cachet: # max@hackclub.com / U09UQ385LSG
   octodns:
     cloudflare:
