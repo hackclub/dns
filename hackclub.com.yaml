@@ -3578,12 +3578,6 @@ manor:
 markdown:
   type: CNAME
   value: c02a5eb37aa5d3c3.vercel-dns-016.com.
-market:
-  - octodns:
-      cloudflare:
-        proxied: true
-    type: CNAME
-    value: a.selfhosted.hackclub.com.
 maxday:
   type: CNAME
   value: maxday-prod.netlify.com.
