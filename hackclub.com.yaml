@@ -1366,12 +1366,12 @@ bag.client:
 cloudfall: # antonio@hackclub.com
   - type: CNAME
     value: cname.vercel-dns.com.
-clubapi: #ivie@hackclub.com @Charmunk
+clubapi: #wally@hackclub.com @Wally
   - octodns:
       cloudflare:
         proxied: true
     type: CNAME
-    value: a.selfhosted.hackclub.com.
+    value: a.ingress.tier2.infra.hackclub.com.
 clubdash:
   - octodns:
       cloudflare:
