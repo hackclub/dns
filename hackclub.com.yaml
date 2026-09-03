@@ -1856,6 +1856,12 @@ duos: # brendan@hackclub.com
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+dyad: # brendan@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 easel:
   type: CNAME
   value: 46c19d5618208b3e.vercel-dns-016.com.
