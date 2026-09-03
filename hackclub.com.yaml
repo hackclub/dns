@@ -5825,6 +5825,12 @@ unfold: # jenin@hackclub.com
         proxied: true
     type: CNAME
     value: a.ingress.tier2.infra.hackclub.com.
+unified-socials-db: # zach@hackclub.com
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 unsub: # U08PUHSMW4V
   - type: CNAME
     value: e65410cb8a51f4bf.vercel-dns-013.com.
