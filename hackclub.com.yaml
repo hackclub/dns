@@ -5919,9 +5919,6 @@ visioneer:
 vote.visioneer:
 - type: CNAME
   value: cname.vercel-dns.com.
-vmc:
-- type: A
-  value: 45.61.162.143
 vote: # manitej@hackclub.com
 - octodns:
     cloudflare:
