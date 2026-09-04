@@ -2466,6 +2466,12 @@ golden:
 gong: # electricxangell@gmail.com
   - type: CNAME
     value: cname.vercel-dns.com.
+goship: # aarav@hackclub.com @Aarav J on slack :D
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 gps:
   type: CNAME
   value: c0eaa1ae589a28b9.vercel-dns-016.com.
