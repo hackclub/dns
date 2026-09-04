@@ -12,6 +12,13 @@
 - type: TXT
   values:
   - ahrefs-site-verification_047924a9a454abb4497f9a4389b610eeca5538ca8d46ab4288da0da0b8acc282
+  - v=spf1 -all
+_dmarc:
+  type: TXT
+  value: v=DMARC1\; p=reject\; sp=reject\; adkim=s\; aspf=s
+"*._domainkey":
+  type: TXT
+  value: v=DKIM1\; p=
 ahoy: # echo@hackclub.com U080A3QP42C
   type: CNAME
   value: 992022aa5b4ad559.vercel-dns-016.com.
