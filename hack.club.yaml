@@ -2,6 +2,9 @@
 "":
 - type: ALIAS
   value: a.selfhosted.hackclub.com.
+  octodns:
+    cloudflare:
+      proxied: true
 - type: MX
   value:
     exchange: a.selfhosted.hackclub.com.
@@ -9,69 +12,117 @@
 - type: TXT
   values:
   - ahrefs-site-verification_047924a9a454abb4497f9a4389b610eeca5538ca8d46ab4288da0da0b8acc282
-aces: # U092CHMLB24
-  type: CNAME
-  value: a.selfhosted.hackclub.com.
 ahoy: # echo@hackclub.com U080A3QP42C
   type: CNAME
   value: 992022aa5b4ad559.vercel-dns-016.com.
 athena: # zach@hackclub.com U0266FRGP
   type: CNAME
   value: a.selfhosted.hackclub.com.
+  octodns:
+    cloudflare:
+      proxied: true
 campfire: # dev@hackclub.com U0261EB1EG7
   type: CNAME
   value: a.selfhosted.hackclub.com.
+  octodns:
+    cloudflare:
+      proxied: true
 hack.club: # U022XFD2TML ian@hackclub.com
   type: CNAME
   value: 1a88c3074b0301ec.vercel-dns-016.com.
 construct: # U092CHMLB24
   type: CNAME
   value: a.selfhosted.hackclub.com.
+  octodns:
+    cloudflare:
+      proxied: true
 daydream: # dev@hackclub.com U0261EB1EG7
   type: CNAME
   value: a.selfhosted.hackclub.com.
+  octodns:
+    cloudflare:
+      proxied: true
 fallout: # samliu@hackclub.com
   type: CNAME
   value: b.selfhosted.hackclub.com.
+  octodns:
+    cloudflare:
+      proxied: true
 flagship: # nora@/campfire flagship team
   type: CNAME
   value: a.selfhosted.hackclub.com.
+  octodns:
+    cloudflare:
+      proxied: true
 flavortown: # U092CHMLB24
   type: CNAME
   value: a.selfhosted.hackclub.com.
+  octodns:
+    cloudflare:
+      proxied: true
 hctg: # U092CHMLB24
   type: CNAME
   value: a.selfhosted.hackclub.com.
+  octodns:
+    cloudflare:
+      proxied: true
 hss: # nora@hackclub.com U06QK6AG3RD
   type: CNAME
   value: a.selfhosted.hackclub.com.
+  octodns:
+    cloudflare:
+      proxied: true
 l: # U04CBLNSVH6
   type: CNAME
   value: a.selfhosted.hackclub.com.
+  octodns:
+    cloudflare:
+      proxied: true
 mail: # nora@hackclub.com U06QK6AG3RD
   type: CNAME
   value: a.selfhosted.hackclub.com.
+  octodns:
+    cloudflare:
+      proxied: true
 moonshot: # graham@hackclub.com U04QH1TTMBP
   type: CNAME
   value: a.selfhosted.hackclub.com.
+  octodns:
+    cloudflare:
+      proxied: true
 p: # nora@hackclub.com U06QK6AG3RD
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+  octodns:
+    cloudflare:
+      proxied: true
 ship: # dev@hackclub.com U0261EB1EG7
   type: CNAME
   value: a.selfhosted.hackclub.com.
+  octodns:
+    cloudflare:
+      proxied: true
 shipwrecked: # dev@hackclub.com U0261EB1EG7
   type: CNAME
   value: a.selfhosted.hackclub.com.
+  octodns:
+    cloudflare:
+      proxied: true
 sleepover: # U092CHMLB24
   type: CNAME
   value: a.selfhosted.hackclub.com.
+  octodns:
+    cloudflare:
+      proxied: true
 stasis: # alexp@hackclub.com U01581HFAGZ
   type: CNAME
   value: b9385139e8ff984c.vercel-dns-016.com.
 summer: # zach@hackclub.com U0266FRGP
   type: CNAME
   value: a.selfhosted.hackclub.com.
+  octodns:
+    cloudflare:
+      proxied: true
 unsub: # U08PUHSMW4V
 - type: CNAME
   value: e65410cb8a51f4bf.vercel-dns-013.com.
