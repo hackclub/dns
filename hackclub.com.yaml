@@ -5957,6 +5957,12 @@ webring: # mahad@hackclub.com U059VC0UDEU
 webventure:
   - type: CNAME
     value: ansh3108.github.io.
+welcome: # (christian(cin) )U0938MZG8Q6 - "hq member (eps) U09Q8MLTE58"
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 wesley:
   - type: CNAME
     value: wesleyhackclub.github.io.
