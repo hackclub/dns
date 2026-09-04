@@ -3581,7 +3581,7 @@ manifesto:
 manor:
   type: CNAME
   value: f61dcda8ea43ee0c.vercel-dns-016.com.
-maps:
+maps: # mohamad@hackclub.com U05UQ2RTJ6T
   type: CNAME
   value: f5e7996f6a74bcc1.vercel-dns-016.com.
 markdown:
