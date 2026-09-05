@@ -5858,6 +5858,9 @@ urspace: # selena@hackclub.com
         proxied: true
     type: CNAME
     value: a.ingress.tier2.infra.hackclub.com.
+_github-pages-challenge-hackclub-ursula.ursula: # 322520326+boorboormachine@users.noreply.github.com
+- type: TXT
+  value: 362782f7d8640802da3c417594db50
 submit.v2:
   - octodns:
       cloudflare:
