@@ -4029,7 +4029,7 @@ verify.onboard:
 oneditor:
   - type: CNAME
     value: oneditor.netlify.app.
-onekey: # maxtran@hackclub.com U07F6FMJ97U
+onekey: # stelle@hackclub.com U07F6FMJ97U
   - type: CNAME
     octodns:
       cloudflare:
@@ -4201,6 +4201,12 @@ penumbra: # ascpixi@hackclub.com U082DPCGPST
 pfp:
   - type: A
     value: 77.90.16.198
+phantom: # stelle@hackclub.com U07F6FMJ97U
+  - type: CNAME
+    octodns:
+      cloudflare:
+        proxied: true
+    value: a.ingress.tier2.infra.hackclub.com.
 photos: # tom@daamen.uk U078PH0GBEH
   - type: CNAME
     value: 6b1e660c03c871f3.vercel-dns-013.com.
