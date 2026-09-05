@@ -75,3 +75,6 @@ rsvp: # U08PUHSMW4V
 - ttl: 600
   type: A
   value: 192.9.226.154
+_github-pages-challenge-hackclub-ursula.ursula: # 322520326+boorboormachine@users.noreply.github.com
+- type: TXT
+  value: 528f6b70728eb9536f136538fd1969
