@@ -5965,6 +5965,12 @@ whimsy: # katiesue@hackclub.com
   - type: CNAME
     value: ad97879918161518.vercel-dns-017.com.
     ttl: 600
+whoami: # cloudglides@proton.me U0A2EKA9FAL
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 whs:
   - type: CNAME
     value: whs-hackclub.netlify.com.
