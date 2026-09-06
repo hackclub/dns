@@ -6028,6 +6028,9 @@ wormhole:
 wrangler: # nick@hackclub.com U06FMCCDS1K
   - type: CNAME
     value: cname.vercel-dns.com.
+wristband: # anson@hackclub.com
+- type: CNAME
+  value: cname.vercel-dns.com.
 wshackclub:
   - type: A
     value: 35.158.87.123
