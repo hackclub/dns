@@ -3625,6 +3625,9 @@ meet:
 meetings:
   - type: CNAME
     value: meetings.hackclub.dev.
+melcice: # mich.prostinak@gmail.com
+- type: CNAME
+  value: www.hackclubmelcice.vercel.app.
 melodymuffler:
   octodns:
     cloudflare:
