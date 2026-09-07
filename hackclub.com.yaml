@@ -3564,15 +3564,15 @@ manor:
 maps: # mohamad@hackclub.com U05UQ2RTJ6T
   type: CNAME
   value: f5e7996f6a74bcc1.vercel-dns-016.com.
+marina: # yohanychang@gmail.com U0B6JGBCFM3
+- type: CNAME
+  value: d5660401c20b848e.vercel-dns-017.com.
 markdown:
   type: CNAME
   value: c02a5eb37aa5d3c3.vercel-dns-016.com.
 market: # sophia@hackclub.com U083PK90X4G
 - type: CNAME
   value: cname.vercel-dns.com.
-marina: # yohanychang@gmail.com U0B6JGBCFM3
-- type: CNAME
-  value: d5660401c20b848e.vercel-dns-017.com.
 maxday:
   type: CNAME
   value: maxday-prod.netlify.com.
