@@ -1577,6 +1577,12 @@ cq: # ruben@scstudios.tech U0AHNB20WDD
         proxied: true
     type: CNAME
     value: a.ingress.tier2.infra.hackclub.com.
+'*.infra.cq': # ruben@scstudios.tech U0AHNB20WDD, for reviewer vms
+  - octodns:
+      cloudflare:
+        proxied: true
+    type: CNAME
+    value: 8b7247cd-3175-4695-acd3-30a116fe01ad.cfargotunnel.com.
 craft:
   - type: CNAME
     value: craft-ept.pages.dev.
