@@ -1078,6 +1078,12 @@ builders-club: # soonk@hacklub.com
 bulc:
   - type: CNAME
     value: 5637f2843e643c1a.vercel-dns-016.com.
+bulky: # selena@hackclub.com U06U1CBK589
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 bunbougu:
   - type: CNAME
     value: applepieeeeee.github.io.
@@ -3574,6 +3580,9 @@ markdown:
   type: CNAME
   value: c02a5eb37aa5d3c3.vercel-dns-016.com.
 market: # sophia@hackclub.com U083PK90X4G
+- type: CNAME
+  value: cname.vercel-dns.com.
+marmalade: # leo@hackclub.com U07BLJ1MBEE & hc+dns@matmanna.dev U07VA44DNBA
 - type: CNAME
   value: cname.vercel-dns.com.
 maxday:
