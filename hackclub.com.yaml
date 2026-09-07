@@ -3619,6 +3619,9 @@ _gh-hackclubmchs-o.mchs:
 _github-pages-challenge-hackclubmchs.mchs:
   - type: TXT
     value: 7758abbb60ddb92f7bca19e65bca60
+mdpham: # mdpham2311@gmail.com
+- type: CNAME
+  value: mdpham.pages.dev.
 mea:
   - type: CNAME
     value: meahackclub.netlify.app.
