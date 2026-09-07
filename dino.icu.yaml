@@ -257,8 +257,8 @@ bucksite: # the.bucket020@gmail.com U0AF865SD2P
   value: thebucket-ops.github.io.
 bugged: # piescrap23@gmail.com https://github.com/nilanshsharma23/bugged
 - ttl: 600
-  type: CNAME
-  value: bugged-ochre.vercel.app.
+  type: A
+  value: 216.198.79.1
 builders-club: #turtlesy1234@gmail.com U0AM2DYC3FB
 - ttl: 600
   type: CNAME
