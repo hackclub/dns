@@ -29,6 +29,15 @@ SUBDOMAIN_NAME: # email@example.com U012AB345CD
 
 That's it! Someone with contributor access to the repo will then review your PR.
 
+Before opening the PR, you can run the same local checks used by the repository:
+
+```sh
+pip install natsort ruamel.yaml
+./bin/check
+```
+
+This parses every zone file and checks that records are in the expected order.
+
 If you're asked to make any changes to your pull request, please amend it by committing to your fork, instead of closing it and creating another.
 
 ### Replacing a `CNAME` record with another record type

@@ -1,0 +1,35 @@
+#!/bin/sh
+set -eu
+
+ROOT_DIR=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
+export ROOT_DIR
+
+cd "$ROOT_DIR"
+
+python3 - <<'PY'
+import os
+from pathlib import Path
+
+from ruamel.yaml import YAML
+
+root = Path(os.environ['ROOT_DIR'])
+yaml = YAML()
+zone_files = sorted(root.glob('*.yaml'))
+errors = []
+
+for path in zone_files:
+    try:
+        with path.open() as stream:
+            yaml.load(stream)
+    except Exception as error:
+        errors.append(f'{path.name}: {error}')
+
+if errors:
+    print('Invalid YAML found:')
+    print('\n'.join(f'  - {error}' for error in errors))
+    raise SystemExit(1)
+
+print(f'Parsed {len(zone_files)} zone files successfully.')
+PY
+
+python3 bin/sort-zones --check
