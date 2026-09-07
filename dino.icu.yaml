@@ -1300,6 +1300,9 @@ url: # A url shortener for anyone in hack club :D
 _gh-hackclub-ursula-o.ursula: # 322520326+boorboormachine@users.noreply.github.com
 - type: TXT
   value: ca81e2cef4
+_github-pages-challenge-hackclub-ursula.ursula: # 322520326+boorboormachine@users.noreply.github.com
+- type: TXT
+  value: d799c4ab8a2ca2f97a83e94db1199d
 vansh:
 - ttl: 600
   type: CNAME
