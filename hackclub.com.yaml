@@ -3570,6 +3570,9 @@ markdown:
 market: # sophia@hackclub.com U083PK90X4G
 - type: CNAME
   value: cname.vercel-dns.com.
+marmalade: # leo@hackclub.com U07BLJ1MBEE & hc+dns@matmanna.dev U07VA44DNBA
+- type: CNAME
+  value: cname.vercel-dns.com.
 maxday:
   type: CNAME
   value: maxday-prod.netlify.com.
