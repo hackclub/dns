@@ -520,6 +520,9 @@ api2:
       proxied: true
   type: CNAME
   value: a.limited.selfhosted.hackclub.com.
+apis: # santi@hackclub.com
+- type: CNAME
+  value: cname.vercel-dns.com.
 apocalypse:
   - type: CNAME
     value: aa060dd312321f2d.vercel-dns-016.com.
