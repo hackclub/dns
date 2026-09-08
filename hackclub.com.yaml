@@ -1039,6 +1039,9 @@ bucky:
         proxied: false
     type: CNAME
     value: a.selfhosted.hackclub.com.
+buddy: # johnny@hackclub.com
+- type: CNAME
+  value: cname.vercel-dns.com.
 bugs:
   - octodns:
       cloudflare:
