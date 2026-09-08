@@ -6049,7 +6049,10 @@ wristband: # anson@hackclub.com
 wshackclub:
   - type: A
     value: 35.158.87.123
-www:
+www: # echo@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
   type: CNAME
   value: fdd973c84b10aa8e.vercel-dns-016.com.
 you-ship-we-clip:
