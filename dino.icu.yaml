@@ -995,6 +995,9 @@ print:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+pronumberguessing: # jmcclendon8383@gmail.com
+- type: CNAME
+  value: jackm.hackclub.app.
 ptcg: # richarddiscord@duck.com
 - type: A
   value: 130.61.17.229
