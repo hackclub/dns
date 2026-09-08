@@ -2700,6 +2700,9 @@ hackyholidays:
 haj4ever: # U07UK4S94KC
   - type: CNAME
     value: cname.vercel-dns.com.
+halflife: # arcadewise@hackclub.com
+- type: CNAME
+  value: ef2e4b73c62eef4a.vercel-dns-013.com.
 hall-of-fame: # mattsoh@hackclub.com U07DPHQCCCS
   - octodns:
       cloudflare:
