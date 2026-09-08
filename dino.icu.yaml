@@ -255,6 +255,9 @@ bucksite: # the.bucket020@gmail.com U0AF865SD2P
 - ttl: 600
   type: CNAME
   value: thebucket-ops.github.io.
+buddy: # shreyansh.offline@gmail.com
+- type: CNAME
+  value: shreyanshoffline.github.io.
 bugged: # piescrap23@gmail.com https://github.com/nilanshsharma23/bugged
 - ttl: 600
   type: A
