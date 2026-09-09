@@ -3138,6 +3138,12 @@ _acme-challenge.a.db.tier2.infra: # seb@hackclub.com
   values:
     - idq4s6aNZYsv4UOdpmJSmgOIFkAGSHsYZ3fQOZQBSsk
     - vzJvw4kfdT7qVq44QkQc_IDQdRYw28Tv-9jZ9UG0YGI
+fallback.tier2.infra: # echo@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 a.ingress.tier2.infra:
   type: A
   value: 46.225.195.181
