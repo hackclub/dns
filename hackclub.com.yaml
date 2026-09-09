@@ -2145,6 +2145,12 @@ feud: # emme@hackclub.com U0BELFW91AN
 fhs:
   - type: CNAME
     value: cname.vercel-dns.com.
+fillout-hca-redirect: # brendan@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 fillout-ysws-nps: # zach@hackclub.com
   octodns:
     cloudflare:
