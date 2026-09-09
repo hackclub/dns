@@ -377,6 +377,9 @@ _gh-ACT-Hack-Club-o.act:
 adastra:
   - type: TXT
     value: bit.ly/adastrahacks
+adware: # armand@hackclub.com
+- type: CNAME
+  value: 444714bbb3e4a387.vercel-dns-013.com.
 aesthetic:
   type: CNAME
   value: 2046a0f486026442.vercel-dns-016.com.
