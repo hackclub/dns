@@ -211,7 +211,7 @@ bedtime: # dristiroy@gmail.com U08R7L3E859
   value: cname.vercel-dns.com.
 betterschool: # richarddiscord@duck.com
 - type: A
-  value: 30.61.17.229
+  value: 130.61.17.229
 betterwork-ai: # by https://heramb0x1.github.io/betterwork-ai
   ttl: 600
   type: CNAME
