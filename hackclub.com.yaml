@@ -1890,6 +1890,12 @@ email-tools: # owned by zach latta (zach@hackclub.com)
       proxied: true
   type: CNAME
   value: a.limited.selfhosted.hackclub.com.
+embassy: # cloudglides@proton.me U0A2EKA9FAL
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 ember:
   type: CNAME
   value: 775a47043c4456c9.vercel-dns-016.com.
