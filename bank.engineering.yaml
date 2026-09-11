@@ -1,40 +1,8 @@
 ---
-"":
-- type: A
-  value: 216.150.1.1
-- type: MX
-  values:
-  - exchange: mx1.improvmx.com.
-    preference: 10
-  - exchange: mx2.improvmx.com.
-    preference: 20
-- type: TXT
-  values:
-  - v=spf1 include:spf.improvmx.com ~all
-changelog:
-  ttl: 1
-  type: CNAME
-  value: headwayapp.co.
-curl:
-- type: A
-  value: 34.120.54.55
-- type: AAAA
-  value: "2600:1901:0:6d85::"
-_acme-challenge.curl:
-  type: CNAME
-  value: c82b414cd89d32fd90685ead._acme.deno.dev.
-gverify:
-  type: CNAME
-  value: a.selfhosted.hackclub.com.
-internal:
-  type: A
-  value: 138.197.18.43
-maps:
-  type: CNAME
-  value: f5e7996f6a74bcc1.vercel-dns-016.com.
-www:
-  type: CNAME
-  value: a5f4edd87f53e433.vercel-dns-016.com.
-yellowpages:
-  type: CNAME
-  value: 954fb501a17a43af.vercel-dns-016.com.
+'':
+- type: ALIAS
+  value: yarti.ytmnd.com.
+
+'www':
+- type: CNAME
+  value: yarti.ytmnd.com.

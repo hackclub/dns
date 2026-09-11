@@ -1,18 +1,8 @@
 ---
 '':
-- type: A
-  value: 216.150.1.1
-- type: TXT
-  values:
-    - google-site-verification=yrBprsuPgbaoNFd79KLgjYMr2xqEZhkaTH6eZbYvsHg # google search console
-    - google-site-verification=KuU6_yKBnq6HLWIGl9z8FJTm9QERMFBkuhVnG7SxC5o # ahrefs
-    - v=spf1 -all
-"_dmarc":
-  type: TXT
-  value: v=DMARC1\; p=reject\; sp=reject\; adkim=s\; aspf=s
-"*._domainkey":
-  type: TXT
-  value: v=DKIM1\; p=
+- type: ALIAS
+  value: yarti.ytmnd.com.
+
 'www':
-  type: CNAME
-  value: 999cc3e77f950bf4.vercel-dns-016.com.
+- type: CNAME
+  value: yarti.ytmnd.com.
