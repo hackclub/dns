@@ -5214,7 +5214,10 @@ snowglobe: # lola@hackclub.com U078JCFHQ3D
     type: CNAME
     value: a.ingress.tier2.infra.hackclub.com.
 support.snowglobe: # lola@hackclub.com - U078JCFHQ3D
-- type: CNAME
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 soaked: # jenin@hackclub.com // U0926UASBJ7
   octodns:
