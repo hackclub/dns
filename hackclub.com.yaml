@@ -5627,6 +5627,12 @@ telescreen: # echo@hackclub.com U080A3QP42C
 terminalcraft:
   - type: CNAME
     value: 21a914e9b89646d3.vercel-dns-016.com.
+terra: # olive@hackclub.com U07BN55GN3D
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 tfss:
   - type: A
     value: 216.150.1.1 # Vercel
