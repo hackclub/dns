@@ -1266,6 +1266,9 @@ terror:
   ttl: 600
   type: CNAME
   value: 4H4CayJ.github.io.
+thorn: # thorn.dev49@gmail.com
+- type: AAAA
+  value: 2a01:4f9:3081:399c::1711
 throttleup: # Github: NoIwantyourcode slack: U0A269NG76F
   ttl: 600
   type: A
