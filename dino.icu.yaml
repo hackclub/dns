@@ -261,6 +261,9 @@ bucksite: # the.bucket020@gmail.com U0AF865SD2P
 buddy: # shreyansh.offline@gmail.com
 - type: CNAME
   value: shreyanshoffline.github.io.
+gfp3elmqn4ct.buddy: # shreyansh.offline@gmail.com
+- type: CNAME
+  value: gv-mewe7jyrl6kv6q.dv.googlehosted.com.
 bugged: # piescrap23@gmail.com https://github.com/nilanshsharma23/bugged
 - ttl: 600
   type: A
