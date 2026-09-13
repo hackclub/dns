@@ -716,6 +716,9 @@ kevin: # Kevin Yang
   ttl: 600
   type: CNAME
   value: bykevinyang.netlify.app.
+kinnickhs: # lordraphael17@icloud.com / U0BEXMHD9T5
+- type: CNAME
+  value: cname.vercel-dns.com.
 kludge: # keamlakk@gmail.com | aka U0AHYTJVCKW
   ttl: 600
   type: CNAME
