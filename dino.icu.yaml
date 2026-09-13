@@ -493,6 +493,9 @@ evan:
   ttl: 600
   type: A
   value: 150.136.115.122
+ezwinapp: # U08SAC05VMW
+- type: AAAA
+  value: 2a01:4f9:3a:276e::1593
 fabianovich: # fabianovich@duck.com slack: @fabianovich
 - ttl: 600
   type: CNAME
