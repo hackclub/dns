@@ -3401,11 +3401,8 @@ _github-pages-challenge-kerala-hackclub.kerala:
   - type: TXT
     value: f39cf4bf21f2e8087c97294b2944e4
 keyframe: # nick@hackclub.com U06FMCCDS1K
-- octodns:
-    cloudflare:
-      proxied: true
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: keyframe.hackclub.dev.
 kiit:
   type: CNAME
   value: alpha-9h3.pages.dev.
