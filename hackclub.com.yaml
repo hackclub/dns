@@ -3790,6 +3790,12 @@ muse:
 ncssm:
   type: CNAME
   value: cname.vercel-dns.com.
+nda: # echo@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 neighborhood:
   type: CNAME
   value: 13684c4a1c0eb7ab.vercel-dns-016.com.
