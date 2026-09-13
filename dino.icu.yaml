@@ -918,6 +918,9 @@ node:
 - ttl: 600
   type: CNAME
   value: tgh75972.github.io.
+noomo: # robin17.brams@outlook.com U0BQF6EGX0V
+- type: CNAME
+  value: cname.vercel-dns.com.
 normie: # normie
   ttl: 600
   type: CNAME
