@@ -3403,6 +3403,9 @@ _github-pages-challenge-kerala-hackclub.kerala:
 kiit:
   type: CNAME
   value: alpha-9h3.pages.dev.
+kinnickhs: # lordraphael17@icloud.com / U0BEXMHD9T5
+- type: CNAME
+  value: cname.vercel-dns.com.
 kjcmt:
   type: CNAME
   value: 5637f2843e643c1a.vercel-dns-016.com.
