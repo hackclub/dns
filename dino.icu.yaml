@@ -324,6 +324,10 @@ clayforge: # wilmerbailon007@gmail.com
 - ttl: 600
   type: CNAME
   value: wilmerbailon007.hackclub.app
+wilmerportfolio: # wilmerbailon007@gmail.com
+- ttl: 600
+  type: CNAME
+  value: wilmerbailon007.hackclub.app
 click: # a URL shortener
   ttl: 600
   type: CNAME
