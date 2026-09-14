@@ -1390,8 +1390,8 @@ whoami: # cloudglides@proton.me U0A2EKA9FAL
   type: A
   value: 216.198.79.1
 wiiuavi1: # @wiiuavi on slack, U08SB23AY7P
-- type: CNAME
-  value: wiiuavi.hackclub.app.
+- type: A
+  value: 79.72.72.162
 wikibase: # wikibase for the Hack Club community, to be managed by @recaptime-dev team through @ajhalili2006
   ttl: 600
   type: CNAME
