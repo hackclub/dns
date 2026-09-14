@@ -324,10 +324,6 @@ clayforge: # wilmerbailon007@gmail.com
 - ttl: 600
   type: CNAME
   value: wilmerbailon007.hackclub.app
-wilmerportfolio: # wilmerbailon007@gmail.com
-- ttl: 600
-  type: CNAME
-  value: wilmerbailon007.hackclub.app
 click: # a URL shortener
   ttl: 600
   type: CNAME
@@ -1404,6 +1400,10 @@ willgob: # williamnumismatics@gmail.com
 - ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+wilmerportfolio: # wilmerbailon007@gmail.com
+- ttl: 600
+  type: CNAME
+  value: wilmerbailon007.hackclub.app
 winterlings: # a site to view winter wonderland projects (contact @ZeroQL on slack for thingies)
   ttl: 600
   type: CNAME
