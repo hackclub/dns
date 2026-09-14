@@ -5631,8 +5631,11 @@ telemetry:
   type: A
   value: 5.161.83.132
 telescreen: # echo@hackclub.com U080A3QP42C
+- octodns:
+    cloudflare:
+      proxied: true
   type: CNAME
-  value: ba32d3e933e777cb.vercel-dns-013.com.
+  value: a.ingress.tier2.infra.hackclub.com.
 terminalcraft:
   - type: CNAME
     value: 21a914e9b89646d3.vercel-dns-016.com.
