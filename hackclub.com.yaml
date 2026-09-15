@@ -2106,6 +2106,12 @@ extensify:
         proxied: true
     type: CNAME
     value: a.selfhosted.hackclub.com.
+fabricate: # rudy@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 failover: # echo@hackclub.com
   - octodns:
       cloudflare:
