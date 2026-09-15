@@ -3796,6 +3796,16 @@ nda: # echo@hackclub.com
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+resend._domainkey.nda: # echo@hackclub.com
+- type: TXT
+  value: p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDF2BaFV3zwPCnuWnRo013Tf7yIcAqvO3IA/Kh17XyYowsE2tI/2FuYjTM8ru5k8IW0Uh8BUp2OWt3EBe0Qp13TwwLJfZ4mcZcRVOn2HJaHf+7qVxcyVutaMbv/43yhrZTB/pVmeSJCU6OCrOm1awn8GAkDqSpFY3Pwn7uPikkrzQIDAQAB
+send.nda: # echo@hackclub.com
+- type: MX
+  values:
+  - exchange: feedback-smtp.us-east-1.amazonses.com.
+    preference: 10
+- type: TXT
+  value: "v=spf1 include:amazonses.com ~all"
 neighborhood:
   type: CNAME
   value: 13684c4a1c0eb7ab.vercel-dns-016.com.
