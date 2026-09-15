@@ -3566,7 +3566,7 @@ mail: # nora@hackclub.com U06QK6AG3RD
       cloudflare:
         proxied: true
     type: CNAME
-    value: a.limited.selfhosted.hackclub.com.
+    value: a.ingress.tier2.infra.hackclub.com.
 pic._domainkey.mail:
   type: TXT
   value: k=rsa
