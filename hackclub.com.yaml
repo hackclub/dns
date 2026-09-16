@@ -4267,7 +4267,7 @@ picoducky: # U079HV9PTC7 ; POC=olive
     value: a.selfhosted.hackclub.com.
 picture-this: # emma@hackclub.com
 - type: CNAME
-  value: hackclub.github.io.
+  value: e6fb1d5e3fa394cf.vercel-dns-013.com.
 pier:
   - type: A
     value: 178.156.170.71
