@@ -2458,12 +2458,12 @@ geocoder:
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
-gh-proxy:
-  - octodns:
-      cloudflare:
-        proxied: true
-    type: CNAME
-    value: b.selfhosted.hackclub.com.
+gh-proxy: # echo@hackclub.com U080A3QP42C
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 giftbox: # tongyu@hackclub.com U07DJMFAQQP
   octodns:
     cloudflare:
