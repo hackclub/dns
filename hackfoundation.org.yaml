@@ -1,6 +1,6 @@
 ---
 '': # zach@hackclub.com U0266FRGP
-- type: CNAME
+- type: ALIAS
   value: a.ingress.tier2.infra.hackclub.com.
   octodns:
     cloudflare:
