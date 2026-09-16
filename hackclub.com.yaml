@@ -4617,8 +4617,11 @@ reactive: # jared@hackclub.com / lynn@hackclub.com
   type: CNAME
   value: ea4ceae47f9926c5.vercel-dns-016.com.
 readme: # eps@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
   type: CNAME
-  value: 869e772d0dee6ce2.vercel-dns-016.com.
+  value: a.ingress.tier2.infra.hackclub.com.
 reality:
   type: CNAME
   value: 282ab20b3c2de7dd.vercel-dns-016.com.
