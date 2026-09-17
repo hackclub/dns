@@ -22,7 +22,7 @@ the: # zach@hackclub.com U0266FRGP
       proxied: true
 www: # zach@hackclub.com U0266FRGP
   type: CNAME
-  value: b87a9ce0fca6c4b7.vercel-dns-016.com.
+  value: a.ingress.tier2.infra.hackclub.com.
   octodns:
     cloudflare:
       proxied: true
