@@ -2366,9 +2366,12 @@ fulfillment: #jenin@hackclub.com @jenin
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
-fusering:
+fusering: # davidp@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
   type: CNAME
-  value: 71b1e2defbc1af44.vercel-dns-017.com.
+  value: a.ingress.tier2.infra.hackclub.com.
 future: # antonio@hackclub.com
   - type: CNAME
     value: d4aa17e03f291215.vercel-dns-013.com.
