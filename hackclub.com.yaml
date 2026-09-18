@@ -2696,7 +2696,7 @@ hackrail: # alice@hackclub.cc U05MKEZUY67
   octodns:
     cloudflare:
       proxied: true
-  value: rail.hackclub.com.
+  value: a.ingress.tier2.infra.hackclub.com.
 hacksaber:
   octodns:
     cloudflare:
