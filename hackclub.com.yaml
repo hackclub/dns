@@ -1863,6 +1863,9 @@ dyad: # brendan@hackclub.com
 easel:
   type: CNAME
   value: 46c19d5618208b3e.vercel-dns-016.com.
+ecolint: # U07FAA0G561
+- type: CNAME
+  value: cname.vercel-dns.com.
 editor:
   type: CNAME
   value: bf3649f1e8067e71.vercel-dns-016.com.
