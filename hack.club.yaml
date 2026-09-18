@@ -67,6 +67,9 @@ flavortown: # U092CHMLB24
   octodns:
     cloudflare:
       proxied: true
+haven: # haven@hackclub.com jolly@hackclub.com
+- type: CNAME
+  value: be4ff0bec7c18994.vercel-dns-013.com.
 hctg: # U092CHMLB24
   type: CNAME
   value: a.selfhosted.hackclub.com.
