@@ -1242,6 +1242,12 @@ carnival-staging:
 cascade:
   type: CNAME
   value: 2ece7ab0ecc306c7.vercel-dns-016.com.
+castoff: # selena@hackclub.com U06U1CBK589
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 catgirl: # foxmoss@hackclub.com
   - type: CNAME
     octodns:
