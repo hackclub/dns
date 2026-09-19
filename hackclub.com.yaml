@@ -2094,6 +2094,9 @@ evergreen:
 evoking:
   type: CNAME
   value: evokinghc.netlify.app.
+expedition: # johnny@hackclub.com
+- type: CNAME
+  value: cname.vercel-dns.com.
 explorpheus:
   - octodns:
       cloudflare:
