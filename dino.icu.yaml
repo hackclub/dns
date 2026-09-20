@@ -257,6 +257,9 @@ bsky: # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumni/meta
 - ttl: 300
   type: CNAME
   value: proxyparty.recaptime.dev.
+bsstar: # U08SAC05VMW
+- type: AAAA
+  value: 2a01:4f9:3a:276e::1593
 bucksite: # the.bucket020@gmail.com U0AF865SD2P
 - ttl: 600
   type: CNAME
