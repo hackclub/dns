@@ -1914,11 +1914,8 @@ emerge:
 emporium:
   - type: CNAME
     value: 27cbbde38306f198.vercel-dns-016.com.
-enclosure: #U082UPTRQU8
-  octodns:
-    cloudflare:
-      proxied: true
-  type: CNAME
+enclosure: # U082UPTRQU8
+- type: CNAME
   value: 1fbf4c79a7c97461.vercel-dns-016.com.
 encrypted-share: # zach@hackclub.com
   - octodns:
