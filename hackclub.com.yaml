@@ -3588,6 +3588,12 @@ macondo: # nathan@hackclub.com
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+capybarasinparis.macondo: # santi@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 magazine: # acon@hackclub.com U04KEK4TS72
   type: CNAME
   value: ca2b97ac338b55c8.vercel-dns-016.com.
