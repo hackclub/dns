@@ -89,3 +89,6 @@ v1-rsa-20260824._domainkey.user: # admins@hackclub.app
 mx.user: # admins@hackclub.app
 - type: A
   value: 65.108.74.60
+wiki: # adhdhyan.jain@gmail.com
+- type: A
+  value: 135.181.209.89
