@@ -5495,6 +5495,9 @@ stickers: #euan@hackclub.com U06T30DNB3L
         proxied: true
     type: CNAME
     value: a.ingress.tier2.infra.hackclub.com.
+sticky: # anson@hackclub.com
+- type: CNAME
+  value: cname.vercel-dns.com.
 storyboard:
   - octodns:
       cloudflare:
