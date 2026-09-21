@@ -1347,6 +1347,9 @@ vansh:
 vasudev: # vasudevonden@gmail.com
 - type: A
   value: 135.181.209.89
+veerbajaj: # hi@veerbajaj.com
+- type: CNAME
+  value: cname.vercel-dns.com.
 vercel:
 - ttl: 600
   type: CNAME
