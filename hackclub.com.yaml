@@ -3192,7 +3192,7 @@ ticketing.infra:
     cloudflare:
       proxied: true
   type: CNAME
-  value: a.limited.selfhosted.hackclub.com.
+  value: a.ingress.tier2.infra.hackclub.com.
 a.db.tier2.infra:
   type: CNAME
   value: house.n.tier2.infra.hackclub.com.
