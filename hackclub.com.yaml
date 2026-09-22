@@ -1626,7 +1626,10 @@ crates:
     type: CNAME
     value: b.selfhosted.hackclub.com.
 crescent: # ascpixi@hackclub.com U082DPCGPST
-- type: CNAME
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 crux: # taran@events.hackclub.com
   type: CNAME
