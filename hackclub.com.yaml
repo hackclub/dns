@@ -781,6 +781,9 @@ awest:
 axiom: # tanjimkamal1@gmail.com U09ASUK57K8
   type: CNAME
   value: 8bfbc5e47c699b10.vercel-dns-016.com.
+az: # echo@hackclub.com U080A3QP42C
+- type: CNAME
+  value: 6cdac7be6b2e933b.vercel-dns-016.com.
 b2b:
   - type: CNAME
     value: nitishsai9.github.io.
