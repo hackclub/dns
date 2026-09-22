@@ -2823,12 +2823,18 @@ haven: # haven@hackclub.com
       lenient: true
     type: CNAME
     value: a.ingress.tier2.infra.hackclub.com.
+'20260922145608pm._domainkey.haven': # haven@hackclub.com jolly@hackclub.com
+- type: TXT
+  value: k=rsa\;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCiGRpLQzSHFaE1Js723bjxGQ/JfMMR35N7HUSrHbMCpZ4el7W5ByPZFYbz6QwNKC3dbcT7LkkDopbiOs6I8+b6X/FM28wtTxD37ECPXefEe+J+It2yr6oOCtfVxUvg+TxJI4lAdLY6SurkOf/jU9GlMQIgbPWLYaAukiC+/EODSQIDAQAB
 booking.haven: # haven@hackclub.com
   - octodns:
       cloudflare:
         proxied: true
     type: CNAME
     value: a.ingress.tier2.infra.hackclub.com.
+pm-bounces.haven: # haven@hackclub.com jolly@hackclub.com
+- type: CNAME
+  value: pm.mtasv.net.
 haxmas: # echo@hackclub.com
   - type: CNAME
     value: cname.vercel-dns.com.
