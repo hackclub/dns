@@ -5961,6 +5961,12 @@ uptime:
         proxied: true
     type: CNAME
     value: uptime.selfhosted.hackclub.com.
+uri: # aarav@hackclub.com @Aarav J on slack :D
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 url75: # SendGrid Sender Authentication (bank@hackclub.com)
   type: CNAME
   value: sendgrid.net.
