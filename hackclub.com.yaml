@@ -1634,6 +1634,12 @@ crescent: # ascpixi@hackclub.com U082DPCGPST
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+cresent: # ascpixi@hackclub.com U082DPCGPST
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 crux: # taran@events.hackclub.com
   type: CNAME
   value: 8c4560f252ccdc85.vercel-dns-016.com.
