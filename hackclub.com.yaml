@@ -473,8 +473,8 @@ amber: # U054VC2KM9P
   - octodns:
       cloudflare:
         proxied: false
-  type: CNAME
-  value: a.ingress.tier2.infra.hackclub.com.
+    type: CNAME
+    value: a.ingress.tier2.infra.hackclub.com.
 amigo: # nathan@hackclub.com
   - octodns:
       cloudflare:
