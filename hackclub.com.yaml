@@ -1759,12 +1759,12 @@ vote.daydream:
         proxied: true
     type: CNAME
     value: b.selfhosted.hackclub.com.
-daysofservice:
-  type: CNAME
-  value: 84733497b6deb720.vercel-dns-016.com.
 dayoneof: # darshg321@gmail.com U0795SNGE9L
   - type: CNAME
     value: dayoneof-zrl-dayone-2049c5.k.hackclub.dev.
+daysofservice:
+  type: CNAME
+  value: 84733497b6deb720.vercel-dns-016.com.
 de: # echo@hackclub.com
   - type: CNAME
     value: 6cdac7be6b2e933b.vercel-dns-016.com.
