@@ -1478,6 +1478,9 @@ yuki-rins: # 19979598350@163.com
 - ttl: 600
   type: CNAME
   value: yukirins-021822.hackclub.app.
+yumm: # ibukunomotude@gmail.com
+- type: CNAME
+  value: yumm-burgers-shop.vercel.app.
 ziademad-ai-eng: # myfreelancinglife777@gmail.com U0A57CQPJHF
 - ttl: 600
   type: A
