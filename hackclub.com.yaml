@@ -3379,6 +3379,9 @@ jam: # echo@hackclub.com U080A3QP42C
 jamegam: # augie@hackclub.com U07FCRNHS1J
   type: CNAME
   value: 9f5a4fca2b7269b9.vercel-dns-016.com.
+godot-beta.jamegam: # augie@hackclub.com U07FCRNHS1J
+  - type: CNAME
+    value: site-scenetime-5ec202.k.hackclub.dev.
 review.jamegam: # augie@hackclub.com U07FCRNHS1J
   - type: CNAME
     value: ari-ari-jamega-babadb.k.hackclub.dev.
