@@ -2557,6 +2557,12 @@ greeble: # brendan@hackclub.com
         proxied: true
     type: CNAME
     value: a.ingress.tier2.infra.hackclub.com.
+greeble-certificate-koala: # brendan@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 grounded:
   octodns:
     cloudflare:
