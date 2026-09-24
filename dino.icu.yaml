@@ -23,9 +23,9 @@
 # make sure you're adding your subdomain in alphabetical order, so that it passes the DNS check!
 
 ---
-'': # the bare domain
+'': # mahad@hackclub.com (the bare domain)
 - type: ALIAS
-  value: proxyparty.hackclub.com.
+  value: xdonryt4em6uudcgsggr2va2.b.selfhosted.hackclub.com. # hackclub/dino.icu on coolify (b server)
 - ttl: 600
   type: MX
   values:
@@ -1438,10 +1438,10 @@ write: # WriteFreely!
   ttl: 3600
   type: A
   value: 47.39.192.9
-www: # redirect to bare domain
+www: # mahad@hackclub.com (redirect to bare domain)
   ttl: 600
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: xdonryt4em6uudcgsggr2va2.b.selfhosted.hackclub.com.
 yahri-staging: # anson@hackclub.com
 - ttl: 600
   type: A
