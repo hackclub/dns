@@ -1471,6 +1471,9 @@ proxy.you-ship-we-vote:
 - ttl: 600
   type: A
   value: 209.112.91.50
+yumm: # ibukunomotunde8@gmail.com
+  - type: CNAME
+    value: yumm-burgers-shop.vercel.app.
 yuki-rins: # 19979598350@163.com
 - ttl: 600
   type: CNAME
