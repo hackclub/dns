@@ -398,6 +398,9 @@ dast: # by https://github.com/danielsebesta
   ttl: 600
   type: A
   value: 194.163.149.155
+datian: # jz7680326@gmail.com U0C3LA2P7FC
+- type: CNAME
+  value: datian.hackclub.app.
 deskbot: # dristiroy@gmail.com U08R7L3E859
   ttl: 600
   type: CNAME
