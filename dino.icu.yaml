@@ -526,6 +526,10 @@ felix: # jacob.navaratne@outlook.com | Jacob Navaratne | @Jacob on Slack!
   ttl: 600
   type: CNAME
   value: smartsparkcoding.github.io.
+filehop: # manjumusei@gmail.com U0AQMKK8A5U
+  - ttl: 600
+    type: CNAME
+    value: shanghaishadows.hackclub.app.
 fileserver: # will.kuntze@gmail.com Will Kuntze
 - ttl: 600
   type: A
