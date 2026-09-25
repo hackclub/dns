@@ -1407,6 +1407,10 @@ weather:
 - ttl: 600
   type: CNAME
   value: weathersomewhere.netlify.app.
+webpark: # janekbaszczynski@gmail.com
+- ttl: 600
+  type: CNAME
+  value: lloydowski.hackclub.app.
 whoami: # cloudglides@proton.me U0A2EKA9FAL
 - ttl: 600
   type: A
@@ -1499,3 +1503,4 @@ zoneout: # kilecraft90@gmail.com U08GCDHM0QZ
 - ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+
