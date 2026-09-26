@@ -599,10 +599,7 @@ webhooks.ari: # nathan@hackclub.com
     type: CNAME
     value: a.selfhosted.hackclub.com.
 ztesting.ari: # santi@hackclub.com - all data is still on orchard fyi
-- octodns:
-    cloudflare:
-      proxied: true
-  type: A
+- type: A
   value: 46.4.11.109
 aria: # mihir@hackclub.com
   type: CNAME
