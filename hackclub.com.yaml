@@ -598,12 +598,12 @@ webhooks.ari: # nathan@hackclub.com
         proxied: true
     type: CNAME
     value: a.selfhosted.hackclub.com.
-ztesting.ari: # santi@hackclub.com
+ztesting.ari: # santi@hackclub.com - all data is still on orchard fyi
 - octodns:
     cloudflare:
       proxied: true
-  type: CNAME
-  value: a.ingress.tier2.infra.hackclub.com.
+  type: A
+  value: 46.4.11.109
 aria: # mihir@hackclub.com
   type: CNAME
   value: 5d1e98e4990600ac.vercel-dns-013.com.
