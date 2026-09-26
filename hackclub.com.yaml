@@ -625,6 +625,12 @@ asiaconf:
 asiasummit:
   - type: CNAME
     value: b03bd931b824779d.vercel-dns-016.com.
+asic: # kaipereira@hackclub.com U04HJGA76H2
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 asiet:
   - type: CNAME
     value: 29c7cdfcbcdf0161.vercel-dns-017.com.
