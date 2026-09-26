@@ -5153,6 +5153,9 @@ send.shop: # rushil@hackclub.com U020X4GCWSF
 showcase:
   type: CNAME
   value: onboard-7w9.pages.dev.
+shrink: # anson@hackclub.com
+- type: CNAME
+  value: cname.vercel-dns.com.
 shroud: # dracula@conduct.hackclub.com U0A5PLKMB25
   - octodns:
       cloudflare:
