@@ -260,6 +260,10 @@ bsky: # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumni/meta
 bsstar: # U08SAC05VMW
 - type: AAAA
   value: 2a01:4f9:3a:276e::1593
+book-os: # avs.chauhan01@gmail.com
+  ttl: 600
+  type: CNAME
+  value: astra-ind.github.io.
 bucksite: # the.bucket020@gmail.com U0AF865SD2P
 - ttl: 600
   type: CNAME
@@ -1503,7 +1507,3 @@ zoneout: # kilecraft90@gmail.com U08GCDHM0QZ
 - ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
-book-os: # avs.chauhan01@gmail.com
-  ttl: 600
-  type: CNAME
-  value: astra-ind.github.io.
