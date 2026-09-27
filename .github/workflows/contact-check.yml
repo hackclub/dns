@@ -15,8 +15,18 @@ jobs:
       - uses: actions/checkout@v7
         with:
           fetch-depth: 0
-          ref: ${{ github.event.pull_request.head.sha }}
-          allow-unsafe-pr-checkout: true
+
+      - name: Overlay PR data files
+        if: github.event_name == 'pull_request_target' && github.event.pull_request.head.repo.full_name != github.repository
+        env:
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          git fetch origin "pull/${PR_NUMBER}/head:pr-head"
+          git checkout pr-head -- ':(top,glob)*.yaml'
+
+      - name: Checkout PR head (same-repo)
+        if: github.event_name == 'pull_request_target' && github.event.pull_request.head.repo.full_name == github.repository
+        run: git checkout ${{ github.event.pull_request.head.sha }}
 
       - uses: actions/setup-python@v7
         with:
