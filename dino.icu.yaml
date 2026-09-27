@@ -1151,6 +1151,9 @@ schemabuilder: # hackclub-dns@fabian.ternismail.de U0B8JTZDTKQ
 - ttl: 18000
   type: A
   value: 77.90.15.2   # vweb01.eu
+scramjet: # bigkirinsgoda@gmail.com
+- type: A
+  value: 193.122.151.79
 sdheeraj: # https://github.com/17sdheeraj/17sdheeraj.github.io
   ttl: 600
   type: CNAME
