@@ -27,7 +27,11 @@ jobs:
 
       - name: Checkout PR head (same-repo)
         if: github.event_name == 'pull_request_target' && github.event.pull_request.head.repo.full_name == github.repository
-        run: git checkout ${{ github.event.pull_request.head.sha }}
+        env:
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          git fetch origin "pull/${PR_NUMBER}/head:pr-head"
+          git checkout pr-head
 
       - name: json-yaml-validate
         id: json-yaml-validate
@@ -51,7 +55,11 @@ jobs:
 
       - name: Checkout PR head (same-repo)
         if: github.event_name == 'pull_request_target' && github.event.pull_request.head.repo.full_name == github.repository
-        run: git checkout ${{ github.event.pull_request.head.sha }}
+        env:
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          git fetch origin "pull/${PR_NUMBER}/head:pr-head"
+          git checkout pr-head
 
       - uses: actions/setup-python@v7
         with:
