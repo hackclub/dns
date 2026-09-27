@@ -356,18 +356,6 @@ account: # nora@hackclub.com U06QK6AG3RD
   octodns:
     cloudflare:
       proxied: true
-aces: # jenin@hackclub.com U0926UASBJ7
-  octodns:
-    cloudflare:
-      proxied: true
-  type: CNAME
-  value: a.selfhosted.hackclub.com.
-api.aces: # niko@nikoo.dev U08SF8MVC82
-  octodns:
-    cloudflare:
-      proxied: true
-  type: CNAME
-  value: a.selfhosted.hackclub.com.
 act:
   type: CNAME
   value: act-hack-club.github.io.
