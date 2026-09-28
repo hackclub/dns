@@ -1820,19 +1820,11 @@ dockerize:
   - type: CNAME
     value: 80028c660ac02181.vercel-dns-017.com.
 docs: # leo@hackclub.com U07BLJ1MBEE
-  - octodns:
-      cloudflare:
-        proxied: false
-      lenient: true
-    type: CNAME
-    value: 4fc2e0847f-hosting.gitbook.io.
-  - octodns:
-      lenient: true
-    type: CAA
-    values:
-      - flags: 0
-        tag: issue
-        value: pki.goog
+  octodns:
+    cloudflare:
+      proxied: false
+  type: CNAME
+  value: 4fc2e0847f-hosting.gitbook.io.
 donbosco:
   type: CNAME
   value: cname.vercel-dns.com.
@@ -2804,14 +2796,15 @@ hauntedto:
   value: dcd923bb12754ab3.vercel-dns-016.com.
 haven: # haven@hackclub.com
   - octodns:
-      lenient: true
-    type: TXT
+      cloudflare:
+        proxied: true
+    type: A
+    value: 46.225.195.181 # a.ingress.tier2.infra
+  - type: TXT
     values:
       - google-site-verification=B5n_Xh2zYddWNR_oQh5YixL4EAdYU7-54O6TmnjJ4MU
       - v=spf1 include:_spf.google.com ~all
-  - octodns:
-      lenient: true
-    type: MX
+  - type: MX
     values:
       - exchange: ASPMX.L.GOOGLE.COM.
         preference: 1
@@ -2823,12 +2816,6 @@ haven: # haven@hackclub.com
         preference: 10
       - exchange: ALT4.ASPMX.L.GOOGLE.COM.
         preference: 10
-  - octodns:
-      cloudflare:
-        proxied: true
-      lenient: true
-    type: CNAME
-    value: a.ingress.tier2.infra.hackclub.com.
 '20260922145608pm._domainkey.haven': # haven@hackclub.com jolly@hackclub.com
 - type: TXT
   value: k=rsa\;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCiGRpLQzSHFaE1Js723bjxGQ/JfMMR35N7HUSrHbMCpZ4el7W5ByPZFYbz6QwNKC3dbcT7LkkDopbiOs6I8+b6X/FM28wtTxD37ECPXefEe+J+It2yr6oOCtfVxUvg+TxJI4lAdLY6SurkOf/jU9GlMQIgbPWLYaAukiC+/EODSQIDAQAB
