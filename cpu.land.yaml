@@ -15,6 +15,9 @@
 "*._domainkey":
   type: TXT
   value: v=DKIM1\; p=
+flybrain: # jz7680326@gmail.com U0C3LA2P7FC
+- type: CNAME
+  value: datian.hackclub.app.
 'www': # echo@hackclub.com U080A3QP42C
   type: CNAME
   value: 999cc3e77f950bf4.vercel-dns-016.com.
