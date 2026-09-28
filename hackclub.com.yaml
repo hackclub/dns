@@ -6174,6 +6174,12 @@ wrangler: # nick@hackclub.com U06FMCCDS1K
 wristband: # anson@hackclub.com
 - type: CNAME
   value: cname.vercel-dns.com.
+wrong: # kartikey@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 wshackclub:
   - type: A
     value: 35.158.87.123
