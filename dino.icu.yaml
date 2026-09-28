@@ -913,6 +913,9 @@ _github-pages-challenge-CattacoCattaco.mutate:
   ttl: 600
   type: TXT
   value: 69b4c74ea3da3c12161efd2ce086fd
+myfly: # jz7680326@gmail.com U0C3LA2P7FC
+- type: CNAME
+  value: datian.hackclub.app.
 mysphere: # U081RF7D23D
   ttl: 600
   type: CNAME
