@@ -544,6 +544,9 @@ firepi:
 - ttl: 600
   type: A
   value: 69.8.95.218
+flybrain: # jz7680326@gmail.com U0C3LA2P7FC
+- type: CNAME
+  value: datian.hackclub.app.
 fokus: # https://github.com/leecheeyong/fokus
   ttl: 600
   type: CNAME
