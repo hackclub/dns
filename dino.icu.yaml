@@ -1330,6 +1330,9 @@ troeticlicker: # admin@henrymeyer.de U0B1CCSCCLF
 my.ts-derp: # darrenwjlau@gmail.com
 - type: CNAME
   value: minori.main.sites.darrenmc.dev.
+turnstilebot: # hola@santiagortega.dev
+- type: CNAME
+  value: whatsapp1.alwaysdata.net.
 twisted: # for the twisted ysws! (kavyanshkhaitan11@gmail.com, U0A7776A2MT)
 - ttl: 600
   type: A
