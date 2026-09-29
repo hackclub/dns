@@ -4795,6 +4795,9 @@ riverside:
 ro:
   type: CNAME
   value: cname.vercel-dns.com.
+robonexus: # atharvam682@gmail.com
+- type: CNAME
+  value: 050da42d065c74a9.vercel-dns-017.com.
 rosetta: # nathan@hackclub.com
   octodns:
     cloudflare:
