@@ -3798,6 +3798,12 @@ minicraft:
 minustwelve:
   type: CNAME
   value: hackclub.github.io.
+mipmap: # brendan@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 mob-games:
   type: CNAME
   value: d906b8f58a045a63e82061d953776462.ipv4.tcpshield.com.
