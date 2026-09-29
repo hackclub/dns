@@ -1013,8 +1013,8 @@ pc: # https://github.com/MCPE-PC/dino.icu
   type: CNAME
   value: dino-icu.pages.dev.
 pcguide: # 23779@burnside.school.nz
-- type: AAAA
-  value: 2a01:4f9:3080:3192::214
+- type: CNAME
+  value: 2a01-04f9-3080-3192-0000-0000-0000-0214.withfallback.com.
 periodic:
   ttl: 600
   type: CNAME
