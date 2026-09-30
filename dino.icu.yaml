@@ -1397,6 +1397,9 @@ vercel-ns:
   values:
   - ns1.vercel-dns.com.
   - ns2.vercel-dns.com.
+vishy: # 04vishal.com@gmail.com
+- type: CNAME
+  value: cname.vercel-dns.com.
 vortex:
 - ttl: 600
   type: MX
