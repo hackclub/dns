@@ -3447,6 +3447,9 @@ keeb: #U05JNJZJ0BS
       cloudflare:
         proxied: true
     value: a.selfhosted.hackclub.com.
+keebstagram: #normie@normiecodes.dev U098F6EJ34J
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 keepsake:
   type: CNAME
   value: 474482a022f366c4.vercel-dns-016.com.
