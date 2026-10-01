@@ -260,6 +260,9 @@ bsky: # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumni/meta
 bsstar: # U08SAC05VMW
 - type: AAAA
   value: 2a01:4f9:3a:276e::1593
+bubble-net: # U07L463K2R3
+- type: A
+  value: 216.198.79.1
 bucksite: # the.bucket020@gmail.com U0AF865SD2P
 - ttl: 600
   type: CNAME
