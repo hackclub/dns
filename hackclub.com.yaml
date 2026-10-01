@@ -5554,12 +5554,9 @@ stickers: #euan@hackclub.com U06T30DNB3L
 sticky: # anson@hackclub.com
 - type: CNAME
   value: cname.vercel-dns.com.
-storyboard:
-  - octodns:
-      cloudflare:
-        proxied: true
-    type: CNAME
-    value: a.selfhosted.hackclub.com.
+storyboard: # sophia@hackclub.com
+- type: CNAME
+  value: ab1c540274e30358.vercel-dns-013.com.
 submit: # leo@hackclub.com
   - octodns:
       cloudflare:
