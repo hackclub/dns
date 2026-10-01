@@ -4845,6 +4845,12 @@ saleh:
 saycheese:
   type: CNAME
   value: cb1874b4a3a974f3.vercel-dns-016.com.
+scare: # barnav@hackclub.com U08RVF1BAN4
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 schedule: # lynn@hackclub.com
   octodns:
     cloudflare:
