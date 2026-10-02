@@ -209,6 +209,9 @@ bedtime: # dristiroy@gmail.com U08R7L3E859
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+bencetopa: # bencetopa06@gmail.com
+- type: CNAME
+  value: jivespark.github.io.
 betterschool: # richarddiscord@duck.com
 - type: A
   value: 130.61.17.229
