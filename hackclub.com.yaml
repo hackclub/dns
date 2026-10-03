@@ -6189,6 +6189,12 @@ wonderland:
 wonderland-launch:
   - type: CNAME
     value: cname.vercel-dns.com.
+wonders: # aarav@hackclub.com U07UK4S94KC
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 woof: #alexvd@hackclub.com
   type: CNAME
   value: 9b3edc9eb353600f.vercel-dns-016.com.
