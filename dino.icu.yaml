@@ -550,6 +550,9 @@ firepi:
 - ttl: 600
   type: A
   value: 69.8.95.218
+floriografia: # U0BV3Q1N37F
+- type: CNAME
+  value: mj-1536.hackclub.app.
 fokus: # https://github.com/leecheeyong/fokus
   ttl: 600
   type: CNAME
