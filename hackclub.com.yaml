@@ -3742,11 +3742,11 @@ mea:
   - type: CNAME
     value: meahackclub.netlify.app.
 media-fellowship: # zach@hackclub.com
-  type: CNAME
-  value: a.selfhosted.hackclub.com.
-  octodns:
+- octodns:
     cloudflare:
       proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 meet:
   - type: A
     value: 3.80.199.115
