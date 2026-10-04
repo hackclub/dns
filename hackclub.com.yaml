@@ -4476,6 +4476,9 @@ postal:
 posthog:
   type: A
   value: 45.79.174.48
+postout: # anson@hackclub.com
+- type: CNAME
+  value: cname.vercel-dns.com.
 potluck: # fiona@hackclub.com
   - octodns:
       cloudflare:
