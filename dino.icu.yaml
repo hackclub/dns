@@ -1234,6 +1234,9 @@ solvable: # GitHub: Randomcoder323, codingme313@gmail.com
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+sorry: # kawalekkrzysztof233@proton.me U0BE4R92TUJ
+- type: CNAME
+  value: shortcut-the-long-way.vercel.app.
 soup3d: # sabhya.aggarwal.18.6@gmail.com U0A9K5RT3HS
 - ttl: 600
   type: A
