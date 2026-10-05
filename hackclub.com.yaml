@@ -6045,9 +6045,6 @@ vidisha:
 _gh-HackClub-Vidisha-o.vidisha:
   - type: TXT
     value: 1e6022fcc5
-vikingsdev:
-  - type: CNAME
-    value: vikingsdev.github.io.
 visas: # leo@hackclub.com
   - octodns:
       cloudflare:
