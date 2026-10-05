@@ -4047,9 +4047,6 @@ nexus: #manitej@hackclub.com
         proxied: true
     type: CNAME
     value: b.selfhosted.hackclub.com.
-nigeria:
-  type: CNAME
-  value: f9405218404d4a35.vercel-dns-016.com.
 nlcs:
   type: CNAME
   value: 95f775779f538acb.vercel-dns-016.com.
