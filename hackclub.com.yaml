@@ -3483,9 +3483,6 @@ _github-pages-challenge-kerala-hackclub.kerala:
 keyframe: # nick@hackclub.com U06FMCCDS1K
 - type: CNAME
   value: c0a99f5585a1b6c5.vercel-dns-013.com.
-kiit:
-  type: CNAME
-  value: alpha-9h3.pages.dev.
 kjcmt:
   type: CNAME
   value: 5637f2843e643c1a.vercel-dns-016.com.
