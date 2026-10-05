@@ -663,9 +663,6 @@ _496c10c564509e5030203691afc939ff.assets:
         proxied: false
     type: CNAME
     value: _41e1bb1944485ecaba9d0990915cded3.nhqijqilxf.acm-validations.aws.
-astra:
-  - type: CNAME
-    value: astra2-ops.github.io.
 asw:
   - type: A
     value: 67.217.241.159
