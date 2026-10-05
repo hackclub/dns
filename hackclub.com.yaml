@@ -356,9 +356,6 @@ account: # nora@hackclub.com U06QK6AG3RD
   octodns:
     cloudflare:
       proxied: true
-act:
-  type: CNAME
-  value: act-hack-club.github.io.
 _gh-ACT-Hack-Club-o.act:
   type: TXT
   value: 346a2cce9c
