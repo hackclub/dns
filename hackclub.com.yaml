@@ -425,23 +425,21 @@ alley:
 aloha:
   - type: CNAME
     value: epic-mcnulty-0ed53c.netlify.app.
-alpharetta:
-  - type: A
-    value: 104.248.78.24
-  - type: TXT
-    value: v=spf1 include:_spf.google.com ~all
-  - type: MX
-    values:
-      - exchange: aspmx.l.google.com.
-        preference: 1
-      - exchange: alt1.aspmx.l.google.com.
-        preference: 5
-      - exchange: alt2.aspmx.l.google.com.
-        preference: 5
-      - exchange: alt3.aspmx.l.google.com.
-        preference: 10
-      - exchange: alt4.aspmx.l.google.com.
-        preference: 10
+alpharetta: # 
+- type: A
+  value: 104.248.78.24
+- type: TXT
+  value: "v=spf1 include:_spf.google.com ~all"
+- type: MX
+  values:
+  - exchange: aspmx.l.google.com.
+    preference: 1
+  - exchange: alt2.aspmx.l.google.com.
+    preference: 5
+  - exchange: alt3.aspmx.l.google.com.
+    preference: 10
+  - exchange: alt4.aspmx.l.google.com.
+    preference: 10
 alpine:
   - type: CNAME
     value: 7fda3a1f50ff7231.vercel-dns-016.com.
