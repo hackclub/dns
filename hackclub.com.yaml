@@ -737,9 +737,6 @@ auth: # nora@hackclub.com U06QK6AG3RD
 authly:
   - type: CNAME
     value: dandililacs.github.io.
-av:
-  - type: CNAME
-    value: avhc.netlify.com.
 award:
   - octodns:
       cloudflare:
@@ -2487,9 +2484,6 @@ glassrib: # U083W5CCFDG joaquin@hackclub.com
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
-glenny:
-  - type: CNAME
-    value: bobbedbob.github.io.
 golden:
   type: CNAME
   value: 57cd2901f886bca3.vercel-dns-016.com.
@@ -2835,6 +2829,9 @@ stars.haven: # barnav@hackclub.com U08RVF1BAN4
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+tldr.haven: # haven@hackclub.com jolly@hackclub.com
+- type: CNAME
+  value: hackclub.github.io.
 haxmas: # echo@hackclub.com
   - type: CNAME
     value: cname.vercel-dns.com.
@@ -5306,6 +5303,9 @@ digit.smol: # arcadewise@hackclub.com
 in-synch.smol: # arcadewise@hackclub.com
   type: CNAME
   value: 437c8892af4826a1.vercel-dns-013.com.
+snek: # electricxangell@gmail.com
+- type: CNAME
+  value: cname.vercel-dns.com.
 snowglobe: # lola@hackclub.com U078JCFHQ3D
   - octodns:
       cloudflare:
@@ -5645,9 +5645,6 @@ survive: # mihir@hackclub.com U05PRRU5GSJ
 swirl: # dhyan@hackclub.com / U0824G9PTFE
   type: CNAME
   value: hackclub.github.io.
-synthax:
-  type: CNAME
-  value: qwel-exe.github.io.
 syria:
   type: CNAME
   value: hackclub-syria.github.io.
@@ -6051,9 +6048,6 @@ vidisha:
 _gh-HackClub-Vidisha-o.vidisha:
   - type: TXT
     value: 1e6022fcc5
-vikingsdev:
-  - type: CNAME
-    value: vikingsdev.github.io.
 visas: # leo@hackclub.com
   - octodns:
       cloudflare:
