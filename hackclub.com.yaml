@@ -737,9 +737,6 @@ auth: # nora@hackclub.com U06QK6AG3RD
 authly:
   - type: CNAME
     value: dandililacs.github.io.
-av:
-  - type: CNAME
-    value: avhc.netlify.com.
 award:
   - octodns:
       cloudflare:
