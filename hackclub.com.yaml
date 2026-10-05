@@ -5300,6 +5300,9 @@ digit.smol: # arcadewise@hackclub.com
 in-synch.smol: # arcadewise@hackclub.com
   type: CNAME
   value: 437c8892af4826a1.vercel-dns-013.com.
+snek: # electricxangell@gmail.com
+- type: CNAME
+  value: cname.vercel-dns.com.
 snowglobe: # lola@hackclub.com U078JCFHQ3D
   - octodns:
       cloudflare:
