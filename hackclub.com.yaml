@@ -2484,9 +2484,6 @@ glassrib: # U083W5CCFDG joaquin@hackclub.com
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
-glenny:
-  - type: CNAME
-    value: bobbedbob.github.io.
 golden:
   type: CNAME
   value: 57cd2901f886bca3.vercel-dns-016.com.
