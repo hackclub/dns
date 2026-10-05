@@ -5639,9 +5639,6 @@ survive: # mihir@hackclub.com U05PRRU5GSJ
 swirl: # dhyan@hackclub.com / U0824G9PTFE
   type: CNAME
   value: hackclub.github.io.
-synthax:
-  type: CNAME
-  value: qwel-exe.github.io.
 syria:
   type: CNAME
   value: hackclub-syria.github.io.
