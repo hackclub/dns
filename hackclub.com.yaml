@@ -2829,6 +2829,9 @@ stars.haven: # barnav@hackclub.com U08RVF1BAN4
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+tldr.haven: # haven@hackclub.com jolly@hackclub.com
+- type: CNAME
+  value: hackclub.github.io.
 haxmas: # echo@hackclub.com
   - type: CNAME
     value: cname.vercel-dns.com.
