@@ -5714,9 +5714,6 @@ telecom:
         proxied: true
     type: CNAME
     value: a.selfhosted.hackclub.com.
-telemetry:
-  type: A
-  value: 5.161.83.132
 telescreen: # echo@hackclub.com U080A3QP42C
 - octodns:
     cloudflare:
