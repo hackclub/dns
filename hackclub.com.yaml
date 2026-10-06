@@ -5195,9 +5195,6 @@ simmer:
 sinerider-leaderboard:
   type: CNAME
   value: 7fe1af12ff7c4a03.vercel-dns-016.com.
-sinerider-scoring:
-  type: A
-  value: 159.89.212.59
 singgasana:
   type: CNAME
   value: singgasana.netlify.app.
