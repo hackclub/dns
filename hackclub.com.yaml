@@ -4027,9 +4027,9 @@ nothing: # amber / U054VC2KM9P
 numberwang:
   type: CNAME
   value: impactdns.techby.org.
-nust:
-  - type: CNAME
-    value: nusthackclub.netlify.app.
+nust: # hamzashah.dev@gmail.com
+- type: CNAME
+  value: hacklub-nust.vercel.app.
 oasis:
   - type: CNAME
     value: 3dae4611b7205eb1.vercel-dns-016.com.
