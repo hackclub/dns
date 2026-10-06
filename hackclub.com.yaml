@@ -5519,9 +5519,6 @@ steelyard-local: # mattsoh@hackclub.com U07DPHQCCCS
 stemegypt:
   type: CNAME
   value: cname.vercel-dns.com.
-crm.stemegypt:
-  type: CNAME
-  value: stemegypt-crm.42web.io.
 stern: # antonio@hackclub.com
   - type: CNAME
     value: cname.vercel-dns.com.
