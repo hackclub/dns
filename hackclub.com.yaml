@@ -1319,9 +1319,6 @@ chipless: #U08EUSU38VC liam@hackclub.com
 christinaday2020:
   - type: CNAME
     value: hackclub.github.io.
-churchill:
-  - type: CNAME
-    value: hackclub-ej5rl3bqj.now.sh.
 cider:
   - type: CNAME
     value: f20283bce785ff90.vercel-dns-016.com.
