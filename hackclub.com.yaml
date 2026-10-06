@@ -2768,6 +2768,9 @@ stars.haven: # barnav@hackclub.com U08RVF1BAN4
 tldr.haven: # haven@hackclub.com jolly@hackclub.com
 - type: CNAME
   value: hackclub.github.io.
+daven.haven: # daamin@hackclub.com U07GLQY6UN4
+- type: CNAME
+  value: cname.vercel-dns.com.
 haxmas: # echo@hackclub.com
   - type: CNAME
     value: cname.vercel-dns.com.
