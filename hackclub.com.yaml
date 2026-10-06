@@ -249,8 +249,6 @@ _vercel: #
       - "vc-domain-verify=arcade-wrapped.hackclub.com,8266e50fd74e5c046773"
       - "vc-domain-verify=ascend.hackclub.com,5c143e010cb754d62113"
       - "vc-domain-verify=ascension.hackclub.com,ff1dd7a1d7c07b66df1c"
-      - "vc-domain-verify=asiet.hackclub.com,2975ee268d07e199efdc"
-      - "vc-domain-verify=awest.hackclub.com,e6d12d504df9bbb88908"
       - "vc-domain-verify=backend.arena.hackclub.com,079b94be7b001fa4e775"
       - "vc-domain-verify=birthday.hackclub.com,b54f1e09bf276faffd29"
       - "vc-domain-verify=birthdays.hackclub.com,7ca55aea82d546d470e1"
@@ -262,65 +260,48 @@ _vercel: #
       - "vc-domain-verify=contact-helper.hackclub.com,ecd049f45e2ad550fd89"
       - "vc-domain-verify=dessert.hackclub.com,8452d8879c3995b17783"
       - "vc-domain-verify=docs.identity.hackclub.com,ef5c12615db913aa8dee"
-      - "vc-domain-verify=donbosco.hackclub.com,8a14878a86451bc1ad03"
-      - "vc-domain-verify=dorman.hackclub.com,f3eed241f1f80b308a69"
       - "vc-domain-verify=dockerize.hackclub.com,b5bf22725664baf9b20c"
       - "vc-domain-verify=elapsed.hackclub.com,e3fdd21d6b94618f10b2"
       - "vc-domain-verify=epochba.hackclub.com,705735e32a03c39fdd26"
       - "vc-domain-verify=epochvt.hackclub.com,089353b4de0bf145067d"
       - "vc-domain-verify=equinox.hackclub.com,28977cc177201abd7318"
       - "vc-domain-verify=evergreen.hackclub.com,4464d82393ad62c6bc0b"
-      - "vc-domain-verify=fhs.hackclub.com,d7bc96ee2d49140e4829"
       - "vc-domain-verify=foodie.hackclub.com,0215d38601a347a45686"
-      - "vc-domain-verify=forms.phs.hackclub.com,25e08effb0de721c762e"
       - "vc-domain-verify=fusering.hackclub.com,b3bcae34deb4b6c261c1"
       - "vc-domain-verify=gaynormccown.hackclub.com,32e375ae13476a9653b9"
       - "vc-domain-verify=giftbox.hackclub.com,ec53c6654e43c9729e72"
       - "vc-domain-verify=hackatime-badge.hackclub.com,60373d0b6c8c20a2bf7f"
-      - "vc-domain-verify=hackatsst.hackclub.com,984d9d75559c592d5b88"
-      - "vc-domain-verify=hackerabad.hackclub.com,6c3d5d32a250935189d8"
-      - "vc-domain-verify=hackerspacein.hackclub.com,0792c5b958d087ab339e"
       - "vc-domain-verify=hackducky.hackclub.com,511bdb3387c304b630b6"
       - "vc-domain-verify=hacklet.hackclub.com,d91aafc7d2db1be00287"
       - "vc-domain-verify=hacktheoctober.hackclub.com,398820f3528f76722590"
       - "vc-domain-verify=hacky-holidays.hackclub.com,c8f8c52c1790e239650e"
       - "vc-domain-verify=hackyholidays.hackclub.com,dcb0e995448d8cfaae37"
-      - "vc-domain-verify=ihs.hackclub.com,21e13c0c6af87766f6f5"
       - "vc-domain-verify=illumination.hackclub.com,8fee6443457bb70fcb81"
       - "vc-domain-verify=jpeg.hackclub.com,d10d5875d555c029e35a"
       - "vc-domain-verify=jua.hackclub.com,f187c5e6c1e4e681fb22"
       - "vc-domain-verify=jumpstart.hackclub.com,cce8c237a49c81456ec3"
       - "vc-domain-verify=haven.jumpstart.hackclub.com,3a422b6fb02141dcc5a0"
-      - "vc-domain-verify=lambert.hackclub.com,3e5d64ff4f6d55af2248"
       - "vc-domain-verify=linkscape.hackclub.com,c31824abf58faa7a0160"
       - "vc-domain-verify=luna.hackclub.com,efe00a2321b67aac26d6"
       - "vc-domain-verify=mayhem.hackclub.com,acbfb3ec6423d80ff8e7"
       - "vc-domain-verify=meltdown.hackclub.com,f6609cf94710dda22b0c"
-      - "vc-domain-verify=mhs.hackclub.com,5ef9386e721cc5cd58cb"
       - "vc-domain-verify=multiverse.hackclub.com,1d8996d4a42eba75e1d8"
-      - "vc-domain-verify=ncssm.hackclub.com,ad11133371193e2e6538"
-      - "vc-domain-verify=ocsa.hackclub.com,642a8568483f6bd767a9"
       - "vc-domain-verify=odyssey.hackclub.com,44ac2c39dd9ccfc6d991"
       - "vc-domain-verify=pagering.hackclub.com,c0471bf5c2cbf9023f95"
       - "vc-domain-verify=pfp.hackclub.com,0089a080527af2869592"
-      - "vc-domain-verify=phs.hackclub.com,ad31bc1412884df7c8d4"
       - "vc-domain-verify=pixeldust.hackclub.com,4cedb02dcdafd0343fc5"
       - "vc-domain-verify=polygon.hackclub.com,3b90aa8a647cf9852dd2"
-      - "vc-domain-verify=puyallup.hackclub.com,ee486cad685cefa12fa6"
       - "vc-domain-verify=reflow.hackclub.com,cc069e8cdf1c55762e13"
       - "vc-domain-verify=register.epochvt.hackclub.com,8e89fd1c0e1dd7045bd5"
       - "vc-domain-verify=rewind.hackclub.com,1cd9a3a9a2ca7ef0b939"
       - "vc-domain-verify=ro.hackclub.com,2f000cc1b00f1f78b361"
       - "vc-domain-verify=saleh.hackclub.com,cdcc382c0ddbefe586b1"
       - "vc-domain-verify=simmer.hackclub.com,19a5cdf65fc7aedb7ccb"
-      - "vc-domain-verify=southhighhack.hackclub.com,8cf484f7551780f58ae9"
-      - "vc-domain-verify=stemegypt.hackclub.com,0c6e30f2705906e4924c"
       - "vc-domain-verify=teenhack.hackclub.com,83b35a519bc92ba8b94d"
       - "vc-domain-verify=tlap.hackclub.com,fab392891c03fb490ae4"
       - "vc-domain-verify=toolsmith.hackclub.com,59d39defb05a336e28ad"
       - "vc-domain-verify=toppings.hackclub.com,f82287f84e90ea2099f8"
       - "vc-domain-verify=trailit.hackclub.com,945360ddfae512ea887e"
-      - "vc-domain-verify=vidisha.hackclub.com,865c18c50e3614795dfc"
       - "vc-domain-verify=visioneer.hackclub.com,b1bec26133a3a1d74d62"
       - "vc-domain-verify=vote.visioneer.hackclub.com,eacfb41e3088190eecbf"
       - "vc-domain-verify=waveband.hackclub.com,11dbb017182f655585ef"
@@ -356,9 +337,6 @@ account: # nora@hackclub.com U06QK6AG3RD
   octodns:
     cloudflare:
       proxied: true
-_gh-ACT-Hack-Club-o.act:
-  type: TXT
-  value: 346a2cce9c
 adastra:
   - type: TXT
     value: bit.ly/adastrahacks
@@ -407,9 +385,6 @@ notifications.alchemize: # aoishikkhan@gmail.com U0A5NKH93BJ & POC: josias@hackc
     cloudflare:
       proxied: true
   value: a.ingress.tier2.infra.hackclub.com.
-alexandria:
-  - type: CNAME
-    value: 12ahmedashraf.github.io.
 alley:
   - octodns:
       cloudflare:
@@ -590,9 +565,6 @@ asic: # kaipereira@hackclub.com U04HJGA76H2
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
-asiet:
-  - type: CNAME
-    value: 29c7cdfcbcdf0161.vercel-dns-017.com.
 asmgame:
   - octodns:
       cloudflare:
@@ -657,9 +629,6 @@ _496c10c564509e5030203691afc939ff.assets:
         proxied: false
     type: CNAME
     value: _41e1bb1944485ecaba9d0990915cded3.nhqijqilxf.acm-validations.aws.
-astra:
-  - type: CNAME
-    value: astra2-ops.github.io.
 asw:
   - type: A
     value: 67.217.241.159
@@ -740,18 +709,12 @@ award:
 awards:
   - type: CNAME
     value: 5a4b2a500b2c5de5.vercel-dns-016.com.
-awest:
-  - type: CNAME
-    value: cname.vercel-dns.com.
 axiom: # tanjimkamal1@gmail.com U09ASUK57K8
   type: CNAME
   value: 8bfbc5e47c699b10.vercel-dns-016.com.
 az: # echo@hackclub.com U080A3QP42C
 - type: CNAME
   value: 6cdac7be6b2e933b.vercel-dns-016.com.
-b2b:
-  - type: CNAME
-    value: nitishsai9.github.io.
 backtothefuture: # adithv08@gmail.com U083XGD4XFY
   - octodns:
       cloudflare:
@@ -832,9 +795,6 @@ bauble: #alexvd@hackclub.com
         proxied: true
     type: CNAME
     value: a.selfhosted.hackclub.com.
-bbss:
-  - type: CNAME
-    value: bbsshackclub.netlify.app.
 beast: #euan@hackclub.com
   - octodns:
       cloudflare:
@@ -856,9 +816,6 @@ beest: #euan@hackclub.com
 bento: # freddie@hackclub.com, jared@hackclub.com
   - type: CNAME
     value: 23231db2cd6ee2af.vercel-dns-013.com.
-berman:
-  - type: CNAME
-    value: bermanclub.pages.dev.
 bestsellr: # jared@hackclub.com
   - type: CNAME
     value: cname.vercel-dns.com.
@@ -895,18 +852,12 @@ birthday-cards:
 birthdays:
   - type: CNAME
     value: cname.vercel-dns.com.
-bisv:
-  - type: CNAME
-    value: pkalavath.github.io.
 bitstream:
   type: CNAME
   value: ab6cf902bfa9dac8.vercel-dns-016.com.
 editor.bitstream:
   type: CNAME
   value: 6b3e5520515c05d6.vercel-dns-016.com.
-bkbiet:
-  type: CNAME
-  value: bkbiethackclub.netlify.com.
 blackbox:
   octodns:
     cloudflare:
@@ -931,9 +882,6 @@ blot:
         proxied: true
     type: CNAME
     value: a.selfhosted.hackclub.com.
-bls:
-  - type: CNAME
-    value: v-iinh.github.io.
 blueprint: # @Jay U08AA6HA82F
   - octodns:
       cloudflare:
@@ -1799,9 +1747,6 @@ docs: # leo@hackclub.com U07BLJ1MBEE
       proxied: false
   type: CNAME
   value: 4fc2e0847f-hosting.gitbook.io.
-donbosco:
-  type: CNAME
-  value: cname.vercel-dns.com.
 dongle: # sophia@hackclub.com U083PK90X4G
   - type: CNAME
     value: 15b7c5b0f60302a4.vercel-dns-017.com.
@@ -1814,9 +1759,6 @@ doppel: # jolly@hackclub.com U08CJCZ2Z9S & katiesue@hackclub.com U06SQJ508LF
     cloudflare:
       proxied: true
   value: a.ingress.tier2.infra.hackclub.com.
-dorman:
-  type: CNAME
-  value: cname.vercel-dns.com.
 downscale: # augie@hackclub.com
   octodns:
     cloudflare:
@@ -2150,9 +2092,6 @@ fett: # jared@hackclub.com U07HEH4N8UV
 feud: # emme@hackclub.com U0BELFW91AN
   - type: CNAME
     value: 173aa21d0ffd2063.vercel-dns-016.com.
-fhs:
-  - type: CNAME
-    value: cname.vercel-dns.com.
 fillout-hca-redirect: # brendan@hackclub.com
 - octodns:
     cloudflare:
@@ -2638,9 +2577,6 @@ signoz.hackatime: # mahad@hackclub.com
         proxied: true
     type: CNAME
     value: hackatime.limited.selfhosted.hackclub.com.
-hackatsst:
-  - type: CNAME
-    value: cname.vercel-dns.com.
 hackaway:
   - type: CNAME
     value: starlit-cascaron-ab17de.netlify.app.
@@ -2687,12 +2623,6 @@ lumen.hackcraft: # ascpixi@hackclub.com U082DPCGPST
 hackducky: #add hackducky
   - type: CNAME
     value: 6be30c9fb60ab816.vercel-dns-017.com.
-hackerabad:
-  - type: CNAME
-    value: hackerabad.netlify.app.
-hackerspacein:
-  type: CNAME
-  value: cname.vercel-dns.com.
 hackfinger:
   type: CNAME
   value: 7332f90b6af8c8fe.vercel-dns-016.com.
@@ -3154,9 +3084,6 @@ identity:
 docs.identity:
   - type: CNAME
     value: cname.vercel-dns.com.
-ihs:
-  - type: CNAME
-    value: cname.vercel-dns.com.
 illumination:
   - type: CNAME
     value: 0b4e7cc575f0aff2.vercel-dns-017.com.
@@ -3466,9 +3393,6 @@ kjcmt:
 kmea:
   type: A
   value: 185.199.111.153
-lambert:
-  type: CNAME
-  value: lambert-hackclub.vercel.app.
 langjam:
   type: CNAME
   value: e92be0877a23dde7.vercel-dns-016.com.
@@ -3763,9 +3687,6 @@ mfa:
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
-mhs:
-  type: CNAME
-  value: mhs-hack-club.vercel.app.
 middleman:
   type: CNAME
   value: middleman-hackclub.fly.dev.
@@ -3850,9 +3771,6 @@ mumble:
 muse:
   type: CNAME
   value: 78958f059c43551f.vercel-dns-016.com.
-ncssm:
-  type: CNAME
-  value: cname.vercel-dns.com.
 nda: # echo@hackclub.com
 - octodns:
     cloudflare:
@@ -4048,27 +3966,6 @@ nust: # hamzashah.dev@gmail.com
 oasis:
   - type: CNAME
     value: 3dae4611b7205eb1.vercel-dns-016.com.
-ocsa:
-  - type: TXT
-    values:
-      - google-site-verification=tk_snQuv19iUwoOlsbKZv2Wwg5stfcusEm1Q8NxDiVA
-      - v=spf1 include:_spf.google.com ~all
-  - type: MX
-    values:
-      - exchange: aspmx.l.google.com.
-        preference: 1
-      - exchange: alt1.aspmx.l.google.com.
-        preference: 5
-      - exchange: alt2.aspmx.l.google.com.
-        preference: 5
-      - exchange: alt3.aspmx.l.google.com.
-        preference: 10
-      - exchange: alt4.aspmx.l.google.com.
-        preference: 10
-  - octodns:
-      lenient: true
-    type: A
-    value: 216.150.1.1 # Vercel
 odyssey:
   - type: CNAME
     value: cname.vercel-dns.com.
@@ -4298,12 +4195,6 @@ phantom: # stelle@hackclub.com U07F6FMJ97U
 photos: # tom@daamen.uk U078PH0GBEH
   - type: CNAME
     value: 6b1e660c03c871f3.vercel-dns-013.com.
-phs:
-  - type: A
-    value: 216.150.1.1 # Vercel
-forms.phs:
-  - type: CNAME
-    value: cname.vercel-dns.com.
 piata: # al3x.radu1@gmail.com U0AFWJX9CP2 ; POC=antonio@hackclub.com
   - octodns:
       cloudflare:
@@ -4553,9 +4444,6 @@ pullquests: # jared@hackclub.com / lynn@hackclub.com
 pulsewidth: # @lou / louisa@hackclub.com
   type: CNAME
   value: 0308f3558260946d.vercel-dns-017.com.
-puyallup:
-  - type: A
-    value: 216.150.1.1 # Vercel
 _h323cs._tcp.px:
   type: SRV
   values:
@@ -5342,9 +5230,6 @@ solvable: # jared@hackclub.com / lynn@hackclub.com
 som-mail-system:
   type: CNAME
   value: b9dd0ffc9d4870b8.vercel-dns-016.com.
-southhighhack:
-  type: CNAME
-  value: cname.vercel-dns.com.
 spaces: # ivie@hackclub.com @Charmunk
   type: A
   value: 65.108.71.92
@@ -5537,9 +5422,6 @@ steelyard-local: # mattsoh@hackclub.com U07DPHQCCCS
         proxied: true
     type: CNAME
     value: a.ingress.tier2.infra.hackclub.com.
-stemegypt:
-  type: CNAME
-  value: cname.vercel-dns.com.
 stern: # antonio@hackclub.com
   - type: CNAME
     value: cname.vercel-dns.com.
@@ -6036,12 +5918,9 @@ vertex: # maxhurley@hackclub.com U078ZJHUKFW
 vibes: # jared@hackclub.com / lynn@hackclub.com
   type: CNAME
   value: b18296b83a87e452.vercel-dns-016.com.
-vidisha:
+vikingsdev:
   - type: CNAME
-    value: cname.vercel-dns.com.
-_gh-HackClub-Vidisha-o.vidisha:
-  - type: TXT
-    value: 1e6022fcc5
+    value: vikingsdev.github.io.
 visas: # leo@hackclub.com
   - octodns:
       cloudflare:
