@@ -5664,17 +5664,11 @@ studio.tapetotape: # arcadewise@hackclub.com
   type: CNAME
   value: e92ba57616c78987.vercel-dns-016.com.
 tarot:
-  - octodns:
-      cloudflare:
-        proxied: true
-    type: CNAME
-    value: a.selfhosted.hackclub.com.
-tbilisi:
+  octodns:
+    cloudflare:
+      proxied: true
   type: CNAME
-  value: tbilisihc.github.io.
-_github-pages-challenge-tbilisihc.tbilisi:
-  type: TXT
-  value: 352ce0458af34bcb3ac0d2f8c7920d
+  value: a.selfhosted.hackclub.com.
 tbp:
   type: NS
   values:
