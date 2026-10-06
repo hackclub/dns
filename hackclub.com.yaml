@@ -2496,6 +2496,12 @@ gps:
 gr:
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
+grandma: # sebh@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 grass:
   - octodns:
       cloudflare:
