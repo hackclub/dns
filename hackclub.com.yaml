@@ -1411,9 +1411,6 @@ codex: # alexren@hackclub.com
 coeur: # olive@hackclub.com @Olive @Ghost of L87 (Lynn)
   - type: CNAME
     value: 24bb8e539241bbef.vercel-dns-016.com.
-g.hackclub.com: # kartikey@hackclub.com
-- type: CNAME
-  value: 1138643d1a89d2c402b1.cf-prod-us-proxy.proxyhog.com.
 comms:
   - octodns:
       cloudflare:
