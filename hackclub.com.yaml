@@ -3316,9 +3316,6 @@ ispy: #U087BHR98AX
 isthackers:
   - type: CNAME
     value: isthackers.github.io.
-italia:
-  type: A
-  value: 185.151.30.185
 iter:
   type: CNAME
   value: hackclubiter.github.io.
