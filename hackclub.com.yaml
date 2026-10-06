@@ -383,9 +383,6 @@ chat.ai: # mahad@hackclub.com U059VC0UDEU
 docs.ai: # mahad@hackclub.com U059VC0UDEU
   - type: CNAME
     value: 0398d53533e1257d.vercel-dns-016.com.
-status.ai: # mahad@hackclub.com U059VC0UDEU
-  - type: CNAME
-    value: iq0ikevj.up.railway.app.
 airbridge:
   octodns:
     cloudflare:
