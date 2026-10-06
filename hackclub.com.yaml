@@ -5549,6 +5549,9 @@ tailor: # U08QMC72ZSZT kaylee@hackclub.com
   type: CNAME
   value: 077dcc934b616aac.vercel-dns-016.com.
 taiyaki: # julia@hackclub.com
+  octodns:
+    cloudflare:
+      proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 take-two: # alexren@hackclub.com
