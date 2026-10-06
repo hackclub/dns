@@ -4724,6 +4724,12 @@ resolution: # dhamari@hackclub.com // jenin@hackclub.com
         preference: 10
       - exchange: ALT4.ASPMX.L.GOOGLE.COM.
         preference: 10
+gamedev.resolution: # jenin@hackclub.com // @jenin or @safia on slack
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 rust.resolution: # mahad@hackclub.com U059VC0UDEU
   - octodns:
       cloudflare:
