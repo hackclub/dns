@@ -1496,6 +1496,9 @@ construct: # U07H3E1CW7J
 contact-helper:
   - type: CNAME
     value: cname.vercel-dns.com.
+contd: # al3x.radu1@gmail.com U0AFWJX9CP2
+- type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 contribute:
   type: CNAME
   value: a24852c05886029b.vercel-dns-016.com.
