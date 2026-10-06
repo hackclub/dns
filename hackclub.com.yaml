@@ -5291,9 +5291,6 @@ smelt:
         proxied: true
     type: CNAME
     value: 4f03f3e1fce70e87.vercel-dns-016.com.
-smhs:
-  type: CNAME
-  value: zephyril.github.io.
 smol: # arcadewise@hackclub.com
   type: CNAME
   value: cd6da731c111c254.vercel-dns-013.com.
