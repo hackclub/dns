@@ -4102,9 +4102,6 @@ onboard-stats:
 api.onboard:
   type: CNAME
   value: api.onboard.limeskey.com.
-live.onboard:
-  - type: A
-    value: 188.40.116.216
 verify.onboard:
   - type: CNAME
     value: ysws.limeskey.com.
