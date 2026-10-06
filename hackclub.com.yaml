@@ -5569,6 +5569,9 @@ tarot:
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
+taiyaki: # julia@hackclub.com
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 tbp:
   type: NS
   values:
