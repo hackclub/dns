@@ -2374,6 +2374,9 @@ fusering: # davidp@hackclub.com
 future: # antonio@hackclub.com
   - type: CNAME
     value: d4aa17e03f291215.vercel-dns-013.com.
+g: # kartikey@hackclub.com
+- type: CNAME
+  value: 1138643d1a89d2c402b1.cf-prod-us-proxy.proxyhog.com.
 gadget: # acon / U04KEK4TS72
   - type: CNAME
     value: cname.vercel-dns.com.
