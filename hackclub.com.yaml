@@ -286,6 +286,7 @@ _vercel: #
       - "vc-domain-verify=mayhem.hackclub.com,acbfb3ec6423d80ff8e7"
       - "vc-domain-verify=meltdown.hackclub.com,f6609cf94710dda22b0c"
       - "vc-domain-verify=multiverse.hackclub.com,1d8996d4a42eba75e1d8"
+      - "vc-domain-verify=nust.hackclub.com,9b2729f42b0c97527226"
       - "vc-domain-verify=odyssey.hackclub.com,44ac2c39dd9ccfc6d991"
       - "vc-domain-verify=pagering.hackclub.com,c0471bf5c2cbf9023f95"
       - "vc-domain-verify=pfp.hackclub.com,0089a080527af2869592"
