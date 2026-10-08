@@ -3322,15 +3322,15 @@ jolly: # jolly@hackclub.com U08CJCZ2Z9S
 jolts: # anson@hackclub.com
   - type: CNAME
     value: cname.vercel-dns.com.
+journal: # aalisahirr@gmail.com
+  - type: CNAME
+    value: journal-beta-three.vercel.app.
 journey:
   - octodns:
       cloudflare:
         proxied: true
     type: CNAME
     value: a.selfhosted.hackclub.com.
-journal: # aalisahirr@gmail.com 
-  - type: CNAME
-    value: journal-beta-three.vercel.app
 jpeg:
   - type: CNAME
     value: cname.vercel-dns.com.
