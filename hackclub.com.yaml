@@ -2421,6 +2421,12 @@ gh-proxy: # echo@hackclub.com U080A3QP42C
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+ghostship: # jared@hackclub.com // Iamalive (U0828FYS2UC)
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 giftbox: # tongyu@hackclub.com U07DJMFAQQP
   octodns:
     cloudflare:
