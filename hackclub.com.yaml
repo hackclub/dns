@@ -5666,6 +5666,9 @@ thirdspace: # louisa@hackclub.com
 thorn:
   - type: CNAME
     value: thornhack.root.omg.lol.
+journal: # aalisahirr@gmail.com 
+  - type: CNAME
+    value: journal-beta-three.vercel.app
 throwback: # electricxangell@gmail.com
   - type: CNAME
     value: 8e177e0b1bd5bf0a.vercel-dns-013.com.
@@ -6136,3 +6139,5 @@ zoo:
 zwp:
   - type: A
     value: 172.99.233.117
+
+    
