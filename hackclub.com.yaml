@@ -3027,12 +3027,12 @@ horizons: # manitej@hackclub.com
 20260315150242pm._domainkey.horizons: # U07BLJ1MBEE
   type: TXT
   value: k=rsa\;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCYaHpuhAWYJoFR+3jCF26WQ6a2g6wFVnG7ivN3VAuub6N8axjZYBvILaWgcgpmrCqpuqoibPEzjIF+/00TvLsBDwPin3Chpo2g15PZdtDFYmZRnajkaaFK+pvqPeuWdQ9Gthz37o3F1Qfd5hFmb10zArQa7bpGLnBetD5TtQywyQIDAQAB
-guides.horizons: # manitej@hackclub.com
-  octodns:
+guides.horizons: # dani@hackclub.com
+- octodns:
     cloudflare:
       proxied: true
   type: CNAME
-  value: a.ingress.tier2.infra.hackclub.com.
+  value: cname.vercel-dns.com.
 pm-bounces.horizons: # U07BLJ1MBEE
   type: CNAME
   value: pm.mtasv.net.
