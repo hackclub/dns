@@ -1536,6 +1536,12 @@ crates:
         proxied: true
     type: CNAME
     value: b.selfhosted.hackclub.com.
+crawl: # karo@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 crescent: # ascpixi@hackclub.com U082DPCGPST
 - octodns:
     cloudflare:
