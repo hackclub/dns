@@ -1129,6 +1129,9 @@ training.campfire: # U022XFD2TML
 tutorial.campfire: # deven@hackclub.com
   - type: CNAME
     value: 23f9766d334e905c.vercel-dns-016.com.
+canvas: # emma@hackclub.com
+- type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 capitol: # antonio@hackclub.com
   - octodns:
       cloudflare:
