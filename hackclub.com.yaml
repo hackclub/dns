@@ -2302,6 +2302,9 @@ fulfillment: #jenin@hackclub.com @jenin
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
+fulfillmentbounty: # echo@hackclub.com
+- type: CNAME
+  value: 1f7f1e34827cf340.vercel-dns-013.com.
 fursuit: # santi@hackclub.com
 - octodns:
     cloudflare:
