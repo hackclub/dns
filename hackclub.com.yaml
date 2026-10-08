@@ -1548,6 +1548,9 @@ crawl: # karo@hackclub.com
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+creators: # sebh@hackclub.com
+- type: CNAME
+  value: 1f273ede68867e0b.vercel-dns-013.com.
 crescent: # ascpixi@hackclub.com U082DPCGPST
 - octodns:
     cloudflare:
