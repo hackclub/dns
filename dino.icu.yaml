@@ -1477,6 +1477,9 @@ work: # mahadkalam1@proton.me
   values:
   - exchange: flagrantbycolumn.cachingtech.com.
     preference: 10
+wosu: # karo@hackclub.com
+- type: A
+  value: 216.198.79.1
 wowstar: # wowstar2504@proton.me
 - ttl: 600
   type: CNAME
