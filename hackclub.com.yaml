@@ -3743,7 +3743,10 @@ minustwelve:
   type: CNAME
   value: hackclub.github.io.
 mipmap: # brendan@hackclub.com
-- type: CNAME
+- octodns:
+      cloudflare:
+        proxied: false
+  type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 mob-games:
   type: CNAME
