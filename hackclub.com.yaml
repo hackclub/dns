@@ -3661,6 +3661,12 @@ _github-pages-challenge-hackclubmchs.mchs:
 mea:
   - type: CNAME
     value: meahackclub.netlify.app.
+mealrobotikyarismasi: # ekinciomerruzzgar@gmail.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.selfhosted.hackclub.com.
 media-fellowship: # zach@hackclub.com
 - octodns:
     cloudflare:
