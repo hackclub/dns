@@ -737,9 +737,12 @@ bag-api:
       proxied: true
   type: CNAME
   value: bag-api.a.selfhosted.hackclub.com.
-bakebuild:
+bakebuild: # dhyan@hackclub.com // U0824G9PTFE
+- octodns:
+    cloudflare:
+      proxied: true
   type: CNAME
-  value: 55f396d5620fbcb8.vercel-dns-016.com.
+  value: a.ingress.tier2.infra.hackclub.com.
 bank:
   type: CNAME
   value: 11cecfc3c082c480.vercel-dns-016.com.
