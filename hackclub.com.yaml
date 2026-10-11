@@ -1232,6 +1232,9 @@ cghs:
 _github-pages-challenge-cghs-hackclub.cghs:
   - type: TXT
     value: a1704fb19aca2f4b785803f2f2edb8
+ch3ss: # felixplant@icloud.com
+- type: CNAME
+  value: cname.vercel-dns.com.
 challenger: # U08RWM5U4L9
   octodns:
     cloudflare:
