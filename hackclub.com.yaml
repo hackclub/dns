@@ -6112,6 +6112,12 @@ www: # echo@hackclub.com
       proxied: true
   type: CNAME
   value: fdd973c84b10aa8e.vercel-dns-016.com.
+yeet: # echo@hackclub.com & sgriffis@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 you-ship-we-clip:
   - octodns:
       cloudflare:
