@@ -50,14 +50,14 @@
 #   ttl: 600
 #   type: CNAME
 #   value: cname.vercel-dns.com.
-8ball: #mylesmarbell@gmail.com U0C386FB86Q
-- ttl: 600
-  type: A
-  value: 34.117.33.233
 8-bit: # narangswarit02@gmail.com Swarit Narang // hellonearth311
 - ttl: 600
   type: A
   value: 216.198.79.1
+8ball: #mylesmarbell@gmail.com U0C386FB86Q
+- ttl: 600
+  type: A
+  value: 34.117.33.233
 aan: # yassinbs@yahoo.com
 - type: CNAME
   value: cname.vercel-dns.com.
