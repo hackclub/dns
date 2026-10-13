@@ -820,6 +820,9 @@ libreassistant: # mostlime@outlook.com
 librechatadi: # reach.adit.sharma@gmail.com
 - type: CNAME
   value: asharma.hackclub.app.
+lifemaxx: # U0APWRCML2J
+- type: CNAME
+  value: cname.vercel-dns.com.
 lkmw:
   ttl: 600
   type: CNAME
