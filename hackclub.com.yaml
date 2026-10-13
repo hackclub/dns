@@ -4031,6 +4031,12 @@ orchard: #tongyu@hackclub.com U07DJMFAQQP
 organizer:
   - type: CNAME
     value: 6f53d30fd60c2623.vercel-dns-016.com.
+orion: # mahad@hackclub.com U059VC0UDEU
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: hackatime.limited.selfhosted.hackclub.com.
 orpheus-engine:
   - octodns:
       cloudflare:
