@@ -4900,6 +4900,12 @@ hcb-proxy.servers:
 postal.servers:
   type: A
   value: 23.92.24.6
+shadergator: # armand@hackclub.com | Slack member ID U07ABEP916X
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 shallow-learning:
   - octodns:
       cloudflare:
