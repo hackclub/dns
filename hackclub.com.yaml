@@ -2649,9 +2649,12 @@ hackfinger:
 hackinux:
   type: CNAME
   value: d817d467138208c3.vercel-dns-016.com.
-hacklet:
+hacklet: # echo@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
   type: CNAME
-  value: a871e4abe6e8b5cf.vercel-dns-017.com.
+  value: a.ingress.tier2.infra.hackclub.com.
 hackpad:
   octodns:
     cloudflare:
