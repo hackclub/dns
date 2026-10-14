@@ -3682,6 +3682,12 @@ meow: # alexvd@hackclub.com U0823F39GV8
         proxied: true
     type: CNAME
     value: 4462283c77020fde.vercel-dns-016.com.
+merch: # zach@hackclub.com, Orchard project merch
+  - octodns:
+      cloudflare:
+        proxied: false
+    type: CNAME
+    value: merch-merch-1aa3b1.k.hackclub.dev.
 metabase:
   - octodns:
       cloudflare:
