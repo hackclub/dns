@@ -821,8 +821,8 @@ librechatadi: # reach.adit.sharma@gmail.com
 - type: CNAME
   value: asharma.hackclub.app.
 lifemaxx: # U0APWRCML2J
-- type: CNAME
-  value: cname.vercel-dns.com.
+- type: A
+  value: 216.198.79.1
 lkmw:
   ttl: 600
   type: CNAME
