@@ -2756,6 +2756,7 @@ haven: # haven@hackclub.com
   - type: TXT
     values:
       - google-site-verification=B5n_Xh2zYddWNR_oQh5YixL4EAdYU7-54O6TmnjJ4MU
+      - google-site-verification=0qFOLYkKRwR7jbkUIduRhyzBv-AP-zx67I5ymaryk_4
       - v=spf1 include:_spf.google.com ~all
   - type: MX
     values:
