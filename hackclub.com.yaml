@@ -3926,6 +3926,9 @@ nest: # admins@hackclub.app
 "*.nest": # admins@hackclub.app
   - type: CNAME
     value: hackclub.app.
+newgdps: # tevi8@k12albemarle.org
+- type: CNAME
+  value: node4.waifly.com.
 news: # eps@hackclub.com U09Q8MLTE58 & hc+dns@matmanna.dev U07VA44DNBA;
   - type: A
     value: 216.150.1.1
