@@ -2769,6 +2769,8 @@ haven: # haven@hackclub.com
         preference: 10
       - exchange: ALT4.ASPMX.L.GOOGLE.COM.
         preference: 10
+- type: TXT
+  value: google-site-verification=0qFOLYkKRwR7jbkUIduRhyzBv-AP-zx67I5ymaryk_4
 '20260922145608pm._domainkey.haven': # haven@hackclub.com jolly@hackclub.com
 - type: TXT
   value: k=rsa\;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCiGRpLQzSHFaE1Js723bjxGQ/JfMMR35N7HUSrHbMCpZ4el7W5ByPZFYbz6QwNKC3dbcT7LkkDopbiOs6I8+b6X/FM28wtTxD37ECPXefEe+J+It2yr6oOCtfVxUvg+TxJI4lAdLY6SurkOf/jU9GlMQIgbPWLYaAukiC+/EODSQIDAQAB
