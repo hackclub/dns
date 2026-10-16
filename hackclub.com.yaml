@@ -2264,6 +2264,12 @@ forms:
 fr:
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
+frame: # rudy@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 frankensite: #jared@hackclub.com
   - type: CNAME
     value: a467c349296635f0.vercel-dns-016.com.
