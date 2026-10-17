@@ -1690,6 +1690,9 @@ defector: # lewin@hackclub.com
     value: 51.148.150.203
   - type: AAAA
     value: 2a02:8012:477e:1::e
+design: # U0A9B38F413
+- type: CNAME
+  value: b148aa044d637133.vercel-dns-016.com.
 dessert:
   - type: CNAME
     value: cname.vercel-dns.com.
