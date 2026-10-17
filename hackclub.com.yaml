@@ -2072,6 +2072,12 @@ fairytale: # brendan@hackclub.com
         proxied: true
     type: CNAME
     value: a.ingress.tier2.infra.hackclub.com.
+fallen: # anson@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 fallout: # samliu@hackclub.com
   - octodns:
       cloudflare:
