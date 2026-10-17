@@ -295,6 +295,9 @@ cad: # by https://github.com/leecheeyong/community-widgets
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+calc: # mattsoh@hackclub.com U07DPHQCCCS
+- type: AAAA
+  value: 2a05:d01c:8bb:ac00:4f37:2224:5a76:e7fc
 calculate: # candyisakat@gmail.com U082PKSD15L
 - ttl: 600
   type: A
