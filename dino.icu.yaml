@@ -433,15 +433,15 @@ dev-email:
   type: TXT
   values:
   - v=spf1 include:spf.improvmx.com ~all
-coolify.devansh: # devansh.awat@gmail.com https://github.com/Devansh-awat
-- ttl: 600
-  type: A
-  value: 140.245.203.110
-"*.coolify.devansh": # devansh.awat@gmail.com https://github.com/Devansh-awat
-- ttl: 600
-  type: A
-  value: 140.245.203.110
 hcai.devansh: # devansh.awat@gmail.com https://github.com/Devansh-awat
+- ttl: 600
+  type: A
+  value: 140.245.203.110
+orchard.devansh: # devansh.awat@gmail.com https://github.com/Devansh-awat
+- ttl: 600
+  type: A
+  value: 140.245.203.110
+"*.orchard.devansh": # devansh.awat@gmail.com https://github.com/Devansh-awat
 - ttl: 600
   type: A
   value: 140.245.203.110
