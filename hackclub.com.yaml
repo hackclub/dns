@@ -5783,11 +5783,8 @@ twist: # barnav / U08RVF1BAN4
   - type: CNAME
     value: 5ed07fd5316ed1ea.vercel-dns-016.com.
 twisted: # kavyansh / kavyanshkhaitan11@gmail.com / U0A7776A2MT POC: @heliodex
-  - octodns:
-      cloudflare:
-        proxied: true
-    type: CNAME
-    value: a.ingress.tier2.infra.hackclub.com.
+- type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 docs.twisted: # aoishikkhan@gmail.com U0A5NKH93BJ POC: @heliodex
   - octodns:
       cloudflare:
