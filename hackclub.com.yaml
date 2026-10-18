@@ -5577,6 +5577,9 @@ api.terra: # U07VC9705D4
 game.terra: # U07VC9705D4
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+texel: # maxhurley@hackclub.com
+- type: CNAME
+  value: cname.vercel-dns.com.
 tfss:
   - type: A
     value: 216.150.1.1 # Vercel
