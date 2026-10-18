@@ -5028,9 +5028,6 @@ siege:
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
-sign:
-  type: CNAME
-  value: e7790f414ff198c9.vercel-dns-016.com.
 signature:
   octodns:
     cloudflare:
