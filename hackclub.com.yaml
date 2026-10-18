@@ -1250,6 +1250,12 @@ charon:
 docs.charon:
   type: CNAME
   value: hackclub.github.io.
+chatwoot: # anson@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 checkbox: # brendan@hackclub.com
   - octodns:
       cloudflare:
