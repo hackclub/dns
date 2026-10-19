@@ -1526,7 +1526,7 @@ review.cq: # ruben@scstudios.tech U0AHNB20WDD
     cloudflare:
       proxied: true
   type: CNAME
-  value: 8b7247cd-3175-4695-acd3-30a116fe01ad.cfargotunnel.com.
+  value: 8a64f8c1-b834-4ad1-822d-da8763edf42e.cfargotunnel.com.
 craft:
   - type: CNAME
     value: craft-ept.pages.dev.
