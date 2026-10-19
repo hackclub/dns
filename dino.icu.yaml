@@ -25,7 +25,7 @@
 ---
 '': # mahad@hackclub.com (the bare domain)
 - type: ALIAS
-  value: xdonryt4em6uudcgsggr2va2.b.selfhosted.hackclub.com. # hackclub/dino.icu on coolify (b server)
+  value: xdonryt4em6uudcgsggr2va2.b.selfhosted.hackclub.com.   # hackclub/dino.icu on coolify (b server)
 - ttl: 600
   type: MX
   values:
@@ -44,8 +44,8 @@
   values:
   - google-site-verification=LPx57IBOflR6ko3yB9xUp4MokUh_jXXNO8mVd0Tzh6k
   - v=spf1 include:_spf.google.com ~all
-  - "00071672" # vercel verification code
-  - 1password-site-verification=USIDTEC4TVE67CUT3E7HYFVHGY # 1pass domain breach report feature
+  - "00071672"     # vercel verification code
+  - 1password-site-verification=USIDTEC4TVE67CUT3E7HYFVHGY     # 1pass domain breach report feature
 # "*": # wildcard redirect
 #   ttl: 600
 #   type: CNAME
@@ -62,9 +62,9 @@ aan: # yassinbs@yahoo.com
 - type: CNAME
   value: cname.vercel-dns.com.
 ai: # Suprised no one took this yet!
-- ttl: 600 # + AI
-  type: CNAME # https://github.com/elijah629/web2050,
-  value: e.hackclub.app. # > the internet except everything is and was vibe coded
+- ttl: 600   # + AI
+  type: CNAME   # https://github.com/elijah629/web2050,
+  value: e.hackclub.app.   # > the internet except everything is and was vibe coded
 airborne: # by U0807ADEC6L // @Manan
 - ttl: 600
   type: CNAME
@@ -105,8 +105,8 @@ alumni: # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumni/meta
   ttl: 600
   type: TXT
   values:
-  - "uberspace-mail-kPUHau2GGz" # verification challenge
-  - "v=spf1 include:spf.uberspace.de ~all" # SPF records
+  - "uberspace-mail-kPUHau2GGz"     # verification challenge
+  - "v=spf1 include:spf.uberspace.de ~all"     # SPF records
 _atproto.alumni: # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumni/meta
 - ttl: 600
   type: TXT
@@ -551,9 +551,9 @@ felix: # jacob.navaratne@outlook.com | Jacob Navaratne | @Jacob on Slack!
   type: CNAME
   value: smartsparkcoding.github.io.
 filehop: # manjumusei@gmail.com U0AQMKK8A5U
-  - ttl: 600
-    type: CNAME
-    value: shanghaishadows.hackclub.app.
+- ttl: 600
+  type: CNAME
+  value: shanghaishadows.hackclub.app.
 fileserver: # will.kuntze@gmail.com Will Kuntze
 - ttl: 600
   type: A
@@ -912,10 +912,10 @@ misskey: #hackisskey | korange753@gmail.com U091Q2MS3T9
   type: ALIAS
   value: hackclub.app.
   octodns:
-    lenient: true # I want to use ALIAS records to allow for future record additions, but OctoDNS only allows ALIAS records for the root directory by default, hence the current configuration.
+    lenient: true   # I want to use ALIAS records to allow for future record additions, but OctoDNS only allows ALIAS records for the root directory by default, hence the current configuration.
 - ttl: 600
   type: TXT
-  value: domain-verification=korange # for Nest
+  value: domain-verification=korange   # for Nest
 mkv: # drew@drewfitzgerald.co.nz U0AA0EU3G3V
 - type: CNAME
   value: mkv.wchouses.co.nz.
@@ -945,8 +945,8 @@ _github-pages-challenge-CattacoCattaco.mutate:
   type: TXT
   value: 69b4c74ea3da3c12161efd2ce086fd
 mychatbot: # U0A171MLX7Z Robert
-  - type: CNAME
-    value: chatbot-admin.hackclub.app.
+- type: CNAME
+  value: chatbot-admin.hackclub.app.
 myfly: # jz7680326@gmail.com U0C3LA2P7FC
 - type: CNAME
   value: datian.hackclub.app.

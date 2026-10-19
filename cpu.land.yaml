@@ -6,9 +6,9 @@
     cloudflare:
       proxied: true
   values:
-    - google-site-verification=yrBprsuPgbaoNFd79KLgjYMr2xqEZhkaTH6eZbYvsHg # google search console
-    - google-site-verification=KuU6_yKBnq6HLWIGl9z8FJTm9QERMFBkuhVnG7SxC5o # ahrefs
-    - v=spf1 -all
+  - google-site-verification=yrBprsuPgbaoNFd79KLgjYMr2xqEZhkaTH6eZbYvsHg     # google search console
+  - google-site-verification=KuU6_yKBnq6HLWIGl9z8FJTm9QERMFBkuhVnG7SxC5o     # ahrefs
+  - v=spf1 -all
 "_dmarc":
   type: TXT
   value: v=DMARC1\; p=reject\; sp=reject\; adkim=s\; aspf=s

@@ -45,9 +45,7 @@ def sort(path, check_only=False):
     yaml = YAML()
     yaml.preserve_quotes = True
     yaml.width = 4096
-    yaml.best_sequence_indent = 2
-    yaml.best_map_indent = 2
-    yaml.best_sequence_dash_offset = 0
+    yaml.indent(mapping=2, sequence=2, offset=0)
     yaml.explicit_start = None
 
     with open(path) as f:
@@ -78,10 +76,7 @@ def sort(path, check_only=False):
     keys = list(data.keys())
     sorted_keys = sorted(keys, key=KEYGEN)
 
-    if keys == sorted_keys:
-        return True
-
-    if check_only:
+    if check_only and keys != sorted_keys:
         for i, (got, expected) in enumerate(zip(keys, sorted_keys)):
             if got != expected:
                 got_display = "''" if isinstance(got, str) and got == '' else ('null' if got is None else got)
@@ -91,9 +86,6 @@ def sort(path, check_only=False):
         return False
 
     sorted_data = CommentedMap()
-
-    if hasattr(data, 'ca') and data.ca.comment:
-        sorted_data.ca.comment = data.ca.comment
 
     for key in sorted_keys:
         sorted_data[key] = data[key]
@@ -106,12 +98,15 @@ def sort(path, check_only=False):
     yaml.dump(sorted_data, buf)
     sorted_yaml = buf.getvalue()
 
+    formatted = (preamble or ("---\n" if has_doc_start else "")) + sorted_yaml
+    if raw == formatted:
+        return True
+    if check_only:
+        print(f"  {path.name}: formatting differs (run python3 bin/sort-zones {path.name})")
+        return False
+
     with open(path, "w") as f:
-        if preamble:
-            f.write(preamble)
-        elif has_doc_start:
-            f.write("---\n")
-        f.write(sorted_yaml)
+        f.write(formatted)
 
     return False
 
@@ -133,10 +128,10 @@ def main():
 
     if check_only:
         if unsorted:
-            print(f"\n{len(unsorted)} file(s) have keys out of order")
+            print(f"\n{len(unsorted)} file(s) need sorting or formatting")
             sys.exit(1)
         else:
-            print("all files are in order")
+            print("all files are sorted and formatted")
             sys.exit(0)
     else:
         if unsorted:
@@ -144,7 +139,7 @@ def main():
                 print(f"sorted: {p.name}")
             print(f"\n{len(unsorted)} file(s) sorted")
         else:
-            print("all files were already in order")
+            print("all files were already sorted and formatted")
 
 
 if __name__ == "__main__":
