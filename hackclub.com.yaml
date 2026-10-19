@@ -3571,6 +3571,9 @@ low-skies:
 luna:
   type: CNAME
   value: cname.vercel-dns.com.
+luyicheng: # 01luyicheng@gmail.com U08Q6MW5ABH
+- type: A
+  value: 47.96.181.26
 lyla: # dracula@conduct.hackclub.com U0A5PLKMB25
   - octodns:
       cloudflare:
