@@ -212,6 +212,9 @@ baguette: # blog
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+battleboy96: # tggblake.2012@gmail.com - U0B8T98PV41
+- type: AAAA
+  value: 2a01:4f9:3080:3192::2083
 bedtime: # dristiroy@gmail.com U08R7L3E859
   ttl: 600
   type: CNAME
