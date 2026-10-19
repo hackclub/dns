@@ -43,7 +43,6 @@ def sort(path, check_only=False):
     yaml = YAML()
     yaml.preserve_quotes = True
 
-    # Disable newline translation: record blocks must retain their original bytes.
     with open(path, newline="") as f:
         raw = f.read()
 
@@ -71,9 +70,7 @@ def sort(path, check_only=False):
     if data.fa.flow_style() or len(set(starts)) != len(starts):
         raise ValueError(f"{path}: expected a top-level block mapping")
 
-    # Keep the preamble fixed. Between records, unindented standalone comments
-    # describe the following key, not the preceding value. Leave blank lines
-    # before those comments alone: they may belong to a |+ block scalar.
+    # Move original blocks, keeping standalone comments with the following key.
     for i in range(1, len(starts)):
         cursor = starts[i] - 1
         while cursor > starts[i - 1]:
@@ -84,25 +81,15 @@ def sort(path, check_only=False):
                 break
             cursor -= 1
 
-    # An explicit document end (and anything after it) is not part of a record.
-    end = next(
-        (i for i in range(starts[-1], len(lines))
-         if lines[i].rstrip("\r\n") == "..."),
-        len(lines),
-    )
-    blocks = {
-        key: "".join(lines[start:stop])
-        for key, start, stop in zip(keys, starts, starts[1:] + [end])
-    }
-    ordered = [blocks[key] for key in sorted_keys]
+    end = next((i for i in range(starts[-1], len(lines))
+                if lines[i].rstrip("\r\n") == "..."), len(lines))
+    blocks = {key: "".join(lines[start:stop])
+              for key, start, stop in zip(keys, starts, starts[1:] + [end])}
     newline = "\r\n" if "\r\n" in raw else "\n"
-    # A record at EOF may lack a terminating newline. Supply a separator when
-    # moving it into the middle, while retaining the file's EOF newline style.
-    for i in range(len(ordered) - 1):
-        if not ordered[i].endswith(("\n", "\r")):
-            ordered[i] += newline
-    result = "".join(lines[:starts[0]]) + "".join(ordered) + "".join(lines[end:])
-    if not raw.endswith(("\n", "\r")) and result.endswith(newline):
+    ordered = [blocks[key] + ("" if blocks[key].endswith("\n") else newline)
+               for key in sorted_keys]
+    result = "".join(lines[:starts[0]] + ordered + lines[end:])
+    if not raw.endswith("\n") and result.endswith(newline):
         result = result[:-len(newline)]
 
     with open(path, "w", newline="") as f:

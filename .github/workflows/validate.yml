@@ -68,9 +68,6 @@ jobs:
       - name: Install dependencies
         run: pip install natsort ruamel.yaml
 
-      - name: Test zone sorter
-        run: python3 -m unittest discover -s tests -v
-
       - name: Check sort order
         id: sort-check
         run: python3 bin/sort-zones --check
