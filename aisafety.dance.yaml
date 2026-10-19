@@ -1,8 +1,8 @@
 ---
 '':
-  - type: ALIAS
-    value: hackclub.github.io.
+- type: ALIAS
+  value: hackclub.github.io.
 
 'www':
-  - type: CNAME
-    value: hackclub.github.io.
+- type: CNAME
+  value: hackclub.github.io.
