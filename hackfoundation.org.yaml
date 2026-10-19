@@ -1,10 +1,7 @@
 ---
 '': # zach@hackclub.com U0266FRGP
 - type: ALIAS
-  value: a.ingress.tier2.infra.hackclub.com.
-  octodns:
-    cloudflare:
-      proxied: true
+  value: 325645869ea6d049.vercel-dns-013.com.
 - type: TXT
   values:
   - v=spf1 -all
@@ -16,13 +13,7 @@ _dmarc: # zach@hackclub.com U0266FRGP
   value: v=DKIM1\; p=
 the: # zach@hackclub.com U0266FRGP
   type: CNAME
-  value: a.ingress.tier2.infra.hackclub.com.
-  octodns:
-    cloudflare:
-      proxied: true
+  value: 325645869ea6d049.vercel-dns-013.com.
 www: # zach@hackclub.com U0266FRGP
   type: CNAME
-  value: a.ingress.tier2.infra.hackclub.com.
-  octodns:
-    cloudflare:
-      proxied: true
+  value: 325645869ea6d049.vercel-dns-013.com.
