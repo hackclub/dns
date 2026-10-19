@@ -3830,6 +3830,12 @@ nemo: # dracula@conduct.hackclub.com U0A5PLKMB25
         proxied: true
     type: CNAME
     value: a.ingress.tier2.infra.hackclub.com.
+bot.nemo: # dracula@conduct.hackclub.com U0A5PLKMB25
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 neohack:
   type: CNAME
   value: 10f7be41618be21d.vercel-dns-016.com.
