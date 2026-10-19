@@ -8,13 +8,11 @@ bin/sort-zones --check     # check only
 bin/sort-zones foo.yaml    # sort one file
 """
 
-import io
 import sys
 from pathlib import Path
 
 from natsort import natsort_keygen
 from ruamel.yaml import YAML
-from ruamel.yaml.comments import CommentedMap
 
 _NATSORT_KEY = natsort_keygen()
 
@@ -44,36 +42,14 @@ def get():
 def sort(path, check_only=False):
     yaml = YAML()
     yaml.preserve_quotes = True
-    yaml.width = 4096
-    yaml.best_sequence_indent = 2
-    yaml.best_map_indent = 2
-    yaml.best_sequence_dash_offset = 0
-    yaml.explicit_start = None
 
-    with open(path) as f:
+    # Disable newline translation: record blocks must retain their original bytes.
+    with open(path, newline="") as f:
         raw = f.read()
 
-    has_doc_start = raw.lstrip().startswith("---")
-
     data = yaml.load(raw)
-
     if data is None:
         return True
-
-    preamble = ""
-    first_key_line = None
-    for i, line in enumerate(raw.splitlines()):
-        stripped = line.strip()
-        if stripped == "---" or stripped.startswith("#") or stripped == "":
-            continue
-        else:
-            first_key_line = i
-            break
-
-    if first_key_line:
-        preamble_lines = raw.splitlines()[:first_key_line]
-        if preamble_lines:
-            preamble = "\n".join(preamble_lines) + "\n"
 
     keys = list(data.keys())
     sorted_keys = sorted(keys, key=KEYGEN)
@@ -90,28 +66,47 @@ def sort(path, check_only=False):
                 break
         return False
 
-    sorted_data = CommentedMap()
+    lines = raw.splitlines(keepends=True)
+    starts = [data.lc.key(key)[0] for key in keys]
+    if data.fa.flow_style() or len(set(starts)) != len(starts):
+        raise ValueError(f"{path}: expected a top-level block mapping")
 
-    if hasattr(data, 'ca') and data.ca.comment:
-        sorted_data.ca.comment = data.ca.comment
+    # Keep the preamble fixed. Between records, unindented standalone comments
+    # describe the following key, not the preceding value. Leave blank lines
+    # before those comments alone: they may belong to a |+ block scalar.
+    for i in range(1, len(starts)):
+        cursor = starts[i] - 1
+        while cursor > starts[i - 1]:
+            line = lines[cursor]
+            if line.startswith("#"):
+                starts[i] = cursor
+            elif line.strip():
+                break
+            cursor -= 1
 
-    for key in sorted_keys:
-        sorted_data[key] = data[key]
-        if key in data.ca.items:
-            sorted_data.ca.items[key] = data.ca.items[key]
+    # An explicit document end (and anything after it) is not part of a record.
+    end = next(
+        (i for i in range(starts[-1], len(lines))
+         if lines[i].rstrip("\r\n") == "..."),
+        len(lines),
+    )
+    blocks = {
+        key: "".join(lines[start:stop])
+        for key, start, stop in zip(keys, starts, starts[1:] + [end])
+    }
+    ordered = [blocks[key] for key in sorted_keys]
+    newline = "\r\n" if "\r\n" in raw else "\n"
+    # A record at EOF may lack a terminating newline. Supply a separator when
+    # moving it into the middle, while retaining the file's EOF newline style.
+    for i in range(len(ordered) - 1):
+        if not ordered[i].endswith(("\n", "\r")):
+            ordered[i] += newline
+    result = "".join(lines[:starts[0]]) + "".join(ordered) + "".join(lines[end:])
+    if not raw.endswith(("\n", "\r")) and result.endswith(newline):
+        result = result[:-len(newline)]
 
-    yaml.explicit_start = False
-
-    buf = io.StringIO()
-    yaml.dump(sorted_data, buf)
-    sorted_yaml = buf.getvalue()
-
-    with open(path, "w") as f:
-        if preamble:
-            f.write(preamble)
-        elif has_doc_start:
-            f.write("---\n")
-        f.write(sorted_yaml)
+    with open(path, "w", newline="") as f:
+        f.write(result)
 
     return False
 
