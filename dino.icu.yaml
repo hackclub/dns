@@ -24,136 +24,136 @@
 
 ---
 '': # mahad@hackclub.com (the bare domain)
-- type: ALIAS
-  value: xdonryt4em6uudcgsggr2va2.b.selfhosted.hackclub.com. # hackclub/dino.icu on coolify (b server)
-- ttl: 600
-  type: MX
-  values:
-  - exchange: aspmx.l.google.com.
-    preference: 1
-  - exchange: alt1.aspmx.l.google.com.
-    preference: 5
-  - exchange: alt2.aspmx.l.google.com.
-    preference: 5
-  - exchange: alt3.aspmx.l.google.com.
-    preference: 10
-  - exchange: alt4.aspmx.l.google.com.
-    preference: 10
-- ttl: 5
-  type: TXT
-  values:
-  - google-site-verification=LPx57IBOflR6ko3yB9xUp4MokUh_jXXNO8mVd0Tzh6k
-  - v=spf1 include:_spf.google.com ~all
-  - "00071672" # vercel verification code
-  - 1password-site-verification=USIDTEC4TVE67CUT3E7HYFVHGY # 1pass domain breach report feature
+  - type: ALIAS
+    value: xdonryt4em6uudcgsggr2va2.b.selfhosted.hackclub.com. # hackclub/dino.icu on coolify (b server)
+  - ttl: 600
+    type: MX
+    values:
+      - exchange: aspmx.l.google.com.
+        preference: 1
+      - exchange: alt1.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt2.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt3.aspmx.l.google.com.
+        preference: 10
+      - exchange: alt4.aspmx.l.google.com.
+        preference: 10
+  - ttl: 5
+    type: TXT
+    values:
+      - google-site-verification=LPx57IBOflR6ko3yB9xUp4MokUh_jXXNO8mVd0Tzh6k
+      - v=spf1 include:_spf.google.com ~all
+      - "00071672" # vercel verification code
+      - 1password-site-verification=USIDTEC4TVE67CUT3E7HYFVHGY # 1pass domain breach report feature
 # "*": # wildcard redirect
 #   ttl: 600
 #   type: CNAME
 #   value: cname.vercel-dns.com.
 8-bit: # narangswarit02@gmail.com Swarit Narang // hellonearth311
-- ttl: 600
-  type: A
-  value: 216.198.79.1
+  - ttl: 600
+    type: A
+    value: 216.198.79.1
 8ball: #mylesmarbell@gmail.com U0C386FB86Q
-- ttl: 600
-  type: A
-  value: 34.117.33.233
+  - ttl: 600
+    type: A
+    value: 34.117.33.233
 aan: # yassinbs@yahoo.com
-- type: CNAME
-  value: cname.vercel-dns.com.
+  - type: CNAME
+    value: cname.vercel-dns.com.
 ai: # Suprised no one took this yet!
-- ttl: 600 # + AI
-  type: CNAME # https://github.com/elijah629/web2050,
-  value: e.hackclub.app. # > the internet except everything is and was vibe coded
+  - ttl: 600 # + AI
+    type: CNAME # https://github.com/elijah629/web2050,
+    value: e.hackclub.app. # > the internet except everything is and was vibe coded
 airborne: # by U0807ADEC6L // @Manan
-- ttl: 600
-  type: CNAME
-  value: cname.vercel-dns.com.
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 ajhalili2006: # ajhalili2006@andreijiroh.dev https://gitlab.com/andreijiroh-dev/launchpad
-- ttl: 600
-  type: A
+  - ttl: 600
+    type: A
     # https://github.com/andreijiroh-dev/api-servers/tree/main/apps/redirector, hosted on Deno Deploy
-  value: 69.67.170.170
+    value: 69.67.170.170
 _acme-challenge.ajhalili2006: # ajhalili2006@andreijiroh.dev https://gitlab.com/andreijiroh-dev/launchpad
-- ttl: 600
-  type: CNAME
-  value: 3a1ea03c191e234288b279704763e052._acme.deno.net.
+  - ttl: 600
+    type: CNAME
+    value: 3a1ea03c191e234288b279704763e052._acme.deno.net.
 # Alumni Society (https://github.com/hackclub-alumni/meta/issues/1)
 # Records are primarily managed by @ajhalili2006 (U07CAPBB9B5), although other alums
 # can manage them by coordinating at #alums channel or https://github.com/hackclub-alumni/meta.
 alumni: # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumni/meta
   # GitLab Pages - https://gitlab.com/hackclub-community/alumni/website
-- ttl: 600
-  type: A
-  value: 35.185.44.232
-- ttl: 600
-  type: AAAA
-  value: "2600:1901:0:7b8a::"
+  - ttl: 600
+    type: A
+    value: 35.185.44.232
+  - ttl: 600
+    type: AAAA
+    value: "2600:1901:0:7b8a::"
   # Community mailbox for alums, currently managed by @ajhalili2006 on Uberspace [NOT PLANNED FOR SSO STUFF]
   # If you are an alum, you can request one via Slack DMs or at https://gitlab.com/hackclub-community/alumni/meta/-/issues.
-- octodns:
-    cloudflare:
-      comment: "U8 mailbox - ajhalili@janus.uberspace.de"
-  ttl: 600
-  type: MX
-  values:
-  - exchange: in-mx.uberspace.de.
-    preference: 10
-- octodns:
-    cloudflare:
-      comment: "U8 mailbox - ajhalili@janus.uberspace.de"
-  ttl: 600
-  type: TXT
-  values:
-  - "uberspace-mail-kPUHau2GGz" # verification challenge
-  - "v=spf1 include:spf.uberspace.de ~all" # SPF records
+  - octodns:
+      cloudflare:
+        comment: "U8 mailbox - ajhalili@janus.uberspace.de"
+    ttl: 600
+    type: MX
+    values:
+      - exchange: in-mx.uberspace.de.
+        preference: 10
+  - octodns:
+      cloudflare:
+        comment: "U8 mailbox - ajhalili@janus.uberspace.de"
+    ttl: 600
+    type: TXT
+    values:
+      - "uberspace-mail-kPUHau2GGz" # verification challenge
+      - "v=spf1 include:spf.uberspace.de ~all" # SPF records
 _atproto.alumni: # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumni/meta
-- ttl: 600
-  type: TXT
-  value: "did=did:plc:yi5ewii4xerodl6ljn3fwga6"
+  - ttl: 600
+    type: TXT
+    value: "did=did:plc:yi5ewii4xerodl6ljn3fwga6"
 uberspace1._domainkey.alumni: # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumni/meta
-- octodns:
-    cloudflare:
-      comment: "U8 mailbox - ajhalili@janus.uberspace.de"
-  ttl: 600
-  type: CNAME
-  value: dkim1.uberspace.de.
+  - octodns:
+      cloudflare:
+        comment: "U8 mailbox - ajhalili@janus.uberspace.de"
+    ttl: 600
+    type: CNAME
+    value: dkim1.uberspace.de.
 uberspace2._domainkey.alumni: # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumni/meta
-- octodns:
-    cloudflare:
-      comment: "U8 mailbox - ajhalili@janus.uberspace.de"
-  ttl: 600
-  type: CNAME
-  value: dkim2.uberspace.de.
+  - octodns:
+      cloudflare:
+        comment: "U8 mailbox - ajhalili@janus.uberspace.de"
+    ttl: 600
+    type: CNAME
+    value: dkim2.uberspace.de.
 _gh-hackclub-alumni-o.alumni: # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumni/meta
-- ttl: 600
-  type: TXT
-  value: "73477a0c9e"
+  - ttl: 600
+    type: TXT
+    value: "73477a0c9e"
 _github-pages-challenge-hackclub-alumni.alumni: # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumni/meta
-- ttl: 600
-  type: TXT
-  value: "3777bf5f9b6076520d8bbcebb90d45"
+  - ttl: 600
+    type: TXT
+    value: "3777bf5f9b6076520d8bbcebb90d45"
 _gitlab-pages-verification-code.alumni: # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumni/meta
-- ttl: 600
-  type: TXT
-  value: "gitlab-pages-verification-code=398259d364b40425aee99d9b0a6bec8d"
+  - ttl: 600
+    type: TXT
+    value: "gitlab-pages-verification-code=398259d364b40425aee99d9b0a6bec8d"
 blog.alumni: # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumni/meta
-- ttl: 600
-  type: CNAME
-  value: 731fb7077db63b1d.vercel-dns-016.com.
+  - ttl: 600
+    type: CNAME
+    value: 731fb7077db63b1d.vercel-dns-016.com.
 amina: # by https://github.com/amino47
   ttl: 600
   type: CNAME
   value: amino47.github.io.
 andreijiroh: # ajhalili2006@andreijiroh.dev https://gitlab.com/andreijiroh-dev/launchpad
-- ttl: 600
-  type: A
+  - ttl: 600
+    type: A
     # https://github.com/andreijiroh-dev/api-servers/tree/main/apps/redirector, hosted on Deno Deploy
-  value: 69.67.170.170
+    value: 69.67.170.170
 _acme-challenge.andreijiroh: # ajhalili2006@andreijiroh.dev https://gitlab.com/andreijiroh-dev/launchpad
-- ttl: 600
-  type: CNAME
-  value: abd77e2d22191e54d5f6c8ad24fcfd97._acme.deno.net.
+  - ttl: 600
+    type: CNAME
+    value: abd77e2d22191e54d5f6c8ad24fcfd97._acme.deno.net.
 andrew: # by https://github.com/anddddrew
   ttl: 600
   type: CNAME
@@ -163,21 +163,21 @@ ansh:
   type: CNAME
   value: ansh3108.github.io.
 aoishik: # By https://github.com/aoishik aoishikkhan@gmail.com @aoishik(U0A5NKH93BJ)
-- ttl: 600
-  type: CNAME
-  value: aoishik.github.io.
+  - ttl: 600
+    type: CNAME
+    value: aoishik.github.io.
 arjav: #by https://github.com/arjav0703
-- ttl: 600
-  type: A
-  value: 76.76.21.21
+  - ttl: 600
+    type: A
+    value: 76.76.21.21
 knowledgebase.arjav: # @arjav0703 I use it for my knowledgebase
   ttl: 600
   type: CNAME
   value: arjav0703.github.io.
 arson: # accidentally added it to the hcb site first
-- ttl: 600
-  type: CNAME
-  value: arsoninstigator.github.io.
+  - ttl: 600
+    type: CNAME
+    value: arsoninstigator.github.io.
 art: # by https://github.com/rajanwastaken
   ttl: 600
   type: CNAME
@@ -187,23 +187,23 @@ aryanpatel: # by https://github.com/aryanpatel142006
   type: CNAME
   value: cname.vercel-dns.com. # vercel
 as: # Jacob N // @Jacob // U0AEYDUCLKF // jacob.navaratne@outlook.com
-- type: CNAME
-  value: mini-jacob.hackclub.app.
-  ttl: 600
+  - type: CNAME
+    value: mini-jacob.hackclub.app.
+    ttl: 600
 as-hosting: # jacob.navaratne@outlook.com / @Jacob on Slack
-- type: CNAME
-  value: mini-jacob.hackclub.app.
+  - type: CNAME
+    value: mini-jacob.hackclub.app.
 asclub: # Jacob N // @Jacob // U0AEYDUCLKF // jacob.navaratne@outlook.com
-- type: CNAME
-  value: mini-jacob.hackclub.app.
-  ttl: 600
+  - type: CNAME
+    value: mini-jacob.hackclub.app.
+    ttl: 600
 ashtec: # jacob.navaratne@outlook.com / U0AEYDUCLKF
-- type: CNAME
-  value: mini-jacob.hackclub.app.
+  - type: CNAME
+    value: mini-jacob.hackclub.app.
 automake: # obagaming@gmail.com U0A1G9F445D
-- ttl: 600
-  type: A
-  value: 216.198.79.1
+  - ttl: 600
+    type: A
+    value: 216.198.79.1
 avsc:
   ttl: 600
   type: CNAME
@@ -213,18 +213,18 @@ baguette: # blog
   type: CNAME
   value: cname.vercel-dns.com.
 battleboy96: # tggblake.2012@gmail.com - U0B8T98PV41
-- type: AAAA
-  value: 2a01:4f9:3080:3192::2083
+  - type: AAAA
+    value: 2a01:4f9:3080:3192::2083
 bedtime: # dristiroy@gmail.com U08R7L3E859
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
 bencetopa: # bencetopa06@gmail.com
-- type: CNAME
-  value: jivespark.github.io.
+  - type: CNAME
+    value: jivespark.github.io.
 betterschool: # richarddiscord@duck.com
-- type: A
-  value: 130.61.17.229
+  - type: A
+    value: 130.61.17.229
 betterwork-ai: # by https://heramb0x1.github.io/betterwork-ai
   ttl: 600
   type: CNAME
@@ -246,8 +246,8 @@ blit: # U07JEDAMFV3
   type: A
   value: 216.198.79.1
 blxm: # bloxdmasterbloxdacc@gmail.com
-- type: CNAME
-  value: blxm.me.
+  - type: CNAME
+    value: blxm.me.
 boxed: # U08PUHSMW4V
   ttl: 600
   type: CNAME
@@ -263,50 +263,50 @@ bs: # by https://github.com/leecheeyong/BrawlBio
 # Default handle suffix base for @recaptime.dev's PDS service
 # See https://gitlab.com/recaptime-dev/hosted-services/atproto-pds for details
 bsky: # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumni/meta
-- ttl: 600
-  type: CNAME
-  value: proxyparty.recaptime.dev.
+  - ttl: 600
+    type: CNAME
+    value: proxyparty.recaptime.dev.
 "*.bsky": # andreijiroh@alumni.dino.icu https://github.com/hackclub-alumni/meta
-- ttl: 300
-  type: CNAME
-  value: proxyparty.recaptime.dev.
+  - ttl: 300
+    type: CNAME
+    value: proxyparty.recaptime.dev.
 bsstar: # U08SAC05VMW
-- type: AAAA
-  value: 2a01:4f9:3a:276e::1593
+  - type: AAAA
+    value: 2a01:4f9:3a:276e::1593
 bubble-net: # U07L463K2R3
-- type: A
-  value: 216.198.79.1
+  - type: A
+    value: 216.198.79.1
 bucksite: # the.bucket020@gmail.com U0AF865SD2P
-- ttl: 600
-  type: CNAME
-  value: thebucket-ops.github.io.
+  - ttl: 600
+    type: CNAME
+    value: thebucket-ops.github.io.
 buddy: # shreyansh.offline@gmail.com
-- type: CNAME
-  value: shreyanshoffline.github.io.
+  - type: CNAME
+    value: shreyanshoffline.github.io.
 gfp3elmqn4ct.buddy: # shreyansh.offline@gmail.com
-- type: CNAME
-  value: gv-mewe7jyrl6kv6q.dv.googlehosted.com.
+  - type: CNAME
+    value: gv-mewe7jyrl6kv6q.dv.googlehosted.com.
 bugged: # piescrap23@gmail.com https://github.com/nilanshsharma23/bugged
-- ttl: 600
-  type: A
-  value: 216.198.79.1
+  - ttl: 600
+    type: A
+    value: 216.198.79.1
 builders-club: #turtlesy1234@gmail.com U0AM2DYC3FB
-- ttl: 600
-  type: CNAME
-  value: builders-club-henna.vercel.app.
+  - ttl: 600
+    type: CNAME
+    value: builders-club-henna.vercel.app.
 cad: # by https://github.com/leecheeyong/community-widgets
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
 calc: # mattsoh@hackclub.com U07DPHQCCCS
-- type: AAAA
-  value: 2a05:d01c:8bb:ac00:4f37:2224:5a76:e7fc
-- type: A
-  value: 16.60.128.231
+  - type: AAAA
+    value: 2a05:d01c:8bb:ac00:4f37:2224:5a76:e7fc
+  - type: A
+    value: 16.60.128.231
 calculate: # candyisakat@gmail.com U082PKSD15L
-- ttl: 600
-  type: A
-  value: 216.198.79.1
+  - ttl: 600
+    type: A
+    value: 216.198.79.1
 camp: # jenin@hackclub.com
   ttl: 600
   type: CNAME
@@ -324,9 +324,9 @@ carto: # cyrils.li@icloud.com U07FXPUDYDC
   type: CNAME
   value: cyrilsli.github.io.
 catalyst: # U09G5KPFTSL
-- ttl: 600
-  type: CNAME
-  value: cname.vercel-dns.com.
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 channels: # an API for getting slack channels and their IDs
   ttl: 600
   type: CNAME
@@ -336,21 +336,21 @@ channle: # by https://github.com/cjdenio
   type: CNAME
   value: channle.netlify.app.
 chatroom: # U0928R2L93R
-- ttl: 600
-  type: CNAME
-  value: chatroom-ysws.netlify.app.
+  - ttl: 600
+    type: CNAME
+    value: chatroom-ysws.netlify.app.
 chess: # by https://github.com/leecheeyong/chinese-chess
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
 cipher: # rupnil.mondal2+hackclub@gmail.com; Rupnil Codes, slack: U0A4UTULSLE
-- ttl: 600
-  type: A
-  value: 216.198.79.1
+  - ttl: 600
+    type: A
+    value: 216.198.79.1
 clayforge: # wilmerbailon007@gmail.com
-- ttl: 600
-  type: CNAME
-  value: wilmerbailon007.hackclub.app.
+  - ttl: 600
+    type: CNAME
+    value: wilmerbailon007.hackclub.app.
 click: # a URL shortener
   ttl: 600
   type: CNAME
@@ -364,31 +364,31 @@ commbadge: # hpscigeek@gmail.com https://github.com/nerdwithcomputers slack: U04
   type: CNAME
   value: miracl3max.duckdns.org.
 connor: # connor321@protonmail.com
-- type: CNAME
-  value: connors-site-five.vercel.app.
+  - type: CNAME
+    value: connors-site-five.vercel.app.
 constellation: # me@theutkarsh8939.dev U0AM8ASHEG6
-- ttl: 600
-  type: A
-  value: 216.198.79.1
+  - ttl: 600
+    type: A
+    value: 216.198.79.1
 constrained: # funkeudo@outlook.com U0A03GWFP1V
-- ttl: 600
-  type: A
-  value: 216.198.79.1
+  - ttl: 600
+    type: A
+    value: 216.198.79.1
 controlline: # Github: NoIwantyourcode slack: U0A269NG76F
   ttl: 600
   type: A
   value: 216.198.79.1
 convert3d: # U0B7SMP7PU6
-- type: CNAME
-  value: planema4.hackclub.app.
+  - type: CNAME
+    value: planema4.hackclub.app.
 cookie: # cloudglides@proton.me U0A2EKA9FAL
-- ttl: 600
-  type: A
-  value: 216.198.79.1
+  - ttl: 600
+    type: A
+    value: 216.198.79.1
 copilot: # @Yasin U07F2TA4YVB yasin@flonga.org https://yasina74.github.io/copilot-ysws/
-- ttl: 600
-  type: CNAME
-  value: yasina74.github.io.
+  - ttl: 600
+    type: CNAME
+    value: yasina74.github.io.
 corechat: # aradforsure@gmaul.com U0AJN9LJDGS
   ttl: 600
   type: CNAME
@@ -413,51 +413,51 @@ dash: # vortex master record - https://vortex.skyfall.dev
   ttl: 60
   type: MX
   values:
-  - exchange: sequoia.dino.icu.
-    preference: 10
+    - exchange: sequoia.dino.icu.
+      preference: 10
 dast: # by https://github.com/danielsebesta
   ttl: 600
   type: A
   value: 194.163.149.155
 datian: # jz7680326@gmail.com U0C3LA2P7FC
-- type: CNAME
-  value: datian.hackclub.app.
+  - type: CNAME
+    value: datian.hackclub.app.
 deskbot: # dristiroy@gmail.com U08R7L3E859
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
 dev-email:
-- ttl: 600
-  type: MX
-  values:
-  - exchange: mx1.improvmx.com.
-    preference: 10
-  - exchange: mx2.improvmx.com.
-    preference: 20
-- ttl: 5
-  type: TXT
-  values:
-  - v=spf1 include:spf.improvmx.com ~all
+  - ttl: 600
+    type: MX
+    values:
+      - exchange: mx1.improvmx.com.
+        preference: 10
+      - exchange: mx2.improvmx.com.
+        preference: 20
+  - ttl: 5
+    type: TXT
+    values:
+      - v=spf1 include:spf.improvmx.com ~all
 hcai.devansh: # devansh.awat@gmail.com https://github.com/Devansh-awat
-- ttl: 600
-  type: A
-  value: 140.245.203.110
+  - ttl: 600
+    type: A
+    value: 140.245.203.110
 orchard.devansh: # devansh.awat@gmail.com https://github.com/Devansh-awat
-- ttl: 600
-  type: A
-  value: 140.245.203.110
+  - ttl: 600
+    type: A
+    value: 140.245.203.110
 "*.orchard.devansh": # devansh.awat@gmail.com https://github.com/Devansh-awat
-- ttl: 600
-  type: A
-  value: 140.245.203.110
+  - ttl: 600
+    type: A
+    value: 140.245.203.110
 stardance.devansh: # devansh.awat@gmail.com https://github.com/Devansh-awat
-- ttl: 600
-  type: A
-  value: 140.245.203.110
+  - ttl: 600
+    type: A
+    value: 140.245.203.110
 devlife: # https://github.com/amarieidavid26-byte  Email: amariei.david26@gmail.com
-- ttl: 600
-  type: A
-  value: 216.198.79.1
+  - ttl: 600
+    type: A
+    value: 216.198.79.1
 dhmango: # U081ZD4EP47
   ttl: 600
   type: CNAME
@@ -495,49 +495,49 @@ www.egg-labs: #U092UGQGHHP
   type: CNAME
   value: url-shortener-lq7a.onrender.com.
 elapsed: # U0A9B38F413
-- ttl: 600
-  type: A
-  value: 216.198.79.1
-  octodns:
-    cloudflare:
-      proxied: true
+  - ttl: 600
+    type: A
+    value: 216.198.79.1
+    octodns:
+      cloudflare:
+        proxied: true
 elyraclub: # vinayaktiwari307@gmail.com
-- ttl: 600
-  type: A
-  value: 216.198.79.1
+  - ttl: 600
+    type: A
+    value: 216.198.79.1
 www.elyraclub: # vinayaktiwari307@gmail.com
-- ttl: 600
-  type: CNAME
-  value: bd87f6ad6e9810ac.vercel-dns-017.com.
+  - ttl: 600
+    type: CNAME
+    value: bd87f6ad6e9810ac.vercel-dns-017.com.
 emojile: # wordle with slack emojis - https://github.com/yodalightsabr/emojile
   ttl: 600
   type: CNAME
   value: yodalightsabr.github.io.
 erdtree: # erdtree.dino.icu - contact @justhypex on discord for issues/enquiries
-- ttl: 600
-  type: MX
-  values:
-  - exchange: mail.vortex.skyfall.dev.
-    preference: 500
+  - ttl: 600
+    type: MX
+    values:
+      - exchange: mail.vortex.skyfall.dev.
+        preference: 500
 evan:
   ttl: 600
   type: A
   value: 150.136.115.122
 ezwinapp: # U08SAC05VMW
-- type: AAAA
-  value: 2a01:4f9:3a:276e::1593
+  - type: AAAA
+    value: 2a01:4f9:3a:276e::1593
 fabianovich: # fabianovich@duck.com slack: @fabianovich
-- ttl: 600
-  type: CNAME
-  value: fabianovich.hackclub.app.
+  - ttl: 600
+    type: CNAME
+    value: fabianovich.hackclub.app.
 factorio: # factorio.dino.icu - Hack Club hacktorio server - Slack: #factorio
   ttl: 600
   type: A
   value: 168.119.243.45
 fallout-flight: # anson@hackclub.com
-- ttl: 600
-  type: A
-  value: 96.9.228.153
+  - ttl: 600
+    type: A
+    value: 96.9.228.153
 fanout: # Eternal on slack (Slack ID: U09H9PLB6E7)
   ttl: 600
   type: CNAME
@@ -555,50 +555,50 @@ filehop: # manjumusei@gmail.com U0AQMKK8A5U
     type: CNAME
     value: shanghaishadows.hackclub.app.
 fileserver: # will.kuntze@gmail.com Will Kuntze
-- ttl: 600
-  type: A
-  value: 174.112.38.43
+  - ttl: 600
+    type: A
+    value: 174.112.38.43
 firepi:
-- ttl: 600
-  type: AAAA
-  value: 2001:470:c0ec:142::6
-- ttl: 600
-  type: A
-  value: 69.8.95.218
+  - ttl: 600
+    type: AAAA
+    value: 2001:470:c0ec:142::6
+  - ttl: 600
+    type: A
+    value: 69.8.95.218
 floriografia: # U0BV3Q1N37F
-- type: CNAME
-  value: mj-1536.hackclub.app.
+  - type: CNAME
+    value: mj-1536.hackclub.app.
 fokus: # https://github.com/leecheeyong/fokus
   ttl: 600
   type: CNAME
   value: leecheeyong.github.io.
 foodshuffle: #scrapyard seattle team foodshuffle project
-- ttl: 600
-  type: A
-  value: 161.35.238.105
+  - ttl: 600
+    type: A
+    value: 161.35.238.105
 fr: #dwait.pandhi@gmail.com Dwait Pandhi
-- ttl: 600
-  type: A
-  value: 216.198.79.1
+  - ttl: 600
+    type: A
+    value: 216.198.79.1
 framebuf: #funkeudo@outlook.com / U0A03GWFP1V
-- ttl: 600
-  type: A
-  value: 216.198.79.1
+  - ttl: 600
+    type: A
+    value: 216.198.79.1
 frontier: # cloudglides@proton.me U0A2EKA9FAL
-- ttl: 600
-  type: CNAME
-  value: cloudglides.hackclub.app.
+  - ttl: 600
+    type: CNAME
+    value: cloudglides.hackclub.app.
 fullhouse: #niko@nikoo.dev U08SF8MVC82
-- ttl: 600
-  type: A
-  value: 216.198.79.1
+  - ttl: 600
+    type: A
+    value: 216.198.79.1
 galaxybrain: # aaranysaini4@gmail.com U0B78MFGH9P
-- type: A
-  value: 216.198.79.1
+  - type: A
+    value: 216.198.79.1
 get: # sabhya.aggarwal@icloud.com U0A83DB0TRN
-- ttl: 600
-  type: A
-  value: 216.198.79.1
+  - ttl: 600
+    type: A
+    value: 216.198.79.1
 geta: # yoda - https://getadinoicu.yodacode.repl.co/dino.png - get a dino from hackclub/dinosaurs api
   ttl: 600
   type: CNAME
@@ -608,40 +608,40 @@ goship: # BnaJns - U08R49H9VRV
   type: CNAME
   value: goship.bnajns.hackclub.app.
 hackai: # coolcream - U096RMRG03G
-- ttl: 600
-  type: A
-  value: 216.198.79.1
+  - ttl: 600
+    type: A
+    value: 216.198.79.1
 hackalympics: # rishaan.sharma2202@gmail.com
-- type: CNAME
-  value: cname.vercel-dns.com.
+  - type: CNAME
+    value: cname.vercel-dns.com.
 hackbox: # Aron - U0A3HLREX29
-- ttl: 600
-  type: A
-  value: 216.198.79.1
+  - ttl: 600
+    type: A
+    value: 216.198.79.1
 hackingturing: # davipizabel@gmail.com
-- ttl: 600
-  type: CNAME
-  value: daviportoizabel.github.io.
+  - ttl: 600
+    type: CNAME
+    value: daviportoizabel.github.io.
 hacknote: # https://github.com/dispherical/hacknote
   ttl: 600
   type: CNAME
   value: david.hackclub.app.
 hacktive: # Origamibooklover@gmail.com
-- ttl: 600
-  type: CNAME
-  value: vrhshacktive.github.io.
+  - ttl: 600
+    type: CNAME
+    value: vrhshacktive.github.io.
 hacktv:
-- ttl: 600
-  type: CNAME
-  value: conversafe.hackclub.app.
+  - ttl: 600
+    type: CNAME
+    value: conversafe.hackclub.app.
 hackxpansion: # koeglike@proton.me
   ttl: 600
   type: CNAME
   value: koeglike.github.io.
 hardrush: # https://github.com/ValyMnDul  Email: mindrilavasilevalentin@gmail.com
-- ttl: 600
-  type: A
-  value: 216.198.79.1
+  - ttl: 600
+    type: A
+    value: 216.198.79.1
 hasd: # hasd school forum
   ttl: 600
   type: A
@@ -651,60 +651,60 @@ hcmobile: # U092329JX89
   type: CNAME
   value: cname.mintlify-dns.com.
 hell: # kawalekkrzysztof233@proton.me U0BE4R92TUJ
-- type: CNAME
-  value: hell-login-portal.vercel.app.
+  - type: CNAME
+    value: hell-login-portal.vercel.app.
 henne: # admin@henrymeyer.de U0B1CCSCCLF
-- type: A
-  value: 216.198.79.1
+  - type: A
+    value: 216.198.79.1
 heramb:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
 hg: # HSL - U08004V1Z7T - helioleles@comcast.net - +1 (215) 410-5236
-- ttl: 600
-  type: CNAME
-  value: him.hackclub.app.
+  - ttl: 600
+    type: CNAME
+    value: him.hackclub.app.
 hgcontent: # HSL - U08004V1Z7T - helioleles@comcast.net - +1 (215) 410-5236
-- ttl: 600
-  type: CNAME
-  value: him.hackclub.app.
+  - ttl: 600
+    type: CNAME
+    value: him.hackclub.app.
 hi: # doruk.dino.icu email address
-- ttl: 600
-  type: TXT
-  value: apple-domain=rkbobCmChEtkhbTS.
+  - ttl: 600
+    type: TXT
+    value: apple-domain=rkbobCmChEtkhbTS.
 hk:
-- ttl: 600
-  type: CNAME
-  value: vic.hackclub.app.
+  - ttl: 600
+    type: CNAME
+    value: vic.hackclub.app.
 hkgi:
-- ttl: 600
-  type: CNAME
-  value: garden.devcara.com.
+  - ttl: 600
+    type: CNAME
+    value: garden.devcara.com.
 dev.hkgi: # HKGI test instance
   ttl: 3600
   type: CNAME
   value: garden.devcara.com.
 hmt-clan: # admin@henrymeyer.de U0B1CCSCCLF
-- type: A
-  value: 216.198.79.1
+  - type: A
+    value: 216.198.79.1
 hypothesis: # rasmus.stenlund@gmail.com
   ttl: 600
   type: CNAME
   value: rasmusstenlund.github.io.
 hyu: # U0BU39NGV8U
-- type: TXT
-  value: domain-verification=hyu
+  - type: TXT
+    value: domain-verification=hyu
 icons: # yoda - https://github.com/yodalightsabr/icons-dino-icu - a CDN for @hackclub/icons
   ttl: 600
   type: A
   value: 76.76.21.21
 idli: # jaykrishnatj@proton.me | Github: https://github.com/idli69
-- type: CNAME
-  value: ubu.hackclub.app.
+  - type: CNAME
+    value: ubu.hackclub.app.
 inherit: # contact at mtthsschrbr@proton.me or @mtthsschrbr on slack
-- ttl: 600
-  type: CNAME
-  value: cname.vercel-dns.com.
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 _dmarc.inherit: # contact at mtthsschrbr@proton.me or @mtthsschrbr on slack
   ttl: 3600
   type: TXT
@@ -714,14 +714,14 @@ resend._domainkey.inherit: # contact at mtthsschrbr@proton.me or @mtthsschrbr on
   type: TXT
   value: "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDlFn8+Ep0RP8e791QcpRDe8I8vHHt378umytGa4/+UJAS+tfC8VeQqMohtrwzo3bW5emTeGqcsNrJKOE5FZW6zvam5xgtQ6WTZd/wwXXImVz403m1hpD84gYTZkeQ4zKojeMLz373og767Q7GxJSjCTH7IiPy+fRKotinpMn6FnwIDAQAB"
 send.inherit: # contact at mtthsschrbr@proton.me or @mtthsschrbr on slack
-- ttl: 3600
-  type: MX
-  values:
-  - priority: 10
-    value: feedback-smtp.eu-west-1.amazonses.com.
-- ttl: 3600
-  type: TXT
-  value: "v=spf1 include:amazonses.com ~all"
+  - ttl: 3600
+    type: MX
+    values:
+      - priority: 10
+        value: feedback-smtp.eu-west-1.amazonses.com.
+  - ttl: 3600
+    type: TXT
+    value: "v=spf1 include:amazonses.com ~all"
 innohacks: #efe
   ttl: 600
   type: CNAME
@@ -743,9 +743,9 @@ javier: # by https://github.com/J-cordz - my personal hack club scrapbook
   type: CNAME
   value: cname.vercel-dns.com.
 jugaad: # aryan17550@gmail.com
-- ttl: 600
-  type: CNAME
-  value: aryan-git-byte.github.io.
+  - ttl: 600
+    type: CNAME
+    value: aryan-git-byte.github.io.
 jzaleta: # Javi's twitter redirect
   ttl: 600
   type: A
@@ -763,50 +763,50 @@ kevin: # Kevin Yang
   type: CNAME
   value: bykevinyang.netlify.app.
 hc.kinnickhs: # lordraphael17@icloud.com / U0BEXMHD9T5
-- type: CNAME
-  value: cname.vercel-dns.com.
+  - type: CNAME
+    value: cname.vercel-dns.com.
 kludge: # keamlakk@gmail.com | aka U0AHYTJVCKW
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
 knockoff: # mail@ketrax.ovh
-- ttl: 600
-  type: CNAME
-  value: reflex.run.
+  - ttl: 600
+    type: CNAME
+    value: reflex.run.
 _acme-challenge.knockoff: # mail@ketrax.ovh
-- ttl: 600
-  type: CNAME
-  value: knockoff.dino.icu.3fc0d96452eae804.dcv.cloudflare.com.
+  - ttl: 600
+    type: CNAME
+    value: knockoff.dino.icu.3fc0d96452eae804.dcv.cloudflare.com.
 _cf-custom-hostname.knockoff: # mail@ketrax.ovh
-- ttl: 600
-  type: TXT
-  value: 222225fa-6cfb-4e40-9cc9-23f1d83b8765
+  - ttl: 600
+    type: TXT
+    value: 222225fa-6cfb-4e40-9cc9-23f1d83b8765
 krish: # @krishstwt
   ttl: 600
   type: NS
   values:
-  - ns1.vercel-dns.com.
-  - ns2.vercel-dns.com.
+    - ns1.vercel-dns.com.
+    - ns2.vercel-dns.com.
 krishnan: # @krishnans2006
-- ttl: 600
-  type: A
-  value: 150.136.13.65
+  - ttl: 600
+    type: A
+    value: 150.136.13.65
 krishstwt: # @krishstwt
   ttl: 600
   type: NS
   values:
-  - ns1.vercel-dns.com.
-  - ns2.vercel-dns.com.
+    - ns1.vercel-dns.com.
+    - ns2.vercel-dns.com.
 kunal: # kunal
   ttl: 600
   type: NS
   values:
-  - ns1.vercel-dns.com.
-  - ns2.vercel-dns.com.
+    - ns1.vercel-dns.com.
+    - ns2.vercel-dns.com.
 kyto: # devansh.awat@gmail.com https://github.com/Devansh-awat
-- ttl: 600
-  type: A
-  value: 140.245.203.110
+  - ttl: 600
+    type: A
+    value: 140.245.203.110
 la: # Laker Turner's links page - @lxjv or @la / @laker in the slack
   ttl: 600
   type: CNAME
@@ -820,29 +820,29 @@ levelzero: # @arjav0703 (gh) - ysws website
   type: A
   value: 216.198.79.1
 library: # koy@camerini.me U0ALZQ9FP9P
-- type: CNAME
-  value: library-ysws.vercel.app.
+  - type: CNAME
+    value: library-ysws.vercel.app.
 libreassistant: # mostlime@outlook.com
-- type: CNAME
-  value: mostlime.hackclub.app.
+  - type: CNAME
+    value: mostlime.hackclub.app.
 librechatadi: # reach.adit.sharma@gmail.com
-- type: CNAME
-  value: asharma.hackclub.app.
+  - type: CNAME
+    value: asharma.hackclub.app.
 lifemaxx: # U0APWRCML2J
-- type: A
-  value: 216.198.79.1
+  - type: A
+    value: 216.198.79.1
 lkmw:
   ttl: 600
   type: CNAME
   value: wilkin.xyz.
 loadout: # jeremyyeboahdarko@gmail.com
-- ttl: 600
-  type: A
-  value: 216.198.79.1
+  - ttl: 600
+    type: A
+    value: 216.198.79.1
 loners: # support+loners@swehosting.pl
-- ttl: 600
-  type: CNAME
-  value: cname.vercel-dns.com.
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 lookout-stage: # anson@hackclub.com
   ttl: 600
   type: A
@@ -860,33 +860,33 @@ mail: # a page to share your email with orpheus
   type: CNAME
   value: cname.vercel-dns.com.
 mangrove: # evanxdsouza@gmail.com U0AHS9VLG0K
-- type: CNAME
-  value: evanxdsouza.hackclub.app.
+  - type: CNAME
+    value: evanxdsouza.hackclub.app.
 data.mangrove: # evanxdsouza@gmail.com U0AHS9VLG0K
-- type: CNAME
-  value: evanxdsouza.hackclub.app.
+  - type: CNAME
+    value: evanxdsouza.hackclub.app.
 deployment.mangrove: # evanxdsouza@gmail.com U0AHS9VLG0K
-- type: CNAME
-  value: evanxdsouza.hackclub.app.
+  - type: CNAME
+    value: evanxdsouza.hackclub.app.
 ghost.deployment.mangrove: # evanxdsouza@gmail.com U0AHS9VLG0K
-- type: CNAME
-  value: evanxdsouza.hackclub.app.
+  - type: CNAME
+    value: evanxdsouza.hackclub.app.
 reverse.deployment.mangrove: # evanxdsouza@gmail.com U0AHS9VLG0K
-- type: CNAME
-  value: evanxdsouza.hackclub.app.
+  - type: CNAME
+    value: evanxdsouza.hackclub.app.
 forms.mangrove: # evanxdsouza@gmail.com U0AHS9VLG0K
-- type: CNAME
-  value: evanxdsouza.hackclub.app.
+  - type: CNAME
+    value: evanxdsouza.hackclub.app.
 ltc-gitea.mangrove: # evanxdsouza@gmail.com U0AHS9VLG0K
-- type: CNAME
-  value: evanxdsouza.hackclub.app.
+  - type: CNAME
+    value: evanxdsouza.hackclub.app.
 mats: # Contact via: mats@overmans.nl/lltool@overmans.nl/619401@olz.nl(only emergencies)
   ttl: 600
   type: CNAME
   value: mats.overmans.nl.
 mdpham: # mdpham2311@gmail.com
-- type: CNAME
-  value: mdpham.pages.dev.
+  - type: CNAME
+    value: mdpham.pages.dev.
 melt: # alice@hackclub.cc
   ttl: 600
   type: CNAME
@@ -908,18 +908,18 @@ mindson: # by rajan
   type: CNAME
   value: mindson.netlify.app.
 misskey: #hackisskey | korange753@gmail.com U091Q2MS3T9
-- ttl: 600
-  type: ALIAS
-  value: hackclub.app.
-  octodns:
-    lenient: true # I want to use ALIAS records to allow for future record additions, but OctoDNS only allows ALIAS records for the root directory by default, hence the current configuration.
-- ttl: 600
-  type: TXT
-  value: domain-verification=korange # for Nest
+  - ttl: 600
+    type: ALIAS
+    value: hackclub.app.
+    octodns:
+      lenient: true # I want to use ALIAS records to allow for future record additions, but OctoDNS only allows ALIAS records for the root directory by default, hence the current configuration.
+  - ttl: 600
+    type: TXT
+    value: domain-verification=korange # for Nest
 mkv: # drew@drewfitzgerald.co.nz U0AA0EU3G3V
-- type: CNAME
-  value: mkv.wchouses.co.nz.
-  ttl: 600   # OPTIONAL (defaults to 600)
+  - type: CNAME
+    value: mkv.wchouses.co.nz.
+    ttl: 600 # OPTIONAL (defaults to 600)
 molecule: # by https://github.com/RasmusStenlund
   ttl: 600
   type: CNAME
@@ -933,13 +933,13 @@ motivation:
   type: CNAME
   value: maxwofford.github.io.
 mthlpbs:
-- ttl: 600
-  type: CNAME
-  value: mthlpbs.github.io.
+  - ttl: 600
+    type: CNAME
+    value: mthlpbs.github.io.
 mutate: # Pookstir U095D212WC8
-- ttl: 600
-  type: CNAME
-  value: cattacocattaco.github.io.
+  - ttl: 600
+    type: CNAME
+    value: cattacocattaco.github.io.
 _github-pages-challenge-CattacoCattaco.mutate:
   ttl: 600
   type: TXT
@@ -948,8 +948,8 @@ mychatbot: # U0A171MLX7Z Robert
   - type: CNAME
     value: chatbot-admin.hackclub.app.
 myfly: # jz7680326@gmail.com U0C3LA2P7FC
-- type: CNAME
-  value: datian.hackclub.app.
+  - type: CNAME
+    value: datian.hackclub.app.
 mysphere: # U081RF7D23D
   ttl: 600
   type: CNAME
@@ -971,20 +971,20 @@ nimit: #https://github.com/NimitVijayvargee/nimitvijayvargee.github.io/
   type: CNAME
   value: nimitvijayvargee.github.io.
 node:
-- ttl: 600
-  type: CNAME
-  value: tgh75972.github.io.
+  - ttl: 600
+    type: CNAME
+    value: tgh75972.github.io.
 noomo: # robin17.brams@outlook.com U0BQF6EGX0V
-- type: CNAME
-  value: cname.vercel-dns.com.
+  - type: CNAME
+    value: cname.vercel-dns.com.
 normie: # normie
   ttl: 600
   type: CNAME
   value: normie.cc.
 null: # helioleles@comcast.net Helio Leles (OCI Instance)
-- ttl: 600
-  type: A
-  value: 129.146.39.117
+  - ttl: 600
+    type: A
+    value: 129.146.39.117
 offset: # for upcoming #offset ysws -> U0828RTU7FE
   ttl: 600
   type: CNAME
@@ -1006,26 +1006,26 @@ orbit: # U08RU1GTXSP
   type: CNAME
   value: cname.vercel-dns.com.
 origin: # bhardwajprasad16@gmail.com
-- ttl: 600
-  type: A
-  value: 216.198.79.1
+  - ttl: 600
+    type: A
+    value: 216.198.79.1
 www.origin: # bhardwajprasad16@gmail.com
-- ttl: 600
-  type: CNAME
-  value: a848835d1f5fbd7b.vercel-dns-017.com.
+  - ttl: 600
+    type: CNAME
+    value: a848835d1f5fbd7b.vercel-dns-017.com.
 orpheus: # prophet orpheus's page (when making your page enter your github username or slack id here)
   ttl: 600 # the time to live of your domain; you don't need to change this
   type: CNAME # the type of record you're creating; you don't need to change this unless your hosting provider requires it
   value: cname.vercel-dns.com. # the value of the record; set this to what your hosting provider requires
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 osu: # nightfall/dainfloop: contact via slack @nightfall [U07KVMBHH4L]
-- ttl: 300
-  type: A
-  value: 65.108.74.29
-- ttl: 600
-  type: TXT
-  values:
-  - domain-verification=rana
+  - ttl: 300
+    type: A
+    value: 65.108.74.29
+  - ttl: 600
+    type: TXT
+    values:
+      - domain-verification=rana
 out-to-c: # out to c by @iris [U098P9DLUGJ]
   ttl: 600
   type: CNAME
@@ -1047,8 +1047,8 @@ pc: # https://github.com/MCPE-PC/dino.icu
   type: CNAME
   value: dino-icu.pages.dev.
 pcguide: # 23779@burnside.school.nz
-- type: CNAME
-  value: 2a01-04f9-3080-3192-0000-0000-0000-0214.withfallback.com.
+  - type: CNAME
+    value: 2a01-04f9-3080-3192-0000-0000-0000-0214.withfallback.com.
 periodic:
   ttl: 600
   type: CNAME
@@ -1058,8 +1058,8 @@ piyush:
   type: CNAME
   value: dino.piyush.ovh.
 platformer: # abtheinnovator@gmail.com
-- type: A
-  value: 216.198.79.1
+  - type: A
+    value: 216.198.79.1
 playground: #https://github.com/thagreatjoel/Playground
   ttl: 600
   type: CNAME
@@ -1073,11 +1073,11 @@ print:
   type: CNAME
   value: cname.vercel-dns.com.
 pronumberguessing: # jmcclendon8383@gmail.com
-- type: CNAME
-  value: jackm.hackclub.app.
+  - type: CNAME
+    value: jackm.hackclub.app.
 ptcg: # richarddiscord@duck.com
-- type: A
-  value: 130.61.17.229
+  - type: A
+    value: 130.61.17.229
 pv0: # slack ID: U0AUTFQQUQP
   ttl: 600
   type: CNAME
@@ -1087,20 +1087,20 @@ qr: # A hack club themed QR code generator
   type: CNAME
   value: felixgao.hackclub.app.
 quotes: # ocoincs@gmail.com U091JJ2JF8E
-- type: CNAME
-  value: quotes.qwik.top.
+  - type: CNAME
+    value: quotes.qwik.top.
 racked: # Jan Koch (jan.koch@hexagonical.ch or <@U087PR1B2HX> on the slack)
-- ttl: 600
-  type: CNAME
-  value: hexagonical.xyz.
+  - ttl: 600
+    type: CNAME
+    value: hexagonical.xyz.
 re-dream: # zachnoahstein@gmail.com U080Y31KUE7
   ttl: 300
   type: CNAME
   value: cname.vercel-dns.com.
 receipt: # alexp@hackclub.com
-- ttl: 600
-  type: A
-  value: 216.198.79.1
+  - ttl: 600
+    type: A
+    value: 216.198.79.1
 redacted: # glassybridge114@gmail.com U080V8UG5BR
   ttl: 600
   type: CNAME
@@ -1118,18 +1118,18 @@ respawn: # mustaafahany@gmail.com [U093H5LJHGC] | Respawn YSWS
   type: CNAME
   value: cname.vercel-dns.com.
 richit: # bhatrichit0@gmail.com U0A3VK4GFRN - It is my calendly website. just for fun
-- ttl: 600
-  type: A
-  value: 216.198.79.1
+  - ttl: 600
+    type: A
+    value: 216.198.79.1
 ritam: # ritam.misra.rm@gmail.com
-- type: CNAME
-  value: prod-main-lyre-e7041a-00bkzf9k6cn.compute.instacloud-edge.com.
+  - type: CNAME
+    value: prod-main-lyre-e7041a-00bkzf9k6cn.compute.instacloud-edge.com.
 rnabil: # rnabilaltamis14@gmail.com
-- type: AAAA
-  value: 2a01:4f9:3080:3192::1961
+  - type: AAAA
+    value: 2a01:4f9:3080:3192::1961
 robonexus: # atharvam682@gmail.com
-- type: A
-  value: 216.198.79.1
+  - type: A
+    value: 216.198.79.1
 rr: # Rickroll with a single line of bash
   ttl: 600
   type: CNAME
@@ -1153,53 +1153,53 @@ runshaw: # Used for an email alias for for runshaw hack club members (https://ru
     exchange: mail.danieldb.uk.
     preference: 1
 s:
-- ttl: 600
-  type: A
-  value: 37.27.51.34
-- ttl: 600
-  type: TXT
-  value: domain-verification=saif
+  - ttl: 600
+    type: A
+    value: 37.27.51.34
+  - ttl: 600
+    type: TXT
+    value: domain-verification=saif
 sabhya: # sabhya.aggarwal@icloud.com U0A83DB0TRN
-- ttl: 600
-  type: A
-  value: 216.198.79.1
+  - ttl: 600
+    type: A
+    value: 216.198.79.1
 sahas: # U09QBEKG4S0
-- ttl: 600
-  type: A
-  value: 65.108.74.29
-- ttl: 600
-  type: AAAA
-  value: 2a01:4f9:6b:4a05::360
-- ttl: 600
-  type: TXT
-  value: domain-verification=sahas
+  - ttl: 600
+    type: A
+    value: 65.108.74.29
+  - ttl: 600
+    type: AAAA
+    value: 2a01:4f9:6b:4a05::360
+  - ttl: 600
+    type: TXT
+    value: domain-verification=sahas
 saif:
-- ttl: 600
-  type: A
-  value: 37.27.51.34
-- ttl: 600
-  type: TXT
-  value: domain-verification=saif
+  - ttl: 600
+    type: A
+    value: 37.27.51.34
+  - ttl: 600
+    type: TXT
+    value: domain-verification=saif
 saturnyx: # https://github.com/saturnyx/saturnyx.github.io
   ttl: 600
   type: CNAME
   value: saturnyx.github.io.
 sayhan: # portfolio and other apps?
-- ttl: 600
-  type: CNAME
-  value: sayhan.hackclub.app.
+  - ttl: 600
+    type: CNAME
+    value: sayhan.hackclub.app.
 scales: # (yet another?) currency slack bot (with some web UI) :D
   ttl: 600
   type: A
   value: 150.136.254.91 # Oracle Always Free:tm: server lol
 scavenger: # U076W5GKC48
-- ttl: 600
-  type: CNAME
-  value: nate-greco.github.io.
+  - ttl: 600
+    type: CNAME
+    value: nate-greco.github.io.
 schemabuilder: # hackclub-dns@fabian.ternismail.de U0B8JTZDTKQ
-- ttl: 18000
-  type: A
-  value: 77.90.15.2   # vweb01.eu
+  - ttl: 18000
+    type: A
+    value: 77.90.15.2 # vweb01.eu
 sdheeraj: # https://github.com/17sdheeraj/17sdheeraj.github.io
   ttl: 600
   type: CNAME
@@ -1213,23 +1213,23 @@ sghc: # yu4tmb@gmail.com U0A457UDE74
   type: A
   value: 216.198.79.1
 shadow: # shadow.dino.icu - contact @justhypex on discord for issues/enquiries
-- ttl: 600
-  type: MX
-  values:
-  - exchange: mail.vortex.skyfall.dev.
-    preference: 500
+  - ttl: 600
+    type: MX
+    values:
+      - exchange: mail.vortex.skyfall.dev.
+        preference: 500
 shammah: # by https://github.com/Gijutsu-T
-- ttl: 600
-  type: CNAME
-  value: cname.vercel-dns.com.
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 shanghai: # manjumusei@gmail.com U0AQMKK8A5U
-- ttl: 600
-  type: CNAME
-  value: shanghaishadows.hackclub.app.
+  - ttl: 600
+    type: CNAME
+    value: shanghaishadows.hackclub.app.
 shipathon: # christian U0938MZG8Q6
-- ttl: 600
-  type: A
-  value: 216.198.79.1
+  - ttl: 600
+    type: A
+    value: 216.198.79.1
 shipwreck: # kanakverma325@gmail.com
   ttl: 600
   type: CNAME
@@ -1243,57 +1243,57 @@ sk: # sk.dino.icu unofficial hackclub sharkey instance
   type: CNAME
   value: vic.hackclub.app.
 slackassistant: # nightfall U07KVMBHH4L
-- ttl: 600
-  type: CNAME
-  value: rana.hackclub.app.
+  - ttl: 600
+    type: CNAME
+    value: rana.hackclub.app.
 smtp: # hackclub free smtp service
-- ttl: 600
-  type: CNAME
-  value: smtp.neon.hackclub.app.
+  - ttl: 600
+    type: CNAME
+    value: smtp.neon.hackclub.app.
 social:
   ttl: 600
   type: CNAME
   value: mastodon.hackclub.app.
 solidqode: # support@solidqode.org
-- ttl: 600
-  type: CNAME
-  value: cname.vercel-dns.com.
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 solvable: # GitHub: Randomcoder323, codingme313@gmail.com
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
 sorry: # kawalekkrzysztof233@proton.me U0BE4R92TUJ
-- type: CNAME
-  value: shortcut-the-long-way.vercel.app.
+  - type: CNAME
+    value: shortcut-the-long-way.vercel.app.
 soup3d: # sabhya.aggarwal.18.6@gmail.com U0A9K5RT3HS
-- ttl: 600
-  type: A
-  value: 216.198.79.1
+  - ttl: 600
+    type: A
+    value: 216.198.79.1
 sparkle: #tlyzachary0411@gmail.com U07DL91MFQT @zook
-- ttl: 600
-  type: A
-  value: 216.198.79.1
+  - ttl: 600
+    type: A
+    value: 216.198.79.1
 starlight.sparkle: #grayson@vantilborg.ca U092DA495UY @thirtyseven
-- ttl: 600
-  type: CNAME
-  value: starlight.thirtyseven.tech.
+  - ttl: 600
+    type: CNAME
+    value: starlight.thirtyseven.tech.
 spectrum: # U06FG6G6SNL
-- ttl: 600
-  type: CNAME
-  value: spectrum.thetridentguy.com.
+  - ttl: 600
+    type: CNAME
+    value: spectrum.thetridentguy.com.
 # spend hq's money
 spend:
-- ttl: 600
-  type: A
-  value: 76.76.21.21
+  - ttl: 600
+    type: A
+    value: 76.76.21.21
 spotify:
-- ttl: 600
-  type: CNAME
-  value: spotify.neon.hackclub.app.
+  - ttl: 600
+    type: CNAME
+    value: spotify.neon.hackclub.app.
 srbnfs:
-- ttl: 600
-  type: A
-  value: 69.62.65.208
+  - ttl: 600
+    type: A
+    value: 69.62.65.208
 ssmidge:
   ttl: 600
   type: CNAME
@@ -1314,36 +1314,36 @@ strategize: # rez@proton.me U082KMLM7DW YSWS for 2026 internship submisions
   ttl: 600
   type: A
   values:
-  - 185.199.108.153
-  - 185.199.109.153
-  - 185.199.110.153
-  - 185.199.111.153
+    - 185.199.108.153
+    - 185.199.109.153
+    - 185.199.110.153
+    - 185.199.111.153
 subdomain: # Free subdomain generator.
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
 suky: # balasmario12m@gmail.com
-- type: CNAME
-  value: cname.vercel-dns.com.
+  - type: CNAME
+    value: cname.vercel-dns.com.
 sunshine: # kacper@hackclub.com
-- ttl: 600
-  type: A
-  value: 216.198.79.1
+  - ttl: 600
+    type: A
+    value: 216.198.79.1
 suryaansh:
-- ttl: 600
-  type: CNAME
-  value: suryaanshah.github.io.
+  - ttl: 600
+    type: CNAME
+    value: suryaanshah.github.io.
 swc: # akreamer@protonmail.com
-- ttl: 600
-  type: CNAME
-  value: swcccwebsite.github.io.
+  - ttl: 600
+    type: CNAME
+    value: swcccwebsite.github.io.
 tabbed: # stolen_username on slack | U0AD4996D1U | rudranshgoel01@gmail.com
-- ttl: 600
-  type: A
-  value: 216.198.79.1
+  - ttl: 600
+    type: A
+    value: 216.198.79.1
 teenapi: # thenetaji@proton.me
-- type: CNAME
-  value: teentitans.hackclub.app.
+  - type: CNAME
+    value: teentitans.hackclub.app.
 tejas: # by tej
   ttl: 600
   type: CNAME
@@ -1353,75 +1353,75 @@ terror:
   type: CNAME
   value: 4H4CayJ.github.io.
 thorn: # thorn.dev49@gmail.com
-- type: AAAA
-  value: 2a01:4f9:3080:3192::1966
+  - type: AAAA
+    value: 2a01:4f9:3080:3192::1966
 throttleup: # Github: NoIwantyourcode slack: U0A269NG76F
   ttl: 600
   type: A
   value: 216.198.79.1
 timetable: # devansh.awat@gmail.com https://github.com/Devansh-awat
-- ttl: 600
-  type: A
-  value: 140.245.203.110
+  - ttl: 600
+    type: A
+    value: 140.245.203.110
 tn-search: # tyleruploads@yahoo.com
-- type: CNAME
-  value: tn-search.pages.dev.
+  - type: CNAME
+    value: tn-search.pages.dev.
 toonnongaeoy:
-- ttl: 600
-  type: CNAME
-  value: storyhouseproduction.duckdns.org.
+  - ttl: 600
+    type: CNAME
+    value: storyhouseproduction.duckdns.org.
 troeticlicker: # admin@henrymeyer.de U0B1CCSCCLF
-- type: A
-  value: 216.198.79.1
+  - type: A
+    value: 216.198.79.1
 my.ts-derp: # darrenwjlau@gmail.com
-- type: CNAME
-  value: minori.main.sites.darrenmc.dev.
+  - type: CNAME
+    value: minori.main.sites.darrenmc.dev.
 turnstilebot: # hola@santiagortega.dev
-- type: CNAME
-  value: whatsapp1.alwaysdata.net.
+  - type: CNAME
+    value: whatsapp1.alwaysdata.net.
 twisted: # for the twisted ysws! (kavyanshkhaitan11@gmail.com, U0A7776A2MT)
-- ttl: 600
-  type: A
-  value: 38.19.201.74
+  - ttl: 600
+    type: A
+    value: 38.19.201.74
 txt: # Noah, slack: U09482L7QP5
-- ttl: 600
-  type: CNAME
-  value: quickest-reena-kwirll-d812f3dc.koyeb.app.
+  - ttl: 600
+    type: CNAME
+    value: quickest-reena-kwirll-d812f3dc.koyeb.app.
 tyler: # tyleruploads@yahoo.com
-- type: CNAME
-  value: tyler-n.pages.dev.
+  - type: CNAME
+    value: tyler-n.pages.dev.
 search.tyler: # tyleruploads@yahoo.com
-- type: CNAME
-  value: tn-search.pages.dev.
+  - type: CNAME
+    value: tn-search.pages.dev.
 typeline: # mihranrazaa@gmail.com
-- ttl: 600
-  type: CNAME
-  value: cname.vercel-dns.com.
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 uplink: # benvaccaro@Proton.me
-- ttl: 600
-  type: A
-  value: 198.51.233.1
+  - ttl: 600
+    type: A
+    value: 198.51.233.1
 url: # A url shortener for anyone in hack club :D
-- ttl: 600
-  type: CNAME
-  value: felixgao.hackclub.app.
+  - ttl: 600
+    type: CNAME
+    value: felixgao.hackclub.app.
 _gh-hackclub-ursula-o.ursula: # 322520326+boorboormachine@users.noreply.github.com
-- type: TXT
-  value: ca81e2cef4
+  - type: TXT
+    value: ca81e2cef4
 vansh:
-- ttl: 600
-  type: CNAME
-  value: lowkeyvansh.github.io.
+  - ttl: 600
+    type: CNAME
+    value: lowkeyvansh.github.io.
 vasudev: # vasudevonden@gmail.com
-- type: A
-  value: 135.181.209.89
+  - type: A
+    value: 135.181.209.89
 veerbajaj: # hi@veerbajaj.com
-- type: CNAME
-  value: cname.vercel-dns.com.
+  - type: CNAME
+    value: cname.vercel-dns.com.
 vercel:
-- ttl: 600
-  type: CNAME
-  value: cname.vercel-dns.com.
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 vercel-a:
   ttl: 600
   type: A
@@ -1438,56 +1438,56 @@ vercel-ns:
   ttl: 600
   type: NS
   values:
-  - ns1.vercel-dns.com.
-  - ns2.vercel-dns.com.
+    - ns1.vercel-dns.com.
+    - ns2.vercel-dns.com.
 vishy: # 04vishal.com@gmail.com
-- type: CNAME
-  value: cname.vercel-dns.com.
+  - type: CNAME
+    value: cname.vercel-dns.com.
 vortex:
-- ttl: 600
-  type: MX
-  values:
-  - exchange: mail.vortex.skyfall.dev.
-    preference: 500
-- ttl: 600
-  type: TXT
-  values:
-  - v=spf1 ip4:35.193.1.201 ~all
+  - ttl: 600
+    type: MX
+    values:
+      - exchange: mail.vortex.skyfall.dev.
+        preference: 500
+  - ttl: 600
+    type: TXT
+    values:
+      - v=spf1 ip4:35.193.1.201 ~all
 waffle:
-- ttl: 600
-  type: CNAME
-  value: ewoudweb.netlify.app.
+  - ttl: 600
+    type: CNAME
+    value: ewoudweb.netlify.app.
 wavelength: # U04DNS0LAM9
   ttl: 600
   type: A
   value: 216.198.79.1
 weather:
-- ttl: 600
-  type: CNAME
-  value: weathersomewhere.netlify.app.
+  - ttl: 600
+    type: CNAME
+    value: weathersomewhere.netlify.app.
 webpark: # janekbaszczynski@gmail.com
-- ttl: 600
-  type: CNAME
-  value: lloydowski.hackclub.app.
+  - ttl: 600
+    type: CNAME
+    value: lloydowski.hackclub.app.
 whoami: # cloudglides@proton.me U0A2EKA9FAL
-- ttl: 600
-  type: A
-  value: 216.198.79.1
+  - ttl: 600
+    type: A
+    value: 216.198.79.1
 wiiuavi1: # @wiiuavi on slack, U08SB23AY7P
-- type: A
-  value: 79.72.72.162
+  - type: A
+    value: 79.72.72.162
 wikibase: # wikibase for the Hack Club community, to be managed by @recaptime-dev team through @ajhalili2006
   ttl: 600
   type: CNAME
   value: sites-1.dyna.wikibase.cloud.
 willgob: # williamnumismatics@gmail.com
-- ttl: 600
-  type: CNAME
-  value: cname.vercel-dns.com.
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 wilmerportfolio: # wilmerbailon007@gmail.com
-- ttl: 600
-  type: CNAME
-  value: wilmerbailon007.hackclub.app.
+  - ttl: 600
+    type: CNAME
+    value: wilmerbailon007.hackclub.app.
 winterlings: # a site to view winter wonderland projects (contact @ZeroQL on slack for thingies)
   ttl: 600
   type: CNAME
@@ -1500,15 +1500,15 @@ work: # mahadkalam1@proton.me
   ttl: 600
   type: MX
   values:
-  - exchange: flagrantbycolumn.cachingtech.com.
-    preference: 10
+    - exchange: flagrantbycolumn.cachingtech.com.
+      preference: 10
 wosu: # karo@hackclub.com
-- type: A
-  value: 216.198.79.1
+  - type: A
+    value: 216.198.79.1
 wowstar: # wowstar2504@proton.me
-- ttl: 600
-  type: CNAME
-  value: cname.vercel-dns.com.
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 write: # WriteFreely!
   ttl: 3600
   type: A
@@ -1518,50 +1518,50 @@ www: # mahad@hackclub.com (redirect to bare domain)
   type: CNAME
   value: xdonryt4em6uudcgsggr2va2.b.selfhosted.hackclub.com.
 yahri-staging: # anson@hackclub.com
-- ttl: 600
-  type: A
-  value: 96.9.228.153
+  - ttl: 600
+    type: A
+    value: 96.9.228.153
 yates:
-- ttl: 600
-  type: CNAME
-  value: retconn.duckdns.org.
+  - ttl: 600
+    type: CNAME
+    value: retconn.duckdns.org.
 yc: # turbofan-gag-swung@duck.com
   ttl: 600
   type: NS
   value: ns.yc.hn.
 yosia: # yosiadamanik703@gmail.com
-- ttl: 600
-  type: CNAME
-  value: cname.vercel-dns.com.
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 you-ship-we-vote:
-- ttl: 600
-  type: A
-  value: 209.112.91.50
+  - ttl: 600
+    type: A
+    value: 209.112.91.50
 backend.you-ship-we-vote:
-- ttl: 600
-  type: A
-  value: 209.112.91.50
+  - ttl: 600
+    type: A
+    value: 209.112.91.50
 db.you-ship-we-vote:
-- ttl: 600
-  type: A
-  value: 209.112.91.50
+  - ttl: 600
+    type: A
+    value: 209.112.91.50
 proxy.you-ship-we-vote:
-- ttl: 600
-  type: A
-  value: 209.112.91.50
+  - ttl: 600
+    type: A
+    value: 209.112.91.50
 yuki-rins: # 19979598350@163.com
-- ttl: 600
-  type: CNAME
-  value: yukirins-021822.hackclub.app.
+  - ttl: 600
+    type: CNAME
+    value: yukirins-021822.hackclub.app.
 yumm: # ibukunomotude@gmail.com
-- type: CNAME
-  value: yumm-burgers-shop.vercel.app.
+  - type: CNAME
+    value: yumm-burgers-shop.vercel.app.
 ziademad-ai-eng: # myfreelancinglife777@gmail.com U0A57CQPJHF
-- ttl: 600
-  type: A
-  value: 216.198.79.1
+  - ttl: 600
+    type: A
+    value: 216.198.79.1
 zoneout: # kilecraft90@gmail.com U08GCDHM0QZ
-- ttl: 600
-  type: CNAME
-  value: cname.vercel-dns.com.
+  - ttl: 600
+    type: CNAME
+    value: cname.vercel-dns.com.
 

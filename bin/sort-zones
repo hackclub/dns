@@ -8,11 +8,13 @@ bin/sort-zones --check     # check only
 bin/sort-zones foo.yaml    # sort one file
 """
 
+import io
 import sys
 from pathlib import Path
 
 from natsort import natsort_keygen
 from ruamel.yaml import YAML
+from ruamel.yaml.comments import CommentedMap
 
 _NATSORT_KEY = natsort_keygen()
 
@@ -42,21 +44,39 @@ def get():
 def sort(path, check_only=False):
     yaml = YAML()
     yaml.preserve_quotes = True
+    yaml.width = 4096
+    yaml.indent(mapping=2, sequence=4, offset=2)
+    yaml.explicit_start = None
 
-    with open(path, newline="") as f:
+    with open(path) as f:
         raw = f.read()
 
+    has_doc_start = raw.lstrip().startswith("---")
+
     data = yaml.load(raw)
+
     if data is None:
         return True
+
+    preamble = ""
+    first_key_line = None
+    for i, line in enumerate(raw.splitlines()):
+        stripped = line.strip()
+        if stripped == "---" or stripped.startswith("#") or stripped == "":
+            continue
+        else:
+            first_key_line = i
+            break
+
+    if first_key_line:
+        preamble_lines = raw.splitlines()[:first_key_line]
+        if preamble_lines:
+            preamble = "\n".join(preamble_lines) + "\n"
 
     keys = list(data.keys())
     sorted_keys = sorted(keys, key=KEYGEN)
 
-    if keys == sorted_keys:
-        return True
-
-    if check_only:
+    if check_only and keys != sorted_keys:
         for i, (got, expected) in enumerate(zip(keys, sorted_keys)):
             if got != expected:
                 got_display = "''" if isinstance(got, str) and got == '' else ('null' if got is None else got)
@@ -65,35 +85,28 @@ def sort(path, check_only=False):
                 break
         return False
 
-    lines = raw.splitlines(keepends=True)
-    starts = [data.lc.key(key)[0] for key in keys]
-    if data.fa.flow_style() or len(set(starts)) != len(starts):
-        raise ValueError(f"{path}: expected a top-level block mapping")
+    sorted_data = CommentedMap()
 
-    # Move original blocks, keeping standalone comments with the following key.
-    for i in range(1, len(starts)):
-        cursor = starts[i] - 1
-        while cursor > starts[i - 1]:
-            line = lines[cursor]
-            if line.startswith("#"):
-                starts[i] = cursor
-            elif line.strip():
-                break
-            cursor -= 1
+    for key in sorted_keys:
+        sorted_data[key] = data[key]
+        if key in data.ca.items:
+            sorted_data.ca.items[key] = data.ca.items[key]
 
-    end = next((i for i in range(starts[-1], len(lines))
-                if lines[i].rstrip("\r\n") == "..."), len(lines))
-    blocks = {key: "".join(lines[start:stop])
-              for key, start, stop in zip(keys, starts, starts[1:] + [end])}
-    newline = "\r\n" if "\r\n" in raw else "\n"
-    ordered = [blocks[key] + ("" if blocks[key].endswith("\n") else newline)
-               for key in sorted_keys]
-    result = "".join(lines[:starts[0]] + ordered + lines[end:])
-    if not raw.endswith("\n") and result.endswith(newline):
-        result = result[:-len(newline)]
+    yaml.explicit_start = False
 
-    with open(path, "w", newline="") as f:
-        f.write(result)
+    buf = io.StringIO()
+    yaml.dump(sorted_data, buf)
+    sorted_yaml = buf.getvalue()
+
+    formatted = (preamble or ("---\n" if has_doc_start else "")) + sorted_yaml
+    if raw == formatted:
+        return True
+    if check_only:
+        print(f"  {path.name}: formatting differs (run python3 bin/sort-zones {path.name})")
+        return False
+
+    with open(path, "w") as f:
+        f.write(formatted)
 
     return False
 
@@ -115,10 +128,10 @@ def main():
 
     if check_only:
         if unsorted:
-            print(f"\n{len(unsorted)} file(s) have keys out of order")
+            print(f"\n{len(unsorted)} file(s) need sorting or formatting")
             sys.exit(1)
         else:
-            print("all files are in order")
+            print("all files are sorted and formatted")
             sys.exit(0)
     else:
         if unsorted:
@@ -126,7 +139,7 @@ def main():
                 print(f"sorted: {p.name}")
             print(f"\n{len(unsorted)} file(s) sorted")
         else:
-            print("all files were already in order")
+            print("all files were already sorted and formatted")
 
 
 if __name__ == "__main__":

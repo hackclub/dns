@@ -1,13 +1,13 @@
 ---
 '': # zach@hackclub.com U0266FRGP
-- type: ALIAS
-  value: a.ingress.tier2.infra.hackclub.com.
-  octodns:
-    cloudflare:
-      proxied: true
-- type: TXT
-  values:
-  - v=spf1 -all
+  - type: ALIAS
+    value: a.ingress.tier2.infra.hackclub.com.
+    octodns:
+      cloudflare:
+        proxied: true
+  - type: TXT
+    values:
+      - v=spf1 -all
 _dmarc: # zach@hackclub.com U0266FRGP
   type: TXT
   value: v=DMARC1\; p=reject\; sp=reject\; adkim=s\; aspf=s\;
