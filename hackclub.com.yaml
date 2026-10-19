@@ -48,6 +48,12 @@
         proxied: true
     type: CNAME
     value: a.ingress.tier2.infra.hackclub.com.
+'8-pin-grant': # rudy@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 44.74:
   - type: CNAME
     value: 8e42daa9edbe9df1.vercel-dns-016.com.
