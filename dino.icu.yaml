@@ -301,6 +301,8 @@ cad: # by https://github.com/leecheeyong/community-widgets
 calc: # mattsoh@hackclub.com U07DPHQCCCS
 - type: AAAA
   value: 2a05:d01c:8bb:ac00:4f37:2224:5a76:e7fc
+- type: A
+  value: 16.60.128.231
 calculate: # candyisakat@gmail.com U082PKSD15L
 - ttl: 600
   type: A
