@@ -5202,6 +5202,12 @@ soaked: # jenin@hackclub.com // U0926UASBJ7
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+soap: # santi@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 socktalk:
 - octodns:
     cloudflare:
