@@ -1568,3 +1568,14 @@ zoneout: # kilecraft90@gmail.com U08GCDHM0QZ
   type: CNAME
   value: cname.vercel-dns.com.
 
+
+harshit-test: # harshitpratap1113@gmail.com Harshit Pratap
+  - type: CNAME
+    value: cname.vercel-dns.com.
+
+harshit: # harshitpratap1113@gmail.com Harshit Pratap
+  - type: CNAME
+    value: harshitpratap1113-glitch.github.io.
+voxai: # harshitpratap1113@gmail.com Harshit Pratap
+  - type: CNAME
+    value: cname.vercel-dns.com.
