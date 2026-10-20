@@ -3308,6 +3308,9 @@ isthackers:
 iter:
   type: CNAME
   value: hackclubiter.github.io.
+_discord.itsjxnah: # itsjxnah.public@proton.me
+- type: TXT
+  value: dh=63f28d49a051cf9c0434aaab768333bb30ec1bd0
 ja:
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
