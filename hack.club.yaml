@@ -28,6 +28,9 @@ athena: # zach@hackclub.com U0266FRGP
   octodns:
     cloudflare:
       proxied: true
+av: # nora@hackclub.com U09ULFV88KU
+- type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 campfire: # dev@hackclub.com U0261EB1EG7
   type: CNAME
   value: a.selfhosted.hackclub.com.
