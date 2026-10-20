@@ -21,3 +21,10 @@
   octodns:
     cloudflare:
       proxied: true
+
+harshit: # harshitpratap1113@gmail.com Harshit Pratap
+  - type: CNAME
+    value: harshitpratap1113-glitch.github.io.
+voxai: # harshitpratap1113@gmail.com Harshit Pratap
+  - type: CNAME
+    value: cname.vercel-dns.com.
