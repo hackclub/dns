@@ -2632,6 +2632,12 @@ signoz.hackatime: # mahad@hackclub.com
 hackaway:
 - type: CNAME
   value: starlit-cascaron-ab17de.netlify.app.
+hackban: # barnav@hackclub U08RVF1BAN4
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 hackberry:
   octodns:
     cloudflare:
