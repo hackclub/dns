@@ -5610,6 +5610,12 @@ api.terra: # U07VC9705D4
 game.terra: # U07VC9705D4
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+testing: # echo@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.limited.selfhosted.hackclub.com.
 texel: # maxhurley@hackclub.com
 - type: CNAME
   value: 0c12e8982190671d.vercel-dns-017.com.
