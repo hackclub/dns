@@ -5612,7 +5612,7 @@ game.terra: # U07VC9705D4
   value: a.ingress.tier2.infra.hackclub.com.
 texel: # maxhurley@hackclub.com
 - type: CNAME
-  value: cname.vercel-dns.com.
+  value: 0c12e8982190671d.vercel-dns-017.com.
 tfss:
 - type: A
   value: 216.150.1.1   # Vercel
