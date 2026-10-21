@@ -4194,6 +4194,12 @@ portal.parthenon:
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.   #POC = Reem reem@hackclub.com
+partypoopers: # echo@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 passport:
   type: CNAME
   value: 60edb94de5050d99.vercel-dns-016.com.
