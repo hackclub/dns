@@ -302,6 +302,7 @@ _vercel: #
   - "vc-domain-verify=ro.hackclub.com,2f000cc1b00f1f78b361"
   - "vc-domain-verify=simmer.hackclub.com,19a5cdf65fc7aedb7ccb"
   - "vc-domain-verify=teenhack.hackclub.com,83b35a519bc92ba8b94d"
+  - "vc-domain-verify=texel.hackclub.com,d57efca36b85b6e0e41e"
   - "vc-domain-verify=tlap.hackclub.com,fab392891c03fb490ae4"
   - "vc-domain-verify=toolsmith.hackclub.com,59d39defb05a336e28ad"
   - "vc-domain-verify=toppings.hackclub.com,f82287f84e90ea2099f8"
