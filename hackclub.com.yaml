@@ -5797,6 +5797,18 @@ trek: # sebh@hackclub.com
 trickortrace:
 - type: CNAME
   value: onboard-7w9.pages.dev.
+trmnt: # joaquin@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
+'20261021171010pm._domainkey.trmnt': # joaquin@hackclub.com
+- type: TXT
+  value: k=rsa\;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCWaMFOvejV1Wxz4erZeRFwRVDE2Ma++QCidU2g6fZlRPF3CQpS52uykxypiTD+TY3w/kYvMYBtXYxKn1WYERSoqVsaYOGagaBWwxBcBlg63H5j0Yrrb2lzizWy3b/KzJT8mpEs2eaXUDMc3qSLZdSK3kZU7E6V/gVo6wrzjq01eQIDAQAB
+pm-bounces.trmnt: # joaquin@hackclub.com
+- type: CNAME
+  value: pm.mtasv.net.
 ts:
 - octodns:
     cloudflare:
