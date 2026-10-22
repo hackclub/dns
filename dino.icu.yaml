@@ -1186,6 +1186,10 @@ saif:
 - ttl: 600
   type: TXT
   value: domain-verification=saif
+saleh: #Legacy Veteran Hack Clubber Portfolio Site, Originally (Formerly) Hosted at Saleh.hackclub.com
+  ttl: 300
+  type: CNAME
+  value: alisaleh.pages.dev
 saturnyx: # https://github.com/saturnyx/saturnyx.github.io
   ttl: 600
   type: CNAME
