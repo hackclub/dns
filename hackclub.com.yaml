@@ -4058,6 +4058,12 @@ onekey: # stelle@hackclub.com U07F6FMJ97U
     cloudflare:
       proxied: true
   value: a.ingress.tier2.infra.hackclub.com.
+onion: # brendan@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 opensauce: # zach@hackclub.com
 - octodns:
     cloudflare:
