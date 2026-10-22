@@ -5443,6 +5443,12 @@ stickers: #euan@hackclub.com U06T30DNB3L
 sticky: # anson@hackclub.com
 - type: CNAME
   value: cname.vercel-dns.com.
+story: # zach@hackclub.com, Orchard project stories
+- octodns:
+    cloudflare:
+      proxied: false
+  type: CNAME
+  value: stories-stories-9830e9.k.hackclub.dev.
 storyboard: # sophia@hackclub.com
 - type: CNAME
   value: ab1c540274e30358.vercel-dns-013.com.
