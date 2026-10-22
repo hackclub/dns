@@ -649,6 +649,9 @@ hasd: # hasd school forum
   ttl: 600
   type: A
   value: 143.244.201.64
+haven: # U08LQFRBL6S
+- type: CNAME
+  value: Alimadcorp.github.io.
 hcmobile: # U092329JX89
   ttl: 600
   type: CNAME
