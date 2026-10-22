@@ -2895,6 +2895,7 @@ _acme-challenge.hcb:
   - LA1XSttrtF1zLrOwC9oB-6Lfdb9YhO1yT2CUuSLkP-c
   - G7IRVAYKWiS8GlEu8ksVAeni_adYRfsQKyLJBOF5fEY
   - QuV7XwwpcQjyue1gxS3nGIGGUXMlg-WsUtpTrpFwaRI
+  - fiSu_uAsJARuKOl9jN5bDxvJy_mduoOtgC2cbYR3y5k
 blog.hcb: # HCB engineering/blog website
   type: CNAME
   value: a5f4edd87f53e433.vercel-dns-016.com.
