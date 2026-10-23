@@ -3972,6 +3972,12 @@ nest: # admins@hackclub.app
 "*.nest": # admins@hackclub.app
 - type: CNAME
   value: hackclub.app.
+neural-network: # cosmic79conqueror@gmail.com U0C0NK4156Y
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: nerualnet.duckdns.org.
 news: # eps@hackclub.com U09Q8MLTE58 & hc+dns@matmanna.dev U07VA44DNBA;
 - type: A
   value: 216.150.1.1
