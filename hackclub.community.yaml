@@ -61,6 +61,9 @@ hacksteal: # wangz9096z@gmail.com U08EGTXVCFR
 - type: CNAME
   value: hs.gnahiak2.dev.
   ttl: 600
+hcav: # U071JHBEJ7R
+- type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 labs: # theawesomeaj.dev@gmail.com U092329JX89
 - ttl: 600
   type: CNAME
