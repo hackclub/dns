@@ -3190,10 +3190,8 @@ a.db.tier2.infra:
   type: A
   value: 46.225.195.182
 _acme-challenge.a.db.tier2.infra: # seb@hackclub.com
-  type: TXT
-  values:
-  - idq4s6aNZYsv4UOdpmJSmgOIFkAGSHsYZ3fQOZQBSsk
-  - vzJvw4kfdT7qVq44QkQc_IDQdRYw28Tv-9jZ9UG0YGI
+  type: CNAME
+  value: 4cba0c3b-990d-43cc-b47b-fa79d0da8dee.acme.tier2.infra.hackclub.dev.
 fallback.tier2.infra: # echo@hackclub.com
 - octodns:
     cloudflare:
