@@ -1134,8 +1134,8 @@ ritam: # ritam.misra.rm@gmail.com
 - type: CNAME
   value: capewerd.hackclub.app.
 rnabil: # rnabilaltamis14@gmail.com
-- type: A
-  value: 65.21.220.139
+- type: CNAME
+  value: rnabil.hackclub.app.
 robonexus: # atharvam682@gmail.com
 - type: A
   value: 216.198.79.1
