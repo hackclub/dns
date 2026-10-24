@@ -5438,6 +5438,9 @@ steelyard-local: # mattsoh@hackclub.com U07DPHQCCCS
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+stellenium: # anson@hackclub.com
+- type: CNAME
+  value: cname.vercel-dns.com.
 stern: # antonio@hackclub.com
 - type: CNAME
   value: cname.vercel-dns.com.
