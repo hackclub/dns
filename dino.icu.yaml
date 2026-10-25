@@ -656,6 +656,9 @@ hcmobile: # U092329JX89
   ttl: 600
   type: CNAME
   value: cname.mintlify-dns.com.
+hcvidisha: # arjavjain0703@gmail.com
+- type: CNAME
+  value: cname.vercel-dns.com.
 hell: # kawalekkrzysztof233@proton.me U0BE4R92TUJ
 - type: CNAME
   value: hell-login-portal.vercel.app.
