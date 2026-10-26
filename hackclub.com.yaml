@@ -855,6 +855,12 @@ shop.boba:
 workshop.boba: # U020X4GCWSF
 - type: CNAME
   value: f3bee60fd737044f.vercel-dns-016.com.
+bookie: # nora@hackclub.com U09ULFV88KU
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 boot: #beanoantenucci@gmail.com U08U12MNF97
 - type: CNAME
   value: 8a20a1df3704dab0.vercel-dns-017.com.
