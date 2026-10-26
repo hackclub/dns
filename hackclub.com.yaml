@@ -2565,10 +2565,7 @@ hacktheoctober:
   value: cname.vercel-dns.com.
 hackvault: # benjamin.graetz@henleyhs.sa.edu.au U0828CN2BL4
   type: CNAME
-  value: bennygaming635.github.io.
-_github-pages-challenge-BennyGaming635.hackvault: # benjamin.graetz@henleyhs.sa.edu.au U0828CN2BL4
-- type: TXT
-  value: eb7c4c7569c1ef4036422ac45273f2
+  value: 2ed5ae70310be00f.vercel-dns-013.com.
 hackxpansion: # koeglike@proton.me
 - octodns:
     cloudflare:
