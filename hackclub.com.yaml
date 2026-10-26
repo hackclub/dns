@@ -3476,6 +3476,12 @@ manifest: #manitej@hackclub.com
 manifesto:
   type: CNAME
   value: a45c6884820232b2.vercel-dns-016.com.
+manimator: # kartikey@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 manor:
   type: CNAME
   value: f61dcda8ea43ee0c.vercel-dns-016.com.
