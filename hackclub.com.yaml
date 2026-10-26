@@ -953,7 +953,7 @@ c-li: # brendan@hackclub.com
     cloudflare:
       proxied: true
   type: CNAME
-  value: breynard0.github.io.
+  value: cname.vercel-dns.com.
 cachet: # echo@hackclub.com U080A3QP42C
   octodns:
     cloudflare:
