@@ -1392,6 +1392,9 @@ toonnongaeoy:
 - ttl: 600
   type: CNAME
   value: storyhouseproduction.duckdns.org.
+touchgrass: # mufeedkakkidi1234@gmail.com /  U0C5Q9SNML5
+- type: CNAME
+  value: asura-cr.github.io.
 troeticlicker: # admin@henrymeyer.de U0B1CCSCCLF
 - type: A
   value: 216.198.79.1
