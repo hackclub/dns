@@ -5612,6 +5612,9 @@ touch-grass:
       proxied: true
   type: CNAME
   value: a628f92777bc527b.vercel-dns-016.com.
+torque: # meghana@hackclub.com U06P62WGWAV
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com
 toybox:
   type: CNAME
   value: d7ce54e48ab125e2.vercel-dns-016.com.
