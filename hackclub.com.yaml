@@ -94,7 +94,7 @@ _atproto:
   value: did=did:plc:5rvcaxx64aqyguao6dbuscbz
 _dmarc:
   type: TXT
-  value: v=DMARC1\; p=quarantine\; rua=mailto:6192c543e0e61@ag.dmarcly.com\; ruf=mailto:6192c543e0e61@fo.dmarcly.com\; fo=1\;
+  value: v=DMARC1; p=quarantine; rua=mailto:e15967032b534bffacdc313a1035b5ce@dmarc-reports.cloudflare.net,mailto:6192c543e0e61@ag.dmarcly.com; ruf=mailto:6192c543e0e61@fo.dmarcly.com; fo=1;
 22cp7ldrht2mqurkrnbk3gidbfif4thx._domainkey:
   type: CNAME
   value: 22cp7ldrht2mqurkrnbk3gidbfif4thx.dkim.amazonses.com.
