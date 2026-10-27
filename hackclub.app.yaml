@@ -64,6 +64,9 @@ logs:
   value: 65.21.241.32
 - type: AAAA
   value: 2a01:4f9:c012:27ed::1
+mycloud: # vaishantn@gmail.com
+- type: CNAME
+  value: nest.hackclub.app.
 pbx:
 - type: AAAA
   value: 2a01:4f9:3081:399c:be24:11ff:fef0:3b81
