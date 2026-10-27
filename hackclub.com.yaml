@@ -3345,6 +3345,12 @@ leap:
 leap-manual:
   type: CNAME
   value: 578b642302902d47.vercel-dns-016.com.
+learn: # barnav@hackclub U08RVF1BAN4
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 levelzero: # arjavjain0703@gmail.com U081ZC7ES30
 - type: CNAME
   value: 2e3957c7185a65d0.vercel-dns-013.com.
