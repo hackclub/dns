@@ -61,9 +61,6 @@
 aan: # yassinbs@yahoo.com
 - type: CNAME
   value: cname.vercel-dns.com.
-absolute-cinema: # creatorpoints.dev@gmail.com U0BQFSHAV9T
-- type: CNAME
-  value: cname.vercel-dns.com.
 ai: # Suprised no one took this yet!
 - ttl: 600   # + AI
   type: CNAME   # https://github.com/elijah629/web2050,
