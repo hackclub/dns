@@ -751,6 +751,12 @@ jacob: # Jacob N // @Jacob // U0AEYDUCLKF
   ttl: 600
   type: CNAME
   value: smartsparkcoding.github.io.
+jackson:
+  - ttl: 600
+    type: A
+    value: 216.198.79.1
+
+
 jamesite: # Jame on slack // JamesFerris447@gmail.com // U09K59BPM2M
   ttl: 600
   type: CNAME
@@ -1596,12 +1602,6 @@ zoneout: # kilecraft90@gmail.com U08GCDHM0QZ
   type: CNAME
   value: cname.vercel-dns.com.
 
-  jackson.dino.icu:
-  - ttl: 600
-    type: A
-    value: 216.198.79.1
-  - ttl: 600
-    type: CNAME
-    value: ://vercel-dns.com.
+
 
 
