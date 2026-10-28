@@ -747,6 +747,9 @@ innohacks: #efe
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+jackson: # jackson.coopernz@gmail.com
+- type: CNAME
+  value: cname.vercel-dns.com.
 jacob: # Jacob N // @Jacob // U0AEYDUCLKF
   ttl: 600
   type: CNAME
