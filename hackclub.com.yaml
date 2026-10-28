@@ -2285,6 +2285,9 @@ gas:
 gas.gas.gas:
   type: A
   value: 45.79.179.212
+gaytime: # U0BQJ11VAD7
+- type: CNAME
+  value: ns1.vercel-dns.com.
 gemini:
   type: CNAME
   value: eb419f3dcb10b323.vercel-dns-016.com.
