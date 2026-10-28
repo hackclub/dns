@@ -747,14 +747,14 @@ innohacks: #efe
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
-jacob: # Jacob N // @Jacob // U0AEYDUCLKF
-  ttl: 600
-  type: CNAME
-  value: smartsparkcoding.github.io.
 jackson: # Jackson C // jackson.coopernz@gmail.com
   ttl: 600
   type: A
   value: 216.198.79.1
+jacob: # Jacob N // @Jacob // U0AEYDUCLKF
+  ttl: 600
+  type: CNAME
+  value: smartsparkcoding.github.io.
 jamesite: # Jame on slack // JamesFerris447@gmail.com // U09K59BPM2M
   ttl: 600
   type: CNAME
