@@ -835,6 +835,9 @@ la: # Laker Turner's links page - @lxjv or @la / @laker in the slack
   ttl: 600
   type: CNAME
   value: laker.omg.lol.
+lborohack: # Euan U06T30DNB3L - LboroHack vercel deployment
+- type: CNAME
+  value: cname.vercel-dns.com.
 leo:
   ttl: 600
   type: CNAME
