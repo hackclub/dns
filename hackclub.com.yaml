@@ -350,12 +350,12 @@ chat.ai: # mahad@hackclub.com U059VC0UDEU
 docs.ai: # mahad@hackclub.com U059VC0UDEU
 - type: CNAME
   value: 0398d53533e1257d.vercel-dns-016.com.
-airbridge:
+airbridge: # @msw max@hackclub.com
   octodns:
     cloudflare:
       proxied: true
   type: CNAME
-  value: a.limited.selfhosted.hackclub.com.
+  value: a.ingress.tier2.infra.hackclub.com.
 airlock: # manitej@hackclub.com
 - octodns:
     cloudflare:
@@ -449,12 +449,12 @@ apacdirectory:
 apex:
 - type: CNAME
   value: c005983048958125.vercel-dns-016.com.
-api2:
+api2: # @msw max@hackclub.com
   octodns:
     cloudflare:
       proxied: true
   type: CNAME
-  value: a.limited.selfhosted.hackclub.com.
+  value: a.ingress.tier2.infra.hackclub.com.
 apis: # santi@hackclub.com
 - type: CNAME
   value: cname.vercel-dns.com.
