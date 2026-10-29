@@ -2670,6 +2670,9 @@ daven.haven: # daamin@hackclub.com U07GLQY6UN4
 pm-bounces.haven: # haven@hackclub.com jolly@hackclub.com
 - type: CNAME
   value: pm.mtasv.net.
+scoop.haven: # daamin@hackclub.com U07GLQY6UN4
+- type: CNAME
+  value: dbb6c0d2b5aac686.vercel-dns-013.com.
 stars.haven: # barnav@hackclub.com U08RVF1BAN4
 - octodns:
     cloudflare:
