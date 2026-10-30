@@ -1102,7 +1102,7 @@ castoff: # selena@hackclub.com U06U1CBK589
     cloudflare:
       proxied: true
   type: CNAME
-  value: a.ingress.tier2.infra.hackclub.com.
+  value: cname.vercel-dns.com.
 catgirl: # foxmoss@hackclub.com
 - type: CNAME
   octodns:
