@@ -4382,6 +4382,9 @@ pxl: # euan@hackclub.com #U06T30DNB3L
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
+py-crawler: # mastepieter16@gmail.com U0ART1VCZ0Q
+- type: AAAA
+  value: 2a01:4f9:3080:3192::2131
 pyramid:
   octodns:
     cloudflare:
