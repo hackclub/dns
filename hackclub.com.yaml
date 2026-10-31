@@ -1438,9 +1438,6 @@ counterspell:
     preference: 10
   - exchange: alt4.aspmx.l.google.com.
     preference: 10
-coxmill:
-- type: CNAME
-  value: modest-swanson-0a9aa6.netlify.app.
 cq: # ruben@scstudios.tech U0AHNB20WDD
 - octodns:
     cloudflare:
