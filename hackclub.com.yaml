@@ -4590,9 +4590,6 @@ rpg:
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
-rrhs:
-  type: CNAME
-  value: rrhs-hack-club.netlify.app.
 rss:
   type: CNAME
   value: 5e3aec56f7ee6698.vercel-dns-016.com.
