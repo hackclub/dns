@@ -3198,9 +3198,6 @@ jams: # echo@hackclub.com U080A3QP42C
 jank:
 - type: CNAME
   value: e5d47d2892b2bea7.vercel-dns-016.com.
-jchs:
-  type: CNAME
-  value: zealous-perlman-e5eef6.netlify.app.
 jenin-mail: #jenin@hackclub.com
   octodns:
     cloudflare:
