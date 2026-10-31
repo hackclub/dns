@@ -380,9 +380,6 @@ alley:
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
-aloha:
-- type: CNAME
-  value: epic-mcnulty-0ed53c.netlify.app.
 alpine:
 - type: CNAME
   value: 7fda3a1f50ff7231.vercel-dns-016.com.
@@ -1935,9 +1932,6 @@ sign.events:
 evergreen:
 - type: CNAME
   value: cname.vercel-dns.com.
-evoking:
-  type: CNAME
-  value: evokinghc.netlify.app.
 expedition: # johnny@hackclub.com
 - type: CNAME
   value: cname.vercel-dns.com.
@@ -3180,9 +3174,6 @@ jackpotstaging: # emmaborghi@hackclub.com U078DFX40A2
 jagiellonbitbrewers:
 - type: CNAME
   value: jagiellon-bitbrewers.github.io.
-jain:
-  type: A
-  value: 185.199.108.153
 jam: # echo@hackclub.com U080A3QP42C
   type: CNAME
   value: c29c4353cecbad19.vercel-dns-016.com.
@@ -3201,9 +3192,6 @@ jams: # echo@hackclub.com U080A3QP42C
 jank:
 - type: CNAME
   value: e5d47d2892b2bea7.vercel-dns-016.com.
-jchs:
-  type: CNAME
-  value: zealous-perlman-e5eef6.netlify.app.
 jenin-mail: #jenin@hackclub.com
   octodns:
     cloudflare:
@@ -4593,9 +4581,6 @@ rpg:
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
-rrhs:
-  type: CNAME
-  value: rrhs-hack-club.netlify.app.
 rss:
   type: CNAME
   value: 5e3aec56f7ee6698.vercel-dns-016.com.
@@ -5888,9 +5873,6 @@ welcome: # (christian(cin) )U0938MZG8Q6 - "hq member (eps) U09Q8MLTE58"
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
-westborough:
-- type: CNAME
-  value: whs-hackclub.netlify.com.
 wggs:
 - type: CNAME
   value: luna5379.github.io.
@@ -5904,9 +5886,6 @@ whimsy: # katiesue@hackclub.com
 - type: CNAME
   value: ad97879918161518.vercel-dns-017.com.
   ttl: 600
-whs:
-- type: CNAME
-  value: whs-hackclub.netlify.com.
 widget: # barnav@hackclub.com
 - type: CNAME
   octodns:
