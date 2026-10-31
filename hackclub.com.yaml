@@ -5901,9 +5901,6 @@ whimsy: # katiesue@hackclub.com
 - type: CNAME
   value: ad97879918161518.vercel-dns-017.com.
   ttl: 600
-whs:
-- type: CNAME
-  value: whs-hackclub.netlify.com.
 widget: # barnav@hackclub.com
 - type: CNAME
   octodns:
