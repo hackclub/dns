@@ -3177,9 +3177,6 @@ jackpotstaging: # emmaborghi@hackclub.com U078DFX40A2
 jagiellonbitbrewers:
 - type: CNAME
   value: jagiellon-bitbrewers.github.io.
-jain:
-  type: A
-  value: 185.199.108.153
 jam: # echo@hackclub.com U080A3QP42C
   type: CNAME
   value: c29c4353cecbad19.vercel-dns-016.com.
