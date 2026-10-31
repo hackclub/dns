@@ -5885,9 +5885,6 @@ welcome: # (christian(cin) )U0938MZG8Q6 - "hq member (eps) U09Q8MLTE58"
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
-westborough:
-- type: CNAME
-  value: whs-hackclub.netlify.com.
 wggs:
 - type: CNAME
   value: luna5379.github.io.
