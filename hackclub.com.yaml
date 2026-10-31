@@ -4915,6 +4915,9 @@ send.shop: # rushil@hackclub.com U020X4GCWSF
 showcase:
   type: CNAME
   value: onboard-7w9.pages.dev.
+shredder: # selena@hackclub.com U06U1CBK589
+- type: CNAME
+  value: cname.vercel-dns.com.
 shrink: # anson@hackclub.com
 - type: CNAME
   value: cname.vercel-dns.com.
