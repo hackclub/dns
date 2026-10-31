@@ -1197,6 +1197,9 @@ chipper: # brendan@hackclub.com
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+choco: # will@hackclub.com
+- type: CNAME
+  value: cname.vercel-dns.com.
 christinaday2020:
 - type: CNAME
   value: hackclub.github.io.
