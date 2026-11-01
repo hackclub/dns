@@ -2037,12 +2037,9 @@ fizzy: # zach@hackclub.com
       proxied: true
   type: CNAME
   value: a.limited.selfhosted.hackclub.com.
-flagship: # samliu@hackclub.com
-- octodns:
-    cloudflare:
-      proxied: true
+flagship: # augie@hackclub.com U07FCRNHS1J
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: 8e80d9e700d71a77.vercel-dns-016.com.
 flagvote:
   type: CNAME
   value: 95e66337bccbb841.vercel-dns-016.com.
