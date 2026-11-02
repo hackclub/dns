@@ -5095,15 +5095,9 @@ solvable: # jared@hackclub.com / lynn@hackclub.com
 som-mail-system:
   type: CNAME
   value: b9dd0ffc9d4870b8.vercel-dns-016.com.
-spaces: # ivie@hackclub.com @Charmunk
-  type: A
-  value: 65.108.71.92
-old.spaces: # ivie@hackclub.com @Charmunk
-- octodns:
-    cloudflare:
-      proxied: true
+spaces: # wally@hackclub.com @wbs
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: cc0c5fc6bb865d87.vercel-dns-013.com.
 spark:
 - type: A
   value: 216.150.1.1   # Vercel
@@ -5214,7 +5208,7 @@ staging.stardance: # kartikey@hackclub.com
 url1054.stardance: # kartikey@hackclub.com
   type: CNAME
   value: sendgrid.net.
-startgrant: # ivie@hackclub.com
+startgrant: # wally@hackclub.com
 - octodns:
     cloudflare:
       proxied: true
