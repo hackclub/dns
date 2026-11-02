@@ -5383,6 +5383,12 @@ sunboard: # lola@hackclub.com
 suncatcher: # U0943NG73PA julia@hackclub.com
   type: CNAME
   value: suncatcher-6owl6r1ft.hackclub.dev.
+sunker: # brendan@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 super-cdn-bot:
 - octodns:
     cloudflare:
