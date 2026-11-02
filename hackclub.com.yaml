@@ -1677,6 +1677,12 @@ downscale: # augie@hackclub.com
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
+dps: # karthikeyauppalapati0@gmail.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: hack-club-dpsn.vercel.app.
 draw-dino: # mattsoh@hackclub.com U07DPHQCCCS
 - octodns:
     cloudflare:
