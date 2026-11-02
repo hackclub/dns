@@ -2863,6 +2863,9 @@ helvetica: # maxhurley@hackclub.com or U078ZJHUKFW
 hermes:
   type: CNAME
   value: meghanam4.github.io.
+hi: # echo@hackclub.com U080A3QP42C
+- type: CNAME
+  value: 6cdac7be6b2e933b.vercel-dns-016.com.
 high-seas:
 - type: CNAME
   value: 992022aa5b4ad559.vercel-dns-016.com.
