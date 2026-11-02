@@ -3150,6 +3150,9 @@ ispy: #U087BHR98AX
 isthackers:
 - type: CNAME
   value: isthackers.github.io.
+it: # echo@hackclub.com U080A3QP42C
+- type: CNAME
+  value: 6cdac7be6b2e933b.vercel-dns-016.com.
 itch-theme-reveal: # augie@hackclub.com U07FCRNHS1J
 - type: CNAME
   value: itch-theme-reveal-itch-theme-0424b5.k.hackclub.dev.
