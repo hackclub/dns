@@ -5480,16 +5480,10 @@ terminalcraft:
 - type: CNAME
   value: 21a914e9b89646d3.vercel-dns-016.com.
 terra: # olive@hackclub.com U07BN55GN3D
-- octodns:
-    cloudflare:
-      proxied: true
-  type: CNAME
+- type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 api.terra: # U07VC9705D4
-- octodns:
-    cloudflare:
-      proxied: true
-  type: CNAME
+- type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 game.terra: # U07VC9705D4
   type: CNAME
