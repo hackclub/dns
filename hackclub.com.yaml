@@ -2682,6 +2682,12 @@ booking.haven: # haven@hackclub.com
 daven.haven: # daamin@hackclub.com U07GLQY6UN4
 - type: CNAME
   value: 626c9d8a4513f00b.vercel-dns-013.com.
+hunter.haven: # barnav@hackclub U08RVF1BAN4
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 pm-bounces.haven: # haven@hackclub.com jolly@hackclub.com
 - type: CNAME
   value: pm.mtasv.net.
