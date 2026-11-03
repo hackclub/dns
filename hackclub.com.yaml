@@ -5486,10 +5486,7 @@ terra: # olive@hackclub.com U07BN55GN3D
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 api.terra: # U07VC9705D4
-- octodns:
-    cloudflare:
-      proxied: true
-  type: CNAME
+- type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 game.terra: # U07VC9705D4
   type: CNAME
