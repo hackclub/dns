@@ -722,6 +722,9 @@ icons: # yoda - https://github.com/yodalightsabr/icons-dino-icu - a CDN for @hac
 idli: # jaykrishnatj@proton.me | Github: https://github.com/idli69
 - type: CNAME
   value: ubu.hackclub.app.
+ihsan: # Ihsanahamedkhan@gmail.com
+- type: CNAME
+  value: cname.vercel-dns.com.
 inherit: # contact at mtthsschrbr@proton.me or @mtthsschrbr on slack
 - ttl: 600
   type: CNAME
