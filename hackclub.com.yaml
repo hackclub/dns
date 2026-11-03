@@ -341,12 +341,6 @@ ai: # mahad@hackclub.com U059VC0UDEU
       proxied: true
   type: CNAME
   value: b.selfhosted.hackclub.com.
-chat.ai: # mahad@hackclub.com U059VC0UDEU
-- octodns:
-    cloudflare:
-      proxied: true
-  type: CNAME
-  value: b.selfhosted.hackclub.com.
 docs.ai: # mahad@hackclub.com U059VC0UDEU
 - type: CNAME
   value: 0398d53533e1257d.vercel-dns-016.com.
