@@ -2829,9 +2829,6 @@ vcejoqk3ugmcla3kub7bfcyn2ktbimhv._domainkey.staging.hcb: # HCB Staging SES DKIM
 status.hcb:
 - type: CNAME
   value: cname.appsignal-status.com.
-transfers.hcb:
-  type: TXT
-  value: google-site-verification=ozdU6t74W_kUOxJEc1QOQxvU-GkWq7XimWhOmuUW2ic
 ui3.hcb: # gary@hackclub.com
 - type: CNAME
   value: 11cecfc3c082c480.vercel-dns-016.com.
