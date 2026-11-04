@@ -984,6 +984,14 @@ mysphere: # U081RF7D23D
   ttl: 600
   type: CNAME
   value: mh-wah.github.io.
+net: # not.amplify@night-x.com
+- ttl: 600
+  type: CNAME
+  value: nightwisp.me
+"*.net": # not.amplify@night-x.com
+- ttl: 600
+  type: CNAME
+  value: nightwisp.me
 nic-67: # Nic-67 root-67@lavache.com
   ttl: 600
   type: A
@@ -1610,4 +1618,3 @@ zoneout: # kilecraft90@gmail.com U08GCDHM0QZ
 - ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
-
