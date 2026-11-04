@@ -2013,6 +2013,12 @@ fanpage:
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
+fart: # liam@hackclub.com U08EUSU38VC
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 fett: # jared@hackclub.com U07HEH4N8UV
 - type: CNAME
   value: bc88611c121f3104.vercel-dns-016.com.
