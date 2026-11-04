@@ -1492,6 +1492,12 @@ cresent: # ascpixi@hackclub.com U082DPCGPST
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+crossroads: # joaquin@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 rsvp.crossroads: # joaquin@hackclub.com
 - type: CNAME
   value: cname.vercel-dns.com.
