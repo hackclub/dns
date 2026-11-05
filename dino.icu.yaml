@@ -79,8 +79,7 @@ _acme-challenge.ajhalili2006: # ajhalili2006@andreijiroh.dev https://gitlab.com/
   type: CNAME
   value: 3a1ea03c191e234288b279704763e052._acme.deno.net.
 
-
- ajmaleee: # https://github.com/Ajmaleee
+ajmaleee: # ajmalsworkshop@gmail.com 
 - ttl: 600
   type: CNAME
   value: ajmaleeev2.pages.dev.
