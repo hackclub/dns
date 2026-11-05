@@ -78,6 +78,12 @@ _acme-challenge.ajhalili2006: # ajhalili2006@andreijiroh.dev https://gitlab.com/
 - ttl: 600
   type: CNAME
   value: 3a1ea03c191e234288b279704763e052._acme.deno.net.
+
+
+ ajmaleee: # https://github.com/Ajmaleee
+- ttl: 600
+  type: CNAME
+  value: ajmaleeev2.pages.dev.
 # Alumni Society (https://github.com/hackclub-alumni/meta/issues/1)
 # Records are primarily managed by @ajhalili2006 (U07CAPBB9B5), although other alums
 # can manage them by coordinating at #alums channel or https://github.com/hackclub-alumni/meta.
