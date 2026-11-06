@@ -4318,7 +4318,7 @@ printlegion:
     cloudflare:
       proxied: true
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: a.ingress.tier2.infra.hackclub.com.
 professorbloom:
   octodns:
     cloudflare:
