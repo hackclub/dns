@@ -2062,7 +2062,10 @@ fizzy: # zach@hackclub.com
   type: CNAME
   value: a.limited.selfhosted.hackclub.com.
 fjording: # louisa@hackclub.com
-- type: CNAME
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 flagship: # augie@hackclub.com U07FCRNHS1J
   type: CNAME
