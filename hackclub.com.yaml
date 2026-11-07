@@ -3455,12 +3455,12 @@ lookalike: # johnny@hackclub.com
 lookingglass: # anson@hackclub.com
 - type: CNAME
   value: cname.vercel-dns.com.
-lookout: # samliu@hackclub.com
+lookout: # anson@hackclub.com
 - octodns:
     cloudflare:
       proxied: true
   type: CNAME
-  value: b.selfhosted.hackclub.com.
+  value: a.ingress.tier2.infra.hackclub.com.
 pkg.lookout: # anson@hackclub.com
 - type: CNAME
   value: hackclub.github.io.
