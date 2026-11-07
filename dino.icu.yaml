@@ -1603,6 +1603,9 @@ proxy.you-ship-we-vote:
 - ttl: 600
   type: A
   value: 209.112.91.50
+youthlink: # abdullahmet2011@hotmail.com
+- type: CNAME
+  value: youthlin-k.netlify.app.
 yuki-rins: # 19979598350@163.com
 - ttl: 600
   type: CNAME
