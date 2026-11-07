@@ -2718,6 +2718,9 @@ pm-bounces.haven: # haven@hackclub.com jolly@hackclub.com
 portal.haven: # josh@hackclub.com U07EH2CKVMJ
 - type: CNAME
   value: olnr13dx.up.railway.app.
+_railway-verify.portal.haven: # josh@hackclub.com U07EH2CKVMJ
+- type: TXT
+  value: railway-verify=64aba7d5626623a813712f4c5435094b70af272ac471cd3f07ec15f91edcd958
 scoop.haven: # daamin@hackclub.com U07GLQY6UN4
 - type: CNAME
   value: dbb6c0d2b5aac686.vercel-dns-013.com.
