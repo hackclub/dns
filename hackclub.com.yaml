@@ -3342,12 +3342,9 @@ kmea:
 langjam:
   type: CNAME
   value: e92be0877a23dde7.vercel-dns-016.com.
-lapse: # ascpixi@hackclub.com U082DPCGPST
-- octodns:
-    cloudflare:
-      proxied: true
-  type: CNAME
-  value: a.ingress.tier2.infra.hackclub.com.
+lapse: # anson@hackclub.com
+- type: CNAME
+  value: cname.vercel-dns.com.
 api.lapse: # ascpixi@hackclub.com U082DPCGPST
 - octodns:
     cloudflare:
