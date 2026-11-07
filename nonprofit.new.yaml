@@ -18,3 +18,6 @@
   octodns:
     cloudflare:
       proxied: true
+youthlink: # abdullahmet2011@hotmail.com
+- type: CNAME
+  value: youthlin-k.netlify.app.
