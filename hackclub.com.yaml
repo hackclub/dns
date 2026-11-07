@@ -6030,9 +6030,12 @@ you-ship-we-clip:
 your-first-ship:
 - type: CNAME
   value: af91962c946ec99c.vercel-dns-016.com.
-ysws:
-- type: CNAME
-  value: hackclub.github.io.
+ysws: # echo@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: hackclub.com.
 ysws-true-spend: # zach@hackclub.com
 - octodns:
     cloudflare:
