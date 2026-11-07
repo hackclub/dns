@@ -3343,11 +3343,11 @@ langjam:
   type: CNAME
   value: e92be0877a23dde7.vercel-dns-016.com.
 lapse: # ascpixi@hackclub.com U082DPCGPST
-  octodns:
+- octodns:
     cloudflare:
       proxied: true
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: a.ingress.tier2.infra.hackclub.com.
 api.lapse: # ascpixi@hackclub.com U082DPCGPST
 - octodns:
     cloudflare:
