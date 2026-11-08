@@ -4325,6 +4325,12 @@ premiere: #shurui@hackclub.com U082ZLXSU10
 printboard:
   type: CNAME
   value: c296f4754a30c049.vercel-dns-016.com.
+printinglegion: # nimit.vijayvargee@gmail.com U0735FTMS3V
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 printlegion:
 - octodns:
     cloudflare:
