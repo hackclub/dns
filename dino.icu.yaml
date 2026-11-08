@@ -1431,6 +1431,9 @@ troeticlicker: # admin@henrymeyer.de U0B1CCSCCLF
 my.ts-derp: # darrenwjlau@gmail.com
 - type: CNAME
   value: minori.main.sites.darrenmc.dev.
+tty: # cloudglides@proton.me U0A2EKA9FAL
+- type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 turnstilebot: # hola@santiagortega.dev
 - type: CNAME
   value: whatsapp1.alwaysdata.net.
