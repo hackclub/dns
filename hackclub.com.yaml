@@ -4331,6 +4331,12 @@ printlegion:
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+printinglegion:
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 professorbloom:
   octodns:
     cloudflare:
