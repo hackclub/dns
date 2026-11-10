@@ -3216,6 +3216,9 @@ itch-theme-reveal: # augie@hackclub.com U07FCRNHS1J
 iter:
   type: CNAME
   value: hackclubiter.github.io.
+itsjxnah: # itsjxnah.public@proton.me
+- type: CNAME
+  value: portfolio-itsjxnah.vercel.app.
 ja:
   type: CNAME
   value: a05569dabb46ea5b.vercel-dns-016.com.
