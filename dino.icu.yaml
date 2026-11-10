@@ -750,6 +750,9 @@ innohacks: #efe
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+itsjxnah: # itsjxnah.public@proton.me
+- type: CNAME
+  value: portfolio-itsjxnah.vercel.app.
 jackson: # jackson.coopernz@gmail.com
 - type: CNAME
   value: cname.vercel-dns.com.
