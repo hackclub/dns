@@ -728,6 +728,12 @@ send.bash: # rushil@hackclub.com U020X4GCWSF
     preference: 10
 - type: TXT
   value: "v=spf1 include:amazonses.com ~all"
+bashed: # emma@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 bauble: #alexvd@hackclub.com
 - octodns:
     cloudflare:
