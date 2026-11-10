@@ -1271,6 +1271,12 @@ cockpit: # leafd@hackclub.com @lfd
       proxied: false
   type: A
   value: 5.161.244.66
+cocoa: # davidp@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 codecafe:
 - type: CNAME
   value: cname.vercel-dns.com.
