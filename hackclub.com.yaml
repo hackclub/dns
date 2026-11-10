@@ -5789,6 +5789,12 @@ ts:
       proxied: true
   type: CNAME
   value: 718b4f579eabecaa.vercel-dns-016.com.
+tty: # cloudglides@proton.me U0A2EKA9FAL
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 turfwars: # mihir@hackclub.com
 - type: CNAME
   octodns:
