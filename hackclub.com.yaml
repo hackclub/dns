@@ -4475,6 +4475,9 @@ quarry: # nathan@hackclub.com U05EZRFKRV4
       proxied: true
   type: CNAME
   value: b.selfhosted.hackclub.com.
+r2: # echo@hackclub.com
+- type: CNAME
+  value: 070466024b4fe1d3.vercel-dns-013.com.
 radish: # foxmoss@mediaology.com
 - type: CNAME
   octodns:
