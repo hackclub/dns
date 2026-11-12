@@ -3993,6 +3993,9 @@ onion: # brendan@hackclub.com
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+openai-business-profile: # leo@hackclub.com
+- type: TXT
+  value: openai-business-profile=iBtSclTDIPjWbyWJmor7aDPRTai0ZFsinCXXmJn00-A
 opensauce: # zach@hackclub.com
 - octodns:
     cloudflare:
