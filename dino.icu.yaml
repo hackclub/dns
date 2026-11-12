@@ -907,6 +907,15 @@ ghost.deployment.mangrove: # evanxdsouza@gmail.com U0AHS9VLG0K
 reverse.deployment.mangrove: # evanxdsouza@gmail.com U0AHS9VLG0K
 - type: CNAME
   value: evanxdsouza.hackclub.app.
+docs.mangrove: # evanxdsouza@gmail.com U0AHS9VLG0K
+- type: CNAME
+  value: cname.mintlify.builders.
+_acme-challenge.docs.mangrove: # evanxdsouza@gmail.com U0AHS9VLG0K
+- type: TXT
+  value: H1O82q1Ys9yfUDFCufILg2RUVoD1vlnMWchlPteulFU
+_cf-custom-hostname.docs.mangrove: # evanxdsouza@gmail.com U0AHS9VLG0K
+- type: TXT
+  value: f44a9f02-4745-4284-b434-2551aa70e545
 forms.mangrove: # evanxdsouza@gmail.com U0AHS9VLG0K
 - type: CNAME
   value: evanxdsouza.hackclub.app.
