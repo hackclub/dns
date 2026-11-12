@@ -241,6 +241,9 @@ bin: # by U07FD57JN67 (adi // pizzalover125)
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+blanche: # evanxdsouza@gmail.com U0AHS9VLG0K
+- type: CNAME
+  value: dashboard.automiq.me.
 blit: # U07JEDAMFV3
   ttl: 600
   type: A
