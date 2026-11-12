@@ -2733,6 +2733,12 @@ hunter.haven: # barnav@hackclub U08RVF1BAN4
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+links.haven: # barnav@hackclub U08RVF1BAN4
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 pm-bounces.haven: # haven@hackclub.com jolly@hackclub.com
 - type: CNAME
   value: pm.mtasv.net.
