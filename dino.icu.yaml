@@ -891,6 +891,10 @@ lyon:
   ttl: 600
   type: CNAME
   value: lyon-website.pages.dev.
+m: # dani@hackclub.com - for use on hq's local network
+  ttl: 600
+  type: A
+  value: 10.40.77.236
 mail: # a page to share your email with orpheus
   ttl: 600
   type: CNAME
