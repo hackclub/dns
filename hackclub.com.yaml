@@ -2721,6 +2721,9 @@ booking.haven: # haven@hackclub.com
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+countdown.haven: # daamin@hackclub.com U07GLQY6UN4
+- type: CNAME
+  value: cname.vercel-dns.com.
 daven.haven: # daamin@hackclub.com U07GLQY6UN4
 - type: CNAME
   value: 626c9d8a4513f00b.vercel-dns-013.com.
