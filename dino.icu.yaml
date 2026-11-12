@@ -890,7 +890,11 @@ low-ping: # roblox low ping finder site thingy; by https://github.com/lem6ns
 lyon:
   ttl: 600
   type: CNAME
-  value: lyon-website.pages.dev. 
+  value: lyon-website.pages.dev.
+m: # dani@hackclub.com - for use on hq's local network
+  ttl: 600
+  type: A
+  value: 10.40.77.236
 mail: # a page to share your email with orpheus
   ttl: 600
   type: CNAME
@@ -999,10 +1003,6 @@ mysphere: # U081RF7D23D
   ttl: 600
   type: CNAME
   value: mh-wah.github.io.
-m: # dani@hackclub.com - for use on hq's local network
-  ttl: 600
-  type: A
-  value: 10.40.77.236
 net: # not.amplify@night-x.com
 - ttl: 600
   type: CNAME
