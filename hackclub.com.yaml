@@ -5626,6 +5626,12 @@ throttle: # johnny@hackclub.com
 throwback: # electricxangell@gmail.com
 - type: CNAME
   value: 8e177e0b1bd5bf0a.vercel-dns-013.com.
+tickets: # brendan@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 tile:
 - octodns:
     cloudflare:
