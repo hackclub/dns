@@ -4020,12 +4020,12 @@ ops: # leo@hackclub.com U07BLJ1MBEE
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
-orchard: #tongyu@hackclub.com U07DJMFAQQP
+orchard: # seb@hackclub.com U07UBCSSQH3
 - octodns:
     cloudflare:
       proxied: true
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: a.ingress.tier2.infra.hackclub.com.
 organizer:
 - type: CNAME
   value: 6f53d30fd60c2623.vercel-dns-016.com.
