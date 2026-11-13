@@ -2742,9 +2742,9 @@ links.haven: # barnav@hackclub U08RVF1BAN4
 pm-bounces.haven: # haven@hackclub.com jolly@hackclub.com
 - type: CNAME
   value: pm.mtasv.net.
-portal.haven: # josh@hackclub.com U07EH2CKVMJ
+portal.haven: # jolly@hackclub.com U08CJCZ2Z9S
 - type: CNAME
-  value: olnr13dx.up.railway.app.
+  value: a.ingress.tier2.infra.hackclub.com.
 scoop.haven: # daamin@hackclub.com U07GLQY6UN4
 - type: CNAME
   value: dbb6c0d2b5aac686.vercel-dns-013.com.
