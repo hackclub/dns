@@ -495,6 +495,9 @@ e: # drawing app - by https://github.com/sporeball
   ttl: 600
   type: CNAME
   value: sporeball.github.io.
+easythere: # creatorpoints.dev@gmail.com U0BQFSHAV9T
+- type: CNAME
+  value: cname.vercel-dns.com.
 egg-labs: # just a WIP catalogue of tools for HCTG, U092UGQGHHP
   ttl: 600
   type: CNAME
