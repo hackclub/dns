@@ -4026,6 +4026,12 @@ orchard: # seb@hackclub.com U07UBCSSQH3
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+docs.orchard: # seb@hackclub.com U07UBCSSQH3
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 organizer:
 - type: CNAME
   value: 6f53d30fd60c2623.vercel-dns-016.com.
