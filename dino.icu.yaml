@@ -610,6 +610,9 @@ galaxybrain: # aaranysaini4@gmail.com U0B78MFGH9P
 game-a-tale: # creatorpoints.dev@gmail.com U0BQFSHAV9T
 - type: CNAME
   value: cname.vercel-dns.com.
+gametale: # creatorpoints.dev@gmail.com U0BQFSHAV9T
+- type: CNAME
+  value: cname.vercel-dns.com.
 get: # sabhya.aggarwal@icloud.com U0A83DB0TRN
 - ttl: 600
   type: A
