@@ -42,6 +42,11 @@ aus: # benjamin.graetz@henleyhs.sa.edu.au U0828CN2BL4
 - ttl: 600
   type: A
   value: 35.158.87.123
+# https://github.com/404navdeep/cheddar
+cheddar: # U083T3ZP6AV
+- ttl: 600
+  type: CNAME
+  value: 4c9e75036feaf35b.vercel-dns-017.com.
 constellation: # me@theutkarsh8939.dev U0AM8ASHEG6 #This is for constellation.theutkarsh8939.dev
 - ttl: 600
   type: CNAME
@@ -78,8 +83,3 @@ rsvp: # U08PUHSMW4V
 - ttl: 600
   type: A
   value: 192.9.226.154
-# https://github.com/404navdeep/cheddar
-cheddar: # U083T3ZP6AV
-- ttl: 600
-  type: CNAME
-  value: 4c9e75036feaf35b.vercel-dns-017.com.
