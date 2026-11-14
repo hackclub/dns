@@ -1127,6 +1127,9 @@ playground: #https://github.com/thagreatjoel/Playground
   ttl: 600
   type: CNAME
   value: hardwareplayground.netlify.app.
+podium: # jolly@hackclub.com U08CJCZ2Z9S
+- type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 premier: # rushil@hackclub.com U020X4GCWSF
   ttl: 600
   type: CNAME
