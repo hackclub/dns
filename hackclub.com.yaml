@@ -1702,11 +1702,8 @@ doppel: # jolly@hackclub.com U08CJCZ2Z9S & katiesue@hackclub.com U06SQJ508LF
       proxied: true
   value: a.ingress.tier2.infra.hackclub.com.
 downscale: # augie@hackclub.com
-  octodns:
-    cloudflare:
-      proxied: true
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: eeeb5ca9d6492736.vercel-dns-013.com.
 draw-dino: # mattsoh@hackclub.com U07DPHQCCCS
 - octodns:
     cloudflare:
