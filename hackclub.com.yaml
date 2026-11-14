@@ -1559,11 +1559,8 @@ data: # leo@hackclub.com
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
 daydream:
-- octodns:
-    cloudflare:
-      proxied: true
-  type: A
-  value: 5.161.100.52   # a.selfhosted.hackclub.com
+- type: A
+  value: 76.76.21.21
 - type: TXT
   values:
   - google-site-verification=Bu5WZO3irOCbcJhWCTUrBN_JJfbuGNeEAp4j_itf6J8
