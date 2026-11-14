@@ -36,6 +36,7 @@ _vercel:
   values:
   - vc-domain-verify=labs.hackclub.community,26555f7a32c65e2aef34
   - vc-domain-verify=constellation.hackclub.community,d59e474d127c8d4dfd58
+  - vc-domain-verify=cheddar.hackclub.community,639a9ccc4848282f6be5
 
 aus: # benjamin.graetz@henleyhs.sa.edu.au U0828CN2BL4
 - ttl: 600
@@ -77,3 +78,8 @@ rsvp: # U08PUHSMW4V
 - ttl: 600
   type: A
   value: 192.9.226.154
+# https://github.com/404navdeep/cheddar
+cheddar: # U083T3ZP6AV
+- ttl: 600
+  type: CNAME
+  value: 4c9e75036feaf35b.vercel-dns-017.com.
