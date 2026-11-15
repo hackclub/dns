@@ -1318,6 +1318,9 @@ short: # short.dino.icu; by kunal botla (.com)
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+shortcut: # harora@elipseday.xyz
+- type: A
+  value: 216.198.79.1
 sk: # sk.dino.icu unofficial hackclub sharkey instance
   ttl: 600
   type: CNAME
