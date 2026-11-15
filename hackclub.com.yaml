@@ -2291,6 +2291,12 @@ g: # kartikey@hackclub.com
 gadget: # acon / U04KEK4TS72
 - type: CNAME
   value: cname.vercel-dns.com.
+galway: # johnny@hackclub.com U0AA446NTJA
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 gamblorpheus: # amber / U054VC2KM9P
   type: CNAME
   octodns:
