@@ -2683,9 +2683,12 @@ hardware: # sophia@hackclub.com
 harpa: # jolly@hackclub.com
 - type: CNAME
   value: a2c3b83ae2577730.vercel-dns-013.com.
-harvest:
+harvest: # barnav@hackclub U08RVF1BAN4
+- octodns:
+    cloudflare:
+      proxied: true
   type: CNAME
-  value: aaeba5893cef3800.vercel-dns-016.com.
+  value: a.ingress.tier2.infra.hackclub.com.
 haunted:
   type: CNAME
   value: 8f79124013efc00d.vercel-dns-016.com.
