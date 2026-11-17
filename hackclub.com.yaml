@@ -2689,6 +2689,13 @@ harvest: # barnav@hackclub U08RVF1BAN4
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+- type: URLFWD # Redirect to Harvest Game Jam Website with 302
+  value:
+    path: /*
+    target: https://itch.io/jam/harvest
+    code: 302
+    masking: 0
+    query: 0
 haunted:
   type: CNAME
   value: 8f79124013efc00d.vercel-dns-016.com.
