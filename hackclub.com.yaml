@@ -2687,8 +2687,15 @@ harvest: # barnav@hackclub U08RVF1BAN4
 - octodns:
     cloudflare:
       proxied: true
-  type: CNAME
-  value: a.ingress.tier2.infra.hackclub.com.
+  type: A
+  value: 192.0.2.1
+- type: URLFWD
+  value:
+    path: /*
+    target: https://itch.io/jam/harvest
+    code: 302
+    masking: 0
+    query: 0
 haunted:
   type: CNAME
   value: 8f79124013efc00d.vercel-dns-016.com.
