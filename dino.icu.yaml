@@ -1435,6 +1435,9 @@ terror:
   ttl: 600
   type: CNAME
   value: 4H4CayJ.github.io.
+thesis: # cloudglides@proton.me U0A2EKA9FAL
+- type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 thorn: # thorn.dev49@gmail.com
 - type: AAAA
   value: 2a01:4f9:3080:3192::1966
