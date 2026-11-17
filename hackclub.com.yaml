@@ -2687,9 +2687,9 @@ harvest: # barnav@hackclub U08RVF1BAN4
 - octodns:
     cloudflare:
       proxied: true
-  type: CNAME
-  value: a.ingress.tier2.infra.hackclub.com.
-- type: URLFWD # Redirect to Harvest Game Jam Website with 302
+  type: A
+  value: 192.0.2.1
+- type: URLFWD
   value:
     path: /*
     target: https://itch.io/jam/harvest
