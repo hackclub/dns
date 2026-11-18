@@ -43,9 +43,6 @@ e: # caleb@deniosoftware.com U013B6CPV62
 email: # zach@hackclub.com U0266FRGP
   type: CNAME
   value: mailgun.org.
-mail: # caleb@deniosoftware.com U013B6CPV62
-  type: A
-  value: 165.227.96.87
 shipwrecked: # dev@hackclub.com U0261EB1EG7
   type: CNAME
   value: a.selfhosted.hackclub.com.
