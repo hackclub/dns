@@ -2244,7 +2244,7 @@ lapse.fraud: # anson@hackclub.com
     cloudflare:
       proxied: true
   type: CNAME
-  value: a.ingress.tier2.infra.hackclub.com.
+  value: 3269ab93-b109-4901-8a1d-82dbb32ab9d9.cfargotunnel.com.
 fraudy: # sebh@hackclub.com
 - octodns:
     cloudflare:
