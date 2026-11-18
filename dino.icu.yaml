@@ -861,6 +861,9 @@ leo:
   ttl: 600
   type: CNAME
   value: wilkin.xyz.
+leosdns: # leolevd@leolevd.dev
+- type: A
+  value: 1.1.1.1
 levelzero: # @arjav0703 (gh) - ysws website
   ttl: 600
   type: A
