@@ -53,11 +53,8 @@ daydream: # dev@hackclub.com U0261EB1EG7
     cloudflare:
       proxied: true
 fallout: # samliu@hackclub.com
-  type: CNAME
-  value: b.selfhosted.hackclub.com.
-  octodns:
-    cloudflare:
-      proxied: true
+- type: CNAME
+  value: cname.vercel-dns.com.
 flagship: # nora@/campfire flagship team
   type: CNAME
   value: a.selfhosted.hackclub.com.
@@ -91,6 +88,9 @@ l: # U04CBLNSVH6
   octodns:
     cloudflare:
       proxied: true
+lapse: # anson@hackclub.com
+- type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 mail: # nora@hackclub.com U06QK6AG3RD
   type: CNAME
   value: a.selfhosted.hackclub.com.

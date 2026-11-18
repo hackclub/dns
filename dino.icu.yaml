@@ -61,6 +61,9 @@
 aan: # yassinbs@yahoo.com
 - type: CNAME
   value: cname.vercel-dns.com.
+abc: # U0BMJP5HD7T
+- type: CNAME
+  value: hc-dns.justawebsite.cc.
 ai: # Suprised no one took this yet!
 - ttl: 600   # + AI
   type: CNAME   # https://github.com/elijah629/web2050,
@@ -562,6 +565,10 @@ felix: # jacob.navaratne@outlook.com | Jacob Navaratne | @Jacob on Slack!
   ttl: 600
   type: CNAME
   value: smartsparkcoding.github.io.
+fern: # U0BJ9RRNS3V | or ferntasticvr on github or ferntastical on codeberg
+  ttl: 600
+  type: CNAME
+  value: ferntasticvr.github.io.
 fhs: # U07V1ND4H0Q
 - type: A
   value: 216.198.79.1
@@ -610,9 +617,6 @@ fullhouse: #niko@nikoo.dev U08SF8MVC82
 galaxybrain: # aaranysaini4@gmail.com U0B78MFGH9P
 - type: A
   value: 216.198.79.1
-game-a-tale: # creatorpoints.dev@gmail.com U0BQFSHAV9T
-- type: CNAME
-  value: cname.vercel-dns.com.
 gametale: # creatorpoints.dev@gmail.com U0BQFSHAV9T
 - type: CNAME
   value: cname.vercel-dns.com.
@@ -857,6 +861,9 @@ leo:
   ttl: 600
   type: CNAME
   value: wilkin.xyz.
+leosdns: # leolevd@leolevd.dev
+- type: A
+  value: 1.1.1.1
 levelzero: # @arjav0703 (gh) - ysws website
   ttl: 600
   type: A
@@ -1130,6 +1137,9 @@ playground: #https://github.com/thagreatjoel/Playground
   ttl: 600
   type: CNAME
   value: hardwareplayground.netlify.app.
+podium: # jolly@hackclub.com U08CJCZ2Z9S
+- type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 premier: # rushil@hackclub.com U020X4GCWSF
   ttl: 600
   type: CNAME
@@ -1277,6 +1287,9 @@ schemabuilder: # hackclub-dns@fabian.ternismail.de U0B8JTZDTKQ
 - ttl: 18000
   type: A
   value: 77.90.15.2   # vweb01.eu
+scramjet: # echo@hackclub.com
+- type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 sdheeraj: # https://github.com/17sdheeraj/17sdheeraj.github.io
   ttl: 600
   type: CNAME
@@ -1315,6 +1328,9 @@ short: # short.dino.icu; by kunal botla (.com)
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+shortcut: # harora@elipseday.xyz
+- type: A
+  value: 216.198.79.1
 sk: # sk.dino.icu unofficial hackclub sharkey instance
   ttl: 600
   type: CNAME
@@ -1429,6 +1445,9 @@ terror:
   ttl: 600
   type: CNAME
   value: 4H4CayJ.github.io.
+thesis: # cloudglides@proton.me U0A2EKA9FAL
+- type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 thorn: # thorn.dev49@gmail.com
 - type: AAAA
   value: 2a01:4f9:3080:3192::1966
