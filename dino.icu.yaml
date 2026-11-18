@@ -565,7 +565,7 @@ felix: # jacob.navaratne@outlook.com | Jacob Navaratne | @Jacob on Slack!
   ttl: 600
   type: CNAME
   value: smartsparkcoding.github.io.
-fern: # ferntastic in slack or ferntasticvr on github
+fern: # U0BJ9RRNS3V | or ferntasticvr on github or ferntastical on codeberg
   ttl: 600
   type: CNAME
   value: ferntasticvr.github.io.
