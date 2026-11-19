@@ -349,6 +349,9 @@ chess: # by https://github.com/leecheeyong/chinese-chess
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+chrono: # U0CDUFN019S
+- type: CNAME
+  value: chrono-p2sa.onrender.com.
 cipher: # rupnil.mondal2+hackclub@gmail.com; Rupnil Codes, slack: U0A4UTULSLE
 - ttl: 600
   type: A
