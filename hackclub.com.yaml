@@ -5102,6 +5102,12 @@ sketchglow:
 _github-challenge-HackClubSKNCOE.skn:
   type: TXT
   value: b50f4fc353
+skylark: # mahad@hackclub.com U059VC0UDEU
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: hackatime.limited.selfhosted.hackclub.com.
 skyrim:
   type: CNAME
   value: 7f350f6fd42596e1.vercel-dns-016.com.
