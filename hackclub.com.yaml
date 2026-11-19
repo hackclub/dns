@@ -2043,6 +2043,9 @@ fillout-hca-redirect: # brendan@hackclub.com
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+fillout-mcp: # augie@hackclub.com U07FCRNHS1J
+- type: CNAME
+  value: 9e23629e83-124cdb.k.hackclub.dev.
 fillout-ysws-nps: # zach@hackclub.com
   octodns:
     cloudflare:
