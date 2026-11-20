@@ -897,6 +897,9 @@ breadboard: # tanishq@hackclub.comU08R4Q9H8EB
     cloudflare:
       proxied: true
   value: a.ingress.tier2.infra.hackclub.com.
+breadcrumb: # echo@hackclub.com
+- type: CNAME
+  value: e3bdfd7f773345db.vercel-dns-013.com.
 bridge: # seb@hackclub.com U07UBCSSQH3
   type: CNAME
   octodns:
