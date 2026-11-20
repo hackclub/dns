@@ -990,6 +990,9 @@ monty: # contact via adelinmihai071@gmail.com
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+mossy: # U0A3B4R6T9B
+- type: CNAME
+  value: website-iota-vert-28.vercel.app.
 motivation:
   ttl: 600
   type: CNAME
