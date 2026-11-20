@@ -4861,6 +4861,12 @@ search: # U059VC0UDEU
       proxied: true
   type: CNAME
   value: b.selfhosted.hackclub.com.
+seatime: # karo@hackclub.com, Orchard project seatime
+- octodns:
+    cloudflare:
+      proxied: false
+  type: CNAME
+  value: 41317aaff7-e44523.k.hackclub.dev.
 security: # parth@hackclub.com U092CHMLB24
   type: CNAME
   value: 7a9237159e4766f7.vercel-dns-016.com.
