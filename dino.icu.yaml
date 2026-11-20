@@ -537,6 +537,9 @@ erdtree: # erdtree.dino.icu - contact @justhypex on discord for issues/enquiries
   values:
   - exchange: mail.vortex.skyfall.dev.
     preference: 500
+time-api.ereninki: # eren61794@gmail.com U0ASCU7PCAW
+- type: CNAME
+  value: ereninki.hackclub.app.
 evan:
   ttl: 600
   type: A
