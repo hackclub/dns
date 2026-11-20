@@ -963,15 +963,15 @@ bunbougu:
 byte:
 - type: CNAME
   value: byteclub.netlify.app.
-byteclub:
-- type: CNAME
-  value: 5637f2843e643c1a.vercel-dns-016.com.
 bytebeat: # jared@hackclub.com // Iamalive (U0828FYS2UC)
   octodns:
     cloudflare:
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+byteclub:
+- type: CNAME
+  value: 5637f2843e643c1a.vercel-dns-016.com.
 c-li: # brendan@hackclub.com
 - octodns:
     cloudflare:
