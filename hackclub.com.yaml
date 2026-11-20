@@ -2000,7 +2000,7 @@ fallout: # samliu@hackclub.com
     cloudflare:
       proxied: true
   type: CNAME
-  value: a.selfhosted.hackclub.com.
+  value: a.ingress.tier2.infra.hackclub.com.
 lab.fallout: # enigmaticprojectorpheus@proton.me
   octodns:
     cloudflare:
