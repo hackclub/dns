@@ -1468,6 +1468,9 @@ timetable: # devansh.awat@gmail.com https://github.com/Devansh-awat
 tn-search: # tyleruploads@yahoo.com
 - type: CNAME
   value: tn-search.pages.dev.
+tnchess: # tyleruploads@yahoo.com
+- type: CNAME
+  value: tnchess.pages.dev.
 toonnongaeoy:
 - ttl: 600
   type: CNAME
