@@ -62,7 +62,10 @@ aan: # yassinbs@yahoo.com
 - type: CNAME
   value: cname.vercel-dns.com.
 abc: # U0BMJP5HD7T
-- type: CNAME
+  octodns:
+    cloudflare:
+      proxied: false
+  type: CNAME
   value: hc-dns.justawebsite.cc.
 ai: # Suprised no one took this yet!
 - ttl: 600   # + AI
