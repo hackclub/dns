@@ -64,6 +64,9 @@ aan: # yassinbs@yahoo.com
 abc: # U0BMJP5HD7T
 - type: CNAME
   value: hc-dns.justawebsite.cc.
+_acme-challenge.abc: # U0BMJP5HD7T
+- type: TXT
+  value: VYNutGVxxyp9iRtT2uAGPb52hWTKaP20PPsqLW5xsHM
 ai: # Suprised no one took this yet!
 - ttl: 600   # + AI
   type: CNAME   # https://github.com/elijah629/web2050,
