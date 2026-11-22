@@ -2393,6 +2393,12 @@ glassrib: # U083W5CCFDG joaquin@hackclub.com
 golden:
   type: CNAME
   value: 57cd2901f886bca3.vercel-dns-016.com.
+golem: # brendan@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 gong: # electricxangell@gmail.com
 - type: CNAME
   value: cname.vercel-dns.com.
