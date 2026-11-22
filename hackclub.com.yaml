@@ -1292,6 +1292,12 @@ cocoa: # davidp@hackclub.com
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+orgs.cocoa: # davidp@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 codecafe:
 - type: CNAME
   value: cname.vercel-dns.com.
