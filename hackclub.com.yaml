@@ -3814,6 +3814,9 @@ mumble:
 muse:
   type: CNAME
   value: 78958f059c43551f.vercel-dns-016.com.
+mysnowglobe: # lola@hackclub.com - U078JCFHQ3D
+- type: CNAME
+  value: f50cbc0164125a34.vercel-dns-013.com.
 nda: # echo@hackclub.com
 - octodns:
     cloudflare:
