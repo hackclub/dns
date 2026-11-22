@@ -253,7 +253,6 @@ _vercel: #
   values:
   - "vc-domain-verify=arena.hackclub.com,18d51eef05279bd5822f"
   - "vc-domain-verify=arcade-wrapped.hackclub.com,8266e50fd74e5c046773"
-  - "vc-domain-verify=ascend.hackclub.com,5c143e010cb754d62113"
   - "vc-domain-verify=ascension.hackclub.com,ff1dd7a1d7c07b66df1c"
   - "vc-domain-verify=backend.arena.hackclub.com,079b94be7b001fa4e775"
   - "vc-domain-verify=birthday.hackclub.com,b54f1e09bf276faffd29"
@@ -530,9 +529,6 @@ ztesting.ari: # santi@hackclub.com - all data is still on orchard fyi
 aria: # mihir@hackclub.com
   type: CNAME
   value: 5d1e98e4990600ac.vercel-dns-013.com.
-ascend:
-- type: CNAME
-  value: cname.vercel-dns.com.
 ascension: # joysu2008@gmail.com U09G78T3MM2
 - type: CNAME
   value: cname.vercel-dns.com.
