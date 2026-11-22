@@ -529,6 +529,9 @@ ztesting.ari: # santi@hackclub.com - all data is still on orchard fyi
 aria: # mihir@hackclub.com
   type: CNAME
   value: 5d1e98e4990600ac.vercel-dns-013.com.
+ascend:
+  type: CNAME
+  value: 85be7be3b4984eae.vercel-dns-013.com.
 ascension: # joysu2008@gmail.com U09G78T3MM2
 - type: CNAME
   value: cname.vercel-dns.com.
