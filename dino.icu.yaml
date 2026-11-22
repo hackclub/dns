@@ -402,6 +402,9 @@ corechat: # aradforsure@gmaul.com U0AJN9LJDGS
   ttl: 600
   type: CNAME
   value: aradjpy.github.io.
+cpoints: # creatorpoints.dev@gmail.com U0BQFSHAV9T
+- type: CNAME
+  value: cname.vercel-dns.com.
 cq: # @ruben (U0AHNB20WDD) on slack, ruben@scstudios.tech https://github.com/code2344/contact-website
   ttl: 600
   type: A
