@@ -67,6 +67,9 @@ abc: # U0BMJP5HD7T
 _acme-challenge.abc: # U0BMJP5HD7T
 - type: TXT
   value: pWEmywRhxp4jcI4aZ_UxIGJAePfqW9Szbf6KorHWFzw
+_cf-custom-hostname.abc: # U0BMJP5HD7T
+- type: TXT
+  value: 7b99d29d-0a48-4ddb-a6fe-04c1cd60cbd6
 ai: # Suprised no one took this yet!
 - ttl: 600   # + AI
   type: CNAME   # https://github.com/elijah629/web2050,
