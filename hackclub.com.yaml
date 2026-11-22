@@ -3421,6 +3421,12 @@ api.lapse: # ascpixi@hackclub.com U082DPCGPST
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+assay.lapse: # anson@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 staging.lapse: # ascpixi@hackclub.com U082DPCGPST
   octodns:
     cloudflare:
