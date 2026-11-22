@@ -61,14 +61,14 @@
 aan: # yassinbs@yahoo.com
 - type: CNAME
   value: cname.vercel-dns.com.
+_acme-challenge.abc: # U0BMJP5HD7T
+- type: TXT
+  values: # Hope this works 
+  - VYNutGVxxyp9iRtT2uAGPb52hWTKaP20PPsqLW5xsHM
+  - pWEmywRhxp4jcI4aZ_UxIGJAePfqW9Szbf6KorHWFzw
 abc: # U0BMJP5HD7T
 - type: CNAME
   value: hc-dns.justawebsite.cc.
-_acme-challenge.abc: # U0BMJP5HD7T
-- type: TXT
-  values: 
-  - VYNutGVxxyp9iRtT2uAGPb52hWTKaP20PPsqLW5xsHM
-  - pWEmywRhxp4jcI4aZ_UxIGJAePfqW9Szbf6KorHWFzw
 ai: # Suprised no one took this yet!
 - ttl: 600   # + AI
   type: CNAME   # https://github.com/elijah629/web2050,
