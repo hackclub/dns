@@ -64,6 +64,9 @@ aan: # yassinbs@yahoo.com
 abc: # U0BMJP5HD7T
 - type: CNAME
   value: hc-dns.justawebsite.cc.
+_acme-challenge.abc: # U0BMJP5HD7T
+- type: TXT
+  value: pWEmywRhxp4jcI4aZ_UxIGJAePfqW9Szbf6KorHWFzw
 ai: # Suprised no one took this yet!
 - ttl: 600   # + AI
   type: CNAME   # https://github.com/elijah629/web2050,
@@ -735,6 +738,9 @@ icons: # yoda - https://github.com/yodalightsabr/icons-dino-icu - a CDN for @hac
   ttl: 600
   type: A
   value: 76.76.21.21
+_acme-challenge.abc.dino.icu: # U0BMJP5HD7T
+- type: TXT
+  value: VYNutGVxxyp9iRtT2uAGPb52hWTKaP20PPsqLW5xsHM
 idli: # jaykrishnatj@proton.me | Github: https://github.com/idli69
 - type: CNAME
   value: ubu.hackclub.app.
