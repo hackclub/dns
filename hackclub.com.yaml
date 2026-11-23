@@ -3393,6 +3393,12 @@ v1.jumpstart: # estella@hackclub.com U06UYA4AH6F
 v2.jumpstart: #estella@hackclub.com U06UYA4AH6F
 - type: CNAME
   value: themagicfrog.github.io.
+kairos: # sebh@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 keeb: #U05JNJZJ0BS
 - type: CNAME
   octodns:
