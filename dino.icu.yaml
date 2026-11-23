@@ -1160,6 +1160,9 @@ periodic:
   ttl: 600
   type: CNAME
   value: leecheeyong.github.io.
+photon: # creatorpoints.dev@gmail.com U0BQFSHAV9T
+- type: CNAME
+  value: cname.vercel-dns.com.
 piyush:
   ttl: 600
   type: CNAME
