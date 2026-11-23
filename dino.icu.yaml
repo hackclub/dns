@@ -778,6 +778,9 @@ innohacks: #efe
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+innovatediab: # adityajain1225@gmail.com  /U0BMAPM5AQL
+- type: CNAME
+  value: innovate-diab.github.io.
 itsjxnah: # itsjxnah.public@proton.me
 - type: CNAME
   value: portfolio-itsjxnah.vercel.app.
