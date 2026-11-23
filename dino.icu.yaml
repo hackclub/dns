@@ -64,9 +64,12 @@ aan: # yassinbs@yahoo.com
 abc: # U0BMJP5HD7T
 - type: CNAME
   value: hc-dns.justawebsite.cc.
-_acme-challenge.abc: # U0BMJP5HD7T
+_acme-challenge.abc:
+# U0BMJP5HD7T
 - type: TXT
-  value: pWEmywRhxp4jcI4aZ_UxIGJAePfqW9Szbf6KorHWFzw
+  values:
+  - XuexMwdmFssnDE7xoWjq0N95Up5XGNO4seVZ0cLthY4
+  - QrsRxuS1vwF28qfY1BPauvP-yA0SRbTN66IhTVQA3zo
 _cf-custom-hostname.abc: # U0BMJP5HD7T
 - type: TXT
   value: 7b99d29d-0a48-4ddb-a6fe-04c1cd60cbd6
