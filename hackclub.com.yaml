@@ -560,6 +560,9 @@ asmgame:
   - 185.199.109.153
   - 185.199.110.153
   - 185.199.111.153
+assay: # anson@hackclub.com
+- type: CNAME
+  value: cname.vercel-dns.com.
 assemble:
 - type: CNAME
   value: ff46b6088ab1950d.vercel-dns-016.com.
