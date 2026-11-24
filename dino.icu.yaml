@@ -426,6 +426,9 @@ cslide:
   ttl: 600
   type: CNAME
   value: leecheeyong.github.io.
+cupertab: # zeyadhost@duck.com U0A7VPG9RD4
+- type: CNAME
+  value: zeyadhost.github.io.
 dale: # daleleyland@icloud.com
 - type: CNAME
   value: cname.vercel-dns.com.
