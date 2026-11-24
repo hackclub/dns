@@ -1554,6 +1554,12 @@ cubed: # brendan@hackclub.com
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+cupid: # karo@hackclub.com, Orchard project Cupid
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 cut: # sebh@hackclub.com
 - type: CNAME
   value: abe48eea6e18ef7c.vercel-dns-013.com.
