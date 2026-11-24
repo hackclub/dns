@@ -4920,6 +4920,12 @@ seatime: # karo@hackclub.com, Orchard project seatime
       proxied: false
   type: CNAME
   value: 41317aaff7-e44523.k.hackclub.dev.
+spyglass.seatime: # same owner as seatime, Orchard project seatime
+- octodns:
+    cloudflare:
+      proxied: false
+  type: CNAME
+  value: 8d9ef55a44-689116.k.hackclub.dev.
 security: # parth@hackclub.com U092CHMLB24
   type: CNAME
   value: 7a9237159e4766f7.vercel-dns-016.com.
