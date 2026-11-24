@@ -784,6 +784,9 @@ innohacks: #efe
 innovatediab: # adityajain1225@gmail.com  /U0BMAPM5AQL
 - type: CNAME
   value: innovate-diab.github.io.
+innovatediab-gallery: # adityajain1225@gmail.com  /U0BMAPM5AQL
+- type: CNAME
+  value: innovate-diab.github.io.
 itsjxnah: # itsjxnah.public@proton.me
 - type: CNAME
   value: portfolio-itsjxnah.vercel.app.
