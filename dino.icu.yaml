@@ -1480,6 +1480,9 @@ tabbed: # stolen_username on slack | U0AD4996D1U | rudranshgoel01@gmail.com
 - ttl: 600
   type: A
   value: 216.198.79.1
+tally: # oliver@vaultless.dev
+- type: CNAME
+  value: hardwire.oliverbigbee.hackclub.app.
 teenapi: # thenetaji@proton.me
 - type: CNAME
   value: teentitans.hackclub.app.
