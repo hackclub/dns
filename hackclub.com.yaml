@@ -4249,6 +4249,12 @@ partypoopers: # echo@hackclub.com
 passport:
   type: CNAME
   value: 60edb94de5050d99.vercel-dns-016.com.
+passports: # cloudglides@proton.me U0A2EKA9FAL
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 patch: #leo@hackclub.com U07BLJ1MBEE
   octodns:
     cloudflare:
