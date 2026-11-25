@@ -5111,9 +5111,11 @@ showcase:
   type: CNAME
   value: onboard-7w9.pages.dev.
 shredder: # selena@hackclub.com U06U1CBK589
-- ttl: 60
+- octodns:
+    cloudflare:
+      proxied: true
   type: CNAME
-  value: cname.vercel-dns.com.
+  value: a.ingress.tier2.infra.hackclub.com.
 shrink: # anson@hackclub.com
 - type: CNAME
   value: cname.vercel-dns.com.
