@@ -5113,6 +5113,12 @@ send.shop: # rushil@hackclub.com U020X4GCWSF
     preference: 10
 - type: TXT
   value: "v=spf1 include:amazonses.com ~all"
+shipmas: # josias@hackclub.com U01PJ08PR7S
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 showcase:
   type: CNAME
   value: onboard-7w9.pages.dev.
