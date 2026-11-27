@@ -1434,6 +1434,9 @@ ssmidge:
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+ssoggy: # maarenaurich@gmail.com
+- type: CNAME
+  value: cname.vercel-dns.com.
 steer: # U06MMBZBFAN
 - type: CNAME
   value: duck.hackclub.app.
