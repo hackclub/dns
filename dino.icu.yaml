@@ -1215,6 +1215,9 @@ racked: # Jan Koch (jan.koch@hexagonical.ch or <@U087PR1B2HX> on the slack)
 - ttl: 600
   type: CNAME
   value: hexagonical.xyz.
+radforge: # Rudra Goel - radforge@rudragoyel.com
+- type: CNAME
+  value: radforge.vercel-dns.com.
 re-dream: # zachnoahstein@gmail.com U080Y31KUE7
   ttl: 300
   type: CNAME
