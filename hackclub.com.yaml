@@ -4128,6 +4128,9 @@ docs.orchard: # seb@hackclub.com U07UBCSSQH3
 status.orchard: # seb@hackclub.com
 - type: CNAME
   value: t.sni.global.fastly.net.
+_acme-challenge.status.orchard: # seb@hackclub.com
+- type: CNAME
+  value: wvajlrfzmh9yfzvihr.fastly-validations.com.
 orfest: # cloudglides@proton.me U0A2EKA9FAL
 - octodns:
     cloudflare:
