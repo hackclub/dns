@@ -1110,6 +1110,13 @@ overflow:
   ttl: 600
   type: CNAME
   value: overflow.craigg.hackclub.app.
+parallax: # jeremy341 (GitHub)
+- ttl: 600
+  type: A
+  value: 65.108.74.29
+- ttl: 600
+  type: TXT
+  value: "domain-verification=jeremy-d"   # Nest dashboard domain verification
 paths: # christian U0938MZG8Q6
   ttl: 600
   type: A
