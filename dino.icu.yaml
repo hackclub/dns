@@ -1317,6 +1317,9 @@ saleh: # UNNFFSMT8
   ttl: 300
   type: CNAME
   value: alisaleh.pages.dev # Legacy Veteran Hack Clubber Portfolio Site, Originally (Formerly) Hosted at Saleh.hackclub.com
+sammugames: # singhalshamaksh@gmail.com
+- type: CNAME
+  value: sammugames.github.io.
 saturnyx: # https://github.com/saturnyx/saturnyx.github.io
   ttl: 600
   type: CNAME
