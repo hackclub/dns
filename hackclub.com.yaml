@@ -746,6 +746,12 @@ demo.bashed: # emma@hackclub.com
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+battletown: # armand@hackclub.com / U07ABEP916X or amber@hackclub.com / U054VC2KM9P
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 bauble: #alexvd@hackclub.com
 - octodns:
     cloudflare:
