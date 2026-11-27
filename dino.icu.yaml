@@ -1684,7 +1684,7 @@ www: # mahad@hackclub.com (redirect to bare domain)
   type: CNAME
   value: xdonryt4em6uudcgsggr2va2.b.selfhosted.hackclub.com.
 xdvd: # U0A255XDA9H
-- type: CNAME
+- type: ALIAS
   value: codeberg.page.
 _git-pages-forge-allowlist.xdvd: # U0A255XDA9H
 - type: TXT
