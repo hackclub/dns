@@ -1729,3 +1729,6 @@ zoneout: # kilecraft90@gmail.com U08GCDHM0QZ
 - ttl: 600
   type: CNAME
   value: cname.vercel-dns.com.
+sammugames: # singhalshamaksh@gmail.com
+  - type: CNAME
+    value: sammugames.github.io.
