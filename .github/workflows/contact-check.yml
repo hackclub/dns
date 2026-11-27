@@ -16,21 +16,25 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Overlay PR data files
-        if: github.event_name == 'pull_request_target' && github.event.pull_request.head.repo.full_name != github.repository
+      - name: Overlay changed PR data files
+        if: github.event_name == 'pull_request_target'
         env:
           PR_NUMBER: ${{ github.event.pull_request.number }}
+          BASE_REF: ${{ github.base_ref }}
         run: |
           git fetch origin "pull/${PR_NUMBER}/head:pr-head"
-          git checkout pr-head -- ':(top,glob)*.yaml'
-
-      - name: Checkout PR head (same-repo)
-        if: github.event_name == 'pull_request_target' && github.event.pull_request.head.repo.full_name == github.repository
-        env:
-          PR_NUMBER: ${{ github.event.pull_request.number }}
-        run: |
-          git fetch origin "pull/${PR_NUMBER}/head:pr-head"
-          git checkout pr-head
+          changed="${RUNNER_TEMP}/changed-yaml.txt"
+          git diff --name-status --no-renames --diff-filter=ACMD "origin/${BASE_REF}...pr-head" -- ':(top,glob)*.yaml' > "$changed"
+          while IFS=$'\t' read -r change path; do
+            case "$change" in
+              A|M)
+                git checkout pr-head -- "$path"
+                ;;
+              D)
+                git rm -f --ignore-unmatch -- "$path"
+                ;;
+            esac
+          done < "$changed"
 
       - uses: actions/setup-python@v7
         with:

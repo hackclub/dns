@@ -16,22 +16,28 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
 
-      - name: Overlay PR data files
-        if: github.event_name == 'pull_request_target' && github.event.pull_request.head.repo.full_name != github.repository
+      - name: Overlay changed PR data files
+        if: github.event_name == 'pull_request_target'
         env:
           PR_NUMBER: ${{ github.event.pull_request.number }}
+          BASE_REF: ${{ github.base_ref }}
         run: |
           git fetch origin "pull/${PR_NUMBER}/head:pr-head"
-          git checkout pr-head -- ':(top,glob)*.yaml'
-
-      - name: Checkout PR head (same-repo)
-        if: github.event_name == 'pull_request_target' && github.event.pull_request.head.repo.full_name == github.repository
-        env:
-          PR_NUMBER: ${{ github.event.pull_request.number }}
-        run: |
-          git fetch origin "pull/${PR_NUMBER}/head:pr-head"
-          git checkout pr-head
+          changed="${RUNNER_TEMP}/changed-yaml.txt"
+          git diff --name-status --no-renames --diff-filter=ACMD "origin/${BASE_REF}...pr-head" -- ':(top,glob)*.yaml' > "$changed"
+          while IFS=$'\t' read -r change path; do
+            case "$change" in
+              A|M)
+                git checkout pr-head -- "$path"
+                ;;
+              D)
+                git rm -f --ignore-unmatch -- "$path"
+                ;;
+            esac
+          done < "$changed"
 
       - name: json-yaml-validate
         id: json-yaml-validate
@@ -44,22 +50,38 @@ jobs:
     if: github.event_name == 'pull_request_target' || (github.event_name == 'push' && github.ref == 'refs/heads/main')
     steps:
       - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
 
-      - name: Overlay PR data files
-        if: github.event_name == 'pull_request_target' && github.event.pull_request.head.repo.full_name != github.repository
+      - name: Overlay changed PR data files
+        id: overlay
+        if: github.event_name == 'pull_request_target'
         env:
           PR_NUMBER: ${{ github.event.pull_request.number }}
+          BASE_REF: ${{ github.base_ref }}
         run: |
           git fetch origin "pull/${PR_NUMBER}/head:pr-head"
-          git checkout pr-head -- ':(top,glob)*.yaml'
-
-      - name: Checkout PR head (same-repo)
-        if: github.event_name == 'pull_request_target' && github.event.pull_request.head.repo.full_name == github.repository
-        env:
-          PR_NUMBER: ${{ github.event.pull_request.number }}
-        run: |
-          git fetch origin "pull/${PR_NUMBER}/head:pr-head"
-          git checkout pr-head
+          changed="${RUNNER_TEMP}/changed-yaml.txt"
+          git diff --name-status --no-renames --diff-filter=ACMD "origin/${BASE_REF}...pr-head" -- ':(top,glob)*.yaml' > "$changed"
+          files=()
+          while IFS=$'\t' read -r change path; do
+            case "$change" in
+              A|M)
+                git checkout pr-head -- "$path"
+                files+=("$path")
+                ;;
+              D)
+                git rm -f --ignore-unmatch -- "$path"
+                ;;
+            esac
+          done < "$changed"
+          {
+            echo "files<<EOF"
+            if [ ${#files[@]} -gt 0 ]; then
+              printf '%s\n' "${files[@]}"
+            fi
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
 
       - uses: actions/setup-python@v7
         with:
@@ -70,7 +92,26 @@ jobs:
 
       - name: Check sort order
         id: sort-check
-        run: python3 bin/sort-zones --check
+        env:
+          CHANGED_YAML: ${{ steps.overlay.outputs.files }}
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request_target" ]; then
+            if [ -z "$CHANGED_YAML" ]; then
+              echo "No YAML zone files changed."
+              exit 0
+            fi
+            files=()
+            while IFS= read -r file; do
+              [ -n "$file" ] && files+=("$file")
+            done <<< "$CHANGED_YAML"
+            if [ ${#files[@]} -eq 0 ]; then
+              echo "No YAML zone files changed."
+              exit 0
+            fi
+            python3 bin/sort-zones --check "${files[@]}"
+          else
+            python3 bin/sort-zones --check
+          fi
 
       - name: Comment on PR if unsorted
         if: failure() && steps.sort-check.outcome == 'failure' && github.event_name == 'pull_request_target'
