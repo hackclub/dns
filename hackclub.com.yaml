@@ -4125,6 +4125,9 @@ docs.orchard: # seb@hackclub.com U07UBCSSQH3
       proxied: true
   type: CNAME
   value: a.ingress.tier2.infra.hackclub.com.
+status.orchard: # seb@hackclub.com
+- type: CNAME
+  value: t.sni.global.fastly.net.
 orfest: # cloudglides@proton.me U0A2EKA9FAL
 - octodns:
     cloudflare:
