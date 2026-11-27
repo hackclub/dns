@@ -42,6 +42,7 @@
   - anthropic-domain-verification-hkth5m=hheIAy80WjbR1ZRaKVlWYZ0Z6     # alex@hackclub.com / gary@hackclub.com
   - openai-domain-verification=dv-q7BgA5BnEgzJJSueBRxwENjx     # hcb@hackclub.com
   - tiktok-developers-site-verification=RsJXRJ21U8eWrk0yPIt16nVmnLD8VBN3     # zach@hackclub.com
+  - resend-domain-verification=07a9465d9813d638e40e813af4d4aa8c     # echo@hackclub.com
 "3am": # U087BHR98AX
 - octodns:
     cloudflare:
