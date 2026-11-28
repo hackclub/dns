@@ -828,6 +828,9 @@ blog.kashyap: # by @kashsuks (U084D1T5ZV0) for blog site
   ttl: 600
   type: CNAME
   value: kashyapblog.netlify.app.
+kedvdv: # keithalexandrete@gmail.com
+- type: TXT
+  value: "v=spf1 include:spf.improvmx.com ~all"
 kevin: # Kevin Yang
   ttl: 600
   type: CNAME
