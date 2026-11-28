@@ -1689,6 +1689,9 @@ www: # mahad@hackclub.com (redirect to bare domain)
 xdvd: # U0A255XDA9H
 - type: ALIAS
   value: codeberg.page.
+  lenient: true
+- type: TXT
+  value: protonmail-verification=dc267fc68edba6aee36cb91b84f4722fade1c6c0
 _git-pages-forge-allowlist.xdvd: # U0A255XDA9H
 - type: TXT
   value: "https://codeberg.org/xdvd/pages.git"
