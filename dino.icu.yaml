@@ -829,6 +829,12 @@ blog.kashyap: # by @kashsuks (U084D1T5ZV0) for blog site
   type: CNAME
   value: kashyapblog.netlify.app.
 kedvdv: # keithalexandrete@gmail.com
+- type: MX
+  values:
+  - exchange: mx1.improvmx.com.
+    preference: 10
+  - exchange: mx2.improvmx.com.
+    preference: 20
 - type: TXT
   value: "v=spf1 include:spf.improvmx.com ~all"
 kevin: # Kevin Yang
