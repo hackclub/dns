@@ -3505,6 +3505,12 @@ leaders: # lynn@hackclub.com U07ULNFPQ4T (for clubs)
 guide.leaders: # lynn@hackclub.com U07ULNFPQ4T (for clubs)
   type: CNAME
   value: 9de93ecf1b2dc035.vercel-dns-016.com.
+huddles.leaders: # freddie@hackclub.com
+- octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 verify.leaders: # lynn@hackclub.com U07ULNFPQ4T (for clubs)
   type: CNAME
   value: 8a4be8d5435e6116.vercel-dns-016.com.
